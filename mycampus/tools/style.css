@@ -1,27 +1,29 @@
-@font-face{font-family:'PS';src:url('file://__FONTS__/public-sans/files/public-sans-latin-400-normal.woff2');font-weight:400}
-@font-face{font-family:'PS';src:url('file://__FONTS__/public-sans/files/public-sans-latin-400-italic.woff2');font-weight:400;font-style:italic}
-@font-face{font-family:'PS';src:url('file://__FONTS__/public-sans/files/public-sans-latin-700-normal.woff2');font-weight:700}
-@font-face{font-family:'PS';src:url('file://__FONTS__/public-sans/files/public-sans-latin-700-italic.woff2');font-weight:700;font-style:italic}
-@font-face{font-family:'SS';src:url('file://__FONTS__/source-serif-4/files/source-serif-4-latin-600-normal.woff2');font-weight:600}
-@font-face{font-family:'SS';src:url('file://__FONTS__/source-serif-4/files/source-serif-4-latin-700-normal.woff2');font-weight:700}
-html{font-family:'PS',Arial,sans-serif;font-size:10.5pt;line-height:1.5;color:#1C2421}
+/* Janssen-huisstijl (Syllabus Minor AI 2026-2027): Carlito = Calibri-metrisch, navy #002060 */
+@font-face{font-family:'JC';src:local('Carlito'),url('file:///usr/share/fonts/truetype/crosextra/Carlito-Regular.ttf');font-weight:400}
+@font-face{font-family:'JC';src:local('Carlito Italic'),url('file:///usr/share/fonts/truetype/crosextra/Carlito-Italic.ttf');font-weight:400;font-style:italic}
+@font-face{font-family:'JC';src:local('Carlito Bold'),url('file:///usr/share/fonts/truetype/crosextra/Carlito-Bold.ttf');font-weight:700}
+@font-face{font-family:'JC';src:local('Carlito Bold Italic'),url('file:///usr/share/fonts/truetype/crosextra/Carlito-BoldItalic.ttf');font-weight:700;font-style:italic}
+html{font-family:'JC',Calibri,Arial,sans-serif;font-size:11pt;line-height:1.45;color:#25282A}
 body{margin:0}
-.cover{border-left:8px solid #E3A92B;padding:6px 0 6px 18px;margin-bottom:22px}
-.cover .kicker{font-size:9pt;letter-spacing:1.5px;text-transform:uppercase;color:#2F6B4F;font-weight:700}
-h1{font-family:'SS',Georgia,serif;font-weight:700;font-size:24pt;line-height:1.15;color:#12312A;margin:4px 0 6px}
-h2{font-family:'SS',Georgia,serif;font-weight:700;font-size:16pt;color:#12312A;margin:24px 0 8px;padding-bottom:4px;border-bottom:2px solid #EDE7DA;break-after:avoid}
-h3{font-family:'SS',Georgia,serif;font-weight:600;font-size:12.5pt;color:#12312A;margin:18px 0 6px;break-after:avoid}
-h4{font-size:11pt;margin:14px 0 4px;color:#2F6B4F;break-after:avoid}
+.cover{border-top:6px solid #002060;padding:14px 0 10px;margin-bottom:22px;border-bottom:1px solid #999999}
+.cover .kicker{font-size:9.5pt;letter-spacing:1.2px;text-transform:uppercase;color:#2E5597;font-weight:700}
+h1{font-weight:700;font-size:22pt;line-height:1.15;color:#002060;margin:4px 0 4px;text-transform:uppercase}
+h2{font-weight:700;font-size:14pt;color:#002060;margin:24px 0 8px;padding-bottom:3px;border-bottom:2px solid #3F82BA;text-transform:uppercase;letter-spacing:.3px;break-after:avoid}
+h3{font-weight:700;font-size:12pt;color:#002060;margin:18px 0 6px;break-after:avoid}
+h4{font-size:11pt;margin:14px 0 4px;color:#2E5597;break-after:avoid}
 p{margin:6px 0}
-a{color:#2F6B4F}
-table{border-collapse:collapse;width:100%;margin:8px 0 12px;font-size:9.3pt;break-inside:auto}
+strong{color:#002060}
+a{color:#2E5597}
+table{border-collapse:collapse;width:100%;margin:8px 0 12px;font-size:9.8pt;break-inside:auto}
 tr{break-inside:avoid}
-th{background:#EDE7DA;color:#12312A;text-align:left;padding:5px 7px;border:1px solid #D8D0BF}
-td{padding:5px 7px;border:1px solid #E2DACB;vertical-align:top}
-blockquote{margin:10px 0;padding:8px 14px;background:#F6F3EC;border-left:4px solid #2F6B4F}
-code{font-size:9pt}
-pre{background:#F6F3EC;padding:8px;white-space:pre-wrap;font-size:8.8pt}
+th{background:#EAF0F8;color:#002060;text-align:left;padding:5px 7px;border:1px solid #999999;font-weight:700}
+td{padding:5px 7px;border:1px solid #999999;vertical-align:top}
+td:first-child{font-weight:700;color:#002060}
+blockquote{margin:10px 0;padding:8px 14px;background:#EAF0F8;border-left:4px solid #3F82BA}
+blockquote strong{color:#002060}
+code{font-size:9.5pt}
+pre{background:#EAF0F8;padding:8px;white-space:pre-wrap;font-size:9pt}
 ul,ol{margin:4px 0 8px;padding-left:22px}
 li{margin:2px 0}
 img{max-width:100%}
-.note{font-size:9pt;color:#44504B}
+.note{font-size:9.5pt;color:#5B6B7F}
