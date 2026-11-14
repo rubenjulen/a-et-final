@@ -1,0 +1,43 @@
+ICT A-ET College 1 omschrijving (voor MyCampus)
+
+KORTE VERSIE
+
+In college 1 maak je een rolwissel: van bouwer naar beoordelaar. Aan de hand van een dilemma bij de fictieve Suribank en twee echte casussen ontdek je dat werkt, mag en verantwoord drie verschillende vragen zijn. Je bekijkt een AI-beslissing door vier ethische lenzen. Je gaat naar huis met een bevestigde casus en de eerste versie van jullie K1-canvas.
+
+
+VOLLEDIGE VERSIE
+
+ICT A-ET College 1 · Wat staat er op het spel?
+Donderdag 7 januari 2027 · [tijd] · lokaal [__] · 3 uur
+
+Waar gaat dit college over?
+In A-AI2 bouw je een AI-oplossing en is de vraag: werkt het? In A-ET beoordeel je diezelfde oplossing: voor wie gaat het mis, en is dat te verantwoorden? We beginnen met een dilemma bij Suribank, een fictieve bank die een model over leningen laat meebeslissen. Daarna bekijken we twee echte casussen: de e-visumchatbot van het ministerie van BIBIS (2025) en het fraudealgoritme van de gemeente Rotterdam. Je ontdekt dat een systeem kan werken en toegestaan kan zijn, en toch niet verantwoord.
+
+Aan het einde van dit college kun je:
+- werkt het, mag het en is het verantwoord uit elkaar houden;
+- uitleggen waar in de keten van data tot gevolg mensen keuzes maken;
+- een dilemma door één ethische lens bekijken en de theorie erachter noemen;
+- jullie eigen oplossing afbakenen in het K1-canvas.
+
+Hoe ziet het college eruit?
+1. Dilemma: mag Suribank dit? Je kiest eerst zelf, dan met je buur.
+2. Van data tot beslissing: waar zitten de keuzes van mensen?
+3. Werkt, mag, verantwoord: vier ethische lenzen, in groepjes.
+4. Kader en eindproduct: waarop word je beoordeeld?
+5. Jullie casus: het K1-canvas, met een kwaliteitscheck en een ruil met een andere groep.
+6. Afsluiting: wat doe je deze week, plus het exit ticket.
+
+Neem mee:
+- je laptop;
+- de beschrijving van jullie oplossing uit week 0;
+- jullie ethische evaluatie uit A-AI1.
+
+Na het college:
+- Tijdens het college: vul het exit ticket in bij ICT A-ET Exit ticket college 1.
+- Vrijdag 8 januari: de docent bevestigt per groep de casus.
+- Zondag 10 januari, 23:59:
+  - K1-canvas met teamafspraken, bij ICT A-ET K1 (groep);
+  - Weekcheck 1 met standpunt, bij ICT A-ET Weekcheck 1 (individueel). Let op: alleen deze week sluit de weekcheck op zondag.
+- Dinsdag 12 januari, 23:59: drie vragen voor de gastspreker en twee debatstellingen, bij ICT A-ET Voorbereiding college 2 (groep).
+
+Alles wat je nodig hebt, staat in ICT A-ET Week 1 onder Lesmateriaal. Na het college vind je de dia's als ICT A-ET College 1 onder Slides.
