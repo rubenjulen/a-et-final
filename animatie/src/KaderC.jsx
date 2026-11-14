@@ -14,10 +14,10 @@ const Fr = (k, p = 0) => F(k, cue[k].dur * p);
 const on = (frame, k, p = 0) => frame >= Fr(k, p);
 
 const LAYERS = [
-  { name: 'Onaanvaardbaar risico', rule: 'Verboden · art. 5', ex: 'Sociale score voor burgers · kwetsbaarheid uitbuiten', col: C.terra, k: 'C2b' },
-  { name: 'Hoog risico', rule: 'Strenge eisen · bijlage III', ex: 'Kredietwaardigheid · werving · onderwijs · uitkeringen', col: '#C9822B', k: 'C2c' },
-  { name: 'Beperkt risico', rule: 'Transparantieplicht · art. 50', ex: 'Chatbot · orderagent: "ik ben een AI"', col: C.amber, k: 'C2d' },
-  { name: 'Minimaal risico', rule: 'Geen extra eisen', ex: 'Spamfilter · spellingscontrole', col: C.green, k: 'C2e' },
+  { short: 'Onaanvaardbaar', name: 'Onaanvaardbaar risico', rule: 'Verboden · art. 5', ex: 'Sociale score voor burgers · kwetsbaarheid uitbuiten', col: C.terra, k: 'C2b' },
+  { short: 'Hoog risico', name: 'Hoog risico', rule: 'Strenge eisen · bijlage III', ex: 'Kredietwaardigheid · werving · onderwijs · uitkeringen', col: '#C9822B', k: 'C2c' },
+  { short: 'Beperkt risico', name: 'Beperkt risico', rule: 'Transparantieplicht · art. 50', ex: 'Chatbot · orderagent: "ik ben een AI"', col: C.amber, k: 'C2d' },
+  { short: 'Minimaal risico', name: 'Minimaal risico', rule: 'Geen extra eisen', ex: 'Spamfilter · spellingscontrole', col: C.green, k: 'C2e' },
 ];
 
 /* pyramid made of four trapezoid layers; active = index to highlight */
@@ -27,14 +27,14 @@ const Pyramid = ({ x, y, w = 760, h = 520, show = [1, 1, 1, 1], active = -1, lab
     <svg width={w} height={h} style={{ position: 'absolute', left: x, top: y, overflow: 'visible' }}>
       {LAYERS.map((L, i) => {
         const top = i * lh, bot = top + lh - 8;
-        const wt = (w * (i + 0.35)) / 4.35, wb = (w * (i + 1.35)) / 4.35;
+        const wt = (w * (i + 1.4)) / 5.4, wb = (w * (i + 2.4)) / 5.4;
         const cx = w / 2;
         const o = show[i];
         const dim = active >= 0 && active !== i ? 0.35 : 1;
         return (
           <g key={L.name} opacity={o * dim} transform={`translate(0 ${(1 - o) * 30})`}>
             <path d={`M${cx - wt / 2} ${top} L${cx + wt / 2} ${top} L${cx + wb / 2} ${bot} L${cx - wb / 2} ${bot} Z`} fill={L.col} />
-            {labels && <text x={cx} y={top + lh / 2 + 4} textAnchor="middle" fontFamily={SANS} fontWeight="700" fontSize={(i === 0 ? 22 : 28) * size} fill={i === 2 ? C.ink : C.card}>{L.name}</text>}
+            {labels && <text x={cx} y={top + lh / 2 + 8} textAnchor="middle" fontFamily={SANS} fontWeight="700" fontSize={(i === 0 ? 20 : 27) * size} fill={i === 2 ? C.ink : C.card}>{L.short}</text>}
           </g>
         );
       })}
@@ -183,7 +183,7 @@ const Roles = () => {
       <Heading at={F('C3', 0)} kicker="NAAST DE KLASSE">Welke rol heb je?</Heading>
       <Pop at={Fr('C3b', 0.05)} style={{ left: 128, top: 250, width: 760 }}>
         <Card style={{ display: 'flex', gap: 28, alignItems: 'center' }}>
-          <Gear frame={frame} />
+          <div style={{ flexShrink: 0 }}><Gear frame={frame} /></div>
           <div>
             <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 44, color: C.dark }}>Aanbieder</div>
             <div style={{ fontFamily: SANS, fontSize: 26, color: C.ink, lineHeight: 1.3 }}>Ontwikkelt het systeem of laat het ontwikkelen, en brengt het onder eigen naam op de markt of in gebruik</div>
@@ -192,12 +192,12 @@ const Roles = () => {
       </Pop>
       <Pop at={Fr('C3c', 0.05)} style={{ left: 1030, top: 250, width: 760 }}>
         <Card style={{ display: 'flex', gap: 28, alignItems: 'center' }}>
-          <div style={{ position: 'relative', width: 130, height: 130 }}>
+          <div style={{ position: 'relative', width: 130, height: 130, flexShrink: 0 }}>
             <div style={{ position: 'absolute', left: 10, top: 0 }}><Person size={100} frame={frame} body={C.dark} tie /></div>
             <div style={{ position: 'absolute', left: 0, top: 96, width: 130, height: 24, borderRadius: 6, background: '#B88E66' }} />
           </div>
           <div>
-            <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 44, color: C.dark }}>Gebruiksverantwoordelijke</div>
+            <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 38, color: C.dark }}>Gebruiksverantwoordelijke</div>
             <div style={{ fontFamily: SANS, fontSize: 26, color: C.ink, lineHeight: 1.3 }}>Zet het systeem onder eigen verantwoordelijkheid in, bijvoorbeeld in het eigen kantoor</div>
           </div>
         </Card>
