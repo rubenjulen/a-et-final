@@ -179,7 +179,9 @@ class JanssenDoc:
         hp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
         hp.add_run().add_picture(self.logo, width=Cm(7.0))
         fp = sec.footer.paragraphs[0]
-        fp.paragraph_format.tab_stops.add_tab_stop(Cm(16.5), WD_TAB_ALIGNMENT.RIGHT)
+        fp.style = self.doc.styles["Normal"]
+        fp.paragraph_format.space_after = Pt(0)
+        fp.paragraph_format.tab_stops.add_tab_stop(Cm(16.55), WD_TAB_ALIGNMENT.RIGHT)
         r = fp.add_run(footer_left); _font(r, size=9, name="Times New Roman")
         r = fp.add_run("\tPagina "); _font(r, size=9, name="Times New Roman")
         _field(fp, "PAGE")
@@ -242,14 +244,57 @@ class JanssenDoc:
             p = self.doc.add_paragraph(); add_inline(p, note, size=11, italic=True)
         self.page_break()
 
+    @staticmethod
+    def auto_widths(rows, total=16.5, min_w=1.6):
+        """Kolombreedtes (cm) naar verhouding van de tekstlengte per kolom."""
+        ncol = max(len(r) for r in rows)
+        plain = lambda t: re.sub(r"\*\*|\[|\]\([^)]*\)", "", str(t))
+        weight = []
+        for ci in range(ncol):
+            lens = [len(plain(r[ci])) for r in rows if ci < len(r)]
+            mx = max(lens) if lens else 1
+            avg = sum(lens) / max(1, len(lens))
+            weight.append(max(4, min(70, 0.5 * mx + 0.5 * avg)))
+        # ondergrens per kolom: het langste woord moet op één regel passen (ca. 0,2 cm per teken bij 10 pt)
+        floor = []
+        for ci in range(ncol):
+            words = [wd for r in rows if ci < len(r) for wd in plain(r[ci]).split()]
+            longest = max((len(wd) for wd in words), default=4)
+            floor.append(max(min_w, min(6.0, 0.21 * longest + 0.5)))
+        w = [total * x / sum(weight) for x in weight]
+        for _ in range(5):                       # vaste ondergrenzen, rest naar verhouding verdelen
+            fixed = [i for i in range(ncol) if w[i] <= floor[i]]
+            for i in fixed:
+                w[i] = floor[i]
+            free = [i for i in range(ncol) if i not in fixed]
+            rest = total - sum(w[i] for i in fixed)
+            tot_free = sum(weight[i] for i in free) or 1
+            for i in free:
+                w[i] = rest * weight[i] / tot_free
+        return w
+
+    @staticmethod
+    def _fix_layout(t, widths_cm):
+        tblpr = t._element.tblPr
+        lay = OxmlElement("w:tblLayout"); lay.set(qn("w:type"), "fixed"); tblpr.append(lay)
+        tw = tblpr.find(qn("w:tblW"))
+        if tw is None:
+            tw = OxmlElement("w:tblW"); tblpr.append(tw)
+        tw.set(qn("w:w"), str(int(sum(widths_cm) * 567))); tw.set(qn("w:type"), "dxa")
+        grid = t._element.tblGrid
+        for gc, w in zip(grid.findall(qn("w:gridCol")), widths_cm):
+            gc.set(qn("w:w"), str(int(w * 567)))
+
     def table(self, rows, header=True, widths=None, label_col=False, size=10):
         """Tabel met dunne grijze randen. rows = lijst van lijsten met tekst (inline opmaak mag).
         header=True: eerste rij vet; label_col=True: eerste kolom vet."""
         ncol = max(len(r) for r in rows)
+        widths = widths or self.auto_widths(rows)
         t = self.doc.add_table(rows=0, cols=ncol)
         t.alignment = WD_TABLE_ALIGNMENT.CENTER
         t.autofit = False
         _cell_margins(t)
+        self._fix_layout(t, widths)
         for ri, row in enumerate(rows):
             cells = t.add_row().cells
             for ci in range(ncol):
@@ -258,9 +303,13 @@ class JanssenDoc:
                 if widths:
                     c.width = Cm(widths[ci])
                 self._cell_text(c, txt, size, bold=(header and ri == 0) or (label_col and ci == 0))
+            trpr = t.rows[ri]._tr.get_or_add_trPr()
+            cs = OxmlElement("w:cantSplit"); cs.set(qn("w:val"), "true"); trpr.append(cs)
             if header and ri == 0:
-                trpr = t.rows[ri]._tr.get_or_add_trPr()
                 th = OxmlElement("w:tblHeader"); th.set(qn("w:val"), "true"); trpr.append(th)
+                for c in cells:
+                    for par in c.paragraphs:
+                        par.paragraph_format.keep_with_next = True
         self.doc.add_paragraph().paragraph_format.space_after = Pt(2)
         return t
 
@@ -277,6 +326,11 @@ class JanssenDoc:
                 p.paragraph_format.tab_stops.add_tab_stop(Cm(0.5))
                 _font(p.add_run("•\t"), size=size)
                 line = line[2:]
+            elif line.startswith("  "):            # vervolgregel onder een opsommingsteken
+                p.paragraph_format.left_indent = Cm(0.5)
+                line = line.strip()
+            elif line == "":
+                p.paragraph_format.space_after = Pt(0)
             add_inline(p, line, size=size, bold=bold)
 
     def label_table(self, rows, widths=(3.4, 13.1), size=11):
@@ -285,6 +339,7 @@ class JanssenDoc:
         t.alignment = WD_TABLE_ALIGNMENT.CENTER; t.autofit = False
         _cell_margins(t)
         w = [Cm(3.4), Cm(6.6), Cm(3.3), Cm(3.2)]
+        self._fix_layout(t, [3.4, 6.6, 3.3, 3.2])
         for row in rows:
             cells = t.add_row().cells
             for c, wd in zip(cells, w):
