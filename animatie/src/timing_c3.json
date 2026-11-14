@@ -1,0 +1,156 @@
+{
+ "cues": [
+  {
+   "key": "i0",
+   "text": "Kennisclip 3: fouten tellen. Welke fouten maakt een model, en hoe vaak?",
+   "start": 0.8,
+   "dur": 5.251
+  },
+  {
+   "key": "i1",
+   "text": "In clip 2 zag je dat AI fouten maakt. Nu gaan we die fouten tellen. Want pas als je ze telt, kun je vragen: wie krijgt ze, en is dat eerlijk?",
+   "start": 6.651,
+   "dur": 10.266
+  },
+  {
+   "key": "m1",
+   "text": "Een kredietmodel zegt bij elke aanvraag ja of nee. Later weten we wat er echt gebeurde: betaalde de klant terug, of niet?",
+   "start": 17.717,
+   "dur": 9.247
+  },
+  {
+   "key": "m2",
+   "text": "Leg je die twee naast elkaar, dan zijn er vier mogelijkheden. Die zetten we in een vierkant: de verwarringsmatrix.",
+   "start": 27.464,
+   "dur": 7.001
+  },
+  {
+   "key": "v1",
+   "text": "Linksboven: het model zegt ja, en de klant betaalt terug. Terecht goedgekeurd.",
+   "start": 35.065,
+   "dur": 6.113
+  },
+  {
+   "key": "v2",
+   "text": "Rechtsonder: het model zegt nee, en de klant had ook niet terugbetaald. Terecht afgewezen.",
+   "start": 41.578,
+   "dur": 7.549
+  },
+  {
+   "key": "v3",
+   "text": "Nu de fouten. Het model zegt ja, maar de klant betaalt niet terug. Onterecht goedgekeurd. De bank lijdt verlies.",
+   "start": 49.627,
+   "dur": 8.829
+  },
+  {
+   "key": "v4",
+   "text": "En het model zegt nee, terwijl de klant wél had terugbetaald. Onterecht afgewezen. Hier staat Shanti.",
+   "start": 58.856,
+   "dur": 8.046
+  },
+  {
+   "key": "n1",
+   "text": "Nu met getallen. Het model beoordeelt honderd aanvragen.",
+   "start": 67.802,
+   "dur": 3.866
+  },
+  {
+   "key": "n2",
+   "text": "Vijftig keer terecht ja. Vijfentwintig keer terecht nee. Vijftien keer onterecht ja. En tien keer onterecht nee.",
+   "start": 71.968,
+   "dur": 8.202
+  },
+  {
+   "key": "n3",
+   "text": "Hoeveel heeft het model goed? Vijftig plus vijfentwintig is vijfenzeventig. Dat heet accuracy: vijfenzeventig procent. In Orange heet dit CA.",
+   "start": 80.671,
+   "dur": 12.199
+  },
+  {
+   "key": "q1",
+   "text": "Even een vraag. Hoeveel goede betalers worden onterecht afgewezen? Tien, vijftien, of vijfentwintig? Zet de video stil en kies.",
+   "start": 93.77,
+   "dur": 10.371
+  },
+  {
+   "key": "a1",
+   "text": "Het antwoord is tien. Tien mensen zoals Shanti, die hadden terugbetaald, maar geen lening kregen. De vijftien zijn een andere fout, met andere slachtoffers.",
+   "start": 109.14,
+   "dur": 10.449
+  },
+  {
+   "key": "p1",
+   "text": "Nu zet je een bril op. De bril van de bank kijkt naar alle goedkeuringen: vijfenzestig. Daarvan worden er vijftig terugbetaald. Dat is ongeveer zevenenzeventig procent. Dat heet precisie.",
+   "start": 120.489,
+   "dur": 13.009
+  },
+  {
+   "key": "p2",
+   "text": "Maar met deze bril ziet de bank Shanti niet. Zij staat in de andere kolom.",
+   "start": 133.998,
+   "dur": 4.989
+  },
+  {
+   "key": "r1",
+   "text": "De bril van de aanvrager kijkt naar alle goede betalers: zestig. Het model keurt er vijftig goed. Dat is ongeveer drieëntachtig procent. Dat heet recall.",
+   "start": 139.788,
+   "dur": 10.998
+  },
+  {
+   "key": "r2",
+   "text": "Twee brillen, twee getallen. Een bank die alleen naar precisie kijkt, ziet de afgewezen goede betalers nooit.",
+   "start": 151.285,
+   "dur": 7.236
+  },
+  {
+   "key": "d1",
+   "text": "Vergelijk een model ook altijd met een dom model, dat bij iedereen ja zegt. In de gegevens van Suribank betaalt negenenvijftig procent terug. Dus het domme model haalt al negenenvijftig procent.",
+   "start": 159.421,
+   "dur": 12.591
+  },
+  {
+   "key": "d2",
+   "text": "Het kredietmodel haalt negenenzestig procent. Dat is maar tien procentpunten beter dan niets doen. Vraag dus altijd: vergeleken met wat?",
+   "start": 172.512,
+   "dur": 9.247
+  },
+  {
+   "key": "q2",
+   "text": "Nog een vraag. Een model haalt tweeënzestig procent, terwijl negenenvijftig procent terugbetaalt. Is dat een uitstekend model, of nauwelijks beter dan altijd ja zeggen? Zet de video stil.",
+   "start": 182.66,
+   "dur": 13.166
+  },
+  {
+   "key": "a2",
+   "text": "Nauwelijks beter: maar drie procentpunten. Is dat de moeite waard voor beslissingen over mensen? Dat is precies het soort vraag dat we in deze module stellen.",
+   "start": 200.825,
+   "dur": 11.076
+  },
+  {
+   "key": "z1",
+   "text": "Samengevat. Tel de fouten per soort. Kijk met twee brillen: die van de bank, en die van de aanvrager. En vergelijk met het domme model.",
+   "start": 212.801,
+   "dur": 9.796
+  },
+  {
+   "key": "z2",
+   "text": "Welke fout zwaarder telt, kun je niet uitrekenen. Dat is een ethische keuze. Wie draagt de gevolgen, en wie heeft de minste macht?",
+   "start": 223.197,
+   "dur": 8.202
+  },
+  {
+   "key": "e1",
+   "text": "In practicum 1 maak je zelf de verwarringsmatrix van een echt model, met de gegevens van Suribank. Je berekent precisie en recall, en vergelijkt met het domme model.",
+   "start": 232.4,
+   "dur": 11.389
+  },
+  {
+   "key": "e2",
+   "text": "Op evidence card 1 schrijf je welke fout jij erger vindt, en waarom. Daarna kijk je clip 4. Tot dan!",
+   "start": 244.289,
+   "dur": 7.967
+  }
+ ],
+ "total": 254.26,
+ "audioDir": "aud_c3"
+}

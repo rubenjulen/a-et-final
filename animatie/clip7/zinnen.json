@@ -1,0 +1,137 @@
+[
+[
+"t0",
+"Kennisclip 7: privacy als ethische vraag.",
+0.8
+],
+[
+"d1a",
+"In A-DG leer je de regels: wat persoonsgegevens zijn, welke gegevens gevoelig zijn, en beginselen zoals doelbinding en dataminimalisatie.",
+0.4
+],
+[
+"d1b",
+"Die herhalen we hier niet.",
+0.4
+],
+[
+"d1c",
+"In AI & Ethics gaat het om de vraag erachter: wat doet het met mensen, en is het verantwoord, ook waar de regels nog niet gelden?",
+0.9
+],
+[
+"d2a",
+"Wat AI anders maakt: AI kan dingen afleiden die niemand heeft opgegeven, zoals een gezondheidssituatie uit aankopen of draagkracht uit woonplaats.",
+0.4
+],
+[
+"d2b",
+"Dat heet inferentie.",
+0.5
+],
+[
+"d2c",
+"Ook kan AI gegevens zonder naam toch aan een persoon koppelen.",
+0.9
+],
+[
+"q1",
+"Tussenvraag één. Een dataset bevat geen namen, wel leeftijd, district en beroep. Is dat anoniem? A: ja. B: niet per se; de combinatie kan naar een persoon te herleiden zijn.",
+8.0
+],
+[
+"a1",
+"Het antwoord is B. Samen kunnen leeftijd, district en beroep naar één persoon wijzen.",
+0.9
+],
+[
+"d3a",
+"Wat je in een chatbot typt. Bij generatieve AI gaan gegevens vaak naar een externe dienst.",
+0.4
+],
+[
+"d3b",
+"Wat een medewerker of klant in een chatbot typt, kan buiten de organisatie worden verwerkt of bewaard.",
+0.4
+],
+[
+"d3c",
+"Vraag bij elke chatbot: waar gaat wat je typt naartoe, wie kan het lezen, en wordt het gebruikt om het model verder te trainen?",
+0.4
+],
+[
+"d3d",
+"En weet de klant dat zijn vraag daar terechtkomt?",
+0.9
+],
+[
+"d4a",
+"De situatie in Suriname. De Grondwet beschermt de persoonlijke levenssfeer.",
+0.4
+],
+[
+"d4b",
+"Een algemene privacywet is er nog niet: de ontwerpwet Bescherming Privacy en Persoonsgegevens ligt sinds 2020 bij De Nationale Assemblée.",
+0.4
+],
+[
+"d4c",
+"Die ontwerpwet regelt onder meer een onafhankelijke toezichthouder, regels voor het doorgeven van gegevens naar het buitenland, en in sommige gevallen een functionaris gegevensbescherming.",
+0.9
+],
+[
+"d5a",
+"Gegevens over de grens. Veel AI draait bij buitenlandse leveranciers.",
+0.4
+],
+[
+"d5b",
+"Stuurt Suribank klantdata naar een leverancier in Nederland, dan gelden daar Europese privacyregels.",
+0.4
+],
+[
+"d5c",
+"Hetzelfde geldt voor een chatbot die een taalmodel van een buitenlandse leverancier gebruikt.",
+0.4
+],
+[
+"d5d",
+"Welke afspraken zijn er gemaakt over beveiliging, bewaartermijn en hergebruik?",
+0.9
+],
+[
+"q2",
+"Tussenvraag twee. Een medewerker plakt een klantbrief in een gratis online chatbot om snel een antwoord te laten schrijven. Wat is het grootste ethische probleem? A: het antwoord kan te lang zijn. B: de gegevens van de klant gaan, zonder dat die het weet, naar een externe dienst.",
+8.0
+],
+[
+"a2",
+"Het antwoord is B. De klant weet niet dat zijn gegevens naar buiten gaan.",
+0.9
+],
+[
+"d6a",
+"Wettelijk is niet hetzelfde als verantwoord. Waar de wet nog zwijgt, is veel toegestaan.",
+0.4
+],
+[
+"d6b",
+"Maar de ethische vraag blijft: zou je klanten recht in de ogen kunnen kijken als zij wisten wat er met hun gegevens gebeurt?",
+0.9
+],
+[
+"d7a",
+"Samengevat. Privacy is meer dan regels volgen.",
+0.4
+],
+[
+"d7b",
+"AI kan afleiden wat niemand heeft opgegeven, en bij generatieve AI gaan gegevens vaak naar buiten.",
+0.4
+],
+[
+"d7c",
+"De regels leer je in A-DG; hier vraag je of het verantwoord is voor de mensen om wie het gaat.",
+1.5
+]
+]

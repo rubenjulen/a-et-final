@@ -1,0 +1,60 @@
+{
+ "cues": [
+  {
+   "key": "i0",
+   "text": "Waarom maakt AI fouten? Een verhaal over Shanti.",
+   "start": 0.8,
+   "dur": 3.631
+  },
+  {
+   "key": "s0",
+   "text": "Dit is Shanti. Ze woont in Nickerie en verkoopt groente op de markt.",
+   "start": 5.231,
+   "dur": 4.441
+  },
+  {
+   "key": "s1",
+   "text": "Ze wil een lening van veertigduizend SRD, voor een eigen kraam met koeling.",
+   "start": 10.172,
+   "dur": 4.362
+  },
+  {
+   "key": "s2",
+   "text": "Ze vraagt de lening aan bij Suribank.",
+   "start": 15.034,
+   "dur": 2.194
+  },
+  {
+   "key": "s3",
+   "text": "Suribank laat elke aanvraag eerst beoordelen door een computermodel.",
+   "start": 17.629,
+   "dur": 4.049
+  },
+  {
+   "key": "s4",
+   "text": "Dat model geeft in negen van de tien gevallen het goede advies.",
+   "start": 22.178,
+   "dur": 3.631
+  },
+  {
+   "key": "s5",
+   "text": "Dat klinkt goed. Maar Suribank krijgt elke maand ongeveer duizend aanvragen.",
+   "start": 26.409,
+   "dur": 5.146
+  },
+  {
+   "key": "s6",
+   "text": "Dan vergist het model zich honderd keer. Elke maand weer.",
+   "start": 32.055,
+   "dur": 4.206
+  },
+  {
+   "key": "s7",
+   "text": "Achter elk van die honderd stipjes zit een mens. Zoals Shanti.",
+   "start": 37.16,
+   "dur": 3.866
+  }
+ ],
+ "total": 43.03,
+ "audioDir": "aud_v3"
+}

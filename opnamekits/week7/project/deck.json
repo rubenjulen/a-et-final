@@ -1,0 +1,69 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-13T22:10:00Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "Opnamekit week 7: clips 18–20",
+ "order": [
+  "cover",
+  "opnemen",
+  "c18-titel",
+  "c18-1",
+  "c18-2",
+  "c18-3",
+  "c18-4",
+  "c18-5",
+  "c18-6",
+  "c18-7",
+  "c19-titel",
+  "c19-1",
+  "c19-2",
+  "c19-3",
+  "c19-4",
+  "c19-5",
+  "c20-titel",
+  "c20-1",
+  "c20-2",
+  "c20-3",
+  "c20-4",
+  "c20-5",
+  "c20-6"
+ ],
+ "sections": {
+  "s0": {
+   "description": "Opnamekit en werkwijze",
+   "start": "cover"
+  },
+  "s18": {
+   "description": "Clip 18: Menselijke controle die werkt",
+   "start": "c18-titel"
+  },
+  "s19": {
+   "description": "Clip 19: Bezwaar en herstel",
+   "start": "c19-titel"
+  },
+  "s20": {
+   "description": "Clip 20: Transparantie en rolverdeling",
+   "start": "c20-titel"
+  }
+ },
+ "faces": {
+  "source-serif-4": {
+   "family": "Source Serif 4",
+   "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400..700&display=swap"
+  },
+  "public-sans": {
+   "family": "Public Sans",
+   "href": "https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap"
+  }
+ },
+ "designSystems": []
+}

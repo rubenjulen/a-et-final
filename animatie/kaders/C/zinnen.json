@@ -1,0 +1,232 @@
+[
+[
+"C0",
+"In deze clip kijken we naar een wet: de Europese AI-verordening.",
+0.5
+],
+[
+"C0b",
+"Je risicoregister zegt wat er mis kan gaan. De AI-verordening zegt hoe zwaar de wet een AI-toepassing weegt.",
+0.5
+],
+[
+"C0c",
+"Na deze clip kun je jullie eigen oplossing indelen in een risicoklasse, de rol van jullie partner benoemen, en uitleggen waarom die klasse geen eindoordeel is.",
+0.9
+],
+[
+"C1",
+"Suriname valt niet onder deze wet. Waarom kijken we er dan toch naar?",
+0.5
+],
+[
+"C1b",
+"Twee redenen. Heeft een organisatie Europese klanten of verwerkt ze Europese data, dan moet ze zich er wel aan houden.",
+0.5
+],
+[
+"C1c",
+"En het is het bekendste voorbeeld van hoe een wetgever AI indeelt. Het helpt je om te zien hoe zwaar jullie eigen oplossing weegt.",
+0.5
+],
+[
+"C1d",
+"De wet is sinds 2024 van kracht en gaat stap voor stap gelden. De verboden en de plicht tot AI-geletterdheid gelden al sinds februari 2025.",
+0.9
+],
+[
+"C2",
+"De wet deelt AI in vier risicoklassen in.",
+0.5
+],
+[
+"C2b",
+"Bovenaan staat onaanvaardbaar risico. Dat is verboden, in artikel 5. Denk aan een sociale score voor burgers, of AI die iemands kwetsbaarheid uitbuit.",
+0.5
+],
+[
+"C2c",
+"Daaronder staat hoog risico. Dat mag, maar onder strenge eisen. Bijlage III noemt waar het om gaat: onder meer kredietwaardigheid, werving en selectie, onderwijs en publieke uitkeringen.",
+0.5
+],
+[
+"C2d",
+"Dan beperkt risico. Daar geldt vooral een transparantieplicht, in artikel 50: mensen moeten weten dat ze met AI praten.",
+0.5
+],
+[
+"C2e",
+"Onderaan staat minimaal risico, zoals een spamfilter. Daarvoor gelden geen extra eisen.",
+0.5
+],
+[
+"C2f",
+"Hoe hoger in de piramide, hoe zwaarder de eisen. De vraag is dus steeds: waarvoor wordt het systeem gebruikt, en wat staat er voor mensen op het spel?",
+0.9
+],
+[
+"C3",
+"Naast de klasse is je rol belangrijk. De wet kent twee hoofdrollen.",
+0.5
+],
+[
+"C3b",
+"De aanbieder ontwikkelt een AI-systeem, of laat het ontwikkelen, en brengt het onder eigen naam op de markt of in gebruik.",
+0.5
+],
+[
+"C3c",
+"De gebruiksverantwoordelijke zet het systeem onder eigen verantwoordelijkheid in, bijvoorbeeld in het eigen kantoor.",
+0.5
+],
+[
+"C3d",
+"Een organisatie kan ook allebei zijn. Bij Suribank is de leverancier van het model de aanbieder, en de bank de gebruiksverantwoordelijke.",
+0.5
+],
+[
+"C3e",
+"Waarom maakt die rol uit? Omdat de plichten verschillen. De aanbieder moet zorgen dat het systeem goed gebouwd en getest is. De gebruiksverantwoordelijke moet zorgen dat het in de praktijk goed gebruikt wordt.",
+0.9
+],
+[
+"CQ1",
+"Vraag één. Een bank gebruikt een model dat beslist of iemand een persoonlijke lening krijgt. In welke risicoklasse valt dit model?",
+8
+],
+[
+"CQ1b",
+"Het antwoord: hoog risico, bijlage III, punt 5b. De bank moet als gebruiksverantwoordelijke ook een FRIA doen.",
+0.9
+],
+[
+"C4",
+"Kijk naar het kredietmodel van Suribank. Het beoordeelt de kredietwaardigheid van mensen zoals Shanti. Dat is hoog risico.",
+0.5
+],
+[
+"C4b",
+"Dan gelden onder meer risicobeheer, in artikel 9, eisen aan de data, in artikel 10, en menselijk toezicht, in artikel 14.",
+0.5
+],
+[
+"C4c",
+"En de bank moet een FRIA doen: een beoordeling van de gevolgen voor grondrechten, in artikel 27. Wie wordt geraakt, hoe ernstig, en wat doe je eraan?",
+0.5
+],
+[
+"C4d",
+"Dat herken je. Het lijkt sterk op jullie AI-impactbeoordeling: de stakeholderkaart K2 plus de nulmeting.",
+0.5
+],
+[
+"C4e",
+"Stel dat het model Shanti onterecht afwijst. Dan moet een mens kunnen ingrijpen, en moet de bank kunnen uitleggen waarom. Dat is precies wat jullie in K7 ontwerpen.",
+0.9
+],
+[
+"C5",
+"Nu de orderagent van Frisco Installaties. Hij neemt bestellingen op voor technische installaties.",
+0.5
+],
+[
+"C5b",
+"Zo'n agent staat niet in bijlage III. Meestal is dat beperkt risico.",
+0.5
+],
+[
+"C5c",
+"Artikel 50 geldt wel: klanten moeten weten dat ze met AI praten. Daarom zegt de agent dat meteen in zijn eerste bericht. En vraagt een klant: praat ik met een mens? Dan zegt de agent eerlijk van niet, en biedt hij een medewerker aan.",
+0.5
+],
+[
+"C5d",
+"Frisco laat de agent bouwen en zet hem onder eigen naam in. Dan is Frisco aanbieder en gebruiksverantwoordelijke tegelijk.",
+0.5
+],
+[
+"C5e",
+"Let op: gaat de agent zelf beslissen over krediet, of over wie wel en niet geholpen wordt? Kijk dan opnieuw naar de klasse.",
+0.9
+],
+[
+"CQ2",
+"Vraag twee. Een maatkledingzaak laat een orderchatbot bouwen en zet die onder eigen naam op haar website. Welke rol heeft de zaak, en welke plicht geldt in elk geval?",
+8
+],
+[
+"CQ2b",
+"Het antwoord: de zaak is aanbieder én gebruiksverantwoordelijke. En in elk geval geldt de transparantieplicht van artikel 50: klanten moeten weten dat ze met AI praten.",
+0.9
+],
+[
+"C6",
+"Vier artikelen kom je nog tegen bij hoog risico, ook in de antwoordsleutel van week 6.",
+0.5
+],
+[
+"C6b",
+"Artikel 10 gaat over data en datagovernance. Dat werk doen jullie vooral bij A-DG.",
+0.5
+],
+[
+"C6c",
+"Artikel 13 zegt dat de aanbieder duidelijke informatie meegeeft aan wie het systeem gebruikt: wat het kan, wat niet, en hoe je het controleert.",
+0.5
+],
+[
+"C6d",
+"Artikel 26 noemt de plichten van de gebruiksverantwoordelijke, zoals het systeem gebruiken zoals bedoeld, en het in de gaten houden.",
+0.5
+],
+[
+"C6e",
+"En artikel 86 geeft wie door zo'n besluit geraakt wordt, recht op uitleg.",
+0.9
+],
+[
+"C7",
+"De klasse is niet het hele verhaal.",
+0.5
+],
+[
+"C7b",
+"Artikel 4 vraagt AI-geletterdheid van iedereen die met het systeem werkt, in elke klasse.",
+0.5
+],
+[
+"C7c",
+"Menselijk toezicht en transparantie komen terug in clip 18 en clip 20.",
+0.5
+],
+[
+"C7d",
+"En onthoud: de klasse is een ondergrens. Wat de wet toestaat, is niet altijd verantwoord. En waar de wet zwijgt, zoals in Suriname, blijft de ethische vraag gewoon staan.",
+0.5
+],
+[
+"C7e",
+"Een voorbeeld. De orderagent van Frisco is beperkt risico. Toch kan hij klanten met een andere naam, of klanten die liever een spraakbericht sturen, slechter helpen. De wet vraagt daar weinig. Jullie test in practicum 4 vraagt het wel.",
+0.9
+],
+[
+"C7f",
+"Samengevat. Eén: de wet deelt AI in vier klassen in, van verboden tot minimaal risico. Twee: je rol, aanbieder of gebruiksverantwoordelijke, bepaalt je plichten. Drie: de klasse is een ondergrens, geen eindoordeel.",
+0.9
+],
+[
+"C8",
+"Nu jij. Zet boven jullie risicoregister de regel: EU-risicoklasse en rol.",
+0.5
+],
+[
+"C8b",
+"Schrijf op welke klasse, waarom, met het artikel of de bijlage, en welke rol jullie partner heeft.",
+0.5
+],
+[
+"C8c",
+"Twijfel je? Schrijf dan op tussen welke klassen je twijfelt, en waarom. Ook dat is een goed antwoord.",
+0.9
+]
+]

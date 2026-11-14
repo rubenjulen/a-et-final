@@ -1,0 +1,47 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-13T22:10:00Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "Opnamekit week 5: clip 14",
+ "order": [
+  "cover",
+  "opnemen",
+  "c14-titel",
+  "c14-1",
+  "c14-2",
+  "c14-3",
+  "c14-4",
+  "c14-5",
+  "c14-6"
+ ],
+ "sections": {
+  "s0": {
+   "description": "Opnamekit en werkwijze",
+   "start": "cover"
+  },
+  "s14": {
+   "description": "Clip 14: Van diagnose naar plan van aanpak",
+   "start": "c14-titel"
+  }
+ },
+ "faces": {
+  "source-serif-4": {
+   "family": "Source Serif 4",
+   "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400..700&display=swap"
+  },
+  "public-sans": {
+   "family": "Public Sans",
+   "href": "https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap"
+  }
+ },
+ "designSystems": []
+}

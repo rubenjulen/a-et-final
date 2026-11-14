@@ -1,0 +1,224 @@
+{
+ "cues": [
+  {
+   "key": "i0",
+   "text": "Kennisclip 10: uitleg die werkt.",
+   "start": 0.8,
+   "dur": 2.06,
+   "audio": false
+  },
+  {
+   "key": "a1",
+   "text": "Transparantie: mensen weten dat AI wordt gebruikt en waarvoor.",
+   "start": 4.66,
+   "dur": 4.0,
+   "audio": false
+  },
+  {
+   "key": "a2",
+   "text": "Uitlegbaarheid: je kunt uitleggen waarom een bepaalde uitkomst eruit kwam.",
+   "start": 9.06,
+   "dur": 4.77,
+   "audio": false
+  },
+  {
+   "key": "a3",
+   "text": "Traceerbaarheid: je kunt achteraf nagaan wat er gebeurde, met welke gegevens en welke versie van het model.",
+   "start": 14.23,
+   "dur": 6.9,
+   "audio": false
+  },
+  {
+   "key": "b1",
+   "text": "Je kunt een model kiezen dat zelf te begrijpen is, zoals een beslisboom met een paar vragen of een eenvoudige puntentelling.",
+   "start": 22.03,
+   "dur": 8.0,
+   "audio": false
+  },
+  {
+   "key": "b2",
+   "text": "Of je gebruikt een complex model en maakt achteraf een uitleg, bijvoorbeeld van de belangrijkste factoren.",
+   "start": 30.43,
+   "dur": 6.84,
+   "audio": false
+  },
+  {
+   "key": "b3",
+   "text": "Die uitleg achteraf is een benadering.",
+   "start": 37.67,
+   "dur": 2.45,
+   "audio": false
+  },
+  {
+   "key": "b4",
+   "text": "Rudin pleit daarom voor de eerste weg bij beslissingen met grote gevolgen.",
+   "start": 40.52,
+   "dur": 4.77,
+   "audio": false
+  },
+  {
+   "key": "c1",
+   "text": "De aanvrager wil weten welke factoren de doorslag gaven en wat die zelf kan doen.",
+   "start": 46.19,
+   "dur": 5.23,
+   "audio": false
+  },
+  {
+   "key": "c2",
+   "text": "De medewerker wil weten hoe zeker het model is en wanneer afwijken verstandig is.",
+   "start": 51.82,
+   "dur": 5.23,
+   "audio": false
+  },
+  {
+   "key": "c3",
+   "text": "De toezichthouder wil weten hoe het model werkt, hoe het getest is, en of het voor alle groepen goed werkt.",
+   "start": 57.45,
+   "dur": 6.9,
+   "audio": false
+  },
+  {
+   "key": "c4",
+   "text": "Eén uitleg voor iedereen werkt dus niet.",
+   "start": 64.75,
+   "dur": 2.58,
+   "audio": false
+  },
+  {
+   "key": "d1",
+   "text": "Een sterke vorm van uitleg zegt wat er anders had moeten zijn voor een andere uitkomst.",
+   "start": 68.23,
+   "dur": 5.61,
+   "audio": false
+  },
+  {
+   "key": "d2",
+   "text": "Dat heet een contrafactische uitleg.",
+   "start": 74.24,
+   "dur": 2.32,
+   "audio": false
+  },
+  {
+   "key": "d3",
+   "text": "Die is begrijpelijk en geeft de aanvrager iets om mee te doen.",
+   "start": 76.96,
+   "dur": 4.0,
+   "audio": false
+  },
+  {
+   "key": "d4",
+   "text": "Maar let op: als het antwoord is: als u in Paramaribo had gewoond, dan zegt de uitleg vooral iets over de eerlijkheid van het model.",
+   "start": 81.36,
+   "dur": 8.52,
+   "audio": false
+  },
+  {
+   "key": "q1",
+   "text": "Tussenvraag 1. Welke uitleg is contrafactisch? A: uw score was 41%. B: met een looptijd van 24 in plaats van 12 maanden was uw aanvraag goedgekeurd.",
+   "start": 90.78,
+   "dur": 9.55,
+   "audio": false
+  },
+  {
+   "key": "q1b",
+   "text": "Het antwoord is B. Die uitleg zegt wat er anders had moeten zijn.",
+   "start": 108.33,
+   "dur": 4.19,
+   "audio": false
+  },
+  {
+   "key": "e1",
+   "text": "Een medewerker kan alleen zinvol afwijken als die begrijpt waarom het model iets zegt.",
+   "start": 113.42,
+   "dur": 5.55,
+   "audio": false
+  },
+  {
+   "key": "e2",
+   "text": "En een aanvrager kan alleen bezwaar maken als die weet waarop de beslissing rust.",
+   "start": 119.37,
+   "dur": 5.23,
+   "audio": false
+  },
+  {
+   "key": "e3",
+   "text": "Uitleg is dus een voorwaarde voor menselijke controle en voor bezwaar.",
+   "start": 125.0,
+   "dur": 4.52,
+   "audio": false
+  },
+  {
+   "key": "q2",
+   "text": "Tussenvraag 2. Een aanvrager hoort: uw woonplaats verlaagde uw score. Wat is het probleem? A: geen; het is eerlijke uitleg. B: de aanvrager kan er niets aan doen, en het wijst op mogelijke ongelijke behandeling.",
+   "start": 130.42,
+   "dur": 13.61,
+   "audio": false
+  },
+  {
+   "key": "q2b",
+   "text": "Het antwoord is B. Aan zijn woonplaats kan de aanvrager weinig doen, en het wijst op mogelijke ongelijke behandeling.",
+   "start": 152.03,
+   "dur": 7.55,
+   "audio": false
+  },
+  {
+   "key": "z1",
+   "text": "Samengevat.",
+   "start": 160.48,
+   "dur": 0.71,
+   "audio": false
+  },
+  {
+   "key": "z2",
+   "text": "Transparantie, uitlegbaarheid en traceerbaarheid zijn drie verschillende dingen.",
+   "start": 161.49,
+   "dur": 5.16,
+   "audio": false
+  },
+  {
+   "key": "z3",
+   "text": "Kies bij grote gevolgen liever een begrijpelijk model.",
+   "start": 167.05,
+   "dur": 3.48,
+   "audio": false
+  },
+  {
+   "key": "z4",
+   "text": "Pas de uitleg aan de doelgroep aan, en gebruik waar het kan een als-dan.",
+   "start": 170.93,
+   "dur": 4.65,
+   "audio": false
+  }
+ ],
+ "total": 177.08,
+ "audioDir": "aud_c10",
+ "estimated": [
+  "i0",
+  "a1",
+  "a2",
+  "a3",
+  "b1",
+  "b2",
+  "b3",
+  "b4",
+  "c1",
+  "c2",
+  "c3",
+  "c4",
+  "d1",
+  "d2",
+  "d3",
+  "d4",
+  "q1",
+  "q1b",
+  "e1",
+  "e2",
+  "e3",
+  "q2",
+  "q2b",
+  "z1",
+  "z2",
+  "z3",
+  "z4"
+ ]
+}

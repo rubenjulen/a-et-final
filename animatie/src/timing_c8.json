@@ -1,0 +1,192 @@
+{
+ "cues": [
+  {
+   "key": "t0",
+   "text": "Kennisclip 8: automation bias.",
+   "start": 0.8,
+   "dur": 1.94,
+   "audio": false
+  },
+  {
+   "key": "d1a",
+   "text": "Automation bias is de neiging om een computer te volgen, ook als twijfel gepast is.",
+   "start": 3.54,
+   "dur": 5.35,
+   "audio": false
+  },
+  {
+   "key": "d1b",
+   "text": "Mensen zien fouten van het systeem over het hoofd, of nemen een advies over zonder het te controleren.",
+   "start": 9.29,
+   "dur": 6.58,
+   "audio": false
+  },
+  {
+   "key": "d2a",
+   "text": "Waarom gebeurt het? Door tijdsdruk. Omdat een computer objectief lijkt.",
+   "start": 16.77,
+   "dur": 4.58,
+   "audio": false
+  },
+  {
+   "key": "d2b",
+   "text": "Omdat afwijken moeite kost of verantwoord moet worden, terwijl meegaan nooit wordt gecontroleerd.",
+   "start": 21.75,
+   "dur": 6.26,
+   "audio": false
+  },
+  {
+   "key": "d2c",
+   "text": "En omdat het voelt alsof het systeem verantwoordelijk is.",
+   "start": 28.41,
+   "dur": 3.68,
+   "audio": false
+  },
+  {
+   "key": "d3a",
+   "text": "Een voorbeeld. Stel: een kredietmedewerker heeft 15 minuten per dossier en mag alleen afwijken van het advies met schriftelijk akkoord van het afdelingshoofd.",
+   "start": 32.99,
+   "dur": 10.19,
+   "audio": false
+  },
+  {
+   "key": "d3b",
+   "text": "Hoe vaak denk je dat zo'n medewerker afwijkt?",
+   "start": 43.68,
+   "dur": 2.9,
+   "audio": false
+  },
+  {
+   "key": "d3c",
+   "text": "Formeel zit er een mens in het proces. In de praktijk beslist het model.",
+   "start": 47.78,
+   "dur": 4.65,
+   "audio": false
+  },
+  {
+   "key": "d4a",
+   "text": "De toeslagenaffaire. In Nederland werden duizenden ouders onterecht als fraudeur behandeld, mede op basis van een risicomodel.",
+   "start": 53.33,
+   "dur": 8.13,
+   "audio": false
+  },
+  {
+   "key": "d4b",
+   "text": "Medewerkers en systemen versterkten elkaar, en getroffenen konden zich nauwelijks verweren.",
+   "start": 61.86,
+   "dur": 5.87,
+   "audio": false
+  },
+  {
+   "key": "d4c",
+   "text": "Een parlementaire commissie sprak in 2020 van ongekend onrecht.",
+   "start": 68.13,
+   "dur": 4.06,
+   "audio": false
+  },
+  {
+   "key": "d5a",
+   "text": "Betekenisvolle menselijke controle. Een mens heeft pas echt controle met genoeg informatie, genoeg tijd en de juiste kennis,",
+   "start": 73.09,
+   "dur": 8.0,
+   "audio": false
+  },
+  {
+   "key": "d5b",
+   "text": "met de bevoegdheid om af te wijken en een cultuur waarin afwijken mag,",
+   "start": 81.29,
+   "dur": 4.52,
+   "audio": false
+  },
+  {
+   "key": "d5c",
+   "text": "en met een registratie van afwijkingen, zodat je kunt zien of het werkt.",
+   "start": 86.01,
+   "dur": 4.65,
+   "audio": false
+  },
+  {
+   "key": "q1",
+   "text": "Tussenvraag. Een medewerker mag afwijken, maar alleen met schriftelijk akkoord, en heeft 15 minuten per dossier. Is er betekenisvolle menselijke controle? A: ja, er zit een mens tussen. B: twijfelachtig; de drempel om af te wijken is hoog en de tijd kort.",
+   "start": 91.56,
+   "dur": 16.45,
+   "audio": false
+  },
+  {
+   "key": "a1",
+   "text": "Het antwoord is B. Een mens in het proces is nog geen controle als afwijken bijna onmogelijk is.",
+   "start": 116.01,
+   "dur": 6.19,
+   "audio": false
+  },
+  {
+   "key": "d6a",
+   "text": "Bij generatieve AI. Een chatbot schrijft vloeiend en zelfverzekerd, ook als het antwoord niet klopt.",
+   "start": 123.1,
+   "dur": 6.45,
+   "audio": false
+  },
+  {
+   "key": "d6b",
+   "text": "Dat maakt automation bias sterker: wie een overtuigend antwoord krijgt, controleert minder.",
+   "start": 129.95,
+   "dur": 5.87,
+   "audio": false
+  },
+  {
+   "key": "d6c",
+   "text": "Een medewerker die een brief verstuurt die AI heeft geschreven, blijft verantwoordelijk voor de inhoud.",
+   "start": 136.22,
+   "dur": 6.65,
+   "audio": false
+  },
+  {
+   "key": "d7a",
+   "text": "Samengevat. Een mens in het proces is nog geen controle.",
+   "start": 143.77,
+   "dur": 3.61,
+   "audio": false
+  },
+  {
+   "key": "d7b",
+   "text": "Kijk naar informatie, tijd, kennis, bevoegdheid, cultuur en registratie.",
+   "start": 147.78,
+   "dur": 4.65,
+   "audio": false
+  },
+  {
+   "key": "d7c",
+   "text": "En hoe overtuigender het antwoord, hoe belangrijker de controle.",
+   "start": 152.83,
+   "dur": 4.13,
+   "audio": false
+  }
+ ],
+ "total": 158.96,
+ "audioDir": "aud_c8",
+ "estimated": [
+  "t0",
+  "d1a",
+  "d1b",
+  "d2a",
+  "d2b",
+  "d2c",
+  "d3a",
+  "d3b",
+  "d3c",
+  "d4a",
+  "d4b",
+  "d4c",
+  "d5a",
+  "d5b",
+  "d5c",
+  "q1",
+  "a1",
+  "d6a",
+  "d6b",
+  "d6c",
+  "d7a",
+  "d7b",
+  "d7c"
+ ]
+}

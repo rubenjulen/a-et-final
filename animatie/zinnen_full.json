@@ -1,0 +1,237 @@
+[
+[
+"i0",
+"Waarom maakt AI fouten? Een verhaal over Shanti.",
+0.8
+],
+[
+"i2",
+"We kijken naar twee soorten fouten, en naar vier plekken waar fouten ontstaan.",
+0.5
+],
+[
+"i3",
+"Het voorbeeld is Suribank. Dat is een verzonnen bank, met verzonnen gegevens. In practicum 1 ga je zelf met die gegevens werken.",
+1.0
+],
+[
+"s0",
+"Dit is Shanti. Ze woont in Nickerie en verkoopt groente op de markt.",
+0.5
+],
+[
+"s1",
+"Ze wil een lening van veertigduizend SRD, voor een eigen kraam met koeling.",
+0.5
+],
+[
+"s2",
+"Ze vraagt de lening aan bij Suribank.",
+0.5
+],
+[
+"s3",
+"Suribank laat elke aanvraag eerst beoordelen door een computermodel.",
+0.5
+],
+[
+"s4",
+"Dat model geeft in negen van de tien gevallen het goede advies.",
+0.5
+],
+[
+"s5",
+"Dat klinkt goed. Maar Suribank krijgt elke maand ongeveer duizend aanvragen.",
+0.5
+],
+[
+"s6",
+"Dan vergist het model zich honderd keer. Elke maand weer.",
+1.4
+],
+[
+"s7",
+"Achter elk van die honderd stipjes zit een mens. Zoals Shanti.",
+0.5
+],
+[
+"s8",
+"Maar Shanti had de lening wél terugbetaald. Ze verdient genoeg. Alleen niet met een loonstrook.",
+1.4
+],
+[
+"s9",
+"Deze fout heet: onterecht afgewezen.",
+0.5
+],
+[
+"s10",
+"Er is ook een andere fout. Iemand krijgt een lening die hij niet kan terugbetalen. Dat heet: onterecht goedgekeurd.",
+0.5
+],
+[
+"s11",
+"De eerste fout raakt vooral de aanvrager. De tweede vooral de bank. Welke fout erger is, is dus geen technische vraag. Het is een keuze over mensen.",
+1.4
+],
+[
+"q1",
+"Even een vraag. Het model wijst de aanvraag af van iemand die de lening wel had terugbetaald. Welke fout is dit?",
+0.4
+],
+[
+"q1b",
+"A: onterecht goedgekeurd. Of B: onterecht afgewezen. Zet de video stil en kies je antwoord.",
+5.0
+],
+[
+"a1",
+"Het juiste antwoord is B: onterecht afgewezen. Het model wees af, en dat was niet terecht.",
+1.2
+],
+[
+"v1",
+"Waarom ging het mis bij Shanti? Fouten ontstaan op vier plekken: in de data, in het label, in de kenmerken, en in het gebruik.",
+1.0
+],
+[
+"d1",
+"De eerste plek is de data. Kijk naar de gegevens van Suribank.",
+0.5
+],
+[
+"d2",
+"Bij mensen met informeel werk ontbreekt het inkomen in veertien procent van de aanvragen. Bij een vaste baan in minder dan twee procent.",
+0.8
+],
+[
+"d3",
+"De gegevens zijn ook scheef verdeeld. Van de twaalfhonderd aanvragen komen er maar tweehonderdvier uit het binnenland.",
+0.5
+],
+[
+"d4",
+"Over die groep weet het model dus minder. En wat het model niet goed kent, voorspelt het ook minder goed.",
+1.2
+],
+[
+"l1",
+"De tweede plek is het label. Dat is wat het model moet leren voorspellen. Bij Suribank is dat de kolom terugbetaald: ja of nee.",
+0.5
+],
+[
+"l2",
+"Maar de bank weet alleen of iemand terugbetaalde als die persoon vroeger een lening kreeg.",
+0.5
+],
+[
+"l3",
+"Wie toen werd afgewezen, staat er niet in. Van die mensen weten we nooit of ze hadden terugbetaald.",
+0.5
+],
+[
+"l4",
+"Keurde de bank vroeger vooral mensen met een vaste baan goed? Dan leert het model vooral over die groep.",
+0.5
+],
+[
+"l5",
+"Het label is dus geen objectieve waarheid. Het is het gevolg van keuzes die de bank eerder maakte.",
+1.2
+],
+[
+"p1",
+"De derde plek: verkapte kenmerken. In de oefengegevens betaalt negenenveertig procent van de aanvragers uit het binnenland terug. Aan de kust is dat eenenzestig procent.",
+0.5
+],
+[
+"p2",
+"Ligt dat aan de woonplaats zelf? Of aan inkomen en soort werk, die in het binnenland anders verdeeld zijn?",
+0.5
+],
+[
+"p3",
+"Een kenmerk als district kan via een omweg iets anders meten. Bijvoorbeeld afkomst, of armoede.",
+0.5
+],
+[
+"p4",
+"Zo'n kenmerk heet een proxy. Het lastige is: je ziet het niet meteen.",
+1.2
+],
+[
+"q2",
+"Nog een vraag. Een bank haalt de kolom district uit het model. Is het risico op ongelijke behandeling naar woonplaats daarmee weg?",
+0.4
+],
+[
+"q2b",
+"A: ja, het model kan de woonplaats niet meer zien. Of B: nee, want andere kenmerken hangen samen met de woonplaats. Zet de video stil en kies.",
+5.0
+],
+[
+"a2",
+"Het juiste antwoord is B. Via inkomen en soort werk kan het model de woonplaats toch een beetje raden.",
+0.5
+],
+[
+"a2b",
+"Een kenmerk weglaten is dus niet hetzelfde als het effect weghalen. Blijf de uitkomsten per groep controleren. Dat doe je in week 3, in practicum 2.",
+1.2
+],
+[
+"g1",
+"De vierde plek is het gebruik. Soms is het model goed, maar gaat het mis in hoe mensen het gebruiken.",
+0.5
+],
+[
+"g2",
+"Het model wordt gebruikt voor een groep waarvoor het niet gemaakt is. Bijvoorbeeld voor kleine bedrijven, terwijl het leerde van particulieren.",
+0.5
+],
+[
+"g3",
+"Medewerkers volgen het advies blind. Ze hebben weinig tijd, dus ze klikken op akkoord, ook als ze twijfelen.",
+0.5
+],
+[
+"g4",
+"En een score die bedoeld was als hulpmiddel, wordt ineens de beslissing zelf. Niemand kijkt meer mee.",
+1.2
+],
+[
+"z1",
+"Kort samengevat. AI geeft voorspellingen, geen zekerheden. Elk model maakt fouten.",
+0.5
+],
+[
+"z2",
+"Die fouten ontstaan in de data, in het label, in de kenmerken en in het gebruik.",
+0.5
+],
+[
+"z3",
+"En de belangrijkste vraag is: welke fout is erger, en voor wie? Dat is geen technische vraag. Het is een ethische vraag.",
+0.8
+],
+[
+"z4",
+"Want achter elk percentage staan mensen. Zoals Shanti.",
+1.4
+],
+[
+"e1",
+"Wat doe je nu? Bekijk clip 3, over fouten tellen.",
+0.5
+],
+[
+"e2",
+"Denk na over één vraag: welke fout vind jij erger, en waarom?",
+0.5
+],
+[
+"e3",
+"Daarna werk je in practicum 1 zelf met de gegevens van Suribank. Lever alles voor week 0 in vóór woensdag 6 januari, om één minuut voor middernacht. Tot in clip 3.",
+2.0
+]
+]

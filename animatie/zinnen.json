@@ -1,0 +1,11 @@
+[
+ ["i0","Waarom maakt AI fouten? Een verhaal over Shanti.",0.8],
+ ["s0","Dit is Shanti. Ze woont in Nickerie en verkoopt groente op de markt.",0.5],
+ ["s1","Ze wil een lening van veertigduizend SRD, voor een eigen kraam met koeling.",0.5],
+ ["s2","Ze vraagt de lening aan bij Suribank.",0.4],
+ ["s3","Suribank laat elke aanvraag eerst beoordelen door een computermodel.",0.5],
+ ["s4","Dat model geeft in negen van de tien gevallen het goede advies.",0.6],
+ ["s5","Dat klinkt goed. Maar Suribank krijgt elke maand ongeveer duizend aanvragen.",0.5],
+ ["s6","Dan vergist het model zich honderd keer. Elke maand weer.",0.9],
+ ["s7","Achter elk van die honderd stipjes zit een mens. Zoals Shanti.",1.5]
+]

@@ -1,0 +1,71 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-13T22:10:00Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "Opnamekit week 4: clips 11–13",
+ "order": [
+  "cover",
+  "opnemen",
+  "c11-titel",
+  "c11-1",
+  "c11-2",
+  "c11-3",
+  "c11-4",
+  "c11-5",
+  "c11-6",
+  "c11-7",
+  "c12-titel",
+  "c12-1",
+  "c12-2",
+  "c12-3",
+  "c12-4",
+  "c12-5",
+  "c12-6",
+  "c13-titel",
+  "c13-0",
+  "c13-1",
+  "c13-2",
+  "c13-3",
+  "c13-4",
+  "c13-5",
+  "c13-6"
+ ],
+ "sections": {
+  "s0": {
+   "description": "Opnamekit en werkwijze",
+   "start": "cover"
+  },
+  "s11": {
+   "description": "Clip 11: Volwassenheid meten, van CMM tot de Janssen-scan",
+   "start": "c11-titel"
+  },
+  "s12": {
+   "description": "Clip 12: Van dilemma naar risico",
+   "start": "c12-titel"
+  },
+  "s13": {
+   "description": "Clip 13: Risico's scoren en escaleren",
+   "start": "c13-titel"
+  }
+ },
+ "faces": {
+  "source-serif-4": {
+   "family": "Source Serif 4",
+   "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400..700&display=swap"
+  },
+  "public-sans": {
+   "family": "Public Sans",
+   "href": "https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap"
+  }
+ },
+ "designSystems": []
+}

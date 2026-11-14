@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="Practicum 4 gepaarde test Suribank" description="A-ET week 4: gepaarde test, grensgevallen en uitlegtest.">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="1 Leren: suribank_versie_A.csv" position="(60.0, 120.0)" />
+		<node id="1" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(260.0, 60.0)" />
+		<node id="2" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(260.0, 200.0)" />
+		<node id="3" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="2 Paren: suribank_paren.csv" position="(60.0, 360.0)" />
+		<node id="4" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="3 Voorspelling paren" position="(480.0, 360.0)" />
+		<node id="5" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="4 Paren bekijken" position="(680.0, 300.0)" />
+		<node id="6" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="5 Paren opslaan (Excel)" position="(680.0, 420.0)" />
+		<node id="7" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="6 Grensgevallen: suribank_testset.csv" position="(60.0, 560.0)" />
+		<node id="8" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="7 Voorspelling testset" position="(480.0, 560.0)" />
+		<node id="9" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="8 Sorteer op kans" position="(680.0, 560.0)" />
+		<node id="10" name="Nomogram" qualified_name="Orange.widgets.visualize.ownomogram.OWNomogram" project_name="Orange3" version="" title="9 Uitleg: Nomogram" position="(480.0, 0.0)" />
+		<node id="11" name="Tree Viewer" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" project_name="Orange3" version="" title="9 Uitleg: Tree Viewer" position="(480.0, 200.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="3" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="1" sink_node_id="4" source_channel="Model" sink_channel="Predictors" enabled="true" source_channel_id="model" sink_channel_id="predictors" />
+		<link id="4" source_node_id="2" sink_node_id="4" source_channel="Model" sink_channel="Predictors" enabled="true" source_channel_id="model" sink_channel_id="predictors" />
+		<link id="5" source_node_id="4" sink_node_id="5" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="annotated" sink_channel_id="data" />
+		<link id="6" source_node_id="4" sink_node_id="6" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="annotated" sink_channel_id="data" />
+		<link id="7" source_node_id="7" sink_node_id="8" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="8" source_node_id="1" sink_node_id="8" source_channel="Model" sink_channel="Predictors" enabled="true" source_channel_id="model" sink_channel_id="predictors" />
+		<link id="9" source_node_id="2" sink_node_id="8" source_channel="Model" sink_channel="Predictors" enabled="true" source_channel_id="model" sink_channel_id="predictors" />
+		<link id="10" source_node_id="8" sink_node_id="9" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="annotated" sink_channel_id="data" />
+		<link id="11" source_node_id="1" sink_node_id="10" source_channel="Model" sink_channel="Classifier" enabled="true" source_channel_id="model" sink_channel_id="classifier" />
+		<link id="12" source_node_id="2" sink_node_id="11" source_channel="Model" sink_channel="Tree" enabled="true" source_channel_id="model" sink_channel_id="tree" />
+	</links>
+	<annotations>
+		<text id="0" type="text/plain" rect="(20.0, 640.0, 420.0, 120.0)" font-family="Helvetica" font-size="13">Stap 6 tot 8, grensgevallen: open 8 en klik op de kolomkop met de kans op ja. Kies 10 aanvragers met een kans tussen 0,45 en 0,55. Verander in Excel één gewoon kenmerk een klein beetje en laad ze opnieuw in 2.</text>
+		<text id="1" type="text/plain" rect="(20.0, 0.0, 400.0, 90.0)" font-family="Helvetica" font-size="13">Practicum 4, Suribank. Dubbelklik op elke File en kies het bestand dat in de naam staat. Laat Logistic Regression en Tree op de standaardinstellingen.</text>
+		<text id="2" type="text/plain" rect="(720.0, 120.0, 330.0, 150.0)" font-family="Helvetica" font-size="13">Stap 4 en 5: in 4 zie je per paar (R001-orig, R001-wijz) het besluit en de kans op ja. Sla in 5 op als Excel en plak aanvraag_id en de twee kansen in het tabblad B_import van het testlogboek.</text>
+		<text id="3" type="text/plain" rect="(700.0, 0.0, 330.0, 100.0)" font-family="Helvetica" font-size="13">Stap 9, uitlegtest: gebruik Nomogram en Tree Viewer, net als in practicum 3.</text>
+	</annotations>
+	<node_properties />
+</scheme>

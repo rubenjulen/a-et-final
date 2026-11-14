@@ -1,0 +1,533 @@
+{
+ "11": {
+  "week": "04",
+  "title": "Volwassenheid meten, van CMM tot de Janssen-scan",
+  "dur": 9,
+  "doel": "De student begrijpt waarom we volwassenheid per domein meten, met bewijs, en waarom een volwassen organisatie nog steeds een groot risico kan lopen.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"Vorige week gaf je een snelle score per domein. Deze week maak je die score hard. Eerst: waar komt het idee van volwassenheid vandaan?\""
+   ],
+   [
+    "0:45",
+    "Tijdlijn",
+    "Eind jaren tachtig ontwikkelt het Software Engineering Institute van Carnegie Mellon University het Capability Maturity Model (CMM), in opdracht van het Amerikaanse ministerie van Defensie. Vraag: kan deze leverancier betrouwbaar software opleveren? Het antwoord zat niet in beloftes, maar in vastgelegde, herhaalbare processen."
+   ],
+   [
+    "2:00",
+    "Vijf treden",
+    "De bekende vijf niveaus: van initial (het hangt af van helden) via repeatable en defined naar managed en optimizing. Het opvolgende CMMI kijkt ook per procesgebied naar capability: hoe goed beheerst een organisatie precies dít onderdeel?"
+   ],
+   [
+    "3:30",
+    "Janssen-schaal 0 tot 3",
+    "Onze scan leent dat tweede idee. Per domein: 0 niet aanwezig of onbekend, 1 ad hoc, 2 gedeeltelijk beheerst, 3 aantoonbaar beheerst. Vier niveaus, omdat je in een korte module geen fijnere verschillen betrouwbaar kunt aantonen."
+   ],
+   [
+    "4:45",
+    "Drie regels",
+    "Regel 1: score zonder bewijs telt niet. Regel 2: bij twijfel tussen twee niveaus kies je het laagste en schrijf je op wat ontbreekt. Regel 3: geen totaalscore. Goede beveiliging compenseert geen ontbrekende bezwaarprocedure."
+   ],
+   [
+    "6:15",
+    "Bewijsladder",
+    "Sterk: document én observatie of data die het bevestigen. Goed: een document of een concreet voorbeeld. Beperkt: één interview of uitspraak. Zwak: aanname of \"dat zal wel\". Voorbeeld Suribank: de werkinstructie staat afwijken van het advies toe (D3, document), maar bij 4 van de 211 aanvragen die een medewerker in oktober beoordeelde, week die af (D11, data). Het document zegt 2, de praktijk zegt 1."
+   ],
+   [
+    "7:30",
+    "Twee assen",
+    "Maturity is niet hetzelfde als risico. Een organisatie kan alles netjes geregeld hebben (maturity 3) en toch een toepassing draaien waarbij een fout onomkeerbaar is. En een ad-hoc-organisatie met een onschuldige toepassing loopt weinig risico. Daarom maken we in week 4 ook een risicoregister."
+   ],
+   [
+    "8:30",
+    "Opdracht",
+    "\"Kies 4 tot 6 domeinen, beantwoord de vier normvragen per domein, en noteer bij elke score je bron en de sterkte van je bewijs.\""
+   ]
+  ]
+ },
+ "12": {
+  "week": "04",
+  "title": "Van dilemma naar risico",
+  "dur": 8,
+  "doel": "De student kan zeven begrippen uit elkaar houden en een dilemma vertalen naar risico's.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"In verslagen zie ik vaak één grote lijst met 'problemen'. Daarin staan waarden, klachten, keuzes en risico's door elkaar. Vandaag halen we ze uit elkaar.\""
+   ],
+   [
+    "0:45",
+    "Begrippenladder",
+    "**Waarde**: wat we belangrijk vinden (gelijke kansen). **Kwestie**: een waarde staat onder druk (aanvragers uit het binnenland worden vaker afgewezen). **Dilemma**: een keuze tussen twee waarden die allebei zwaar wegen, waarbij je niet alles kunt hebben (snel en goedkoop beslissen of iedere aanvrager persoonlijk beoordelen). **Hazard**: een bron van mogelijke schade (een model dat leert van oude goedkeuringen). **Risico**: hazard + kans + schade. **Control**: maatregel die kans of schade verkleint. **Restrisico**: wat overblijft na de control."
+   ],
+   [
+    "3:00",
+    "De toets",
+    "Is het een keuze? Dan is het een dilemma. Kan het gebeuren, met een kans en een schade? Dan is het een risico. Ontbreekt er iets in de organisatie? Dan is het een maturity gap."
+   ],
+   [
+    "4:00",
+    "Risicoformule",
+    "Schrijf een risico altijd als: *Door \\[oorzaak\\] kan \\[gebeurtenis\\] optreden, met als gevolg \\[schade\\] voor \\[wie\\].* Voorbeeld: \"Door het leren van historische goedkeuringen waarin binnenlandse aanvragers ondervertegenwoordigd zijn, kan het model kredietwaardige aanvragers uit het binnenland vaker afwijzen, met als gevolg uitsluiting van krediet voor een groep die al minder toegang heeft.\""
+   ],
+   [
+    "5:30",
+    "Van dilemma naar risico",
+    "Elk dilemma levert risico's op, aan beide kanten van de keuze. Kies je voor snelheid, dan is het risico onterechte afwijzing zonder menselijke blik. Kies je voor persoonlijke beoordeling, dan is het risico langere wachttijden en willekeur tussen medewerkers. Beide horen in het register."
+   ],
+   [
+    "7:00",
+    "Valkuil",
+    "\"Een dilemma los je niet op met een control. Je maakt een keuze, en dan beheers je de risico's van die keuze. Dat is het verschil.\""
+   ],
+   [
+    "7:30",
+    "Opdracht",
+    "\"Zet drie dilemma's in de log en leid uit elk dilemma minstens één risico af.\""
+   ]
+  ]
+ },
+ "13": {
+  "week": "04",
+  "title": "Risico's scoren en escaleren",
+  "dur": 4,
+  "doel": "De student kan een risico scoren met de tool en weet wanneer de score niet het laatste woord heeft.",
+  "rows": [
+   [
+    "0:00",
+    "Excel-tool, tabblad Risk\\_Register",
+    "\"Dit is het register. Elke rij is één risico.\""
+   ],
+   [
+    "0:20",
+    "Kansschaal",
+    "Kans 1 tot 5: zeldzaam, onwaarschijnlijk, mogelijk, waarschijnlijk, bijna zeker. Onderbouw je kans met iets: een cijfer uit het dossier, een vergelijkbaar geval, een uitkomst uit practicum 2 of 4."
+   ],
+   [
+    "1:00",
+    "Vier impactkolommen",
+    "Impact 1 tot 5 (beperkt, matig, ernstig, zeer ernstig, kritiek) op vier dimensies: het individu, een groep of de samenleving, rechten en waardigheid, de organisatie. De totale impact is de **hoogste** van de vier, niet het gemiddelde. Een risico dat de organisatie weinig kost maar iemands rechten zwaar raakt, is een zwaar risico."
+   ],
+   [
+    "1:50",
+    "Banden",
+    "Score = kans × impact. 1 tot 4 Low, 5 tot 9 Moderate, 10 tot 14 High, 15 tot 19 Very high, 20 tot 25 Critical."
+   ],
+   [
+    "2:20",
+    "Escalatieregels",
+    "Escaleren los van de score als: impact op rechten 4 of hoger; de schade onomkeerbaar is; een kwetsbare groep geraakt wordt met een impact van 4 of hoger; of er geen bezwaarmogelijkheid is en de impact 3 of hoger is. Is de onzekerheid groot, noteer dan welk aanvullend onderzoek nodig is."
+   ],
+   [
+    "3:10",
+    "Waarom geen ethische totaalscore",
+    "Een cijfer lijkt objectief. Maar één getal voor \"hoe ethisch\" verbergt welke waarde je hebt opgeofferd. Daarom scoren we risico's, en wegen we dilemma's met argumenten."
+   ],
+   [
+    "3:40",
+    "Opdracht",
+    "\"5 tot 8 risico's, inherent gescoord: zonder rekening te houden met maatregelen die er nog niet zijn. Restrisico komt in Assessment 2.\""
+   ]
+  ]
+ },
+ "14": {
+  "week": "05",
+  "title": "Van diagnose naar plan van aanpak",
+  "dur": 6,
+  "doel": "",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"Jullie rapport heeft nu zes hoofdstukken analyse. Het laatste hoofdstuk zegt: wat betekent dit, en wat gaan we nu doen?\""
+   ],
+   [
+    "0:40",
+    "Redeneerketen",
+    "Bewijs, gap, dilemma, risico. Het voorlopig oordeel staat aan het eind van die keten, niet ernaast. Elke zin in het oordeel moet terug te voeren zijn op iets eerder in het rapport."
+   ],
+   [
+    "1:30",
+    "Drie mogelijke oordelen",
+    "Verantwoord inzetbaar; inzetbaar onder voorwaarden; nu niet. In Assessment 1 is het oordeel *voorlopig*: zeg welk oordeel je nu verwacht en wat het zou kunnen veranderen."
+   ],
+   [
+    "2:30",
+    "Voorbeeld Suribank",
+    "\"Voorlopig: nu niet in de huidige vorm, wel onder voorwaarden. Voorwaarden: een bezwaarroute, menselijke beoordeling van afwijzingen, testen per regio. Onzeker: of de verschillen tussen regio's deels terecht zijn.\""
+   ],
+   [
+    "3:30",
+    "Plan van aanpak",
+    "Vijf vragen: welke drie risico's pakken we in het ontwerp eerst aan, en waarom? Welk bewijs ontbreekt nog, en hoe krijgen we het? Welke maatregel bouwen we met A-AI2 in, en welke test uit practicum 4 doen we in week 9 opnieuw? Wie is eigenaar van welk hoofdstuk in Assessment 2? Wat doen we wanneer, tot 11 maart?"
+   ],
+   [
+    "5:00",
+    "Valkuil",
+    "\"Een plan van aanpak is geen lijst met goede voornemens. 'We gaan meer onderzoek doen' is geen plan. 'We vragen vóór 15 februari het afwijzingscijfer per filiaal op bij de afdeling krediet' wel.\""
+   ],
+   [
+    "5:40",
+    "Afsluiting",
+    "\"Halve pagina tot een pagina. Kort, concreet, en het volgt uit de rest.\""
+   ]
+  ]
+ },
+ "15": {
+  "week": "06",
+  "title": "De gewenste situatie bepalen",
+  "dur": 7,
+  "doel": "De student kan per domein een doelniveau kiezen dat past bij de norm en bij wat er op het spel staat.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"In week 3 en 4 maten jullie waar de organisatie staat. Nu de vraag: waar moet ze staan? Niet overal op 3.\""
+   ],
+   [
+    "0:40",
+    "Twee bronnen voor de norm",
+    "**Wat de norm vraagt:** de UNESCO-aanbeveling (menselijk toezicht, transparantie, non-discriminatie, verantwoording), het NIST AI RMF, en in Suriname de Grondwet (art. 8 lid 2, non-discriminatie). Een privacywet is er nog niet; het ontwerp ligt er wel. Een organisatie die vooruitkijkt, houdt daar al rekening mee. Bij generatieve AI geldt ter vergelijking de transparantieplicht uit de Europese AI-verordening: gebruikers moeten weten dat ze met AI te maken hebben. **Wat er op het spel staat:** de risico's uit jullie register."
+   ],
+   [
+    "2:30",
+    "Proportionaliteit",
+    "Vuistregel: doelniveau 3 voor domeinen waar een High of hoger risico ligt of een escalatievlag staat. Niveau 2 waar een basisniveau genoeg is. Niveau 1 alleen als het domein voor deze toepassing nauwelijks speelt, en zeg dan waarom. Niveau 3 overal is niet ambitieus maar onrealistisch: het kost geld en aandacht die naar de echte risico's moet."
+   ],
+   [
+    "4:15",
+    "Gap en prioriteit",
+    "Gap = doelniveau min huidig niveau. Prioriteit is niet hetzelfde als de grootte van de gap: een gap van 1 in een domein met een kritisch risico gaat voor een gap van 2 in een domein zonder groot risico. Kies hoog, midden of laag, en zeg waarom."
+   ],
+   [
+    "5:45",
+    "Voorbeeld Suribank",
+    "Domein 7 (menselijke controle en bezwaar): nu 1, doel 3, prioriteit hoog, want vier risico's escaleren (deels) omdat bezwaar ontbreekt. Domein 8 (security): nu 2, doel 2, geen gap. Dat mag."
+   ],
+   [
+    "6:30",
+    "Opdracht",
+    "\"Doelniveau, gap en prioriteit voor alle elf domeinen, met één zin onderbouwing per domein.\""
+   ]
+  ]
+ },
+ "16": {
+  "week": "06",
+  "title": "Van risico naar toetsbare eis",
+  "dur": 8,
+  "doel": "De student kan een risicorespons kiezen en een risico vertalen naar een ontwerpdoel en een eis die je kunt controleren.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"Een risico zegt wat er mis kan gaan. Een eis zegt wat er waar moet zijn om dat te voorkomen. Vandaag de stap daartussen.\""
+   ],
+   [
+    "0:40",
+    "Vier responsen",
+    "**Vermijden:** de activiteit stoppen of het risicovolle deel eruit halen (geslacht niet meer gebruiken). **Verminderen:** kans of impact verkleinen met maatregelen. **Delen:** een deel van de gevolgen bij een ander leggen, zoals via een contract. **Accepteren:** bewust niets extra doen, met een eigenaar die dat besluit draagt. In de Excel-tool heten ze Avoid/stop, Treat of Redesign, Transfer en Accept."
+   ],
+   [
+    "2:30",
+    "Delen is zelden genoeg",
+    "Een contract met de leverancier verschuift kosten, maar de klant die onterecht wordt afgewezen, heeft daar niets aan. Bij risico's voor mensen is delen hooguit een aanvulling."
+   ],
+   [
+    "3:15",
+    "Ontwerpdoel",
+    "Het ontwerpdoel is het risico omgedraaid, in gewone taal: \"Aanvragers uit het binnenland worden niet vaker onterecht afgewezen dan aanvragers aan de kust.\""
+   ],
+   [
+    "4:15",
+    "De eis",
+    "Een eis zegt wat er aantoonbaar waar moet zijn, en heeft een **acceptatiecriterium**: hoe weet je dat het gelukt is? Voorbeeld uit de toolkit: \"Vóór ingebruikname worden prestaties en fouttypen per relevante groep getest; overschrijding van vooraf bepaalde grenzen blokkeert ingebruikname of vereist herontwerp.\""
+   ],
+   [
+    "6:00",
+    "Toets voor een eis",
+    "Kan iemand anders over drie maanden zeggen of hieraan is voldaan? Zo nee, dan is het een wens. \"Het model moet eerlijk zijn\" is een wens."
+   ],
+   [
+    "7:00",
+    "Grenzen",
+    "Moet je een grens noemen, zoals een maximaal verschil tussen groepen? Stel er een voor met een reden, en zeg wie hem moet vaststellen. Een grens is een bestuurlijke keuze, geen technisch feit."
+   ],
+   [
+    "7:40",
+    "Opdracht",
+    "\"Voor elk van je vijf risico's: respons, ontwerpdoel, en een of twee eisen met acceptatiecriterium.\""
+   ]
+  ]
+ },
+ "17": {
+  "week": "06",
+  "title": "Maatregelen ontwerpen, en wat overblijft",
+  "dur": 8,
+  "doel": "De student kan maatregelen combineren die voorkomen, opsporen en herstellen, en het restrisico inschatten.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"'Maak beleid' en 'zorg voor transparantie' zijn geen maatregelen. Vandaag: wat wel.\""
+   ],
+   [
+    "0:40",
+    "Drie functies",
+    "**Voorkomen:** het gaat niet mis (geslacht uit het model). **Opsporen:** je merkt het als het misgaat (subgroeptest per kwartaal). **Herstellen:** je maakt het goed (herbeoordeling van afgewezen aanvragen). Een sterk ontwerp heeft per belangrijk risico minstens twee van de drie."
+   ],
+   [
+    "2:15",
+    "Vijf soorten",
+    "Techniek, data en model, proces, mens, governance. Een risico dat ontstaat door hoe mensen werken (automation bias), los je niet alleen met techniek op. Bij generatieve AI zijn typische maatregelen: een AI-melding, overdracht aan een mens, beperkte kennisbronnen, geen persoonsgegevens naar een externe dienst, en een vaste testset met lastige vragen."
+   ],
+   [
+    "3:15",
+    "Wanneer is een maatregel bruikbaar?",
+    "Vijf vragen uit de toolkit: wat is het **doel**, wie is **eigenaar**, hoe **werkt** het precies, welk **bewijs** laat zien dat het gebeurt, en hoe controleer je dat het werkt? Voor jullie project komt er één bij: wie bouwt het in A-AI2, en met welke vraag uit de testset van practicum 4 laat je in week 9 zien dat het werkt?"
+   ],
+   [
+    "4:45",
+    "Control\\_Catalog",
+    "Laat het tabblad zien. Patronen als \"menselijke beoordeling verplicht\", \"bezwaar en herbeoordeling\", \"subgroeptest\". \"Gebruik het als inspiratie, niet als boodschappenlijst.\""
+   ],
+   [
+    "5:45",
+    "Restrisico",
+    "Schat na de maatregelen opnieuw kans en impact. Maatregelen die opsporen of herstellen verlagen vaak de impact; maatregelen die voorkomen vooral de kans. Blijft de impact op rechten hoog, dan blijft het besluit bij de directie."
+   ],
+   [
+    "7:00",
+    "Valkuil",
+    "\"Een restrisico van 1 bij alles is niet geloofwaardig. Wat kan er ondanks je maatregelen nog misgaan?\""
+   ],
+   [
+    "7:30",
+    "Opdracht",
+    "\"Twee tot drie maatregelen per risico, met eigenaar, verificatie en een afspraak met A-AI2, en een eerste inschatting van het restrisico.\""
+   ]
+  ]
+ },
+ "18": {
+  "week": "07",
+  "title": "Menselijke controle die werkt",
+  "dur": 9,
+  "doel": "De student kan beoordelen of menselijke controle betekenisvol is en ontwerpt de voorwaarden ervoor.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"Bijna elk AI-ontwerp zegt: er zit een mens tussen. Vandaag: wanneer betekent dat iets, en wanneer is het een stempel?\""
+   ],
+   [
+    "0:40",
+    "Drie posities",
+    "Mens in de lus: elk besluit gaat langs een mens. Mens op de lus: het systeem beslist, een mens houdt toezicht en kan ingrijpen. Mens aan het roer: een mens bepaalt of, waar en hoe het systeem wordt ingezet. Welke past, hangt af van de impact van het besluit."
+   ],
+   [
+    "2:15",
+    "Automation bias",
+    "Mensen volgen een systeem vaker dan goed is, vooral bij tijdsdruk, als afwijken moeite kost, of als zij de verantwoordelijkheid krijgen wanneer het misgaat. Suribank: 4 afwijkingen op 211 dossiers, en \"als het model het zegt, ligt het niet bij mij\" (D8)."
+   ],
+   [
+    "3:45",
+    "Zes voorwaarden",
+    "Informatie: ziet waarom het systeem dit adviseert. Tijd: genoeg om echt te kijken. Kennis: weet wanneer het systeem niet te vertrouwen is. Bevoegdheid: mag afwijken zonder toestemming vooraf. Cultuur: afwijken met een reden is normaal en wordt niet afgestraft. Registratie: afwijkingen worden bijgehouden, zodat je ziet of de controle werkt. Mist er één, dan wordt de mens een stempel. De AI-verordening vraagt bij hoog risico hetzelfde: wie toezicht houdt, begrijpt wat het systeem kan, kent automation bias, mag afwijken en kan het systeem stoppen (artikel 14)."
+   ],
+   [
+    "5:30",
+    "Wanneer moet een mens kijken?",
+    "Leg vooraf vast welke gevallen altijd naar een mens gaan: afwijzingen, scores dicht bij de drempel, kwetsbare groepen, onvolledige gegevens. Dat is de reviewtrigger. En wanneer gaat het hoger op? Dat is de escalatietrigger."
+   ],
+   [
+    "6:45",
+    "Bij een chatbot",
+    "Een chatbot beslist vaak niet, maar praat. Menselijke controle betekent hier vooral: wanneer draagt de chatbot over aan een mens? Bij bezwaar, bij boosheid, bij een kwetsbare situatie, bij een belangrijke beslissing, en altijd als de gebruiker erom vraagt. De zes voorwaarden gelden ook: wie leest gesprekken mee, wanneer grijpt een medewerker in, en wordt elke overdracht geregistreerd?"
+   ],
+   [
+    "7:45",
+    "Testen",
+    "Test of de controle werkt: leg medewerkers een dossier voor waarin het model aantoonbaar fout zit. Wijken ze af? Zo niet, dan werkt de controle niet. Bij een chatbot: blok 4 van de testset uit practicum 4 (mens spreken)."
+   ],
+   [
+    "8:30",
+    "Opdracht",
+    "\"Ontwerp de menselijke controle voor de belangrijkste beslissing in jullie toepassing, met alle zes de voorwaarden.\""
+   ]
+  ]
+ },
+ "19": {
+  "week": "07",
+  "title": "Bezwaar en herstel",
+  "dur": 7,
+  "doel": "De student ontwerpt een bezwaar- en herstelroute die een getroffene kan vinden en gebruiken.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"Elk systeem maakt fouten. De vraag is: wat gebeurt er dan met de mens die geraakt wordt?\""
+   ],
+   [
+    "0:40",
+    "Zes kenmerken van een goede route",
+    "**Bekend:** het staat in het besluit zelf. **Laagdrempelig:** geen advocaat of formulier van vijf pagina's nodig. **Met uitleg:** je weet waartegen je bezwaar maakt. **Onafhankelijk:** iemand die niet bij het eerste besluit betrokken was. **Snel:** een vaste termijn. **Herstellend:** bij gelijk wordt de schade goedgemaakt."
+   ],
+   [
+    "3:00",
+    "De zevende: leren",
+    "Elk gegrond bezwaar is een signaal. Hoeveel bezwaren, waarover, en wat doen we ermee in het model en het proces? Zonder die terugkoppeling blijft dezelfde fout terugkomen."
+   ],
+   [
+    "4:00",
+    "Toeslagenaffaire",
+    "Ouders kregen lang geen inzicht in hun dossier, en als ze het kregen, was veel zwartgelakt. Ze wisten niet waartegen ze bezwaar maakten. Zie de casus."
+   ],
+   [
+    "5:15",
+    "Herstel is meer dan geld",
+    "Een excuus, het besluit herzien, gegevens corrigeren, een label verwijderen. Vraag: wat is herstel voor jouw getroffene?"
+   ],
+   [
+    "6:15",
+    "Opdracht",
+    "\"Ontwerp de bezwaarroute en toets hem aan de zes kenmerken.\""
+   ]
+  ]
+ },
+ "20": {
+  "week": "07",
+  "title": "Transparantie en rolverdeling",
+  "dur": 8,
+  "doel": "De student kan transparantie per doelgroep ontwerpen en verantwoordelijkheden vastleggen in een RACI.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"Transparantie is niet: alles publiceren. Het is: elke doelgroep weet wat zij nodig heeft om te begrijpen, te controleren of bezwaar te maken.\""
+   ],
+   [
+    "0:40",
+    "Drie doelgroepen",
+    "Getroffenen: dat er een systeem meebeslist, waarvoor, wat de uitkomst betekent, hoe bezwaar werkt. Gebruikers (medewerkers): wat het systeem kan en niet kan, en waarom het dit adviseert. Toezicht en directie: hoe het werkt, hoe het presteert, wat er is gelogd. Deze week schrijven jullie de verklaring voor de eerste groep."
+   ],
+   [
+    "2:15",
+    "Begrijpelijk schrijven",
+    "Korte zinnen, geen vakjargon, de belangrijkste informatie eerst. Toets: kan iemand zonder opleiding in IT na één keer lezen zeggen wat er gebeurt en wat ze kan doen?"
+   ],
+   [
+    "3:30",
+    "Bij een chatbot",
+    "Mensen moeten weten dat ze met AI praten, op het moment dat het speelt: aan het begin van het gesprek, niet alleen in een verklaring op de website. In Europa is dat een plicht (AI-verordening, artikel 50); in Suriname een goede maatstaf. En de organisatie blijft verantwoordelijk voor wat haar chatbot zegt: denk aan Air Canada uit week 4."
+   ],
+   [
+    "4:30",
+    "RACI",
+    "Per besluit of activiteit: Responsible (voert uit), Accountable (eindverantwoordelijk, precies één), Consulted (wordt vooraf gevraagd), Informed (wordt achteraf geïnformeerd). Toolkit, tabblad Governance\\_RACI."
+   ],
+   [
+    "6:00",
+    "Beslisbevoegdheden",
+    "De belangrijkste vragen voor de RACI: wie mag het systeem stoppen, wie besluit over hertraining, wie accepteert restrisico? Suribank wist het niet: \"Ik neem aan de directie\" (D7). De RACI gaat over deze ethische beslissingen; technisch beheer staat in A-AI2, databeheer in A-DG."
+   ],
+   [
+    "7:15",
+    "Opdracht",
+    "\"Een transparantieverklaring van één A4, en een RACI met minstens acht activiteiten.\""
+   ]
+  ]
+ },
+ "21": {
+  "week": "09",
+  "title": "Monitoren met grenzen en acties",
+  "dur": 8,
+  "doel": "De student kan een monitoringplan opstellen dat signalen op tijd oppikt en tot een besluit leidt.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"Een model dat vandaag goed werkt, werkt over een jaar misschien niet meer. Hoe merk je dat?\""
+   ],
+   [
+    "0:40",
+    "Waarom modellen verouderen",
+    "De wereld verandert: andere klanten, inflatie, een nieuwe wet, een nieuw filiaal. Het model kent alleen het verleden waarvan het leerde. Twee soorten verandering: in **wie** er aanvraagt (de invoer), en in **wat** er gebeurt (de uitkomst)."
+   ],
+   [
+    "2:00",
+    "Vroege en late signalen",
+    "Uitkomsten, zoals of een lening wordt terugbetaald, zie je pas na maanden of jaren. Invoer en beslissingen zie je meteen: het aandeel aanvragers uit het binnenland, het mediane inkomen, het percentage goedkeuringen per groep. Monitor allebei. Veranderingen in de invoer meet A-DG; jullie zorgen dat iemand besluit als daar een alarm afgaat. Practicum 5 laat zien waarom."
+   ],
+   [
+    "3:15",
+    "Drie soorten ethische signalen",
+    "**Groepsverschillen:** fouten en afwijzingen per groep, goedkeuringen per groep. **Proces:** aandeel afwijkingen door medewerkers, bezwaren binnen de termijn afgehandeld, bij een chatbot de overdrachten naar een mens. **Mensen:** klachten, gegronde bezwaren, signalen van medewerkers. Nauwkeurigheid en storingen meet A-AI2, de kwaliteit van de data A-DG."
+   ],
+   [
+    "4:30",
+    "De vijf onderdelen van een indicator",
+    "Wat meet je, hoe vaak, wie meet het, wat is de grens, en wat gebeurt er als die wordt overschreden, door wie? Zonder grens is het een getal; zonder actie een alarm dat niemand hoort."
+   ],
+   [
+    "5:45",
+    "Grenzen kiezen",
+    "Een grens is een bestuurlijke keuze. Stel er een voor met een reden (\"het verschil dat we in practicum 2 en 4 zagen\", \"het niveau van vóór de invoering\"), en zeg wie hem vaststelt. Begin streng en versoepel als je meer weet."
+   ],
+   [
+    "6:45",
+    "Acties",
+    "Drie niveaus: onderzoeken, bijsturen (drempel aanpassen, meer gevallen naar een mens), stilzetten en terug naar handmatig. De RACI zegt wie wat besluit."
+   ],
+   [
+    "7:30",
+    "Opdracht",
+    "\"Vijf tot acht ethische signalen, uit alle drie de soorten, elk met de vijf onderdelen.\""
+   ]
+  ]
+ },
+ "22": {
+  "week": "09",
+  "title": "Het beslismemo",
+  "dur": 7,
+  "doel": "De student kan een eindoordeel geven dat een beslisser kan gebruiken.",
+  "rows": [
+   [
+    "0:00",
+    "Titeldia",
+    "\"Een directeur leest jullie rapport van 12 pagina's niet. Wel één pagina. Wat moet daar staan?\""
+   ],
+   [
+    "0:40",
+    "Drie oordelen",
+    "**Verantwoord inzetbaar:** de risico's zijn beheerst; doorgaan met monitoring. **Inzetbaar onder voorwaarden:** doorgaan mag, mits bepaalde maatregelen er op tijd zijn; zo niet, dan stoppen of terugschalen. **Nu niet:** de risico's zijn te groot of niet te beheersen binnen redelijke tijd; stoppen, herontwerpen of niet beginnen."
+   ],
+   [
+    "2:15",
+    "Opbouw",
+    "Het oordeel in de eerste zin. Dan: waarom (drie redenen, waarvan minstens één uit de hertest), de voorwaarden (toetsbaar, met termijn en eigenaar), het restrisico en wie het accepteert, en wat het oordeel kan veranderen."
+   ],
+   [
+    "3:45",
+    "Voorwaarden met tanden",
+    "\"De bezwaarroute werkt binnen drie maanden\" is beter dan \"er komt een bezwaarroute\". Nog beter: \"Werkt de bezwaarroute op 1 juli niet, dan gaan alle afwijzingen weer handmatig.\""
+   ],
+   [
+    "5:00",
+    "Eerlijk wegen",
+    "Noem ook de baten. Een memo dat alleen risico's noemt, overtuigt geen directeur. Bij Suribank: de doorlooptijd ging van 14 naar 1,6 werkdagen, en dat is voor klanten echt iets waard."
+   ],
+   [
+    "6:00",
+    "Valkuil",
+    "Het memo herhaalt niet het rapport. Het verwijst ernaar: \"zie hoofdstuk 8\"."
+   ],
+   [
+    "6:30",
+    "Opdracht",
+    "\"Eén pagina. Lees hem voor aan iemand die het rapport niet kent. Begrijpt die wat er moet gebeuren?\""
+   ]
+  ]
+ }
+}

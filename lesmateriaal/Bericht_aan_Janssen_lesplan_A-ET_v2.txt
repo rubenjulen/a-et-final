@@ -1,0 +1,31 @@
+Onderwerp: Lesplan AI & Ethics (A-ET), aangepaste versie: afgestemd op de minor AI
+
+Beste Anthony,
+
+In de bijlage vind je de nieuwe versie van het lesplan voor AI & Ethics (januari tot en met maart 2027). Ik heb het afgestemd op de syllabus van de hele minor. A-ET loopt in deel 2 tegelijk met A-AI2 en A-DG, en daar moet het goed op aansluiten.
+
+De belangrijkste veranderingen:
+
+- Groepen onderzoeken hun eigen AI-oplossing uit A-AI2, met de partnerorganisatie uit A-AI2 als casus. Een Surinaams voorbeelddossier (een fictieve bank) dient als oefencasus, en als casus voor groepen die vastlopen.
+- Geen dubbel werk. A-DG gaat over de data en de privacyregels, A-AI2 over de werking van de oplossing, en A-ET over de gevolgen voor mensen en wie daarover beslist. Wat studenten in A-AI2 en A-DG maken, gebruiken ze in A-ET als bewijs.
+- Meer aandacht voor generatieve AI, omdat de meeste prototypes chatbots of agents zijn. Studenten testen hun eigen oplossing met een vaste testset (week 4). In week 9 doen ze dezelfde test opnieuw, nadat ze via A-AI2 maatregelen hebben ingebouwd. De resultaten kunnen ze laten zien op de AI Solutions Day.
+- Een doorlopende debatlijn. Na het debat in college 2 opent elke online sessie met een stelling, en elke student schrijft wekelijks een kort onderbouwd standpunt.
+- De toetsing volgt de vakbeschrijving: Assessment 1 in week 5 (30%) en Assessment 2 in week 10 (70%). Het eindrapport heeft maximaal 12 pagina's.
+
+De data blijven zoals afgesproken: colleges op 7 en 14 januari en 25 februari, Assessment 1 op 4 februari en de eindtoets op 11 maart.
+
+De vragen staan in sectie 12 van het lesplan. Op deze vijf hoor ik het liefst als eerste van je:
+
+1. Kun je je vinden in drie fysieke colleges en zeven online sessies van een uur? Hoe worden de online sessies vergoed, en via welk platform verlopen ze?
+2. Kun je me in contact brengen met de docenten van A-AI2 en A-DG? Ik wil met hen de taakverdeling, de testomgeving en het juridisch kader afstemmen.
+3. In welke weken vallen de toetsen van A-AI2 en A-DG, en wanneer is de AI Solutions Day? Dan voorkom ik dat deadlines samenvallen.
+4. Welke leeromgeving gebruikt Janssen, en kan ik daar zelf materiaal plaatsen?
+5. Hoeveel studenten verwacht je, en uit welke opleidingen?
+
+Een reactie vóór vrijdag 27 november zou me erg helpen, zodat alles klaarstaat wanneer de online voorbereiding op 14 december opent. Een kort online overleg kan natuurlijk ook.
+
+Voor de gastspreker op 14 januari ben ik in gesprek met iemand uit het werkveld. Ik laat je weten zodra dat rond is.
+
+Met vriendelijke groet,
+
+Ruben

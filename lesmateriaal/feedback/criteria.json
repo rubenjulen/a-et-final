@@ -1,0 +1,143 @@
+{
+ "A1 Groep": {
+  "crit": [
+   [
+    "1. Afbakening, context en stakeholders zijn helder en volledig",
+    0.2
+   ],
+   [
+    "2. Conclusies rusten op bewijs; onzekerheden zijn benoemd",
+    0.25
+   ],
+   [
+    "3. Dilemma's zijn gewogen met minimaal drie lenzen",
+    0.1
+   ],
+   [
+    "4. Risico's zijn concreet geformuleerd en navolgbaar geprioriteerd",
+    0.3
+   ],
+   [
+    "5. Advies en gewenste situatie zijn onderbouwd en proportioneel",
+    0.15
+   ]
+  ],
+  "conds": [
+   "Testverslag van practicum 4 (bijlage D) aanwezig?",
+   "Aantal pagina's groepsdeel",
+   "AI-verklaring aanwezig?",
+   "Hoofdstukeigenaren op het voorblad?"
+  ],
+  "title": "AI & Ethics (A-ET) · Assessment 1 · groepsdeel (rapport)",
+  "share": "Telt voor 60% van het cijfer Assessment 1 (18% van het eindcijfer). Kies per criterium een niveau, of vul een cijfer van"
+ },
+ "A1 Individueel": {
+  "crit": [
+   [
+    "A. Beslisvraag en waarden",
+    0.15
+   ],
+   [
+    "B. Feiten, onzekerheid en stakeholders",
+    0.2
+   ],
+   [
+    "C. Alternatieven",
+    0.1
+   ],
+   [
+    "D. Toepassing van de lenzen",
+    0.3
+   ],
+   [
+    "E. Oordeel, voorwaarden en restspanning",
+    0.2
+   ],
+   [
+    "F. Vertaling naar risico",
+    0.05
+   ]
+  ],
+  "conds": [
+   "Aantal lenzen dat echt is uitgewerkt (0 tot 4)",
+   "Aantal woorden van het canvas"
+  ],
+  "title": "AI & Ethics (A-ET) · Assessment 1 · individueel deel (dilemma-canvas)",
+  "share": "Telt voor 40% van het cijfer Assessment 1 (12% van het eindcijfer). Kies per criterium een niveau, of vul een cijfer van"
+ },
+ "A2 Groep": {
+  "crit": [
+   [
+    "1. Afbakening, context en stakeholders",
+    0.05
+   ],
+   [
+    "2. Conclusies rusten op bewijs; onzekerheden benoemd",
+    0.1
+   ],
+   [
+    "4. Risico's concreet en navolgbaar geprioriteerd",
+    0.1
+   ],
+   [
+    "5. Advies en gewenste situatie onderbouwd en proportioneel",
+    0.15
+   ],
+   [
+    "6. Maatregelen toetsbaar en met een eigenaar",
+    0.3
+   ],
+   [
+    "7. Monitoring met indicatoren, drempels en acties, incidentroute en stopcriterium",
+    0.15
+   ],
+   [
+    "8. Eindoordeel helder, met voorwaarden en restrisico",
+    0.15
+   ]
+  ],
+  "conds": [
+   "Aantal pagina's (hoofdtekst)",
+   "Verwerkingslijst (bijlage E) aanwezig?",
+   "Bewijs dat maatregelen zijn ingebouwd en hertest (bijlage F) aanwezig?",
+   "Beslismemo aanwezig?",
+   "AI-verklaring en hoofdstukeigenaren aanwezig?"
+  ],
+  "title": "AI & Ethics (A-ET) · Assessment 2 · groepsdeel (eindrapport)",
+  "share": "Telt voor 60% van het cijfer Assessment 2 (42% van het eindcijfer). Kies per criterium een niveau, of vul een cijfer van"
+ },
+ "A2 Reflectie": {
+  "crit": [
+   [
+    "A. Het lastigste dilemma",
+    0.2
+   ],
+   [
+    "B. Een onjuiste aanname",
+    0.2
+   ],
+   [
+    "C. Feedback die het oordeel veranderde",
+    0.2
+   ],
+   [
+    "D. Eigen rol in het team",
+    0.2
+   ],
+   [
+    "E. Diepgang",
+    0.1
+   ],
+   [
+    "F. Onderbouwing met eigen materiaal",
+    0.1
+   ]
+  ],
+  "conds": [
+   "Bestaat de reflectie vooral uit algemeenheden zonder concreet moment?",
+   "Aantal woorden van de reflectie"
+  ],
+  "title": "AI & Ethics (A-ET) · Assessment 2 · individueel deel (reflectie)",
+  "share": "Telt voor 40% van het cijfer Assessment 2 (28% van het eindcijfer). Kies per criterium een niveau, of vul een cijfer van"
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "week4": {
+  "order": [
+   "cover",
+   "opnemen",
+   "c11-titel",
+   "c11-1",
+   "c11-2",
+   "c11-3",
+   "c11-4",
+   "c11-5",
+   "c11-6",
+   "c11-7",
+   "c12-titel",
+   "c12-1",
+   "c12-2",
+   "c12-3",
+   "c12-4",
+   "c12-5",
+   "c12-6",
+   "c13-titel",
+   "c13-0",
+   "c13-1",
+   "c13-2",
+   "c13-3",
+   "c13-4",
+   "c13-5",
+   "c13-6"
+  ],
+  "sections": {
+   "s0": {
+    "description": "Opnamekit en werkwijze",
+    "start": "cover"
+   },
+   "s11": {
+    "description": "Clip 11: Volwassenheid meten, van CMM tot de Janssen-scan",
+    "start": "c11-titel"
+   },
+   "s12": {
+    "description": "Clip 12: Van dilemma naar risico",
+    "start": "c12-titel"
+   },
+   "s13": {
+    "description": "Clip 13: Risico's scoren en escaleren",
+    "start": "c13-titel"
+   }
+  },
+  "stats": {
+   "11": 8,
+   "12": 7,
+   "13": 8
+  },
+  "n": 25
+ },
+ "week5": {
+  "order": [
+   "cover",
+   "opnemen",
+   "c14-titel",
+   "c14-1",
+   "c14-2",
+   "c14-3",
+   "c14-4",
+   "c14-5",
+   "c14-6"
+  ],
+  "sections": {
+   "s0": {
+    "description": "Opnamekit en werkwijze",
+    "start": "cover"
+   },
+   "s14": {
+    "description": "Clip 14: Van diagnose naar plan van aanpak",
+    "start": "c14-titel"
+   }
+  },
+  "stats": {
+   "14": 7
+  },
+  "n": 9
+ },
+ "week6": {
+  "order": [
+   "cover",
+   "opnemen",
+   "c15-titel",
+   "c15-1",
+   "c15-2",
+   "c15-3",
+   "c15-4",
+   "c15-5",
+   "c16-titel",
+   "c16-1",
+   "c16-2",
+   "c16-3",
+   "c16-4",
+   "c16-5",
+   "c16-6",
+   "c16-7",
+   "c17-titel",
+   "c17-1",
+   "c17-2",
+   "c17-3",
+   "c17-4",
+   "c17-5",
+   "c17-6",
+   "c17-7"
+  ],
+  "sections": {
+   "s0": {
+    "description": "Opnamekit en werkwijze",
+    "start": "cover"
+   },
+   "s15": {
+    "description": "Clip 15: De gewenste situatie bepalen",
+    "start": "c15-titel"
+   },
+   "s16": {
+    "description": "Clip 16: Van risico naar toetsbare eis",
+    "start": "c16-titel"
+   },
+   "s17": {
+    "description": "Clip 17: Maatregelen ontwerpen, en wat overblijft",
+    "start": "c17-titel"
+   }
+  },
+  "stats": {
+   "15": 6,
+   "16": 8,
+   "17": 8
+  },
+  "n": 24
+ },
+ "week7": {
+  "order": [
+   "cover",
+   "opnemen",
+   "c18-titel",
+   "c18-1",
+   "c18-2",
+   "c18-3",
+   "c18-4",
+   "c18-5",
+   "c18-6",
+   "c18-7",
+   "c19-titel",
+   "c19-1",
+   "c19-2",
+   "c19-3",
+   "c19-4",
+   "c19-5",
+   "c20-titel",
+   "c20-1",
+   "c20-2",
+   "c20-3",
+   "c20-4",
+   "c20-5",
+   "c20-6"
+  ],
+  "sections": {
+   "s0": {
+    "description": "Opnamekit en werkwijze",
+    "start": "cover"
+   },
+   "s18": {
+    "description": "Clip 18: Menselijke controle die werkt",
+    "start": "c18-titel"
+   },
+   "s19": {
+    "description": "Clip 19: Bezwaar en herstel",
+    "start": "c19-titel"
+   },
+   "s20": {
+    "description": "Clip 20: Transparantie en rolverdeling",
+    "start": "c20-titel"
+   }
+  },
+  "stats": {
+   "18": 8,
+   "19": 6,
+   "20": 7
+  },
+  "n": 23
+ },
+ "week9": {
+  "order": [
+   "cover",
+   "opnemen",
+   "c21-titel",
+   "c21-1",
+   "c21-2",
+   "c21-3",
+   "c21-4",
+   "c21-5",
+   "c21-6",
+   "c21-7",
+   "c22-titel",
+   "c22-1",
+   "c22-2",
+   "c22-3",
+   "c22-4",
+   "c22-5",
+   "c22-6"
+  ],
+  "sections": {
+   "s0": {
+    "description": "Opnamekit en werkwijze",
+    "start": "cover"
+   },
+   "s21": {
+    "description": "Clip 21: Monitoren met grenzen en acties",
+    "start": "c21-titel"
+   },
+   "s22": {
+    "description": "Clip 22: Het beslismemo",
+    "start": "c22-titel"
+   }
+  },
+  "stats": {
+   "21": 8,
+   "22": 7
+  },
+  "n": 17
+ }
+}

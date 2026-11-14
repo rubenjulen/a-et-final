@@ -1,0 +1,448 @@
+{
+ "cues": [
+  {
+   "key": "B0a",
+   "text": "Kaderclip B: hoe toets je of een AI-systeem eerlijk en open werkt?",
+   "start": 0.8,
+   "dur": 4.26,
+   "audio": false
+  },
+  {
+   "key": "B0b",
+   "text": "In clip 9 en 10 zag je fouten per groep en uitleg die werkt. Nu kijk je mee met een echte beoordelaar.",
+   "start": 5.56,
+   "dur": 6.58,
+   "audio": false
+  },
+  {
+   "key": "B1a",
+   "text": "IEEE is de grootste beroepsvereniging van ingenieurs ter wereld.",
+   "start": 13.04,
+   "dur": 4.13,
+   "audio": false
+  },
+  {
+   "key": "B1b",
+   "text": "Met CertifAIEd beoordeelt IEEE of een AI-systeem ethisch werkt. Een systeem dat slaagt, krijgt een keurmerk.",
+   "start": 17.67,
+   "dur": 6.97,
+   "audio": false
+  },
+  {
+   "key": "B1c",
+   "text": "Er is ook een certificaat voor de mensen die zulke beoordelingen doen. Je kijkt dus mee met een vak.",
+   "start": 25.14,
+   "dur": 6.45,
+   "audio": false
+  },
+  {
+   "key": "B1d",
+   "text": "Een beoordelaar kijkt naar vier onderdelen: transparantie, verantwoording, algoritmische bias en privacy.",
+   "start": 32.09,
+   "dur": 6.77,
+   "audio": false
+  },
+  {
+   "key": "B1e",
+   "text": "Die vier ken je al. In ons kader horen ze bij de laag wat.",
+   "start": 39.36,
+   "dur": 3.74,
+   "audio": false
+  },
+  {
+   "key": "B1f",
+   "text": "Transparantie is domein 6. Verantwoording is domein 2. Bias is domein 5. En privacy is domein 4.",
+   "start": 43.6,
+   "dur": 6.19,
+   "audio": false
+  },
+  {
+   "key": "B1g",
+   "text": "Privacy werk je vooral uit bij A-DG. In deze clip gaat het om transparantie en bias.",
+   "start": 50.29,
+   "dur": 5.42,
+   "audio": false
+  },
+  {
+   "key": "B2a",
+   "text": "Per onderdeel kijkt CertifAIEd naar twee soorten factoren.",
+   "start": 56.61,
+   "dur": 3.74,
+   "audio": false
+  },
+  {
+   "key": "B2b",
+   "text": "Drivers maken het waarschijnlijker dat een systeem ethisch werkt.",
+   "start": 60.85,
+   "dur": 4.19,
+   "audio": false
+  },
+  {
+   "key": "B2c",
+   "text": "Inhibitors werken het tegen, vaak om redenen die je best begrijpt.",
+   "start": 65.54,
+   "dur": 4.26,
+   "audio": false
+  },
+  {
+   "key": "B2d",
+   "text": "Een bedrijf wil geen claims. Of het wil een slim idee niet weggeven aan de concurrent.",
+   "start": 70.3,
+   "dur": 5.55,
+   "audio": false
+  },
+  {
+   "key": "B2e",
+   "text": "Wie alleen naar de drivers kijkt, ziet goede bedoelingen. Wie ook naar de inhibitors kijkt, ziet waarom die bedoelingen in de praktijk stranden.",
+   "start": 76.35,
+   "dur": 9.29,
+   "audio": false
+  },
+  {
+   "key": "B3a",
+   "text": "Neem de orderagent van Frisco Installaties.",
+   "start": 86.54,
+   "dur": 2.77,
+   "audio": false
+  },
+  {
+   "key": "B3b",
+   "text": "Een klant die denkt dat hij een medewerker spreekt, vertrouwt een belofte over prijs of levertijd. Klopt die niet, dan voelt hij zich bedrogen.",
+   "start": 89.81,
+   "dur": 9.23,
+   "audio": false
+  },
+  {
+   "key": "B3c",
+   "text": "Bij transparantie is een driver dat de klant meteen weet dat die met AI praat.",
+   "start": 99.54,
+   "dur": 5.03,
+   "audio": false
+  },
+  {
+   "key": "B3d",
+   "text": "Een andere driver: de werking is helder beschreven. Wat kan de agent wel, en wat niet?",
+   "start": 105.07,
+   "dur": 5.55,
+   "audio": false
+  },
+  {
+   "key": "B3e",
+   "text": "De klant kan ingrijpen en feedback geven, en er is een alternatief: een medewerker.",
+   "start": 111.12,
+   "dur": 5.35,
+   "audio": false
+  },
+  {
+   "key": "B3f",
+   "text": "Ook telt of het systeem zich voorspelbaar gedraagt, en of de organisatie dat volhoudt, van ontwerp tot gebruik.",
+   "start": 116.97,
+   "dur": 7.16,
+   "audio": false
+  },
+  {
+   "key": "B4a",
+   "text": "Daartegenover staan drie inhibitors.",
+   "start": 124.63,
+   "dur": 2.32,
+   "audio": false
+  },
+  {
+   "key": "B4b",
+   "text": "Gedrag verhullen: het systeem verbergt wat het doet, of probeert mensen ongemerkt te sturen.",
+   "start": 127.45,
+   "dur": 5.94,
+   "audio": false
+  },
+  {
+   "key": "B4c",
+   "text": "Angst voor aansprakelijkheid: je vertelt zo weinig mogelijk, zodat niemand je kan aanspreken.",
+   "start": 133.89,
+   "dur": 6.0,
+   "audio": false
+  },
+  {
+   "key": "B4d",
+   "text": "En een bedrijfsgeheim beschermen: de werking blijft dicht, omdat een concurrent zou kunnen meekijken.",
+   "start": 140.39,
+   "dur": 6.52,
+   "audio": false
+  },
+  {
+   "key": "B4e",
+   "text": "Stel dat Frisco niet mag zeggen welke taaldienst de agent gebruikt, omdat het contract met de leverancier dat verbiedt. Dan weet de klant ook niet waar zijn gegevens heen gaan.",
+   "start": 147.41,
+   "dur": 11.35,
+   "audio": false
+  },
+  {
+   "key": "B4f",
+   "text": "Zegt een organisatie: dat kunnen we niet vertellen? Dan zit er vaak een van die drie achter. Vraag dan welke.",
+   "start": 159.26,
+   "dur": 7.03,
+   "audio": false
+  },
+  {
+   "key": "BQ1",
+   "text": "Tussenvraag. Een bedrijf vertelt klanten niet dat een chatbot hun vragen beantwoordt, uit angst voor claims als het misgaat. Wat is dit volgens CertifAIEd? A: een driver van transparantie. B: een inhibitor, angst voor aansprakelijkheid.",
+   "start": 167.19,
+   "dur": 15.23,
+   "audio": false
+  },
+  {
+   "key": "BQ1b",
+   "text": "Het antwoord is B. De reden om te zwijgen is angst voor claims, en dat werkt transparantie tegen.",
+   "start": 190.42,
+   "dur": 6.26,
+   "audio": false
+  },
+  {
+   "key": "B5a",
+   "text": "Nu algoritmische bias. Denk aan het kredietmodel van Suribank uit practicum 2.",
+   "start": 197.58,
+   "dur": 5.03,
+   "audio": false
+  },
+  {
+   "key": "B5b",
+   "text": "Een driver is dat je de context van alle betrokkenen begrijpt, ook die van Shanti in Nickerie.",
+   "start": 203.11,
+   "dur": 6.06,
+   "audio": false
+  },
+  {
+   "key": "B5c",
+   "text": "Een tweede: je onderbouwt waarom je een beschermd kenmerk gebruikt of weglaat, zoals geslacht of district.",
+   "start": 209.67,
+   "dur": 6.84,
+   "audio": false
+  },
+  {
+   "key": "B5d",
+   "text": "Weglaten alleen is niet genoeg. Een ander kenmerk kan het district alsnog verraden. Dat heet een proxy.",
+   "start": 217.01,
+   "dur": 6.65,
+   "audio": false
+  },
+  {
+   "key": "B5e",
+   "text": "Verder volg je het gedrag per groep, ook na livegang.",
+   "start": 224.16,
+   "dur": 3.42,
+   "audio": false
+  },
+  {
+   "key": "B5f",
+   "text": "En je houdt een biasprofiel bij: de organisatie kan bias corrigeren als die opduikt.",
+   "start": 228.08,
+   "dur": 5.42,
+   "audio": false
+  },
+  {
+   "key": "B5g",
+   "text": "Doet niemand dat, dan gaat het mis zoals in practicum 2: de goede betalers in het binnenland betaalden de prijs.",
+   "start": 234.0,
+   "dur": 7.23,
+   "audio": false
+  },
+  {
+   "key": "B6a",
+   "text": "Er is één inhibitor: gebrek aan procestransparantie.",
+   "start": 241.73,
+   "dur": 3.35,
+   "audio": false
+  },
+  {
+   "key": "B6b",
+   "text": "Weet niemand waar de data vandaan komt en hoe besluiten tot stand kwamen? Dan kan ook niemand de bias meten.",
+   "start": 245.58,
+   "dur": 6.97,
+   "audio": false
+  },
+  {
+   "key": "B6c",
+   "text": "Dat zag je in practicum 2: pas toen je per groep keek, werd het verschil zichtbaar.",
+   "start": 253.05,
+   "dur": 5.35,
+   "audio": false
+  },
+  {
+   "key": "B6d",
+   "text": "Bij een orderagent is het niet anders. Zonder logboek van de gesprekken kun je niet nagaan of klanten uit de districten slechter geholpen worden.",
+   "start": 258.9,
+   "dur": 9.35,
+   "audio": false
+  },
+  {
+   "key": "BQ2",
+   "text": "Tussenvraag. Een bank laat district weg uit het model, maar legt niet vast waarom, en meet de uitkomsten per regio niet. Welke drivers ontbreken vooral? A: weten dat je met AI praat. B: het gebruik van beschermde kenmerken onderbouwen en het gedrag per groep volgen.",
+   "start": 269.15,
+   "dur": 17.16,
+   "audio": false
+  },
+  {
+   "key": "BQ2b",
+   "text": "Het antwoord is B. Iets weglaten zonder uitleg en zonder meting is geen bewijs dat het model eerlijk is.",
+   "start": 294.31,
+   "dur": 6.71,
+   "audio": false
+  },
+  {
+   "key": "B7a",
+   "text": "Hoe komt een beoordelaar tot een oordeel?",
+   "start": 301.92,
+   "dur": 2.65,
+   "audio": false
+  },
+  {
+   "key": "B7b",
+   "text": "Per doel vraagt die bewijs: een document, een test of een gesprek. Daarna volgt een score van 1 tot 5.",
+   "start": 305.07,
+   "dur": 6.58,
+   "audio": false
+  },
+  {
+   "key": "B7c",
+   "text": "Een score zonder bewijs telt niet.",
+   "start": 312.15,
+   "dur": 2.19,
+   "audio": false
+  },
+  {
+   "key": "B7d",
+   "text": "Dat is dezelfde logica als jullie snelle scan en de nulmeting.",
+   "start": 314.84,
+   "dur": 4.0,
+   "audio": false
+  },
+  {
+   "key": "B7e",
+   "text": "Neem domein 6 bij Frisco. Je bewijs is de begroeting van de agent en je test uit practicum 4. Je geeft een score, met dat bewijs erbij.",
+   "start": 319.34,
+   "dur": 8.71,
+   "audio": false
+  },
+  {
+   "key": "B7f",
+   "text": "Houdt een bedrijfsgeheim de score laag? Noem die inhibitor dan als reden. Zo ziet de lezer waar de verbetering moet beginnen.",
+   "start": 328.55,
+   "dur": 8.06,
+   "audio": false
+  },
+  {
+   "key": "B7g",
+   "text": "Gebruik de drivers en inhibitors daarom als checklist bij domein 5 en domein 6.",
+   "start": 337.11,
+   "dur": 5.1,
+   "audio": false
+  },
+  {
+   "key": "B8a",
+   "text": "Samengevat.",
+   "start": 343.11,
+   "dur": 0.71,
+   "audio": false
+  },
+  {
+   "key": "B8b",
+   "text": "CertifAIEd kijkt naar vier onderdelen, die passen bij domein 2, 4, 5 en 6.",
+   "start": 344.32,
+   "dur": 4.77,
+   "audio": false
+  },
+  {
+   "key": "B8c",
+   "text": "Kijk naar wat helpt, en naar wat tegenwerkt.",
+   "start": 349.59,
+   "dur": 2.84,
+   "audio": false
+  },
+  {
+   "key": "B8d",
+   "text": "En onderbouw elke score met bewijs, zoals een echte beoordelaar dat doet.",
+   "start": 352.93,
+   "dur": 4.71,
+   "audio": false
+  },
+  {
+   "key": "B9a",
+   "text": "Nu jij. Pak met je groep jullie snelle scan erbij.",
+   "start": 358.54,
+   "dur": 3.23,
+   "audio": false
+  },
+  {
+   "key": "B9b",
+   "text": "Welke inhibitor herken je bij jullie partner, of bij een leverancier?",
+   "start": 362.27,
+   "dur": 4.45,
+   "audio": false
+  },
+  {
+   "key": "B9c",
+   "text": "En wat betekent dat voor jullie score op domein 6? Neem je antwoord mee naar de online sessie.",
+   "start": 367.22,
+   "dur": 6.06,
+   "audio": false
+  }
+ ],
+ "total": 374.68,
+ "audioDir": "aud_kB",
+ "estimated": [
+  "B0a",
+  "B0b",
+  "B1a",
+  "B1b",
+  "B1c",
+  "B1d",
+  "B1e",
+  "B1f",
+  "B1g",
+  "B2a",
+  "B2b",
+  "B2c",
+  "B2d",
+  "B2e",
+  "B3a",
+  "B3b",
+  "B3c",
+  "B3d",
+  "B3e",
+  "B3f",
+  "B4a",
+  "B4b",
+  "B4c",
+  "B4d",
+  "B4e",
+  "B4f",
+  "BQ1",
+  "BQ1b",
+  "B5a",
+  "B5b",
+  "B5c",
+  "B5d",
+  "B5e",
+  "B5f",
+  "B5g",
+  "B6a",
+  "B6b",
+  "B6c",
+  "B6d",
+  "BQ2",
+  "BQ2b",
+  "B7a",
+  "B7b",
+  "B7c",
+  "B7d",
+  "B7e",
+  "B7f",
+  "B7g",
+  "B8a",
+  "B8b",
+  "B8c",
+  "B8d",
+  "B9a",
+  "B9b",
+  "B9c"
+ ]
+}

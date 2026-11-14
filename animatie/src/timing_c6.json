@@ -1,0 +1,248 @@
+{
+ "cues": [
+  {
+   "key": "t0",
+   "text": "Kennisclip 6: waar komt bias vandaan?",
+   "start": 0.8,
+   "dur": 2.39,
+   "audio": false
+  },
+  {
+   "key": "d1a",
+   "text": "Bias is een systematische scheefheid: geen toevallige fout, maar een fout die steeds dezelfde kant op valt, vaak voor dezelfde groep.",
+   "start": 3.99,
+   "dur": 8.58,
+   "audio": false
+  },
+  {
+   "key": "d1b",
+   "text": "In AI ontstaat bias zelden doordat iemand het zo wil.",
+   "start": 13.07,
+   "dur": 3.42,
+   "audio": false
+  },
+  {
+   "key": "d1c",
+   "text": "Het sluipt erin via de data, het label, de keuzes van de bouwer of het gebruik.",
+   "start": 16.89,
+   "dur": 5.1,
+   "audio": false
+  },
+  {
+   "key": "d1d",
+   "text": "We bekijken zes bronnen.",
+   "start": 22.39,
+   "dur": 1.55,
+   "audio": false
+  },
+  {
+   "key": "d2a",
+   "text": "Eén: historische bias. De data weerspiegelt een verleden dat al ongelijk was.",
+   "start": 24.84,
+   "dur": 4.97,
+   "audio": false
+  },
+  {
+   "key": "d2b",
+   "text": "Als Suribank vroeger weinig leningen gaf aan mensen met informeel werk, leert een model dat die groep minder kredietwaardig is, ook als dat vooral een gevolg was van eerdere keuzes.",
+   "start": 30.31,
+   "dur": 11.68,
+   "audio": false
+  },
+  {
+   "key": "d3a",
+   "text": "Twee: representatiebias. Een groep komt te weinig voor in de data.",
+   "start": 42.89,
+   "dur": 4.26,
+   "audio": false
+  },
+  {
+   "key": "d3b",
+   "text": "In de Suribank-data komt 17% van de aanvragen uit het binnenland.",
+   "start": 47.65,
+   "dur": 4.19,
+   "audio": false
+  },
+  {
+   "key": "d3c",
+   "text": "Over die groep weet het model dus minder. Dit was ook de oorzaak bij Gender Shades.",
+   "start": 52.34,
+   "dur": 5.35,
+   "audio": false
+  },
+  {
+   "key": "d4a",
+   "text": "Drie: meetbias. Een kenmerk wordt voor de ene groep slechter gemeten dan voor de andere.",
+   "start": 58.59,
+   "dur": 5.68,
+   "audio": false
+  },
+  {
+   "key": "d4b",
+   "text": "Wie een vaste baan heeft, kan het inkomen met een loonstrook aantonen.",
+   "start": 64.77,
+   "dur": 4.52,
+   "audio": false
+  },
+  {
+   "key": "d4c",
+   "text": "Wie informeel werkt, vaak niet: het inkomen ontbreekt of wordt te laag ingeschat.",
+   "start": 69.69,
+   "dur": 5.23,
+   "audio": false
+  },
+  {
+   "key": "q1",
+   "text": "Tussenvraag één. Bij mensen met informeel werk ontbreekt vaker het inkomen in de data. Welke bron van bias is dit? A: meetbias. B: gebruiksbias.",
+   "start": 75.82,
+   "dur": 9.29,
+   "audio": false
+  },
+  {
+   "key": "a1",
+   "text": "Het antwoord is A: meetbias. Het inkomen wordt voor die groep slechter gemeten.",
+   "start": 93.11,
+   "dur": 5.1,
+   "audio": false
+  },
+  {
+   "key": "d5a",
+   "text": "Vier: labelbias. Het label zelf is scheef.",
+   "start": 99.11,
+   "dur": 2.71,
+   "audio": false
+  },
+  {
+   "key": "d5b",
+   "text": "De bank weet alleen of iemand terugbetaalde als die persoon destijds een lening kreeg.",
+   "start": 102.22,
+   "dur": 5.55,
+   "audio": false
+  },
+  {
+   "key": "d5c",
+   "text": "Wie werd afgewezen, ontbreekt. Het model leert dus van een voorselectie.",
+   "start": 108.17,
+   "dur": 4.65,
+   "audio": false
+  },
+  {
+   "key": "d6a",
+   "text": "Vijf: aggregatiebias. Eén model voor iedereen kan voor de meeste mensen goed werken en voor een kleine groep slecht.",
+   "start": 113.72,
+   "dur": 7.48,
+   "audio": false
+  },
+  {
+   "key": "d6b",
+   "text": "Het gemiddelde verbergt dat. Daarom meet je prestaties per groep.",
+   "start": 121.7,
+   "dur": 4.19,
+   "audio": false
+  },
+  {
+   "key": "d7a",
+   "text": "Zes: gebruiksbias. Een model wordt gebruikt voor een situatie waarvoor het niet gemaakt is, of anders dan bedoeld.",
+   "start": 126.79,
+   "dur": 7.35,
+   "audio": false
+  },
+  {
+   "key": "d7b",
+   "text": "Bijvoorbeeld een model dat in de stad is getraind en nu ook in het binnenland wordt ingezet.",
+   "start": 134.64,
+   "dur": 5.94,
+   "audio": false
+  },
+  {
+   "key": "d8a",
+   "text": "Bias is een technisch begrip. Discriminatie is een juridisch en ethisch begrip: een ongerechtvaardigd onderscheid.",
+   "start": 141.48,
+   "dur": 7.35,
+   "audio": false
+  },
+  {
+   "key": "d8b",
+   "text": "De Surinaamse Grondwet verbiedt in artikel 8 discriminatie op onder meer geboorte, geslacht, ras en godsdienst, maar ook op economische positie en sociale omstandigheden.",
+   "start": 149.33,
+   "dur": 10.97,
+   "audio": false
+  },
+  {
+   "key": "d8c",
+   "text": "Voor een kredietmodel is dat interessant: rekening houden met inkomen is nodig om te beoordelen of iemand kan terugbetalen.",
+   "start": 160.8,
+   "dur": 7.94,
+   "audio": false
+  },
+  {
+   "key": "d8d",
+   "text": "De vraag is dus niet of er onderscheid is, maar of het gerechtvaardigd en proportioneel is.",
+   "start": 169.14,
+   "dur": 5.87,
+   "audio": false
+  },
+  {
+   "key": "q2",
+   "text": "Tussenvraag twee. Een kredietmodel houdt rekening met inkomen. Is dat discriminatie op grond van economische positie? A: ja, altijd. B: niet zonder meer: terugbetaalcapaciteit is een legitiem doel, maar het onderscheid moet proportioneel zijn en niet verder gaan dan nodig.",
+   "start": 175.91,
+   "dur": 17.61,
+   "audio": false
+  },
+  {
+   "key": "a2",
+   "text": "Het antwoord is B. Onderscheid is niet altijd discriminatie; het moet gerechtvaardigd en proportioneel zijn.",
+   "start": 201.52,
+   "dur": 6.97,
+   "audio": false
+  },
+  {
+   "key": "d9a",
+   "text": "Samengevat. Zes bronnen: historisch, representatie, meting, label, aggregatie en gebruik.",
+   "start": 209.39,
+   "dur": 5.74,
+   "audio": false
+  },
+  {
+   "key": "d9b",
+   "text": "Bias is technisch; of het discriminatie is, vraagt om een ethische en juridische afweging.",
+   "start": 215.63,
+   "dur": 5.81,
+   "audio": false
+  }
+ ],
+ "total": 223.44,
+ "audioDir": "aud_c6",
+ "estimated": [
+  "t0",
+  "d1a",
+  "d1b",
+  "d1c",
+  "d1d",
+  "d2a",
+  "d2b",
+  "d3a",
+  "d3b",
+  "d3c",
+  "d4a",
+  "d4b",
+  "d4c",
+  "q1",
+  "a1",
+  "d5a",
+  "d5b",
+  "d5c",
+  "d6a",
+  "d6b",
+  "d7a",
+  "d7b",
+  "d8a",
+  "d8b",
+  "d8c",
+  "d8d",
+  "q2",
+  "a2",
+  "d9a",
+  "d9b"
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "cues": [
+  {
+   "key": "i0",
+   "text": "Waarom maakt AI fouten? Een verhaal over Shanti.",
+   "start": 0.8,
+   "dur": 3.631
+  },
+  {
+   "key": "i2",
+   "text": "We kijken naar twee soorten fouten, en naar vier plekken waar fouten ontstaan.",
+   "start": 5.231,
+   "dur": 4.362
+  },
+  {
+   "key": "i3",
+   "text": "Het voorbeeld is Suribank. Dat is een verzonnen bank, met verzonnen gegevens. In practicum 1 ga je zelf met die gegevens werken.",
+   "start": 10.093,
+   "dur": 8.908
+  },
+  {
+   "key": "s0",
+   "text": "Dit is Shanti. Ze woont in Nickerie en verkoopt groente op de markt.",
+   "start": 20.001,
+   "dur": 4.441
+  },
+  {
+   "key": "s1",
+   "text": "Ze wil een lening van veertigduizend SRD, voor een eigen kraam met koeling.",
+   "start": 24.942,
+   "dur": 4.362
+  },
+  {
+   "key": "s2",
+   "text": "Ze vraagt de lening aan bij Suribank.",
+   "start": 29.804,
+   "dur": 2.194
+  },
+  {
+   "key": "s3",
+   "text": "Suribank laat elke aanvraag eerst beoordelen door een computermodel.",
+   "start": 32.499,
+   "dur": 4.049
+  },
+  {
+   "key": "s4",
+   "text": "Dat model geeft in negen van de tien gevallen het goede advies.",
+   "start": 37.048,
+   "dur": 3.631
+  },
+  {
+   "key": "s5",
+   "text": "Dat klinkt goed. Maar Suribank krijgt elke maand ongeveer duizend aanvragen.",
+   "start": 41.179,
+   "dur": 5.146
+  },
+  {
+   "key": "s6",
+   "text": "Dan vergist het model zich honderd keer. Elke maand weer.",
+   "start": 46.825,
+   "dur": 4.206
+  },
+  {
+   "key": "s7",
+   "text": "Achter elk van die honderd stipjes zit een mens. Zoals Shanti.",
+   "start": 52.431,
+   "dur": 3.866
+  },
+  {
+   "key": "s8",
+   "text": "Maar Shanti had de lening wél terugbetaald. Ze verdient genoeg. Alleen niet met een loonstrook.",
+   "start": 56.797,
+   "dur": 5.878
+  },
+  {
+   "key": "s9",
+   "text": "Deze fout heet: onterecht afgewezen.",
+   "start": 64.074,
+   "dur": 3.161
+  },
+  {
+   "key": "s10",
+   "text": "Er is ook een andere fout. Iemand krijgt een lening die hij niet kan terugbetalen. Dat heet: onterecht goedgekeurd.",
+   "start": 67.735,
+   "dur": 7.811
+  },
+  {
+   "key": "s11",
+   "text": "De eerste fout raakt vooral de aanvrager. De tweede vooral de bank. Welke fout erger is, is dus geen technische vraag. Het is een keuze over mensen.",
+   "start": 76.046,
+   "dur": 10.188
+  },
+  {
+   "key": "q1",
+   "text": "Even een vraag. Het model wijst de aanvraag af van iemand die de lening wel had terugbetaald. Welke fout is dit?",
+   "start": 87.633,
+   "dur": 7.393
+  },
+  {
+   "key": "q1b",
+   "text": "A: onterecht goedgekeurd. Of B: onterecht afgewezen. Zet de video stil en kies je antwoord.",
+   "start": 95.426,
+   "dur": 7.314
+  },
+  {
+   "key": "a1",
+   "text": "Het juiste antwoord is B: onterecht afgewezen. Het model wees af, en dat was niet terecht.",
+   "start": 107.74,
+   "dur": 6.844
+  },
+  {
+   "key": "v1",
+   "text": "Waarom ging het mis bij Shanti? Fouten ontstaan op vier plekken: in de data, in het label, in de kenmerken, en in het gebruik.",
+   "start": 115.784,
+   "dur": 9.091
+  },
+  {
+   "key": "d1",
+   "text": "De eerste plek is de data. Kijk naar de gegevens van Suribank.",
+   "start": 125.875,
+   "dur": 4.362
+  },
+  {
+   "key": "d2",
+   "text": "Bij mensen met informeel werk ontbreekt het inkomen in veertien procent van de aanvragen. Bij een vaste baan in minder dan twee procent.",
+   "start": 130.738,
+   "dur": 8.124
+  },
+  {
+   "key": "d3",
+   "text": "De gegevens zijn ook scheef verdeeld. Van de twaalfhonderd aanvragen komen er maar tweehonderdvier uit het binnenland.",
+   "start": 139.662,
+   "dur": 7.314
+  },
+  {
+   "key": "d4",
+   "text": "Over die groep weet het model dus minder. En wat het model niet goed kent, voorspelt het ook minder goed.",
+   "start": 147.476,
+   "dur": 6.426
+  },
+  {
+   "key": "l1",
+   "text": "De tweede plek is het label. Dat is wat het model moet leren voorspellen. Bij Suribank is dat de kolom terugbetaald: ja of nee.",
+   "start": 155.102,
+   "dur": 9.482
+  },
+  {
+   "key": "l2",
+   "text": "Maar de bank weet alleen of iemand terugbetaalde als die persoon vroeger een lening kreeg.",
+   "start": 165.084,
+   "dur": 4.911
+  },
+  {
+   "key": "l3",
+   "text": "Wie toen werd afgewezen, staat er niet in. Van die mensen weten we nooit of ze hadden terugbetaald.",
+   "start": 170.496,
+   "dur": 5.721
+  },
+  {
+   "key": "l4",
+   "text": "Keurde de bank vroeger vooral mensen met een vaste baan goed? Dan leert het model vooral over die groep.",
+   "start": 176.716,
+   "dur": 6.113
+  },
+  {
+   "key": "l5",
+   "text": "Het label is dus geen objectieve waarheid. Het is het gevolg van keuzes die de bank eerder maakte.",
+   "start": 183.329,
+   "dur": 5.956
+  },
+  {
+   "key": "p1",
+   "text": "De derde plek: verkapte kenmerken. In de oefengegevens betaalt negenenveertig procent van de aanvragers uit het binnenland terug. Aan de kust is dat eenenzestig procent.",
+   "start": 190.485,
+   "dur": 11.311
+  },
+  {
+   "key": "p2",
+   "text": "Ligt dat aan de woonplaats zelf? Of aan inkomen en soort werk, die in het binnenland anders verdeeld zijn?",
+   "start": 202.296,
+   "dur": 5.956
+  },
+  {
+   "key": "p3",
+   "text": "Een kenmerk als district kan via een omweg iets anders meten. Bijvoorbeeld afkomst, of armoede.",
+   "start": 208.752,
+   "dur": 6.687
+  },
+  {
+   "key": "p4",
+   "text": "Zo'n kenmerk heet een proxy. Het lastige is: je ziet het niet meteen.",
+   "start": 215.939,
+   "dur": 5.486
+  },
+  {
+   "key": "q2",
+   "text": "Nog een vraag. Een bank haalt de kolom district uit het model. Is het risico op ongelijke behandeling naar woonplaats daarmee weg?",
+   "start": 222.625,
+   "dur": 8.124
+  },
+  {
+   "key": "q2b",
+   "text": "A: ja, het model kan de woonplaats niet meer zien. Of B: nee, want andere kenmerken hangen samen met de woonplaats. Zet de video stil en kies.",
+   "start": 231.149,
+   "dur": 11.886
+  },
+  {
+   "key": "a2",
+   "text": "Het juiste antwoord is B. Via inkomen en soort werk kan het model de woonplaats toch een beetje raden.",
+   "start": 248.035,
+   "dur": 6.922
+  },
+  {
+   "key": "a2b",
+   "text": "Een kenmerk weglaten is dus niet hetzelfde als het effect weghalen. Blijf de uitkomsten per groep controleren. Dat doe je in week 3, in practicum 2.",
+   "start": 255.457,
+   "dur": 10.109
+  },
+  {
+   "key": "g1",
+   "text": "De vierde plek is het gebruik. Soms is het model goed, maar gaat het mis in hoe mensen het gebruiken.",
+   "start": 266.767,
+   "dur": 6.191
+  },
+  {
+   "key": "g2",
+   "text": "Het model wordt gebruikt voor een groep waarvoor het niet gemaakt is. Bijvoorbeeld voor kleine bedrijven, terwijl het leerde van particulieren.",
+   "start": 273.458,
+   "dur": 7.706
+  },
+  {
+   "key": "g3",
+   "text": "Medewerkers volgen het advies blind. Ze hebben weinig tijd, dus ze klikken op akkoord, ook als ze twijfelen.",
+   "start": 281.664,
+   "dur": 6.609
+  },
+  {
+   "key": "g4",
+   "text": "En een score die bedoeld was als hulpmiddel, wordt ineens de beslissing zelf. Niemand kijkt meer mee.",
+   "start": 288.773,
+   "dur": 6.034
+  },
+  {
+   "key": "z1",
+   "text": "Kort samengevat. AI geeft voorspellingen, geen zekerheden. Elk model maakt fouten.",
+   "start": 296.007,
+   "dur": 6.531
+  },
+  {
+   "key": "z2",
+   "text": "Die fouten ontstaan in de data, in het label, in de kenmerken en in het gebruik.",
+   "start": 303.038,
+   "dur": 5.956
+  },
+  {
+   "key": "z3",
+   "text": "En de belangrijkste vraag is: welke fout is erger, en voor wie? Dat is geen technische vraag. Het is een ethische vraag.",
+   "start": 309.493,
+   "dur": 8.281
+  },
+  {
+   "key": "z4",
+   "text": "Want achter elk percentage staan mensen. Zoals Shanti.",
+   "start": 318.574,
+   "dur": 3.788
+  },
+  {
+   "key": "e1",
+   "text": "Wat doe je nu? Bekijk clip 3, over fouten tellen.",
+   "start": 323.762,
+   "dur": 3.553
+  },
+  {
+   "key": "e2",
+   "text": "Denk na over één vraag: welke fout vind jij erger, en waarom?",
+   "start": 327.815,
+   "dur": 4.754
+  },
+  {
+   "key": "e3",
+   "text": "Daarna werk je in practicum 1 zelf met de gegevens van Suribank. Lever alles voor week 0 in vóór woensdag 6 januari, om één minuut voor middernacht. Tot in clip 3.",
+   "start": 333.069,
+   "dur": 12.356
+  }
+ ],
+ "total": 347.92,
+ "audioDir": "aud_v3"
+}

@@ -1,0 +1,117 @@
+[
+[
+"t0",
+"Kennisclip 8: automation bias.",
+0.8
+],
+[
+"d1a",
+"Automation bias is de neiging om een computer te volgen, ook als twijfel gepast is.",
+0.4
+],
+[
+"d1b",
+"Mensen zien fouten van het systeem over het hoofd, of nemen een advies over zonder het te controleren.",
+0.9
+],
+[
+"d2a",
+"Waarom gebeurt het? Door tijdsdruk. Omdat een computer objectief lijkt.",
+0.4
+],
+[
+"d2b",
+"Omdat afwijken moeite kost of verantwoord moet worden, terwijl meegaan nooit wordt gecontroleerd.",
+0.4
+],
+[
+"d2c",
+"En omdat het voelt alsof het systeem verantwoordelijk is.",
+0.9
+],
+[
+"d3a",
+"Een voorbeeld. Stel: een kredietmedewerker heeft 15 minuten per dossier en mag alleen afwijken van het advies met schriftelijk akkoord van het afdelingshoofd.",
+0.5
+],
+[
+"d3b",
+"Hoe vaak denk je dat zo'n medewerker afwijkt?",
+1.2
+],
+[
+"d3c",
+"Formeel zit er een mens in het proces. In de praktijk beslist het model.",
+0.9
+],
+[
+"d4a",
+"De toeslagenaffaire. In Nederland werden duizenden ouders onterecht als fraudeur behandeld, mede op basis van een risicomodel.",
+0.4
+],
+[
+"d4b",
+"Medewerkers en systemen versterkten elkaar, en getroffenen konden zich nauwelijks verweren.",
+0.4
+],
+[
+"d4c",
+"Een parlementaire commissie sprak in 2020 van ongekend onrecht.",
+0.9
+],
+[
+"d5a",
+"Betekenisvolle menselijke controle. Een mens heeft pas echt controle met genoeg informatie, genoeg tijd en de juiste kennis,",
+0.2
+],
+[
+"d5b",
+"met de bevoegdheid om af te wijken en een cultuur waarin afwijken mag,",
+0.2
+],
+[
+"d5c",
+"en met een registratie van afwijkingen, zodat je kunt zien of het werkt.",
+0.9
+],
+[
+"q1",
+"Tussenvraag. Een medewerker mag afwijken, maar alleen met schriftelijk akkoord, en heeft 15 minuten per dossier. Is er betekenisvolle menselijke controle? A: ja, er zit een mens tussen. B: twijfelachtig; de drempel om af te wijken is hoog en de tijd kort.",
+8.0
+],
+[
+"a1",
+"Het antwoord is B. Een mens in het proces is nog geen controle als afwijken bijna onmogelijk is.",
+0.9
+],
+[
+"d6a",
+"Bij generatieve AI. Een chatbot schrijft vloeiend en zelfverzekerd, ook als het antwoord niet klopt.",
+0.4
+],
+[
+"d6b",
+"Dat maakt automation bias sterker: wie een overtuigend antwoord krijgt, controleert minder.",
+0.4
+],
+[
+"d6c",
+"Een medewerker die een brief verstuurt die AI heeft geschreven, blijft verantwoordelijk voor de inhoud.",
+0.9
+],
+[
+"d7a",
+"Samengevat. Een mens in het proces is nog geen controle.",
+0.4
+],
+[
+"d7b",
+"Kijk naar informatie, tijd, kennis, bevoegdheid, cultuur en registratie.",
+0.4
+],
+[
+"d7c",
+"En hoe overtuigender het antwoord, hoe belangrijker de controle.",
+1.5
+]
+]

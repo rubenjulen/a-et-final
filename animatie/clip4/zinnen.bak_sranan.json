@@ -1,0 +1,19 @@
+[
+ ["i0","Kennisclip 4: wat is anders bij generatieve AI?",0.6],
+ ["i1","In clip 3 telde je de fouten van een kredietmodel. Zo'n model geeft een getal. Maar veel AI maakt tekst: een chatbot, een assistent, of een systeem dat een bestelling opneemt.",0.8],
+ ["c1","Shanti wil een koelinstallatie voor haar kraam. Ze bestelt die via de chatbot van een installatiebedrijf.",0.5],
+ ["c2","De chatbot zet haar gesprek om in een bestelling. Handig. Maar er komen vier nieuwe vragen bij.",0.9],
+ ["v1","Vraag één: kan het overtuigend fout zijn? Een taalmodel weet niet wat waar is. Het klinkt alleen zo.",0.5],
+ ["v1b","Shanti vraagt wanneer de installatie klaar is. De chatbot zegt: morgen, en gratis geplaatst. Maar dat heeft niemand afgesproken.",0.9],
+ ["q1","Even een vraag. Wie is verantwoordelijk voor dat verkeerde antwoord: het taalmodel, of het bedrijf dat de chatbot inzet? Zet de video stil en kies.",5.0],
+ ["a1","Het bedrijf. Een model kan geen verantwoordelijkheid dragen. Het bedrijf kiest het model, schrijft de instructies, en moet de fout herstellen.",0.9],
+ ["v2","Vraag twee: waar gaan de gegevens heen? Wat Shanti typt, haar naam, adres en telefoonnummer, gaat vaak naar een dienst van een ander bedrijf, in het buitenland.",0.5],
+ ["v2b","Bij maatkleding gaat het zelfs om lichaamsmaten. Worden die bewaard? Gebruikt om het model te verbeteren? Shanti weet het niet.",0.9],
+ ["v3","Vraag drie: weet de gebruiker dat het AI is? Shanti dacht dat ze met een medewerker sprak.",0.5],
+ ["v3b","Een goede chatbot zegt meteen dat het AI is, wat hij wel en niet kan, en hoe je een mens spreekt.",0.9],
+ ["v4","Vraag vier: helpt het iedereen even goed? Shanti's buurvrouw stelt dezelfde vraag in het Sranantongo. Zij krijgt een kort antwoord, of: ik begrijp uw vraag niet.",0.5],
+ ["v4b","In Suriname, met zoveel talen, is dat een echte vraag. In practicum 4 test je dat zelf, met jullie eigen oplossing.",0.9],
+ ["z1","Samengevat. Vier vragen bij generatieve AI. Kan het overtuigend fout zijn? Waar gaan de gegevens heen? Weet de gebruiker dat het AI is? En helpt het iedereen even goed?",1.0],
+ ["e1","Pak nu met je groep jullie eigen oplossing erbij. Welke van de vier vragen spelen bij jullie? Schrijf bij elke vraag één voorbeeld op.",0.5],
+ ["e2","Dat doe je in de opdracht: de eigen oplossing klaarzetten. In week 1 gaan we ermee verder. Tot dan!",1.5]
+]

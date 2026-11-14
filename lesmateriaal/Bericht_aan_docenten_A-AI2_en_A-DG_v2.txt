@@ -1,0 +1,67 @@
+Onderwerp: Afstemming AI & Ethics (A-ET) met A-AI2 en A-DG, minor AI 2026-2027
+
+Beste [naam docent A-AI2] en [naam docent A-DG],
+
+Vanaf januari verzorg ik binnen de minor AI de module AI & Ethics (A-ET). Die loopt in deel 2 tegelijk met jullie vakken, met dezelfde groepen. Ik wil graag dat studenten niets dubbel doen en dat de drie vakken elkaar versterken. Daarom stel ik deze taakverdeling voor:
+
+- A-DG: de data. Herkomst, kwaliteit, privacyregels en datamonitoring.
+- A-AI2: de werking van de oplossing. Bouw, architectuur, testen en technische monitoring.
+- A-ET: de gevolgen voor mensen en wie daarover beslist. Eerlijkheid, uitleg, menselijke controle, bezwaar en transparantie.
+
+Groepen onderzoeken in A-ET hun eigen oplossing uit A-AI2, met de partnerorganisatie als casus. Wat ze bij jullie maken, gebruiken ze als bewijs; ze schrijven het niet opnieuw. Het eindrapport van A-ET verwijst naar jullie documenten.
+
+Nieuw in A-ET is dat studenten werken met vijf erkende kaders, ingepast in één werkwijze: IEEE CertifAIEd, de Europese AI-verordening, ISO/IEC 42001 (managementsysteem voor AI), en de stof van de certificeringen AIGP en CEET. De AI-verordening geldt niet in Suriname; we gebruiken haar als vergelijking, en als eis wanneer een organisatie Europese klanten of data heeft. Juist omdat deze kaders ook over data en techniek gaan, wil ik de grens met jullie vakken goed afspreken.
+
+Voor A-AI2:
+1. Een testomgeving zonder echte klantgegevens. In week 4 (25 tot en met 29 januari) testen groepen hun oplossing met een vaste set vragen of testgevallen. In week 9 (1 tot en met 5 maart) doen ze dezelfde test opnieuw.
+2. Ruimte om tussen week 6 en week 9 minstens twee ethische maatregelen echt in te bouwen. Denk aan een melding dat de gebruiker met AI praat, overdracht aan een medewerker, of een extra controle voordat een order of aanvraag wordt afgewezen. Ik wil afstemmen hoe dat past in jullie planning en beoordeling.
+3. Een manier om de oplossing uit te zetten of terug te schakelen naar handwerk. In week 9 legt elke groep een stopcriterium vast: wanneer gaat het systeem uit, en wie beslist dat. Kan dat in n8n of de gebruikte omgeving ook echt, bijvoorbeeld met een schakelaar of een route naar een medewerker?
+4. De externe diensten. De orderagents gebruiken n8n, een taalmodel-API en een vectordatabase. In week 6 doen groepen een korte leverancierscheck: wat doet de leverancier met de gegevens (ook voor training), waar staan ze, wat wordt gelogd, en wat mag de agent zelf doen zonder mens? Weten jullie welke accounts en voorwaarden de groepen gebruiken? Dan kunnen ze naar jullie architectuurdocument verwijzen.
+5. Spraakberichten. Nemen de orderagents ook spraakberichten aan, bijvoorbeeld via WhatsApp? Sranantongo wordt veel gesproken maar weinig geschreven. Als de oplossing spraak aanneemt, testen groepen in practicum 4 ook of een ingesproken vraag in het Sranantongo even goed wordt geholpen.
+6. De datum van de AI Solutions Day, en of groepen daar ook hun ethische maatregelen en de hertest mogen laten zien. Het derde college van A-ET (de Design Review op 25 februari) dient als generale repetitie. Als je wilt, ben je daar van harte welkom als panellid.
+
+Voor A-DG:
+1. Hetzelfde juridisch kader. Ik behandel privacy als ethische vraag en verwijs voor de regels naar jullie vak: de Grondwet, de Surinaamse ontwerpwet Bescherming Privacy en Persoonsgegevens, en de AVG ter vergelijking. Ik wil graag weten welk kader en welke begrippen jullie gebruiken, zodat studenten hetzelfde horen.
+2. De grens bij de nieuwe kaders. Mijn voorstel:
+   - A-DG: datagovernance en datakwaliteit, de AVG, en de onderdelen van de AI-verordening en ISO/IEC 42001 die over data gaan (artikel 10 van de verordening, Annex A.7 van ISO/IEC 42001).
+   - A-ET: de risicoklasse en de rollen onder de AI-verordening, menselijk toezicht (artikel 14), transparantie (artikel 50), de impactbeoordeling voor grondrechten (artikel 27), en de governance van ethische besluiten.
+   Behandelen jullie de AI-verordening of ISO/IEC 42001 al? Dan pas ik mijn deel daarop aan.
+3. De impactbeoordeling. In A-ET maken groepen een AI-impactbeoordeling (de stakeholderkaart plus de nulmeting). Maken ze bij jullie een DPIA of privacy-impactanalyse? Dan verwijzen ze daarnaar en leggen ze alleen uit wat de AI-impactbeoordeling toevoegt.
+4. Een duidelijke grens bij monitoring. Het monitoringplan in A-ET gaat alleen over ethische signalen: verschillen tussen groepen, klachten, bezwaren en afwijkingen door medewerkers, plus een incidentroute en een stopcriterium. De datamonitoring laat ik bij jullie.
+5. Wanneer leveren groepen hun tussenproduct bij jullie in? Dan weet ik wanneer ze het als bewijs kunnen gebruiken.
+
+Voor jullie allebei: in welke weken vallen jullie toetsen? De deadlines van A-ET zijn donderdag 4 februari (Assessment 1) en donderdag 11 maart (eindrapport). Ik wil voorkomen dat alles in dezelfde week valt.
+
+Zullen we een half uur online overleggen, bijvoorbeeld eind november of begin december? Ik pas me aan aan jullie agenda. Het lesplan en een overzicht van hoe de kaders in de module zitten stuur ik graag vooraf mee.
+
+Met vriendelijke groet,
+
+Ruben
+
+
+------------------------------------------------------------
+KORTE VERSIE: als het eerste bericht al verstuurd is
+------------------------------------------------------------
+
+Onderwerp: Aanvulling afstemming A-ET met A-AI2 en A-DG
+
+Beste [naam docent A-AI2] en [naam docent A-DG],
+
+Een aanvulling op mijn eerdere bericht. [Naam docent A-AI2], dank voor je uitleg over de twee groepen met orderagents in n8n; daar heb ik het materiaal op aangepast.
+
+A-ET werkt nu met vijf erkende kaders in één werkwijze: IEEE CertifAIEd, de Europese AI-verordening (als vergelijking, want die geldt niet in Suriname), ISO/IEC 42001, en de stof van de certificeringen AIGP en CEET. Omdat die ook over data en techniek gaan, heb ik een paar extra vragen.
+
+Voor A-AI2:
+1. Kunnen groepen hun oplossing uitzetten of terugschakelen naar een medewerker? In week 9 leggen ze vast wanneer dat moet en wie beslist.
+2. Weten jullie welke externe diensten en voorwaarden de groepen gebruiken (n8n, taalmodel-API, vectordatabase)? In week 6 doen ze een korte leverancierscheck en verwijzen ze graag naar jullie architectuurdocument.
+3. Nemen de orderagents spraakberichten aan, bijvoorbeeld via WhatsApp? Dan testen groepen ook of een ingesproken vraag in het Sranantongo even goed wordt geholpen.
+
+Voor A-DG:
+1. Mijn voorstel voor de grens: A-DG doet datagovernance, de AVG en de data-onderdelen van de AI-verordening (artikel 10) en ISO/IEC 42001 (A.7). A-ET doet de risicoklasse, menselijk toezicht, transparantie, de impactbeoordeling voor grondrechten en de governance van ethische besluiten. Behandelen jullie de AI-verordening of ISO/IEC 42001 al?
+2. Maken groepen bij jullie een DPIA of privacy-impactanalyse? Dan verwijzen ze daarnaar vanuit hun AI-impactbeoordeling in A-ET.
+
+Kunnen we dit meenemen in het overleg? Ik stuur een overzicht van de kaders vooraf mee.
+
+Met vriendelijke groet,
+
+Ruben

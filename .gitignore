@@ -1,0 +1,11 @@
+node_modules/
+animatie/out/
+animatie/stills*/
+*.mp4.part
+.env
+.env.*
+__pycache__/
+*.pyc
+mycampus/upload/
+mycampus/*.zip
+.DS_Store

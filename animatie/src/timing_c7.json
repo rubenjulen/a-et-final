@@ -1,0 +1,224 @@
+{
+ "cues": [
+  {
+   "key": "t0",
+   "text": "Kennisclip 7: privacy als ethische vraag.",
+   "start": 0.8,
+   "dur": 2.65,
+   "audio": false
+  },
+  {
+   "key": "d1a",
+   "text": "In A-DG leer je de regels: wat persoonsgegevens zijn, welke gegevens gevoelig zijn, en beginselen zoals doelbinding en dataminimalisatie.",
+   "start": 4.25,
+   "dur": 8.84,
+   "audio": false
+  },
+  {
+   "key": "d1b",
+   "text": "Die herhalen we hier niet.",
+   "start": 13.49,
+   "dur": 1.68,
+   "audio": false
+  },
+  {
+   "key": "d1c",
+   "text": "In AI & Ethics gaat het om de vraag erachter: wat doet het met mensen, en is het verantwoord, ook waar de regels nog niet gelden?",
+   "start": 15.57,
+   "dur": 8.32,
+   "audio": false
+  },
+  {
+   "key": "d2a",
+   "text": "Wat AI anders maakt: AI kan dingen afleiden die niemand heeft opgegeven, zoals een gezondheidssituatie uit aankopen of draagkracht uit woonplaats.",
+   "start": 24.79,
+   "dur": 9.42,
+   "audio": false
+  },
+  {
+   "key": "d2b",
+   "text": "Dat heet inferentie.",
+   "start": 34.61,
+   "dur": 1.29,
+   "audio": false
+  },
+  {
+   "key": "d2c",
+   "text": "Ook kan AI gegevens zonder naam toch aan een persoon koppelen.",
+   "start": 36.4,
+   "dur": 4.0,
+   "audio": false
+  },
+  {
+   "key": "q1",
+   "text": "Tussenvraag één. Een dataset bevat geen namen, wel leeftijd, district en beroep. Is dat anoniem? A: ja. B: niet per se; de combinatie kan naar een persoon te herleiden zijn.",
+   "start": 41.3,
+   "dur": 11.16,
+   "audio": false
+  },
+  {
+   "key": "a1",
+   "text": "Het antwoord is B. Samen kunnen leeftijd, district en beroep naar één persoon wijzen.",
+   "start": 60.46,
+   "dur": 5.48,
+   "audio": false
+  },
+  {
+   "key": "d3a",
+   "text": "Wat je in een chatbot typt. Bij generatieve AI gaan gegevens vaak naar een externe dienst.",
+   "start": 66.84,
+   "dur": 5.81,
+   "audio": false
+  },
+  {
+   "key": "d3b",
+   "text": "Wat een medewerker of klant in een chatbot typt, kan buiten de organisatie worden verwerkt of bewaard.",
+   "start": 73.05,
+   "dur": 6.58,
+   "audio": false
+  },
+  {
+   "key": "d3c",
+   "text": "Vraag bij elke chatbot: waar gaat wat je typt naartoe, wie kan het lezen, en wordt het gebruikt om het model verder te trainen?",
+   "start": 80.03,
+   "dur": 8.19,
+   "audio": false
+  },
+  {
+   "key": "d3d",
+   "text": "En weet de klant dat zijn vraag daar terechtkomt?",
+   "start": 88.62,
+   "dur": 3.16,
+   "audio": false
+  },
+  {
+   "key": "d4a",
+   "text": "De situatie in Suriname. De Grondwet beschermt de persoonlijke levenssfeer.",
+   "start": 92.68,
+   "dur": 4.84,
+   "audio": false
+  },
+  {
+   "key": "d4b",
+   "text": "Een algemene privacywet is er nog niet: de ontwerpwet Bescherming Privacy en Persoonsgegevens ligt sinds 2020 bij De Nationale Assemblée.",
+   "start": 97.92,
+   "dur": 8.84,
+   "audio": false
+  },
+  {
+   "key": "d4c",
+   "text": "Die ontwerpwet regelt onder meer een onafhankelijke toezichthouder, regels voor het doorgeven van gegevens naar het buitenland, en in sommige gevallen een functionaris gegevensbescherming.",
+   "start": 107.16,
+   "dur": 12.13,
+   "audio": false
+  },
+  {
+   "key": "d5a",
+   "text": "Gegevens over de grens. Veel AI draait bij buitenlandse leveranciers.",
+   "start": 120.19,
+   "dur": 4.45,
+   "audio": false
+  },
+  {
+   "key": "d5b",
+   "text": "Stuurt Suribank klantdata naar een leverancier in Nederland, dan gelden daar Europese privacyregels.",
+   "start": 125.04,
+   "dur": 6.45,
+   "audio": false
+  },
+  {
+   "key": "d5c",
+   "text": "Hetzelfde geldt voor een chatbot die een taalmodel van een buitenlandse leverancier gebruikt.",
+   "start": 131.89,
+   "dur": 6.0,
+   "audio": false
+  },
+  {
+   "key": "d5d",
+   "text": "Welke afspraken zijn er gemaakt over beveiliging, bewaartermijn en hergebruik?",
+   "start": 138.29,
+   "dur": 5.03,
+   "audio": false
+  },
+  {
+   "key": "q2",
+   "text": "Tussenvraag twee. Een medewerker plakt een klantbrief in een gratis online chatbot om snel een antwoord te laten schrijven. Wat is het grootste ethische probleem? A: het antwoord kan te lang zijn. B: de gegevens van de klant gaan, zonder dat die het weet, naar een externe dienst.",
+   "start": 144.22,
+   "dur": 18.06,
+   "audio": false
+  },
+  {
+   "key": "a2",
+   "text": "Het antwoord is B. De klant weet niet dat zijn gegevens naar buiten gaan.",
+   "start": 170.28,
+   "dur": 4.71,
+   "audio": false
+  },
+  {
+   "key": "d6a",
+   "text": "Wettelijk is niet hetzelfde als verantwoord. Waar de wet nog zwijgt, is veel toegestaan.",
+   "start": 175.89,
+   "dur": 5.68,
+   "audio": false
+  },
+  {
+   "key": "d6b",
+   "text": "Maar de ethische vraag blijft: zou je klanten recht in de ogen kunnen kijken als zij wisten wat er met hun gegevens gebeurt?",
+   "start": 181.97,
+   "dur": 8.0,
+   "audio": false
+  },
+  {
+   "key": "d7a",
+   "text": "Samengevat. Privacy is meer dan regels volgen.",
+   "start": 190.87,
+   "dur": 2.97,
+   "audio": false
+  },
+  {
+   "key": "d7b",
+   "text": "AI kan afleiden wat niemand heeft opgegeven, en bij generatieve AI gaan gegevens vaak naar buiten.",
+   "start": 194.24,
+   "dur": 6.32,
+   "audio": false
+  },
+  {
+   "key": "d7c",
+   "text": "De regels leer je in A-DG; hier vraag je of het verantwoord is voor de mensen om wie het gaat.",
+   "start": 200.96,
+   "dur": 6.06,
+   "audio": false
+  }
+ ],
+ "total": 209.02,
+ "audioDir": "aud_c7",
+ "estimated": [
+  "t0",
+  "d1a",
+  "d1b",
+  "d1c",
+  "d2a",
+  "d2b",
+  "d2c",
+  "q1",
+  "a1",
+  "d3a",
+  "d3b",
+  "d3c",
+  "d3d",
+  "d4a",
+  "d4b",
+  "d4c",
+  "d5a",
+  "d5b",
+  "d5c",
+  "d5d",
+  "q2",
+  "a2",
+  "d6a",
+  "d6b",
+  "d7a",
+  "d7b",
+  "d7c"
+ ]
+}

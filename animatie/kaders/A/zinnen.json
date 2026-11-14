@@ -1,0 +1,167 @@
+[
+[
+"A0",
+"Kaderclip A: het kaderlandschap.",
+0.5
+],
+[
+"A1",
+"Shanti vraagt een lening aan bij Suribank. Een model beslist mee of ze die krijgt.",
+0.5
+],
+[
+"A2",
+"Hoe weet je of dat verantwoord is? Daar bestaan veel kaders en normen voor. Op het eerste gezicht is dat een flinke stapel.",
+0.5
+],
+[
+"A3",
+"In deze clip zie je dat ze allemaal in één kader passen. Dat kader heeft vier lagen.",
+0.9
+],
+[
+"A4",
+"De eerste laag is wat. Wat beoordeel je? Dat zijn de elf domeinen, zoals fairness, privacy en menselijke controle.",
+0.5
+],
+[
+"A5",
+"De tweede laag is hoe. Hoe pak je het aan? Met het NIST AI Risk Management Framework: besturen, in kaart brengen, meten en beheersen.",
+0.5
+],
+[
+"A6",
+"De derde laag is waarom. Waarom vind je iets goed of fout? Dat onderbouw je met de UNESCO-aanbeveling en de vier ethische lenzen.",
+0.5
+],
+[
+"A7",
+"De vierde laag is waar. Welke regels gelden hier? Dat zijn de Surinaamse wet en het beleid, en buitenlandse regels als die nodig zijn.",
+0.5
+],
+[
+"A8",
+"Wat, hoe, waarom en waar. Met die vier vragen kun je elke AI-toepassing doorlichten, ook die van jullie eigen groep.",
+0.9
+],
+[
+"A8b",
+"Een voorbeeld bij Shanti. Wordt ze vaker afgewezen omdat ze in Nickerie woont? Dat is een vraag in de laag wat, bij het domein fairness.",
+0.9
+],
+[
+"A9",
+"In de praktijk kom je meer kaders tegen. Het goede nieuws: ze passen allemaal in deze vier lagen.",
+0.5
+],
+[
+"A10",
+"IEEE CertifAIEd hoort bij wat. Het toetst vier dingen: transparantie, verantwoording, algoritmische bias en privacy. In week 3 gebruik je die vier als checklist bij de nulmeting.",
+0.5
+],
+[
+"A11",
+"ISO/IEC 42001 en AIGP horen bij hoe. Ze laten zien hoe een organisatie AI bestuurt, van ontwikkeling tot gebruik.",
+0.5
+],
+[
+"A11b",
+"Denk aan de orderagent van Frisco Installaties. Wie mag de agent aanpassen, en wie zet hem uit als het misgaat? Dat zijn vragen in de laag hoe.",
+0.5
+],
+[
+"A12",
+"De Europese AI-verordening hoort bij waar. Die wet geldt niet in Suriname. Wij gebruiken haar als vergelijking: wat zou daar verplicht zijn?",
+0.5
+],
+[
+"A13",
+"Heeft een organisatie Europese klanten of data, dan kan de verordening wel gelden.",
+0.5
+],
+[
+"A13b",
+"Voor Suribank zou de verordening streng zijn. Een model dat de kredietwaardigheid van mensen beoordeelt, geldt daar als hoog risico.",
+0.5
+],
+[
+"A14",
+"Je leert ze kennen in week 3, 4, 6 en 8, telkens in een korte kaderclip. Je hoeft ze niet uit je hoofd te kennen.",
+0.9
+],
+[
+"AQ1",
+"Tussenvraag. Een organisatie wil weten hoe ze AI stap voor stap bestuurt, van ontwikkeling tot gebruik. In welke laag zoek je? A, wat. B, hoe. C, waarom.",
+8
+],
+[
+"AQ1b",
+"Het antwoord is B, hoe. Daar horen het NIST-kader, ISO/IEC 42001 en AIGP.",
+0.9
+],
+[
+"A15",
+"Kijk nog even naar de laag waarom. De vier lenzen komen uit de ethiek, en elke lens heeft een naam.",
+0.5
+],
+[
+"A16",
+"Gevolgen is utilitarisme. Je kijkt naar baten en schade, voor iedereen die geraakt wordt.",
+0.5
+],
+[
+"A17",
+"Rechten en plichten is deontologie. Sommige grenzen gelden altijd, hoe nuttig iets ook is.",
+0.5
+],
+[
+"A18",
+"Rechtvaardigheid is de rechtvaardigheidstheorie van Rawls. Zijn kansen en lasten eerlijk verdeeld, ook voor wie het zwakst staat?",
+0.5
+],
+[
+"A19",
+"Professionele integriteit is deugdethiek, samen met beroepscodes. Wat doet een goede vakman in deze situatie?",
+0.5
+],
+[
+"A20",
+"In het dilemma-canvas noem je straks de lens én de theorie. Zo laat je zien waar je oordeel op rust, en kan een ander je redenering volgen.",
+0.9
+],
+[
+"AQ2",
+"Tussenvraag. Welke theorie hoort bij de lens rechten en plichten? A, utilitarisme. B, deontologie. C, deugdethiek.",
+8
+],
+[
+"AQ2b",
+"Het antwoord is B, deontologie: grenzen die gelden, ongeacht het nut.",
+0.9
+],
+[
+"A21",
+"Samengevat: één kader met vier lagen, en elk ander kader past erin.",
+0.5
+],
+[
+"A21b",
+"Kom je een nieuwe norm tegen? Vraag dan: in welke laag hoort deze? Zo raak je het overzicht niet kwijt.",
+0.5
+],
+[
+"A22",
+"Er zijn ook certificeringen, zoals CEET. Die toetsen of iemand het geheel beheerst. Voor ons zijn ze een kompas, geen examenstof.",
+0.5
+],
+[
+"A23",
+"In week 10 zie je welke certificeringen er zijn, als je na de minor verder wilt.",
+0.9
+],
+[
+"A24",
+"Pak nu jullie eigen oplossing erbij. Bij welke laag liggen jullie grootste vragen? Schrijf er één op voor het college.",
+0.5
+]
+]

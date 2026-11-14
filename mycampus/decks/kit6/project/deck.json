@@ -1,0 +1,70 @@
+{
+ "v": 5,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-13T22:10:00Z"
+ },
+ "lists": "css",
+ "format": {
+  "v": 1,
+  "shared": [
+   "project/deck.css"
+  ]
+ },
+ "title": "Opnamekit week 6: clips 15–17",
+ "order": [
+  "cover",
+  "opnemen",
+  "c15-titel",
+  "c15-1",
+  "c15-2",
+  "c15-3",
+  "c15-4",
+  "c15-5",
+  "c16-titel",
+  "c16-1",
+  "c16-2",
+  "c16-3",
+  "c16-4",
+  "c16-5",
+  "c16-6",
+  "c16-7",
+  "c17-titel",
+  "c17-1",
+  "c17-2",
+  "c17-3",
+  "c17-4",
+  "c17-5",
+  "c17-6",
+  "c17-7"
+ ],
+ "sections": {
+  "s0": {
+   "description": "Opnamekit en werkwijze",
+   "start": "cover"
+  },
+  "s15": {
+   "description": "Clip 15: De gewenste situatie bepalen",
+   "start": "c15-titel"
+  },
+  "s16": {
+   "description": "Clip 16: Van risico naar toetsbare eis",
+   "start": "c16-titel"
+  },
+  "s17": {
+   "description": "Clip 17: Maatregelen ontwerpen, en wat overblijft",
+   "start": "c17-titel"
+  }
+ },
+ "faces": {
+  "source-serif-4": {
+   "family": "Source Serif 4",
+   "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400..700&display=swap"
+  },
+  "public-sans": {
+   "family": "Public Sans",
+   "href": "https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap"
+  }
+ },
+ "designSystems": []
+}

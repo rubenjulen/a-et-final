@@ -1,0 +1,26 @@
+Onderwerp: Vragen over naamgeving en inrichting MyCampus, AI & Ethics (A-ET), minor AI
+
+Beste collega's van de administratie,
+
+Ik richt de module AI & Ethics (A-ET) van de minor AI in op MyCampus; de module start in december (week 0) en loopt van januari tot en met maart 2027. Ik volg de naamgevingsconventie uit de handleiding en heb een paar vragen om het meteen goed te doen.
+
+1. Studierichting. De minor AI wordt gevolgd door studenten van HBO-Bedrijfskunde en HBO-ICT. Welke code gebruiken we als studierichting in de namen: een eigen code voor de minor (bijvoorbeeld "MAI A-ET Studiewijzer"), "BK", "ICT", of iets anders? Ik wil dezelfde code gebruiken als de andere vakken van de minor.
+
+2. Slides. De conventie noemt "College" met een nummer. A-ET heeft drie fysieke colleges en zeven online sessies, elke week één contactmoment. Ik stel voor alle slides te nummeren op weeknummer: "[code] A-ET College 1" tot en met "College 10". Is dat akkoord, of heeft u liever een andere naam voor de online sessies?
+
+3. Bestandstypen en grootte. Naast pdf's wil ik Excel- en Word-sjablonen, zipbestanden met een Python-notebook en datasets voor de practica, en kennisclips als mp4 (tot ongeveer 35 MB per clip) plaatsen. Kan dat allemaal op MyCampus, en is er een maximale bestandsgrootte? Of moeten video's via een link?
+
+4. Weekchecks. Studenten maken elke week een korte toets van vijf meerkeuzevragen, die niet meetelt voor het cijfer. Kan dat op MyCampus als toets, en zo ja: kan de student na afloop het juiste antwoord en de feedback zien?
+
+5. Inleverpunten. Er zijn groepsopdrachten (één inlevering per groep) en individuele opdrachten. Kan een inleverpunt per groep worden ingesteld, en kan ik een deadline met tijd instellen (bijvoorbeeld donderdag 23:59)?
+
+6. Zichtbaarheid. Kan ik materiaal vooraf klaarzetten en pas op een bepaalde datum zichtbaar maken? Sommige dia's mogen pas na de sessie worden gedeeld.
+
+7. Eindcijfer. Ik laat het onderdeel "[code] A-ET Eindtoets Assignment" ongewijzigd, zoals de handleiding vraagt. Moet ik daar zelf iets voor inrichten, of zet de administratie dit klaar?
+
+Graag hoor ik het. Als het handiger is, licht ik het in een kort gesprek toe.
+
+Met vriendelijke groet,
+
+Ruben
+Docent AI & Ethics (A-ET), minor AI

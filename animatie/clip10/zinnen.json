@@ -1,0 +1,137 @@
+[
+[
+"i0",
+"Kennisclip 10: uitleg die werkt.",
+1.8
+],
+[
+"a1",
+"Transparantie: mensen weten dat AI wordt gebruikt en waarvoor.",
+0.4
+],
+[
+"a2",
+"Uitlegbaarheid: je kunt uitleggen waarom een bepaalde uitkomst eruit kwam.",
+0.4
+],
+[
+"a3",
+"Traceerbaarheid: je kunt achteraf nagaan wat er gebeurde, met welke gegevens en welke versie van het model.",
+0.9
+],
+[
+"b1",
+"Je kunt een model kiezen dat zelf te begrijpen is, zoals een beslisboom met een paar vragen of een eenvoudige puntentelling.",
+0.4
+],
+[
+"b2",
+"Of je gebruikt een complex model en maakt achteraf een uitleg, bijvoorbeeld van de belangrijkste factoren.",
+0.4
+],
+[
+"b3",
+"Die uitleg achteraf is een benadering.",
+0.4
+],
+[
+"b4",
+"Rudin pleit daarom voor de eerste weg bij beslissingen met grote gevolgen.",
+0.9
+],
+[
+"c1",
+"De aanvrager wil weten welke factoren de doorslag gaven en wat die zelf kan doen.",
+0.4
+],
+[
+"c2",
+"De medewerker wil weten hoe zeker het model is en wanneer afwijken verstandig is.",
+0.4
+],
+[
+"c3",
+"De toezichthouder wil weten hoe het model werkt, hoe het getest is, en of het voor alle groepen goed werkt.",
+0.4
+],
+[
+"c4",
+"Eén uitleg voor iedereen werkt dus niet.",
+0.9
+],
+[
+"d1",
+"Een sterke vorm van uitleg zegt wat er anders had moeten zijn voor een andere uitkomst.",
+0.4
+],
+[
+"d2",
+"Dat heet een contrafactische uitleg.",
+0.4
+],
+[
+"d3",
+"Die is begrijpelijk en geeft de aanvrager iets om mee te doen.",
+0.4
+],
+[
+"d4",
+"Maar let op: als het antwoord is: als u in Paramaribo had gewoond, dan zegt de uitleg vooral iets over de eerlijkheid van het model.",
+0.9
+],
+[
+"q1",
+"Tussenvraag 1. Welke uitleg is contrafactisch? A: uw score was 41%. B: met een looptijd van 24 in plaats van 12 maanden was uw aanvraag goedgekeurd.",
+8
+],
+[
+"q1b",
+"Het antwoord is B. Die uitleg zegt wat er anders had moeten zijn.",
+0.9
+],
+[
+"e1",
+"Een medewerker kan alleen zinvol afwijken als die begrijpt waarom het model iets zegt.",
+0.4
+],
+[
+"e2",
+"En een aanvrager kan alleen bezwaar maken als die weet waarop de beslissing rust.",
+0.4
+],
+[
+"e3",
+"Uitleg is dus een voorwaarde voor menselijke controle en voor bezwaar.",
+0.9
+],
+[
+"q2",
+"Tussenvraag 2. Een aanvrager hoort: uw woonplaats verlaagde uw score. Wat is het probleem? A: geen; het is eerlijke uitleg. B: de aanvrager kan er niets aan doen, en het wijst op mogelijke ongelijke behandeling.",
+8
+],
+[
+"q2b",
+"Het antwoord is B. Aan zijn woonplaats kan de aanvrager weinig doen, en het wijst op mogelijke ongelijke behandeling.",
+0.9
+],
+[
+"z1",
+"Samengevat.",
+0.3
+],
+[
+"z2",
+"Transparantie, uitlegbaarheid en traceerbaarheid zijn drie verschillende dingen.",
+0.4
+],
+[
+"z3",
+"Kies bij grote gevolgen liever een begrijpelijk model.",
+0.4
+],
+[
+"z4",
+"Pas de uitleg aan de doelgroep aan, en gebruik waar het kan een als-dan.",
+1.0
+]
+]

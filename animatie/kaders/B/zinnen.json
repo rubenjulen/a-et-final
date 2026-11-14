@@ -1,0 +1,277 @@
+[
+[
+"B0a",
+"Kaderclip B: hoe toets je of een AI-systeem eerlijk en open werkt?",
+0.5
+],
+[
+"B0b",
+"In clip 9 en 10 zag je fouten per groep en uitleg die werkt. Nu kijk je mee met een echte beoordelaar.",
+0.9
+],
+[
+"B1a",
+"IEEE is de grootste beroepsvereniging van ingenieurs ter wereld.",
+0.5
+],
+[
+"B1b",
+"Met CertifAIEd beoordeelt IEEE of een AI-systeem ethisch werkt. Een systeem dat slaagt, krijgt een keurmerk.",
+0.5
+],
+[
+"B1c",
+"Er is ook een certificaat voor de mensen die zulke beoordelingen doen. Je kijkt dus mee met een vak.",
+0.5
+],
+[
+"B1d",
+"Een beoordelaar kijkt naar vier onderdelen: transparantie, verantwoording, algoritmische bias en privacy.",
+0.5
+],
+[
+"B1e",
+"Die vier ken je al. In ons kader horen ze bij de laag wat.",
+0.5
+],
+[
+"B1f",
+"Transparantie is domein 6. Verantwoording is domein 2. Bias is domein 5. En privacy is domein 4.",
+0.5
+],
+[
+"B1g",
+"Privacy werk je vooral uit bij A-DG. In deze clip gaat het om transparantie en bias.",
+0.9
+],
+[
+"B2a",
+"Per onderdeel kijkt CertifAIEd naar twee soorten factoren.",
+0.5
+],
+[
+"B2b",
+"Drivers maken het waarschijnlijker dat een systeem ethisch werkt.",
+0.5
+],
+[
+"B2c",
+"Inhibitors werken het tegen, vaak om redenen die je best begrijpt.",
+0.5
+],
+[
+"B2d",
+"Een bedrijf wil geen claims. Of het wil een slim idee niet weggeven aan de concurrent.",
+0.5
+],
+[
+"B2e",
+"Wie alleen naar de drivers kijkt, ziet goede bedoelingen. Wie ook naar de inhibitors kijkt, ziet waarom die bedoelingen in de praktijk stranden.",
+0.9
+],
+[
+"B3a",
+"Neem de orderagent van Frisco Installaties.",
+0.5
+],
+[
+"B3b",
+"Een klant die denkt dat hij een medewerker spreekt, vertrouwt een belofte over prijs of levertijd. Klopt die niet, dan voelt hij zich bedrogen.",
+0.5
+],
+[
+"B3c",
+"Bij transparantie is een driver dat de klant meteen weet dat die met AI praat.",
+0.5
+],
+[
+"B3d",
+"Een andere driver: de werking is helder beschreven. Wat kan de agent wel, en wat niet?",
+0.5
+],
+[
+"B3e",
+"De klant kan ingrijpen en feedback geven, en er is een alternatief: een medewerker.",
+0.5
+],
+[
+"B3f",
+"Ook telt of het systeem zich voorspelbaar gedraagt, en of de organisatie dat volhoudt, van ontwerp tot gebruik.",
+0.5
+],
+[
+"B4a",
+"Daartegenover staan drie inhibitors.",
+0.5
+],
+[
+"B4b",
+"Gedrag verhullen: het systeem verbergt wat het doet, of probeert mensen ongemerkt te sturen.",
+0.5
+],
+[
+"B4c",
+"Angst voor aansprakelijkheid: je vertelt zo weinig mogelijk, zodat niemand je kan aanspreken.",
+0.5
+],
+[
+"B4d",
+"En een bedrijfsgeheim beschermen: de werking blijft dicht, omdat een concurrent zou kunnen meekijken.",
+0.5
+],
+[
+"B4e",
+"Stel dat Frisco niet mag zeggen welke taaldienst de agent gebruikt, omdat het contract met de leverancier dat verbiedt. Dan weet de klant ook niet waar zijn gegevens heen gaan.",
+0.5
+],
+[
+"B4f",
+"Zegt een organisatie: dat kunnen we niet vertellen? Dan zit er vaak een van die drie achter. Vraag dan welke.",
+0.9
+],
+[
+"BQ1",
+"Tussenvraag. Een bedrijf vertelt klanten niet dat een chatbot hun vragen beantwoordt, uit angst voor claims als het misgaat. Wat is dit volgens CertifAIEd? A: een driver van transparantie. B: een inhibitor, angst voor aansprakelijkheid.",
+8
+],
+[
+"BQ1b",
+"Het antwoord is B. De reden om te zwijgen is angst voor claims, en dat werkt transparantie tegen.",
+0.9
+],
+[
+"B5a",
+"Nu algoritmische bias. Denk aan het kredietmodel van Suribank uit practicum 2.",
+0.5
+],
+[
+"B5b",
+"Een driver is dat je de context van alle betrokkenen begrijpt, ook die van Shanti in Nickerie.",
+0.5
+],
+[
+"B5c",
+"Een tweede: je onderbouwt waarom je een beschermd kenmerk gebruikt of weglaat, zoals geslacht of district.",
+0.5
+],
+[
+"B5d",
+"Weglaten alleen is niet genoeg. Een ander kenmerk kan het district alsnog verraden. Dat heet een proxy.",
+0.5
+],
+[
+"B5e",
+"Verder volg je het gedrag per groep, ook na livegang.",
+0.5
+],
+[
+"B5f",
+"En je houdt een biasprofiel bij: de organisatie kan bias corrigeren als die opduikt.",
+0.5
+],
+[
+"B5g",
+"Doet niemand dat, dan gaat het mis zoals in practicum 2: de goede betalers in het binnenland betaalden de prijs.",
+0.5
+],
+[
+"B6a",
+"Er is één inhibitor: gebrek aan procestransparantie.",
+0.5
+],
+[
+"B6b",
+"Weet niemand waar de data vandaan komt en hoe besluiten tot stand kwamen? Dan kan ook niemand de bias meten.",
+0.5
+],
+[
+"B6c",
+"Dat zag je in practicum 2: pas toen je per groep keek, werd het verschil zichtbaar.",
+0.5
+],
+[
+"B6d",
+"Bij een orderagent is het niet anders. Zonder logboek van de gesprekken kun je niet nagaan of klanten uit de districten slechter geholpen worden.",
+0.9
+],
+[
+"BQ2",
+"Tussenvraag. Een bank laat district weg uit het model, maar legt niet vast waarom, en meet de uitkomsten per regio niet. Welke drivers ontbreken vooral? A: weten dat je met AI praat. B: het gebruik van beschermde kenmerken onderbouwen en het gedrag per groep volgen.",
+8
+],
+[
+"BQ2b",
+"Het antwoord is B. Iets weglaten zonder uitleg en zonder meting is geen bewijs dat het model eerlijk is.",
+0.9
+],
+[
+"B7a",
+"Hoe komt een beoordelaar tot een oordeel?",
+0.5
+],
+[
+"B7b",
+"Per doel vraagt die bewijs: een document, een test of een gesprek. Daarna volgt een score van 1 tot 5.",
+0.5
+],
+[
+"B7c",
+"Een score zonder bewijs telt niet.",
+0.5
+],
+[
+"B7d",
+"Dat is dezelfde logica als jullie snelle scan en de nulmeting.",
+0.5
+],
+[
+"B7e",
+"Neem domein 6 bij Frisco. Je bewijs is de begroeting van de agent en je test uit practicum 4. Je geeft een score, met dat bewijs erbij.",
+0.5
+],
+[
+"B7f",
+"Houdt een bedrijfsgeheim de score laag? Noem die inhibitor dan als reden. Zo ziet de lezer waar de verbetering moet beginnen.",
+0.5
+],
+[
+"B7g",
+"Gebruik de drivers en inhibitors daarom als checklist bij domein 5 en domein 6.",
+0.9
+],
+[
+"B8a",
+"Samengevat.",
+0.5
+],
+[
+"B8b",
+"CertifAIEd kijkt naar vier onderdelen, die passen bij domein 2, 4, 5 en 6.",
+0.5
+],
+[
+"B8c",
+"Kijk naar wat helpt, en naar wat tegenwerkt.",
+0.5
+],
+[
+"B8d",
+"En onderbouw elke score met bewijs, zoals een echte beoordelaar dat doet.",
+0.9
+],
+[
+"B9a",
+"Nu jij. Pak met je groep jullie snelle scan erbij.",
+0.5
+],
+[
+"B9b",
+"Welke inhibitor herken je bij jullie partner, of bij een leverancier?",
+0.5
+],
+[
+"B9c",
+"En wat betekent dat voor jullie score op domein 6? Neem je antwoord mee naar de online sessie.",
+0.9
+]
+]

@@ -1,0 +1,157 @@
+[
+[
+"i0",
+"Kennisclip 9: fouten per groep.",
+1.8
+],
+[
+"a1",
+"Het Suribank-model heeft 69% goed.",
+0.4
+],
+[
+"a2",
+"Dat zegt niets over de vraag of het voor iedereen even goed werkt.",
+0.4
+],
+[
+"a3",
+"Bij Gender Shades was het gemiddelde ook prima, terwijl één groep tot 35% foute uitkomsten kreeg.",
+0.4
+],
+[
+"a4",
+"Daarom meet je fouten per groep.",
+0.9
+],
+[
+"b1",
+"Stel per groep drie vragen.",
+0.4
+],
+[
+"b2",
+"Welk deel wordt goedgekeurd?",
+0.4
+],
+[
+"b3",
+"Van de mensen die wél zouden terugbetalen: welk deel wordt onterecht afgewezen?",
+0.4
+],
+[
+"b4",
+"En van de mensen die niet zouden terugbetalen: welk deel wordt onterecht goedgekeurd?",
+0.9
+],
+[
+"c1",
+"In groep X worden 20 van de 100 goede betalers afgewezen: 20% onterecht afgewezen.",
+0.4
+],
+[
+"c2",
+"In groep Y zijn dat er 40: 40%.",
+0.4
+],
+[
+"c3",
+"Een goede betaler uit groep Y heeft dus twee keer zoveel kans om ten onrechte geen lening te krijgen.",
+0.4
+],
+[
+"c4",
+"Het idee dat goede betalers in elke groep dezelfde kans moeten hebben, heet gelijke kansen.",
+0.9
+],
+[
+"q1",
+"Tussenvraag 1. In het binnenland zijn er 50 goede betalers, van wie het model er 15 afwijst. Hoeveel procent is onterecht afgewezen? A: 15%. B: 30%. C: 50%.",
+8
+],
+[
+"q1b",
+"Het antwoord is B. 15 van de 50 is 30%.",
+0.9
+],
+[
+"d1",
+"Er zijn meerdere manieren om eerlijk te definiëren.",
+0.4
+],
+[
+"d2",
+"Elke groep even vaak goedkeuren.",
+0.3
+],
+[
+"d3",
+"Goede betalers in elke groep even weinig onterecht afwijzen.",
+0.3
+],
+[
+"d4",
+"Of ervoor zorgen dat een goedkeuring in elke groep even betrouwbaar is.",
+0.4
+],
+[
+"d5",
+"Als groepen verschillen in hoe vaak ze terugbetalen, kun je niet aan alle drie tegelijk voldoen.",
+0.4
+],
+[
+"d6",
+"Je moet dus kiezen, en die keuze onderbouwen. Dat is een ethische keuze, geen technische.",
+0.9
+],
+[
+"e1",
+"Stel dat in een groep minder dan de helft terugbetaalt.",
+0.4
+],
+[
+"e2",
+"Een model dat iedereen in die groep afwijst, heeft dan voor die groep vaker gelijk.",
+0.4
+],
+[
+"e3",
+"Maar alle goede betalers in die groep betalen de prijs.",
+0.4
+],
+[
+"e4",
+"Een hogere nauwkeurigheid kan dus samengaan met meer onrecht. In practicum 2 zie je dat met eigen ogen.",
+0.9
+],
+[
+"q2",
+"Tussenvraag 2. Een nieuw model is nauwkeuriger dan het oude. Is het daarmee ook eerlijker? A: ja. B: niet per se; kijk naar de fouten per groep.",
+8
+],
+[
+"q2b",
+"Het antwoord is B: niet per se. Kijk altijd naar de fouten per groep.",
+0.9
+],
+[
+"z1",
+"Samengevat.",
+0.3
+],
+[
+"z2",
+"Meet per groep: goedgekeurd, onterecht afgewezen en onterecht goedgekeurd.",
+0.4
+],
+[
+"z3",
+"Er bestaan meerdere definities van eerlijk, en je moet kiezen.",
+0.4
+],
+[
+"z4",
+"Nauwkeuriger is niet hetzelfde als eerlijker.",
+1.0
+]
+]
