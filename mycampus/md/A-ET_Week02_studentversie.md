@@ -37,7 +37,7 @@
 > **Vóór het college:**
 >
 > 1. Lever met je groep vóór dinsdag 23:59 drie vragen voor de gastspreker en twee debatstellingen in, elk met twee bronnen.
-> 2. Bekijk clip 6, 7 en 8. *35 minuten*
+> 2. Bekijk clip 6, 7 en 8. *23 minuten*
 > 3. Lees de kernbron. *15 minuten*
 > 4. Doe de weekcheck, met je standpunt, vóór woensdag 23:59. *15 minuten*
 >
@@ -53,7 +53,7 @@ Lees daarnaast in de UNESCO-aanbeveling de principes over fairness en non-discri
 
 Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt direct feedback. De gesproken tekst staat in de bijlage achteraan, om mee te lezen.
 
-### Clip 6. Waar komt bias vandaan? (8 minuten)
+### Clip 6. Waar komt bias vandaan? (4 minuten)
 
 **Video:** [link volgt op MyCampus]
 
@@ -63,7 +63,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 
 > **Tussenvraag 2.** Een kredietmodel houdt rekening met inkomen. Is dat discriminatie op grond van economische positie? A. Ja, altijd. B. Niet zonder meer: terugbetaalcapaciteit is een legitiem doel, maar het onderscheid moet proportioneel zijn en niet verder gaan dan nodig.
 
-### Clip 7. Privacy als ethische vraag (8 minuten)
+### Clip 7. Privacy als ethische vraag (4 minuten)
 
 **Video:** [link volgt op MyCampus]
 
@@ -73,7 +73,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 
 > **Tussenvraag 2.** Een medewerker plakt een klantbrief in een gratis online chatbot om snel een antwoord te laten schrijven. Wat is het grootste ethische probleem? A. Het antwoord kan te lang zijn. B. De gegevens van de klant gaan, zonder dat die het weet, naar een externe dienst.
 
-### Clip 8. Automation bias (7 minuten)
+### Clip 8. Automation bias (3 minuten)
 
 **Video:** [link volgt op MyCampus]
 
@@ -155,7 +155,7 @@ AI wordt vaak gebruikt door de ene partij, maar raakt een andere partij met mind
 
 **Toelichting.** De groep aanvragers uit het binnenland of met informeel werk heeft de minste macht en loopt het meeste risico, en is niet betrokken bij het ontwerp. Die groep verdient in de verdere analyse de meeste aandacht.
 
-![K2-voorbeeld: Suribank, macht tegenover kwetsbaarheid](/tmp/claude-0/-home-user-menssana/175e1d50-6875-5f56-acf6-23260f0c6b9a/scratchpad/mycampus/pdf/img/w02_k2.png)
+![K2-voorbeeld: Suribank, macht tegenover kwetsbaarheid](img/w02_k2.png)
 
 *K2-voorbeeld · Suribank, macht tegenover kwetsbaarheid*
 
@@ -207,7 +207,7 @@ In week 3 werk je dit uit met de vier vragen bij generatieve AI; in week 4 test 
 
 **Conclusie van het voorbeeld.** De grootste risico's zitten niet alleen in het model, maar in stap 1, 5, 6 en 7: de meting van informeel inkomen, de hoge drempel om af te wijken, het ontbreken van uitleg en het ontbreken van een bezwaarroute.
 
-![K3-voorbeeld: Suribank, procesplaat met risicopunten](/tmp/claude-0/-home-user-menssana/175e1d50-6875-5f56-acf6-23260f0c6b9a/scratchpad/mycampus/pdf/img/w02_k3.png)
+![K3-voorbeeld: Suribank, procesplaat met risicopunten](img/w02_k3.png)
 
 *K3-voorbeeld · Suribank, procesplaat met risicopunten*
 
@@ -284,7 +284,7 @@ Neem alle 11 domeinen op. Bij een domein dat voor jullie casus weinig speelt, vo
 
 ## Bijlage: tekst van de kennisclips (meelezen)
 
-### Clip 6. Waar komt bias vandaan? (8 minuten)
+### Clip 6. Waar komt bias vandaan? (4 minuten)
 
 **Dia 1. Wat is bias?** Bias is een systematische scheefheid: geen toevallige fout, maar een fout die steeds dezelfde kant op valt, vaak voor dezelfde groep. In AI ontstaat bias zelden doordat iemand het zo wil. Het sluipt erin via de data, het label, de keuzes van de bouwer of het gebruik. We bekijken zes bronnen.
 
@@ -308,7 +308,7 @@ Neem alle 11 domeinen op. Bij een domein dat voor jullie casus weinig speelt, vo
 
 **Dia 9. Samengevat.** Zes bronnen: historisch, representatie, meting, label, aggregatie en gebruik. Bias is technisch; of het discriminatie is, vraagt om een ethische en juridische afweging.
 
-### Clip 7. Privacy als ethische vraag (8 minuten)
+### Clip 7. Privacy als ethische vraag (4 minuten)
 
 **Dia 1. Wat je uit A-DG al kent.** In A-DG leer je de regels: wat persoonsgegevens zijn, welke gegevens gevoelig zijn, en beginselen zoals doelbinding en dataminimalisatie. Die herhalen we hier niet. In AI & Ethics gaat het om de vraag erachter: wat doet het met mensen, en is het verantwoord, ook waar de regels nog niet gelden?
 
@@ -328,7 +328,7 @@ Neem alle 11 domeinen op. Bij een domein dat voor jullie casus weinig speelt, vo
 
 **Dia 7. Samengevat.** Privacy is meer dan regels volgen. AI kan afleiden wat niemand heeft opgegeven, en bij generatieve AI gaan gegevens vaak naar buiten. De regels leer je in A-DG; hier vraag je of het verantwoord is voor de mensen om wie het gaat.
 
-### Clip 8. Automation bias (7 minuten)
+### Clip 8. Automation bias (3 minuten)
 
 **Dia 1. Wat is automation bias?** Automation bias is de neiging om een computer te volgen, ook als twijfel gepast is. Mensen zien fouten van het systeem over het hoofd, of nemen een advies over zonder het te controleren.
 

@@ -177,7 +177,7 @@ Kies je voor accepteren? Dan noem je wie dat besluit neemt (een functie met die 
 
 ## K7 deel 1b: maatregelen en restrisico
 
-![Van risico R-03 naar restrisico: elke stap volgt uit de vorige (voorbeeld Suribank)](/tmp/claude-0/-home-user-menssana/175e1d50-6875-5f56-acf6-23260f0c6b9a/scratchpad/mycampus/pdf/img/w06_keten_R03.png)
+![Van risico R-03 naar restrisico: elke stap volgt uit de vorige (voorbeeld Suribank)](img/w06_keten_R03.png)
 
 De keten hierboven is de kern van K7: elke maatregel hoort bij een eis, elke eis bij een risico. Een maatregel die nergens bij hoort, is geen ontwerp maar een wens.
 

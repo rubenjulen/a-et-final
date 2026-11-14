@@ -32,9 +32,9 @@
 >
 > 1. Vul het intakeformulier in. *5 minuten*
 > 2. Bekijk clip 1: Van deel 1 naar AI & Ethics. *8 minuten*
-> 3. Bekijk clip 2: Waarom maakt AI fouten? Beantwoord de vragen in de clip. *12 minuten*
-> 4. Bekijk clip 3: Fouten tellen. *10 minuten*
-> 5. Bekijk clip 4: Wat is anders bij generatieve AI? *12 minuten*
+> 3. Bekijk clip 2: Waarom maakt AI fouten? Beantwoord de vragen in de clip. *10 minuten*
+> 4. Bekijk clip 3: Fouten tellen. *7 minuten*
+> 5. Bekijk clip 4: Wat is anders bij generatieve AI? *7 minuten*
 > 6. Installeer Orange, of open het notebook als je in Python werkt. *20 minuten*
 > 7. Maak practicum 1 en vul evidence card 1 in. *75 minuten*
 > 8. Zet met je groep jullie eigen oplossing klaar. *30 minuten*
@@ -110,7 +110,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 >
 > A. Werkt het? B. Is het verantwoord?
 
-### Clip 2. Waarom maakt AI fouten? (8 minuten)
+### Clip 2. Waarom maakt AI fouten? (6 minuten)
 
 **Video:** [link volgt op MyCampus]
 
@@ -124,7 +124,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 >
 > A. Ja, het model kan de woonplaats nu niet meer zien. B. Nee, want andere kenmerken, zoals inkomen en soort werk, hangen samen met de woonplaats.
 
-### Clip 3. Fouten tellen (7 minuten)
+### Clip 3. Fouten tellen (4 minuten)
 
 **Video:** [link volgt op MyCampus]
 
@@ -138,7 +138,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 >
 > A. Uitstekend model. B. Nauwelijks beter dan altijd ja zeggen.
 
-### Clip 4. Wat is anders bij generatieve AI? (8 minuten)
+### Clip 4. Wat is anders bij generatieve AI? (3 minuten)
 
 **Video:** [link volgt op MyCampus]
 
@@ -352,7 +352,7 @@ Dinsdag 5 januari, 19:00 tot 20:00, online. Voor hulp bij de installatie en vrag
 
 **Dia 5. Samengevat.** Je kent de techniek. Nu kijk je naar de mensen die de gevolgen merken. We beginnen bij de fouten die AI maakt: daarover gaan clip 2 en 3.
 
-### Clip 2. Waarom maakt AI fouten? (8 minuten)
+### Clip 2. Waarom maakt AI fouten? (6 minuten)
 
 **Dia 1. Negentig procent goed.** Stel dat een kredietmodel in 90 procent van de gevallen gelijk heeft. Klinkt goed. Maar bij 1.000 aanvragen per maand zijn dat 100 mensen over wie het model zich vergist. Elke maand weer. Wie zijn die mensen, en wat gebeurt er met ze?
 
@@ -372,7 +372,7 @@ Dinsdag 5 januari, 19:00 tot 20:00, online. Voor hulp bij de installatie en vrag
 
 **Dia 7. Samengevat.** AI geeft voorspellingen, geen zekerheden. Fouten ontstaan in de data, in het label, in de kenmerken en in het gebruik. En de vraag welke fout erger is, en voor wie, is een ethische vraag. Daar gaat deze module over. In clip 3 leer je die fouten tellen.
 
-### Clip 3. Fouten tellen (7 minuten)
+### Clip 3. Fouten tellen (4 minuten)
 
 **Dia 1. Vier mogelijkheden.** Een kredietmodel voorspelt ja of nee: deze persoon betaalt terug of niet. Later weten we wat er werkelijk gebeurde. Dat geeft vier mogelijkheden. Die zetten we in een vierkant: de verwarringsmatrix.
 
@@ -392,7 +392,7 @@ Dinsdag 5 januari, 19:00 tot 20:00, online. Voor hulp bij de installatie en vrag
 
 **Dia 7. Samengevat.** Tel de fouten per soort. Precisie is de bril van de bank, recall de bril van de aanvrager. Welke fout zwaarder telt, is geen rekensom maar een ethische keuze.
 
-### Clip 4. Wat is anders bij generatieve AI? (8 minuten)
+### Clip 4. Wat is anders bij generatieve AI? (3 minuten)
 
 **Dia 1. Voorspellen of maken.** Een kredietmodel geeft een getal. Een chatbot of assistent maakt iets nieuws: een tekst, een samenvatting, een advies. Veel oplossingen uit A-AI1 en A-AI2 zijn van die tweede soort. De ethische vragen lijken op die bij een kredietmodel, maar er komen er vier bij.
 

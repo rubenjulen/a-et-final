@@ -441,7 +441,7 @@ Een directeur leest jullie rapport van 12 pagina's niet. Wel één pagina. Wat m
 
 **Verantwoord inzetbaar:** de risico's zijn beheerst; doorgaan met monitoring. **Inzetbaar onder voorwaarden:** doorgaan mag, mits bepaalde maatregelen er op tijd zijn; zo niet, dan stoppen of terugschalen. **Nu niet:** de risico's zijn te groot of niet te beheersen binnen redelijke tijd; stoppen, herontwerpen of niet beginnen.
 
-Het oordeel in de eerste zin. Dan: waarom (drie redenen, waarvan minstens één uit de hertest), de voorwaarden (toetsbaar, met termijn en eigenaar), het restrisico en wie het accepteert, en wat het oordeel kan veranderen.
+Zeven vaste onderdelen. Het oordeel in de eerste zin. Dan: waarom (drie redenen, waarvan minstens één uit de hertest), wat het oplevert, de voorwaarden (toetsbaar, met termijn en eigenaar), het restrisico en wie het accepteert, wat het oordeel kan veranderen, en de managementreview met het stopcriterium en de datum van de volgende review.
 
 De bezwaarroute werkt binnen drie maanden" is beter dan "er komt een bezwaarroute". Nog beter: "Werkt de bezwaarroute op 1 juli niet, dan gaan alle afwijzingen weer handmatig.
 

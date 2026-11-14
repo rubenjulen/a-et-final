@@ -4,7 +4,7 @@
 >
 > In het college zagen we hoe een AI-uitkomst gevolgen krijgt voor mensen, en dat werken, mogen en verantwoord zijn drie verschillende vragen. Deze week leggen jullie vast wat jullie precies onderzoeken, en bereid je het debat van college 2 voor.
 >
-> 1. Bekijk clip 5: Wie beslist er eigenlijk? *8 minuten*
+> 1. Bekijk clip 5: Wie beslist er eigenlijk? *6 minuten*
 > 2. Bekijk kaderclip A: Het kaderlandschap. Beantwoord de vragen in de clip. 7 minuten
 > 3. Lees de kernbron: de waarden en principes uit de UNESCO-aanbeveling. *25 minuten*
 > 4. Werk met je groep het K1-canvas uit en leg jullie teamafspraken vast. Spreek kort met jullie partner of A-AI2-coach. *2,5 uur*
@@ -116,7 +116,7 @@ Het canvas legt vast wat de groep precies onderzoekt. Zonder heldere afbakening 
 
 Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt direct feedback. De gesproken tekst staat in de bijlage achteraan, om mee te lezen.
 
-### Clip 5. Wie beslist er eigenlijk? (6 minuten)
+### Clip 5. Wie beslist er eigenlijk? (3 minuten)
 
 **Video:** [link volgt op MyCampus]
 
@@ -172,7 +172,7 @@ Elke groep levert uiterlijk dinsdag 12 januari, 23:59 in:
 
 ## Bijlage: tekst van de kennisclips (meelezen)
 
-### Clip 5. Wie beslist er eigenlijk? (6 minuten)
+### Clip 5. Wie beslist er eigenlijk? (3 minuten)
 
 **Dia 1. Uitkomst, beslissing, gevolg.** Bij elke AI-oplossing kun je drie dingen onderscheiden: wat het systeem maakt, wat er daarna mee gebeurt, en wat mensen daarvan merken. In het K1-canvas schrijf je die apart op. Wie ze door elkaar haalt, ziet niet waar het mis kan gaan.
 

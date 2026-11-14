@@ -51,7 +51,7 @@ De module is blended: drie colleges van 3 uur, zeven online sessies van een uur,
 
 **De wekelijkse leerloop.** Elke week volgt dezelfde zes stappen.
 
-1. **Leren.** Twee of drie korte kennisclips van 5 tot 9 minuten en één kernbron. In week 1, 3, 4, 6 en 8 komt daar een kaderclip bij (A tot en met E) over een erkend kader.
+1. **Leren.** Twee of drie korte kennisclips van 3 tot 9 minuten en één kernbron. In week 1, 3, 4, 6 en 8 komt daar een kaderclip bij (A tot en met E) over een erkend kader.
 2. **Checken.** Een weekcheck met vijf kennisvragen en een korte logboekregel.
 3. **Doen.** Een praktijkopdracht, casus of AI-practicum.
 4. **Bespreken.** Het college of de online sessie: eerst een debatstelling, daarna wordt het onderwerp toegepast op het eigen rapport.

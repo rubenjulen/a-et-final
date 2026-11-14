@@ -86,7 +86,7 @@ Video: [link volgt op MyCampus]
 
 Kort herhaald. In Nederland krijgen werkende ouders een toeslag van de overheid voor de kosten van kinderopvang. De Belastingdienst (afdeling Toeslagen) betaalt die als voorschot en stelt later het definitieve bedrag vast. Tussen ongeveer 2013 en 2019 werden tienduizenden ouders ten onrechte behandeld als fraudeur. De parlementaire ondervragingscommissie sprak in december 2020 van "ongekend onrecht" aan meer dan 25.000 ouders, en concludeerde dat grondbeginselen van de rechtsstaat waren geschonden.
 
-![Het risicomodel was één schakel; de erkenning kwam pas jaren later (toeslagenaffaire, 2013 tot 2024)](/tmp/claude-0/-home-user-menssana/175e1d50-6875-5f56-acf6-23260f0c6b9a/scratchpad/mycampus/pdf/img/w07_tijdlijn_toeslagen.png)
+![Het risicomodel was één schakel; de erkenning kwam pas jaren later (toeslagenaffaire, 2013 tot 2024)](img/w07_tijdlijn_toeslagen.png)
 
 ### Vier lagen die samen de schade veroorzaakten
 

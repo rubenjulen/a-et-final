@@ -48,7 +48,7 @@ Alle bestanden zitten samen in BK-ICT A-ET Practicum 2 en 3.zip op MyCampus.
 >
 > **Vóór donderdag:**
 >
-> 1. Bekijk clip 9: Fouten per groep. *10 minuten*
+> 1. Bekijk clip 9: Fouten per groep. *6 minuten*
 > 2. Maak practicum 2: het bias-experiment. *75 minuten*
 > 3. Doe de weekcheck, met je eigen uitkomsten van practicum 2 en je standpunt, vóór woensdag 23:59. *20 minuten*
 >
@@ -56,7 +56,7 @@ Alle bestanden zitten samen in BK-ICT A-ET Practicum 2 en 3.zip op MyCampus.
 >
 > **Vóór zondag 23:59:**
 >
-> 1. Bekijk clip 10: Uitleg die werkt. Lees de kernbron en de studietekst over generatieve AI. *40 minuten*
+> 1. Bekijk clip 10: Uitleg die werkt. Lees de kernbron en de studietekst over generatieve AI. *37 minuten*
 > 2. Bekijk kaderclip B: IEEE CertifAIEd, transparantie en bias toetsen. Beantwoord de vragen in de clip. 10 minuten
 > 3. Maak practicum 3 en vul evidence card 2 en 3 in. *45 minuten*
 > 4. Maak met je groep de snelle scan (K4) van jullie eigen oplossing. *3,5 uur, inclusief eerste gesprekken*
@@ -69,7 +69,7 @@ Alle bestanden zitten samen in BK-ICT A-ET Practicum 2 en 3.zip op MyCampus.
 
 ## Kennisclips
 
-### Clip 9. Fouten per groep (7 minuten)
+### Clip 9. Fouten per groep (3 minuten)
 
 Video: [link volgt op MyCampus]
 
@@ -78,7 +78,7 @@ Vragen in de clip:
 - **Tussenvraag 1.** In het binnenland zijn er 50 goede betalers, van wie het model er 15 afwijst. Hoeveel procent is onterecht afgewezen? A. 15%. B. 30%. C. 50%.
 - **Tussenvraag 2.** Een nieuw model is nauwkeuriger dan het oude. Is het daarmee ook eerlijker? A. Ja. B. Niet per se; kijk naar de fouten per groep.
 
-### Clip 10. Uitleg die werkt (7 minuten)
+### Clip 10. Uitleg die werkt (4 minuten)
 
 Video: [link volgt op MyCampus]
 
@@ -305,7 +305,7 @@ Sluit woensdag 20 januari om 23:59.
 
 ## Bijlage: tekst van de kennisclips (meelezen)
 
-### Clip 9. Fouten per groep (7 minuten)
+### Clip 9. Fouten per groep (3 minuten)
 
 **Dia 1. Het gemiddelde verbergt.** Het Suribank-model heeft 69% goed. Dat zegt niets over de vraag of het voor iedereen even goed werkt. Bij Gender Shades was het gemiddelde ook prima, terwijl één groep tot 35% foute uitkomsten kreeg. Daarom meet je fouten per groep.
 
@@ -323,7 +323,7 @@ Sluit woensdag 20 januari om 23:59.
 
 **Dia 6. Samengevat.** Meet per groep: goedgekeurd, onterecht afgewezen en onterecht goedgekeurd. Er bestaan meerdere definities van eerlijk, en je moet kiezen. Nauwkeuriger is niet hetzelfde als eerlijker.
 
-### Clip 10. Uitleg die werkt (7 minuten)
+### Clip 10. Uitleg die werkt (4 minuten)
 
 **Dia 1. Drie begrippen.** Transparantie: mensen weten dat AI wordt gebruikt en waarvoor. Uitlegbaarheid: je kunt uitleggen waarom een bepaalde uitkomst eruit kwam. Traceerbaarheid: je kunt achteraf nagaan wat er gebeurde, met welke gegevens en welke versie van het model.
 
