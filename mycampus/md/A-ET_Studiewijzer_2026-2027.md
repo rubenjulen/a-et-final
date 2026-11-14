@@ -8,11 +8,11 @@ Hier staat alles wat je moet weten om goed te starten. Tijden zijn Surinaamse ti
 
 | Wanneer | Wat | Groep of individueel | Telt mee |
 | --- | --- | --- | --- |
-| Elke woensdag, 23:59 | Weekcheck: kennisvragen, logboekregel en standpunt | Individueel | Nee |
+| Elke woensdag, 23:59 (week 1: zondag 10 januari) | Weekcheck: kennisvragen, logboekregel en standpunt | Individueel | Nee |
 | Elke zondag, 23:59 | Rapportstuk van die week | Groep | Via A1 en A2 |
 | Woensdag 6 januari, 23:59 | Week 0 af: intake, practicum 1 met evidence card, beschrijving van de eigen oplossing, beginquiz | Individueel en groep | Nee |
 | Zondag 10 januari, 23:59 | K1-canvas met teamafspraken | Groep | Via A1 |
-| Dinsdag 12 januari, 23:59 | Drie vragen voor de gastspreker en twee debatstellingen | Groep | Nee |
+| Dinsdag 12 januari, 23:59 | Drie vragen voor de gastspreker en twee debatstellingen (bij ICT A-ET Voorbereiding college 2) | Groep | Nee |
 | Zondag 31 januari, 23:59 | Concept K4, K5 en K6 naar de peergroep (conceptronde vóór A1) | Groep | Nee |
 | Maandag 1 februari, 23:59 | Peerfeedback terug | Groep | Nee |
 | **Donderdag 4 februari, 23:59** | **Assessment 1:** tussenrapport, dilemma-canvas, AI-verklaring en peerbeoordeling | Groep en individueel | **Ja, 30%** |
@@ -276,6 +276,8 @@ Elke sessie bestaat uit 20 minuten uitleg, 25 minuten toepassing op het eigen ra
 **Weekcheck.** Elke woensdag vijf kennisvragen en een korte logboekregel over de eigen bijdrage aan het rapport. Dit telt niet mee voor het cijfer, maar laat zien hoe elke student vordert. In week 1, 3, 4, 6 en 8 gaat één van de vijf vragen over de kaderclip van die week.
 
 **Feedback.** Op maandag een kort bericht met de meest voorkomende fouten van vorige week. Op donderdag persoonlijke feedback aan twee groepen per week, op volgorde. In week 4, 7 en 9 geven groepen elkaar feedback met drie vaste vragen.
+
+**Exit ticket.** Aan het eind van elk college en elke online sessie beantwoord je drie korte vragen bij ICT A-ET Exit ticket college N (N is het weeknummer). Het telt niet mee voor het cijfer; de docent gebruikt de antwoorden voor het feedforward-bericht van maandag.
 
 **Vroeg signaleren.** Wie twee weken geen weekcheck doet of een rapportstuk mist, krijgt een persoonlijk bericht.
 
