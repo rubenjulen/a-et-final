@@ -354,6 +354,15 @@ Je mag generatieve AI gebruiken, bijvoorbeeld om te brainstormen, teksten te ver
 | Practica | ICT A-ET Practicum 1, ICT A-ET Practicum 2 en 3, ICT A-ET Practicum 4 en ICT A-ET Practicum 5 (zip met notebook, Orange-workflow en datasets) |
 | Dia's per week | ICT A-ET College 1 tot en met ICT A-ET College 10 |
 | Kennisclips | ICT A-ET Kennisclip 1 tot en met 22, en de kaderclips A tot en met E |
+| Kaderkaart (het denkkader op één pagina) | ICT A-ET Kaderkaart.pdf |
+| Begrippenlijst | ICT A-ET Begrippenlijst.pdf |
+| Bronnenlijst (kernbronnen, casussen en kaders met links) | ICT A-ET Bronnenlijst.pdf |
+| Veelgestelde vragen | ICT A-ET Veelgestelde vragen.pdf |
+| Installatiehandleiding (Orange, Python, Colab) | ICT A-ET Installatiehandleiding.pdf |
+| Toestemmingsformulier voor interviews | ICT A-ET Toestemmingsformulier interview.docx |
+| Peerfeedback in week 4, 7 en 9 | ICT A-ET Peerfeedback.docx |
+| Voorbeeld van de feedback die je krijgt | ICT A-ET Voorbeeld feedback.pdf |
+| Alle deadlines voor je agenda | ICT A-ET Deadlines.ics |
 
 Op MyCampus heten de dia's per week 'ICT A-ET College N', ook in de weken met een online sessie; N is het weeknummer.
 

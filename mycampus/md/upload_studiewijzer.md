@@ -43,3 +43,18 @@ De bronbestanden in de scratchpad hebben nog hun werknaam; `mycampus/tools/build
 In `99_Docent_niet_uploaden/Opnamekits/` staan de opnamekits als pdf met sprekersnotities na elke dia:
 Opnamekit_Week00_clip1.pdf, Opnamekit_Week04_clips_11-13.pdf, Opnamekit_Week05_clip_14.pdf, Opnamekit_Week06_clips_15-17.pdf, Opnamekit_Week07_clips_18-20.pdf, Opnamekit_Week09_clips_21-22.pdf.
 Om op te nemen in PowerPoint: open het deck op claude.ai, exporteer via Share › Export naar pptx, en neem per clip op (Opnemen › Vanaf huidige dia; Exporteren › Video maken, 1080p). De mp4 komt daarna bij de week op MyCampus.
+
+
+## Naslag en hulpmiddelen (map 00_Algemeen/Naslag, onder Lesmateriaal)
+
+| Bestand | Waar op MyCampus | Wanneer |
+| --- | --- | --- |
+| ICT A-ET Kaderkaart.pdf | Lesmateriaal, bovenaan | Vanaf week 1 (bij kaderclip A) |
+| ICT A-ET Begrippenlijst.pdf | Lesmateriaal | Vanaf week 0 |
+| ICT A-ET Bronnenlijst.pdf | Lesmateriaal | Vanaf week 0 |
+| ICT A-ET Veelgestelde vragen.pdf | Lesmateriaal; aanvullen tijdens de module | Vanaf week 0 |
+| ICT A-ET Installatiehandleiding.pdf | Lesmateriaal, en link in week 0 | Vanaf week 0 (vóór het inloopmoment van 5 januari) |
+| ICT A-ET Toestemmingsformulier interview.docx | Lesmateriaal, en link in week 2 | Vanaf week 2; vul vooraf [naam en e-mail docent] in |
+| ICT A-ET Peerfeedback.docx | Lesmateriaal, en link in week 4, 7 en 9 | Vanaf week 4 |
+| ICT A-ET Voorbeeld feedback.pdf | Lesmateriaal, onder Toetsing | Vanaf week 1 |
+| ICT A-ET Deadlines.ics | Lesmateriaal, bovenaan | Vanaf week 0; opnieuw uploaden als een datum verandert |

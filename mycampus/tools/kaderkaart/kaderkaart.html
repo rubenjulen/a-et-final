@@ -1,0 +1,89 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><style>
+__FONTFACES__
+@page{size:A4 landscape;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;width:297mm;height:210mm}
+body{font-family:'PS',Arial,sans-serif;color:#1C2421;background:#F6F3EC;font-size:9.6pt;line-height:1.34}
+.page{padding:8mm 10mm 7mm;height:210mm;display:flex;flex-direction:column;gap:3.2mm}
+.top{display:flex;justify-content:space-between;align-items:flex-end;border-left:5px solid #E3A92B;padding-left:9px}
+.kicker{font-size:7pt;letter-spacing:1.4px;text-transform:uppercase;color:#2F6B4F;font-weight:700}
+h1{font-family:'SS',Georgia,serif;font-weight:700;font-size:20pt;color:#12312A;margin:1px 0 0}
+.lead{font-size:8.6pt;color:#44504B;max-width:118mm;text-align:right}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:3mm;flex:1;min-height:0}
+.layer{background:#FFFDF8;border:1px solid #E2DACB;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}
+.lh{background:#12312A;color:#FFFDF8;padding:6px 9px}
+.lh .q{font-family:'SS',Georgia,serif;font-weight:700;font-size:15pt;color:#E3A92B;line-height:1}
+.lh .f{font-size:9pt;opacity:.92;margin-top:2px}
+.lb{padding:8px 10px;display:flex;flex-direction:column;gap:6px}
+.t{font-weight:700;color:#12312A;font-size:9.8pt}
+.chip{display:inline-block;background:#EDE7DA;border-radius:10px;padding:1px 7px;margin:1px 2px 1px 0;font-size:8.6pt}
+.chip.g{background:#2F6B4F;color:#fff}
+.chip.a{background:#E3A92B;color:#12312A}
+ol.dom{margin:0;padding-left:15px}
+ol.dom li{margin:0.6px 0}
+.lens{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.lens div{background:#F6F3EC;border-radius:5px;padding:4px 6px}
+.lens b{display:block;color:#12312A}
+.lens span{color:#2F6B4F;font-size:8.6pt}
+.note{font-size:8.6pt;color:#5C6862}
+.pdca{display:flex;gap:3px}
+.pdca span{flex:1;text-align:center;background:#F6F3EC;border-radius:4px;padding:3px 0;font-size:8.6pt}
+.pdca span b{color:#2F6B4F}
+.pyr{display:flex;flex-direction:column;align-items:center;gap:1.5px;margin:2px 0}
+.pyr div{color:#fff;font-size:8.4pt;text-align:center;border-radius:2px;padding:1px 0}
+.chain{display:flex;align-items:stretch;gap:0}
+.step{flex:1;background:#12312A;color:#FFFDF8;padding:6px 4px 6px 12px;font-size:9.2pt;text-align:center;position:relative;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 50%,calc(100% - 8px) 100%,0 100%,8px 50%)}
+.step:first-child{clip-path:polygon(0 0,calc(100% - 8px) 0,100% 50%,calc(100% - 8px) 100%,0 100%);padding-left:6px}
+.step.last{background:#E3A92B;color:#12312A;font-weight:700}
+.step small{display:block;color:#E3A92B;font-size:7.6pt;margin-top:1px}
+.step.last small{color:#12312A}
+.bottom{display:flex;flex-direction:column;gap:2mm}
+.btitle{font-family:'SS',Georgia,serif;font-weight:600;color:#12312A;font-size:10pt}
+.foot{display:flex;justify-content:space-between;gap:12px;font-size:7.8pt;color:#6a7179}.foot span:last-child{white-space:nowrap}
+</style></head><body><div class="page">
+<div class="top"><div><div class="kicker">AI &amp; Ethics (A-ET) · naslag</div><h1>Kaderkaart: één kader in vier lagen</h1></div>
+<div class="lead">Elk oordeel in je rapport moet je kunnen terugvoeren op deze kaart: <b>wat</b> je beoordeelt, <b>hoe</b> je van analyse naar beheersing gaat, <b>waarom</b> iets goed of fout is, en <b>waar</b> het juridisch staat.</div></div>
+<div class="grid">
+ <div class="layer"><div class="lh"><div class="q">Wat</div><div class="f">Waarop beoordeel je een AI-toepassing?</div></div><div class="lb">
+  <div class="t">De 11 beoordelingsdomeinen</div>
+  <ol class="dom"><li>Doel, noodzaak en proportionaliteit</li><li>Governance en verantwoording</li><li>Stakeholders, mensenrechten en maatschappelijke impact</li><li>Data en privacy</li><li>Fairness, bias en non-discriminatie</li><li>Transparantie, uitlegbaarheid en traceerbaarheid</li><li>Menselijke controle, bezwaar en herstel</li><li>Veiligheid, security en robuustheid</li><li>AI-geletterdheid en competenties</li><li>Duurzaamheid en bredere impact</li><li>Monitoring, audit en verbetering</li></ol>
+  <div class="t">Kader: IEEE CertifAIEd <span class="note">(kaderclip B)</span></div>
+  <div>Vier onderdelen: <span class="chip">transparantie · 6</span><span class="chip">verantwoording · 2</span><span class="chip">algoritmische bias · 5</span><span class="chip">privacy · 4</span></div>
+  <div class="note">Drivers helpen, inhibitors werken tegen. Bewijs per doel, zoals in de nulmeting (K4).</div>
+ </div></div>
+ <div class="layer"><div class="lh"><div class="q">Hoe</div><div class="f">Hoe ga je van analyse naar beheersing?</div></div><div class="lb">
+  <div class="t">NIST AI Risk Management Framework</div>
+  <div><span class="chip g">Govern</span><span class="chip g">Map</span><span class="chip g">Measure</span><span class="chip g">Manage</span></div>
+  <div class="note">Afspraken en rollen · in kaart brengen · meten · beheersen.</div>
+  <div class="t">ISO/IEC 42001 <span class="note">(kaderclip E)</span></div>
+  <div class="pdca"><span><b>Plan</b><br>K6, K7</span><span><b>Do</b><br>inbouwen</span><span><b>Check</b><br>hertest, K8</span><span><b>Act</b><br>beslismemo</span></div>
+  <div class="note">Design Review = peer-audit · beslismemo = managementreview · Annex A = keuzelijst van maatregelen.</div>
+  <div class="t">AIGP <span class="note">(kaderclip D)</span></div>
+  <div class="note">Governance bij ontwikkeling én bij gebruik: rollen, leveranciers (leverancierscheck), AI-agents, incidenten en uitzetten.</div>
+ </div></div>
+ <div class="layer"><div class="lh"><div class="q">Waarom</div><div class="f">Waarom is iets goed of fout?</div></div><div class="lb">
+  <div class="t">UNESCO-aanbeveling over de ethiek van AI</div>
+  <div class="note">De normatieve basis: menselijke waardigheid, rechten, eerlijkheid, duurzaamheid.</div>
+  <div class="t">Vier ethische lenzen <span class="note">(gebruik er altijd minimaal drie)</span></div>
+  <div class="lens"><div><b>Gevolgen</b><span>utilitarisme</span></div><div><b>Rechten en plichten</b><span>deontologie</span></div><div><b>Rechtvaardigheid</b><span>Rawls</span></div><div><b>Professionele integriteit</b><span>deugdethiek en beroepscodes</span></div></div>
+  <div class="t">CEET <span class="note">(kaderclip A)</span></div>
+  <div class="note">Toets op het geheel: ethische theorieën, risico's herkennen, communiceren en beleid.</div>
+ </div></div>
+ <div class="layer"><div class="lh"><div class="q">Waar</div><div class="f">Wat geldt juridisch, wat is wenselijk?</div></div><div class="lb">
+  <div class="t">Suriname</div>
+  <div class="note">Grondwet (o.a. artikel 8, gelijke behandeling); ontwerpwet Bescherming Privacy en Persoonsgegevens (nog niet in werking); nationale AI-strategie met UNESCO in voorbereiding. Waar de wet zwijgt, argumenteer je ethisch.</div>
+  <div class="t">AI-verordening (EU) 2024/1689 <span class="note">(kaderclip C)</span></div>
+  <div class="note">Geldt niet in Suriname: vergelijking, en eis bij Europese klanten of data.</div>
+  <div class="pyr"><div style="width:46%;background:#A8432C">onaanvaardbaar</div><div style="width:62%;background:#C9752C">hoog</div><div style="width:78%;background:#E3A92B;color:#12312A">beperkt</div><div style="width:94%;background:#2F6B4F">minimaal</div></div>
+  <div><span class="chip a">aanbieder</span><span class="chip a">gebruiksverantwoordelijke</span></div>
+  <div><span class="chip">art. 4 AI-geletterdheid</span><span class="chip">art. 14 menselijk toezicht</span><span class="chip">art. 27 FRIA</span><span class="chip">art. 50 transparantie</span></div>
+ </div></div>
+</div>
+<div class="bottom">
+ <div class="btitle">De redeneerketen: elk advies moet terug te volgen zijn</div>
+ <div class="chain">
+  <div class="step">Bewijs<small>K3, K4, practica</small></div><div class="step">Gap<small>K4 nulmeting</small></div><div class="step">Dilemma<small>K5</small></div><div class="step">Risico<small>K6</small></div><div class="step">Eis<small>K7</small></div><div class="step">Maatregel met eigenaar<small>K7</small></div><div class="step">Monitoring<small>K8</small></div><div class="step last">Oordeel<small>beslismemo</small></div>
+ </div>
+ <div class="foot"><span>Instrumenten: K1 scope (wk 1) · K2 stakeholders en K3 proces en data (wk 2) · K4 volwassenheid (wk 3, 4, 6) · K5 dilemma's en K6 risico's (wk 4) · K7 ontwerp (wk 6, 7) · K8 implementatie en monitoring (wk 9). K2 + nulmeting = AI-impactbeoordeling.</span><span>A-ET 2026-2027</span></div>
+</div>
+</div></body></html>

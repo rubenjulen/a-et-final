@@ -21,6 +21,9 @@ P="ICT A-ET"
 rm -rf "$U"; mkdir -p "$U/00_Algemeen/Sjablonen" "$U/99_Docent_niet_uploaden/Opnamekits"
 A="$U/00_Algemeen"; S="$A/Sjablonen"; I="$OUT/instrumenten"
 cp "$PDF/A-ET_Studiewijzer_2026-2027.pdf"            "$A/$P Studiewijzer.pdf"
+# Naslag en hulpmiddelen (lesmateriaal/algemeen): bronnamen beginnen met "ICT A-ET "; het voorvoegsel volgt $P
+mkdir -p "$A/Naslag"
+for f in "$OUT/algemeen/"*; do b="$(basename "$f")"; cp "$f" "$A/Naslag/$P ${b#* A-ET }"; done
 cp "$PDF/A-ET_Beoordelingsrubric_studenten.pdf"      "$A/$P Beoordelingsrubric.pdf"
 cp "$OUT/Voorbeeldrapport_ClaimWacht_A-ET_2026-2027.pdf" "$A/$P Voorbeeldrapport.pdf"
 cp "$PDF/A-ET_Casusdossier_Suribank.pdf"             "$A/$P Casusdossier Suribank.pdf"
