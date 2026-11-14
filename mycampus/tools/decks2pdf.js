@@ -18,7 +18,8 @@ function fix(h){
     let h=fs.readFileSync(path.join(dir,'project/slides',id+'.html'),'utf8');
     const am=h.match(/<aside>([\s\S]*?)<\/aside>/);const notes=am?am[1].trim():'';
     if(id==='docent-voorbereiding'&&mode!=='notes')continue;
-    h=fix(h.replace(/<aside>[\s\S]*?<\/aside>/,'')).replace(/\/_blob\/4abe97bd07a999a9e2be7490350a0455/g,'file://'+path.resolve(__dirname,'../../lesmateriaal/huisstijl/janssen_logo.png'));
+    h=fix(h.replace(/<aside>[\s\S]*?<\/aside>/,''));
+    {const bf=path.join(dir,'blobs.json');if(fs.existsSync(bf)){const B=JSON.parse(fs.readFileSync(bf));for(const k in B)h=h.split('/_blob/'+k).join('file://'+path.resolve(dir,B[k]));}}
     pages+=`<div class="page">${h}</div>`;
     if(mode==='notes'){const fs_=notes.length>2600?22:notes.length>1600?26:30;
       pages+=`<div class="page notes"><div class="nh">Sprekersnotitie · ${id}</div><div class="nt" style="font-size:${fs_}px">${notes||'<em>(geen notitie)</em>'}</div></div>`;}

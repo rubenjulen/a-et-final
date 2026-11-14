@@ -104,7 +104,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 
 ### Clip 6. Waar komt bias vandaan? (4 minuten)
 
-**Video:** [link volgt op MyCampus]
+**Video:** [link volgt op MyCampus]. Staat de video er nog niet, lees dan de meeleestekst in de bijlage achteraan.
 
 **Tussenvragen in de clip**
 
@@ -114,7 +114,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 
 ### Clip 7. Privacy als ethische vraag (4 minuten)
 
-**Video:** [link volgt op MyCampus]
+**Video:** [link volgt op MyCampus]. Staat de video er nog niet, lees dan de meeleestekst in de bijlage achteraan.
 
 **Tussenvragen in de clip**
 
@@ -124,7 +124,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 
 ### Clip 8. Automation bias (3 minuten)
 
-**Video:** [link volgt op MyCampus]
+**Video:** [link volgt op MyCampus]. Staat de video er nog niet, lees dan de meeleestekst in de bijlage achteraan.
 
 **Tussenvragen in de clip**
 
