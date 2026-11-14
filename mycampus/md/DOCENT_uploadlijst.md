@@ -9,7 +9,7 @@ Conventie uit de handleiding van Janssen: **Studierichting Vakcode Naam**, zonde
 | --- | --- | --- |
 | Lesmateriaal | Studierichting Vakcode Documentnaam | ICT A-ET Studiewijzer · ICT A-ET Beoordelingsrubric · ICT A-ET Voorbeeldrapport · ICT A-ET Casusdossier Suribank · ICT A-ET Werkboek instrumenten · ICT A-ET K1 Canvas · ICT A-ET K5 Dilemma Canvas · ICT A-ET Sjabloon tussenrapport · ICT A-ET Sjabloon eindrapport · ICT A-ET Sjabloon reflectie · ICT A-ET AI-verklaring · ICT A-ET Peerbeoordeling · ICT A-ET Week 0 tot en met ICT A-ET Week 10 · ICT A-ET Practicum 1 · ICT A-ET Practicum 2 en 3 · ICT A-ET Practicum 4 · ICT A-ET Practicum 5 · ICT A-ET Kennisclip 1 tot en met 22 (en de kaderclips: ICT A-ET Kaderclip A tot en met E) |
 | Slides | Studierichting Vakcode Collegenummer | ICT A-ET College 1 tot en met ICT A-ET College 10. N is het weeknummer, ook in de weken met een online sessie (week 3–7, 9, 10). Week 0 heeft geen contactmoment |
-| Assignments | Studierichting Vakcode Assignmentnaam | ICT A-ET Intake · ICT A-ET Beginquiz · ICT A-ET K1 · ICT A-ET Weekcheck 1 tot en met ICT A-ET Weekcheck 10 · ICT A-ET Assessment 1 groep · ICT A-ET Assessment 1 individueel · ICT A-ET Peerbeoordeling 1 · ICT A-ET Assessment 2 groep · ICT A-ET Assessment 2 reflectie · ICT A-ET Peerbeoordeling 2 |
+| Assignments | Studierichting Vakcode Assignmentnaam | ICT A-ET Intake · ICT A-ET Beginquiz · ICT A-ET K1 · ICT A-ET Voorbereiding college 2 · ICT A-ET Weekcheck 1 tot en met ICT A-ET Weekcheck 10 · ICT A-ET Exit ticket college 1 tot en met ICT A-ET Exit ticket college 10 · ICT A-ET Assessment 1 groep · ICT A-ET Assessment 1 individueel · ICT A-ET Peerbeoordeling 1 · ICT A-ET Assessment 2 groep · ICT A-ET Assessment 2 reflectie · ICT A-ET Peerbeoordeling 2 |
 | Eindcijfer | vast | ICT A-ET Eindtoets Assignment (niet aanpassen) |
 
 Practica staan als zip op MyCampus; binnen de zip houden de bestanden hun oorspronkelijke naam, omdat de notebooks en de Orange-workflow de csv-bestanden op naam openen.
@@ -90,26 +90,35 @@ Tussenvragen in clip 2 en 3 zijn al in de video's verwerkt (pauze met aftelbalk)
 | Bestand | Bron | Waar op MyCampus | Status |
 | --- | --- | --- | --- |
 | ICT A-ET Week 1.pdf | scratchpad/mycampus/pdf/ | Weekmodule 1, bovenaan | Klaar |
-| Kennisclip 5. Wie beslist er eigenlijk? | nog te produceren | Weekmodule 1 | Ontbreekt |
-| Kaderclip A. Het kaderlandschap | script klaar (doc "Scripts kaderclips A–E"), nog te produceren | Weekmodule 1 | Ontbreekt |
+| Kennisclip 5. Wie beslist er eigenlijk? | animatie/ (gebouwd, stem nog in te spreken) | Weekmodule 1 | Ontbreekt: ElevenLabs-run; tot dan verwijst de studentversie naar de meeleestekst |
+| Kaderclip A. Het kaderlandschap | animatie/kaders/A (gebouwd, stem nog in te spreken) | Weekmodule 1 | Ontbreekt: ElevenLabs-run; meeleestekst in de studentversie is gelijk aan het script |
 | ICT A-ET K1 Canvas.docx | scratchpad/out/instrumenten/ | Weekmodule 1, bij K1 | Klaar |
 | ICT A-ET Werkboek instrumenten.xlsx | scratchpad/out/instrumenten/ | Algemeen (moduleniveau) of week 1; gebruikt t/m week 9 | Klaar |
 | ICT A-ET AI-verklaring.docx | scratchpad/out/instrumenten/ | Algemeen (bij elke inlevering) | Klaar |
 | ICT A-ET Voorbeeldrapport.pdf | scratchpad/out/ | Algemeen of week 1 (lesplan: studenten krijgen in week 1 het voorbeeldrapport) | Klaar |
 | ICT A-ET Beoordelingsrubric.pdf | scratchpad/mycampus/pdf/ (gemaakt door een andere fork) | Algemeen of week 1 (lesplan: studenten krijgen in week 1 de rubric) | Controleren of de pdf er is |
-| Kernbron UNESCO-aanbeveling (2021), hoofdstuk III | link naar UNESCO | Weekmodule 1 | Link toevoegen |
+| Kernbron UNESCO-aanbeveling (2021), hoofdstuk III | https://unesdoc.unesco.org/ark:/48223/pf0000381137 | Weekmodule 1 | Klaar (link staat in de studentversie) |
 | Weekcheck week 1 (5 vragen, logboekregel, standpunt) | vragen in de pdf; antwoorden in docent_weekcheck_w01.md | Quiz + open vraag in MyCampus | Handmatig invoeren |
-| Inleverpunten: K1-canvas met teamafspraken (groep), zondag 10 januari 23:59; vragen gastspreker + twee debatstellingen (groep), dinsdag 12 januari 23:59 | — | Inleverpunten in MyCampus | Aanmaken |
-| ICT A-ET College 1 | Slides-artefact (https://claude.ai/artifact/Cj8Y7ELraHmro3d9X9Ypgc) | Na het college, eventueel als pdf | Export nog te maken |
+| Inleverpunten: **ICT A-ET K1** (groep, zondag 10 januari 23:59); **ICT A-ET Weekcheck 1** (individueel, zondag 10 januari 23:59; uitzondering, vanaf week 2 woensdag); **ICT A-ET Voorbereiding college 2** (groep, dinsdag 12 januari 23:59); **ICT A-ET Exit ticket college 1** (individueel, open tijdens het college) | — | Assignments in MyCampus | Aanmaken |
+| ICT A-ET College 1 | Slides-artefact (https://claude.ai/artifact/Cj8Y7ELraHmro3d9X9Ypgc), 36 dia's in Janssen-huisstijl; bron mycampus/decks/gen_c1.py | Na het college als pdf, zonder de dia's "docent-voorbereiding" | Export nog te maken |
+| Praktijkvoorbeelden BIBIS en Rotterdam | links in de studentversie | Weekmodule 1 | Klaar; links vlak voor 7 januari testen |
 
 
 ### Dia's van het contactmoment
 
 | Bestand | Waar op MyCampus | Bron |
 |---|---|---|
-| ICT A-ET College 1.pdf | ICT A-ET College 1 (22 dia's): na afloop delen bij week 1 | mycampus/pdf/ (gemaakt uit het dia-deck) |
+| ICT A-ET College 1.pdf | ICT A-ET College 1 (35 dia's, zonder docentvoorbereiding): na afloop delen bij week 1 | mycampus/pdf/ (gemaakt uit het dia-deck) |
 
 De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
+
+### Nog in te vullen door de docent (week 1)
+
+- Tijd en lokaal van college 1 (studentversie, deck: cover, .ics).
+- Achternaam op de cover van het deck.
+- Gastspreker 14 januari: naam, functie, organisatie, onderwerp en leestip (studentversie, sectie Voorbereiding college 2; deck "deze-week").
+- Kanaal en reactietermijn voor vragen (studentversie, sectie Vastgelopen?; deck "deze-week").
+- Op de dag zelf: beginquiz-percentages (dia "quiz"), pauzetijd, telling van de stemming.
 
 ## Week 2
 
