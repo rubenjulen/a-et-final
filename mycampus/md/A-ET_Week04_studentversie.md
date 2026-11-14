@@ -520,7 +520,9 @@ Een escalatievlag is een signaal voor extra beoordeling, geen automatisch verbod
 | R-04 | Geen monitoring per groep | Verslechtering blijft onopgemerkt | Langdurige systematische benadeling | 3 | 4 | 12 |
 | R-05 | Model van een derde partij | Onvoldoende zicht op modelwijzigingen | Nieuwe bias of kwaliteitsschade | 2 | 4 | 8 |
 
-&#91;embedded content: risicomatrix · 5 × 5, vijf banden, vijf voorbeeldrisico's\]
+![Risicomatrix: 5 × 5, vijf banden, vijf voorbeeldrisico's](img/w04_risicomatrix.png)
+
+*Risicomatrix: 5 × 5, vijf banden, vijf voorbeeldrisico's*
 
 R-05 valt in Moderate, maar dat zegt niet dat het onbelangrijk is. Hoe de vier escalatieregels uitvallen, hangt af van de vier impactscores en de ja/nee-kolommen, die in dit voorbeeld niet zijn ingevuld. Dat is precies wat je in je eigen register wel doet.
 
