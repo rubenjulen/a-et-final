@@ -19,7 +19,7 @@ const Intro = () => {
   const leave = interpolate(frame, [F('E0.3', 0.4), F('E0.3', 2.6)], [0, 1], clamp);
   return (
     <TitleScene at={F('E0.1', 0)} kicker="KADERCLIP E · WEEK 8" title="Van maatregel naar managementsysteem">
-      <Pop at={F('E0.4', 0.6)} style={{ left: 140, top: 600 }}>
+      <Pop at={F('E0.4', 0.6)} style={{ left: 140, top: 720 }}>
         <Chip bg={C.amber} fg={C.dark} size={34}>ISO/IEC 42001</Chip>
       </Pop>
       <div style={{ position: 'absolute', left: 1240, top: 300, width: 560, height: 420 }}>
@@ -125,7 +125,7 @@ const Steps = () => {
       {CLAUSES.map(([n, t, k], i) => {
         const on = frame >= F(k, 0);
         const s = interpolate(frame, [F('E2.1', 0.6 + i * 0.25), F('E2.1', 1.2 + i * 0.25)], [0, 1], clamp);
-        const h = 110 + i * 62;
+        const h = 150 + i * 56;
         return (
           <div key={n} style={{ position: 'absolute', left: 128 + i * 236, top: 840 - h * s, width: 222, height: h * s, overflow: 'hidden',
             background: on ? (n === '6' ? C.terra : C.dark) : C.sand, borderRadius: '16px 16px 0 0', transition: 'none' }}>
@@ -234,10 +234,10 @@ const Annex = () => {
           const isA10 = c === 'A.10' && frame >= F('E4.6', 0);
           return (
             <Pop key={c} at={F('E4.1', 0.8 + i * 0.18)} style={{ position: 'relative', marginBottom: 8 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 18, background: isA10 ? C.dark : hl ? '#F4EAD3' : C.card, border: `2px solid ${hl ? C.amber : C.line}`, borderRadius: 14, padding: '9px 18px' }}>
-                <div style={{ width: 34, height: 34, borderRadius: 8, border: `3px solid ${C.green}`, background: tick ? C.green : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', color: C.card, fontWeight: 700, fontSize: 24 }}>{tick ? '✓' : ''}</div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 18, background: isA10 ? C.dark : hl ? '#F4EAD3' : C.card, border: `2px solid ${hl ? C.amber : C.line}`, borderRadius: 14, padding: '6px 18px' }}>
+                <div style={{ width: 30, height: 30, borderRadius: 8, border: `3px solid ${C.green}`, background: tick ? C.green : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', color: C.card, fontWeight: 700, fontSize: 24 }}>{tick ? '✓' : ''}</div>
                 <div style={{ width: 80, fontFamily: SANS, fontWeight: 700, fontSize: 26, color: isA10 ? C.amber : C.terra }}>{c}</div>
-                <div style={{ fontFamily: SANS, fontSize: 27, color: isA10 ? C.light : C.ink }}>{t}</div>
+                <div style={{ fontFamily: SANS, fontSize: 25, color: isA10 ? C.light : C.ink }}>{t}</div>
               </div>
             </Pop>
           );
@@ -306,7 +306,7 @@ const Already = () => {
           </Pop>
         );
       })}
-      <Pop at={F('E5.5', 0.3)} style={{ left: 1330, top: 456 }}>
+      <Pop at={F('E5.5', 0.3)} style={{ left: 1580, top: 470 }}>
         <div style={{ background: C.card, border: `2px solid ${C.terra}`, borderRadius: 12, padding: '8px 14px', fontFamily: SANS, fontSize: 22, color: C.terra, fontWeight: 700 }}>+ datum volgende review</div>
       </Pop>
     </AbsoluteFill>

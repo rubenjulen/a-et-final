@@ -103,14 +103,14 @@ const Phases = () => {
       <Col x={128} title="1 · Ontwikkeling" items={dev} key0="D1b" color={C.green} kLabel="Jullie rapport: K1 t/m K7" kAt={2.2} />
       <Col x={1002} title="2 · Gebruik" items={use} key0="D1c" color={C.dark} kLabel="Jullie rapport: K8 en beslismemo" kAt={5.0} />
       {on(frame, 'D1e', 0) && (
-        <div style={{ position: 'absolute', left: 128, top: 760, width: 1664, height: 70 }}>
+        <div style={{ position: 'absolute', left: 128, top: 800, width: 1664, height: 70 }}>
           <div style={{ position: 'absolute', left: 0, top: 30, width: 1664, height: 8, background: C.line, borderRadius: 4 }} />
-          <div style={{ position: 'absolute', left: 860, top: 0, fontFamily: SANS, fontWeight: 700, fontSize: 24, color: C.terra }}>livegang ▼</div>
+          <div style={{ position: 'absolute', left: 860, top: -6, fontFamily: SANS, fontWeight: 700, fontSize: 24, color: C.terra }}>livegang ▼</div>
           {[1, 2, 3, 4, 5].map((m) => {
             const o = interpolate(live, [(m - 1) / 5, m / 5], [0, 1], clamp);
             return <div key={m} style={{ position: 'absolute', left: 880 + m * 150, top: 22, width: 24, height: 24, borderRadius: 12, background: m >= 4 ? C.terra : C.green, opacity: o }} />;
           })}
-          <div style={{ position: 'absolute', left: 1440, top: -10, fontFamily: SANS, fontWeight: 700, fontSize: 24, color: C.terra, opacity: live > 0.75 ? 1 : 0 }}>problemen na maanden</div>
+          <div style={{ position: 'absolute', left: 1250, top: -34, whiteSpace: 'nowrap', fontFamily: SANS, fontWeight: 700, fontSize: 24, color: C.terra, opacity: live > 0.75 ? 1 : 0 }}>problemen na een paar maanden</div>
         </div>
       )}
     </AbsoluteFill>
@@ -137,7 +137,7 @@ const Roles = () => {
         return (
           <div key={r} style={{ position: 'absolute', left: 128 + i * 420, top: 290, width: 390, opacity: s, transform: `translateY(${(1 - s) * -120}px)` }}>
             <div style={{ background: C.card, border: `3px solid ${col}`, borderRadius: 22, padding: '24px 26px', height: 250, boxSizing: 'border-box' }}>
-              <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: r.length > 15 ? 30 : 38, color: col }}>{r}</div>
+              <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: r.length > 15 ? 25 : 38, color: col }}>{r}</div>
               <div style={{ fontFamily: SANS, fontSize: 27, color: C.mute, marginTop: 10, lineHeight: 1.3 }}>{d}</div>
             </div>
             <div style={{ marginTop: 18, display: 'flex', justifyContent: 'center', opacity: tag ? 1 : 0, transform: `scale(${tag ? 1 : 0.8})` }}>
@@ -146,7 +146,7 @@ const Roles = () => {
           </div>
         );
       })}
-      <Pop at={F('D2c', 8.0)} style={{ left: 548, top: 640 }}><div style={{ fontFamily: SANS, fontSize: 26, color: C.mute }}>bekend uit kaderclip C</div></Pop>
+      <Pop at={F('D2c', 8.0)} style={{ left: 820, top: 640 }}><div style={{ fontFamily: SANS, fontSize: 26, color: C.mute }}>bekend uit kaderclip C</div></Pop>
       <Banner at={F('D2f', 1.5)} top={730} size={42}>Een maatregel zonder rol is <span style={{ color: C.amber }}>een wens</span>.</Banner>
     </AbsoluteFill>
   );
@@ -412,8 +412,7 @@ export const KaderD = () => (
     ['D5a', <AgentLimits />],
     ['DQ2', <Quiz8 tm={tm} n={2} q="DQ2" a="DQ2b" optAt={0.6}
       question="Een orderagent mag zelf bestellingen plaatsen, tot elk bedrag. Welke maatregelen passen het best?"
-      options={['A. Niets: de agent werkt snel en goedkoop', 'B. Een grens met bevestiging door een medewerker, en logging van elke actie', 'C. Alleen een goed contract met de leverancier']} good={1}
-      note="Voorkomen: een grens. Opsporen: logging van elke actie." />],
+      options={['A. Niets: de agent werkt snel en goedkoop', 'B. Een grens met bevestiging door een medewerker, en logging van elke actie', 'C. Alleen een goed contract met de leverancier']} good={1} />],
     ['D6a', <Kader />], ['D7a', <Now />],
   ]} />
 );
