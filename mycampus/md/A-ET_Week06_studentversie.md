@@ -49,7 +49,7 @@ Vanaf nu krijg je minder stappen voorgeschreven. Je krijgt de vraag, het sjabloo
 - Donderdag 11 februari: je cijfer en feedback op Assessment 1, en de online sessie.
 - Een feedbackgesprek van 15 minuten met je groep. Schrijf je in.
 
-**Sjablonen:** de tabbladen Design\_Requirements, Control\_Catalog en Controls in het werkboek BK-ICT A-ET Werkboek instrumenten.xlsx. De Control\_Catalog geeft voorbeelden van maatregelen. Neem ze niet blind over: kies wat past bij jullie risico en jullie organisatie. Werkt jullie oplossing met generatieve AI? Kijk dan ook naar het voorbeeld bij generatieve AI onder K7 deel 1b.
+**Sjablonen:** de tabbladen Design\_Requirements, Control\_Catalog en Controls in het werkboek ICT A-ET Werkboek instrumenten.xlsx. De Control\_Catalog geeft voorbeelden van maatregelen. Neem ze niet blind over: kies wat past bij jullie risico en jullie organisatie. Werkt jullie oplossing met generatieve AI? Kijk dan ook naar het voorbeeld bij generatieve AI onder K7 deel 1b.
 
 ## Kennisclips
 

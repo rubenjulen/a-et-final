@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bouwt het MyCampus-uploadpakket vanaf nul op met de naamgeving "BK-ICT A-ET <naam>".
+# Bouwt het MyCampus-uploadpakket vanaf nul op met de naamgeving "$P <naam>" (voorvoegsel: variabele P hieronder).
 # Bronnen: scratchpad/out/ (sjablonen, practica, video's, docentbestanden) en mycampus/pdf/ (studentversies, dia's, docent-pdf's).
 # Gebruik: tools/build_package.sh [doelmap]   (standaard: mycampus/upload, plus mycampus/A-ET_MyCampus_pakket.zip)
 set -euo pipefail
@@ -7,7 +7,7 @@ HERE="$(cd "$(dirname "$0")/.." && pwd)"          # mycampus/
 if [ -d "$HERE/../out" ]; then OUT="$(cd "$HERE/../out" && pwd)"; else OUT="$(cd "$HERE/../lesmateriaal" && pwd)"; fi                   # scratchpad/out/
 PDF="$HERE/pdf"
 U="${1:-$HERE/upload}"
-P="BK-ICT A-ET"
+P="ICT A-ET"
 
 # 1. Docent-uploadlijst opnieuw samenstellen en renderen
 { echo "Wat er per week op MyCampus komt, welke bestanden erbij horen en wat nog ontbreekt. Dit bestand is voor de docent."; echo
@@ -51,7 +51,7 @@ mkzip "$OUT/week9/practicum5"   "$U/Week09/$P Practicum 5.zip"
 D="$U/99_Docent_niet_uploaden"
 cp "$PDF/DOCENT_Weekcheck_antwoorden_A-ET.pdf" "$PDF/DOCENT_Uploadlijst_MyCampus_A-ET.pdf" "$PDF/DOCENT_Practicum5_verwachte_uitkomsten.pdf" "$D/"
 cp "$OUT"/feedback/*.docx "$D/"
-cp "$OUT/Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx" "$OUT/Lesplan_AI_en_Ethics_A-ET_2026-2027.pdf" "$OUT/Kruistabel_certificeringen_A-ET.pdf" "$D/"
+cp "$OUT/Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx" "$OUT/$P Lesplan.pdf" "$OUT/Kruistabel_certificeringen_A-ET.pdf" "$D/"
 cp "$PDF"/opnamekits/Opnamekit_*.pdf "$D/Opnamekits/"
 
 # 4. Zip

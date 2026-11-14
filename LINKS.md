@@ -6,7 +6,7 @@ Alle links zijn privé; deel ze via Share als anderen ze moeten zien.
 
 | Document | Link |
 | --- | --- |
-| Lesplan A-ET 2026-2027 | https://claude.ai/artifact/NEcrCTjU3JQCofznLN4PCh |
+| ICT A-ET Lesplan | https://claude.ai/artifact/NEcrCTjU3JQCofznLN4PCh |
 | Week 0 | https://claude.ai/artifact/UX5N2zP1YbAgTz57eFAHTp |
 | Week 1 | https://claude.ai/artifact/4f3tEHB5BA69i39BWHFkCk |
 | Week 2 | https://claude.ai/artifact/VLg1d8s3wcgxCYLQfX71w1 |

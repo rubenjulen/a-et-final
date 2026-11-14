@@ -179,7 +179,7 @@ Wanneer gaat de hele toepassing opnieuw door een beoordeling zoals jullie die nu
 - een vast moment (bijvoorbeeld jaarlijks);
 - en de gebeurtenissen die een extra herbeoordeling vereisen: een grote wijziging van het model of het proces, een nieuwe wet (zoals de privacywet in Suriname), een ernstig incident, of een indicator die herhaaldelijk de grens overschrijdt.
 
-In het werkboek (BK-ICT A-ET Werkboek instrumenten.xlsx) vul je dit in op het tabblad K8\_Monitoring: het moment in gebruik en het moment van een wijziging.
+In het werkboek (ICT A-ET Werkboek instrumenten.xlsx) vul je dit in op het tabblad K8\_Monitoring: het moment in gebruik en het moment van een wijziging.
 
 ### Deel D: twee vaste regels
 
@@ -203,7 +203,7 @@ Elk K8 heeft deze twee regels, ook als jullie oplossing klein is. Ze sluiten de 
 - Technische indicatoren, zoals storingen of reactietijd. Die horen bij A-AI2; verwijs ernaar.
 - Een maatregel in fase "direct" zonder uitkomst van de hertest. Ingebouwd is nog niet hetzelfde als werkend.
 
-Werk K8 uit in het werkboek BK-ICT A-ET Werkboek instrumenten.xlsx, tabblad K8\_Monitoring (delen A tot en met D) en tabblad Hertest.
+Werk K8 uit in het werkboek ICT A-ET Werkboek instrumenten.xlsx, tabblad K8\_Monitoring (delen A tot en met D) en tabblad Hertest.
 
 ## Het beslismemo
 
@@ -264,11 +264,11 @@ Laat het memo lezen door iemand die het rapport niet kent. Vraag: wat moet er nu
 - Voorwaarden zonder gevolg: wat gebeurt er als ze niet worden gehaald?
 - Een oordeel dat niet volgt uit hoofdstuk 12: een Very high-restrisico en toch "verantwoord inzetbaar".
 
-Gebruik het sjabloon voor het eindrapport (BK-ICT A-ET Sjabloon eindrapport.docx); het beslismemo staat daar vooraan.
+Gebruik het sjabloon voor het eindrapport (ICT A-ET Sjabloon eindrapport.docx); het beslismemo staat daar vooraan.
 
 ## Practicum 5 (optioneel): het model een jaar later
 
-*Ongeveer een uur in Orange, of in Python met het notebook practicum5.ipynb uit BK-ICT A-ET Practicum 5.zip (zelfde stappen, tabellen en vragen). Ethische vraag uit het lesplan: wie merkt het als het model ongemerkt slechter wordt?*
+*Ongeveer een uur in Orange, of in Python met het notebook practicum5.ipynb uit ICT A-ET Practicum 5.zip (zelfde stappen, tabellen en vragen). Ethische vraag uit het lesplan: wie merkt het als het model ongemerkt slechter wordt?*
 
 ### Het scenario
 

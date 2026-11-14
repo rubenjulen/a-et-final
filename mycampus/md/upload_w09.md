@@ -2,14 +2,14 @@
 
 | Bestand | Waar op MyCampus | Bron (scratchpad) |
 | --- | --- | --- |
-| BK-ICT A-ET Week 9.pdf | Weekmodule 9, bovenaan | mycampus/pdf/ |
-| BK-ICT A-ET Practicum 4.zip › practicum4_testlogboek.xlsx (dezelfde als week 4; groepen werken in hun eigen exemplaar verder) | Weekmodule 9, practicum 4b (alleen als herinnering/link naar week 4) | out/week4/practicum4/ |
-| BK-ICT A-ET Practicum 5.zip › practicum5.ipynb (Python-route, zelfde stappen als Orange) | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
-| BK-ICT A-ET Practicum 5.zip › suribank_2025_controle.csv | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
-| BK-ICT A-ET Practicum 5.zip › suribank_2027.csv | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
-| BK-ICT A-ET Practicum 5.zip › suribank_kredietaanvragen.csv | Weekmodule 9, practicum 5 (optioneel; zelfde bestand als week 0) | out/week9/practicum5/ |
-| BK-ICT A-ET Werkboek instrumenten.xlsx (tabbladen K8_Monitoring, Hertest) | Link naar algemeen materiaal | out/instrumenten/ |
-| BK-ICT A-ET Sjabloon eindrapport.docx (beslismemo vooraan) | Link naar algemeen materiaal | out/instrumenten/ |
+| ICT A-ET Week 9.pdf | Weekmodule 9, bovenaan | mycampus/pdf/ |
+| ICT A-ET Practicum 4.zip › practicum4_testlogboek.xlsx (dezelfde als week 4; groepen werken in hun eigen exemplaar verder) | Weekmodule 9, practicum 4b (alleen als herinnering/link naar week 4) | out/week4/practicum4/ |
+| ICT A-ET Practicum 5.zip › practicum5.ipynb (Python-route, zelfde stappen als Orange) | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
+| ICT A-ET Practicum 5.zip › suribank_2025_controle.csv | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
+| ICT A-ET Practicum 5.zip › suribank_2027.csv | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
+| ICT A-ET Practicum 5.zip › suribank_kredietaanvragen.csv | Weekmodule 9, practicum 5 (optioneel; zelfde bestand als week 0) | out/week9/practicum5/ |
+| ICT A-ET Werkboek instrumenten.xlsx (tabbladen K8_Monitoring, Hertest) | Link naar algemeen materiaal | out/instrumenten/ |
+| ICT A-ET Sjabloon eindrapport.docx (beslismemo vooraan) | Link naar algemeen materiaal | out/instrumenten/ |
 
 **Ontbreekt nog**
 
@@ -23,7 +23,7 @@
 
 | Bestand | Waar op MyCampus | Bron |
 |---|---|---|
-| BK-ICT A-ET College 9.pdf | BK-ICT A-ET College 9 (12 dia's): na afloop delen bij week 9 | mycampus/pdf/ (gemaakt uit het dia-deck) |
+| ICT A-ET College 9.pdf | ICT A-ET College 9 (12 dia's): na afloop delen bij week 9 | mycampus/pdf/ (gemaakt uit het dia-deck) |
 
 **Let op:** Pas na de sessie delen: dia 4-5 (raadsel en onthulling) verklappen de uitkomst van practicum 5.
 

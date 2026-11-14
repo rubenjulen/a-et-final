@@ -222,7 +222,7 @@ In Assessment 2 wisselen de eigenaren, zodat iedereen ook een ontwerphoofdstuk b
 
 ### Peerbeoordeling
 
-Elke student vult bij het inleveren, voor 4 februari 23:59, een kort formulier in over elk groepslid, niet over zichzelf: het Excel-bestand BK-ICT A-ET Peerbeoordeling.xlsx (tabblad Invullen), te vinden bij Sjablonen op MyCampus. Het formulier is vertrouwelijk: alleen de docent ziet het.
+Elke student vult bij het inleveren, voor 4 februari 23:59, een kort formulier in over elk groepslid, niet over zichzelf: het Excel-bestand ICT A-ET Peerbeoordeling.xlsx (tabblad Invullen), te vinden bij Sjablonen op MyCampus. Het formulier is vertrouwelijk: alleen de docent ziet het.
 
 | Vraag | 1 | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- |

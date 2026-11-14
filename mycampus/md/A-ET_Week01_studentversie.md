@@ -110,7 +110,7 @@ Het canvas legt vast wat de groep precies onderzoekt. Zonder heldere afbakening 
 
 **Inleveren.** Uiterlijk zondag 10 januari, 23:59: het canvas als digitaal document of een duidelijke foto van het A3-blad, met de vijf teamafspraken en een AI-verklaring.
 
-**Sjabloon.** Gebruik BK-ICT A-ET K1 Canvas.docx, of het tabblad K1\_Scope in BK-ICT A-ET Werkboek instrumenten.xlsx.
+**Sjabloon.** Gebruik ICT A-ET K1 Canvas.docx, of het tabblad K1\_Scope in ICT A-ET Werkboek instrumenten.xlsx.
 
 ## Kennisclips
 

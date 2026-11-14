@@ -49,7 +49,7 @@ Tien weken geleden begon je met een korte voorbereiding en een eerste model in O
 | --- | --- | --- |
 | Eindrapport (één PDF, met AI-verklaring van de groep) | Eén groepslid namens de groep | Inleverpunt eindrapport |
 | Reflectie (één PDF, met eigen AI-verklaring) | Iedereen zelf | Inleverpunt reflectie |
-| Peerbeoordeling | Iedereen zelf | BK-ICT A-ET Peerbeoordeling.xlsx (tabblad Invullen, Toets: Assessment 2), bij Sjablonen op MyCampus |
+| Peerbeoordeling | Iedereen zelf | ICT A-ET Peerbeoordeling.xlsx (tabblad Invullen, Toets: Assessment 2), bij Sjablonen op MyCampus |
 
 **Lukt het niet?** Meld het vóór woensdag 10 maart 18:00, niet na de deadline.
 
@@ -107,7 +107,7 @@ Dezelfde regels als bij Assessment 1, met aangepaste data.
 - **Storing bij uploaden:** mail de PDF vóór 23:59 naar de docent; het tijdstip van de mail telt.
 - **Uitstel:** aanvragen vóór woensdag 10 maart 18:00, met een reden. Nieuwe datum uiterlijk maandag 15 maart, zodat de beoordeling niet in gevaar komt.
 - **Te laat zonder uitstel:** tot 72 uur na de deadline beoordeeld, met 0,5 punt aftrek per begonnen 24 uur. Daarna niet beoordeeld; dan volgt de herkansing.
-- **Peerbeoordeling:** hetzelfde formulier als bij Assessment 1 (BK-ICT A-ET Peerbeoordeling.xlsx, Toets: Assessment 2), over de periode sinds Assessment 1. Een correctie op het groepscijfer gebeurt alleen na controle en een gesprek.
+- **Peerbeoordeling:** hetzelfde formulier als bij Assessment 1 (ICT A-ET Peerbeoordeling.xlsx, Toets: Assessment 2), over de periode sinds Assessment 1. Een correctie op het groepscijfer gebeurt alleen na controle en een gesprek.
 - **AI-verklaring:** ontbreekt die, dan wordt het werk beoordeeld zodra de verklaring binnen is (binnen 24 uur na een herinnering).
 
 De beoordelingsrubric staat in de week 8-module en in de studiewijzer. Je krijgt je cijfer en feedback uiterlijk vrijdag 26 maart (datum onder voorbehoud). Wil je je beoordeling bespreken, dan kun je binnen tien werkdagen (termijn onder voorbehoud) een inzagegesprek van 15 minuten aanvragen. Bezwaar tegen een cijfer verloopt via de procedure van Janssen.

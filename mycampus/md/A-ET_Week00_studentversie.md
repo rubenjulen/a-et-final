@@ -155,7 +155,7 @@ Bekijk de clips in deze volgorde. Elke clip stopt bij de tussenvragen; je krijgt
 
 ## Installatie: Orange of Python
 
-Practicum 1, 2 en 3 kunnen in Orange of in Python. Wie in A-DA met Python werkte, kan het notebook practicum1.ipynb (in BK-ICT A-ET Practicum 1.zip) openen in een online notebookomgeving; installeren is dan niet nodig. De getallen wijken dan iets af van die in Orange, maar de vragen gaan over wat je ziet, niet over het precieze getal.
+Practicum 1, 2 en 3 kunnen in Orange of in Python. Wie in A-DA met Python werkte, kan het notebook practicum1.ipynb (in ICT A-ET Practicum 1.zip) openen in een online notebookomgeving; installeren is dan niet nodig. De getallen wijken dan iets af van die in Orange, maar de vragen gaan over wat je ziet, niet over het precieze getal.
 
 Orange Data Mining is gratis, open source en werkt zonder programmeren. Je bouwt een analyse door blokjes, widgets genoemd, op een werkblad te zetten en met lijnen te verbinden. De software is in het Engels. Je hebt een laptop met Windows of macOS nodig en reken op ongeveer 1 GB vrije schijfruimte.
 
@@ -229,7 +229,7 @@ De dataset suribank\_kredietaanvragen.csv bevat 1.200 verzonnen kredietaanvragen
 
 **Doel.** Je traint twee modellen op de Suribank-data, vergelijkt ze met een model dat altijd hetzelfde antwoord geeft, en leest welke fouten ze maken en bij wie. Dit is herhaling van A-DA, met één nieuwe vraag: voor wie is een fout erg? *Tijd: ongeveer 75 minuten.*
 
-**Voorbereiding.** Download BK-ICT A-ET Practicum 1.zip uit de leeromgeving; daarin zitten suribank\_kredietaanvragen.csv en practicum1.ipynb. Werk je in Python, open dan practicum1.ipynb; het notebook doet dezelfde stappen met pandas en scikit-learn.
+**Voorbereiding.** Download ICT A-ET Practicum 1.zip uit de leeromgeving; daarin zitten suribank\_kredietaanvragen.csv en practicum1.ipynb. Werk je in Python, open dan practicum1.ipynb; het notebook doet dezelfde stappen met pandas en scikit-learn.
 
 **Stap 1. Data inladen en het label instellen.**
 

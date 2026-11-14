@@ -126,7 +126,7 @@ AI wordt vaak gebruikt door de ene partij, maar raakt een andere partij met mind
 
 **AI-impactbeoordeling.** K2 is de eerste helft van jullie AI-impactbeoordeling; de nulmeting in week 3 en 4 is de tweede helft. Samen doen ze wat de AI-verordening een grondrechteneffectbeoordeling (FRIA, artikel 27) noemt en ISO/IEC 42005 een impactbeoordeling. Het is geen extra werk: het krijgt alleen die naam.
 
-**Sjabloon.** Gebruik het tabblad K2\_Stakeholders in BK-ICT A-ET Werkboek instrumenten.xlsx. De kolommen:
+**Sjabloon.** Gebruik het tabblad K2\_Stakeholders in ICT A-ET Werkboek instrumenten.xlsx. De kolommen:
 
 | Kolom | Vraag |
 | --- | --- |
@@ -223,13 +223,13 @@ Zo kan een procesplaat van een groep eruitzien: de stappen in volgorde, per stap
 - [ ] De plaat bouwt voort op het schema uit A-AI2 of A-DG, met de ethische laag erbovenop.
 - [ ] Elke externe dienst is gemarkeerd, met welke gegevens erheen gaan en waar ze staan.
 
-**Sjabloon.** Gebruik het tabblad K3\_Proces\_Data in BK-ICT A-ET Werkboek instrumenten.xlsx.
+**Sjabloon.** Gebruik het tabblad K3\_Proces\_Data in ICT A-ET Werkboek instrumenten.xlsx.
 
 ## Bewijsplan en gespreksleidraad
 
 In week 3 en 4 scoren groepen de nulmeting. Een score zonder bewijs telt niet, dus groepen plannen nu welk bewijs ze waar halen. Veel bewijs ligt al klaar of komt vanzelf: bij de partner, in A-AI2, in A-DG en in de eigen tests van week 3 en 4. Omvang: één tabel van één pagina.
 
-**Sjabloon bewijsplan.** Gebruik het tabblad Bewijsplan in BK-ICT A-ET Werkboek instrumenten.xlsx.
+**Sjabloon bewijsplan.** Gebruik het tabblad Bewijsplan in ICT A-ET Werkboek instrumenten.xlsx.
 
 | Domein | Wat willen we weten? | Bron | Methode | Wie | Wanneer |
 | --- | --- | --- | --- | --- | --- |

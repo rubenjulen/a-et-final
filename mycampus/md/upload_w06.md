@@ -2,8 +2,8 @@
 
 | Bestand | Waar op MyCampus | Bron (scratchpad) |
 | --- | --- | --- |
-| BK-ICT A-ET Week 6.pdf | Weekmodule 6, bovenaan | mycampus/pdf/ |
-| BK-ICT A-ET Werkboek instrumenten.xlsx (tabbladen K4_Nulmeting/Gewenste_situatie, Design_Requirements, Control_Catalog, Controls, Leverancierscheck, Risk_Register voor restrisico) | Link naar algemeen materiaal | out/instrumenten/ |
+| ICT A-ET Week 6.pdf | Weekmodule 6, bovenaan | mycampus/pdf/ |
+| ICT A-ET Werkboek instrumenten.xlsx (tabbladen K4_Nulmeting/Gewenste_situatie, Design_Requirements, Control_Catalog, Controls, Leverancierscheck, Risk_Register voor restrisico) | Link naar algemeen materiaal | out/instrumenten/ |
 | Video's clip 15, 16, 17 en kaderclip D | Weekmodule 6, kennisclips | nog te maken |
 | Inleverpunt rapportstuk K4 + K7 deel 1 (zo 14 feb, 23:59) | Weekmodule 6 | aanmaken in MyCampus |
 | Inschrijflijst feedbackgesprekken (open ma 8 feb) | Weekmodule 6 | aanmaken in MyCampus |
@@ -20,7 +20,7 @@
 
 | Bestand | Waar op MyCampus | Bron |
 |---|---|---|
-| BK-ICT A-ET College 6.pdf | BK-ICT A-ET College 6 (15 dia's): na afloop delen bij week 6 | mycampus/pdf/ (gemaakt uit het dia-deck) |
+| ICT A-ET College 6.pdf | ICT A-ET College 6 (15 dia's): na afloop delen bij week 6 | mycampus/pdf/ (gemaakt uit het dia-deck) |
 
 **Let op:** Pas na de sessie delen: dia 8 werkt de maatregelen voor R-01 (Suribank) uit.
 

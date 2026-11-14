@@ -34,7 +34,7 @@
 | Individueel dilemma-canvas (toets) | 3 |
 | **Totaal** | **9 SBU** |
 
-**Bestanden in de leeromgeving.** BK-ICT A-ET Practicum 4.zip, met practicum4\_testlogboek.xlsx, practicum4\_suribank.ows, practicum4\_paren.ipynb, suribank\_paren.csv en de csv-bestanden uit practicum 2, en het werkboek BK-ICT A-ET Werkboek instrumenten.xlsx.
+**Bestanden in de leeromgeving.** ICT A-ET Practicum 4.zip, met practicum4\_testlogboek.xlsx, practicum4\_suribank.ows, practicum4\_paren.ipynb, suribank\_paren.csv en de csv-bestanden uit practicum 2, en het werkboek ICT A-ET Werkboek instrumenten.xlsx.
 
 ## Voorbereiding
 
@@ -58,7 +58,7 @@
 >
 > **Hulp**
 >
-> - Het werkboek BK-ICT A-ET Werkboek instrumenten.xlsx heeft een tabblad voor elk instrument, met een voorbeeldrij.
+> - Het werkboek ICT A-ET Werkboek instrumenten.xlsx heeft een tabblad voor elk instrument, met een voorbeeldrij.
 > - Het sjabloon voor practicum 4 staat in de leeromgeving.
 > - Dinsdag 2 februari is er een online vragenuur over Assessment 1.
 > - Twijfel je of iets een dilemma of een risico is? Gebruik de toets uit clip 12: is het een keuze, of iets wat kan gebeuren?

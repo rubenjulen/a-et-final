@@ -38,7 +38,7 @@
 | suribank\_testset.csv | 1.000 nieuwe aanvragen met de juiste uitkomst: 600 van de kust, 400 uit het binnenland |
 | practicum2\_3.ipynb | De Python-versie van practicum 2 en 3 |
 
-Alle bestanden zitten samen in BK-ICT A-ET Practicum 2 en 3.zip op MyCampus.
+Alle bestanden zitten samen in ICT A-ET Practicum 2 en 3.zip op MyCampus.
 
 ## Voorbereiding
 

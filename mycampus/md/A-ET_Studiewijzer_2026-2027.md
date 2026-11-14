@@ -1,5 +1,60 @@
 Deze studiewijzer beschrijft de module AI & Ethics (A-ET) van januari tot en met maart 2027: wat je leert, hoe de weken zijn opgebouwd, met welke instrumenten je werkt, hoe je begeleid wordt en hoe je wordt beoordeeld. Alle weekmodules, sjablonen en bestanden vind je op MyCampus.
 
+## In één oogopslag
+
+Hier staat alles wat je moet weten om goed te starten. Tijden zijn Surinaamse tijd. De details staan in de weekmodule van die week.
+
+### Alle deadlines
+
+| Wanneer | Wat | Groep of individueel | Telt mee |
+| --- | --- | --- | --- |
+| Elke woensdag, 23:59 | Weekcheck: kennisvragen, logboekregel en standpunt | Individueel | Nee |
+| Elke zondag, 23:59 | Rapportstuk van die week | Groep | Via A1 en A2 |
+| Woensdag 6 januari, 23:59 | Week 0 af: intake, practicum 1 met evidence card, beschrijving van de eigen oplossing, beginquiz | Individueel en groep | Nee |
+| Zondag 10 januari, 23:59 | K1-canvas met teamafspraken | Groep | Via A1 |
+| Dinsdag 12 januari, 23:59 | Drie vragen voor de gastspreker en twee debatstellingen | Groep | Nee |
+| Zondag 31 januari, 23:59 | Concept K4, K5 en K6 naar de peergroep (conceptronde vóór A1) | Groep | Nee |
+| Maandag 1 februari, 23:59 | Peerfeedback terug | Groep | Nee |
+| **Donderdag 4 februari, 23:59** | **Assessment 1:** tussenrapport, dilemma-canvas, AI-verklaring en peerbeoordeling | Groep en individueel | **Ja, 30%** |
+| Vrijdag 12 tot en met dinsdag 16 februari | Feedbackgesprek van 15 minuten | Groep | Nee |
+| Dinsdag 23 februari, 23:59 | Presentatie (maximaal 8 dia's) en concept K7 voor de Design Review | Groep | Nee |
+| Zondag 28 februari, 23:59 | Herzien K7 en de verwerkingslijst | Groep | Via A2 |
+| Zondag 7 maart, 23:59 | Concept eindrapport naar de peergroep | Groep | Nee |
+| Woensdag 10 maart, 23:59 | Laatste weekcheck en module-evaluatie; eindquiz [datum volgt] | Individueel | Nee |
+| **Donderdag 11 maart, 23:59** | **Assessment 2:** eindrapport, reflectie, AI-verklaring en peerbeoordeling | Groep en individueel | **Ja, 70%** |
+
+### Wat telt mee
+
+- **Assessment 1 (30%):** groepsdeel 60%, individueel dilemma-canvas 40%.
+- **Assessment 2 (70%):** groepsdeel 60%, individuele reflectie 40%.
+- Je eindcijfer is minimaal een 5,5. Weekchecks tellen niet mee; ze laten zien hoe je vordert.
+- Bij aantoonbaar te weinig bijdrage kan je groepscijfer lager worden (peercorrectie), nooit alleen op basis van het peerformulier.
+
+### Wat je nodig hebt
+
+- Een laptop met Windows of macOS. Orange werkt niet op een Chromebook; de Python-route kan ook in Google Colab.
+- Toegang tot MyCampus, met het werkboek, de sjablonen en het peerbeoordelingsformulier.
+- De link voor de online sessies: [link volgt].
+
+### Regels
+
+- **Aanwezigheid:** de drie colleges (7 januari, 14 januari, 25 februari) zijn [verplicht / sterk aanbevolen: docent kiest]. De online sessies worden opgenomen.
+- **Uitstel:** vraag je aan vóór de woensdag vóór de deadline, 18:00, met een reden (ziekte, overlijden in de familie, werk dat niet te verschuiven is). Voor Assessment 1 is dat woensdag 3 februari, voor Assessment 2 woensdag 10 maart.
+- **Te laat zonder uitstel:** tot 72 uur na de deadline wordt je werk beoordeeld, met 0,5 punt aftrek per begonnen 24 uur. Daarna telt het als niet ingeleverd. Voor Assessment 2 gelden dezelfde regels.
+- **Storing bij uploaden:** mail de pdf vóór 23:59 naar de docent; het tijdstip van de mail telt.
+- **AI-gebruik:** mag, als je het verantwoordt in een korte AI-verklaring bij elke inlevering.
+- **Herkansing:** [data en vorm volgen via MyCampus].
+
+### Hoe feedback werkt
+
+Op Assessment 1 en 2 krijg je feedback in een vaste vorm: eerst een korte kernboodschap, dan per criterium waarom je dat niveau kreeg en wat nodig is voor het volgende niveau, een check of jullie redenering klopt van bewijs tot oordeel, en hoogstens vijf actiepunten. Het cijfer staat onderaan. De actiepunten van Assessment 1 verwerk je in de verwerkingslijst (bijlage E van het eindrapport): overgenomen, deels overgenomen of niet overgenomen, steeds met waar of waarom.
+
+### Vragen en contact
+
+- Vragen stel je via [kanaal, bijvoorbeeld MyCampus of e-mail]; je krijgt antwoord binnen [reactietermijn].
+- Online inloopmoment voor installatievragen: dinsdag 5 januari.
+- Online vragenuren: dinsdag 2 februari (Assessment 1) en dinsdag 9 maart (Assessment 2).
+
 ## 1. Uitgangspunten
 
 De module duurt 10 weken, heeft 3 studiepunten (84 SBU) en kent drie fysieke colleges. Assessment 1 telt voor 30%, de eindtoets voor 70%; het eindcijfer is individueel en minimaal een 5,5.
@@ -135,33 +190,29 @@ Volle stippen zijn fysieke colleges, open stippen online sessies. Practicum 5 in
 
 ### Week 0. Online opfrisser (vanaf 14 december)
 
-Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Week 0 frist die op met twee korte clips en practicum 1: één model trainen en de soorten fouten lezen, in Orange of in Python. Groepen zoeken hun ethische evaluatie uit A-AI1 op; die is het startpunt van de nulmeting. Een beginquiz meet de voorkennis; dezelfde quiz in week 10 laat de leerwinst zien. Op dinsdag 5 januari is er een online inloopmoment voor installatievragen.
+Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Week 0 frist die op met vier korte kennisclips en practicum 1: één model trainen en de soorten fouten lezen, in Orange of in Python. Groepen zoeken hun ethische evaluatie uit A-AI1 op; die is het startpunt van de nulmeting. Een beginquiz meet de voorkennis; dezelfde quiz in week 10 laat de leerwinst zien. Op dinsdag 5 januari is er een online inloopmoment voor installatievragen.
 
 ### Week 1. Wat staat er op het spel? (College 1, 7 januari)
 
-| Tijd | Onderdeel |
-| --- | --- |
-| 0:00 tot 0:20 | Opening met een dilemma: een Surinaamse bank wil een kredietmodel invoeren dat sneller beslist maar aanvragers uit het binnenland vaker afwijst. Studenten stemmen en onderbouwen |
-| 0:20 tot 0:45 | Van prototype tot gevolg: waar raakt de eigen oplossing mensen, en wat is anders bij generatieve AI? |
-| 0:45 tot 1:15 | Werkt het, mag het, is het verantwoord? De vier ethische lenzen, met hun theorienaam, toegepast op het openingsdilemma |
-| 1:15 tot 1:25 | Pauze |
-| 1:25 tot 1:55 | De Surinaamse context, de 11 domeinen, in 5 minuten het kaderlandschap, de opbouw van het rapport en de aansluiting op A-AI2 en A-DG |
-| 1:55 tot 2:40 | Groepen (dezelfde als in A-AI1 en A-AI2) bakenen hun eigen oplossing af als casus, met hun ethische evaluatie uit A-AI1 als start |
-| 2:40 tot 3:00 | Werkwijze, toetsing, rubric en voorbeeldrapport; voorbereiding op gastspreker en debat: groepen formuleren debatstellingen met onderbouwing |
+**Zo verloopt het college**
+
+- Je opent met een dilemma: een Surinaamse bank wil een kredietmodel dat sneller beslist, maar aanvragers uit het binnenland vaker afwijst. Je stemt en onderbouwt je keuze.
+- Je kijkt waar jullie eigen oplossing mensen raakt, en wat anders is bij generatieve AI.
+- Je leert de vier ethische lenzen, met hun theorienaam, en past ze toe op het dilemma.
+- Je hoort over de Surinaamse context, de 11 domeinen, het kaderlandschap, de opbouw van het rapport en de aansluiting op A-AI2 en A-DG.
+- Met je groep (dezelfde als in A-AI1 en A-AI2) baken je jullie oplossing af als casus. Tot slot: werkwijze, toetsing, rubric en voorbeeldrapport, en de voorbereiding op de gastspreker en het debat.
 
 Na het college leggen groepen hun oplossing, de partner en de afbakening vast in K1. Kaderclip A (5 minuten) plaatst de vijf kaders in de vier lagen.
 
 ### Week 2. Data-ethiek, bias, privacy en verantwoording (College 2, 14 januari)
 
-| Tijd | Onderdeel |
-| --- | --- |
-| 0:00 tot 0:15 | Terugblik: welke fout van het model is erger, en voor wie? |
-| 0:15 tot 1:00 | Gastspreker met één echte casus: het vraagstuk, de risico's, wat misging, wie verantwoordelijk was en welke maatregelen volgden |
-| 1:00 tot 1:25 | Vraaggesprek met door de groepen voorbereide vragen |
-| 1:25 tot 1:35 | Pauze |
-| 1:35 tot 2:05 | Minicollege: bronnen van bias, privacybeginselen, verantwoording en de Surinaamse ontwerpwet |
-| 2:05 tot 2:45 | Debat in Lagerhuisvorm over de stellingen die groepen voorbereidden; halverwege wisselen studenten van kant |
-| 2:45 tot 3:00 | Vertaling naar de eigen casus en het plan voor bewijsverzameling |
+**Zo verloopt het college**
+
+- Terugblik: welke fout van het model is erger, en voor wie?
+- Een gastspreker vertelt over één echte casus: het vraagstuk, de risico's, wat misging, wie verantwoordelijk was en welke maatregelen volgden. Daarna stel je de vragen die je groep heeft voorbereid.
+- Minicollege over bronnen van bias, privacybeginselen, verantwoording en de Surinaamse ontwerpwet.
+- Debat in Lagerhuisvorm over de stellingen die de groepen voorbereidden; halverwege wissel je van kant.
+- Je vertaalt het naar jullie eigen casus en maakt een plan voor bewijsverzameling.
 
 ### Week 3 en 4. Analyse (online)
 
@@ -177,13 +228,12 @@ Studenten bepalen het gewenste niveau per domein en vertalen de grootste risico'
 
 ### Week 8. Design Review (College 3, 25 februari)
 
-| Tijd | Onderdeel |
-| --- | --- |
-| 0:00 tot 0:15 | De reviewcriteria: is elk hoog risico gekoppeld aan een maatregel, kan een mens echt ingrijpen, kan een getroffene bezwaar maken, heeft elke maatregel een eigenaar? |
-| 0:15 tot 1:45 | Elke groep presenteert 8 minuten aan een panel van docent en bij voorkeur een externe deskundige, gevolgd door 7 minuten vragen |
-| 1:45 tot 1:55 | Pauze |
-| 1:55 tot 2:35 | Groepen verwerken de feedback; minicollege over implementatie en monitoring met de cyclus van ISO/IEC 42001 (kaderclip E) |
-| 2:35 tot 3:00 | Start van de individuele reflectie en uitleg van de eindtoets |
+**Zo verloopt het college**
+
+- De reviewcriteria: is elk hoog risico gekoppeld aan een maatregel, kan een mens echt ingrijpen, kan een getroffene bezwaar maken, heeft elke maatregel een eigenaar?
+- Elke groep presenteert 8 minuten aan een panel van de docent en bij voorkeur een externe deskundige, gevolgd door 7 minuten vragen.
+- Je verwerkt de feedback met je groep, en volgt een minicollege over implementatie en monitoring met de cyclus van ISO/IEC 42001 (kaderclip E).
+- Je start met je individuele reflectie en krijgt uitleg over de eindtoets.
 
 De Design Review is ook de generale repetitie voor de AI Solutions Day van A-AI2 in week 9, waar groepen hun ethische maatregelen aan publiek en partner laten zien. Het panel werkt als een peer-audit: het toetst of de maatregelen aantoonbaar werken, zoals een interne audit in ISO/IEC 42001.
 
@@ -250,7 +300,7 @@ Elke student is eigenaar van benoemde hoofdstukken. Peerbeoordeling van de inzet
 
 **Individuele reflectie.** Welke dilemma's waren het lastigst, welke aanname bleek onjuist, welke feedback veranderde het oordeel, en wat was de eigen rol in het team? De student onderbouwt dit met het eigen logboek, de evidence cards en testverslagen, en de eigen standpunten uit de weekchecks: welk standpunt veranderde, en waardoor?
 
-**Beoordelingscriteria.** Elk criterium kent vier niveaus: onvoldoende, voldoende, goed en excellent. De volledige rubric staat in BK-ICT A-ET Beoordelingsrubric.pdf en in de modules van week 5 en week 8.
+**Beoordelingscriteria.** Elk criterium kent vier niveaus: onvoldoende, voldoende, goed en excellent. De volledige rubric staat in ICT A-ET Beoordelingsrubric.pdf en in de modules van week 5 en week 8.
 
 | Criterium | Competenties | A1 | A2 |
 | --- | --- | --- | --- |
@@ -283,28 +333,29 @@ Alle activiteiten passen in de 84 SBU en de vijf categorieën van de vakbeschrij
 | Assessment 2 | Toets | 9 |
 | **Totaal** |  | **84** |
 
-De kaderclips A tot en met E (samen ongeveer 31 minuten, omdat clip 13 3 minuten korter wordt) vallen binnen de 10 SBU voor clips, weekcheck en kernbronnen.
+De kaderclips A tot en met E (samen ongeveer 34 minuten: A 5, B 7, C 8, D 7 en E 7) vallen binnen de 10 SBU voor clips, weekcheck en kernbronnen.
 
 ## 11. AI-gebruik en AI-verklaring
 
-Je mag generatieve AI gebruiken, bijvoorbeeld om te brainstormen, teksten te verbeteren of code uit te leggen, mits je dat verantwoordt. Bij elke inlevering hoort een korte AI-verklaring: welke tool je gebruikte, waarvoor, wat je zelf hebt gecontroleerd, en wat je bewust niet met AI deed. Gebruik het formulier BK-ICT A-ET AI-verklaring.docx. Zet nooit echte persoonsgegevens of vertrouwelijke gegevens van de partner in een AI-tool. Ontbreekt de AI-verklaring, dan wordt het werk pas beoordeeld als die binnen is.
+Je mag generatieve AI gebruiken, bijvoorbeeld om te brainstormen, teksten te verbeteren of code uit te leggen, mits je dat verantwoordt. Bij elke inlevering hoort een korte AI-verklaring: welke tool je gebruikte, waarvoor, wat je zelf hebt gecontroleerd, en wat je bewust niet met AI deed. Gebruik het formulier ICT A-ET AI-verklaring.docx. Zet nooit echte persoonsgegevens of vertrouwelijke gegevens van de partner in een AI-tool. Ontbreekt de AI-verklaring, dan wordt het werk pas beoordeeld als die binnen is.
 
 ## 12. Materiaal op MyCampus
 
 | Wat | Bestand |
 | --- | --- |
-| Weekmodules 0 tot en met 10 | BK-ICT A-ET Week 0 tot en met BK-ICT A-ET Week 10 |
-| Werkboek met de instrumenten | BK-ICT A-ET Werkboek instrumenten.xlsx |
-| Word-sjablonen | BK-ICT A-ET K1 Canvas, BK-ICT A-ET K5 Dilemma Canvas, BK-ICT A-ET Sjabloon tussenrapport, BK-ICT A-ET Sjabloon eindrapport, BK-ICT A-ET Sjabloon reflectie, BK-ICT A-ET AI-verklaring |
-| Peerbeoordeling | BK-ICT A-ET Peerbeoordeling.xlsx |
-| Beoordelingsrubric | BK-ICT A-ET Beoordelingsrubric.pdf |
-| Voorbeeldrapport | BK-ICT A-ET Voorbeeldrapport.pdf |
-| Casusdossier Suribank | BK-ICT A-ET Casusdossier Suribank.pdf |
-| Practica | BK-ICT A-ET Practicum 1, BK-ICT A-ET Practicum 2 en 3, BK-ICT A-ET Practicum 4 en BK-ICT A-ET Practicum 5 (zip met notebook, Orange-workflow en datasets) |
-| Dia's per week | BK-ICT A-ET College 1 tot en met BK-ICT A-ET College 10 |
-| Kennisclips | BK-ICT A-ET Kennisclip 1 tot en met 22, en de kaderclips A tot en met E |
+| Studiewijzer | ICT A-ET Studiewijzer.pdf |
+| Weekmodules 0 tot en met 10 | ICT A-ET Week 0 tot en met ICT A-ET Week 10 |
+| Werkboek met de instrumenten | ICT A-ET Werkboek instrumenten.xlsx |
+| Word-sjablonen | ICT A-ET K1 Canvas, ICT A-ET K5 Dilemma Canvas, ICT A-ET Sjabloon tussenrapport, ICT A-ET Sjabloon eindrapport, ICT A-ET Sjabloon reflectie, ICT A-ET AI-verklaring |
+| Peerbeoordeling | ICT A-ET Peerbeoordeling.xlsx |
+| Beoordelingsrubric | ICT A-ET Beoordelingsrubric.pdf |
+| Voorbeeldrapport | ICT A-ET Voorbeeldrapport.pdf |
+| Casusdossier Suribank | ICT A-ET Casusdossier Suribank.pdf |
+| Practica | ICT A-ET Practicum 1, ICT A-ET Practicum 2 en 3, ICT A-ET Practicum 4 en ICT A-ET Practicum 5 (zip met notebook, Orange-workflow en datasets) |
+| Dia's per week | ICT A-ET College 1 tot en met ICT A-ET College 10 |
+| Kennisclips | ICT A-ET Kennisclip 1 tot en met 22, en de kaderclips A tot en met E |
 
-Op MyCampus heten de dia's per week 'BK-ICT A-ET College N', ook in de weken met een online sessie; N is het weeknummer.
+Op MyCampus heten de dia's per week 'ICT A-ET College N', ook in de weken met een online sessie; N is het weeknummer.
 
 ## Bronnen
 
