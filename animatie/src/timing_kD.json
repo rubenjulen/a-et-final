@@ -1,0 +1,376 @@
+{
+ "cues": [
+  {
+   "key": "D0a",
+   "text": "Jullie hebben nu maatregelen bedacht. Maar een maatregel moet ergens landen: bij een eigenaar, in een proces, en soms bij een leverancier.",
+   "start": 0.8,
+   "dur": 8.9,
+   "audio": false
+  },
+  {
+   "key": "D0b",
+   "text": "Governance is de vraag wie wat beslist, en wie wat controleert. Van het eerste ontwerp tot het dagelijkse gebruik.",
+   "start": 10.2,
+   "dur": 7.35,
+   "audio": false
+  },
+  {
+   "key": "D0c",
+   "text": "Deze clip volgt de indeling van de AIGP. Dat is een certificering van de IAPP, een internationale beroepsvereniging voor privacy en AI.",
+   "start": 18.05,
+   "dur": 8.71,
+   "audio": false
+  },
+  {
+   "key": "D0d",
+   "text": "Je hoeft die certificering niet te halen. Maar de manier van kijken helpt je bij K3 en K7.",
+   "start": 27.26,
+   "dur": 5.81,
+   "audio": false
+  },
+  {
+   "key": "D1a",
+   "text": "AIGP verdeelt governance in twee fasen.",
+   "start": 33.97,
+   "dur": 2.52,
+   "audio": false
+  },
+  {
+   "key": "D1b",
+   "text": "De eerste fase is de ontwikkeling. Wat is de use case? Wie wordt geraakt? Welke eisen stel je? En is het systeem getest voordat het live gaat?",
+   "start": 36.99,
+   "dur": 9.16,
+   "audio": false
+  },
+  {
+   "key": "D1c",
+   "text": "De tweede fase is het gebruik. Dan gaat het om monitoring, om incidenten, om instructie voor de mensen die ermee werken, en om het besluit om het systeem uit te zetten.",
+   "start": 46.65,
+   "dur": 10.84,
+   "audio": false
+  },
+  {
+   "key": "D1d",
+   "text": "Jullie rapport doet allebei. K1 tot en met K7 gaan vooral over de ontwikkeling. K8 en het beslismemo gaan vooral over het gebruik.",
+   "start": 57.99,
+   "dur": 8.39,
+   "audio": false
+  },
+  {
+   "key": "D1e",
+   "text": "Governance stopt dus niet bij de livegang. Veel problemen ontstaan pas als een systeem een paar maanden draait.",
+   "start": 66.88,
+   "dur": 7.16,
+   "audio": false
+  },
+  {
+   "key": "D2a",
+   "text": "Wie beslist er? Dat hangt af van de rol.",
+   "start": 74.94,
+   "dur": 2.58,
+   "audio": false
+  },
+  {
+   "key": "D2b",
+   "text": "De ontwikkelaar bouwt het systeem. Bij jullie is dat het team in A-AI2.",
+   "start": 78.02,
+   "dur": 4.58,
+   "audio": false
+  },
+  {
+   "key": "D2c",
+   "text": "De aanbieder brengt het systeem onder eigen naam in gebruik. De gebruiksverantwoordelijke zet het in, in de eigen organisatie. Die twee rollen ken je uit kaderclip C.",
+   "start": 83.1,
+   "dur": 10.71,
+   "audio": false
+  },
+  {
+   "key": "D2d",
+   "text": "En dan de gebruiker: de medewerker die met de agent werkt, en de klant die ermee praat.",
+   "start": 94.31,
+   "dur": 5.61,
+   "audio": false
+  },
+  {
+   "key": "D2e",
+   "text": "Bij Frisco Installaties bouwen jullie de orderagent, en Frisco zet hem in. Frisco is dus gebruiksverantwoordelijke, en vaak ook aanbieder.",
+   "start": 100.42,
+   "dur": 8.9,
+   "audio": false
+  },
+  {
+   "key": "D2f",
+   "text": "Elke rol heeft eigen plichten. Een maatregel zonder rol is een wens.",
+   "start": 109.82,
+   "dur": 4.39,
+   "audio": false
+  },
+  {
+   "key": "D3a",
+   "text": "Kijk nu naar een orderagent zoals jullie die bouwen. Het lijkt één systeem, maar het zijn er meer.",
+   "start": 115.11,
+   "dur": 6.32,
+   "audio": false
+  },
+  {
+   "key": "D3b",
+   "text": "n8n regelt de workflow. Een taalmodel-API van een externe aanbieder schrijft de antwoorden. Een vectordatabase bewaart de productinformatie. En alles draait ergens op een server: de hosting.",
+   "start": 121.93,
+   "dur": 12.26,
+   "audio": false
+  },
+  {
+   "key": "D3c",
+   "text": "Elke dienst is een leverancier, met eigen voorwaarden.",
+   "start": 134.69,
+   "dur": 3.48,
+   "audio": false
+  },
+  {
+   "key": "D3d",
+   "text": "Stel: een klant stuurt zijn naam, zijn adres en een foto van de kapotte koelinstallatie. Waar gaat dat allemaal naartoe?",
+   "start": 138.67,
+   "dur": 7.74,
+   "audio": false
+  },
+  {
+   "key": "D3e",
+   "text": "Teken de diensten in K3. Zet bij elke dienst welke gegevens erheen gaan, en waar ze worden opgeslagen.",
+   "start": 146.91,
+   "dur": 6.58,
+   "audio": false
+  },
+  {
+   "key": "D4a",
+   "text": "Daarvoor is de leverancierscheck. Vier vragen, voor elke externe dienst.",
+   "start": 154.39,
+   "dur": 4.65,
+   "audio": false
+  },
+  {
+   "key": "D4b",
+   "text": "Eén: wat doet de leverancier met onze gegevens? Gebruikt hij ze ook om zijn eigen model te trainen?",
+   "start": 159.54,
+   "dur": 6.39,
+   "audio": false
+  },
+  {
+   "key": "D4c",
+   "text": "Twee: waar staan de gegevens? In Suriname, in de Verenigde Staten, of ergens anders?",
+   "start": 166.43,
+   "dur": 5.42,
+   "audio": false
+  },
+  {
+   "key": "D4d",
+   "text": "Drie: wat wordt gelogd, en wie kan daarbij?",
+   "start": 172.35,
+   "dur": 2.77,
+   "audio": false
+  },
+  {
+   "key": "D4e",
+   "text": "Vier: wat mag de agent zelf doen, zonder mens?",
+   "start": 175.62,
+   "dur": 2.97,
+   "audio": false
+  },
+  {
+   "key": "D4f",
+   "text": "Het antwoord staat vaak in de voorwaarden, of in de instellingen van je account. Weet je een antwoord niet? Dan is dat geen fout in je rapport. Het is een risico voor je register.",
+   "start": 179.09,
+   "dur": 11.55,
+   "audio": false
+  },
+  {
+   "key": "DQ1",
+   "text": "Een vraag voor jou. Een groep gebruikt een taalmodel-API om e-mails van klanten samen te vatten. Welke vraag uit de leverancierscheck is hier het belangrijkst?",
+   "start": 191.54,
+   "dur": 10.26,
+   "audio": false
+  },
+  {
+   "key": "DQ1b",
+   "text": "Wat de leverancier met de gegevens doet, ook voor training. De e-mails bevatten persoonsgegevens van klanten. Waar ze staan, volgt direct daarna.",
+   "start": 209.8,
+   "dur": 9.35,
+   "audio": false
+  },
+  {
+   "key": "D5a",
+   "text": "Nu het bijzondere van een AI-agent. Een chatbot geeft antwoord. Een agent zet zelf stappen.",
+   "start": 220.05,
+   "dur": 5.87,
+   "audio": false
+  },
+  {
+   "key": "D5b",
+   "text": "Hij maakt een offerte, stuurt een mail, plant een monteur in, of plaatst een bestelling.",
+   "start": 226.42,
+   "dur": 5.68,
+   "audio": false
+  },
+  {
+   "key": "D5c",
+   "text": "Hoe meer de agent zelf mag, hoe belangrijker de grenzen.",
+   "start": 232.6,
+   "dur": 3.61,
+   "audio": false
+  },
+  {
+   "key": "D5d",
+   "text": "Een offerte opstellen mag de agent zelf, als een medewerker meekijkt voordat die de deur uit gaat. Een bestelling plaatsen of een betaling doen is anders. Daar tekent een mens.",
+   "start": 236.71,
+   "dur": 11.35,
+   "audio": false
+  },
+  {
+   "key": "D5e",
+   "text": "Je legt dus vast: welke acties pas na bevestiging door een mens, tot welk bedrag, en voor welke klanten.",
+   "start": 248.56,
+   "dur": 6.71,
+   "audio": false
+  },
+  {
+   "key": "D5f",
+   "text": "En elke actie van de agent wordt gelogd. Dan kun je achteraf zien wat er gebeurde.",
+   "start": 255.77,
+   "dur": 5.29,
+   "audio": false
+  },
+  {
+   "key": "D5g",
+   "text": "Nog één ding. Een contract met de leverancier kan een deel van de gevolgen naar hem verschuiven. Maar de schade voor de klant verdwijnt er niet door. Wie de agent inzet, blijft verantwoordelijk.",
+   "start": 261.56,
+   "dur": 12.52,
+   "audio": false
+  },
+  {
+   "key": "DQ2",
+   "text": "Nog een vraag. Een orderagent mag zelf bestellingen plaatsen, tot elk bedrag. Welke maatregelen passen het best?",
+   "start": 274.98,
+   "dur": 7.23,
+   "audio": false
+  },
+  {
+   "key": "DQ2b",
+   "text": "Een grens. Bijvoorbeeld: boven een vast bedrag, of bij een nieuwe klant, bevestigt een medewerker de bestelling eerst. Dat voorkomt fouten. En elke actie van de agent wordt gelogd. Zo spoor je fouten op.",
+   "start": 290.21,
+   "dur": 13.1,
+   "audio": false
+  },
+  {
+   "key": "D6a",
+   "text": "Tot slot de kolom Kader in K7. Geef elke maatregel een verwijzing naar een erkend kader.",
+   "start": 304.21,
+   "dur": 5.68,
+   "audio": false
+  },
+  {
+   "key": "D6b",
+   "text": "De grens voor bestellingen gaat over menselijk toezicht. Bij een systeem met hoog risico eist de AI-verordening dat, in artikel 14. Voor jullie agent is het geen plicht, maar wel goed ontwerp.",
+   "start": 310.39,
+   "dur": 12.39,
+   "audio": false
+  },
+  {
+   "key": "D6c",
+   "text": "De leverancierscheck hoort bij ISO 42001, bij het deel over derde partijen. En de logging past bij het deel over de levenscyclus van het systeem.",
+   "start": 323.28,
+   "dur": 9.35,
+   "audio": false
+  },
+  {
+   "key": "D6d",
+   "text": "Zo laat je zien dat een maatregel niet uit de lucht komt vallen.",
+   "start": 333.13,
+   "dur": 4.13,
+   "audio": false
+  },
+  {
+   "key": "D7a",
+   "text": "Wat doe je nu met je groep?",
+   "start": 338.16,
+   "dur": 1.74,
+   "audio": false
+  },
+  {
+   "key": "D7b",
+   "text": "Eén: zet in K3 bij elke externe dienst wat erheen gaat en waar het staat.",
+   "start": 340.4,
+   "dur": 4.71,
+   "audio": false
+  },
+  {
+   "key": "D7c",
+   "text": "Twee: vul in K7 voor elke dienst de leverancierscheck in.",
+   "start": 345.61,
+   "dur": 3.68,
+   "audio": false
+  },
+  {
+   "key": "D7d",
+   "text": "Drie: geef elke maatregel in de kolom Kader een verwijzing.",
+   "start": 349.79,
+   "dur": 3.81,
+   "audio": false
+  },
+  {
+   "key": "D7e",
+   "text": "In de online sessie bespreken we welke stap jullie agent zelf mag zetten, zonder mens.",
+   "start": 354.1,
+   "dur": 5.55,
+   "audio": false
+  }
+ ],
+ "total": 361.05,
+ "audioDir": "aud_kD",
+ "estimated": [
+  "D0a",
+  "D0b",
+  "D0c",
+  "D0d",
+  "D1a",
+  "D1b",
+  "D1c",
+  "D1d",
+  "D1e",
+  "D2a",
+  "D2b",
+  "D2c",
+  "D2d",
+  "D2e",
+  "D2f",
+  "D3a",
+  "D3b",
+  "D3c",
+  "D3d",
+  "D3e",
+  "D4a",
+  "D4b",
+  "D4c",
+  "D4d",
+  "D4e",
+  "D4f",
+  "DQ1",
+  "DQ1b",
+  "D5a",
+  "D5b",
+  "D5c",
+  "D5d",
+  "D5e",
+  "D5f",
+  "D5g",
+  "DQ2",
+  "DQ2b",
+  "D6a",
+  "D6b",
+  "D6c",
+  "D6d",
+  "D7a",
+  "D7b",
+  "D7c",
+  "D7d",
+  "D7e"
+ ]
+}
