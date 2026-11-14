@@ -2,7 +2,7 @@
 const fs=require('fs'),path=require('path');const {chromium}=require('playwright');
 const FS=process.env.AET_FONTS||require('path').resolve(__dirname,'../../animatie/node_modules/@fontsource');
 const ff=(fam,dir,file,w,st)=>`@font-face{font-family:'${fam}';src:url('file://${FS}/${dir}/files/${file}-latin-${w}-${st}.woff2');font-weight:${w};font-style:${st}}`;
-let faces='';for(const w of [400,600,700])for(const st of ['normal','italic']){faces+=ff('Public Sans','public-sans','public-sans',w,st);faces+=ff('Source Serif 4','source-serif-4','source-serif-4',w,st);}
+let faces="@font-face{font-family:'Carlito';src:local('Carlito'),url('file:///usr/share/fonts/truetype/crosextra/Carlito-Regular.ttf');font-weight:400}@font-face{font-family:'Carlito';src:local('Carlito Bold'),url('file:///usr/share/fonts/truetype/crosextra/Carlito-Bold.ttf');font-weight:700}";for(const w of [400,600,700])for(const st of ['normal','italic']){faces+=ff('Public Sans','public-sans','public-sans',w,st);faces+=ff('Source Serif 4','source-serif-4','source-serif-4',w,st);}
 const ICON={CheckCircle:'✓',Database:'≡',Lightbulb:'!',Settings:'⚙'};
 function fix(h){
   h=h.replace(/<x-shape kind="arrow-right" style="([^"]*)"\s*>(\s*<\/x-shape>)?/g,(m,st)=>`<div style="${st};clip-path:polygon(0 30%,60% 30%,60% 0,100% 50%,60% 100%,60% 70%,0 70%);flex:none"></div>`);
@@ -17,7 +17,8 @@ function fix(h){
   for(const id of order){
     let h=fs.readFileSync(path.join(dir,'project/slides',id+'.html'),'utf8');
     const am=h.match(/<aside>([\s\S]*?)<\/aside>/);const notes=am?am[1].trim():'';
-    h=fix(h.replace(/<aside>[\s\S]*?<\/aside>/,''));
+    if(id==='docent-voorbereiding'&&mode!=='notes')continue;
+    h=fix(h.replace(/<aside>[\s\S]*?<\/aside>/,'')).replace(/\/_blob\/4abe97bd07a999a9e2be7490350a0455/g,'file://'+path.resolve(__dirname,'../../lesmateriaal/huisstijl/janssen_logo.png'));
     pages+=`<div class="page">${h}</div>`;
     if(mode==='notes'){const fs_=notes.length>2600?22:notes.length>1600?26:30;
       pages+=`<div class="page notes"><div class="nh">Sprekersnotitie · ${id}</div><div class="nt" style="font-size:${fs_}px">${notes||'<em>(geen notitie)</em>'}</div></div>`;}
