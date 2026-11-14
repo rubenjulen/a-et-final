@@ -1,0 +1,36 @@
+ICT A-ET Moduleomschrijving (voor de startpagina op MyCampus)
+
+KORTE VERSIE (één alinea, voor een overzichtspagina of tegel)
+
+In AI & Ethics (A-ET) beoordeel je met je groep jullie eigen AI-oplossing uit A-AI2: wie wordt erdoor geraakt, wat kan er misgaan, en onder welke voorwaarden is inzet verantwoord? Je werkt met erkende kaders, ontwerpt maatregelen, bouwt ze via A-AI2 in en test of ze werken. De module eindigt met een advies: verantwoord inzetbaar, inzetbaar onder voorwaarden, of nu niet.
+
+
+VOLLEDIGE VERSIE
+
+AI & Ethics (A-ET) · Minor AI · 3 studiepunten (84 SBU) · januari tot en met maart 2027
+
+Waar gaat deze module over?
+AI-systemen nemen steeds vaker beslissingen die mensen raken: wie een lening krijgt, welke klant snel wordt geholpen, welk antwoord een chatbot geeft. In deze module beoordeel je met je groep jullie eigen AI-oplossing uit A-AI2, met de partner uit A-AI2 als organisatie. Je onderzoekt wie er door de oplossing wordt geraakt, waar en voor wie het systeem fouten maakt, welke waarden botsen en welke risico's dat oplevert. Daarna ontwerp je maatregelen, bouw je ze via A-AI2 in en test je of ze werken. Aan het eind beantwoord je één professionele vraag: is deze AI-oplossing verantwoord inzetbaar, en onder welke voorwaarden?
+
+Wat leer je?
+- Een AI-toepassing beoordelen op elf domeinen, van fairness en privacy tot menselijke controle en monitoring.
+- Ethische dilemma's wegen met vier lenzen, en een eigen oordeel onderbouwen.
+- Risico's concreet maken en vertalen naar toetsbare maatregelen met een eigenaar.
+- Werken met erkende kaders: IEEE CertifAIEd, de Europese AI-verordening (als vergelijking, want die geldt niet in Suriname), ISO/IEC 42001, en de stof van de certificeringen AIGP en CEET.
+- De ethiek van generatieve AI: chatbots en agents die overtuigend fout zijn, gegevens die naar externe diensten gaan, en de vraag of gebruikers weten dat ze met AI praten.
+
+Hoe werkt het?
+De module is blended. Er zijn drie colleges op locatie (7 januari, 14 januari met een gastspreker, en 25 februari met de Design Review) en zeven online sessies van een uur. Elke week heeft hetzelfde ritme:
+- Maandag opent de weekmodule met kennisclips, een kernbron en de opdracht.
+- Woensdag maak je de weekcheck: vijf kennisvragen en een standpunt over de stelling van de week. Die telt niet mee voor het cijfer.
+- Donderdag is het college of de online sessie.
+- Zondag leveren jullie het rapportstuk van de week in. Zo groeit het eindrapport elke week.
+Je werkt met een werkboek in Excel en sjablonen in Word, en doet vijf korte AI-practica in Orange of in Python. Het casusdossier Suribank laat bij elk instrument eerst een ingevuld voorbeeld zien.
+
+Hoe word je beoordeeld?
+- Assessment 1 (30%), donderdag 4 februari: het tussenrapport van je groep en één individueel uitgewerkt ethisch dilemma.
+- Assessment 2 (70%), donderdag 11 maart: het eindrapport met beslismemo, en een individuele reflectie.
+Je eindcijfer is individueel en moet minimaal een 5,5 zijn. De rubric en een voorbeeldrapport vind je vanaf week 1 onder Toetsing.
+
+Hoe begin je?
+De module start op maandag 14 december met week 0, een korte online opfrisser met kennisclips, practicum 1 en een beginquiz. Lees eerst de ICT A-ET Studiewijzer: daarin staan alle deadlines, de regels en wat je nodig hebt. Je hebt een laptop met Windows of macOS nodig; Python kan ook in Google Colab.
