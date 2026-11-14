@@ -125,7 +125,7 @@ const Suriname = () => {
       <Pop at={F('d4b', 0)} style={{ left: 960, top: 300, width: 830 }}>
         <Card style={{ borderLeft: `10px solid ${C.amber}` }}>
           <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 24, color: C.mute, letterSpacing: 1 }}>ONTWERPWET BESCHERMING PRIVACY EN PERSOONSGEGEVENS</div>
-          <div style={{ fontFamily: SERIF, fontWeight: 600, fontSize: 36, color: C.ink, marginTop: 8 }}>sinds 2020 bij De Nationale Assemblée</div>
+          <div style={{ fontFamily: SERIF, fontWeight: 600, fontSize: 36, color: C.ink, marginTop: 8 }}>ligt bij De Nationale Assemblée</div>
           <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 28, color: C.amber, marginTop: 10 }}>⏳ nog niet in werking</div>
           {regel.map((r, i) => <div key={r} style={{ fontFamily: SANS, fontSize: 28, color: C.ink, marginTop: 12, opacity: interpolate(frame, [F('d4c', 2 + i * 2.5), F('d4c', 2.4 + i * 2.5)], [0, 1], clamp) }}>• {r}</div>)}
         </Card>
