@@ -9,7 +9,7 @@ Conventie uit de handleiding van Janssen: **Studierichting Vakcode Naam**, zonde
 | --- | --- | --- |
 | Lesmateriaal | Studierichting Vakcode Documentnaam | ICT A-ET Studiewijzer · ICT A-ET Beoordelingsrubric · ICT A-ET Voorbeeldrapport · ICT A-ET Casusdossier Suribank · ICT A-ET Werkboek instrumenten · ICT A-ET K1 Canvas · ICT A-ET K5 Dilemma Canvas · ICT A-ET Sjabloon tussenrapport · ICT A-ET Sjabloon eindrapport · ICT A-ET Sjabloon reflectie · ICT A-ET AI-verklaring · ICT A-ET Peerbeoordeling · ICT A-ET Week 0 tot en met ICT A-ET Week 10 · ICT A-ET Practicum 1 · ICT A-ET Practicum 2 en 3 · ICT A-ET Practicum 4 · ICT A-ET Practicum 5 · ICT A-ET Kennisclip 1 tot en met 22 (en de kaderclips: ICT A-ET Kaderclip A tot en met E) |
 | Slides | Studierichting Vakcode Collegenummer | ICT A-ET College 1 tot en met ICT A-ET College 10. N is het weeknummer, ook in de weken met een online sessie (week 3–7, 9, 10). Week 0 heeft geen contactmoment |
-| Assignments | Studierichting Vakcode Assignmentnaam | ICT A-ET Intake · ICT A-ET Beginquiz · ICT A-ET K1 · ICT A-ET Voorbereiding college 2 · ICT A-ET Weekcheck 1 tot en met ICT A-ET Weekcheck 10 · ICT A-ET Exit ticket college 1 tot en met ICT A-ET Exit ticket college 10 · ICT A-ET Assessment 1 groep · ICT A-ET Assessment 1 individueel · ICT A-ET Peerbeoordeling 1 · ICT A-ET Assessment 2 groep · ICT A-ET Assessment 2 reflectie · ICT A-ET Peerbeoordeling 2 |
+| Assignments | Studierichting Vakcode Assignmentnaam | ICT A-ET Intake · ICT A-ET Beginquiz · ICT A-ET K1 · ICT A-ET Voorbereiding college 2 · ICT A-ET Rapportstuk week 2 tot en met ICT A-ET Rapportstuk week 9 · ICT A-ET Weekcheck 1 tot en met ICT A-ET Weekcheck 10 · ICT A-ET Exit ticket college 1 tot en met ICT A-ET Exit ticket college 10 · ICT A-ET Assessment 1 groep · ICT A-ET Assessment 1 individueel · ICT A-ET Peerbeoordeling 1 · ICT A-ET Assessment 2 groep · ICT A-ET Assessment 2 reflectie · ICT A-ET Peerbeoordeling 2 |
 | Eindcijfer | vast | ICT A-ET Eindtoets Assignment (niet aanpassen) |
 
 Practica staan als zip op MyCampus; binnen de zip houden de bestanden hun oorspronkelijke naam, omdat de notebooks en de Orange-workflow de csv-bestanden op naam openen.
@@ -127,24 +127,31 @@ De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanui
 | Bestand | Bron | Waar op MyCampus | Status |
 | --- | --- | --- | --- |
 | ICT A-ET Week 2.pdf | scratchpad/mycampus/pdf/ | Weekmodule 2, bovenaan | Klaar |
-| Kennisclip 6. Waar komt bias vandaan? | nog te produceren | Weekmodule 2 | Ontbreekt |
-| Kennisclip 7. Privacy als ethische vraag | nog te produceren | Weekmodule 2 | Ontbreekt |
-| Kennisclip 8. Automation bias | nog te produceren | Weekmodule 2 | Ontbreekt |
+| Kennisclip 6. Waar komt bias vandaan? | animatie/ (gebouwd, stem nog in te spreken) | Weekmodule 2 | Ontbreekt: ElevenLabs-run; tot dan meeleestekst |
+| Kennisclip 7. Privacy als ethische vraag | animatie/ (gebouwd; jaartal "sinds 2020" geschrapt, niet bevestigd) | Weekmodule 2 | Ontbreekt: ElevenLabs-run |
+| Kennisclip 8. Automation bias | animatie/ (gebouwd, stem nog in te spreken) | Weekmodule 2 | Ontbreekt: ElevenLabs-run |
 | ICT A-ET Werkboek instrumenten.xlsx (tabbladen K2_Stakeholders, K3_Proces_Data, Bewijsplan) | scratchpad/out/instrumenten/ | Verwijzing in weekmodule 2 | Klaar |
-| ICT A-ET Casusdossier Suribank.pdf (voor groepen die vastlopen) | scratchpad/mycampus/pdf/ (gemaakt door een andere fork) | Weekmodule 2 (of algemeen) | Controleren of de pdf er is |
-| Kernbron Gender Shades (samenvatting in de pdf) + UNESCO-principes fairness en privacy | — | Weekmodule 2 | Link naar UNESCO toevoegen |
-| Weekcheck week 2 (5 vragen, logboekregel, standpunt) | vragen in de pdf; antwoorden in docent_weekcheck_w02.md | Quiz + open vraag in MyCampus, sluit woensdag 13 januari 23:59 | Handmatig invoeren |
-| Inleverpunt K2, K3 en bewijsplan (groep), zondag 17 januari 23:59 | — | Inleverpunt in MyCampus | Aanmaken |
-| ICT A-ET College 2 | Slides-artefact (https://claude.ai/artifact/WrRe73cGoTqCdhuhB25gNS) | Na het college, eventueel als pdf | Export nog te maken |
+| ICT A-ET Casusdossier Suribank.pdf (voor groepen die vastlopen) | 00_Algemeen | Algemeen | Klaar |
+| Kernbron Gender Shades (PMLR 81, TED-talk) + UNESCO III.2 | links staan in de studentversie | Weekmodule 2 | Klaar; links vlak voor 11 januari testen |
+| ICT A-ET Weekcheck 2 (5 vragen, logboekregel, standpunt) | vragen in de pdf; antwoorden in docent_weekcheck_w02.md | Quiz + open vraag in MyCampus, sluit woensdag 13 januari 23:59 | Handmatig invoeren |
+| Inleverpunten: **ICT A-ET Exit ticket college 2** (individueel, tijdens het college); **ICT A-ET Rapportstuk week 2** (groep, zondag 17 januari 23:59: één pdf met K2, K3, bewijsplan en AI-verklaring, plus het werkboek) | — | Assignments in MyCampus | Aanmaken |
+| ICT A-ET College 2 | Slides-artefact (https://claude.ai/artifact/WrRe73cGoTqCdhuhB25gNS), 27 dia's in Janssen-huisstijl; bron mycampus/decks/gen_c2.py | Na het college als pdf (zonder docentdia) | Pdf klaar, met placeholders |
 
 
 ### Dia's van het contactmoment
 
 | Bestand | Waar op MyCampus | Bron |
 |---|---|---|
-| ICT A-ET College 2.pdf | ICT A-ET College 2 (18 dia's): na afloop delen bij week 2 | mycampus/pdf/ (gemaakt uit het dia-deck) |
+| ICT A-ET College 2.pdf | ICT A-ET College 2 (26 dia's, zonder docentvoorbereiding): na afloop delen bij week 2 | mycampus/pdf/ (gemaakt uit het dia-deck) |
 
 De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
+
+### Nog in te vullen door de docent (week 2)
+
+- Gastspreker: naam, functie, organisatie, onderwerp, leestip (studentversie week 1 en 2; deck: cover, welkom).
+- Tijd en lokaal van college 2 (studentversie, deck: cover).
+- Kanaal en reactietermijn (studentversie, sectie Vastgelopen?).
+- Vooraf in het deck: aantallen practicum 1 (fout-erger), top 3 exit tickets college 1, volgorde van de groepen (vragen), stelling 2 uit de inzendingen.
 
 ## Week 3
 

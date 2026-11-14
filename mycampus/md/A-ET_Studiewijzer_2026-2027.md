@@ -9,7 +9,7 @@ Hier staat alles wat je moet weten om goed te starten. Tijden zijn Surinaamse ti
 | Wanneer | Wat | Groep of individueel | Telt mee |
 | --- | --- | --- | --- |
 | Elke woensdag, 23:59 (week 1: zondag 10 januari) | Weekcheck: kennisvragen, logboekregel en standpunt | Individueel | Nee |
-| Elke zondag, 23:59 | Rapportstuk van die week | Groep | Via A1 en A2 |
+| Elke zondag, 23:59 | Rapportstuk van die week (week 1: ICT A-ET K1; vanaf week 2: ICT A-ET Rapportstuk week N) | Groep | Via A1 en A2 |
 | Woensdag 6 januari, 23:59 | Week 0 af: intake, practicum 1 met evidence card, beschrijving van de eigen oplossing, beginquiz | Individueel en groep | Nee |
 | Zondag 10 januari, 23:59 | K1-canvas met teamafspraken | Groep | Via A1 |
 | Dinsdag 12 januari, 23:59 | Drie vragen voor de gastspreker en twee debatstellingen (bij ICT A-ET Voorbereiding college 2) | Groep | Nee |
