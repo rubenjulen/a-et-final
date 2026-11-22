@@ -15,67 +15,66 @@ TZNAME:SRT
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:09e330f12d0df686@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Week 0 opent
-DESCRIPTION:Online opfrisser: kennisclips\, practicum 1\, intake en beginqu
- iz. Lees eerst de studiewijzer.
+UID:c966d8b09d9c4bfe@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Blok 0 opent: voorbereiden
+DESCRIPTION:Kennispakket 0\, practicum 1\, intake en beginquiz. Lees eerst 
+ de studiewijzer.
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:1a7438c81596c6ed@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Online inloopmoment week 0
-DESCRIPTION:Vragen over installatie (Orange\, Python\, Colab) en week 0.
-DTSTART;TZID=America/Paramaribo:20270105T190000
-DTEND;TZID=America/Paramaribo:20270105T200000
-END:VEVENT
-BEGIN:VEVENT
-UID:34d4126b69b74d28@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Week 0 afronden (deadline 23:59)
-DESCRIPTION:Intake\, practicum 1 met evidence card 1\, beschrijving van de 
- eigen oplossing (groep) en beginquiz.
+UID:4193ba28aaaa2eaf@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Blok 0 afronden (deadline 23:59)
+DESCRIPTION:Intake\, beginquiz\, practicum 1 met evidence card 1\, beschrij
+ ving van de eigen oplossing (groep).
 DTSTART;TZID=America/Paramaribo:20270106T232900
 DTEND;TZID=America/Paramaribo:20270106T235900
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Week 0 afronden (deadline 23:59)
+DESCRIPTION:ICT A-ET Blok 0 afronden (deadline 23:59)
 TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7012d2287f9b4a0e@a-et-2026-2027
-DTSTAMP:20261114T110449Z
+DTSTAMP:20261122T071814Z
 SUMMARY:ICT A-ET College 1 (op locatie)
-DESCRIPTION:Wat staat er op het spel bij jullie oplossing? Groepen bakenen 
- hun casus af (K1).
+DESCRIPTION:Wat staat er op het spel? Werkt\, mag\, verantwoord\; vier lenz
+ en\; K1.
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ef64ba17ac5e02fd@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET K1-canvas en weekcheck week 1 (deadline 23:59)
-DESCRIPTION:K1-canvas met teamafspraken (groep)\; weekcheck met standpunt (
- individueel).
+UID:ea3490572f399b1e@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET K1 scope en teamafspraken (deadline 23:59)
+DESCRIPTION:Groep\, bij ICT A-ET K1.
 DTSTART;TZID=America/Paramaribo:20270110T232900
 DTEND;TZID=America/Paramaribo:20270110T235900
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICT A-ET K1-canvas en weekcheck week 1 (deadline 23:59)
+DESCRIPTION:ICT A-ET K1 scope en teamafspraken (deadline 23:59)
 TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:88d79efaddc73d0a@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Feedforward op K1
+DESCRIPTION:Schriftelijk per groep.
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f2db1cd20d1d701f@a-et-2026-2027
-DTSTAMP:20261114T110449Z
+DTSTAMP:20261122T071814Z
 SUMMARY:ICT A-ET Vragen gastspreker en debatstellingen (deadline 23:59)
-DESCRIPTION:Drie vragen voor de gastspreker en twee debatstellingen met bro
- nnen (groep).
+DESCRIPTION:Groep\, bij ICT A-ET Voorbereiding college 2.
 DTSTART;TZID=America/Paramaribo:20270112T232900
 DTEND;TZID=America/Paramaribo:20270112T235900
 BEGIN:VALARM
@@ -85,157 +84,44 @@ TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a4a0940744da7ca3@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Weekcheck week 2 (deadline 23:59)
-DESCRIPTION:Vijf kennisvragen\, logboekregel en standpunt (individueel\; te
- lt niet mee).
-DTSTART;TZID=America/Paramaribo:20270113T232900
-DTEND;TZID=America/Paramaribo:20270113T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Weekcheck week 2 (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:a67daab02f3aad71@a-et-2026-2027
-DTSTAMP:20261114T110449Z
+DTSTAMP:20261122T071814Z
 SUMMARY:ICT A-ET College 2 met gastspreker (op locatie)
-DESCRIPTION:Data-ethiek\, bias\, privacy en verantwoording\; debat over de 
- stellingen.
+DESCRIPTION:Gastcollege en Lagerhuisdebat\; bias\, uitlegbaarheid\, privacy
+  en verantwoording\; K2 en K3.
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:260e4d99d623b88c@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Rapportstuk week 2: K2\, K3 en bewijsplan (deadline 23:59)
-DESCRIPTION:Groep.
-DTSTART;TZID=America/Paramaribo:20270117T232900
-DTEND;TZID=America/Paramaribo:20270117T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Rapportstuk week 2: K2\, K3 en bewijsplan (deadline 23
- :59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:137f7482e8070fa2@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Weekcheck week 3 (deadline 23:59)
-DESCRIPTION:Met de eigen uitkomsten van practicum 2\; practicum 2 moet dus 
- af zijn.
-DTSTART;TZID=America/Paramaribo:20270120T232900
-DTEND;TZID=America/Paramaribo:20270120T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Weekcheck week 3 (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:887419100302aa7b@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Online sessie week 3
-DESCRIPTION:Fouten per groep\, uitlegbaarheid en generatieve AI.
-DTSTART;VALUE=DATE:20270121
-DTEND;VALUE=DATE:20270122
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:1897c351b8ab1cc0@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Rapportstuk week 3: practicum 3 en K4 snelle scan (deadlin
- e 23:59)
-DESCRIPTION:Practicum 3 en evidence cards 2 en 3 (individueel)\; K4 snelle 
- scan (groep).
+UID:7bb9edaf66be52b5@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Concept K2\, K3 en K4 (optioneel) (deadline 23:59)
+DESCRIPTION:Groep\, bij ICT A-ET Concept K2-K4\; feedforward op maandag 25 
+ januari.
 DTSTART;TZID=America/Paramaribo:20270124T232900
 DTEND;TZID=America/Paramaribo:20270124T235900
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Rapportstuk week 3: practicum 3 en K4 snelle scan (dea
- dline 23:59)
+DESCRIPTION:ICT A-ET Concept K2\, K3 en K4 (optioneel) (deadline 23:59)
 TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a58fc0a69617dbbf@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Laatste dag om van casus te wisselen
+UID:582862f561d4dc30@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Feedforward concept K2-K4\; laatste dag casus wisselen
 DESCRIPTION:Daarna blijft de casus vast.
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:9d9e1b031d857978@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Weekcheck week 4 (deadline 23:59)
-DESCRIPTION:Individueel\; telt niet mee.
-DTSTART;TZID=America/Paramaribo:20270127T232900
-DTEND;TZID=America/Paramaribo:20270127T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Weekcheck week 4 (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f2a4338c5ab7f7b9@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Online sessie week 4
-DESCRIPTION:Van dilemma naar risico.
-DTSTART;VALUE=DATE:20270128
-DTEND;VALUE=DATE:20270129
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:07d8529e884bdcd0@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Concept K4\, K5 en K6 naar de peergroep (deadline 23:59)
-DESCRIPTION:Conceptronde vóór Assessment 1\; dilemma-canvas in concept kl
- aar.
-DTSTART;TZID=America/Paramaribo:20270131T232900
-DTEND;TZID=America/Paramaribo:20270131T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Concept K4\, K5 en K6 naar de peergroep (deadline 23:5
- 9)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:bc03a2cdf340a432@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Peerfeedback terug (week 4) (deadline 23:59)
-DESCRIPTION:Eén pagina met de drie vaste vragen en de checklist.
-DTSTART;TZID=America/Paramaribo:20270201T232900
-DTEND;TZID=America/Paramaribo:20270201T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Peerfeedback terug (week 4) (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:bc56467834e856b7@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Online vragenuur Assessment 1
-DESCRIPTION:Vragen over het tussenrapport en het dilemma-canvas.
-DTSTART;VALUE=DATE:20270202
-DTEND;VALUE=DATE:20270203
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:eef2fa49362ad730@a-et-2026-2027
-DTSTAMP:20261114T110449Z
+DTSTAMP:20261122T071814Z
 SUMMARY:ICT A-ET Uiterste moment uitstel aanvragen Assessment 1 (deadline 1
  8:00)
-DESCRIPTION:Uitstel alleen met een reden\; de docent spreekt een nieuwe dat
- um af.
+DESCRIPTION:Uitstel alleen met een reden.
 DTSTART;TZID=America/Paramaribo:20270203T173000
 DTEND;TZID=America/Paramaribo:20270203T180000
 BEGIN:VALARM
@@ -246,24 +132,24 @@ TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:636cefcfa7adab53@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Weekcheck week 5 (deadline 23:59)
-DESCRIPTION:Licht: drie vragen\, een logboekregel en een standpunt.
+UID:3e0e6b333b3fddf0@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Kennischeck 1 (deadline 23:59)
+DESCRIPTION:Individueel\; telt niet mee.
 DTSTART;TZID=America/Paramaribo:20270203T232900
 DTEND;TZID=America/Paramaribo:20270203T235900
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Weekcheck week 5 (deadline 23:59)
+DESCRIPTION:ICT A-ET Kennischeck 1 (deadline 23:59)
 TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d5c2d34081502a27@a-et-2026-2027
-DTSTAMP:20261114T110449Z
+DTSTAMP:20261122T071814Z
 SUMMARY:ICT A-ET Assessment 1 inleveren (30%) (deadline 23:59)
-DESCRIPTION:Tussenrapport met testverslag practicum 4 (groep)\, dilemma-can
- vas (individueel)\, AI-verklaring en peerbeoordeling.
+DESCRIPTION:Tussenrapport H1-H5 (groep)\, dilemma-canvas (individueel)\, AI
+ -verklaring en peerbeoordeling.
 DTSTART;TZID=America/Paramaribo:20270204T232900
 DTEND;TZID=America/Paramaribo:20270204T235900
 BEGIN:VALARM
@@ -273,170 +159,57 @@ TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:582aa51c8c1623b5@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Weekcheck week 6 (deadline 23:59)
-DESCRIPTION:Individueel\; telt niet mee.
-DTSTART;TZID=America/Paramaribo:20270210T232900
-DTEND;TZID=America/Paramaribo:20270210T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Weekcheck week 6 (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e59220f7b9cc2ef8@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Online sessie week 6
-DESCRIPTION:Algemene feedback op Assessment 1\; van risico naar ontwerp.
-DTSTART;VALUE=DATE:20270211
-DTEND;VALUE=DATE:20270212
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:643a54cfc6c707bd@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Rapportstuk week 6: K4 doelniveau en K7 deel 1 (deadline 2
- 3:59)
-DESCRIPTION:K4 met doelniveau\, gap en prioriteit\; K7 deel 1 voor de top 5
-  risico's (groep).
-DTSTART;TZID=America/Paramaribo:20270214T232900
-DTEND;TZID=America/Paramaribo:20270214T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Rapportstuk week 6: K4 doelniveau en K7 deel 1 (deadli
- ne 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:faf1b211a4ddcdb9@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Weekcheck week 7 (deadline 23:59)
-DESCRIPTION:Individueel\; telt niet mee.
-DTSTART;TZID=America/Paramaribo:20270217T232900
-DTEND;TZID=America/Paramaribo:20270217T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Weekcheck week 7 (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:047aa7e0524f5605@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Online sessie week 7
-DESCRIPTION:Menselijke controle\, met de toeslagenaffaire als casus.
+UID:105f207162b279b7@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Feedback en cijfer Assessment 1
+DESCRIPTION:Schriftelijk\; de actiepunten verwerk je in de verwerkingslijst
+ .
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:a1ebbfa44f59a308@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Concept K7 naar de peergroep (deadline 23:59)
-DESCRIPTION:K7 deel 1 herzien en deel 2\; docent in cc.
-DTSTART;TZID=America/Paramaribo:20270221T232900
-DTEND;TZID=America/Paramaribo:20270221T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Concept K7 naar de peergroep (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e631c2f8b62665b5@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Peerfeedback terug (week 7) (deadline 23:59)
-DESCRIPTION:Eén pagina met de drie vaste vragen en de checklist.
-DTSTART;TZID=America/Paramaribo:20270222T232900
-DTEND;TZID=America/Paramaribo:20270222T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Peerfeedback terug (week 7) (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:73e199af7451db23@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Presentatie en concept K7 voor de Design Review (deadline 
- 23:59)
-DESCRIPTION:Maximaal 8 dia's (groep).
+UID:d01579ccfcdb5720@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Concept maatregelen en Design Review-dia's (deadline 23:59
+ )
+DESCRIPTION:Groep\, maximaal 8 dia's\, bij ICT A-ET Design Review.
 DTSTART;TZID=America/Paramaribo:20270223T232900
 DTEND;TZID=America/Paramaribo:20270223T235900
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Presentatie en concept K7 voor de Design Review (deadl
- ine 23:59)
+DESCRIPTION:ICT A-ET Concept maatregelen en Design Review-dia's (deadline 2
+ 3:59)
 TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0b33efa5682239f4@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Weekcheck week 8 (deadline 23:59)
+UID:e202afdfd418338a@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Kennischeck 2 (deadline 23:59)
 DESCRIPTION:Individueel\; telt niet mee.
 DTSTART;TZID=America/Paramaribo:20270224T232900
 DTEND;TZID=America/Paramaribo:20270224T235900
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Weekcheck week 8 (deadline 23:59)
+DESCRIPTION:ICT A-ET Kennischeck 2 (deadline 23:59)
 TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:df1c7dd3c695dbe2@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET College 3: Design Review (op locatie)
-DESCRIPTION:Elke groep presenteert 8 minuten aan het panel.
+UID:e0955cda8b659bc2@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET College 3: feedback en Design Review (op locatie)
+DESCRIPTION:Elke groep presenteert de maatregelen in hoogstens 8 dia's.
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:7ba1e8cb9fc0fbe1@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Rapportstuk week 8: herzien K7 en verwerkingslijst (deadli
- ne 23:59)
-DESCRIPTION:Groep.
-DTSTART;TZID=America/Paramaribo:20270228T232900
-DTEND;TZID=America/Paramaribo:20270228T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Rapportstuk week 8: herzien K7 en verwerkingslijst (de
- adline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6a25f84ad0b37afd@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Weekcheck week 9 (deadline 23:59)
-DESCRIPTION:Individueel\; telt niet mee.
-DTSTART;TZID=America/Paramaribo:20270303T232900
-DTEND;TZID=America/Paramaribo:20270303T235900
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Weekcheck week 9 (deadline 23:59)
-TRIGGER:-PT24H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:331eb911aa92ac18@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Online sessie week 9
-DESCRIPTION:Monitoring\, de hertest en het beslismemo.
-DTSTART;VALUE=DATE:20270304
-DTEND;VALUE=DATE:20270305
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:3fe9c0b413b1b1ea@a-et-2026-2027
-DTSTAMP:20261114T110449Z
+DTSTAMP:20261122T071814Z
 SUMMARY:ICT A-ET Concept eindrapport naar de peergroep (deadline 23:59)
-DESCRIPTION:Met hertest\, K8 en beslismemo\; docent in cc.
+DESCRIPTION:Groep\; met maatregelen\, monitoring en beslismemo.
 DTSTART;TZID=America/Paramaribo:20270307T232900
 DTEND;TZID=America/Paramaribo:20270307T235900
 BEGIN:VALARM
@@ -446,33 +219,24 @@ TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:806b15fcb323a917@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Peerfeedback terug (week 9) (deadline 23:59)
-DESCRIPTION:Gericht op het beslismemo\, de keten en het plan.
-DTSTART;TZID=America/Paramaribo:20270308T232900
-DTEND;TZID=America/Paramaribo:20270308T235900
+UID:416f6e1910d8d077@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Peerfeedback terug (deadline 23:59)
+DESCRIPTION:Eén pagina met de vaste vragen (ICT A-ET Peerfeedback).
+DTSTART;TZID=America/Paramaribo:20270309T232900
+DTEND;TZID=America/Paramaribo:20270309T235900
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Peerfeedback terug (week 9) (deadline 23:59)
+DESCRIPTION:ICT A-ET Peerfeedback terug (deadline 23:59)
 TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:71bbee5cd73851cb@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Online vragenuur eindrapport en reflectie
-DESCRIPTION:Laatste vragen voor Assessment 2.
-DTSTART;VALUE=DATE:20270309
-DTEND;VALUE=DATE:20270310
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:d22aff7a4ad12bfe@a-et-2026-2027
-DTSTAMP:20261114T110449Z
+DTSTAMP:20261122T071814Z
 SUMMARY:ICT A-ET Uiterste moment uitstel aanvragen Assessment 2 (deadline 1
  8:00)
-DESCRIPTION:Ook het laatste moment voor vragen.
+DESCRIPTION:Uitstel alleen met een reden.
 DTSTART;TZID=America/Paramaribo:20270310T173000
 DTEND;TZID=America/Paramaribo:20270310T180000
 BEGIN:VALARM
@@ -483,24 +247,24 @@ TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:b3af1595c781a0ae@a-et-2026-2027
-DTSTAMP:20261114T110449Z
-SUMMARY:ICT A-ET Laatste weekcheck en module-evaluatie (deadline 23:59)
-DESCRIPTION:Logboekregel\, laatste standpunt en module-evaluatie.
+UID:820b3788c8b0d65f@a-et-2026-2027
+DTSTAMP:20261122T071814Z
+SUMMARY:ICT A-ET Kennischeck 3 en module-evaluatie (deadline 23:59)
+DESCRIPTION:Individueel\; telt niet mee.
 DTSTART;TZID=America/Paramaribo:20270310T232900
 DTEND;TZID=America/Paramaribo:20270310T235900
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ICT A-ET Laatste weekcheck en module-evaluatie (deadline 23:59)
+DESCRIPTION:ICT A-ET Kennischeck 3 en module-evaluatie (deadline 23:59)
 TRIGGER:-PT24H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a1fd3af1526b5681@a-et-2026-2027
-DTSTAMP:20261114T110449Z
+DTSTAMP:20261122T071814Z
 SUMMARY:ICT A-ET Assessment 2 inleveren (70%) (deadline 23:59)
-DESCRIPTION:Eindrapport (groep)\, reflectie (individueel)\, AI-verklaring e
- n peerbeoordeling.
+DESCRIPTION:Eindrapport met beslismemo (groep)\, reflectie (individueel)\, 
+ AI-verklaring en peerbeoordeling.
 DTSTART;TZID=America/Paramaribo:20270311T232900
 DTEND;TZID=America/Paramaribo:20270311T235900
 BEGIN:VALARM
