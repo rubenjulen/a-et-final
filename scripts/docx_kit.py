@@ -5,7 +5,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
-INK=RGBColor(0x12,0x31,0x2A); GREY=RGBColor(0x6B,0x6B,0x6B); AMBER='E3A92B'; SAND='EDE7DA'; LIGHT='F6F3EC'
+INK=RGBColor(0x00,0x20,0x60); GREY=RGBColor(0x5B,0x6B,0x7F); AMBER='3F82BA'; SAND='EAF0F8'; LIGHT='F5F8FC'
 
 def shade(cell,hexc):
     tcPr=cell._tc.get_or_add_tcPr(); s=OxmlElement('w:shd'); s.set(qn('w:val'),'clear'); s.set(qn('w:color'),'auto'); s.set(qn('w:fill'),hexc); tcPr.append(s)

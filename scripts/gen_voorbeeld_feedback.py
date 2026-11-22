@@ -17,11 +17,11 @@ for t in d.tables:
                     rn.text = rn.text.replace('[naam docent]', 'Docent A-ET').replace('[datum]', 'maart 2027')
 # uitlegkader bovenaan (na titel en ondertitel)
 anchor = d.paragraphs[1]
-box_t = d.add_table(rows=1, cols=1); borders(box_t, 'E3A92B'); fixwidths(box_t, [17])
+box_t = d.add_table(rows=1, cols=1); borders(box_t, '3F82BA'); fixwidths(box_t, [17])
 c = box_t.rows[0].cells[0]; shade(c, LIGHT); c.text = ''
 p = c.paragraphs[0]; p.paragraph_format.space_after = Pt(3)
 run(p, 'Zo ziet de feedback op jullie rapport eruit. ', 9.5, True, color=INK)
-run(p, 'Dit is de feedback op het voorbeeldrapport ClaimWacht (een fictieve zorgverzekeraar), dat een 8,2 kreeg. '
+run(p, 'Dit is de feedback op het voorbeeldrapport ClaimWacht (een fictieve zorgverzekeraar), dat een 8,3 kreeg. '
        'Na Assessment 1 en Assessment 2 krijgen jullie feedback in precies deze vorm: eerst de kernboodschap, dan per criterium '
        'waarom jullie op dat niveau zitten en wat nodig is voor het volgende niveau, een redeneerketen-check van één risico, '
        'hoogstens vijf actiepunten en het cijfer onderaan.', 9.5)
