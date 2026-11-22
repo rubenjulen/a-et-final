@@ -55,6 +55,7 @@ mkzip "$OUT/week9/practicum5"   "$U/Week09/$P Practicum 5.zip"
 D="$U/99_Docent_niet_uploaden"
 # Decks met sprekersnotities (voor de docent en als bron voor Gamma)
 for f in "$PDF"/docent/A-ET_College*_notities.pdf; do [ -f "$f" ] || continue; n="${f##*College}"; n="${n%%_*}"; cp "$f" "$D/$P College $n met notities.pdf"; done
+for f in "$HERE"/decks/gamma/Gamma_prompt_college*.txt; do [ -f "$f" ] || continue; n="${f##*college}"; n="${n%%.*}"; cp "$f" "$D/$P Gamma-prompt college $n.txt"; done
 cp "$PDF/DOCENT_Weekcheck_antwoorden_A-ET.pdf" "$PDF/DOCENT_Uploadlijst_MyCampus_A-ET.pdf" "$PDF/DOCENT_Practicum5_verwachte_uitkomsten.pdf" "$D/"
 cp "$OUT"/feedback/*.docx "$D/"
 cp "$OUT/Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx" "$OUT/$P Lesplan.pdf" "$OUT/Kruistabel_certificeringen_A-ET.pdf" "$D/"

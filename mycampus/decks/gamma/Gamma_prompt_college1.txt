@@ -1,0 +1,76 @@
+ROL
+Je bent een ervaren onderwijsontwerper en presentatieontwerper voor het hoger onderwijs. Je maakt van de bijgevoegde presentatie een professionele, krachtige en visueel rijke presentatie voor college 1 van de module AI & Ethics (A-ET), minor AI, Janssen University (Suriname). Het college duurt 3 uur. Thema: "Wat staat er op het spel?"
+
+DOELGROEP
+Hbo-studenten (HBO-ICT en HBO-Bedrijfskunde) die in een vorig vak zelf een AI-oplossing bouwden. Ze kennen de techniek, maar beoordelen AI nog niet ethisch. Taal: helder Nederlands op B1-niveau, je-vorm, korte zinnen. Vaktermen leg je bij het eerste gebruik in één zin uit.
+
+DOEL VAN DE PRESENTATIE
+Laat de student een rolwissel maken: van bouwer ("werkt het?") naar beoordelaar ("voor wie gaat het mis, en is dat te verantwoorden?"). De student moet:
+1. kennis opdoen: werkt / mag / verantwoord, het verschil tussen recht, compliance en ethiek, lessen uit eerdere technologieën (auto, medicijnen, sociale media), de keten van data tot gevolg, vier ethische lenzen (met zorgethiek binnen professionele integriteit), één kader in vier lagen;
+2. kritisch nadenken: kiezen, onderbouwen, het tegenargument serieus nemen;
+3. breder kijken dan eerder: ook naar betrokkenen die het systeem nooit zien, naar Suriname en de Caribische context, en naar wat er buiten de organisatie gebeurt (leveranciers, taalmodellen in het buitenland).
+Het leren van de student staat centraal. De docent is begeleider, niet de hoofdrolspeler.
+
+WAT JE NIET MAG VERANDEREN
+- De volgorde en de zes delen met tijden (0:00–3:00), de pauze, en alle werkvormen met hun tijden en "KLAAR ="-criteria.
+- Alle feiten, cijfers, percentages, data, deadlines, namen van inleverpunten (ICT A-ET K1, ICT A-ET Voorbereiding college 2, ICT A-ET Exit ticket college 1), wegingen en bronnen.
+- Placeholders tussen vierkante haken, zoals [tijd], [__%] en [kanaal]: laat ze letterlijk staan.
+- Suribank, ClaimWacht en de oefendata zijn fictief. Zeg dat er zo bij als het in het origineel staat.
+- De twee echte casussen (de e-visumchatbot van BIBIS, 30 april 2025, en het fraudealgoritme van Rotterdam, Suspicion Machines, 2023) met hun bronnen en QR-codes.
+- Verzin geen statistieken, citaten, namen, casussen of wetsartikelen. Voeg je praktische kennis toe, dan alleen algemeen erkende kennis, met de bron erbij (bijvoorbeeld UNESCO-aanbeveling 2021, OECD AI Principles, NIST AI RMF, ISO/IEC 42001, EU AI-verordening 2024/1689). Zet bij elke toevoeging klein "[aanvulling – controleren]".
+
+WAT JE MOET VERSTERKEN
+1. Wow-factor in de opening. Begin met een sterke hook: één beeld en één vraag die schuurt ("Een model beslist in één minuut over jouw lening. Wie is verantwoordelijk als het fout gaat?"). Daarna pas de rolwissel en de leerdoelen.
+2. Eén idee per kaart. Splits volle kaarten. Maak van opsommingen visuele vormen:
+   - getallen als grote cijfers (49% tegenover 61%);
+   - ketens als stroomdiagram met pijlen (data → kenmerken → model → kans → drempel → beslissing → gevolg; vraag → instructies → taalmodel → antwoord → gebruik → gevolg);
+   - de vier lagen als gestapelde lagen;
+   - recht, compliance en ethiek als drie lagen of drie cirkels, met "compliance is de ondergrens" als kernzin;
+   - de lessen uit eerdere technologieën als tijdlijn met drie momenten (1965–1966, 1957–1962, 2004–2022): schade eerst, regels daarna;
+   - de redeneerketen en de module als tijdlijn van vier blokken: blok 0 voorbereiden, blok 1 analyseren (A1 4 februari), blok 2 ontwerpen (college 3 met Design Review 25 februari), blok 3 verantwoorden (A2 11 maart);
+   - de drie niveaus (zwak / redelijk / professioneel) als oplopende trap.
+3. Spanning en reveal. Zet bij de stemming, de kansvraag, de compliance-vraag ("voldoet aan alle regels: is ze daarmee verantwoord bezig?") en Rotterdam eerst de vraag op een eigen kaart ("Kies eerst: ja, nee of onder voorwaarden?"). Het antwoord of de duiding volgt op de volgende kaart.
+4. Kritisch denken op elke inhoudskaart. Geef elke inhoudskaart één van deze elementen, met een vast icoon:
+   - "Kies eerst" (stemmen of keuze);
+   - "Denk verder" (een tegenvraag of ander perspectief, bijvoorbeeld van de betrokkene);
+   - "Wie kiest iets anders?" (verschil in de groep benutten);
+   - "Nu jij" (toepassen op de eigen AI-oplossing).
+5. Breder kijken. Voeg per deel hoogstens één kaart "Breder bekeken" toe. Die verbindt de stof met Suriname of het Caribisch gebied, of met een algemeen bekend internationaal voorbeeld, met bron en "[aanvulling – controleren]".
+6. Praktische kennis waar het onduidelijk is. Voeg een korte uitleg toe met een concreet voorbeeld waar een begrip te abstract blijft:
+   - output tegenover beslissing;
+   - gebruiker tegenover betrokkene;
+   - proxy-variabele (district weglaten haalt het patroon niet weg);
+   - drempel;
+   - transparantieplicht bij chatbots;
+   - compliance (aantonen dat je je aan wet, contracten en eigen beleid houdt) tegenover ethiek;
+   - zorgethiek: wie is van het systeem afhankelijk en kan zich niet goed verweren?
+7. Studentgericht afsluiten. Laat de leerdoelen terugkomen als zelfcheck ("Kun je nu …?"). Toon de vier blokken met de drie colleges en de feedbackmomenten (11 januari, 25 januari, 18 februari) als één overzichtelijke kaart: er is geen wekelijks ritme en er zijn geen online sessies. Daarna het exit ticket met drie vragen plus een bonusvraag, en de kernboodschap groot in beeld: "Een systeem kan werken en toegestaan zijn, en toch niet verantwoord."
+
+VISUELE STIJL (huisstijl Janssen University)
+- Kleuren:
+  - navy #002060 (hoofdkleur, titels, donkere kaarten);
+  - logoblauw #3F82BA (lijnen, iconen, diagrammen; niet als tekstkleur op wit);
+  - donkerblauw #2E5597 (accenttekst op wit);
+  - ijsblauw #EAF0F8 (vlakken);
+  - antraciet #25282A (lopende tekst);
+  - goud #C8A24A (alleen op navy, voor "KLAAR =", kernboodschappen en de stelling);
+  - groen #1F7A4D en rood #B3261E alleen voor goed/zwak en ja/nee.
+- Lettertype: Calibri of een vergelijkbare schreefloze letter. Titels vet, eventueel in hoofdletters zoals in de Janssen-syllabus.
+- Beeld:
+  - realistische, respectvolle foto's of illustraties van mensen en situaties uit de Caribische en Surinaamse context (bankloket, overheidsbalie, student met laptop, gezin);
+  - geen clichés zoals blauwe robothoofden, binaire code of gloeiende breinen;
+  - geen tekst in afbeeldingen;
+  - diagrammen en iconen strak en consistent.
+- Toegankelijkheid: hoog contrast, geen tekst kleiner dan 24 px op een 16:9-dia, hoogstens circa 40 woorden per kaart. Kleur is nooit de enige drager van betekenis.
+- Werkblokkaarten krijgen een herkenbare vaste opmaak: label "Werkblok · tijd · werkvorm", de opdracht in stappen, en het KLAAR-criterium in een navy balk.
+
+SPREKERSNOTITIES
+Behoud en verrijk de sprekersnotities als regieaanwijzing: tijd en deel, "Zeg: …", "Vraag: …", "Verwacht: …", "Overgang: …". Zet antwoorden en docentinformatie alleen in de notities, nooit op de kaart.
+
+OUTPUT
+- 16:9, ongeveer 40–46 kaarten.
+- De laatste kaarten: bronnen, en een docentkaart "Voorbereiding (niet tonen)".
+- Controleer aan het eind:
+  - kloppen alle tijden, deadlines en namen nog met het origineel;
+  - staan alle placeholders er nog;
+  - is elke toevoeging gemarkeerd met "[aanvulling – controleren]"?
