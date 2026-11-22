@@ -99,4 +99,4 @@ De getallen in Python wijken soms iets af van die in Orange. De vragen gaan over
 | "ModuleNotFoundError" in Python | Het pakket ontbreekt: installeer het met pip install en de naam uit de foutmelding (sklearn heet bij installeren scikit-learn). |
 | De download gaat erg langzaam | Download op een plek met een snellere verbinding, of vraag om het installatiebestand op een usb-stick. |
 
-Lukt het niet? Kom naar het online inloopmoment op dinsdag 5 januari van 19:00 tot 20:00, of stel je vraag via [kanaal, bijvoorbeeld MyCampus of e-mail], met een schermafdruk van de foutmelding.
+Lukt het niet? Stel je vraag vóór college 1 (donderdag 7 januari) via [kanaal, bijvoorbeeld MyCampus of e-mail], met een schermafdruk van de foutmelding. Zorg dat practicum 1 vóór college 1 werkt: dan kun je in het college meedoen.

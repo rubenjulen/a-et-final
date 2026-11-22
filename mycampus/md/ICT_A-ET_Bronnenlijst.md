@@ -1,20 +1,20 @@
 ## Zo gebruik je deze lijst
 
-Hier staan alle bronnen van de module bij elkaar: de kernbronnen per week, de studietekst, de praktijkcasussen en de kaders. De samenvattingen en opdrachten bij elke bron staan in de studentversie van die week. Een link werkt niet meer? Zoek dan op de titel, of meld het via het vragenkanaal van de module.
+Hier staan alle bronnen van de module bij elkaar: de kernbronnen per blok, de studietekst, de praktijkcasussen en de kaders. De samenvattingen en opdrachten bij elke bron staan in het kennispakket van dat blok. Een link werkt niet meer? Zoek dan op de titel, of meld het via het vragenkanaal van de module.
 
-## Kernbronnen per week
+## Kernbronnen per blok
 
-| Week | Kernbron | Waar te vinden |
+| Blok | Kernbron | Waar te vinden |
 | --- | --- | --- |
 | 1 | UNESCO (2021). *Recommendation on the Ethics of Artificial Intelligence*, hoofdstuk III: waarden en principes. Ongeveer 6 pagina's | [unesco.org](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics) |
-| 2 | Buolamwini, J., & Gebru, T. (2018). *Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification.* Proceedings of Machine Learning Research, 81, 77–91 | [proceedings.mlr.press](https://proceedings.mlr.press/v81/buolamwini18a.html) |
-| 3 | Rudin, C. (2019). *Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead.* Nature Machine Intelligence, 1, 206–215 | [doi.org/10.1038/s42256-019-0048-x](https://doi.org/10.1038/s42256-019-0048-x) |
-| 3 | Studietekst: *Vier vragen bij generatieve AI* | In de studentversie van week 3 |
-| 7 | Verdieping: de toeslagenaffaire | In de studentversie van week 7 |
+| 1 | Buolamwini, J., & Gebru, T. (2018). *Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification.* Proceedings of Machine Learning Research, 81, 77–91 | [proceedings.mlr.press](https://proceedings.mlr.press/v81/buolamwini18a.html) |
+| 1 | Rudin, C. (2019). *Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead.* Nature Machine Intelligence, 1, 206–215 | [doi.org/10.1038/s42256-019-0048-x](https://doi.org/10.1038/s42256-019-0048-x) |
+| 1 | Studietekst: *Vier vragen bij generatieve AI* | In kennispakket 1 |
+| 2 | Verdieping: de toeslagenaffaire | In kennispakket 2 |
 
-In weken 4 tot en met 10 werk je vooral met de praktijkcasussen, het casusdossier Suribank en de kaders hieronder.
+Vanaf de tweede helft van blok 1 werk je vooral met de praktijkcasussen, het casusdossier Suribank en de kaders hieronder.
 
-## Praktijkcasussen (week 4)
+## Praktijkcasussen (blok 1)
 
 **Kerncasus: de toeslagenaffaire**
 
@@ -39,7 +39,7 @@ In weken 4 tot en met 10 werk je vooral met de praktijkcasussen, het casusdossie
 | Amsterdam, Slimme Check (2023 tot 2025) | MIT Technology Review en Lighthouse Reports (juni 2025), ["Inside Amsterdam's high-stakes experiment to create fair welfare AI"](https://www.technologyreview.com/2025/06/11/1118233/amsterdam-fair-welfare-ai-discriminatory-algorithms-failure/) |
 | Suriname, e-visum met AI-chatbot (2025) | Keynews, ["Suriname lanceert nieuwe e-visumapplicatie en AI-chatbot tijdens bewustwordingssessie"](https://keynews.sr/suriname-lanceert-nieuwe-e-visumapplicatie-en-ai-chatbot-tijdens-bewustwordingssessie) |
 
-## Verdieping toeslagenaffaire (week 7)
+## Verdieping toeslagenaffaire (blok 2)
 
 - Parlementaire ondervragingscommissie Kinderopvangtoeslag (2020). *Ongekend onrecht.* Tweede Kamer, 17 december 2020.
 - Autoriteit Persoonsgegevens (2020). *Belastingdienst/Toeslagen: de verwerking van de nationaliteit van aanvragers van kinderopvangtoeslag.* Juli 2020.
@@ -57,13 +57,13 @@ In weken 4 tot en met 10 werk je vooral met de praktijkcasussen, het casusdossie
 
 | Kader | Waar het in de module voorkomt | Link |
 | --- | --- | --- |
-| UNESCO, *Recommendation on the Ethics of Artificial Intelligence* | Laag Waarom; kernbron week 1 | [unesco.org](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics) |
+| UNESCO, *Recommendation on the Ethics of Artificial Intelligence* | Laag Waarom; kernbron blok 1 | [unesco.org](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics) |
 | OECD AI Principles | Laag Waarom | [oecd.ai](https://oecd.ai/en/ai-principles) |
 | NIST AI Risk Management Framework | Laag Hoe: Govern, Map, Measure, Manage | [nist.gov](https://www.nist.gov/itl/ai-risk-management-framework) |
-| IEEE CertifAIEd | Laag Wat; kaderclip B (week 3) | [Ontologische specificatie transparantie (2022)](https://engagestandards.ieee.org/rs/211-FYL-955/images/IEEE%20CertifAIEd%20Ontological%20Spec-Transparency-2022.pdf) |
-| Verordening (EU) 2024/1689, de AI-verordening | Laag Waar, als vergelijking; kaderclip C (week 4) | [eur-lex.europa.eu](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) |
-| ISO/IEC 42001:2023, managementsysteem voor AI | Laag Hoe; kaderclip E (week 8). De normtekst is betaald; je hoeft de opbouw te kennen, niet de tekst | [iso.org](https://www.iso.org/standard/81230.html) |
+| IEEE CertifAIEd | Laag Wat; kaderclip B (blok 1) | [Ontologische specificatie transparantie (2022)](https://engagestandards.ieee.org/rs/211-FYL-955/images/IEEE%20CertifAIEd%20Ontological%20Spec-Transparency-2022.pdf) |
+| Verordening (EU) 2024/1689, de AI-verordening | Laag Waar, als vergelijking; kaderclip C (blok 1) | [eur-lex.europa.eu](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) |
+| ISO/IEC 42001:2023, managementsysteem voor AI | Laag Hoe; kaderclip E (blok 2). De normtekst is betaald; je hoeft de opbouw te kennen, niet de tekst | [iso.org](https://www.iso.org/standard/81230.html) |
 | ISO/IEC 42005:2025, impactbeoordeling van AI-systemen | AI-impactbeoordeling (K2 en nulmeting) | ISO, betaalde norm |
-| AIGP Body of Knowledge v2.1 (IAPP, 2026) | Kaderclip D (week 6): governance over de levenscyclus | [Body of Knowledge (pdf)](https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt0d33152fd20bc134/AIGP_Cert%20BOK.pdf) |
+| AIGP Body of Knowledge v2.1 (IAPP, 2026) | Kaderclip D (blok 2): governance over de levenscyclus | [Body of Knowledge (pdf)](https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blt0d33152fd20bc134/AIGP_Cert%20BOK.pdf) |
 
-In week 10 vind je in "Verder na de minor" welke certificeringen bij deze kaders horen.
+In kennispakket 3 vind je in "Verder na de minor" welke certificeringen bij deze kaders horen.
