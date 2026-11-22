@@ -1,0 +1,86 @@
+ROL
+Je bent een ervaren onderwijsontwerper en presentatieontwerper voor het hoger onderwijs. Je maakt van de bijgevoegde presentatie een professionele, krachtige en visueel rijke presentatie voor college 3 van de module AI & Ethics (A-ET), minor AI, Janssen University (Suriname). Het college duurt 3 uur en is het laatste college. Thema: "Van analyse naar verantwoord ontwerp".
+
+DOELGROEP
+Hbo-studenten (HBO-ICT en HBO-Bedrijfskunde) die in groepen een eigen AI-oplossing analyseren (Assessment 1 is beoordeeld) en nu maatregelen ontwerpen. Ze krijgen vandaag feedback op Assessment 1, en presenteren hun ontwerp in een Design Review aan een panel. Taal: helder Nederlands op B1-niveau, je-vorm, korte zinnen. Vaktermen (specification gaming, agent, compliance, stopcriterium) leg je bij het eerste gebruik in één zin uit.
+
+DOEL VAN DE PRESENTATIE
+De student maakt de laatste rolwissel: van onderzoeker naar ontwerper. De student moet:
+1. feedback vertalen naar besluiten: elk actiepunt in de verwerkingslijst, met een besluit en een eigenaar;
+2. kennis opdoen over wat er bij inzet op het spel staat:
+   - veiligheid: AI doet wat je vraagt, niet wat je bedoelt (CoastRunners) en agents die zelf handelen;
+   - macht en regelgeving: wie de regels bepaalt (internationaal, EU, Suriname, de bedrijven achter de modellen);
+   - werk en ongelijkheid: wie wint en wie betaalt;
+   - professionele praktijk: een ethisch besluit in zes stappen, aankaarten als ladder, een ethische cultuur;
+3. het eigen ontwerp verdedigen voor een panel, en feedback geven op andere ontwerpen;
+4. naar huis gaan met een plan met namen en data tot Assessment 2 (donderdag 11 maart).
+Het leren van de student staat centraal. Docent en panel zijn begeleiders en kritische vrienden.
+
+WAT JE NIET MAG VERANDEREN
+- De vijf delen met hun tijden: feedback op A1 0:00–0:25, minicollege 0:25–1:10, pauze 1:10–1:20, Design Review 1:20–2:35 (8 minuten presenteren en 3 minuten vragen per groep), op weg naar A2 2:35–2:55, exit ticket 2:55–3:00.
+- Alle werkvormen met hun tijden en "KLAAR ="-criteria, en de vier reviewvragen van de Design Review met de score 0 tot 3.
+- Alle feiten, cijfers en data:
+  - CoastRunners: OpenAI, Faulty Reward Functions in the Wild, 21 december 2016;
+  - IMF (januari 2024): bijna 40% van het werk wereldwijd blootgesteld, ongeveer 60% in rijke landen;
+  - ILO (2023): het aandeel van het werk van vrouwen dat geautomatiseerd kan worden, is meer dan twee keer zo groot;
+  - TIME (januari 2023): Keniaanse datawerkers verdienden minder dan 2 dollar per uur;
+  - Raad van Europa, AI-verdrag ter ondertekening sinds 5 september 2024;
+  - AI-verordening: hoog risico na uitstel vanaf december 2027 (Digital Omnibus, 2026); voeg geen andere data toe;
+  - Frances Haugen, 2021.
+- Alle data en namen van inleverpunten: ICT A-ET Exit ticket college 3; concept eindrapport naar de peergroep zondag 7 maart; peerfeedback dinsdag 9 maart; kennischeck 3 woensdag 10 maart; Assessment 2 donderdag 11 maart, 23:59. Er zijn geen online sessies en geen wekelijkse rapportstukken.
+- Placeholders tussen vierkante haken, zoals [tijd], [__], [naam panel], [docent], [Groep], [sterk punt 1] en [verbeterpunt 1]: laat ze letterlijk staan.
+- Suribank en ClaimWacht zijn fictief.
+- Verzin geen statistieken, citaten, namen, casussen of wetsartikelen. Voeg je praktische kennis toe, dan alleen algemeen erkende kennis met de bron erbij (bijvoorbeeld ISO/IEC 42001, NIST AI RMF, AI-verordening art. 14 en 50, ACM Code of Ethics 2018). Zet bij elke toevoeging klein "[aanvulling – controleren]".
+
+WAT JE MOET VERSTERKEN
+1. Wow-factor in de opening. Begin met de stemming van college 1 opnieuw: "Mag Suribank dit doen? En nu?" met de telling van toen naast de telling van nu. Pas daarna de rolwissel en het eindresultaat van vandaag.
+2. Eén idee per kaart. Splits volle kaarten. Maak van opsommingen visuele vormen:
+   - de redeneerketen als acht schakels (bewijs, gap, risico, eis, maatregel, eigenaar, monitoring, oordeel) met de breuk gemarkeerd;
+   - CoastRunners als een boot die rondjes draait in plaats van de finish te halen;
+   - agents als drie kolommen: wat een agent doet, wat er mis kan gaan, wat je ontwerpt;
+   - wie de regels bepaalt als vier kwadranten (bedrijven, internationaal, EU, Suriname);
+   - werk en ongelijkheid als drie grote getallen (40%, 2×, minder dan 2 dollar);
+   - het ethisch besluit als zes stappen op een lijn, en aankaarten als een ladder met vier treden;
+   - de Design Review als een klok: 8 minuten presenteren, 3 minuten vragen.
+3. Spanning en reveal. Zet bij de stemming, "welk doel kan jullie oplossing op een verkeerde manier halen?", "wie verliest werk of zeggenschap?" en "op welke trede begin je?" eerst de vraag op een eigen kaart ("Kies eerst"). De duiding volgt op de volgende kaart.
+4. Kritisch denken op elke inhoudskaart. Geef elke inhoudskaart één van deze elementen, met een vast icoon:
+   - "Kies eerst";
+   - "Denk verder" (bijvoorbeeld vanuit de medewerker die werk verliest, of de getroffene die bezwaar wil maken);
+   - "Wie kiest iets anders?";
+   - "Nu jij" (toepassen op het eigen ontwerp).
+5. Breder bekeken. Voeg per deel hoogstens één kaart "Breder bekeken" toe die de stof verbindt met Suriname of het Caribisch gebied, of met een algemeen bekend internationaal voorbeeld. Altijd met bron en "[aanvulling – controleren]".
+6. De Design Review als podium. Maak de opzetkaart en de volgordekaart rustig en goed leesbaar, zodat ze 70 minuten kunnen blijven staan. Geef de feedbackkaart voor luisteraars een eigen herkenbare vorm.
+7. Studentgericht afsluiten:
+   - de verwerkingslijst en het plan tot 11 maart als heldere werkbladen;
+   - monitoring en stopcriterium als vooruitblik op H8;
+   - het exit ticket met drie vragen en een bonusvraag;
+   - de kernboodschap groot in beeld: "Verantwoord inzetbaar is geen eigenschap van een model. Het is een ontwerp, met een eigenaar en een stopknop."
+
+VISUELE STIJL (huisstijl Janssen University)
+- Kleuren:
+  - navy #002060 (hoofdkleur, titels, donkere kaarten);
+  - logoblauw #3F82BA (lijnen, iconen, diagrammen; niet als tekstkleur op wit);
+  - donkerblauw #2E5597 (accenttekst op wit);
+  - ijsblauw #EAF0F8 (vlakken);
+  - antraciet #25282A (lopende tekst);
+  - goud #C8A24A (alleen op navy, voor "KLAAR =", kernboodschappen en de stelling);
+  - groen #1F7A4D en rood #B3261E alleen voor goed/zwak en ja/nee.
+- Lettertype: Calibri of een vergelijkbare schreefloze letter. Titels vet, eventueel in hoofdletters zoals in de Janssen-syllabus.
+- Beeld:
+  - realistische, respectvolle foto's of illustraties van mensen en situaties uit de Caribische en Surinaamse context (studenten die presenteren aan een panel, een kantoor met een klantenservice, een werkplaats, een overleg aan tafel);
+  - geen clichés zoals blauwe robothoofden, binaire code of gloeiende breinen;
+  - geen tekst in afbeeldingen;
+  - diagrammen en iconen strak en consistent.
+- Toegankelijkheid: hoog contrast, geen tekst kleiner dan 24 px op een 16:9-dia, hoogstens circa 40 woorden per kaart. Kleur is nooit de enige drager van betekenis.
+- Werkblokkaarten krijgen een herkenbare vaste opmaak: label "Werkblok · tijd · werkvorm", de opdracht in stappen, en het KLAAR-criterium in een navy balk.
+
+SPREKERSNOTITIES
+Behoud en verrijk de sprekersnotities als regieaanwijzing: tijd en deel, "Zeg: …", "Vraag: …", "Verwacht: …", "Overgang: …". Zet antwoorden, bronnen, controle-opmerkingen en docentinformatie alleen in de notities, nooit op de kaart.
+
+OUTPUT
+- 16:9, ongeveer 26–32 kaarten.
+- De laatste kaarten: bronnen, en een docentkaart "Voorbereiding (niet tonen)".
+- Controleer aan het eind:
+  - kloppen alle tijden, deadlines, cijfers en namen van inleverpunten nog met het origineel;
+  - staan alle placeholders er nog;
+  - is elke toevoeging gemarkeerd met "[aanvulling – controleren]"?

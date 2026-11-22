@@ -31,12 +31,12 @@ Alle links zijn privé; deel ze via Share als anderen ze moeten zien.
 | --- | --- | --- |
 | College 1 (week 1) | College 1 | https://claude.ai/artifact/Cj8Y7ELraHmro3d9X9Ypgc |
 | College 2 (week 2) | College 2 | https://claude.ai/artifact/WrRe73cGoTqCdhuhB25gNS |
-| Online sessie 1 (week 3) | College 3 | https://claude.ai/artifact/LyCGu8Fo2L4EaKVYFR45VF |
+| College 3 (25 februari): feedback, minicollege, Design Review (herontwerp) | College 3 | https://claude.ai/artifact/LyCGu8Fo2L4EaKVYFR45VF |
 | Online sessie 2 (week 4) | College 4 | https://claude.ai/artifact/U5q2aBS2oZAWfwGAxXmgDY |
 | Online sessie 3 (week 5) | College 5 | https://claude.ai/artifact/WaUSPooHqNP4Mj4eKxN1Lp |
 | Online sessie 4 (week 6) | College 6 | https://claude.ai/artifact/PcWnsm8eHodrLZw5F6GJRr |
 | Online sessie 5 (week 7) | College 7 | https://claude.ai/artifact/3qJvD7GnkNFjeRFHvFdRX2 |
-| College 3, Design Review (week 8) | College 8 | https://claude.ai/artifact/6rPTpFrri91xz82o57UdC4 |
+| Oud: Design Review (week 8), vervangen door het nieuwe college 3 | Archief | https://claude.ai/artifact/6rPTpFrri91xz82o57UdC4 |
 | Online sessie 6 (week 9) | College 9 | https://claude.ai/artifact/Cy6Wr1A4a2QUpdJ6MabW62 |
 | Online sessie 7 (week 10) | College 10 | https://claude.ai/artifact/AofWbbKuDzxqFukD9WCRw7 |
 | Kennisclip 1–4 (week 0) | | https://claude.ai/artifact/3whF48go6u2ecfPDberHw2 · https://claude.ai/artifact/846j6xNVtrkXRoVsR22F5k · https://claude.ai/artifact/PcQXwYETmLgkaJ72vv4M4h · https://claude.ai/artifact/7b3AdvSygtRoKZ28ThixQq |
@@ -51,3 +51,4 @@ Alle links zijn privé; deel ze via Share als anderen ze moeten zien.
 | Document | Link |
 | --- | --- |
 | Herontwerp A-ET: drie colleges, drie blokken | https://claude.ai/artifact/FBqZQ1ej89WedWvgRjRcUx |
+| Docentdossier college 3 | https://claude.ai/artifact/MS1gSnJK1qZbtF3jwqnoYh |
