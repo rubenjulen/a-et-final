@@ -64,7 +64,7 @@ Hier staan de vragen die studenten het vaakst stellen, per thema. Het antwoord s
 | Vraag | Antwoord |
 | --- | --- |
 | Telt het beslismemo mee voor de 12 pagina's? | Ja. |
-| Moeten hoofdstuk 1 tot en met 5 helemaal herschreven? | Nee: herzien met de feedback en inkorten, zodat het hele rapport binnen 12 pagina's past (zie de opbouw in blok 2). |
+| Moeten hoofdstuk 1 tot en met 5 helemaal herschreven? | Nee: herzien met de feedback en inkorten, zodat het hele rapport binnen 12 pagina's past (zie de opbouw in kennispakket 3). |
 | Moeten we een hertest doen? | Nee, die is niet verplicht. Wie practicum 4 opnieuw doet na de maatregelen, zet de eerste uitkomst naast de nieuwe; dat telt mee voor het niveau excellent. Het testverslag gaat als bijlage mee en telt niet mee voor de pagina's. |
 | Wat hoort in de monitoring? | Alleen ethische signalen: verschillen tussen groepen, klachten, bezwaren en afwijkingen door medewerkers, plus een incidentroute en een stopcriterium. Technische en datamonitoring staan bij A-AI2 en A-DG; verwijs ernaar. |
 | Ons oordeel is "nu niet". Moeten we dan nog maatregelen en monitoring uitwerken? | Ja: het ontwerp laat zien wat er nodig zou zijn, en het memo zegt waarom dat nu niet haalbaar of niet genoeg is. |
