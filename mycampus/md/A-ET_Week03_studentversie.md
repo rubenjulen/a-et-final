@@ -1,6 +1,6 @@
 ## Deze week
 
-**Leerdoelen.** Na week 3 kan de student:
+**Leerdoelen.** Na week 3 kun je:
 
 1. Fouten van een model per groep meten en vergelijken: het aandeel goedgekeurd, onterecht afgewezen en onterecht goedgekeurd.
 2. Uitleggen waarom een model nauwkeuriger kan lijken en tegelijk oneerlijker kan worden.
@@ -13,13 +13,18 @@
 
 | Moment | Wat |
 | --- | --- |
-| Maandag 18 januari | Weekmodule 3 opent; feedforward op week 2 |
-| Woensdag 20 januari, 23:59 | Weekcheck met standpunt, met de eigen uitkomsten van practicum 2; practicum 2 moet dus af zijn |
-| Donderdag 21 januari | Online sessie van een uur: wat lieten de practica zien, en wat is anders bij generatieve AI? |
-| Zondag 24 januari, 23:59 | Inleveren: practicum 3, evidence card 2 en 3 (individueel); K4 snelle scan (groep) |
+| Maandag 18 januari | Weekmodule 3 opent; feedforward op K2, K3 en het bewijsplan |
+| Woensdag 20 januari, 23:59 | ICT A-ET Weekcheck 3, met je eigen uitkomsten van practicum 2 en je standpunt; practicum 2 moet dus af zijn |
+| Donderdag 21 januari, [tijd] | Online sessie van een uur via [link]: wat lieten de practica zien, en wat is anders bij generatieve AI? Exit ticket bij ICT A-ET Exit ticket college 3 |
+| Zondag 24 januari, 23:59 | Inleveren: evidence card 2 en 3 (individueel, bij ICT A-ET Evidence cards week 3); K4 snelle scan (groep, bij ICT A-ET Rapportstuk week 3) |
 | Maandag 25 januari | Feedforward-bericht; uiterste dag om van casus te wisselen |
 
-**Tijdsbesteding voor de student.**
+**Wat je zondag 24 januari, 23:59 inlevert.**
+
+- **Individueel, bij ICT A-ET Evidence cards week 3:** één pdf met evidence card 2 en 3 (elk hoogstens één pagina, sjabloon ICT A-ET Evidence card.docx), met je AI-verklaring onderaan. Je antwoorden op de vragen van practicum 2 en 3 lever je niet apart in: ze komen terug in de evidence cards.
+- **Groep, bij ICT A-ET Rapportstuk week 3:** het werkboek ICT A-ET Werkboek instrumenten.xlsx met het tabblad K4\_Scan ingevuld (alle 11 domeinen: score 0 tot 3 of onbekend, waarop gebaseerd, bewijs nog nodig, diep ja of nee), plus de AI-verklaring van de groep.
+
+**Tijdsbesteding.**
 
 | Onderdeel | Uren |
 | --- | --- |
@@ -48,30 +53,75 @@ Alle bestanden zitten samen in ICT A-ET Practicum 2 en 3.zip op MyCampus.
 >
 > **Vóór donderdag:**
 >
-> 1. Bekijk clip 9: Fouten per groep. *6 minuten*
-> 2. Maak practicum 2: het bias-experiment. *75 minuten*
+> 1. Lees "De kern van deze week" hieronder. Bekijk clip 9: Fouten per groep. *3 minuten kijken, 6 minuten met de vragen*
+> 2. Maak practicum 2: het bias-experiment, af vóór woensdag. *75 minuten*
 > 3. Doe de weekcheck, met je eigen uitkomsten van practicum 2 en je standpunt, vóór woensdag 23:59. *20 minuten*
 >
-> **Donderdag 21 januari:** online sessie van een uur.
+> **Donderdag 21 januari, [tijd]:** online sessie van een uur via [link]. Neem je getallen uit practicum 2 en je standpunt mee.
 >
 > **Vóór zondag 23:59:**
 >
 > 1. Bekijk clip 10: Uitleg die werkt. Lees de kernbron en de studietekst over generatieve AI. *37 minuten*
-> 2. Bekijk kaderclip B: IEEE CertifAIEd, transparantie en bias toetsen. Beantwoord de vragen in de clip. 10 minuten
+> 2. Bekijk kaderclip B: IEEE CertifAIEd, transparantie en bias toetsen. Beantwoord de vragen in de clip. *10 minuten*
 > 3. Maak practicum 3 en vul evidence card 2 en 3 in. *45 minuten*
 > 4. Maak met je groep de snelle scan (K4) van jullie eigen oplossing. *3,5 uur, inclusief eerste gesprekken*
 
 **Kernbron: Rudin (2019).** Samenvatting.
 
-> Cynthia Rudin, Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. Nature Machine Intelligence, 2019.
+> Rudin, C. (2019). Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. *Nature Machine Intelligence, 1*(5), 206–215. https://doi.org/10.1038/s42256-019-0048-x · Gratis versie: https://arxiv.org/abs/1811.10154
 >
 > Rudin stelt dat organisaties voor beslissingen met grote gevolgen, zoals in rechtspraak, zorg en kredietverlening, geen ondoorzichtige modellen moeten gebruiken die ze achteraf proberen uit te leggen. Zo'n uitleg achteraf is een benadering en kan misleidend zijn. Gebruik in plaats daarvan een model dat zelf te begrijpen is, zoals een korte beslisboom of een eenvoudige puntentelling. Volgens Rudin kost dat vaak nauwelijks nauwkeurigheid, zeker bij gestructureerde gegevens zoals in een tabel. De vraag is dus niet alleen hoe goed een model is, maar ook of de mensen die ermee werken en de mensen over wie het beslist, kunnen begrijpen waarom het iets zegt.
+
+**Leesvragen.** (1) Waarom is uitleg achteraf volgens Rudin riskant? (2) Wanneer is een eenvoudig model even goed? (3) Wat zag je daarvan terug in practicum 3?
+
+## De kern van deze week
+
+**Fouten per groep.** Een model dat 69% goed voorspelt, kan voor de ene groep veel slechter werken dan voor de andere. Stel daarom per groep drie vragen:
+
+1. *Goedgekeurd* (selectieratio): welk deel van de groep krijgt ja?
+2. *Onterecht afgewezen*: van de mensen die wél zouden terugbetalen, welk deel wordt afgewezen? Dit is de schade voor de aanvrager.
+3. *Onterecht goedgekeurd*: van de mensen die niet zouden terugbetalen, welk deel krijgt toch ja? Dit is de schade voor de bank, en soms voor de klant die een schuld krijgt die hij niet kan dragen.
+
+**Twee opvattingen van eerlijk.** *Gelijke uitkomst*: elke groep wordt even vaak goedgekeurd. *Gelijke kansen*: goede betalers worden in elke groep even vaak goedgekeurd. Als groepen in de data verschillen, kun je meestal niet aan alle eisen tegelijk voldoen (Kleinberg e.a., 2016; Chouldechova, 2017). Je moet dus kiezen, en die keuze is ethisch, niet technisch.
+
+**Proxy.** Een kenmerk dat samenhangt met een gevoelig kenmerk, zoals inkomen en soort werk met woonplaats. Laat je het gevoelige kenmerk weg, dan kan het model de groep nog steeds herkennen via de proxy. Dat zie je in practicum 2, stap 6. En wie het gevoelige kenmerk weggooit, kan ook niet meer testen of het model eerlijk is.
+
+**Labelbias.** Zijn de uitkomsten in de trainingsdata zelf scheef, dan leert het model die fout. In versie B werden goede betalers uit het binnenland vroeger vaak als wanbetaler vastgelegd. Een eerlijk algoritme op scheve labels blijft oneerlijk.
+
+**Soorten uitleg.** *Globaal*: hoe werkt het model in het algemeen? *Lokaal*: waarom deze uitkomst voor deze persoon? *Intrinsiek*: het model is zelf leesbaar, zoals een korte beslisboom. *Achteraf*: een apart hulpmiddel benadert wat een complex model deed; Rudin waarschuwt dat die benadering kan misleiden. *Contrafactisch*: "Met een looptijd van 24 in plaats van 12 maanden was uw aanvraag goedgekeurd." Goede uitleg past bij de doelgroep: de aanvrager wil weten wat hij kan doen, de medewerker of hij mag afwijken, de toezichthouder of het systeem eerlijk werkt.
+
+**Waar staat het?** Deze vindplaatsen gebruik je als je in je rapport naar een kader verwijst.
+
+| Onderwerp | Standaard en vindplaats |
+| --- | --- |
+| Bias in data onderzoeken | AI-verordening (EU) 2024/1689, artikel 10 lid 2 (onderzoek naar vertekeningen en maatregelen) en lid 5 (gevoelige gegevens mogen uitzonderlijk worden gebruikt om bias op te sporen) |
+| Uitleg aan gebruikers en betrokkenen | AI-verordening artikel 13 (transparantie naar de gebruiker) en artikel 86 (recht op uitleg bij een besluit van een hoog-risicosysteem); ter vergelijking AVG artikel 22 |
+| Meten per groep | NIST AI RMF 1.0, MEASURE 2.11 (fairness en bias geëvalueerd) en MEASURE 2.9 (model uitgelegd en gedocumenteerd); NIST SP 1270 (2022) |
+| Generatieve AI | NIST AI 600-1, *Generative AI Profile* (2024): onder meer overtuigend fout (confabulation), privacy en bias; AI-verordening artikel 50 (melden dat iemand met AI praat) |
+| Principes | UNESCO-aanbeveling (2021), III.2: fairness, transparantie en uitlegbaarheid; OECD AI Principles (2019, herzien 2024) |
+| Certificering | IEEE CertifAIEd: de ontologieën Transparency en Algorithmic Bias, met drivers en inhibitors (kaderclip B) |
+
+De AI-verordening en de AVG gelden niet in Suriname; je gebruikt ze als vergelijking.
+
+## Praktijkvoorbeelden
+
+**1. Gender Shades (fouten per groep, video).** Joy Buolamwini, *How I'm fighting bias in algorithms*, TEDxBeaconStreet (± 9 minuten): https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms. Je kent de studie uit week 2. Kijkvraag nu: welke van de drie vragen per groep had het verschil eerder laten zien?
+
+**2. Apple Card (krediet, uitleg en bezwaar, Verenigde Staten).** In 2019 meldde een ondernemer dat hij een twintig keer hogere kredietlimiet kreeg dan zijn vrouw. De toezichthouder van New York (NYDFS) vond in maart 2021 geen onwettige discriminatie: geslacht zat niet in het model, wel inkomen, schulden en kredietgeschiedenis. Wel stelde de toezichthouder dat het gebrek aan transparantie het vertrouwen ondermijnde, en dat de klantenservice tekortschoot.
+
+- Bron: Banking Dive (maart 2021), https://www.bankingdive.com/news/goldman-cleared-of-bias-claims-in-nydfss-apple-card-probe/597273/
+- Leesvragen: (1) Waarom is "geslacht zit niet in het model" geen bewijs van eerlijkheid? (2) Welke uitleg had de klant nodig: globaal, lokaal of contrafactisch? (3) Wat had een goede bezwaarroute veranderd?
+
+**3. AI-detectoren en schrijvers in een tweede taal (generatieve AI).** Onderzoekers van Stanford lieten in 2023 zien dat detectoren van AI-tekst meer dan de helft van de Engelse essays van niet-moedertaalsprekers ten onrechte als AI-tekst markeerden, terwijl essays van moedertaalsprekers bijna altijd goed werden herkend.
+
+- Bron: Liang e.a. (2023), *GPT detectors are biased against non-native English writers*, Patterns; open versie: https://arxiv.org/abs/2304.02819
+- Kijkvraag: voor wie gaat het mis, en wat betekent dat in een land waar veel mensen in hun tweede of derde taal schrijven?
 
 ## Kennisclips
 
 ### Clip 9. Fouten per groep (3 minuten)
 
-Video: [link volgt op MyCampus]
+**Video:** [link volgt op MyCampus]. Staat de video er nog niet, lees dan de meeleestekst in de bijlage achteraan.
 
 Vragen in de clip:
 
@@ -80,7 +130,7 @@ Vragen in de clip:
 
 ### Clip 10. Uitleg die werkt (4 minuten)
 
-Video: [link volgt op MyCampus]
+**Video:** [link volgt op MyCampus]. Staat de video er nog niet, lees dan de meeleestekst in de bijlage achteraan.
 
 Vragen in de clip:
 
@@ -89,7 +139,7 @@ Vragen in de clip:
 
 ### Kaderclip B. IEEE CertifAIEd: transparantie en bias toetsen (7 minuten)
 
-Video: [link volgt op MyCampus]
+**Video:** [link volgt op MyCampus]. Staat de video er nog niet, lees dan de meeleestekst in de bijlage achteraan.
 
 Vragen in de clip:
 
@@ -169,7 +219,18 @@ In week 4 test je jullie eigen oplossing op deze punten, in practicum 4.
 4. Wie is verantwoordelijk voor het verschil: de bank die de data vastlegde, de leverancier die alle velden gebruikte, of de bank die niet per groep testte? Gebruik minstens één ethische lens.
 5. Wat zou jij van Suribank eisen voordat zo'n model live mag? Formuleer één eis die je kunt controleren.
 
-Vul na afloop evidence card 2 in. Het sjabloon staat in de leeromgeving.
+**Evidence card 2** (individueel, hoogstens één pagina). Gebruik het sjabloon ICT A-ET Evidence card.docx (map Sjablonen onder Algemeen):
+
+| Vraag | Jouw antwoord |
+| --- | --- |
+| Wat heb ik gedaan? |  |
+| Wat zag ik? Noem minstens twee getallen. |  |
+| Wat veranderde er toen ik iets aanpaste of vergeleek? |  |
+| Waarom gebeurde dat, denk ik? |  |
+| Wat betekent dit ethisch? Gebruik minstens één lens. |  |
+| Wat betekent dit voor onze eigen oplossing? |  |
+
+**Veelgemaakte fout.** Alleen getallen noemen. Een goede kaart zegt ook wie de fouten draagt, en welke lens laat zien waarom dat een probleem is.
 
 ## Practicum 3: uitlegbaarheid
 
@@ -201,11 +262,15 @@ Vul na afloop evidence card 2 in. Het sjabloon staat in de leeromgeving.
 5. Leg de uitkomst van de korte boom voor TB0046 uit aan drie doelgroepen, elk in hooguit 60 woorden: de aanvrager, de kredietmedewerker en een toezichthouder.
 6. Rudin zegt: kies bij grote gevolgen een model dat zelf te begrijpen is. Ben je het daarmee eens voor Suribank? Wanneer zou je toch een complexer model kiezen?
 
-Vul na afloop evidence card 3 in.
+Vul na afloop **evidence card 3** in, met hetzelfde sjabloon.
+
+**Veelgemaakte fout.** Eén uitleg voor iedereen. Vraag je af: wat wil de aanvrager weten, wat de medewerker, en wat een toezichthouder?
 
 ## K4 snelle scan
 
 De snelle scan geeft alle 11 domeinen een eerste score, en bepaalt welke 4 tot 6 domeinen de groep in week 4 diep onderzoekt. Het is een eerste beeld, geen eindoordeel. *Omvang: één tabel van één tot twee pagina's.*
+
+Vul de scan in op het tabblad K4\_Scan van ICT A-ET Werkboek instrumenten.xlsx. Dit wordt hoofdstuk 4 (nulmeting) van jullie tussenrapport (Assessment 1, 4 februari). In week 4 werken jullie 4 tot 6 domeinen diep uit op het tabblad K4\_Nulmeting; voorbeeld: hoofdstuk 4 van het ICT A-ET Voorbeeldrapport.
 
 **Bewijs uit andere vakken.** Begin bij wat er al is. De ethische evaluatie uit A-AI1 geeft een eerste beeld. Voor domein 4 (data en privacy) en domein 11 (monitoring) gebruik je wat A-DG oplevert, voor de werking van de oplossing (domein 6 en 8) de documentatie uit A-AI2. Noem bij elke score de bron, ook als die uit een ander vak komt.
 
@@ -213,7 +278,7 @@ De snelle scan geeft alle 11 domeinen een eerste score, en bepaalt welke 4 tot 6
 
 **Checklist uit IEEE CertifAIEd.** Gebruik bij domein 5 en 6 de drivers en inhibitors uit kaderclip B. Domein 6: weet de gebruiker dat die met AI te maken heeft, is de werking helder beschreven, en kan de gebruiker ingrijpen, feedback geven of een alternatief kiezen? Wordt er informatie achtergehouden uit angst voor aansprakelijkheid of om een bedrijfsgeheim te beschermen? Domein 5: is het gebruik of weglaten van beschermde kenmerken onderbouwd, wordt het gedrag per groep gevolgd, en kan de organisatie bias corrigeren? Is het proces zo onduidelijk dat niemand bias kan meten?
 
-**Zo werkt ook een certificering.** De snelle scan lijkt op een beoordeling voor IEEE CertifAIEd: per doel bewijs, en een score die zegt hoe aantoonbaar iets geregeld is.
+**Zo werkt ook een certificering.** De snelle scan lijkt op een beoordeling voor IEEE CertifAIEd: per doel bewijs, en een score die zegt hoe aantoonbaar iets geregeld is. CertifAIEd scoort van 1 tot 5; wij gebruiken 0 tot 3. Het principe is hetzelfde: geen score zonder bewijs.
 
 **AI-impactbeoordeling.** K2 uit week 2 en de nulmeting (snelle scan en diepe nulmeting) vormen samen jullie AI-impactbeoordeling. De AI-verordening noemt dat een grondrechteneffectbeoordeling (FRIA, artikel 27), ISO/IEC 42005 een impactbeoordeling.
 
@@ -244,7 +309,17 @@ Een score zonder bewijs telt niet. Weet je het nog niet, noteer dan onbekend, me
 | 10 | Duurzaamheid en bredere impact | Zijn sociale, economische en ecologische gevolgen overwogen? Ook voor mensen buiten de directe gebruikers? |
 | 11 | Monitoring, audit en verbetering | Worden prestaties, fouten, klachten en verschillen tussen groepen regelmatig gemeten? Leidt een afwijking tot actie? |
 
-**Sjabloon.** Per domein één rij met deze kolommen: domein, eerste score (0 tot 3 of onbekend), waarop die is gebaseerd, welk bewijs nog nodig is, en diep onderzoeken ja of nee.
+**Sjabloon.** Het tabblad K4\_Scan in het werkboek: per domein één rij met domein, eerste score (0 tot 3 of onbekend), waarop die is gebaseerd, welk bewijs nog nodig is, en diep onderzoeken ja of nee.
+
+**Eén score op drie niveaus.**
+
+| Niveau | Voorbeeld voor domein 5 (fairness) |
+| --- | --- |
+| Zwak | "Fairness: 2, het model is eerlijk." |
+| Redelijk | "Fairness: 1, er wordt niet per groep gemeten (interview teamleider)." |
+| Professioneel | "Fairness: 1. Er wordt alleen de totale nauwkeurigheid gemeten (interview teamleider, 12 januari; geen rapportage per groep gevonden). Bewijs nodig: afwijzingen per regio uit A-AI2." |
+
+**Basis, goed of sterk?** Basis: elke score heeft een bron of het woord onbekend. Goed: plus de sterkte van het bewijs (sterk, goed, beperkt, zwak). Sterk: plus per domein wat nog ontbreekt en bij wie je het gaat halen.
 
 **Voorbeeld: een handelsbedrijf dat cv's laat rangschikken door AI.** Een fictieve casus; niet de Suribank-casus.
 
@@ -270,11 +345,11 @@ Een score zonder bewijs telt niet. Weet je het nog niet, noteer dan onbekend, me
 4. Gaat het om beslissingen over mensen, neem dan altijd fairness (5) en menselijke controle (7) mee.
 5. Is de oplossing een chatbot, assistent of agent, neem dan ook transparantie (6) mee.
 
-**Inleveren.** Uiterlijk zondag 24 januari, 23:59, met een AI-verklaring. In week 4 werken jullie de gekozen domeinen uit met bewijs.
+**Inleveren.** Uiterlijk zondag 24 januari, 23:59 bij **ICT A-ET Rapportstuk week 3**: het werkboek met het tabblad K4\_Scan, plus de AI-verklaring van de groep. In week 4 werken jullie de gekozen domeinen uit met bewijs.
 
 ## Online sessie donderdag 21 januari
 
-Een uur, online, met opname; camera is optioneel.
+Donderdag 21 januari, [tijd], via [link]. Een uur, online, met opname; camera is optioneel. Aan het einde vul je het exit ticket in bij **ICT A-ET Exit ticket college 3**.
 
 | Tijd | Onderdeel |
 | --- | --- |
@@ -289,9 +364,7 @@ Een uur, online, met opname; camera is optioneel.
 
 ## Weekcheck
 
-Sluit woensdag 20 januari om 23:59.
-
- Vijf vragen, een logboekregel en een standpunt.
+ICT A-ET Weekcheck 3 sluit woensdag 20 januari om 23:59. Vijf vragen, een logboekregel en een standpunt.
 
 1. **Practicum 2, versie A.** Welk percentage van de goede betalers werd onterecht afgewezen, aan de kust en in het binnenland? *Open, twee getallen.*
 2. **Practicum 2, versie B.** Dezelfde vraag voor versie B. *Open, twee getallen.*
@@ -302,6 +375,12 @@ Sluit woensdag 20 januari om 23:59.
 **Logboekregel.** Wat verraste je in practicum 2, en wat heb ik deze week aan de snelle scan bijgedragen?
 
 **Standpunt,** hoogstens 100 woorden. De stelling van de online sessie: *"Een bank mag een model gebruiken dat nauwkeuriger is dan medewerkers, ook als het één groep vaker onterecht afwijst."* Ben je het eens of oneens? Geef één argument, en noem één tegenargument dat je serieus neemt.
+
+## Vastgelopen?
+
+- Loop je vast in Orange of Python? Zie ICT A-ET Installatiehandleiding en ICT A-ET Veelgestelde vragen (map Naslag onder Algemeen). In Python werkt het notebook ook in Google Colab.
+- Begrippen als onterecht afgewezen, proxy en contrafactische uitleg staan in de ICT A-ET Begrippenlijst; waar CertifAIEd in het kader past, zie de ICT A-ET Kaderkaart.
+- Stel je vraag via [kanaal]; je krijgt binnen [termijn] antwoord. Of stel hem in de online sessie.
 
 ## Bijlage: tekst van de kennisclips (meelezen)
 

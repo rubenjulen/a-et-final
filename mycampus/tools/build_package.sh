@@ -33,6 +33,7 @@ cp "$I/K5_Ethical_Dilemma_Canvas.docx"               "$S/$P K5 Dilemma Canvas.do
 cp "$I/Sjabloon_tussenrapport_A1.docx"               "$S/$P Sjabloon tussenrapport.docx"
 cp "$I/Sjabloon_eindrapport_A2.docx"                 "$S/$P Sjabloon eindrapport.docx"
 cp "$I/Sjabloon_reflectie_A2.docx"                   "$S/$P Sjabloon reflectie.docx"
+cp "$I/Evidence_card.docx"                           "$S/$P Evidence card.docx"
 cp "$I/AI-verklaring.docx"                           "$S/$P AI-verklaring.docx"
 cp "$I/Peerbeoordeling_A-ET.xlsx"                    "$S/$P Peerbeoordeling.xlsx"
 
