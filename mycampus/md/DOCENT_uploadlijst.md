@@ -7,9 +7,9 @@ Conventie uit de handleiding van Janssen: **Studierichting Vakcode Naam**, zonde
 
 | Onderdeel | Opbouw | Namen voor A-ET |
 | --- | --- | --- |
-| Lesmateriaal | Studierichting Vakcode Documentnaam | ICT A-ET Studiewijzer · ICT A-ET Beoordelingsrubric · ICT A-ET Voorbeeldrapport · ICT A-ET Casusdossier Suribank · ICT A-ET Werkboek instrumenten · ICT A-ET K1 Canvas · ICT A-ET K5 Dilemma Canvas · ICT A-ET Sjabloon tussenrapport · ICT A-ET Sjabloon eindrapport · ICT A-ET Sjabloon reflectie · ICT A-ET AI-verklaring · ICT A-ET Peerbeoordeling · ICT A-ET Week 0 tot en met ICT A-ET Week 10 · ICT A-ET Practicum 1 · ICT A-ET Practicum 2 en 3 · ICT A-ET Practicum 4 · ICT A-ET Practicum 5 · ICT A-ET Kennisclip 1 tot en met 22 (en de kaderclips: ICT A-ET Kaderclip A tot en met E) |
+| Lesmateriaal | Studierichting Vakcode Documentnaam | ICT A-ET Studiewijzer · ICT A-ET Beoordelingsrubric · ICT A-ET Voorbeeldrapport · ICT A-ET Casusdossier Suribank · ICT A-ET Werkboek instrumenten · ICT A-ET K1 Canvas · ICT A-ET K5 Dilemma Canvas · ICT A-ET Sjabloon tussenrapport · ICT A-ET Sjabloon eindrapport · ICT A-ET Sjabloon reflectie · ICT A-ET AI-verklaring · ICT A-ET Evidence card · ICT A-ET Peerbeoordeling · ICT A-ET Week 0 tot en met ICT A-ET Week 10 · ICT A-ET Practicum 1 · ICT A-ET Practicum 2 en 3 · ICT A-ET Practicum 4 · ICT A-ET Practicum 5 · ICT A-ET Kennisclip 1 tot en met 22 (en de kaderclips: ICT A-ET Kaderclip A tot en met E) |
 | Slides | Studierichting Vakcode Collegenummer | ICT A-ET College 1 tot en met ICT A-ET College 10. N is het weeknummer, ook in de weken met een online sessie (week 3–7, 9, 10). Week 0 heeft geen contactmoment |
-| Assignments | Studierichting Vakcode Assignmentnaam | ICT A-ET Intake · ICT A-ET Beginquiz · ICT A-ET K1 · ICT A-ET Voorbereiding college 2 · ICT A-ET Rapportstuk week 2 tot en met ICT A-ET Rapportstuk week 9 · ICT A-ET Weekcheck 1 tot en met ICT A-ET Weekcheck 10 · ICT A-ET Exit ticket college 1 tot en met ICT A-ET Exit ticket college 10 · ICT A-ET Assessment 1 groep · ICT A-ET Assessment 1 individueel · ICT A-ET Peerbeoordeling 1 · ICT A-ET Assessment 2 groep · ICT A-ET Assessment 2 reflectie · ICT A-ET Peerbeoordeling 2 |
+| Assignments | Studierichting Vakcode Assignmentnaam | ICT A-ET Intake · ICT A-ET Beginquiz · ICT A-ET K1 · ICT A-ET Voorbereiding college 2 · ICT A-ET Rapportstuk week 2 tot en met ICT A-ET Rapportstuk week 9 · ICT A-ET Evidence cards week 3 (en later per practicum) · ICT A-ET Weekcheck 1 tot en met ICT A-ET Weekcheck 10 · ICT A-ET Exit ticket college 1 tot en met ICT A-ET Exit ticket college 10 · ICT A-ET Assessment 1 groep · ICT A-ET Assessment 1 individueel · ICT A-ET Peerbeoordeling 1 · ICT A-ET Assessment 2 groep · ICT A-ET Assessment 2 reflectie · ICT A-ET Peerbeoordeling 2 |
 | Eindcijfer | vast | ICT A-ET Eindtoets Assignment (niet aanpassen) |
 
 Practica staan als zip op MyCampus; binnen de zip houden de bestanden hun oorspronkelijke naam, omdat de notebooks en de Orange-workflow de csv-bestanden op naam openen.
@@ -165,17 +165,19 @@ De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanui
 | ICT A-ET Practicum 2 en 3.zip › suribank_testset.csv | Idem | Klaar |
 | ICT A-ET Practicum 2 en 3.zip › practicum2_3.ipynb | Idem (Python-route) | Klaar |
 | ICT A-ET Werkboek instrumenten.xlsx | Al in week 1/2 geplaatst; tabblad K4_Scan | Klaar |
-| Video clip 9, clip 10, kaderclip B | Weekmodule 3, kennisclips | Ontbreekt: nog te produceren |
-| Link online sessie + opname | Weekmodule 3 | Docent |
-| Weekcheck 3 (5 vragen, logboekregel, standpunt) | Toetsonderdeel MyCampus, met hand invoeren uit docent_weekcheck_w03.md | Docent |
-| Kernbron Rudin (2019) | Link naar het artikel | Docent: link toevoegen |
+| Video clip 9, clip 10, kaderclip B | Weekmodule 3, kennisclips | Ontbreekt: gebouwd in animatie/ (clip9, clip10, kaders/B), stem nog in te spreken; tot dan meeleestekst |
+| Link online sessie (aanvangstijd [tijd]) + opname | Weekmodule 3 | Docent |
+| ICT A-ET Weekcheck 3 (5 vragen, logboekregel, standpunt) | Toetsonderdeel MyCampus, met hand invoeren uit docent_weekcheck_w03.md | Docent |
+| Kernbron Rudin (2019) | Link staat in de studentversie (doi en arXiv) | Klaar |
+| ICT A-ET Evidence card.docx | Algemeen › Sjablonen (nieuw, ook voor practicum 4 en 5) | Klaar |
+| Inleverpunten: **ICT A-ET Evidence cards week 3** (individueel: één pdf met evidence card 2 en 3, zo 24 januari 23:59); **ICT A-ET Rapportstuk week 3** (groep: werkboek met K4_Scan + AI-verklaring, zo 24 januari 23:59); **ICT A-ET Exit ticket college 3** (individueel, tijdens de sessie) | Assignments in MyCampus | Aanmaken |
 
 
 ### Dia's van het contactmoment
 
 | Bestand | Waar op MyCampus | Bron |
 |---|---|---|
-| ICT A-ET College 3.pdf | ICT A-ET College 3 (13 dia's): na afloop delen bij week 3 | mycampus/pdf/ (gemaakt uit het dia-deck) |
+| ICT A-ET College 3.pdf | ICT A-ET College 3 (15 dia's, zonder docentdia): delen **na zondag 24 januari 23:59**, want de grafiek toont de uitkomst van practicum 2 | mycampus/pdf/ (gemaakt uit het dia-deck, gen_c3.py) |
 
 De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
 
