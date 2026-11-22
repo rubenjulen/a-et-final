@@ -3,29 +3,30 @@ Draaien vanuit scratchpad/: venv/bin/python scripts/gen_wordsjablonen.py"""
 import sys, os
 sys.path.insert(0, 'scripts')
 from gen_feedbackforms import (shade, borders, leftbar, run, para, celltext, h, table, fixwidths,
-                               minheight, box, INK, GREY, SAND, LIGHT, AMBER)
+                               minheight, box, INK, GREY, SAND, LIGHT, AMBER, logo_header)
 from docx import Document
 from docx.shared import Pt, Cm
 from docx.enum.text import WD_BREAK
 from docx.oxml.ns import qn
 
-OUT = 'out/instrumenten/'
+OUT = os.environ.get('AET_OUT', 'out') + '/instrumenten/'
 os.makedirs(OUT, exist_ok=True)
 WEG = 'Grijze hulptekst is uitleg: haal die weg voordat je inlevert.'
 
 
 def newdoc(footer):
     doc = Document()
-    st = doc.styles['Normal']; st.font.name = 'Arial'; st.font.size = Pt(10)
-    st.element.rPr.rFonts.set(qn('w:eastAsia'), 'Arial')
+    st = doc.styles['Normal']; st.font.name = 'Calibri'; st.font.size = Pt(10.5)
+    st.element.rPr.rFonts.set(qn('w:eastAsia'), 'Calibri')
     s = doc.sections[0]; s.page_width = Cm(21); s.page_height = Cm(29.7)
     s.left_margin = s.right_margin = Cm(2); s.top_margin = s.bottom_margin = Cm(1.8)
-    run(s.footer.paragraphs[0], 'AI & Ethics (A-ET) · ' + footer, 8, color=GREY)
+    logo_header(s)
+    run(s.footer.paragraphs[0], 'ICT A-ET · Collegejaar 2026-2027 · ' + footer, 8, color=GREY)
     return doc
 
 
 def title(doc, t, sub):
-    p = para(doc, '', space_after=0); run(p, t, 18, True, False, INK, 'Georgia')
+    p = para(doc, '', space_after=0); run(p, t, 18, True, False, INK, 'Calibri')
     para(doc, sub, 9, color=GREY, space_after=6)
 
 
@@ -70,7 +71,7 @@ def voorblad(doc, toets, hoofdstukken, extra_rows=()):
     para(doc, '', space_after=2)
     t = table(doc, ['Naam', 'Studentnummer', 'Eigenaar van hoofdstuk(ken)'], [6, 4, 7], rows=5)
     for row in t.rows[1:]: minheight(row, 0.7)
-    hint(doc, 'Elk hoofdstuk heeft precies één eigenaar. ' + ('Eigenaren wisselen ten opzichte van Assessment 1: iedereen bezit minstens één hoofdstuk uit 7 tot en met 12.' if toets == 'A2' else 'De eigenaar schrijft en verantwoordt het hoofdstuk; de groep blijft samen verantwoordelijk voor het geheel.'))
+    hint(doc, 'Elk hoofdstuk heeft precies één eigenaar. ' + ('Eigenaren wisselen ten opzichte van Assessment 1: iedereen bezit minstens één hoofdstuk uit 6 tot en met 8 of het beslismemo.' if toets == 'A2' else 'De eigenaar schrijft en verantwoordt het hoofdstuk; de groep blijft samen verantwoordelijk voor het geheel.'))
 
 
 def aiverklaring_blok(doc, groep=True):
@@ -85,7 +86,7 @@ def aiverklaring_blok(doc, groep=True):
 # ---------------------------------------------------------------- 1. K1
 def k1():
     doc = newdoc('K1 AI Use Case & Scope Canvas')
-    title(doc, 'K1 · AI Use Case & Scope Canvas', 'Week 1 · groep · wordt hoofdstuk 1 van het rapport · omvang: één pagina, plus de vijf teamafspraken')
+    title(doc, 'K1 · AI Use Case & Scope Canvas', 'Blok 1 · groep · inleveren zondag 10 januari, 23:59 · wordt hoofdstuk 1 van het rapport · omvang: één pagina, plus de vijf teamafspraken')
     note(doc, ['Het canvas legt vast wat jullie precies onderzoeken. Zonder heldere afbakening is elke latere score of aanbeveling vaag.',
                'Is de oplossing een chatbot, assistent of agent? Beantwoord dan ook de vraag in de kolom "Bij generatieve AI".',
                'Inleveren uiterlijk zondag 10 januari, 23:59: dit canvas (of een duidelijke foto van het A3-blad), met de teamafspraken en een AI-verklaring.',
@@ -134,7 +135,7 @@ def k1():
 
 
 # ---------------------------------------------------------------- 2. K5
-K5 = [('1. Identificatie', 'Dilemma-ID (zoals in de Dilemma Log van de groep), de beslisvraag, en waar in het proces dit speelt. Schrijf de beslisvraag zo: "Moeten / mogen wij [handeling], ondanks [wat daardoor onder druk komt]?"', '60 woorden', 1.8),
+K5 = [('1. Identificatie', 'Het dilemma in één zin, de beslisvraag, en waar in het proces dit speelt. Schrijf de beslisvraag zo: "Moeten / mogen wij [handeling], ondanks [wat daardoor onder druk komt]?"', '60 woorden', 1.8),
       ('2. Feiten en onzekerheid', 'Wat is aangetoond (met bronnummer, bijvoorbeeld [B4] of [D8])? Wat wordt aangenomen? Wat zou je oordeel kunnen veranderen? Houd die drie uit elkaar.', '120 woorden', 2.6),
       ('3. Stakeholders', 'Wie wordt direct en indirect geraakt? Wie heeft weinig invloed maar kan veel schade lijden?', '80 woorden', 2.0),
       ('4. Waarden', 'Waarde A en waarde B: welke twee waarden of plichten botsen, en welke UNESCO-principes spelen en waarom?', '60 woorden', 1.8),
@@ -144,18 +145,18 @@ K5 = [('1. Identificatie', 'Dilemma-ID (zoals in de Dilemma Log van de groep), d
       ('8. Lens: rechtvaardigheid (rechtvaardigheidstheorie, Rawls)', 'Hoe zijn baten, fouten en lasten verdeeld? Wordt een groep structureel benadeeld? Conclusie.', '90 woorden', 2.2),
       ('9. Lens: professionele integriteit (deugdethiek en beroepscodes)', 'Wat vraagt zorgvuldig professioneel handelen? Verzwakt AI het vakmanschap of de relatie met de klant? Conclusie.', '90 woorden', 2.2),
       ('10. Synthese', 'Waar botsen de lenzen? Wat is jouw oordeel en waarom? Onder welke voorwaarden? Wat geef je op, en welke spanning blijft? "Het is een afweging" is geen oordeel.', '150 woorden', 3.0),
-      ('11. Vertaling naar risico', 'Welke risico-ID\'s in het risicoregister van de groep (K6) volgen uit dit dilemma?', '30 woorden', 1.2)]
+      ('11. Vertaling naar risico', 'Welke risico-ID\'s in het risicoregister van de groep (H5) volgen uit dit dilemma?', '30 woorden', 1.2)]
 
 
 def k5():
     doc = newdoc('K5 Ethical Dilemma Canvas (individueel)')
-    title(doc, 'K5 · Ethical Dilemma Canvas', 'Week 4 · individueel · Assessment 1, individueel deel (40% van A1, 12% van het eindcijfer) · 800 tot 1.000 woorden')
-    note(doc, ['Je werkt één dilemma uit de Dilemma Log van je groep volledig uit. Elk groepslid kiest een ander dilemma.',
+    title(doc, 'K5 · Ethical Dilemma Canvas', 'Blok 1 · individueel · Assessment 1, individueel deel (40% van A1, 12% van het eindcijfer) · 800 tot 1.000 woorden')
+    note(doc, ['Je werkt één dilemma uit de casus van je groep volledig uit. Stem in de groep af dat iedereen een ander dilemma kiest.',
                'Omvang 800 tot 1.000 woorden, zonder kopjes, tabelkoppen en bronnenlijst. Zet het aantal woorden hieronder. Boven 1.100 woorden lezen we niet verder; onder 720 ontbreken bijna altijd onderdelen.',
                'Werk alle vier de lenzen uit, elk met een eigen conclusie. Minimaal drie lenzen goed uitgewerkt is nodig voor een voldoende.',
                'Je mag het bewijs van je groep gebruiken; de redenering is van jou. Lever één pdf in.',
                WEG], 'Zo gebruik je dit canvas')
-    kv(doc, [('Naam', ''), ('Studentnummer', ''), ('Groep', ''), ('Dilemma-ID', 'Zoals in de Dilemma Log, bijvoorbeeld D-02'), ('Aantal woorden', '')])
+    kv(doc, [('Naam', ''), ('Studentnummer', ''), ('Groep', ''), ('Dilemma', 'In één zin, en het risico-ID uit H5 dat erbij hoort, bijvoorbeeld R-02'), ('Aantal woorden', '')])
     for kop, vraag, rl, hgt in K5:
         section(doc, kop, vraag, hgt, rl)
     h(doc, 'Check vóór het inleveren')
@@ -163,7 +164,7 @@ def k5():
               'Feiten (met bronnummer), aannames en onzekerheden staan apart.',
               'Alle vier de lenzen zijn toegepast, elk met een eigen conclusie en de naam van de theorie.',
               'Het oordeel volgt uit de lenzen, zegt wat je opgeeft en welke spanning blijft.',
-              'Minstens één risico in het groepsregister (K6) is herleidbaar naar dit canvas.']:
+              'Minstens één risico in het risicoregister van de groep (H5) is herleidbaar naar dit canvas.']:
         para(doc, '☐  ' + c, 9, space_after=1)
     aiverklaring_blok(doc, groep=False)
     return doc
@@ -171,13 +172,11 @@ def k5():
 
 # ---------------------------------------------------------------- 3. Tussenrapport A1
 A1H = [('Samenvatting', '¼ pagina', '', 'De toepassing, de belangrijkste bevindingen en het voorlopig oordeel in één alinea.', 1.6),
-       ('1. Toepassing en afbakening', '¾ pagina', 'K1', 'Wat doet de AI, voor wie, welk besluit ondersteunt of neemt het, wat valt buiten het onderzoek?', 2.4),
-       ('2. Stakeholders en impact', '1 pagina', 'K2', 'Wie wordt geraakt, direct en indirect? Welke groepen zijn kwetsbaar, en wie heeft invloed? K2 is de eerste helft van de AI-impactbeoordeling.', 2.8),
-       ('3. Proces en data', '¾ pagina', 'K3', 'Hoe komt het besluit tot stand? Welke data, van waar naar waar? Waar zit de mens? Markeer elke externe dienst (bijvoorbeeld n8n, een taalmodel-API, een vectordatabase, hosting): welke gegevens gaan erheen en waar staan ze?', 2.6),
-       ('4. Nulmeting', '2 pagina\'s', 'K4', 'Snelle scan van alle 11 domeinen; 4 tot 6 domeinen diep, met bewijs en bewijssterkte; de belangrijkste gaps. Elke score heeft een bronnummer. Samen met hoofdstuk 2 is dit jullie AI-impactbeoordeling. Gebruik minstens twee uitkomsten van practicum 4 als bewijs.', 4.0),
-       ('5. Ethische dilemma\'s', '¾ pagina', 'K5', 'De Dilemma Log met minstens drie dilemma\'s, elk als beslisvraag met twee waarden; per dilemma wie het individueel uitwerkte.', 2.4),
-       ('6. Risico\'s', '1½ pagina', 'K6', 'Bovenaan de regel "EU-risicoklasse en rol": de klasse, de onderbouwing (artikel of bijlage van de AI-verordening) en de rol van de partner; ter vergelijking, want de verordening geldt niet in Suriname. Daaronder het risicoregister met 5 tot 8 risico\'s, geschreven als oorzaak, gebeurtenis, schade, voor wie; de prioriteit en de besproken escalaties.', 3.6),
-       ('7. Voorlopig oordeel en plan van aanpak', '1 pagina', '', 'Het verwachte oordeel met voorwaarden en onzekerheden, en wat het nog kan veranderen. De drie risico\'s die jullie eerst aanpakken; het ontbrekende bewijs; taakverdeling en planning tot 11 maart.', 2.8)]
+       ('1. Toepassing en afbakening', '¾ pagina', 'K1', 'Wat doet de AI, voor wie, welk besluit ondersteunt of neemt het, wat valt buiten het onderzoek? Werk bij met de feedforward van 11 januari.', 2.4),
+       ('2. Stakeholders en impact', '1¼ pagina', 'K2', 'Wie wordt geraakt, direct en indirect? Welke groepen zijn kwetsbaar, en wie heeft invloed? Hoe zijn ze gehoord? K2 is de eerste helft van de AI-impactbeoordeling.', 2.8),
+       ('3. Proces en data', '1 pagina', 'K3', 'Hoe komt het besluit tot stand? Welke data, van waar naar waar? Waar zit de mens? Markeer elke externe dienst (bijvoorbeeld n8n, een taalmodel-API, een vectordatabase, hosting): welke gegevens gaan erheen en waar staan ze?', 2.6),
+       ('4. Nulmeting', '2 pagina\'s', 'K4', 'Snelle scan van alle 11 domeinen, elk met een score en een bronnummer. Werk 3 tot 4 domeinen diep uit, met bewijs en bewijssterkte, en noem de belangrijkste gaps. Samen met hoofdstuk 2 is dit jullie AI-impactbeoordeling. Deden jullie practicum 4? Gebruik minstens twee uitkomsten als bewijs.', 4.0),
+       ('5. Risico\'s en plan van aanpak', '2½ pagina\'s', 'K6', 'Bovenaan de regel "EU-risicoklasse en rol": de klasse, de onderbouwing (artikel of bijlage van de AI-verordening) en de rol van de partner; ter vergelijking, want de verordening geldt niet in Suriname. Daaronder de 5 belangrijkste risico\'s, geschreven als oorzaak, gebeurtenis, schade, voor wie, met kans, impact en de besproken escalaties. Sluit af met het voorlopig oordeel (met voorwaarden en onzekerheden) en het plan van aanpak: de drie risico\'s die jullie eerst aanpakken, het ontbrekende bewijs, de taakverdeling en de planning tot 11 maart.', 4.6)]
 
 
 def tussenrapport():
@@ -197,21 +196,20 @@ def tussenrapport():
     hint(doc, 'Bijlagen zijn bewijs, geen verlengstuk van het betoog. Een conclusie die alleen in een bijlage staat, telt niet.')
     for k, v, hg in [('Bijlage A · Bewijsoverzicht', 'Genummerde lijst van alle bronnen: documenten, interviews (datum, functie, geen naam), observaties, eigen tests, en stukken uit A-AI2 en A-DG. In de tekst verwijs je naar het nummer, bijvoorbeeld [B4]. Suribank-route: dossiernummers [D1] tot en met [D12].', 2.2),
                      ('Bijlage B · Volledige nulmetingtabellen', 'Van de diep onderzochte domeinen.', 1.4),
-                     ('Bijlage C · Export van de Excel-tool', 'De tabbladen Dilemma_Log en Risk_Register.', 1.4),
-                     ('Bijlage D · Testverslag van practicum 4 (verplicht)', 'Hoogstens twee pagina\'s, met het testlogboek. Verwijzen jullie naar practicum 2 of 3? Voeg dan ook die uitkomsten toe. Zonder testverslag kan criterium 2 niet hoger dan voldoende.', 2.0)]:
+                     ('Bijlage C · Export uit het werkboek', 'Het tabblad Risk_Register (alle risico\'s, ook die buiten de top 5).', 1.4),
+                     ('Bijlage D · Testverslag van practicum 4 (sterk aanbevolen)', 'Hoogstens twee pagina\'s, met het testlogboek. Verwijzen jullie naar practicum 2 of 3? Voeg dan ook die uitkomsten toe. Een eigen test is het sterkste bewijs voor de nulmeting (criterium 2, niveau goed).', 2.0)]:
         section(doc, k, v, hg)
     h(doc, 'Inlevercheck')
     for c in ['Elk hoofdstuk heeft een eigenaar op het voorblad.',
-              'Elke score in de nulmeting heeft een bronnummer.',
-              'Het testverslag van practicum 4 zit als bijlage D bij, en minstens twee uitkomsten staan als bewijs in hoofdstuk 4 of 6.',
-              'Elk dilemma in de log leidt tot minstens één risico.',
+              'De feedforward op K1 (11 januari) en op het concept van K2 tot en met K4 (25 januari) is verwerkt.',
+              'Alle 11 domeinen hebben een score en een bronnummer; 3 tot 4 domeinen zijn diep uitgewerkt.',
+              'Deden jullie practicum 4? Dan zit het testverslag als bijlage D bij en staan minstens twee uitkomsten als bewijs in hoofdstuk 4.',
               'Boven het risicoregister staat de regel EU-risicoklasse en rol.',
-              'Elk risico is geschreven als oorzaak, gebeurtenis, schade, voor wie.',
-              'Elke escalatievlag is besproken.',
+              'Elk risico is geschreven als oorzaak, gebeurtenis, schade, voor wie; elke escalatievlag is besproken.',
+              'Elk risico is herleidbaar naar een gap uit hoofdstuk 4 of een dilemma uit een canvas.',
               'Het voorlopig oordeel volgt uit de hoofdstukken ervoor, en noemt wat het nog kan veranderen.',
-              'Het plan van aanpak noemt drie risico\'s, het ontbrekende bewijs, de taakverdeling en data.',
-              'Peerfeedback verwerkt; in twee zinnen in het logboek gezet.',
-              'Maximaal 8 pagina\'s, AI-verklaring aanwezig, één pdf.']:
+              'Het plan van aanpak noemt drie risico\'s, het ontbrekende bewijs, de taakverdeling en data tot 11 maart.',
+              'Maximaal 8 pagina\'s, AI-verklaring aanwezig, één pdf. De dilemma-canvassen lever je elk apart in.']:
         para(doc, '☐  ' + c, 9, space_after=1)
     aiverklaring_blok(doc)
     return doc
@@ -219,19 +217,16 @@ def tussenrapport():
 
 # ---------------------------------------------------------------- 4. Eindrapport A2
 MEMO = [('Ons oordeel', 'Eén van drie: verantwoord inzetbaar, inzetbaar onder voorwaarden, of nu niet. "Nu niet" is een volwaardig advies. Zeg in één of twee zinnen wat dat concreet betekent.'),
-        ('Waarom', 'De twee of drie belangrijkste redenen, met de cijfers uit jullie test en hertest en een verwijzing naar het hoofdstuk.'),
+        ('Waarom', 'De twee of drie belangrijkste redenen, met de cijfers uit jullie bewijs (en de hertest, als jullie die deden) en een verwijzing naar het hoofdstuk.'),
         ('Wat het oplevert', 'De baat van de toepassing, eerlijk gewogen.'),
         ('Voorwaarden', 'Per voorwaarde: wat moet er gebeuren, wie is eigenaar, wanneer, en wat gebeurt er als het niet lukt.'),
         ('Restrisico', 'Wat ondanks alles kan misgaan, voor wie, en wie dat restrisico accepteert.'),
         ('Wat ons oordeel kan veranderen', 'Een harde grens die vooraf is vastgelegd: bij welke uitkomst adviseren jullie iets anders?'),
-        ('Managementreview', 'Dit memo is de managementreview (ISO/IEC 42001, 9.3). Noem het stopcriterium uit hoofdstuk 11 en de datum van de volgende review.')]
-A2H = [('1 tot en met 6. Het tussenrapport, herzien en ingekort', '4 pagina\'s', 'A1 en feedback', 'Toepassing, stakeholders, proces en data, nulmeting, dilemma\'s en risico\'s, herzien met de feedback en ingekort van ongeveer 7 naar 4 pagina\'s. Schrap wat niet nodig is voor het advies, verplaats details naar de bijlagen en verwijs naar A-AI2 en A-DG. Houd de regel "EU-risicoklasse en rol" boven het risicoregister.', 4.0),
-       ('7. Gewenste situatie', '½ pagina', 'K4 week 6', 'Doelniveau, gap en prioriteit per domein, met de norm waarop het doelniveau rust.', 2.0),
-       ('8. Responsible AI-ontwerp', '2 pagina\'s', 'K7 deel 1', 'Eisen en maatregelen voor de top 5 risico\'s; voorkomen, opsporen, herstellen; welke maatregelen via A-AI2 zijn ingebouwd. Elke maatregel heeft een eigenaar en een verwijzing in de kolom Kader (artikel uit de AI-verordening, Annex A-gebied van ISO/IEC 42001, ontologie van IEEE CertifAIEd of functie van NIST AI RMF).', 3.6),
-       ('9. Menselijke controle, bezwaar en transparantie', '1½ pagina', 'K7 deel 2', 'Ontwerp van de controle met de zes voorwaarden en een rekensom; de bezwaarroute; de kern van de transparantieverklaring. Bij een chatbot: de AI-melding en de overdracht aan een mens.', 3.2),
-       ('10. Governance', '½ pagina', 'K7 deel 2', 'Wie is eindverantwoordelijk, wie mag stoppen, wie accepteert restrisico? Eén AI-beleidsregel van hoogstens 100 woorden die de partner kan overnemen. De RACI en de leverancierscheck staan in de bijlage.', 2.4),
-       ('11. Implementatie en monitoring', '1 pagina', 'K8 week 9', 'Fasering; indicatoren voor ethische signalen met grens, actie en eigenaar; verwijzing naar A-AI2 en A-DG voor techniek en data. Verplicht: de incidentroute (wat is een incident, wie meldt aan wie, binnen welke termijn) en het stopcriterium (wanneer gaat het systeem uit of terug naar handwerk, en wie beslist dat).', 3.4),
-       ('12. Hertest, restrisico en conclusie', '1½ pagina', 'Week 9', 'Wat de hertest in week 9 liet zien, naast de test van week 4; restrisico per top 5 risico, wat overblijft en waarom dat aanvaardbaar is, of niet; de conclusie.', 3.2)]
+        ('Managementreview', 'Dit memo is de managementreview (ISO/IEC 42001, 9.3). Noem het stopcriterium uit hoofdstuk 8 en de datum van de volgende review.')]
+A2H = [('1 tot en met 5. Het tussenrapport, herzien', '5 pagina\'s', 'A1 en feedback', 'Toepassing, stakeholders, proces en data, nulmeting, en risico\'s, herzien met de feedback op Assessment 1 en ingekort waar het kan. Schrap wat niet nodig is voor het advies, verplaats details naar de bijlagen en verwijs naar A-AI2 en A-DG. Houd de regel "EU-risicoklasse en rol" boven het risicoregister. Het plan van aanpak uit A1 vervalt: wat jullie deden, staat in hoofdstuk 6 tot en met 8.', 4.0),
+       ('6. Maatregelen', '2½ pagina\'s', 'K7', 'Per risico uit de top 5: de eis (met de norm waarop die rust), 2 tot 3 maatregelen (voorkomen, opsporen, herstellen), de eigenaar, hoe je controleert dat de maatregel werkt, en het restrisico. Geef aan welke maatregelen via A-AI2 zijn ingebouwd. Elke maatregel heeft een verwijzing in de kolom Kader (artikel uit de AI-verordening, Annex A-gebied van ISO/IEC 42001, ontologie van IEEE CertifAIEd of functie van NIST AI RMF). Deden jullie een hertest? Vat de uitkomst hier samen; het verslag gaat in bijlage F.', 4.2),
+       ('7. Menselijke controle, bezwaar en governance', '2 pagina\'s', 'K7 (vervolg), RACI', 'Ontwerp van de menselijke controle met de zes voorwaarden en een rekensom; de bezwaarroute; de kern van de transparantieverklaring. Bij een chatbot: de AI-melding en de overdracht aan een mens. Governance: wie is eindverantwoordelijk, wie mag stoppen, wie accepteert restrisico, en één AI-beleidsregel van hoogstens 100 woorden die de partner kan overnemen. De RACI en de leverancierscheck staan in bijlage C.', 3.6),
+       ('8. Monitoring en stopcriterium', '1½ pagina', 'K8', 'Fasering; indicatoren voor ethische signalen met grens, actie en eigenaar; verwijzing naar A-AI2 en A-DG voor techniek en data. Verplicht: de incidentroute (wat is een incident, wie meldt aan wie, binnen welke termijn) en het stopcriterium (wanneer gaat het systeem uit of terug naar handwerk, en wie beslist dat). Sluit af met een korte conclusie die naar het beslismemo leidt.', 3.4)]
 
 
 def eindrapport():
@@ -256,23 +251,22 @@ def eindrapport():
     h(doc, 'Bijlagen (tellen niet mee voor de 12 pagina\'s)')
     for k, v, hg in [('Bijlage A · Bewijsoverzicht (bijgewerkt)', 'Genummerde lijst van alle bronnen, aangevuld sinds Assessment 1.', 1.3),
                      ('Bijlage B · Volledige nulmetingtabellen', '', 1.2),
-                     ('Bijlage C · Exports uit de Excel-tools', 'Dilemma_Log, Risk_Register met restrisico, Design_Requirements, Controls met de kolom Kader, Leverancierscheck, Human_Oversight, Governance_RACI (alleen ethische beslissingen; precies één A per activiteit).', 1.8),
+                     ('Bijlage C · Exports uit het werkboek', 'Risk_Register met restrisico, Design_Requirements, Controls met de kolom Kader, Leverancierscheck, Human_Oversight, Governance_RACI (alleen ethische beslissingen; precies één A per activiteit).', 1.8),
                      ('Bijlage D · Transparantieverklaring en leestest', 'De volledige A4 voor de eindgebruiker en de uitkomst van de leestest.', 1.4),
-                     ('Bijlage E · Verwerkingslijst', 'Alle feedbackpunten: de actiepunten uit Assessment 1, de panelfeedback en de peerfeedback. Per punt: nummer, bron, feedbackpunt, besluit (overgenomen, deels, niet overgenomen), wat jullie veranderden of waarom niet, en waar in het rapport. "Geen tijd" is geen argument.', 2.4),
-                     ('Bijlage F · Ingebouwd en hertest (practicum 4b)', 'Bewijs dat minstens twee maatregelen zijn ingebouwd via A-AI2, en het testverslag van de hertest: de uitkomsten van week 4 naast die van week 9, met de testlogboeken. Zonder bijlage F kan criterium 6 niet hoger dan voldoende.', 2.2),
-                     ('Bijlage G · Incidentoverzicht (aanbevolen)', 'Detail bij de incidentroute uit hoofdstuk 11: per soort incident wanneer iets een incident is, aan wie je meldt en binnen welke termijn. De kern blijft in hoofdstuk 11.', 1.8)]:
+                     ('Bijlage E · Verwerkingslijst', 'Alle feedbackpunten: de actiepunten uit de feedback op Assessment 1 (18 februari en college 3), de feedback uit de Design Review en de peerfeedback (9 maart). Per punt: nummer, bron, feedbackpunt, besluit (overgenomen, deels, niet overgenomen), wat jullie veranderden of waarom niet, en waar in het rapport. "Geen tijd" is geen argument.', 2.4),
+                     ('Bijlage F · Ingebouwd en hertest', 'Bewijs dat maatregelen zijn ingebouwd via A-AI2 (nodig voor criterium 6, niveau goed). Deden jullie een hertest (practicum 4 opnieuw, niet verplicht, telt mee voor excellent)? Zet dan de eerste uitkomsten naast die van de hertest, met de testlogboeken.', 2.2),
+                     ('Bijlage G · Incidentoverzicht (aanbevolen)', 'Detail bij de incidentroute uit hoofdstuk 8: per soort incident wanneer iets een incident is, aan wie je meldt en binnen welke termijn. De kern blijft in hoofdstuk 8.', 1.8)]:
         section(doc, k, v, hg)
     h(doc, 'Inlevercheck')
     for c in ['Het beslismemo staat vooraan, past op één pagina, en noemt het stopcriterium en de datum van de volgende review.',
-              'De actiepunten uit Assessment 1 en de panelfeedback zijn verwerkt (bijlage E).',
+              'De actiepunten uit de feedback op Assessment 1, de Design Review en de peerfeedback zijn verwerkt (bijlage E).',
               'Elk risico uit de top 5 is te volgen tot een eis, maatregelen, een eigenaar, een indicator en een restrisico.',
               'Elke maatregel heeft een verwijzing in de kolom Kader.',
-              'Menselijke controle heeft alle zes voorwaarden en een rekensom. Bij een chatbot: AI-melding, overdracht aan een mens en een vaste testset met lastige vragen zijn beschreven en getest.',
+              'Menselijke controle heeft alle zes voorwaarden en een rekensom. Bij een chatbot: AI-melding, overdracht aan een mens en een vaste testset met lastige vragen.',
               'De bezwaarroute en de transparantieverklaring kloppen met elkaar en met het ontwerp.',
               'Elke activiteit in de RACI heeft precies één A; er is een AI-beleidsregel.',
-              'Elke indicator heeft een grens, een actie en een eigenaar, en gaat over een ethisch signaal; de incidentroute en het stopcriterium staan in hoofdstuk 11.',
+              'Elke indicator heeft een grens, een actie en een eigenaar, en gaat over een ethisch signaal; de incidentroute en het stopcriterium staan in hoofdstuk 8.',
               'Het eindoordeel is één van de drie uitkomsten, volgt uit het rapport en noemt voorwaarden en restrisico.',
-              'Minstens twee maatregelen zijn aantoonbaar ingebouwd en hertest (bijlage F).',
               'Maximaal 12 pagina\'s, AI-verklaring, één pdf.']:
         para(doc, '☐  ' + c, 9, space_after=1)
     aiverklaring_blok(doc)
@@ -284,22 +278,22 @@ def reflectie():
     doc = newdoc('Sjabloon reflectie (Assessment 2)')
     title(doc, 'Reflectie · Assessment 2', 'Individueel · 40% van A2 (28% van het eindcijfer) · inleveren donderdag 11 maart, 23:59 · 1.500 tot 2.000 woorden')
     note(doc, ['Een reflectie is geen verslag van wat je deed. Schrijf in de ik-vorm: het gaat over jou, niet over de groep.',
-               'Gebruik bij elke vraag de vijf stappen (naar Korthagen): wat gebeurde er (concreet moment, met week); wat dacht, voelde en deed je; wat was de kern; welke alternatieven zie je nu; wat doe je voortaan.',
-               'Verwijs minstens vier keer naar eigen materiaal: logboekregels en standpunten uit de weekchecks, evidence cards en testverslagen, je dilemma-canvas en de feedback erop, feedback van panel of peergroep. Citeer jezelf letterlijk waar dat helpt.',
+               'Gebruik bij elke vraag de vijf stappen (naar Korthagen): wat gebeurde er (concreet moment, met datum of college); wat dacht, voelde en deed je; wat was de kern; welke alternatieven zie je nu; wat doe je voortaan.',
+               'Verwijs minstens vier keer naar eigen materiaal: je evidence cards, je standpunten uit de kennischecks en exit tickets, testverslagen, je dilemma-canvas en de feedback erop, feedback uit de Design Review of van de peergroep. Citeer jezelf letterlijk waar dat helpt.',
                '1.500 tot 2.000 woorden; boven 2.200 lezen we niet verder. Eén pdf.',
                WEG], 'Zo gebruik je dit sjabloon')
     kv(doc, [('Naam', ''), ('Studentnummer', ''), ('Groep en casus', ''), ('Aantal woorden', '')])
     R = [('Inleiding', '150 woorden', 'Je casus in twee zinnen, en waar je stond aan het begin van de module.', 2.0),
          ('Vraag 1 · Het lastigste dilemma', '400 woorden', 'Welk dilemma vond je het lastigst, en waarom? Niet: welk dilemma was het belangrijkst. Waar twijfelde je echt, en waar twijfel je nog?', 4.0),
          ('Vraag 2 · De aanname die onjuist bleek', '350 woorden', 'Over de toepassing, over de organisatie, over AI, of over jezelf. Hoe kwam je erachter?', 3.6),
-         ('Vraag 3 · De feedback die je oordeel veranderde', '350 woorden', 'Van de docent, het panel, een peergroep, een groepsgenoot of een stakeholder. Wat dacht je ervoor, en wat erna? Vergelijk een standpunt uit het begin met een van later.', 3.6),
+         ('Vraag 3 · De feedback die je oordeel veranderde', '350 woorden', 'Van de docent, het panel, een peergroep, een groepsgenoot of een stakeholder. Wat dacht je ervoor, en wat erna? Vergelijk een standpunt uit kennischeck 1 met een van later.', 3.6),
          ('Vraag 4 · Je rol in het team', '350 woorden', 'Wat deed je, wat liet je liggen, en wat zou je de volgende keer anders doen? Eerlijk over de samenwerking, zonder anderen de schuld te geven.', 3.6),
          ('Afsluiting', '250 woorden', 'Wat je meeneemt als professional die met AI werkt. Eindig met iets wat je echt gaat doen, niet met "ik heb veel geleerd".', 2.8)]
     for kop, rl, txt, hg in R:
         section(doc, kop, txt, hg, rl)
     h(doc, 'Check vóór het inleveren')
     for c in ['Alle vier de vragen zijn beantwoord, in de ik-vorm.',
-              'Bij elke vraag een concreet moment, met week of datum.',
+              'Bij elke vraag een concreet moment, met datum, college of kennischeck.',
               'Minstens vier verwijzingen naar eigen materiaal.',
               'Er staat een moment in waarop je ongelijk had, en wat je daarvan leerde.',
               'Je laat zien welke ethische spanning blijft, met je eigen oordeel.',

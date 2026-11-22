@@ -6,7 +6,7 @@ from openpyxl.formatting.rule import FormulaRule
 from openpyxl.utils import get_column_letter as L
 
 OUT = sys.argv[1]
-DARK, SAND, INPUT = '12312A', 'EDE7DA', 'FFF6DD'
+DARK, SAND, INPUT = '002060', 'EAF0F8', 'FFF6DD'
 HF = PatternFill('solid', fgColor=DARK); SF = PatternFill('solid', fgColor=SAND); IF_ = PatternFill('solid', fgColor=INPUT)
 WH = Font(name='Calibri', size=11, bold=True, color='FFFFFF'); B = Font(name='Calibri', size=11, bold=True)
 N = Font(name='Calibri', size=11); T = Font(name='Calibri', size=15, bold=True, color=DARK)
@@ -28,42 +28,37 @@ def cell(ws, ref, v, font=N, fill=None, al=WR, border=True, fmt=None):
     return c
 
 # ---------------- data ----------------
+KADER = 'herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF)'
 A1G = dict(title='Assessment 1 · groepsdeel (rapport)', share='Telt voor 60% van het cijfer Assessment 1 (18% van het eindcijfer).',
- src='Bron: week 5, sectie 5 (rubric groepsdeel).', crits=[
+ src='Bron: studiewijzer, sectie 9, en kennispakket 1 (tussenrapport, H1 tot en met H5).', crits=[
  ('1. Afbakening, context en stakeholders zijn helder en volledig', '(TC1) · H1 tot en met H3', .20,
   ['Onduidelijk welk besluit de AI ondersteunt; alleen organisatie en gebruikers als stakeholders',
-   'Toepassing en afbakening helder; belangrijkste direct en indirect geraakten; datastroom op hoofdlijnen',
+   'Toepassing en afbakening helder; belangrijkste direct en indirect geraakten; datastroom op hoofdlijnen, met de externe diensten',
    'Kwetsbare groepen en machtsverschil benoemd; proces laat zien waar de mens zit en waar niet',
    "Daarnaast: het beeld van proces en data verklaart al waar de risico's later vandaan komen"]),
- ('2. Conclusies rusten op bewijs; onzekerheden zijn benoemd', '(TC1, GC2) · H4 en het hele rapport', .25,
+ ('2. Conclusies rusten op bewijs; onzekerheden zijn benoemd', '(TC1, GC2) · H4 en het hele rapport', .30,
   ['Scores zonder bron; meningen en feiten door elkaar',
-   'De meeste scores hebben een bron; 4 tot 6 domeinen diep onderzocht; domeinoordeel uitgelegd',
-   'Bewijssterkte consequent benoemd; tegenstrijdige bronnen opgemerkt; bij twijfel lager gescoord; uitkomsten van practicum 4 en werk uit A-AI2 en A-DG als bewijs gebruikt',
-   'Bronnen van verschillende soort elkaar laten bevestigen (document, gesprek, data); onzekerheden sturen het plan van aanpak']),
- ("3. Dilemma's zijn gewogen met minimaal drie lenzen", '(TC1, GC2) · H5', .10,
-  ["Minder dan drie dilemma's, of kwesties zonder echte botsing van waarden",
-   "Drie dilemma's als beslisvraag met twee waarden; minstens drie lenzen per dilemma kort toegepast",
-   'Vier lenzen; voorlopig oordeel en restspanning per dilemma',
-   "De dilemma's dekken samen de kern van de casus; spanningen tussen de dilemma's zijn gezien"]),
- ("4. Risico's zijn concreet geformuleerd en navolgbaar geprioriteerd", '(TC1) · H6', .30,
+   'Alle 11 domeinen kort gescoord; de meeste scores hebben een bron; 3 tot 4 domeinen diep onderzocht met bewijs; domeinoordeel uitgelegd',
+   'Bewijssterkte consequent benoemd; tegenstrijdige bronnen opgemerkt; bij twijfel lager gescoord; uitkomsten van een eigen test (practicum 4) of ander databewijs, en werk uit A-AI2 en A-DG, als bewijs gebruikt',
+   'Bronnen van verschillende soort bevestigen elkaar (document, gesprek, data); onzekerheden sturen het plan van aanpak']),
+ ("4. Risico's zijn concreet geformuleerd en navolgbaar geprioriteerd", "(TC1) · H5, risico's", .30,
   ['Vage risico\'s ("bias"); geen of willekeurige scores; gaps als risico opgeschreven',
-   "5 tot 8 risico's als oorzaak, gebeurtenis, schade, voor wie; kans en impact gemotiveerd; escalaties genoemd",
-   'Impact op individu, groep en rechten serieus gescoord; elk risico herleidbaar naar een dilemma of gap; escalaties besproken; bij een chatbot of agent ook overtuigend fout, gegevens naar buiten, AI-melding en overdracht aan een mens; herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF)',
-   'Scores onderbouwd met data of eigen tests; onzekerheid in de score zichtbaar gemaakt; prioriteit overtuigt; herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF), met de EU-risicoklasse onderbouwd']),
- ('5. Advies en gewenste situatie zijn onderbouwd en proportioneel', '(TC2, GC1) · H7', .15,
+   "De 5 belangrijkste risico's als oorzaak, gebeurtenis, schade, voor wie; kans en impact gemotiveerd; escalaties genoemd; de regel EU-risicoklasse en rol staat erboven",
+   'Impact op individu, groep en rechten serieus gescoord; elk risico herleidbaar naar een gap uit H4 of een dilemma uit een canvas; escalaties besproken; bij een chatbot of agent ook overtuigend fout, gegevens naar buiten, AI-melding en overdracht aan een mens; ' + KADER,
+   'Scores onderbouwd met data of eigen tests; onzekerheid in de score zichtbaar gemaakt; prioriteit overtuigt; ' + KADER + ', met de EU-risicoklasse onderbouwd']),
+ ('5. Plan van aanpak en advies zijn onderbouwd en proportioneel', '(TC2, GC1) · H5, voorlopig oordeel en plan', .20,
   ['Geen oordeel, of een oordeel dat niet volgt uit het rapport; plan van aanpak ontbreekt of is vaag',
-   "Voorlopig oordeel volgt uit de analyse; plan noemt drie risico's om eerst aan te pakken en een taakverdeling",
-   'Voorwaarden en onzekerheden benoemd; plan concreet met data en ontbrekend bewijs',
-   'Oordeel proportioneel: weegt de baten van de toepassing eerlijk mee; plan is realistisch binnen vijf weken'])],
- conds=[ # (vraag, type, default, cap-criteria idx list, cap value, message)
-  ('Testverslag van practicum 4 (bijlage D) aanwezig?', 'janee', 'ja', [1], 6, 'Geen testverslag van practicum 4: criterium 2 kan niet hoger dan voldoende (6).'),
+   "Voorlopig oordeel volgt uit de analyse; plan noemt de drie risico's die eerst worden aangepakt en een taakverdeling",
+   'Voorwaarden en onzekerheden benoemd; plan concreet, met het ontbrekende bewijs, eigenaren en data',
+   'Oordeel proportioneel: weegt de baten van de toepassing eerlijk mee; plan is realistisch tot 11 maart'])],
+ conds=[
   ("Aantal pagina's groepsdeel", 'getal', 8, [], None, "Meer dan 8 pagina's: lees tot en met pagina 8."),
   ('AI-verklaring aanwezig?', 'janee', 'ja', [], None, 'Geen AI-verklaring: beoordeel het rapport pas als de verklaring binnen is (binnen 24 uur na een herinnering).'),
   ('Hoofdstukeigenaren op het voorblad?', 'janee', 'ja', [], None, 'Geen hoofdstukeigenaren: een correctie op basis van de peerbeoordeling kan dan alleen na een gesprek.')],
- example=[8, 6, 8, 6, 7], expect=6.8)
+ example=[8, 6, 6, 7], expect=6.6)
 
 A1I = dict(title='Assessment 1 · individueel deel (dilemma-canvas)', share='Telt voor 40% van het cijfer Assessment 1 (12% van het eindcijfer).',
- src='Bron: week 5, sectie 6 (rubric individueel deel). Taal wordt niet apart beoordeeld: is de tekst zo onduidelijk dat de redenering niet te volgen is, dan telt dat mee bij het criterium waar het gebeurt.', crits=[
+ src='Bron: studiewijzer, sectie 9, en kennispakket 1 (dilemma-canvas). Taal wordt niet apart beoordeeld: is de tekst zo onduidelijk dat de redenering niet te volgen is, dan telt dat mee bij het criterium waar het gebeurt.', crits=[
  ('A. Beslisvraag en waarden', '(canvas 1 en 4)', .15,
   ['Geen keuze, of een kwestie met één duidelijke oplossing', 'Beslisvraag met twee waarden die echt botsen',
    'Waarden scherp benoemd en gekoppeld aan UNESCO-principes', 'De vraag legt precies de kern van de casus bloot']),
@@ -80,38 +75,40 @@ A1I = dict(title='Assessment 1 · individueel deel (dilemma-canvas)', share='Tel
    'Zegt wat wordt opgegeven; voorwaarden concreet; restspanning eerlijk benoemd',
    'Grenzen expliciet (wat nooit tegen nut mag worden weggestreept); overtuigend en proportioneel; laat zien hoe het eigen oordeel zich ontwikkelde']),
  ('F. Vertaling naar risico', '(canvas 11)', .05,
-  ['Geen koppeling', 'Minstens één risico-ID uit het groepsregister', 'Uitgelegd welke kant van het dilemma welk risico oplevert', 'Ook een risico van de gekozen optie zelf benoemd'])],
+  ['Geen koppeling', 'Minstens één risico-ID uit het risicoregister van de groep (H5)', 'Uitgelegd welke kant van het dilemma welk risico oplevert', 'Ook een risico van de gekozen optie zelf benoemd'])],
  conds=[
   ('Aantal lenzen dat echt is uitgewerkt (0 tot 4)', 'getal', 4, [3], 5, 'Minder dan drie uitgewerkte lenzen: criterium D kan niet hoger dan 5.'),
   ('Aantal woorden van het canvas', 'getal', 900, [], None, 'Boven 1100 woorden: lees tot 1100 woorden, de rest telt niet. Onder 720 woorden: ontbrekende onderdelen tellen als niet gedaan.')],
  example=[7, 8, 6, 7, 8, 8], expect=None)
 
 A2G = dict(title='Assessment 2 · groepsdeel (eindrapport)', share='Telt voor 60% van het cijfer Assessment 2 (42% van het eindcijfer).',
- src="Bron: week 8, sectie 9 (rubric Assessment 2, groepsdeel). De nummering volgt het lesplan: criterium 3 (dilemma's) hoort alleen bij Assessment 1, criterium 9 (reflectie) bij het individuele deel.", crits=[
- ('1. Afbakening, context en stakeholders', '(TC1) · H1–3 herzien', .05,
+ src="Bron: studiewijzer, sectie 9, en kennispakket 2 en 3 (eindrapport, H1 tot en met H8 en beslismemo). De nummering volgt het lesplan: criterium 3 (dilemma) hoort bij het individuele deel van Assessment 1, criterium 9 (reflectie) bij het individuele deel van Assessment 2.", crits=[
+ ('1. Afbakening, context en stakeholders', '(TC1) · H1 tot en met H3, herzien', .05,
   ['Feedback uit A1 niet verwerkt; afbakening onduidelijk', 'Feedback verwerkt; helder en beknopt',
    'Kwetsbare groepen lopen als rode draad door het ontwerp', 'Context verklaart waarom dit ontwerp past bij deze organisatie']),
  ('2. Conclusies rusten op bewijs; onzekerheden benoemd', '(TC1, GC2) · hele rapport', .10,
   ['Ontwerpkeuzes zonder onderbouwing', "Keuzes verwijzen naar risico's en bronnen",
-   'Onzekerheden benoemd en meegenomen in fasering of monitoring', 'Ontbrekend bewijs uit A1 is opgehaald of het ontwerp houdt er expliciet rekening mee']),
- ("4. Risico's concreet en navolgbaar geprioriteerd", '(TC1) · H6 en H12', .10,
+   'Onzekerheden benoemd en meegenomen in fasering of monitoring', 'Ontbrekend bewijs uit A1 is opgehaald, of het ontwerp houdt er expliciet rekening mee']),
+ ("4. Risico's concreet en navolgbaar geprioriteerd", '(TC1) · H5 herzien en H6', .10,
   ['Top 5 onduidelijk; restrisico ontbreekt', 'Top 5 onderbouwd; restrisico per risico',
-   'Restrisico gemotiveerd per maatregel; escalaties krijgen een besluit; herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF)', 'Restrisico eerlijk: zegt wat ondanks alles kan misgaan; herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF)']),
- ('5. Advies en gewenste situatie onderbouwd en proportioneel', '(TC2, GC1) · H7', .15,
-  ['Doelniveaus willekeurig of overal 3', 'Doelniveau per domein met norm; gap en prioriteit',
-   'Proportioneel: doel 3 waar het risico het vraagt; maximaal vier keer hoog',
-   'Normen uit de Surinaamse context (Grondwet, ontwerpwet privacy, sector) en de organisatie zelf meegewogen']),
- ('6. Maatregelen toetsbaar en met een eigenaar', '(TC3, TC4, GC5) · H8–10', .30,
-  ['Maatregelen zijn wensen; geen eigenaar; geen verificatie; niets ingebouwd',
-   'Eisen met acceptatiecriterium; 2–3 maatregelen per risico met eigenaar; controle, bezwaar en RACI aanwezig; minstens twee maatregelen aantoonbaar ingebouwd via A-AI2',
-   'Voorkomen, opsporen, herstellen gecombineerd; zes voorwaarden voor controle met rekensom; bezwaarroute getoetst; precies één A; de hertest laat het effect zien op de foutpercentages per groep, niet alleen op de gepaarde test; bij een chatbot zijn AI-melding, overdracht en de testset met lastige vragen hertest; herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF)',
-   'Ontwerp is uitvoerbaar in deze organisatie: kosten, capaciteit en spanning met de business case benoemd en gewogen; herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF)']),
- ('7. Monitoring met indicatoren, drempels en acties, incidentroute en stopcriterium', '(TC5) · H11', .15,
-  ['Geen of vage indicatoren ("we monitoren"); of de incidentroute of het stopcriterium ontbreekt',
-   'Indicatoren voor ethische signalen met grens, actie en eigenaar; fasering; voor techniek en data een verwijzing naar A-AI2 en A-DG; een incidentroute (wat is een incident, wie meldt aan wie, binnen welke termijn) en een stopcriterium (wanneer gaat het systeem uit of terug naar handwerk, en wie beslist dat)',
-   'Indicatoren dekken groepsverschillen, proces (afwijken, bezwaar, overdracht aan een mens) en mensen (klachten, signalen van medewerkers); incidentroute en stopcriterium zijn concreet voor deze oplossing en sluiten aan op de drempels; herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF)',
-   'Plan laat zien hoe het systeem wordt bijgestuurd, hertraind of stilgezet, met wie beslist; het beslismemo noemt het stopcriterium en de datum van de volgende review; herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF)']),
- ('8. Eindoordeel helder, met voorwaarden en restrisico', '(TC2, GC4) · beslismemo, H12', .15,
+   'Restrisico gemotiveerd per maatregel; escalaties krijgen een besluit; ' + KADER,
+   'Restrisico eerlijk: zegt wat ondanks alles kan misgaan; ' + KADER]),
+ ('5. Plan en advies onderbouwd en proportioneel', '(TC2, GC1) · H6, eisen en fasering', .10,
+  ['Eisen willekeurig, of overal het zwaarste; baten van de toepassing niet meegewogen',
+   'Per risico uit de top 5 een eis, met de norm waarop die rust; prioriteit of fasering uitgelegd',
+   'Proportioneel: zware eisen waar het risico erom vraagt, lichtere waar het kan; baten eerlijk meegewogen',
+   'Normen uit de Surinaamse context (Grondwet, ontwerpwet privacy, sector) en van de organisatie zelf meegewogen']),
+ ('6. Maatregelen toetsbaar en met een eigenaar', '(TC3, TC4, GC5) · H6, en de RACI in H7', .25,
+  ['Maatregelen zijn wensen; geen eigenaar; geen controle of ze werken',
+   'Per risico uit de top 5 een eis met acceptatiecriterium; 2 tot 3 maatregelen met eigenaar en hoe je controleert dat ze werken; RACI aanwezig',
+   'Voorkomen, opsporen en herstellen gecombineerd; minstens twee maatregelen aantoonbaar ingebouwd via A-AI2 (bijlage F); precies één A per activiteit in de RACI; bij een chatbot AI-melding, overdracht aan een mens en een testset met lastige vragen; ' + KADER,
+   'Een hertest (practicum 4 opnieuw) laat het effect zien op de foutpercentages per groep; het ontwerp is uitvoerbaar in deze organisatie: kosten, capaciteit en spanning met de business case gewogen; ' + KADER]),
+ ('7. Menselijke controle, bezwaar en monitoring zijn concreet, met een incidentroute en een stopcriterium', '(TC5) · H7 en H8', .25,
+  ['Menselijke controle of bezwaar alleen als wens; geen of vage indicatoren ("we monitoren"); de incidentroute of het stopcriterium ontbreekt',
+   'Menselijke controle met de zes voorwaarden; een bezwaarroute; indicatoren voor ethische signalen met grens, actie en eigenaar; voor techniek en data een verwijzing naar A-AI2 en A-DG; een incidentroute (wat is een incident, wie meldt aan wie, binnen welke termijn) en een stopcriterium (wanneer gaat het systeem uit of terug naar handwerk, en wie beslist dat)',
+   'Een rekensom laat zien dat de controle haalbaar is; bezwaarroute en transparantieverklaring kloppen met het ontwerp; indicatoren dekken groepsverschillen, proces (afwijken, bezwaar, overdracht aan een mens) en mensen (klachten, signalen van medewerkers); incidentroute en stopcriterium zijn concreet en sluiten aan op de drempels; ' + KADER,
+   'Het plan laat zien hoe het systeem wordt bijgestuurd, hertraind of stilgezet, en wie beslist; de bezwaarroute is getoetst met een getroffene of een rollenspel; het beslismemo noemt het stopcriterium en de datum van de volgende review; ' + KADER]),
+ ('8. Eindoordeel helder, met voorwaarden en restrisico', '(TC2, GC4) · beslismemo', .15,
   ['Geen duidelijk oordeel, of een oordeel dat niet uit het rapport volgt',
    'Een van de drie oordelen, met voorwaarden; "nu niet" telt even zwaar als de andere twee, als het uit het rapport volgt',
    'Voorwaarden toetsbaar; restrisico en wie het accepteert benoemd; memo leesbaar voor een beslisser',
@@ -119,13 +116,12 @@ A2G = dict(title='Assessment 2 · groepsdeel (eindrapport)', share='Telt voor 60
  conds=[
   ("Aantal pagina's (hoofdtekst)", 'getal', 12, [], None, "Meer dan 12 pagina's: lees tot en met pagina 12."),
   ('Verwerkingslijst (bijlage E) aanwezig?', 'janee', 'ja', [0, 1, 2], 6, 'Geen verwerkingslijst (bijlage E): criteria 1, 2 en 4 kunnen niet hoger dan voldoende (6).'),
-  ('Bewijs dat maatregelen zijn ingebouwd en hertest (bijlage F) aanwezig?', 'janee', 'ja', [4], 6, 'Geen bijlage F: criterium 6 kan niet hoger dan voldoende (6).'),
   ('Beslismemo aanwezig?', 'janee', 'ja', [6], 4, 'Geen beslismemo: criterium 8 is onvoldoende (hoogstens 4).'),
   ('AI-verklaring en hoofdstukeigenaren aanwezig?', 'janee', 'ja', [], None, 'Ontbreekt de AI-verklaring of staan de hoofdstukeigenaren niet op het voorblad: zoals bij Assessment 1 (eerst verklaring, peercorrectie alleen na een gesprek).')],
  example=[7, 7, 7, 8, 6, 7, 8], expect=7.0)
 
 A2R = dict(title='Assessment 2 · individueel deel (reflectie)', share='Telt voor 40% van het cijfer Assessment 2 (28% van het eindcijfer).',
- src='Bron: week 8, sectie 10 (rubric individuele reflectie), uitwerking van lesplancriterium 9 (GC3). Eerlijkheid boven gelijk hebben; geen moraalcijfer; vergelijk met het logboek.', crits=[
+ src='Bron: studiewijzer, sectie 9, en kennispakket 3 (reflectie), uitwerking van lesplancriterium 9 (GC3). Eerlijkheid boven gelijk hebben; geen moraalcijfer; vergelijk met de evidence cards en de standpunten uit de kennischecks.', crits=[
  ('A. Het lastigste dilemma', '', .20, ['Een dilemma beschreven, geen twijfel zichtbaar', 'Zegt waarom dit dilemma lastig was',
    'Laat zien waar de student heen en weer ging, met argumenten van beide kanten', 'Benoemt wat nog steeds schuurt, en hoe de student daarmee omgaat']),
  ('B. Een onjuiste aanname', '', .20, ['Geen aanname, of een aanname over anderen', 'Een eigen aanname, en hoe die onjuist bleek',
@@ -136,7 +132,7 @@ A2R = dict(title='Assessment 2 · individueel deel (reflectie)', share='Telt voo
    'Concreet moment, eigen aandeel, en wat het team ervan merkte', 'Eerlijk, evenwichtig, met een concreet voornemen voor de volgende samenwerking']),
  ('E. Diepgang', '', .10, ['Verslag van wat er gebeurde', 'Gebeurtenis en gedachten; enige verklaring',
    'Alle vijf de stappen herkenbaar, inclusief alternatieven', 'Een overtuigend voornemen dat volgt uit de reflectie']),
- ('F. Onderbouwing met eigen materiaal', '', .10, ['Geen verwijzingen', 'Vier verwijzingen naar logboek, standpunten, practica, canvas of feedback',
+ ('F. Onderbouwing met eigen materiaal', '', .10, ['Geen verwijzingen', 'Vier verwijzingen naar evidence cards, standpunten uit de kennischecks, practica, canvas of feedback',
    'Letterlijke citaten die het verschil tussen toen en nu laten zien', 'Het eigen materiaal draagt het betoog'])],
  conds=[
   ('Bestaat de reflectie vooral uit algemeenheden zonder concreet moment?', 'janee', 'nee', [0, 1, 2, 3, 4, 5], 5, 'Algemeenheden zonder moment ("ik heb geleerd dat ethiek belangrijk is"): elk criterium hoogstens 5.'),
@@ -271,7 +267,7 @@ def eind(wb):
     ws.conditional_formatting.add('P5:P44', FormulaRule(formula=['LEFT(P5,11)="onvoldoende"'], fill=PatternFill('solid', fgColor='F2D3CC')))
     ws.conditional_formatting.add('I5:I44', FormulaRule(formula=['I5<>""'], fill=PatternFill('solid', fgColor='F2D3CC')))
     ws.merge_cells('A46:Q46')
-    cell(ws, 'A46', 'Peercorrectie: alleen na een gesprek en met ander bewijs dan het formulier (week 5, sectie 7). Een student die veel meer deed dan de rest krijgt geen hoger groepscijfer. '
+    cell(ws, 'A46', 'Peercorrectie: alleen na een gesprek en met ander bewijs dan het formulier (studiewijzer, sectie 9). Een student die veel meer deed dan de rest krijgt geen hoger groepscijfer. '
          'Herkansing: een onvoldoende voor A1 kan worden gecompenseerd. Is het eindcijfer lager dan 5,5, dan volgt een herkansing volgens de onderwijs- en examenregeling (data en vorm nog afspreken met Janssen).',
          Font(name='Calibri', size=10, italic=True), al=WR, border=False)
     ws.row_dimensions[46].height = 44
@@ -284,14 +280,14 @@ def toelichting(wb):
     cell(ws, 'A1', 'Beoordelingsrubric AI & Ethics (A-ET), 2026-2027', T, border=False, al=Alignment(vertical='center'))
     ws.merge_cells('A1:B1'); ws.row_dimensions[1].height = 26
     rows = [
-     ('Doel', 'Deze werkmap helpt bij het beoordelen van Assessment 1 (week 5) en Assessment 2 (week 10). De criteria, niveaus, wegingen en voorwaarden zijn letterlijk overgenomen uit het lesmateriaal: week 5, sectie 5 en 6, en week 8, sectie 9 en 10.'),
-     ('Tabbladen', 'A1 Groep (rapport, 5 criteria) · A1 Individueel (dilemma-canvas, 6 criteria) · A2 Groep (eindrapport, 7 criteria) · A2 Reflectie (6 criteria) · Eindcijfer (per student).'),
+     ('Doel', 'Deze werkmap helpt bij het beoordelen van Assessment 1 (donderdag 4 februari) en Assessment 2 (donderdag 11 maart). De criteria, niveaus, wegingen en voorwaarden zijn dezelfde als in de rubric voor studenten (ICT A-ET Beoordelingsrubric.pdf) en in de studiewijzer, sectie 9.'),
+     ('Tabbladen', 'A1 Groep (tussenrapport H1 tot en met H5, 4 criteria) · A1 Individueel (dilemma-canvas, 6 criteria) · A2 Groep (eindrapport H1 tot en met H8 en beslismemo, 7 criteria) · A2 Reflectie (6 criteria) · Eindcijfer (per student).'),
      ('Werkwijze', 'Maak per groep of per student een kopie van het tabblad (rechtsklik op de tab, Verplaatsen of kopiëren, Kopie maken). Vul bovenaan groep, student(en), beoordelaar en datum in. Kies per criterium een niveau, of vul een cijfer in: een ingevuld cijfer gaat voor het niveau. Schrijf per criterium twee regels: Waarom (wat je zag, met hoofdstuk, tabel of zin) en Naar het volgende niveau (wat ontbreekt, in de woorden van de rubric). Kernboodschap, redeneerketen-check, actiepunten en expertblik schrijf je in het Word-feedbackformulier van die toets (Feedbackformulier_A1_groep, _A1_individueel, _A2_groep, _A2_reflectie); het cijfer komt uit deze werkmap.'),
      ('Niveaus', 'Onvoldoende = 4 · Voldoende = 6 · Goed = 8 · Excellent = 10. Tussenscores (5, 7, 9) mogen als het werk tussen twee niveaus in zit. Een score onder 4 kan als iets vrijwel ontbreekt.'),
-     ('Cijfer per tabblad', 'Het cijfer is het gewogen gemiddelde van de geldende criteriumscores, afgerond op één decimaal. Voorbeeld A1 groep: 8, 6, 8, 6 en 7 geven 6,75, afgerond 6,8. Voorbeeld A2 groep: 7, 7, 7, 8, 6, 7 en 8 geven 7,0.'),
-     ('Voorwaarden', 'Onder elke rubric staan de voorwaarden. Vul ze in; de kolom Maximum laat zien of een criterium begrensd is, en de kolom Geldend cijfer rekent daarmee. A1 groep: geen testverslag van practicum 4 (bijlage D) → criterium 2 hoogstens 6; meer dan 8 pagina\'s → lees tot pagina 8. A1 individueel: minder dan drie uitgewerkte lenzen → criterium D hoogstens 5; 720 tot 1100 woorden. A2 groep: meer dan 12 pagina\'s → lees tot pagina 12; geen verwerkingslijst (bijlage E) → criteria 1, 2 en 4 hoogstens 6; geen bijlage F (ingebouwd en hertest) → criterium 6 hoogstens 6; geen beslismemo → criterium 8 onvoldoende. A2 reflectie: algemeenheden zonder concreet moment → elk criterium hoogstens 5; 1350 tot 2200 woorden.'),
+     ('Cijfer per tabblad', 'Het cijfer is het gewogen gemiddelde van de geldende criteriumscores, afgerond op één decimaal. Voorbeeld A1 groep: 8, 6, 6 en 7 geven 6,6. Voorbeeld A2 groep: 7, 7, 7, 8, 6, 7 en 8 geven 7,0.'),
+     ('Voorwaarden', "Onder elke rubric staan de voorwaarden. Vul ze in; de kolom Maximum laat zien of een criterium begrensd is, en de kolom Geldend cijfer rekent daarmee. A1 groep: meer dan 8 pagina's → lees tot pagina 8. A1 individueel: minder dan drie uitgewerkte lenzen → criterium D hoogstens 5; 720 tot 1100 woorden. A2 groep: meer dan 12 pagina's → lees tot pagina 12; geen verwerkingslijst (bijlage E) → criteria 1, 2 en 4 hoogstens 6; geen beslismemo → criterium 8 onvoldoende. A2 reflectie: algemeenheden zonder concreet moment → elk criterium hoogstens 5; 1350 tot 2200 woorden. Practicum 4 en de hertest zijn geen voorwaarde: een eigen test telt mee bij criterium 2 (niveau goed), een hertest bij criterium 6 (niveau excellent)."),
      ('Cijfer per toets', 'Cijfer A1 = 0,6 × groepscijfer (na eventuele peercorrectie) + 0,4 × individueel deel. Cijfer A2 = 0,6 × groepscijfer (na eventuele peercorrectie) + 0,4 × reflectie.'),
-     ('Eindcijfer', 'Eindcijfer = 0,3 × A1 + 0,7 × A2, afgerond op één decimaal, minimaal 5,5. Assessment 1 heeft geen eigen minimum; een student met een A1 onder 5,5 krijgt in het feedbackgesprek een herstelplan voor Assessment 2. Voorbeeld: A1 7,0; A2 groep 7,0 en reflectie 6,5 geeft A2 6,8 en een eindcijfer van 6,9.'),
+     ('Eindcijfer', 'Eindcijfer = 0,3 × A1 + 0,7 × A2, afgerond op één decimaal, minimaal 5,5. Assessment 1 heeft geen eigen minimum; een student met een A1 onder 5,5 krijgt bij de feedback (18 februari) en in college 3 een herstelplan voor Assessment 2. Voorbeeld: A1 7,0; A2 groep 7,0 en reflectie 6,5 geeft A2 6,8 en een eindcijfer van 6,9.'),
      ('Peercorrectie', 'Bij aantoonbaar te weinig bijdrage kan het groepscijfer van één student 10%, 20% of 30% lager worden; bij vrijwel geen bijdrage een 1,0. Nooit alleen op basis van het peerformulier: er moet ook ander bewijs zijn, en de docent legt besluit en reden vast.'),
      ('Herkansing', 'Een onvoldoende voor A1 kan worden gecompenseerd. Is het eindcijfer lager dan 5,5, dan volgt een herkansing volgens de onderwijs- en examenregeling. De data en vorm moeten nog met Janssen worden afgesproken.'),
      ('Competenties', 'De codes bij de criteria (TC1 tot en met TC5, GC1 tot en met GC5) verwijzen naar de leeruitkomsten in de vakbeschrijving en het lesplan.'),
@@ -300,6 +296,25 @@ def toelichting(wb):
         cell(ws, f'A{i}', a, WH, HF, al=Alignment(vertical='top', wrap_text=True)); cell(ws, f'B{i}', b, N, al=WRT)
         ws.row_dimensions[i].height = max(30, 15 * (len(b) // 105 + 1))
 
+def student_md(path):
+    def esc(t): return t.replace('|', '/').replace('\n', ' ')
+    out = ['Dit is de rubric waarmee je werk wordt beoordeeld. Elk criterium kent vier niveaus: onvoldoende (4), voldoende (6), goed (8) en excellent (10). Tussenscores (5, 7, 9) zijn mogelijk als je werk tussen twee niveaus in zit. Het cijfer per onderdeel is het gewogen gemiddelde van de criteria, afgerond op één decimaal.', '',
+           'De nummering van de criteria volgt het lesplan. Criterium 3 (het dilemma) beoordelen we in het dilemma-canvas, criterium 9 (de reflectie) in de reflectie. Een eigen test (practicum 4) en een hertest zijn geen voorwaarde: ze helpen je naar de niveaus goed en excellent.', '']
+    heads = {'A1 Groep': "Assessment 1, groepsdeel: tussenrapport H1 tot en met H5 (60% van A1, 18% van het eindcijfer)",
+             'A1 Individueel': 'Assessment 1, individueel deel: dilemma-canvas (40% van A1, 12% van het eindcijfer)',
+             'A2 Groep': 'Assessment 2, groepsdeel: eindrapport H1 tot en met H8 en beslismemo (60% van A2, 42% van het eindcijfer)',
+             'A2 Reflectie': 'Assessment 2, individueel deel: reflectie (40% van A2, 28% van het eindcijfer)'}
+    for nm, d in [('A1 Groep', A1G), ('A1 Individueel', A1I), ('A2 Groep', A2G), ('A2 Reflectie', A2R)]:
+        out += ['## ' + heads[nm], '', '| Criterium | Onvoldoende (4) | Voldoende (6) | Goed (8) | Excellent (10) |', '| --- | --- | --- | --- | --- |']
+        for crit, sub, w, lv in d['crits']:
+            out.append('| ' + ' · '.join(x for x in [esc(crit), esc(sub), f'Weging {int(round(w * 100))}%'] if x) + ' | ' + ' | '.join(esc(x) for x in lv) + ' |')
+        out += ['', '**Wat de docent controleert:** ' + '; '.join(c[5] for c in d['conds']), '']
+    out += ['**Cijfer per toets.** Cijfer A1 = 0,6 × groepscijfer (na eventuele peercorrectie) + 0,4 × individueel deel. Cijfer A2 = 0,6 × groepscijfer (na eventuele peercorrectie) + 0,4 × reflectie.', '',
+            '**Eindcijfer.** Eindcijfer = 0,3 × A1 + 0,7 × A2, afgerond op één decimaal, minimaal 5,5. Assessment 1 heeft geen eigen minimum; heb je voor A1 minder dan 5,5, dan krijg je bij de feedback (18 februari) en in college 3 een herstelplan voor Assessment 2. Voorbeeld: A1 7,0; A2 groep 7,0 en reflectie 6,5 geeft A2 6,8 en een eindcijfer van 6,9.', '',
+            '**Peercorrectie.** Bij aantoonbaar te weinig bijdrage kan het groepscijfer van één student 10%, 20% of 30% lager worden; bij vrijwel geen bijdrage een 1,0. Nooit alleen op basis van het peerformulier: er moet ook ander bewijs zijn, en de docent legt besluit en reden vast.', '']
+    open(path, 'w', encoding='utf-8').write('\n'.join(out))
+
+
 wb = Workbook()
 toelichting(wb)
 res = {}
@@ -307,4 +322,12 @@ for nm, d in [('A1 Groep', A1G), ('A1 Individueel', A1I), ('A2 Groep', A2G), ('A
     res[nm] = form(wb, nm, d)
 eind(wb)
 wb.save(OUT)
+if len(sys.argv) > 2:
+    student_md(sys.argv[2])
+if len(sys.argv) > 3:  # criteria.json voor de Word-feedbackformulieren (gen_feedbackforms.py)
+    import json
+    cj = {nm: dict(crit=[[c[0], c[2]] for c in d['crits']], conds=[c[0] for c in d['conds']],
+                   title='AI & Ethics (A-ET) · ' + d['title'], share=d['share'])
+          for nm, d in [('A1 Groep', A1G), ('A1 Individueel', A1I), ('A2 Groep', A2G), ('A2 Reflectie', A2R)]}
+    json.dump(cj, open(sys.argv[3], 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('ok', OUT)

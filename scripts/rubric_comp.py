@@ -1,9 +1,9 @@
-import re, copy
+import re, copy, sys
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-P='/tmp/claude-0/-home-user-menssana/175e1d50-6875-5f56-acf6-23260f0c6b9a/scratchpad/out/Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx'
+P=sys.argv[1]  # werkmap uit gen_rubric.py; wordt ter plekke aangevuld
 wb=load_workbook(P)
-HF=PatternFill('solid',fgColor='12312A'); SF=PatternFill('solid',fgColor='EDE7DA'); IN=PatternFill('solid',fgColor='FFF6DD')
+HF=PatternFill('solid',fgColor='002060'); SF=PatternFill('solid',fgColor='EAF0F8'); IN=PatternFill('solid',fgColor='FFF6DD')
 WH=Font(bold=True,color='FFFFFF'); B=Font(bold=True); WR=Alignment(wrap_text=True,vertical='top')
 thin=Side(style='thin',color='BBBBBB'); BD=Border(left=thin,right=thin,top=thin,bottom=thin)
 NAMES={'TC1':'Analyseren','TC2':'Adviseren','TC3':'Ontwerpen','TC4':'Realiseren','TC5':'Manage & Control',
@@ -19,7 +19,7 @@ DESC={'TC1':'Ethische vraagstukken in AI identificeren en analyseren, zoals bias
 'GC4':'Effectief en ethisch communiceren met verschillende stakeholders, intern en extern, over de ethische implicaties van AI-oplossingen.',
 'GC5':'Creatief en innovatief denken: AI-oplossingen ontwerpen die technisch effectief en ethisch verantwoord zijn, en ethische frameworks aanpassen aan nieuwe AI-uitdagingen.'}
 ORDER=['TC1','TC2','TC3','TC4','TC5','GC1','GC2','GC3','GC4','GC5']
-TABS={'A1 Groep':(range(6,11),'J11'),'A1 Individueel':(range(6,12),'J12'),'A2 Groep':(range(6,13),'J13'),'A2 Reflectie':(range(6,12),'J12')}
+TABS={'A1 Groep':(range(6,10),'J10'),'A1 Individueel':(range(6,12),'J12'),'A2 Groep':(range(6,13),'J13'),'A2 Reflectie':(range(6,12),'J12')}
 FIXED={'A1 Individueel':['TC1','GC2'],'A2 Reflectie':['GC3']}
 cover={}
 for t,(rows,cij) in TABS.items():
@@ -78,7 +78,7 @@ for t,(rows,cij) in TABS.items():
 # Competenties sheet
 if 'Competenties' in wb.sheetnames: del wb['Competenties']
 cs=wb.create_sheet('Competenties', index=1)
-cs['A1']='Competenties uit de vakbeschrijving en waar ze worden beoordeeld'; cs['A1'].font=Font(bold=True,size=14,color='12312A')
+cs['A1']='Competenties uit de vakbeschrijving en waar ze worden beoordeeld'; cs['A1'].font=Font(bold=True,size=14,color='002060')
 cs['A2']='Alle competenties zijn op niveau 3. Elke competentie komt minstens één keer terug in Assessment 1 of 2. Bron: vakbeschrijving A-ET 2026-2027 en het lesplan (beoordelingscriteria).'
 cs['A2'].alignment=WR; cs.merge_cells('A2:G2'); cs.row_dimensions[2].height=32
 hdr=['Code','Competentie','Wat de student laat zien (vakbeschrijving)','A1 groep','A1 individueel','A2 groep','A2 reflectie']

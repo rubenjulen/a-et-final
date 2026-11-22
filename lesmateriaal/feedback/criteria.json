@@ -7,29 +7,24 @@
    ],
    [
     "2. Conclusies rusten op bewijs; onzekerheden zijn benoemd",
-    0.25
-   ],
-   [
-    "3. Dilemma's zijn gewogen met minimaal drie lenzen",
-    0.1
+    0.3
    ],
    [
     "4. Risico's zijn concreet geformuleerd en navolgbaar geprioriteerd",
     0.3
    ],
    [
-    "5. Advies en gewenste situatie zijn onderbouwd en proportioneel",
-    0.15
+    "5. Plan van aanpak en advies zijn onderbouwd en proportioneel",
+    0.2
    ]
   ],
   "conds": [
-   "Testverslag van practicum 4 (bijlage D) aanwezig?",
    "Aantal pagina's groepsdeel",
    "AI-verklaring aanwezig?",
    "Hoofdstukeigenaren op het voorblad?"
   ],
   "title": "AI & Ethics (A-ET) · Assessment 1 · groepsdeel (rapport)",
-  "share": "Telt voor 60% van het cijfer Assessment 1 (18% van het eindcijfer). Kies per criterium een niveau, of vul een cijfer van"
+  "share": "Telt voor 60% van het cijfer Assessment 1 (18% van het eindcijfer)."
  },
  "A1 Individueel": {
   "crit": [
@@ -63,7 +58,7 @@
    "Aantal woorden van het canvas"
   ],
   "title": "AI & Ethics (A-ET) · Assessment 1 · individueel deel (dilemma-canvas)",
-  "share": "Telt voor 40% van het cijfer Assessment 1 (12% van het eindcijfer). Kies per criterium een niveau, of vul een cijfer van"
+  "share": "Telt voor 40% van het cijfer Assessment 1 (12% van het eindcijfer)."
  },
  "A2 Groep": {
   "crit": [
@@ -80,16 +75,16 @@
     0.1
    ],
    [
-    "5. Advies en gewenste situatie onderbouwd en proportioneel",
-    0.15
+    "5. Plan en advies onderbouwd en proportioneel",
+    0.1
    ],
    [
     "6. Maatregelen toetsbaar en met een eigenaar",
-    0.3
+    0.25
    ],
    [
-    "7. Monitoring met indicatoren, drempels en acties, incidentroute en stopcriterium",
-    0.15
+    "7. Menselijke controle, bezwaar en monitoring zijn concreet, met een incidentroute en een stopcriterium",
+    0.25
    ],
    [
     "8. Eindoordeel helder, met voorwaarden en restrisico",
@@ -99,12 +94,11 @@
   "conds": [
    "Aantal pagina's (hoofdtekst)",
    "Verwerkingslijst (bijlage E) aanwezig?",
-   "Bewijs dat maatregelen zijn ingebouwd en hertest (bijlage F) aanwezig?",
    "Beslismemo aanwezig?",
    "AI-verklaring en hoofdstukeigenaren aanwezig?"
   ],
   "title": "AI & Ethics (A-ET) · Assessment 2 · groepsdeel (eindrapport)",
-  "share": "Telt voor 60% van het cijfer Assessment 2 (42% van het eindcijfer). Kies per criterium een niveau, of vul een cijfer van"
+  "share": "Telt voor 60% van het cijfer Assessment 2 (42% van het eindcijfer)."
  },
  "A2 Reflectie": {
   "crit": [
@@ -138,6 +132,6 @@
    "Aantal woorden van de reflectie"
   ],
   "title": "AI & Ethics (A-ET) · Assessment 2 · individueel deel (reflectie)",
-  "share": "Telt voor 40% van het cijfer Assessment 2 (28% van het eindcijfer). Kies per criterium een niveau, of vul een cijfer van"
+  "share": "Telt voor 40% van het cijfer Assessment 2 (28% van het eindcijfer)."
  }
 }

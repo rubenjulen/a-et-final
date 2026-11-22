@@ -7,13 +7,19 @@ from docx.enum.section import WD_ORIENT
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-OUT='out/feedback/'
-INK=RGBColor(0x12,0x31,0x2A); GREY=RGBColor(0x6B,0x6B,0x6B); AMBER='E3A92B'; SAND='EDE7DA'; LIGHT='F6F3EC'
+# Janssen-huisstijl: navy, logoblauw voor lijnen, ijsblauw voor vlakken, Calibri
+INK=RGBColor(0x00,0x20,0x60); GREY=RGBColor(0x5B,0x6B,0x7F); AMBER='3F82BA'; SAND='EAF0F8'; LIGHT='F5F8FC'
+import os as _os
+OUT=_os.environ.get('AET_OUT','out')+'/feedback/'
+LOGO=_os.path.join(_os.path.dirname(_os.path.abspath(__file__)),'..','lesmateriaal','huisstijl','janssen_logo.png')
+def logo_header(section):
+    hp=section.header.paragraphs[0]; hp.alignment=WD_ALIGN_PARAGRAPH.RIGHT
+    hp.add_run().add_picture(LOGO,width=Cm(6.0))
 C=json.load(open(OUT+'criteria.json'))
 
 def shade(cell,hexc):
     tcPr=cell._tc.get_or_add_tcPr(); s=OxmlElement('w:shd'); s.set(qn('w:val'),'clear'); s.set(qn('w:color'),'auto'); s.set(qn('w:fill'),hexc); tcPr.append(s)
-def borders(table,color='BFB6A3'):
+def borders(table,color='C9D6E8'):
     tbl=table._tbl; tblPr=tbl.tblPr; b=OxmlElement('w:tblBorders')
     for e in ('top','left','bottom','right','insideH','insideV'):
         el=OxmlElement(f'w:{e}'); el.set(qn('w:val'),'single'); el.set(qn('w:sz'),'4'); el.set(qn('w:color'),color); b.append(el)
@@ -39,7 +45,7 @@ def celltext(cell,text,size=9,bold=False,italic=False,color=None,hint=False):
     else: run(p,text,size,bold,italic,color)
 def h(doc,text):
     p=doc.add_paragraph(); p.paragraph_format.space_before=Pt(12); p.paragraph_format.space_after=Pt(4); p.paragraph_format.keep_with_next=True
-    leftbar(p); run(p,text,13,True,False,INK,'Georgia'); return p
+    leftbar(p); run(p,text,13,True,False,INK,'Calibri'); return p
 def table(doc,headers,widths,rows=0,head_fill=SAND,size=9):
     t=doc.add_table(rows=1+rows,cols=len(headers)); t.alignment=WD_TABLE_ALIGNMENT.CENTER; borders(t); t.autofit=False
     for i,(hd,w) in enumerate(zip(headers,widths)):
@@ -72,7 +78,7 @@ def box(doc,hint,height=3.0,text=None):
     minheight(t.rows[0],height); return t
 
 RULES=[('Wijs aan','noem hoofdstuk, tabel of zin.'),('Over het werk, niet over de persoon',''),('Gebruik de woorden van de rubric','van het niveau erboven.'),('Kies en rangschik','hoogstens drie moet-punten, belangrijkste eerst.'),('Lof alleen als hij specifiek is','zeg wat werkt en waarom.'),('Geef de opdracht, niet de oplossing',''),('Scheid wat je ziet van wat je vindt','"ik zie geen grens" in plaats van "dit is fout".'),('Gewone taal','korte zinnen, jullie-vorm, begrippen uit de module.')]
-CHAIN_G=['Bewijs','Gap','Dilemma','Risico','Eis','Maatregel met eigenaar','Monitoring','Oordeel']
+CHAIN_G=['Bewijs','Gap','Dilemma (canvas)','Risico','Eis','Maatregel met eigenaar','Monitoring','Oordeel']
 CHAIN_I=['Beslisvraag','Feiten','Waarden','Opties','Lenzen','Oordeel']
 
 def build(kind, fill=None):
@@ -80,13 +86,14 @@ def build(kind, fill=None):
     key={'A1G':'A1 Groep','A1I':'A1 Individueel','A2G':'A2 Groep','A2R':'A2 Reflectie'}[kind]
     d=C[key]; group=kind in ('A1G','A2G'); a1=kind.startswith('A1')
     doc=Document()
-    st=doc.styles['Normal']; st.font.name='Arial'; st.font.size=Pt(10); st.element.rPr.rFonts.set(qn('w:eastAsia'),'Arial')
+    st=doc.styles['Normal']; st.font.name='Calibri'; st.font.size=Pt(10.5); st.element.rPr.rFonts.set(qn('w:eastAsia'),'Calibri')
     s=doc.sections[0]; s.page_width=Cm(21); s.page_height=Cm(29.7)
     for m in ('left_margin','right_margin'): setattr(s,m,Cm(2))
     s.top_margin=Cm(1.8); s.bottom_margin=Cm(1.8)
+    logo_header(s)
     fp=s.footer.paragraphs[0]; run(fp,'AI & Ethics (A-ET) · feedbackformulier · '+d['title'].split(' · ',1)[1],8,color=GREY)
     title=d['title'].split(' · ',1)[1]
-    p=para(doc,'',space_after=0); run(p,'Feedback · '+title,18,True,False,INK,'Georgia')
+    p=para(doc,'',space_after=0); run(p,'Feedback · '+title,18,True,False,INK,'Calibri')
     para(doc,'AI & Ethics (A-ET) · minor AI · Janssen University · 2026-2027',9,color=GREY,space_after=8)
     # header table
     lab1='Groep' if group else 'Student'
@@ -101,7 +108,7 @@ def build(kind, fill=None):
     fixwidths(t,[3.2,5.3,3.2,5.3])
     # rules box
     para(doc,'',space_after=2)
-    rb=doc.add_table(rows=1,cols=1); borders(rb,'E3A92B'); fixwidths(rb,[17]); c=rb.rows[0].cells[0]; shade(c,LIGHT)
+    rb=doc.add_table(rows=1,cols=1); borders(rb,AMBER); fixwidths(rb,[17]); c=rb.rows[0].cells[0]; shade(c,LIGHT)
     celltext(c,'Schrijfregels',9,True,color=INK)
     for a,b in RULES:
         pp=c.add_paragraph(); pp.paragraph_format.space_after=Pt(0); run(pp,'• '+a,8,True); 

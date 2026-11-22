@@ -6,9 +6,10 @@ from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.formatting.rule import FormulaRule
 from openpyxl.utils import get_column_letter as L
 
-OUT = '/tmp/claude-0/-home-user-menssana/175e1d50-6875-5f56-acf6-23260f0c6b9a/scratchpad/out/instrumenten/A-ET_werkboek_instrumenten_2026-2027.xlsx'
+import sys
+OUT = sys.argv[1] if len(sys.argv) > 1 else 'lesmateriaal/instrumenten/A-ET_werkboek_instrumenten_2026-2027.xlsx'
 
-DARK, SAND, INPUT, WARN, GREY = '12312A', 'EDE7DA', 'FFF6DD', 'A8432C', 'F2F2F2'
+DARK, SAND, INPUT, WARN, GREY = '002060', 'EAF0F8', 'FFF6DD', 'A8432C', 'F2F2F2'
 HF = PatternFill('solid', fgColor=DARK); SF = PatternFill('solid', fgColor=SAND)
 IF_ = PatternFill('solid', fgColor=INPUT); GF = PatternFill('solid', fgColor=GREY)
 WF = PatternFill('solid', fgColor='F4D9D2'); OKF = PatternFill('solid', fgColor='DCEBDF')
@@ -133,38 +134,38 @@ lists_sheet()
 # ---------------- Start ----------------
 ws = wb.active; ws.title = 'Start'
 setup(ws, 'A-ET werkboek instrumenten 2026-2027',
-      'Dit werkboek bevat de instrumenten van AI & Ethics (A-ET) in één bestand. In de weekdocumenten heet het soms de Ethical Dilemma & AI Risk Assessment-tool (weken 2 tot en met 5) of de Responsible AI Design & Governance Toolkit (weken 6 tot en met 9): dat zijn de tabbladen van dit werkboek. Gele cellen vul je zelf in. Grijze cursieve rijen zijn voorbeelden: lees ze en overschrijf ze. Zandkleurige cellen rekent het werkboek zelf uit.', 6)
+      'Dit werkboek bevat de instrumenten van AI & Ethics (A-ET) in één bestand. In de kennispakketten heet het soms de Ethical Dilemma & AI Risk Assessment-tool (blok 1) of de Responsible AI Design & Governance Toolkit (blok 2 en 3): dat zijn de tabbladen van dit werkboek. Gele cellen vul je zelf in. Grijze cursieve rijen zijn voorbeelden: lees ze en overschrijf ze. Lichtblauwe cellen rekent het werkboek zelf uit.', 6)
 for c, w in zip('ABCDEF', [30, 34, 14, 22, 40, 10]):
     ws.column_dimensions[c].width = w
 r = 4
-for lab in ['Groep', 'Oplossing (uit A-AI2)', 'Partnerorganisatie', 'Groepsleden', 'Versie van de oplossing in week 4', 'Versie van de oplossing in week 9']:
+for lab in ['Groep', 'Oplossing (uit A-AI2)', 'Partnerorganisatie', 'Groepsleden', 'Versie van de oplossing bij A1 (4 februari)', 'Versie van de oplossing bij A2 (11 maart)']:
     ws.cell(r, 1, lab).font = BOLD
     x = ws.cell(r, 2); x.fill = IF_; x.border = B
     ws.merge_cells(start_row=r, start_column=2, end_row=r, end_column=5); r += 1
 r += 1
-section(ws, r, 'Welk tabblad in welke week', 6); r += 1
-for i, h in enumerate(['Tabblad', 'Instrument', 'Week', 'Toets', 'Waar je het voor gebruikt'], 1):
+section(ws, r, 'Welk tabblad in welk blok, voor welk hoofdstuk', 6); r += 1
+for i, h in enumerate(['Tabblad', 'Instrument', 'Blok · hoofdstuk', 'Toets', 'Waar je het voor gebruikt'], 1):
     x = ws.cell(r, i, h); x.font = HFONT; x.fill = HF; x.border = B
 r += 1
 plan = [
-    ('K1_Scope', 'K1 AI Use Case & Scope Canvas', '1', 'A1', 'Wat onderzoeken we precies? (Het A3-canvas staat ook als Word-bestand.)'),
-    ('K2_Stakeholders', 'K2 Stakeholder & Impact Map', '2', 'A1', 'Wie wordt geraakt, en wie heeft weinig macht maar veel te verliezen? Eerste helft van de AI-impactbeoordeling.'),
-    ('K3_Proces_Data', 'K3 AI Process & Data Map', '2', 'A1', 'Waar in de keten kan iets misgaan, en welke gegevens gaan naar externe diensten?'),
-    ('Bewijsplan', 'Bewijsplan', '2', 'A1', 'Welk bewijs zoeken we, waar, met welke methode, en wie doet het?'),
-    ('K4_Scan', 'K4 snelle scan', '3', 'A1', 'Eerste score op alle 11 domeinen; kies 4 tot 6 domeinen om diep te onderzoeken.'),
-    ('K4_Nulmeting', 'K4 nulmeting met bewijs', '4', 'A1', 'Normvragen per domein, met score, bewijs en sterkte. Samen met K2: de AI-impactbeoordeling.'),
-    ('Dilemma_Log', 'K5 Dilemma Log', '4', 'A1', 'Minstens drie dilemma\'s. Het Dilemma Canvas (individueel) staat als Word-bestand.'),
-    ('Risk_Register', 'K6 AI Risk Register', '4 en 6', 'A1, A2', 'Bovenaan de EU-risicoklasse en rol; 5 tot 8 risico\'s, inherent gescoord. In week 6 de respons en het restrisico.'),
-    ('Gewenste_situatie', 'K4 gewenste situatie', '6', 'A2', 'Doelniveau per domein, gap en prioriteit.'),
-    ('Design_Requirements', 'K7 deel 1: eisen', '6', 'A2', 'Van risico naar toetsbare eis.'),
-    ('Control_Catalog', 'Voorbeeldmaatregelen', '6', '-', 'Inspiratie, geen boodschappenlijst.'),
-    ('Controls', 'K7 deel 1: maatregelen', '6 en 7', 'A2', 'Maatregelen met eigenaar, kolom Kader en hertest.'),
-    ('Leverancierscheck', 'K7: leverancierscheck', '6', 'A2', 'De vier vragen per externe dienst.'),
-    ('Human_Oversight', 'K7 deel 2: menselijke controle en bezwaar', '7', 'A2', 'Controle voor de belangrijkste beslissing, rekensom, bezwaarroute.'),
-    ('Governance_RACI', 'K7 deel 2c: RACI en AI-beleidsregel', '7', 'A2', 'Wie beslist over ethische vragen, precies één A per activiteit; AI-beleidsregel van hoogstens 100 woorden.'),
-    ('Verwerkingslijst', 'Bijlage E: verwerkingslijst', '8 tot 10', 'A2', 'Elk feedbackpunt van docent, panel en peergroep, met besluit.'),
-    ('K8_Monitoring', 'K8 implementatie- en monitoringplan', '9', 'A2', 'Implementatie, ethische signalen, herbeoordeling, en de vaste regels incidentroute en stopcriterium.'),
-    ('Hertest', 'Hertest week 4 tegen week 9', '9', 'A2', 'Per maatregel: werkt, werkt deels of werkt niet (bijlage F).'),
+    ('K1_Scope', 'K1 AI Use Case & Scope Canvas', '1 · H1', 'A1', 'Wat onderzoeken we precies? (Het A3-canvas staat ook als Word-bestand.)'),
+    ('K2_Stakeholders', 'K2 Stakeholder & Impact Map', '1 · H2', 'A1', 'Wie wordt geraakt, en wie heeft weinig macht maar veel te verliezen? Eerste helft van de AI-impactbeoordeling.'),
+    ('K3_Proces_Data', 'K3 AI Process & Data Map', '1 · H3', 'A1', 'Waar in de keten kan iets misgaan, en welke gegevens gaan naar externe diensten?'),
+    ('Bewijsplan', 'Bewijsplan', '1 · H4', 'A1', 'Welk bewijs zoeken we, waar, met welke methode, en wie doet het?'),
+    ('K4_Scan', 'K4 snelle scan', '1 · H4', 'A1', 'Eerste score op alle 11 domeinen; kies 3 tot 4 domeinen om diep te onderzoeken.'),
+    ('K4_Nulmeting', 'K4 nulmeting met bewijs', '1 · H4', 'A1', 'Normvragen per domein, met score, bewijs en sterkte. Samen met K2: de AI-impactbeoordeling.'),
+    ('Dilemma_Log', 'Dilemma\'s verzamelen (hulpmiddel)', '1 · –', 'A1 individueel', 'Verzamel dilemma\'s en spreek af wie welk dilemma uitwerkt. Komt niet in het rapport: elk groepslid werkt één dilemma uit in het K5-canvas (Word-bestand).'),
+    ('Risk_Register', 'K6 AI Risk Register', '1 · H5; 2 · H6', 'A1, A2', 'Bovenaan de EU-risicoklasse en rol; alle risico\'s die je vindt, inherent gescoord; de top 5 gaat het rapport in. In blok 2 de respons en het restrisico.'),
+    ('Gewenste_situatie', 'K4 gewenste situatie (hulpmiddel)', '2 · H6', 'A2', 'Doelniveau per domein, gap en prioriteit; helpt bij de norm onder elke eis.'),
+    ('Design_Requirements', 'K7 deel 1: eisen', '2 · H6', 'A2', 'Van risico naar toetsbare eis.'),
+    ('Control_Catalog', 'Voorbeeldmaatregelen', '2', '-', 'Inspiratie, geen boodschappenlijst.'),
+    ('Controls', 'K7 deel 1: maatregelen', '2 · H6', 'A2', 'Maatregelen met eigenaar, kolom Kader en (optioneel) hertest.'),
+    ('Leverancierscheck', 'K7: leverancierscheck', '2 · H7', 'A2', 'De vier vragen per externe dienst.'),
+    ('Human_Oversight', 'K7 deel 2: menselijke controle en bezwaar', '2 · H7', 'A2', 'Controle voor de belangrijkste beslissing, rekensom, bezwaarroute.'),
+    ('Governance_RACI', 'K7 deel 2c: RACI en AI-beleidsregel', '2 · H7', 'A2', 'Wie beslist over ethische vragen, precies één A per activiteit; AI-beleidsregel van hoogstens 100 woorden.'),
+    ('Verwerkingslijst', 'Bijlage E: verwerkingslijst', '2 en 3 · bijlage E', 'A2', 'Elk feedbackpunt van docent, Design Review en peergroep, met besluit.'),
+    ('K8_Monitoring', 'K8 implementatie- en monitoringplan', '3 · H8', 'A2', 'Implementatie, ethische signalen, herbeoordeling, en de vaste regels incidentroute en stopcriterium.'),
+    ('Hertest', 'Hertest (optioneel)', '3 · bijlage F', 'A2', 'Per maatregel: werkt, werkt deels of werkt niet. Niet verplicht; telt mee voor excellent.'),
 ]
 for row in plan:
     for i, v in enumerate(row, 1):
@@ -181,7 +182,7 @@ for t in ['Gebruik alleen verzonnen persoonsgegevens. Echte klantgegevens van de
 
 # ---------------- K1 ----------------
 ws = wb.create_sheet('K1_Scope')
-setup(ws, 'K1 AI Use Case & Scope Canvas (week 1)',
+setup(ws, 'K1 AI Use Case & Scope Canvas (blok 1, hoofdstuk 1)',
       'Vul per veld een korte, concrete beschrijving in. Schrijf apart op wat het systeem maakt, wat er daarna mee gebeurt en wat mensen daarvan merken. Zet altijd zowel gebruikers als betrokkenen. Werkt jullie oplossing met generatieve AI? Beantwoord dan ook de vraag in kolom D.', 6)
 header(ws, 4, ['#', 'Veld', 'Vraag', 'Bij generatieve AI', 'Jullie antwoord', 'Voorbeeld Suribank'], [4, 20, 38, 38, 55, 45])
 k1 = [
@@ -210,7 +211,7 @@ note(ws, 19, 'Teamafspraken (rollen, overleg, wie levert wat) zet je onder het c
 
 # ---------------- K2 ----------------
 ws = wb.create_sheet('K2_Stakeholders')
-setup(ws, 'K2 Stakeholder & Impact Map (week 2)',
+setup(ws, 'K2 Stakeholder & Impact Map (blok 1, hoofdstuk 2)',
       'Eén rij per stakeholder. Splits groepen als ze verschillend geraakt worden. Kolom J signaleert wie weinig macht maar veel te verliezen heeft. K2 is samen met de nulmeting de AI-impactbeoordeling: wat de AI-verordening een FRIA noemt (artikel 27) en ISO/IEC 42005 een impactbeoordeling.', 10)
 cols = ['Stakeholder', 'Rol', 'Belang', 'Mogelijke baat', 'Mogelijke schade', 'Macht', 'Kwetsbaarheid', 'Betrokken?', 'Hoe gehoord (of waarom niet)', 'Signaal']
 header(ws, 4, cols, [26, 15, 26, 26, 30, 10, 13, 11, 28, 26])
@@ -223,8 +224,8 @@ ws.conditional_formatting.add('J6:J20', FormulaRule(formula=['LEN(J6)>0'], fill=
 
 # ---------------- K3 ----------------
 ws = wb.create_sheet('K3_Proces_Data')
-setup(ws, 'K3 AI Process & Data Map (week 2)',
-      'Eén rij per stap in de keten, van aanvraag of vraag tot terugkoppeling. Markeer elke externe dienst (n8n, taalmodel-API, vectordatabase, hosting): welke gegevens gaan erheen, en waar staan ze? Die rijen gebruik je in week 6 voor de leverancierscheck.', 10)
+setup(ws, 'K3 AI Process & Data Map (blok 1, hoofdstuk 3)',
+      'Eén rij per stap in de keten, van aanvraag of vraag tot terugkoppeling. Markeer elke externe dienst (n8n, taalmodel-API, vectordatabase, hosting): welke gegevens gaan erheen, en waar staan ze? Die rijen gebruik je in blok 2 voor de leverancierscheck.', 10)
 cols = ['Stap', 'Wat gebeurt er', 'Gegevens en wie', 'Wat kan misgaan', 'Risico (soort)', 'Mens in de lus?', 'Externe dienst?', 'Welke dienst', 'Welke gegevens gaan erheen', 'Waar staan ze (land, omgeving)']
 header(ws, 4, cols, [18, 30, 28, 28, 18, 16, 11, 22, 28, 24])
 example(ws, 5, ['2. Antwoord opstellen (orderagent Frisco)', 'De agent zoekt in de productcatalogus en stelt een offerte op', 'Klantvraag, naam en adres; klant en agent', 'Verzonnen prijs of levertijd', 'Overtuigend fout', 'Nee, onder SRD 10.000', 'ja', 'Taalmodel-API, vectordatabase, n8n', 'Klantvraag met naam en adres; catalogus', 'Vectordatabase in een datacenter in de VS; n8n bij de partner'])
@@ -235,11 +236,11 @@ note(ws, 19, 'Risicosoorten om uit te kiezen: meetbias, historische bias, labelb
 
 # ---------------- Bewijsplan ----------------
 ws = wb.create_sheet('Bewijsplan')
-setup(ws, 'Bewijsplan en evidence cards (week 2)',
+setup(ws, 'Bewijsplan en evidence cards (blok 1)',
       'Plan per domein welk bewijs jullie zoeken. Veel bewijs ligt al bij A-AI2 en A-DG: gebruik het, en kijk het zelf na. Rechts staat hoe sterk bewijs is.', 9)
 cols = ['Domein', 'Wat willen we weten?', 'Bron', 'Methode', 'Wie', 'Wanneer', 'Gevonden (kort)', 'Bewijssterkte', 'Evidence card nr.']
 header(ws, 4, cols, [30, 36, 26, 16, 14, 12, 34, 13, 11])
-example(ws, 5, ['2. Governance en accountability', 'Wie is eigenaar van de oplossing, en wie mag die stopzetten?', 'Partner uit A-AI2', 'Gesprek', 'Student A', 'Week 3', '"Ik neem aan de directie" (D7); geen document', 'Beperkt', 'EC-04'])
+example(ws, 5, ['2. Governance en accountability', 'Wie is eigenaar van de oplossing, en wie mag die stopzetten?', 'Partner uit A-AI2', 'Gesprek', 'Student A', '20 januari', '"Ik neem aan de directie" (D7); geen document', 'Beperkt', 'EC-04'])
 inputs(ws, 6, 15, 9)
 dv(ws, 'domeinen', 'A6:A20'); dv(ws, 'methode', 'D6:D20', strict=False); dv(ws, 'sterkte', 'H6:H20')
 ws.column_dimensions['K'].width = 12; ws.column_dimensions['L'].width = 60
@@ -254,8 +255,8 @@ for i, (a, b) in enumerate([('Sterk', 'Testresultaten, systeemlogs, goedgekeurde
 
 # ---------------- K4 scan ----------------
 ws = wb.create_sheet('K4_Scan')
-setup(ws, 'K4 AI Ethics & Risk Maturity Scan: snelle scan (week 3)',
-      'Geef alle 11 domeinen een eerste score en kies 4 tot 6 domeinen om in week 4 diep te onderzoeken. Het is een eerste beeld, geen eindoordeel. Gebruik bij domein 5 en 6 de checklist uit IEEE CertifAIEd hieronder.', 6)
+setup(ws, 'K4 AI Ethics & Risk Maturity Scan: snelle scan (blok 1, hoofdstuk 4)',
+      'Geef alle 11 domeinen een eerste score en kies 3 tot 4 domeinen om diep te onderzoeken. Het is een eerste beeld, geen eindoordeel. Gebruik bij domein 5 en 6 de checklist uit IEEE CertifAIEd hieronder.', 6)
 cols = ['Domein', 'Eerste score (0-3 of onbekend)', 'Waarop is die gebaseerd?', 'Welk bewijs is nog nodig?', 'Diep onderzoeken?', '']
 header(ws, 4, cols[:5], [42, 14, 42, 42, 12])
 example(ws, 5, ['Voorbeeld: 7. Menselijke controle, bezwaar en herstel', '1', 'Werkinstructie staat afwijken toe, maar medewerkers doen het bijna nooit (gesprek Albina)', 'Cijfers over afwijkingen; de afwijzingsbrief', 'ja'])
@@ -268,7 +269,7 @@ for i, d in enumerate(doms, 6):
 dv(ws, 'scanscore', 'B6:B16'); dv(ws, 'janee', 'E6:E16')
 ws['A18'] = 'Aantal domeinen om diep te onderzoeken'; ws['A18'].font = BOLD
 ws['B18'] = '=COUNTIF(E6:E16,"ja")'; ws['B18'].fill = SF
-ws['C18'] = '=IF(B18=0,"",IF(AND(B18>=4,B18<=6),"Goed: 4 tot 6 domeinen","Kies 4 tot 6 domeinen"))'
+ws['C18'] = '=IF(B18=0,"",IF(AND(B18>=3,B18<=4),"Goed: 3 tot 4 domeinen","Kies 3 tot 4 domeinen"))'
 ws.conditional_formatting.add('C18', FormulaRule(formula=['AND(B18>0,OR(B18<4,B18>6))'], font=Font(color=WARN, bold=True)))
 r = 20
 section(ws, r, 'Schaal', 5); r += 1
@@ -304,8 +305,8 @@ note(ws, r + 1, 'Let op bij een inhibitor: "ja" is hier slecht nieuws. Zo werkt 
 
 # ---------------- K4 nulmeting ----------------
 ws = wb.create_sheet('K4_Nulmeting')
-setup(ws, 'K4 nulmeting met bewijs (week 4)',
-      'Werk de 4 tot 6 domeinen uit die je in de snelle scan koos. Score per normvraag 0 tot 3, met bewijs en bron. Een score zonder bewijs telt niet (rood). Score wat er nu is: wat de groep in A-AI2 nog gaat bouwen, hoort bij de gap. Onderaan geef je per domein het domeinoordeel en de belangrijkste gap.', 7)
+setup(ws, 'K4 nulmeting met bewijs (blok 1, hoofdstuk 4)',
+      'Werk de 3 tot 4 domeinen uit die je in de snelle scan koos. Score per normvraag 0 tot 3, met bewijs en bron. Een score zonder bewijs telt niet (rood). Score wat er nu is: wat de groep in A-AI2 nog gaat bouwen, hoort bij de gap. Onderaan geef je per domein het domeinoordeel en de belangrijkste gap.', 7)
 cols = ['Nr', 'Normvraag', 'Voorbeeld van bewijs voor score 3', 'Score 0-3', 'Bewijs en bron', 'Sterkte', 'Diep onderzocht (uit scan)']
 header(ws, 4, cols, [6, 48, 34, 9, 50, 11, 12])
 example(ws, 5, ['7.2', 'Hebben medewerkers in de praktijk tijd, informatie en bevoegdheid om af te wijken?', 'Cijfers over afwijkingen, observatie van het werk', '1',
@@ -358,10 +359,10 @@ norm = {
 }
 r = 6; score_rows = {}
 for d in range(1, 12):
-    x = ws.cell(r, 1); x.font = HFONT; x.fill = PatternFill('solid', fgColor='2F6B4F')
-    x = ws.cell(r, 2, doms[d - 1]); x.font = HFONT; x.fill = PatternFill('solid', fgColor='2F6B4F')
+    x = ws.cell(r, 1); x.font = HFONT; x.fill = PatternFill('solid', fgColor='2E5597')
+    x = ws.cell(r, 2, doms[d - 1]); x.font = HFONT; x.fill = PatternFill('solid', fgColor='2E5597')
     for c in range(3, 8):
-        ws.cell(r, c).fill = PatternFill('solid', fgColor='2F6B4F')
+        ws.cell(r, c).fill = PatternFill('solid', fgColor='2E5597')
     ws.cell(r, 7, f'=IF(INDEX(K4_Scan!$E$6:$E$16,{d})="","",INDEX(K4_Scan!$E$6:$E$16,{d}))').font = HFONT
     r += 1; first = r
     for nr, q, ev in norm[d]:
@@ -395,8 +396,8 @@ NUL_SUM = (sum_first, r - 1)
 
 # ---------------- Dilemma_Log ----------------
 ws = wb.create_sheet('Dilemma_Log')
-setup(ws, 'K5 Dilemma Log (week 4, groep)',
-      'Minstens drie dilemma\'s, elk als beslisvraag met twee waarden die allebei zwaar wegen. De lenskolommen mogen kort: de diepte zit in het Dilemma Canvas (individueel, Word-bestand). Noem bij elke lens ook de theorie erachter.', 17)
+setup(ws, 'Dilemma\'s verzamelen (blok 1, hulpmiddel; komt niet in het rapport)',
+      'Verzamel als groep dilemma\'s en spreek af wie welk dilemma uitwerkt in het individuele K5-canvas: iedereen een ander. Schrijf elk dilemma elk als beslisvraag met twee waarden die allebei zwaar wegen. De lenskolommen mogen kort: de diepte zit in het Dilemma Canvas (individueel, Word-bestand). Noem bij elke lens ook de theorie erachter.', 17)
 cols = ['ID', 'Korte titel', 'Beslisvraag', 'Belangrijkste stakeholders', 'Waarde A', 'Waarde B', 'Feiten en bewijs',
         'Lens gevolgen (utilitarisme)', 'Lens rechten en plichten (deontologie)', 'Lens rechtvaardigheid (Rawls)', 'Lens professionele integriteit (deugdethiek, beroepscodes)',
         'Alternatieven', 'Voorlopig oordeel', 'Voorwaarden', 'Onopgeloste spanning', 'Gelinkte risico\'s', 'Bron']
@@ -412,8 +413,8 @@ ws.conditional_formatting.add('D15', FormulaRule(formula=['C15<3'], font=Font(co
 
 # ---------------- Risk_Register ----------------
 ws = wb.create_sheet('Risk_Register')
-setup(ws, 'K6 AI Risk Register (week 4; restrisico in week 6)',
-      'Eerst bovenaan de regel EU-risicoklasse en rol. Daarna 5 tot 8 risico\'s, inherent gescoord: de situatie zoals die nu is. Kans 1 tot 5 (zeldzaam, onwaarschijnlijk, mogelijk, waarschijnlijk, bijna zeker); impact 1 tot 5 (beperkt, matig, ernstig, zeer ernstig, kritiek) op vier dimensies. Het werkboek rekent de totale impact (de hoogste van de vier), de score, de band en de escalatie uit. De kolommen voor respons, restrisico en eigenaar vul je pas in week 6 in.', 29)
+setup(ws, 'K6 AI Risk Register (blok 1, hoofdstuk 5; restrisico in blok 2, hoofdstuk 6)',
+      'Eerst bovenaan de regel EU-risicoklasse en rol. Daarna de risico\'s die jullie vinden, inherent gescoord; de 5 belangrijkste gaan het rapport in. Inherent betekent: de situatie zoals die nu is. Kans 1 tot 5 (zeldzaam, onwaarschijnlijk, mogelijk, waarschijnlijk, bijna zeker); impact 1 tot 5 (beperkt, matig, ernstig, zeer ernstig, kritiek) op vier dimensies. Het werkboek rekent de totale impact (de hoogste van de vier), de score, de band en de escalatie uit. De kolommen voor respons, restrisico en eigenaar vul je pas in week 6 in.', 29)
 section(ws, 4, 'EU-risicoklasse en rol (AI-verordening, ter vergelijking: de verordening geldt niet in Suriname)', 8)
 for i, h in enumerate(['Veld', 'Wat je invult', 'Jullie antwoord', 'Voorbeeld Suribank', 'Voorbeeld orderagent'], 1):
     x = ws.cell(5, i, h); x.font = HFONT; x.fill = HF; x.border = B
@@ -434,7 +435,7 @@ cols = ['ID', 'Gelinkt dilemma', 'Maturitydomein', 'Bron van het risico', 'Oorza
         'Kans (1-5)', 'Impact individu', 'Impact groep of samenleving', 'Impact rechten en waardigheid', 'Impact organisatie',
         'Kwetsbare groep?', 'Onomkeerbaar?', 'Bezwaarmogelijkheid ontbreekt?', 'Bewijs en onzekerheid',
         'Totale impact', 'Score', 'Band', 'Escalatie',
-        'Risicorespons (week 6)', 'Restkans', 'Restimpact', 'Restscore', 'Restband', 'Eigenaar']
+        'Risicorespons (blok 2)', 'Restkans', 'Restimpact', 'Restscore', 'Restband', 'Eigenaar']
 header(ws, H, cols, [7, 9, 22, 18, 24, 24, 24, 20, 18, 20, 8, 9, 9, 9, 9, 10, 10, 11, 26, 9, 8, 11, 12, 14, 8, 8, 8, 11, 16])
 ws.freeze_panes = ws.cell(H + 1, 2)
 example(ws, H + 1, ['R-03', 'D-01', '7. Menselijke controle, bezwaar en herstel', 'Afwijzingsbrief en proces', 'De brief bevat geen reden, geen vermelding van het model en geen bezwaarroute',
@@ -462,12 +463,12 @@ note(ws, F1 + 2, 'Banden: 1 tot 4 Low, 5 tot 9 Moderate, 10 tot 14 High, 15 tot 
 note(ws, F1 + 3, 'Schrijf het volledige risico als: doordat [oorzaak] kan [gebeurtenis], met als gevolg [schade] voor [wie]. In het rapport komt een korte tabel; de volledige formulering staat in de bijlage.', 20)
 ws['A' + str(F1 + 5)] = 'Aantal risico\'s'; ws['A' + str(F1 + 5)].font = BOLD
 ws['C' + str(F1 + 5)] = f'=COUNTA(A{F0}:A{F1})'; ws['C' + str(F1 + 5)].fill = SF
-ws['D' + str(F1 + 5)] = f'=IF(C{F1 + 5}=0,"",IF(AND(C{F1 + 5}>=5,C{F1 + 5}<=8),"Goed: 5 tot 8","Advies: 5 tot 8 risico\'s"))'
+ws['D' + str(F1 + 5)] = f'=IF(C{F1 + 5}=0,"",IF(C{F1 + 5}>=5,"Goed: kies de top 5 voor het rapport","Zoek minstens 5 risico\'s"))'
 RR = (F0, F1)
 
 # ---------------- Gewenste situatie ----------------
 ws = wb.create_sheet('Gewenste_situatie')
-setup(ws, 'K4 gewenste situatie per domein (week 6)',
+setup(ws, 'K4 gewenste situatie per domein (blok 2, hulpmiddel bij hoofdstuk 6)',
       'Bepaal per domein het doelniveau op basis van een norm en proportionaliteit: doel 3 waar het risico het vraagt, niet overal. Het werkboek neemt het huidige niveau over uit de nulmeting en rekent de gap uit.', 6)
 header(ws, 4, ['Domein', 'Nu', 'Doel', 'Gap', 'Prioriteit', 'Onderbouwing (norm, risico, proportionaliteit)'], [42, 8, 8, 8, 12, 70])
 example(ws, 5, ['Voorbeeld: 6. Transparantie', '1', '3', '2', 'Hoog', 'Klanten weten niet dat het model meebeslist en krijgen geen reden (R-03). Bij een besluit over krediet is uitleg nodig; dit is een voorbeeld, niet het antwoord voor jullie casus'])
@@ -486,7 +487,7 @@ ws['C18'].font = Font(color=WARN, bold=True)
 
 # ---------------- Design_Requirements ----------------
 ws = wb.create_sheet('Design_Requirements')
-setup(ws, 'K7 deel 1: van risico naar eis (week 6)',
+setup(ws, 'K7 deel 1: van risico naar eis (blok 2, hoofdstuk 6)',
       'Per risico uit de top 5: het ontwerpdoel en één of meer eisen. Een goede eis zegt wat er aantoonbaar waar moet zijn, met een acceptatiecriterium dat iemand anders kan controleren. De band haalt het werkboek uit het Risk_Register.', 12)
 cols = ['Risk ID', 'Risico (één regel)', 'Getroffen stakeholder en schade', 'Band (uit K6)', 'Escalatie (uit K6)', 'Ethisch principe', 'Risicorespons (met één zin waarom)', 'Ontwerpdoel', 'Req ID', 'Eis', 'Acceptatiecriterium', 'Eigenaar', 'Bron']
 header(ws, 4, cols, [8, 26, 26, 11, 10, 18, 22, 26, 8, 30, 30, 16, 18])
@@ -528,9 +529,9 @@ for i, row in enumerate(cat, 5):
 
 # ---------------- Controls ----------------
 ws = wb.create_sheet('Controls')
-setup(ws, 'K7 deel 1: maatregelen (week 6 en 7)',
-      '2 tot 3 maatregelen per risico uit de top 5, met een eigenaar. Combineer voorkomen, opsporen en herstellen. Kolom Kader: op welk erkend kader sluit de maatregel aan? Eén verwijzing is genoeg (kies uit de lijst of typ zelf). Minstens twee maatregelen bouw je echt in via A-AI2, vóór de hertest in week 9.', 15)
-cols = ['Control ID', 'Req ID', 'Risk ID', 'Titel', 'Beschrijving: wat, door wie, wanneer', 'Functie', 'Soort', 'Kader', 'Eigenaar', 'Frequentie of aanleiding', 'Bewijs', 'Verificatie', 'Inbouwen door', 'Klaar voor AI Solutions Day?', 'Hertest (week 9): welke vraag, welk paar of welke meting, en welke uitkomst verwacht je?']
+setup(ws, 'K7 deel 1: maatregelen (blok 2, hoofdstuk 6)',
+      '2 tot 3 maatregelen per risico uit de top 5, met een eigenaar. Combineer voorkomen, opsporen en herstellen. Kolom Kader: op welk erkend kader sluit de maatregel aan? Eén verwijzing is genoeg (kies uit de lijst of typ zelf). Bouw minstens twee maatregelen echt in via A-AI2 (nodig voor niveau goed bij criterium 6).', 15)
+cols = ['Control ID', 'Req ID', 'Risk ID', 'Titel', 'Beschrijving: wat, door wie, wanneer', 'Functie', 'Soort', 'Kader', 'Eigenaar', 'Frequentie of aanleiding', 'Bewijs', 'Verificatie', 'Inbouwen door', 'Klaar voor AI Solutions Day?', 'Hertest (optioneel): welke vraag, welk paar of welke meting, en welke uitkomst verwacht je?']
 header(ws, 4, cols, [9, 8, 8, 20, 34, 11, 13, 28, 16, 16, 18, 18, 13, 11, 34])
 example(ws, 5, ['C-02', 'REQ-01', 'R-01', 'Afwijzing langs een medewerker', 'Elke afwijzing door het model gaat naar een kredietmedewerker, die het dossier bekijkt en mag afwijken zonder toestemming vooraf', 'Voorkomen', 'Proces',
                 'AI-verordening, art. 14 (menselijk toezicht)', 'Hoofd kredietverlening', 'Elke aanvraag', 'Logboek met advies en beslissing', 'Maandelijkse steekproef van 20 afwijzingen', 'Beide', 'ja', 'Gepaarde test regio: aantal paren met ander besluit daalt van 11 naar 0 na menselijke beoordeling'])
@@ -547,7 +548,7 @@ for c in ('D32', 'D33', 'D34'):
 
 # ---------------- Leverancierscheck ----------------
 ws = wb.create_sheet('Leverancierscheck')
-setup(ws, 'Leverancierscheck (week 6)',
+setup(ws, 'Leverancierscheck (blok 2, hoofdstuk 7 en bijlage C)',
       'Eén rij per externe dienst uit K3 (n8n, taalmodel-API, vectordatabase, hosting, leverancier van het model). Weet je een antwoord niet? Schrijf "onbekend: navragen" en behandel dat als risico. Verzin geen feiten. Verwijs waar het kan naar het architectuurdocument uit A-AI2.', 9)
 cols = ['Externe dienst', 'Wat doet de leverancier met onze gegevens, ook voor training?', 'Waar staan de gegevens?', 'Wat wordt gelogd en wie kan erbij?', 'Wat mag de agent of het systeem zelf doen zonder mens?', 'Bron (voorwaarden, contract, A-AI2-document)', 'Status', 'Gevolg (risico of maatregel)', 'Kader']
 header(ws, 4, cols, [22, 32, 24, 28, 32, 24, 18, 24, 22])
@@ -560,7 +561,7 @@ note(ws, 13, 'Waarom deze vier vragen? Gegevens kunnen buiten het zicht van de p
 
 # ---------------- Human_Oversight ----------------
 ws = wb.create_sheet('Human_Oversight')
-setup(ws, 'K7 deel 2: menselijke controle en bezwaar (week 7)',
+setup(ws, 'K7 deel 2: menselijke controle en bezwaar (blok 2, hoofdstuk 7)',
       'Werk de menselijke controle uit voor de belangrijkste beslissing van jullie toepassing. Controleer met de rekensom of de controle haalbaar is. Beschrijf daarna de bezwaarroute vanuit de betrokkene en toets die aan de zes kenmerken uit clip 19: bekend, laagdrempelig, met uitleg, onafhankelijk, snel, herstellend.', 4)
 header(ws, 4, ['Vraag', 'Wat je invult', 'Jullie antwoord', 'Voorbeeld Suribank'], [22, 46, 56, 46])
 ho = [('Beslissing en rol van AI', 'Welke beslissing, en doet het systeem een advies, een voorselectie, of beslist het zelf?', 'Kredietbesluit; het model geeft een advies'),
@@ -612,12 +613,12 @@ for q, w in [('Hoe hoor ik ervan?', 'Waar in het besluit staat dat ik bezwaar ka
 
 # ---------------- Governance_RACI ----------------
 ws = wb.create_sheet('Governance_RACI')
-setup(ws, 'K7 deel 2c: RACI voor ethische beslissingen en AI-beleidsregel (week 7)',
+setup(ws, 'K7 deel 2c: RACI voor ethische beslissingen en AI-beleidsregel (blok 2, hoofdstuk 7)',
       'Zet bovenaan de functies bij de partner (geen namen). Minstens acht activiteiten, met de vijf verplichte erbij. Precies één A per activiteit, met echte bevoegdheid; de leverancier is hooguit C. Technisch beheer staat in A-AI2 en databeheer in A-DG: verwijs daarnaar.', 9)
 roles = ['Directie', 'Eigenaar toepassing', 'Medewerker die ermee werkt', 'Team A-AI2 / IT', 'Klantenservice', 'Leverancier']
 header(ws, 4, ['Activiteit of besluit'] + roles + ['Aantal A', 'Controle'], [40, 14, 14, 14, 14, 14, 14, 9, 22])
 for c in range(2, 8):
-    ws.cell(4, c).fill = PatternFill('solid', fgColor='2F6B4F')
+    ws.cell(4, c).fill = PatternFill('solid', fgColor='2E5597')
 ws.row_dimensions[4].height = 46
 note(ws, 3, 'Pas de functienamen in rij 4 aan aan jullie partner (de groene kopcellen mag je overschrijven).', 9)
 example(ws, 5, ['Voorbeeld: het systeem stilzetten', 'I', 'A', 'R', 'C', 'I', 'I', 1, 'OK'])
@@ -652,11 +653,11 @@ for i, t in enumerate(['Waarvoor het systeem wordt gebruikt, en waarvoor niet', 
     x = ws.cell(i, 1, t); x.border = B
     x = ws.cell(i, 2); x.fill = IF_; x.border = B
 dv(ws, 'janee', f'B{c0}:B{c0 + 4}')
-note(ws, c0 + 6, 'Wat er bij stilzetten gebeurt en wie weer aanzet, moet overeenkomen met deze RACI en met het stopcriterium in K8 (week 9).', 9)
+note(ws, c0 + 6, 'Wat er bij stilzetten gebeurt en wie weer aanzet, moet overeenkomen met deze RACI en met het stopcriterium in K8 (hoofdstuk 8).', 9)
 
 # ---------------- Verwerkingslijst ----------------
 ws = wb.create_sheet('Verwerkingslijst')
-setup(ws, 'Bijlage E: verwerkingslijst (weken 8 tot 10)',
+setup(ws, 'Bijlage E: verwerkingslijst (blok 2 en 3)',
       'Alle feedbackpunten: de actiepunten uit de feedback op Assessment 1, het panel van de Design Review en de peergroep. Per punt een besluit, wat jullie veranderden of waarom niet, en waar het in het rapport staat. "Niet overgenomen" mag, als je uitlegt waarom. Bij Assessment 2 kijkt de docent eerst naar deze lijst.', 7)
 cols = ['Nr', 'Actiepunt-ID (bijv. A1-2)', 'Bron', 'Feedbackpunt', 'Besluit', 'Wat we veranderden, of waarom niet', 'Waar in het rapport']
 header(ws, 4, cols, [5, 14, 18, 40, 18, 48, 22])
@@ -673,7 +674,7 @@ ws.cell(36, 4, 'Zonder besluit'); x = ws.cell(36, 5, '=COUNTIFS(D6:D30,"<>",E6:E
 
 # ---------------- K8 ----------------
 ws = wb.create_sheet('K8_Monitoring')
-setup(ws, 'K8 implementatie- en monitoringplan (week 9)',
+setup(ws, 'K8 implementatie- en monitoringplan (blok 3, hoofdstuk 8)',
       'Vier delen. A: hoe komen de maatregelen in de organisatie. B: welke ethische signalen volgen jullie (vijf tot acht), met grens, actie en wie besluit. C: wanneer gaat het systeem opnieuw langs de beoordeling. D: twee vaste regels, verplicht voor criterium 7 van de A2-rubric: de incidentroute en het stopcriterium. Voor technische monitoring verwijs je naar A-AI2, voor datamonitoring naar A-DG.', 9)
 r = 4
 section(ws, r, 'Deel A: implementatieplan', 9); r += 1
@@ -738,9 +739,9 @@ ws.freeze_panes = None
 
 # ---------------- Hertest ----------------
 ws = wb.create_sheet('Hertest')
-setup(ws, 'Hertest: week 4 tegen week 9 (bijlage F)',
-      'Per maatregel die jullie inbouwden: welke test uit practicum 4 laat het effect zien, wat was de uitkomst in week 4 en in week 9, en wat is jullie oordeel? Gebruik dezelfde testset als in week 4 (testlogboek). Kijk niet alleen naar de gepaarde test, maar ook naar de foutpercentages per groep.', 10)
-cols = ['Control ID', 'Risk ID', 'Test (vraag, paar of meting uit practicum 4)', 'Verwachte uitkomst', 'Uitkomst week 4', 'Uitkomst week 9', 'Oordeel', 'Toelichting', 'Gevolg (aanpassen, monitoren, accepteren)', 'Restrisico bijgewerkt in K6?']
+setup(ws, 'Hertest: practicum 4 opnieuw (optioneel, bijlage F)',
+      'Per maatregel die jullie inbouwden: welke test uit practicum 4 laat het effect zien, wat was de uitkomst bij de eerste test en bij de hertest, en wat is jullie oordeel? Gebruik dezelfde testset als bij de eerste test (testlogboek). De hertest is niet verplicht; hij telt mee voor het niveau excellent. Kijk niet alleen naar de gepaarde test, maar ook naar de foutpercentages per groep.', 10)
+cols = ['Control ID', 'Risk ID', 'Test (vraag, paar of meting uit practicum 4)', 'Verwachte uitkomst', 'Uitkomst eerste test', 'Uitkomst hertest', 'Oordeel', 'Toelichting', 'Gevolg (aanpassen, monitoren, accepteren)', 'Restrisico bijgewerkt in K6?']
 header(ws, 4, cols, [10, 8, 34, 24, 18, 18, 13, 34, 28, 12])
 example(ws, 5, ['C-02', 'R-01', 'Gepaarde test regio (100 paren) en onterecht afgewezen per regio', 'Geen paren met ander besluit; verschil tussen regio\'s kleiner', '11 van 100 paren anders; 12,8% tegenover 23,4%', '0 van 100; 13,1% tegenover 17,0%', 'Werkt deels', 'Paren gelijk, maar het verschil tussen regio\'s is kleiner, niet weg', 'Monitoren met indicator 1; hertraining in fase 3', 'ja'])
 inputs(ws, 6, 15, 10)

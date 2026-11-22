@@ -239,13 +239,13 @@ Elke student is eigenaar van benoemde hoofdstukken. Peerbeoordeling van de inzet
 | Conclusies rusten op bewijs; onzekerheden zijn benoemd | TC1, GC2 | ✓ | ✓ |
 | Het dilemma is gewogen met minimaal drie lenzen; het eigen oordeel is onderbouwd (individueel) | TC1, GC2 | ✓ |  |
 | Risico's zijn concreet geformuleerd en navolgbaar geprioriteerd | TC1 | ✓ | ✓ |
-| Advies en gewenste situatie zijn onderbouwd en proportioneel | TC2, GC1 | ✓ | ✓ |
+| Plan van aanpak en advies zijn onderbouwd en proportioneel | TC2, GC1 | ✓ | ✓ |
 | Maatregelen zijn toetsbaar en hebben een eigenaar | TC3, TC4, GC5 |  | ✓ |
-| Ethische signalen worden gevolgd met indicatoren, drempels en acties, een incidentroute en een stopcriterium | TC5 |  | ✓ |
+| Menselijke controle, bezwaar en monitoring zijn concreet, met een incidentroute en een stopcriterium | TC5 |  | ✓ |
 | Het eindoordeel is helder, met voorwaarden en restrisico | TC2, GC4 |  | ✓ |
 | De reflectie toont zelfinzicht en eigen verantwoordelijkheid | GC3 |  | ✓ |
 
-Op niveau goed en excellent van de criteria over risico's, maatregelen en monitoring zijn keuzes herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF). Er komt geen criterium bij en de weging blijft gelijk.
+Op niveau goed en excellent van de criteria over risico's, maatregelen en monitoring zijn keuzes herleidbaar naar een erkend kader (AI-verordening, ISO/IEC 42001, IEEE CertifAIEd of NIST AI RMF). De wegingen per criterium staan in de rubric: bij Assessment 1 wegen bewijs (H4) en risico's (H5) het zwaarst, bij Assessment 2 de maatregelen (H6) en de menselijke controle en monitoring (H7 en H8).
 
 # LEEROMGEVING
 
