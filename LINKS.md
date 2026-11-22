@@ -45,3 +45,9 @@ Alle links zijn privé; deel ze via Share als anderen ze moeten zien.
 | Opnamekit week 6 (clips 15–17) | | https://claude.ai/artifact/5d9d67HsWE4gU6BA9qhXLc |
 | Opnamekit week 7 (clips 18–20) | | https://claude.ai/artifact/RBungByuzG6KUDTv1J1haC |
 | Opnamekit week 9 (clips 21–22) | | https://claude.ai/artifact/2nsUHji4NEh88M1iJnPVwB |
+
+## Herontwerp (22 november 2026)
+
+| Document | Link |
+| --- | --- |
+| Herontwerp A-ET: drie colleges, drie blokken | https://claude.ai/artifact/FBqZQ1ej89WedWvgRjRcUx |
