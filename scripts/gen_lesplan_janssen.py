@@ -106,10 +106,10 @@ def vakbeschrijving(jd):
         ("Werkvormen:",
          "• **Gastcollege en debat:** studenten nemen deel aan debatten over ethische kwesties in AI, ondersteund door experts uit het werkveld. De gastspreker (bijvoorbeeld uit de sectoren technologie, recht of beleid) worden door de coach uitgenodigd en gecoördineerd, zodat studenten verschillende praktijkperspectieven krijgen aangereikt. De studenten bereiden zich voor op het debat door middel van literatuur, casussen en kritische vragen.\n"
          "• **Ethiek in praktijk:** studenten analyseren de ethische implicaties van hun AI-oplossing en stellen voorstellen voor verbetering.\n"
-         "• **Blended opzet:** drie colleges van 3 uur (week 1, 2 en 8), zeven online sessies van een uur en zelfstudie in een vast weekritme met kennisclips, kaderclips, een kernbron en een wekelijkse weekcheck.\n"
-         "• **Debatlijn:** het debat uit college 2 loopt door in elke online sessie, met een stelling en een eigen standpunt per week.\n"
-         "• **AI-practica:** vijf practica in Orange of Python, van fouten per groep tot het testen van de eigen oplossing (week 4) en de hertest (week 9).\n"
-         "• **Design Review en peerfeedback:** in college 3 presenteert elke groep aan een panel (peer-audit); in week 4, 7 en 9 geven groepen elkaar feedback."),
+         "• **Drie colleges en vier blokken:** drie colleges van 3 uur (week 1, 2 en 8); daartussen zelfstudie en groepswerk in vier blokken (voorbereiden, analyseren, ontwerpen, verantwoorden), elk met een kennispakket en een kennischeck. Er zijn geen online lessen.\n"
+         "• **Feedback op vaste momenten:** feedforward op K1 (11 januari) en op het concept van K2 tot en met K4 (25 januari), schriftelijke feedback op Assessment 1 (18 februari) en de Design Review in college 3.\n"
+         "• **AI-practica:** practicum 1 in blok 0 en practicum 4 (de eigen oplossing testen) als bewijs; practicum 2, 3 en 5 als verdieping, in Orange of Python.\n"
+         "• **Design Review en peerfeedback:** in college 3 presenteert elke groep de maatregelen aan een panel; in blok 3 geven groepen elkaar feedback op het concept eindrapport."),
         ("Toetsing:",
          "**Week 5: Assessment 1 (weging 30%)**\n"
          "Inleveren tussenproduct bij docent: ethiek analyse + beschrijving aanpak. Uitwerking: op donderdag 4 februari het tussenrapport van de groep (maximaal 8 pagina's, 60%) en één individueel uitgewerkt ethisch dilemma (800 tot 1.000 woorden, 40%).\n\n"
@@ -119,16 +119,16 @@ def vakbeschrijving(jd):
          "-Dit vak moet minimaal met een voldoende (5,5) worden beoordeeld.\n"
          "-De eindbeoordeling is individueel en wordt bepaald op basis van de gewogen resultaten.\n"
          "-Peerbeoordeling van de inzet kan het groepscijfer per student verlagen bij aantoonbaar te weinig bijdrage."),
-        ("Duur:", "10 weken, met een online voorbereiding in week 0 (vanaf 14 december)"),
-        ("Literatuur:", "Verstrekte lesmateriaal tijdens de les: kennisclips en kaderclips, een kernbron per week, het casusdossier Suribank, het voorbeeldrapport en de kaders (zie Bronnen)."),
+        ("Duur:", "10 weken, met een voorbereidingsblok vanaf 14 december"),
+        ("Literatuur:", "Verstrekte lesmateriaal tijdens de les: vier kennispakketten met studieteksten, kennisclips en kaderclips en casussen, het casusdossier Suribank, het voorbeeldrapport en de kaders (zie Bronnen)."),
     ])
     # studiebelasting en collegetabel, in het format van de syllabus
     jd.table([
         ["Studie activiteiten", "SBU"],
-        ["Voorbereiding (Lezen over ethische concepten in AI, zoals bias, privacy, en maatschappelijke impact. Lezen van artikelen over data-ethiek, algoritmische bias en verantwoording.)\n  A-ET: online opfrisser in week 0.", "4"],
+        ["Voorbereiding (Lezen over ethische concepten in AI, zoals bias, privacy, en maatschappelijke impact. Lezen van artikelen over data-ethiek, algoritmische bias en verantwoording.)\n  A-ET: blok 0 met kennispakket 0, beginquiz en practicum 1.", "4"],
         ["Colleges (groepsbijeenkomsten in aanwezigheid van de docent)\n  A-ET: drie colleges van 3 uur.", "9"],
-        ["Huiswerkopdrachten (Bespreken ethische verbeteringen binnen AI-toepassingen. Analyse van gesprekken en verwerken van feedback over hoe ethische integratie kan bijdragen aan de AI-oplossing).\n  A-ET: zeven online sessies (7), AI-practica (4), peerfeedback in week 4, 7 en 9 (3) en rapportstukken in de projectgroep (31).", "45"],
-        ["Zelfstudie (bestuderen van literatuur, reflecteren over teamrol en persoonlijke inzichten in ethische kwesties in AI, feedback in de groep.)\n  A-ET: kennisclips, kaderclips, weekcheck en kernbronnen.", "10"],
+        ["Huiswerkopdrachten (Bespreken ethische verbeteringen binnen AI-toepassingen. Analyse van gesprekken en verwerken van feedback over hoe ethische integratie kan bijdragen aan de AI-oplossing).\n  A-ET: K1 tot en met K4 en gesprekken met de partner (20), risico's, maatregelen, governance en monitoring (16), voorbereiding gastcollege en Design Review (5), practicum 4 en peerfeedback (4).", "45"],
+        ["Zelfstudie (bestuderen van literatuur, reflecteren over teamrol en persoonlijke inzichten in ethische kwesties in AI, feedback in de groep.)\n  A-ET: kennispakketten 1 tot en met 3, kennischecks en reflectie in de groep.", "10"],
         ["Toets (maken en inleveren tussenopdracht, eindrapportage en reflectieverslag).\n  A-ET: Assessment 1 (7) en Assessment 2 (9).", "16"],
         ["**Uren totaal**", "**84**"],
     ], header=True, widths=[14.7, 1.8], size=10)
@@ -137,23 +137,24 @@ def vakbeschrijving(jd):
     jd.table([
         ["College", "Inhoud", "Huiswerk"],
         ["1\n(7 januari)",
-         "• Opening met een dilemma: een Surinaamse bank wil een kredietmodel invoeren dat sneller beslist maar aanvragers uit het binnenland vaker afwijst\n"
-         "• Van prototype tot gevolg; wat is anders bij generatieve AI\n"
-         "• De vier ethische lenzen, met hun theorienaam\n"
-         "• De Surinaamse context, de 11 domeinen, het kaderlandschap en de opbouw van het rapport\n"
-         "• Groepen (zie groep A-AI1) bakenen hun eigen oplossing af als casus\n"
-         "• Werkwijze, toetsing, rubric en voorbeeldrapport; voorbereiding gastcollege en debat",
-         "Context en afbakening vastleggen in K1; kaderclip A; vragen voor de gastspreker en debatstellingen voorbereiden."],
+         "• Opening met een dilemma: een Surinaamse bank wil een kredietmodel dat sneller beslist maar aanvragers uit het binnenland vaker afwijst\n"
+         "• Werkt het, mag het, is het verantwoord; ethiek, recht en compliance; lessen uit eerdere technologie\n"
+         "• Echte casussen: de e-visumchatbot van BIBIS en het fraudealgoritme van Rotterdam\n"
+         "• De vier ethische lenzen, met hun theorienaam, in groepjes toegepast\n"
+         "• Het kader in vier lagen, de Surinaamse context, de opbouw van module en rapport\n"
+         "• Groepen (zie groep A-AI1) bakenen hun eigen oplossing af als casus (K1)",
+         "K1 afronden; vragen voor de gastspreker en debatstellingen voorbereiden; kennispakket 1."],
         ["2\n(14 januari)",
          "**Gastcollege en debat**\n• Gastspreker met één echte casus en vraaggesprek\n• Debat in Lagerhuisvorm over de stellingen van de groepen\n"
-         "**College**\n• Minicollege: bronnen van bias, privacybeginselen, verantwoording en de Surinaamse ontwerpwet\n• Vertaling naar de eigen casus en het plan voor bewijsverzameling",
-         "Stakeholders en datastromen (K2, K3) en bewijsplan; bevindingen uit gesprekken en interviews verwerken in het tussenproduct."],
+         "**College**\n• Minicollege: bronnen van bias, waarom perfecte eerlijkheid niet bestaat, de black box en uitlegbaarheid, privacy en verantwoording\n• Vertaling naar de eigen casus: K2, K3 en het plan voor bewijsverzameling",
+         "K2 tot en met K4 en gesprekken met de partner; bevindingen uit gesprekken en interviews verwerken in het tussenproduct (Assessment 1)."],
         ["3\n(25 februari)",
-         "**Design Review** (interactieve feedbacksessie over de tussenresultaten)\n"
-         "• Reviewcriteria; elke groep presenteert 8 minuten aan een panel, gevolgd door 7 minuten vragen\n"
-         "• Feedback verwerken; minicollege implementatie en monitoring met de cyclus van ISO/IEC 42001\n"
-         "• Start van de individuele reflectie en uitleg van de eindtoets",
-         "Feedback verwerken in de verwerkingslijst en in het voorstel voor ethische integratie; maatregelen inbouwen via A-AI2; hertest en beslismemo (week 9)."],
+         "**Interactieve feedbacksessie over de tussenresultaten**\n"
+         "• Feedback op Assessment 1\n"
+         "• Minicollege: veiligheid en agents, macht en regelgeving, werk en ongelijkheid, professionele praktijk\n"
+         "• Design Review: elke groep presenteert de maatregelen aan een panel\n"
+         "• Plan naar Assessment 2: monitoring, stopcriterium en beslismemo",
+         "Feedback verwerken in de verwerkingslijst en in het voorstel voor ethische integratie (maatregelen, governance, monitoring, beslismemo); individuele reflectie."],
     ], header=True, widths=[2.4, 9.6, 4.5], size=10)
 
 

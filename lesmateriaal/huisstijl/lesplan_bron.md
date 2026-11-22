@@ -1,6 +1,6 @@
 # ALGEMEEN
 
-Dit lesplan beschrijft hoe de module AI & Ethics van januari tot en met maart 2027 wordt ingericht. Het volgt de vakbeschrijving en de planning die Janssen University heeft voorgesteld, en is bedoeld ter afstemming. Deze versie van 14 november is afgestemd op de syllabus van de hele minor: A-ET bouwt voort op A-AI1, A-DA en A-RPA uit deel 1, en sluit aan op A-AI2 en A-DG, die tegelijk lopen. De punten waarover ik graag uw feedback ontvang, staan in het hoofdstuk Punten ter afstemming.
+Dit lesplan beschrijft hoe de module AI & Ethics van januari tot en met maart 2027 wordt ingericht. Het volgt de vakbeschrijving en de planning die Janssen University heeft voorgesteld, en is bedoeld ter afstemming. Deze versie van 22 november is herzien: de module draait voortaan op de drie colleges uit de vakbeschrijving, zonder online lessen. Ze is afgestemd op de syllabus van de hele minor: A-ET bouwt voort op A-AI1, A-DA en A-RPA uit deel 1, en sluit aan op A-AI2 en A-DG, die tegelijk lopen. De punten waarover ik graag uw feedback ontvang, staan in het hoofdstuk Punten ter afstemming.
 
 ## Uitgangspunten
 
@@ -8,18 +8,18 @@ De module duurt 10 weken, heeft 3 studiepunten (84 SBU) en kent drie fysieke col
 
 | Week | Donderdag | Moment |
 | --- | --- | --- |
-| 0 | vóór 7 jan | Online voorbereiding (opfrisser) |
+| 0 | 14 dec – 6 jan | Blok 0: voorbereiden |
 | 1 | 7 jan 2027 | **College 1** |
 | 2 | 14 jan 2027 | **College 2** met gastspreker |
 | 5 | 4 feb 2027 | **Assessment 1**: ethiekanalyse en aanpak (30%) |
-| 8 | 25 feb 2027 | **College 3** |
+| 8 | 25 feb 2027 | **College 3**: feedback en Design Review |
 | 10 | 11 mrt 2027 | **Eindtoets**: eindrapportage en reflectie (70%) |
 
-De overige weken verlopen online, met elke week een contactmoment (zie Begeleiding en voortgang). De lesweeknummers vallen samen met de kalenderweken van 2027.
+Tussen de colleges werken studenten zelfstandig en in hun groep in vier blokken, met een kennispakket per blok en feedback op vaste momenten (zie Begeleiding en voortgang). De lesweeknummers vallen samen met de kalenderweken van 2027.
 
 **Doelgroep.** Studenten van de Minor AI uit HBO-Bedrijfskunde en HBO-ICT, met hbo werk- en denkniveau als voorkennis. Zij hebben in deel 1 A-AI1, A-DA en A-RPA gevolgd. In A-ET werken ze in hun A-AI1-groep aan de eigen AI-oplossing, die ze in A-AI2 tegelijk verder ontwikkelen.
 
-**Kern van de module.** Studenten leren hun eigen AI-oplossing systematisch te beoordelen op ethiek, risico's en regelgeving, en concrete verbeteringen te ontwerpen, in te bouwen en te testen. Omdat de meeste oplossingen chatbots of agents zijn, krijgt de ethiek van generatieve AI een vaste plaats. Het eindproduct beantwoordt één professionele vraag: is deze AI-oplossing verantwoord inzetbaar, en onder welke voorwaarden?
+**Kern van de module.** Studenten leren hun eigen AI-oplossing systematisch te beoordelen op ethiek, risico's en regelgeving, en concrete verbeteringen te ontwerpen. Omdat de meeste oplossingen chatbots of agents zijn, krijgt de ethiek van generatieve AI een vaste plaats. Het eindproduct beantwoordt één professionele vraag: is deze AI-oplossing verantwoord inzetbaar, en onder welke voorwaarden?
 
 **Taakcompetenties.** Analyseren, Adviseren, Ontwerpen, Realiseren en Manage & Control, alle op niveau 3. Deze competenties vormen ook de opbouw van het rapport.
 
@@ -27,8 +27,8 @@ De overige weken verlopen online, met elke week een contactmoment (zie Begeleidi
 
 A-ET is een van de drie vakken van deel 2 en loopt tegelijk met A-AI2 (AI Engineering & Scaling) en A-DG (Data Governance). Vier afspraken zorgen dat studenten niets dubbel doen en dat A-ET de diepte in gaat waar het hoort.
 
-- **Geen herhaling van deel 1.** De basis van AI en machine learning kennen studenten uit A-AI1 en A-DA. Week 0 is daarom een korte opfrisser. De ethische evaluatie die groepen in A-AI1 van hun prototype maakten, is het startpunt van de nulmeting.
-- **De eigen oplossing als casus.** Groepen onderzoeken de oplossing die ze in A-AI2 verder ontwikkelen, met de partner uit A-AI2 als organisatie. De maatregelen die ze in A-ET ontwerpen, bouwen ze in A-AI2 in en laten ze zien op de AI Solutions Day in week 9.
+- **Geen herhaling van deel 1.** De basis van AI en machine learning kennen studenten uit A-AI1 en A-DA. Blok 0 is daarom een korte opfrisser. De ethische evaluatie die groepen in A-AI1 van hun prototype maakten, is het startpunt van de nulmeting.
+- **De eigen oplossing als casus.** Groepen onderzoeken de oplossing die ze in A-AI2 verder ontwikkelen, met de partner uit A-AI2 als organisatie. De maatregelen die ze in A-ET ontwerpen, kunnen ze in A-AI2 inbouwen en laten zien op de AI Solutions Day.
 - **Generatieve AI.** Elk instrument heeft een variant voor chatbots en agents: hallucinaties en te veel vertrouwen, gegevens die naar externe diensten gaan, de melding dat iemand met AI te maken heeft, bias in gegenereerde tekst, misbruik en auteursrecht.
 - **Een heldere taakverdeling.** A-DG gaat over de data, A-AI2 over de werking van de oplossing, A-ET over de gevolgen voor mensen en wie daarover beslist. Wat A-DG en A-AI2 opleveren, gebruikt A-ET als bewijs.
 
@@ -47,34 +47,20 @@ De taakverdeling, het gastcollege en het juridisch kader stem ik af met de docen
 
 # OPZET EN WERKWIJZE
 
-De module is blended: drie colleges van 3 uur, zeven online sessies van een uur, en zelfstudie in een vast weekritme. Studenten bouwen voort op wat ze in deel 1 leerden over hoe AI werkt, beoordelen wat dat ethisch betekent voor hun eigen oplossing, en ontwerpen verbeteringen die ze in A-AI2 ook inbouwen en testen. Elke week groeit het eindrapport met één stuk.
+De module draait op de drie colleges die de vakbeschrijving noemt. Daartussen werken studenten zelfstandig en in hun groep in vier blokken. Er zijn geen online lessen. Elk blok heeft een kennispakket, een kennischeck en vaste feedbackmomenten, zodat studenten ook zonder wekelijks contact bij de les blijven.
 
-### Drie leerlijnen
-| Leerlijn | Kernvraag | Zwaartepunt | Aandeel |
+| Blok | Periode | Kernvraag | Opbrengst |
 | --- | --- | --- | --- |
-| Begrijp AI (opfrissen en verdiepen) | Waar en voor wie maakt een AI-systeem fouten, en wat is anders bij generatieve AI? | Week 0 tot 3 | Ongeveer 10% |
-| Begrijp ethiek | Welke waarden en rechten staan op het spel, en hoe weeg je ze? | Week 1 tot 4, daarna doorlopend via de debatlijn | Ongeveer 30% |
-| Pas verantwoorde AI toe | Hoe analyseer, adviseer, ontwerp en borg je verantwoorde inzet? | Week 2 tot 10 | Ongeveer 60% |
+| 0 · Voorbereiden | 14 dec – 6 jan | Wat weten studenten al over AI, en waarom gaat ethiek verder dan regels? | Beginquiz, practicum 1, beschrijving eigen oplossing |
+| 1 · Analyseren | 7 jan – 4 feb | Wat staat er op het spel, voor wie gaat het mis, en hoe tonen we dat aan? | Assessment 1: tussenrapport en dilemma-canvas |
+| 2 · Ontwerpen | 5 – 25 feb | Welke maatregelen maken inzet verantwoord, en wie is waarvoor verantwoordelijk? | Concept maatregelen en Design Review |
+| 3 · Verantwoorden | 26 feb – 11 mrt | Hoe houden we het verantwoord, en wat adviseren we? | Assessment 2: eindrapport met beslismemo en reflectie |
 
-**De wekelijkse leerloop.** Elke week volgt dezelfde zes stappen.
+**De leerloop per blok.** (1) Leren: een kennispakket met een Nederlandstalige studietekst, korte kennisclips en kaderclips, en twee of drie echte casussen met video of artikel. (2) Bespreken: het college, met een dilemma of stelling, theorie, en toepassing op de eigen oplossing. (3) Toepassen: het rapportonderdeel van het blok, in de projectgroep. (4) Checken: een kennischeck aan het einde van het blok en feedforward op vaste momenten.
 
-1. **Leren.** Twee of drie korte kennisclips van 3 tot 9 minuten en één kernbron. In week 1, 3, 4, 6 en 8 komt daar een kaderclip bij (A tot en met E) over een erkend kader.
-2. **Checken.** Een weekcheck met vijf kennisvragen en een korte logboekregel.
-3. **Doen.** Een praktijkopdracht, casus of AI-practicum.
-4. **Bespreken.** Het college of de online sessie: eerst een debatstelling, daarna wordt het onderwerp toegepast op het eigen rapport.
-5. **Toepassen.** Het rapportstuk van die week, in de projectgroep.
-6. **Vastleggen.** Het rapportstuk gaat rechtstreeks het eindrapport in.
+**Inspiratie voor de inhoud.** Voor de opbouw van de onderwerpen heb ik naast de vijf kaders de opzet gebruikt van de cursus *AI Ethics and Governance: The Complete Professional Course* (A. Oni, Udemy): van fundamenten, ethische theorieën, bias en transparantie naar veiligheid, governance, toepassing per sector en professionele praktijk. Tekst, dia's en casussen zijn eigen werk, met Surinaamse en Caribische voorbeelden waar mogelijk; studenten hebben de cursus niet nodig.
 
-**Weekritme.** Tijden in Surinaamse tijd.
-
-| Moment | Wat |
-| --- | --- |
-| Maandag 08:00 | Weekmodule opent, met korte feedback op vorige week |
-| Woensdag 23:59 | Weekcheck ingeleverd |
-| Donderdag | College in week 1, 2 en 8; online sessie in week 3, 4, 6, 7 en 9 (in week 5 en 10 op dinsdag) |
-| Zondag 23:59 | Rapportstuk van de week ingeleverd |
-
-**Ontwerpprincipes.** Week 0 tot 3 zijn sterk gestuurd; daarna werken groepen steeds zelfstandiger. Eén uitgewerkt voorbeeld, het Surinaamse casusdossier Suribank, laat elk instrument eerst ingevuld zien. De practica kunnen in Orange of in Python, zodat studenten die in A-DA met Python werkten daarop kunnen voortbouwen. ICT-studenten kunnen een technische verdiepingsroute kiezen. Studenten mogen generatieve AI gebruiken, mits ze dat verantwoorden in een korte AI-verklaring bij elke inlevering.
+**Ontwerpprincipes.** Blok 0 en het begin van blok 1 zijn sterk gestuurd; daarna werken groepen steeds zelfstandiger. Eén uitgewerkt voorbeeld, het Surinaamse casusdossier Suribank, laat elk instrument eerst ingevuld zien. De practica kunnen in Orange of in Python. Studenten mogen generatieve AI gebruiken, mits ze dat verantwoorden in een korte AI-verklaring bij elke inlevering.
 
 # METHODIEK
 
@@ -91,7 +77,9 @@ Studenten werken met één kader in vier lagen. Het is internationaal onderbouwd
 
 **De 11 domeinen.** Doel, noodzaak en proportionaliteit. Governance en verantwoording. Stakeholders, mensenrechten en maatschappelijke impact. Data en privacy. Fairness, bias en non-discriminatie. Transparantie, uitlegbaarheid en traceerbaarheid. Menselijke controle, bezwaar en herstel. Veiligheid, security en robuustheid. AI-geletterdheid en competenties. Duurzaamheid en bredere impact. Monitoring, audit en verbetering.
 
-**Vier ethische lenzen.** Gevolgen (utilitarisme), rechten en plichten (deontologie), rechtvaardigheid (rechtvaardigheidstheorie, Rawls), en professionele integriteit (deugdethiek en beroepscodes). Studenten gebruiken er altijd minimaal drie.
+**Ethiek, recht en compliance.** Studenten leren drie begrippen uit elkaar te houden: wat de wet vereist, hoe een organisatie aantoont dat ze zich aan wet, normen en eigen beleid houdt, en wat goed is om te doen waar wet en beleid zwijgen.
+
+**Vier ethische lenzen.** Gevolgen (utilitarisme), rechten en plichten (deontologie), rechtvaardigheid (rechtvaardigheidstheorie, Rawls), en professionele integriteit (deugdethiek, zorgethiek en beroepscodes). Studenten gebruiken er altijd minimaal drie.
 
 **De redeneerketen.** Elk advies moet terug te volgen zijn: bewijs, gap in de huidige situatie, ethisch dilemma, risico, eis aan het ontwerp, maatregel met eigenaar, monitoring, en ten slotte het oordeel.
 
@@ -99,146 +87,130 @@ Studenten werken met één kader in vier lagen. Het is internationaal onderbouwd
 
 # INSTRUMENTEN
 
-Studenten gebruiken acht kerninstrumenten. Elk instrument beantwoordt één professionele vraag en levert één onderdeel van het rapport op. Voor elk instrument is er een Nederlandstalige werkinstructie, een ingevuld voorbeeld en een variant voor generatieve AI. Studenten werken in één Excel-werkboek met alle instrumenten, plus Word-sjablonen (K1-canvas, K5-dilemmacanvas, tussenrapport, eindrapport, reflectie en AI-verklaring) en een peerbeoordelingsformulier.
+Studenten schrijven één rapport dat in twee stappen groeit: het tussenrapport (Assessment 1) en het eindrapport (Assessment 2). Elk instrument levert één hoofdstuk op, met een werkinstructie in het kennispakket, een ingevuld voorbeeld en een variant voor generatieve AI. Ze werken in één Excel-werkboek plus Word-sjablonen (K1-canvas, K5-dilemmacanvas, tussenrapport, eindrapport, reflectie, evidence card en AI-verklaring) en een peerbeoordelingsformulier.
 
-| # | Instrument | Professionele vraag | Week | Competentie |
+| Hoofdstuk | Instrument | Professionele vraag | Blok | Toets |
 | --- | --- | --- | --- | --- |
-| K1 | AI Use Case & Scope Canvas | Wat onderzoeken we precies? | 1 | Analyseren |
-| K2 | Stakeholder & Impact Map | Wie wordt geraakt, en wie heeft weinig macht maar veel te verliezen? | 2 | Analyseren |
-| K3 | AI Process & Data Map | Waar in de keten kan iets misgaan? | 2 | Analyseren |
-| K4 | AI Ethics & Risk Maturity Scan | Hoe aantoonbaar beheerst de organisatie verantwoorde AI, en wat is het gewenste niveau? | 3, 4 en 6 | Analyseren, Adviseren |
-| K5 | Ethical Dilemma Canvas | Welke waarden botsen, en welke keuze is te verantwoorden? | 4 | Analyseren |
-| K6 | AI Risk Register | Welke concrete schade kan optreden, en hoe ernstig is die? | 4 | Analyseren |
-| K7 | Responsible AI Design Package | Welke maatregelen, menselijke controle, transparantie en verantwoordelijkheden maken inzet verantwoord? | 6 en 7 | Adviseren, Ontwerpen |
-| K8 | Implementatie- en monitoringplan | Hoe komen de maatregelen in de oplossing, werken ze, en welke ethische signalen volgen we daarna? | 9 | Realiseren, Manage & Control |
+| H1 Toepassing en afbakening | K1 AI Use Case & Scope Canvas | Wat onderzoeken we precies? | 1 | A1 |
+| H2 Stakeholders en impact | K2 Stakeholder & Impact Map | Wie wordt geraakt, en wie heeft weinig macht maar veel te verliezen? | 1 | A1 |
+| H3 Proces en data | K3 AI Process & Data Map | Waar in de keten kan iets misgaan? | 1 | A1 |
+| H4 Nulmeting | K4 snelle scan en nulmeting | Hoe aantoonbaar is verantwoorde AI nu geregeld? | 1 | A1 |
+| H5 Risico's en plan van aanpak | K6 Risicoregister (top 5) | Welke concrete schade kan optreden, en wat pakken we eerst aan? | 1 | A1 |
+| Individueel | K5 Ethical Dilemma Canvas | Welke waarden botsen, en welke keuze is te verantwoorden? | 1 | A1 |
+| H6 Maatregelen | K7 Responsible AI Design | Welke eis en maatregel per risico, met eigenaar en controle? | 2 | A2 |
+| H7 Menselijke controle, bezwaar en governance | K7 (vervolg), RACI | Kan een mens ingrijpen, kan een getroffene bezwaar maken, wie besluit wat? | 2 | A2 |
+| H8 Monitoring en stopcriterium | K8 Monitoringplan | Welke ethische signalen volgen we, en wanneer gaat het systeem uit? | 3 | A2 |
+| Beslismemo | – | Verantwoord inzetbaar, onder voorwaarden, of nu niet? | 3 | A2 |
 
-De omvang is bewust begrensd. De nulmeting scoort alle 11 domeinen kort en werkt er 4 tot 6 uit met bewijs. Voor domein 4 (data en privacy) en domein 11 (monitoring) gebruiken groepen het werk uit A-DG als bewijs, en voor de werking van de oplossing de documentatie uit A-AI2. Het risicoregister bevat de 5 tot 8 belangrijkste risico's. Zo blijft er tijd om na te denken in plaats van alleen in te vullen.
+De omvang is bewust begrensd: de nulmeting scoort alle 11 domeinen kort en werkt er 3 tot 4 uit met bewijs, en het risicoregister bevat de 5 belangrijkste risico's. Voor domein 4 (data en privacy) en domein 11 (monitoring) gebruiken groepen het werk uit A-DG als bewijs, en voor de werking van de oplossing de documentatie uit A-AI2.
 
 **Aansluiting op de kaders.** Kleine aanvullingen koppelen de instrumenten aan de kaders, zonder extra hoofdstuk. K2 en de nulmeting heten samen de AI-impactbeoordeling: wat de AI-verordening een FRIA noemt (artikel 27) en ISO/IEC 42005 een impactbeoordeling. In K3 markeren groepen elke externe dienst (n8n, taalmodel-API, vectordatabase, hosting): welke gegevens gaan erheen en waar staan ze. K5 vraagt per lens ook de theorienaam. K6 opent met één regel: EU-risicoklasse, onderbouwing en de rol van de partner. K7 krijgt een kolom Kader (artikel uit de AI-verordening, Annex A-gebied van ISO/IEC 42001, ontologie van IEEE CertifAIEd of functie van NIST AI RMF), een leverancierscheck per externe dienst en één AI-beleidsregel van hoogstens 100 woorden die de partner kan overnemen. K8 krijgt een incidentroute en een stopcriterium: wat is een incident, wie meldt aan wie, en wanneer gaat het systeem uit en wie beslist dat.
 
 **De casus: de eigen oplossing als standaard.** Standaard onderzoekt de groep de eigen AI-oplossing uit A-AI2, met de partner uit A-AI2 als organisatie. Bewijs komt uit gesprekken met de partner, ontwerpkeuzes, tests en het werk uit A-DG. Raakt de eigen oplossing te weinig ethische vragen, dan mag de groep een andere organisatie kiezen waar ze toegang toe heeft. Een groep die vastloopt, werkt met het Surinaamse casusdossier Suribank. Wisselen kan tot 25 januari. Het dossier is ook het uitgewerkte voorbeeld en de oefencasus voor de practica.
 
-# WEEKOVERZICHT
+# OVERZICHT PER BLOK
 
-De module kent drie fasen die aansluiten op de toetsen: analyseren tot Assessment 1, adviseren en ontwerpen tot college 3, en realiseren en borgen tot de eindtoets.
+De module kent vier blokken die aansluiten op de toetsen: analyseren tot Assessment 1, ontwerpen tot college 3, en verantwoorden tot Assessment 2.
 
-![](lesplan_fasering.png)
-
-Volle stippen zijn fysieke colleges, open stippen online sessies. Practicum 5 in week 9 is optioneel. De AI Solutions Day van A-AI2 valt in week 9.
-
-| Week | Datum | Contact | Thema | Rapportstuk |
+| Week | Datum | Moment | Blok en thema | Wat groepen opleveren |
 | --- | --- | --- | --- | --- |
-| 0 | vóór 7 jan | Online opfrisser; inloopmoment di 5 jan | Van deel 1 naar ethiek: wat weet je al? | Practicum 1 (opfrisser), beginquiz |
-| 1 | 7 jan | **College 1** | Wat staat er op het spel bij de eigen oplossing? | Context en afbakening (K1) |
-| 2 | 14 jan | **College 2: gastspreker en debat** | Data-ethiek, bias, privacy en verantwoording | Stakeholders en datastromen (K2, K3) |
-| 3 | 21 jan | Online sessie | Fouten per groep, uitlegbaarheid en generatieve AI | Snelle nulmeting (K4); practicum 2 en 3 |
-| 4 | 28 jan | Online sessie | Nulmeting, dilemma's en risico's | Nulmeting met bewijs, dilemma's en risico's (K4 tot K6); practicum 4: de eigen oplossing testen |
-| 5 | 4 feb | Vragenuur di 2 feb; **Assessment 1** | Diagnose afronden | Tussenrapport (30%) |
-| 6 | 11 feb | Online sessie | Van risico naar ontwerp | Doelsituatie en eerste ontwerp (K4, K7) |
-| 7 | 18 feb | Online sessie | Menselijke controle, transparantie en verantwoordelijkheid | Ontwerp afronden (K7); maatregelen inbouwen via A-AI2 |
-| 8 | 25 feb | **College 3** | Design Review: generale repetitie voor de AI Solutions Day | Feedback verwerken |
-| 9 | 4 mrt | Online sessie | Inbouwen, hertesten en eindoordeel | Ethische signalen (K8), hertest, beslismemo |
-| 10 | 11 mrt | Eindspurt di 9 mrt; **Eindtoets** | Integraal advies en reflectie | Eindrapport en reflectie (70%) |
+| 0 | 14 dec – 6 jan | Zelfstudie | Blok 0: van deel 1 naar ethiek | Beginquiz, practicum 1, beschrijving eigen oplossing |
+| 1 | do 7 jan | **College 1** | Blok 1: wat staat er op het spel? | K1 (zo 10 jan) |
+| 2 | do 14 jan | **College 2: gastspreker en debat** | Blok 1: data-ethiek, bias, uitlegbaarheid en verantwoording | Voorbereiding college 2 (di 12 jan) |
+| 3–4 | 15 – 31 jan | Zelfstudie en groepswerk | Blok 1: analyseren met bewijs | Concept K2–K4 (zo 24 jan); practicum 4 |
+| 5 | do 4 feb | **Assessment 1** | Blok 1 afgerond | Tussenrapport en dilemma-canvas |
+| 6–7 | 5 – 24 feb | Zelfstudie en groepswerk | Blok 2: van risico naar ontwerp | Concept maatregelen en Design Review-dia's (di 23 feb) |
+| 8 | do 25 feb | **College 3** | Blok 2: feedback en Design Review | Maatregelen aangescherpt |
+| 9–10 | 26 feb – 11 mrt | Zelfstudie en groepswerk | Blok 3: verantwoorden en adviseren | Concept eindrapport (zo 7 mrt); Assessment 2 (do 11 mrt) |
 
-# PLANNING PER WEEK
+# PLANNING PER BLOK EN COLLEGE
 
-## Week 0. Online opfrisser (vanaf 14 december)
+## Blok 0. Voorbereiden (14 december tot en met 6 januari)
 
-Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Week 0 frist die op met vier korte kennisclips en practicum 1: één model trainen en de soorten fouten lezen, in Orange of in Python. Groepen zoeken hun ethische evaluatie uit A-AI1 op; die is het startpunt van de nulmeting. Een beginquiz meet de voorkennis; dezelfde quiz in week 10 laat de leerwinst zien. Op dinsdag 5 januari is er een online inloopmoment voor installatievragen.
+Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Blok 0 frist die op met kennispakket 0 (wat is AI, waarom ethiek, ethiek, recht en compliance), vier korte kennisclips en practicum 1: één model trainen en de soorten fouten lezen. Groepen zoeken hun ethische evaluatie uit A-AI1 op en beschrijven hun eigen oplossing. Een beginquiz meet de voorkennis; dezelfde vragen in kennischeck 3 laten de leerwinst zien.
 
-## Week 1. Wat staat er op het spel? (College 1, 7 januari)
+## College 1. Wat staat er op het spel? (7 januari)
 
 | Tijd | Onderdeel |
 | --- | --- |
-| 0:00 tot 0:20 | Opening met een dilemma: een Surinaamse bank wil een kredietmodel invoeren dat sneller beslist maar aanvragers uit het binnenland vaker afwijst. Studenten stemmen en onderbouwen |
-| 0:20 tot 0:45 | Van prototype tot gevolg: waar raakt de eigen oplossing mensen, en wat is anders bij generatieve AI? |
-| 0:45 tot 1:15 | Werkt het, mag het, is het verantwoord? De vier ethische lenzen, met hun theorienaam, toegepast op het openingsdilemma |
-| 1:15 tot 1:25 | Pauze |
-| 1:25 tot 1:55 | De Surinaamse context, de 11 domeinen, in 5 minuten het kaderlandschap, de opbouw van het rapport en de aansluiting op A-AI2 en A-DG |
-| 1:55 tot 2:40 | Groepen (dezelfde als in A-AI1 en A-AI2) bakenen hun eigen oplossing af als casus, met hun ethische evaluatie uit A-AI1 als start |
-| 2:40 tot 3:00 | Werkwijze, toetsing, rubric en voorbeeldrapport; voorbereiding op gastspreker en debat: groepen formuleren debatstellingen met onderbouwing |
+| 0:00 tot 0:25 | Rolwissel van bouwer naar beoordelaar; leerdoelen; dilemma Suribank: kiezen, met de buur, dan stemmen |
+| 0:25 tot 0:55 | Van data tot beslissing: de keten bij een voorspellend model en bij generatieve AI; echte casus BIBIS |
+| 0:55 tot 1:35 | Werkt, mag, verantwoord; ethiek, recht en compliance; lessen uit eerdere technologie; casus Rotterdam; de vier lenzen in groepjes |
+| 1:35 tot 1:45 | Pauze |
+| 1:45 tot 2:10 | Suriname, het kader in vier lagen, de opbouw van de module en het rapport, toetsing |
+| 2:10 tot 2:50 | K1: uitgewerkt voorbeeld, kwaliteitscheck, groepswerk in het werkboek en een canvasruil |
+| 2:50 tot 3:00 | Blokken en deadlines, exit ticket |
 
-Na het college leggen groepen hun oplossing, de partner en de afbakening vast in K1. Kaderclip A (5 minuten) plaatst de vijf kaders in de vier lagen.
-
-## Week 2. Data-ethiek, bias, privacy en verantwoording (College 2, 14 januari)
+## College 2. Waar gaat het mis, en wie is verantwoordelijk? (14 januari)
 
 | Tijd | Onderdeel |
 | --- | --- |
 | 0:00 tot 0:15 | Terugblik: welke fout van het model is erger, en voor wie? |
-| 0:15 tot 1:00 | Gastspreker met één echte casus: het vraagstuk, de risico's, wat misging, wie verantwoordelijk was en welke maatregelen volgden |
-| 1:00 tot 1:25 | Vraaggesprek met door de groepen voorbereide vragen |
-| 1:25 tot 1:35 | Pauze |
-| 1:35 tot 2:05 | Minicollege: bronnen van bias, privacybeginselen, verantwoording en de Surinaamse ontwerpwet |
-| 2:05 tot 2:45 | Debat in Lagerhuisvorm over de stellingen die groepen voorbereidden; halverwege wisselen studenten van kant |
-| 2:45 tot 3:00 | Vertaling naar de eigen casus en het plan voor bewijsverzameling |
+| 0:15 tot 1:00 | Gastspreker met één echte casus, met een aantekenkaart |
+| 1:00 tot 1:20 | Vraaggesprek met door de groepen voorbereide vragen |
+| 1:20 tot 1:30 | Pauze |
+| 1:30 tot 2:00 | Minicollege: bronnen van bias, waarom perfecte eerlijkheid niet bestaat, de black box en uitlegbaarheid, privacy en verantwoording; casussen Gender Shades en een onterechte arrestatie door gezichtsherkenning |
+| 2:00 tot 2:38 | Debat in Lagerhuisvorm over twee stellingen; halverwege wisselen studenten van kant |
+| 2:38 tot 3:00 | Eigen casus: eerste versie K2 en K3 in het werkboek, ruil met een andere groep, exit ticket |
 
-## Week 3 en 4. Analyse (online)
+## Blok 1, vervolg. Analyseren met bewijs (15 januari tot en met 4 februari)
 
-In week 3 doen studenten het bias-experiment en zetten ze een leesbaar model naast een complex model (practicum 2 en 3). Kaderclip B laat zien hoe IEEE CertifAIEd transparantie en bias toetst, met drivers en inhibitors. Daarna bekijken ze wat er anders is bij generatieve AI: hallucinaties, bias in gegenereerde tekst, gegevens die naar externe diensten gaan en de melding dat iemand met AI te maken heeft. Ze starten de nulmeting. In week 4 testen groepen hun eigen oplossing met een vaste testset (practicum 4), werken ze de nulmeting uit met bewijs, analyseren ze drie dilemma's en leggen ze de belangrijkste risico's vast. Met kaderclip C delen ze hun oplossing in een EU-risicoklasse in en bepalen ze de rol van de partner. Praktijkcasussen laten zien wat er gebeurt als niemand test: de toeslagenaffaire, het bijstandsalgoritme van Rotterdam, de controle op de uitwonendenbeurs van DUO, en de chatbots van New York (MyCity) en Air Canada. Amsterdam (Slimme Check) en de e-visumchatbot van het Surinaamse ministerie van BIBIS laten zien hoe het ook kan. Elke student werkt één dilemma individueel uit. Een andere groep geeft feedback op het concept.
+Groepen werken K2 tot en met K4, K6 en het plan van aanpak uit, voeren gesprekken met de partner en testen hun eigen oplossing (practicum 4, sterk aanbevolen). Kennispakket 1 bevat de theorie over fouten per groep, uitlegbaarheid en generatieve AI (kaderclip B: IEEE CertifAIEd) en over risicoklassen (kaderclip C), met casussen als de toeslagenaffaire, Rotterdam, Air Canada en de e-visumchatbot van BIBIS. Op 24 januari leveren groepen optioneel een concept in; op 25 januari volgt feedforward. Op 4 februari leveren ze Assessment 1 in; op 18 februari volgt schriftelijke feedback.
 
-## Week 5. Assessment 1 (4 februari)
+## Blok 2. Ontwerpen (5 tot en met 25 februari)
 
-Op dinsdag 2 februari is er een online vragenuur. Op donderdag 4 februari leveren groepen het tussenrapport in. Uiterlijk 11 februari volgt feedback met de rubric en een online gesprek van 15 minuten per groep.
+Groepen vertalen hun top 5 risico's naar toetsbare eisen en maatregelen met een eigenaar, en ontwerpen menselijke controle, een bezwaarroute en de rolverdeling (RACI). Kennispakket 2 behandelt governance en leveranciers (kaderclip D: AIGP), veiligheid en agents, de AI-verordening en mondiaal bestuur, en werk en ongelijkheid. Groepen spreken met hun A-AI2-coach af welke maatregelen ze kunnen inbouwen.
 
-## Week 6 en 7. Ontwerp (online)
-
-Studenten bepalen het gewenste niveau per domein en vertalen de grootste risico's naar toetsbare eisen en maatregelen. Kaderclip D (AIGP) gaat over governance bij ontwikkeling en gebruik: rollen, leveranciers en AI-agents. Groepen doen een leverancierscheck voor elke externe dienst en schrijven één AI-beleidsregel voor de partner. In week 7 ontwerpen ze menselijke controle, een bezwaarroute, een transparantieverklaring voor de eindgebruiker en een rolverdeling voor ethische besluiten. Bij een chatbot horen daar de AI-melding en de overdracht aan een mens bij. De toeslagenaffaire uit week 4 komt terug, nu met de vraag waarom niemand echt kon ingrijpen. Groepen spreken met hun A-AI2-coach af welke maatregelen ze in de oplossing inbouwen.
-
-## Week 8. Design Review (College 3, 25 februari)
+## College 3. Van analyse naar verantwoord ontwerp (25 februari)
 
 | Tijd | Onderdeel |
 | --- | --- |
-| 0:00 tot 0:15 | De reviewcriteria: is elk hoog risico gekoppeld aan een maatregel, kan een mens echt ingrijpen, kan een getroffene bezwaar maken, heeft elke maatregel een eigenaar? |
-| 0:15 tot 1:45 | Elke groep presenteert 8 minuten aan een panel van docent en bij voorkeur een externe deskundige, gevolgd door 7 minuten vragen |
-| 1:45 tot 1:55 | Pauze |
-| 1:55 tot 2:35 | Groepen verwerken de feedback; minicollege over implementatie en monitoring met de cyclus van ISO/IEC 42001 (kaderclip E) |
-| 2:35 tot 3:00 | Start van de individuele reflectie en uitleg van de eindtoets |
+| 0:00 tot 0:25 | Feedback op Assessment 1: wat goed ging, wat beter moet, en per groep de belangrijkste actiepunten |
+| 0:25 tot 0:55 | Minicollege: veiligheid en agents die doen wat je vraagt maar niet wat je bedoelt; macht en regelgeving; werk en ongelijkheid; professionele praktijk (beslissen, aankaarten, ethische cultuur) |
+| 0:55 tot 1:05 | Pauze |
+| 1:05 tot 2:20 | Design Review: elke groep presenteert de maatregelen in hoogstens 8 dia's, met vragen van panel en peers |
+| 2:20 tot 2:50 | Groepen verwerken de feedback en maken een plan naar Assessment 2; monitoring en stopcriterium met de cyclus van ISO/IEC 42001 (kaderclip E) |
+| 2:50 tot 3:00 | Uitleg reflectie en Assessment 2, exit ticket |
 
-De Design Review is ook de generale repetitie voor de AI Solutions Day van A-AI2 in week 9, waar groepen hun ethische maatregelen aan publiek en partner laten zien. Het panel werkt als een peer-audit: het toetst of de maatregelen aantoonbaar werken, zoals een interne audit in ISO/IEC 42001.
+## Blok 3. Verantwoorden (26 februari tot en met 11 maart)
 
-## Week 9 en 10. Implementatie, monitoring en eindoordeel
-
-In week 9 bouwen groepen de maatregelen in, via A-AI2, en testen ze de oplossing opnieuw met precies dezelfde testset uit week 4 (practicum 4b). Ze zetten de uitkomsten van week 4 en week 9 naast elkaar en concluderen per maatregel: werkt, werkt deels of werkt niet. Op de AI Solutions Day laten ze zien wat werkt. Practicum 5, de data een jaar later, is optioneel. Hun monitoringplan bevat alleen ethische signalen: groepsverschillen, klachten, bezwaren en afwijkingen door medewerkers. Voor datamonitoring verwijzen ze naar A-DG en voor technische monitoring naar A-AI2. Het plan bevat ook een incidentroute en een stopcriterium: wanneer gaat het systeem uit, en wie beslist dat. Ze schrijven een beslismemo van één pagina, opgezet als managementreview in zeven onderdelen (oordeel, waarom, wat het oplevert, voorwaarden, restrisico en wie het accepteert, wat het oordeel kan veranderen, en de managementreview met stopcriterium en datum van de volgende review), en groepen beoordelen elkaars concept. Op dinsdag 9 maart is er een online vragenuur. Op donderdag 11 maart leveren studenten het eindrapport en de individuele reflectie in. In week 10 krijgen ze een overzicht "Verder na de minor": CEET, IEEE CertifAIEd, AIGP, AICP en ISO/IEC 42001 Lead Implementer, met per certificering wat die toetst.
+Groepen maken het monitoringplan met incidentroute en stopcriterium, schrijven het beslismemo en werken het tussenrapport bij met de verwerkingslijst. Een hertest van de maatregelen (practicum 4 opnieuw) is optioneel. Op 7 maart gaat het concept naar een peergroep, op 9 maart komt de peerfeedback terug. Kennispakket 3 behandelt monitoring, context per sector, professionele praktijk en de certificeringen als vervolg. Op 11 maart leveren studenten het eindrapport en de individuele reflectie in.
 
 # AI-PRACTICA
 
 Hoe je een model bouwt, kennen studenten uit A-AI1 en A-DA. De practica in A-ET gaan daarom over het ethisch toetsen van AI: fouten per groep, uitlegbaarheid, en het testen van de eigen oplossing. Practicum 1, 2, 3 en 5 gebruiken één synthetische dataset met kredietaanvragen bij een fictieve Surinaamse bank, zodat er nooit met echte persoonsgegevens wordt gewerkt. Ze kunnen in Orange Data Mining (gratis, zonder programmeren) of in Python. Practicum 4 gebruikt de eigen oplossing van de groep.
 
-| Practicum | Week | Wat de student doet | Ethische vraag |
-| --- | --- | --- | --- |
-| 1, opfrisser | 0 | Eén model trainen en testen; soorten fouten lezen | Welke fout is erger: onterecht afwijzen of onterecht goedkeuren, en voor wie? |
-| 2 | 3 | Hetzelfde model trainen op evenwichtige en scheve data | Wie is verantwoordelijk voor het verschil tussen groepen? |
-| 3 | 3 | Een leesbaar model naast een complex model zetten | Welke uitleg verdient een afgewezen aanvrager? |
-| 4 | 4 en 9 | De eigen oplossing testen met een vaste testset: dezelfde vraag met een andere naam, taal of situatie; vragen waarop het systeem iets kan verzinnen; vragen naar persoonsgegevens. In week 9 dezelfde test na de maatregelen | Behandelt de oplossing iedereen gelijk, en werken de maatregelen? |
-| 5, optioneel | 9 | Het model loslaten op data van een jaar later | Wanneer misleidt een mooi fairnesscijfer? |
+| Practicum | Blok | Status | Wat de student doet | Ethische vraag |
+| --- | --- | --- | --- | --- |
+| 1, opfrisser | 0 | Verplicht | Eén model trainen en testen; soorten fouten lezen | Welke fout is erger, en voor wie? |
+| 2 | 1 | Verdieping | Hetzelfde model trainen op evenwichtige en scheve data | Wie is verantwoordelijk voor het verschil tussen groepen? |
+| 3 | 1 | Verdieping | Een leesbaar model naast een complex model zetten | Welke uitleg verdient een afgewezen aanvrager? |
+| 4 | 1 | Sterk aanbevolen | De eigen oplossing testen met een vaste testset | Behandelt de oplossing iedereen gelijk? Bewijs voor H4 |
+| 5 | 3 | Verdieping | Het model loslaten op data van een jaar later | Wanneer misleidt een mooi fairnesscijfer? |
 
-Na elk practicum beantwoordt de student op één pagina wat er gebeurde en wat dat ethisch betekent voor de eigen casus. Orange werkt op Windows en macOS, niet op Chromebooks; de Python-versie werkt ook in een online notebook. Voor elk practicum staan een stappenplan voor Orange en een Python-notebook klaar; voor practicum 4 ook een Orange-workflow en een testlogboek in Excel.
+Na een practicum vult de student een evidence card in: wat er gebeurde en wat dat ethisch betekent voor de eigen casus. Orange werkt op Windows en macOS, niet op Chromebooks; de Python-versie werkt ook in een online notebook. Voor elk practicum staan een stappenplan voor Orange en een Python-notebook klaar; voor practicum 4 ook een testlogboek in Excel.
 
 # BEGELEIDING EN VOORTGANG
 
-Studenten hebben elke week contact met de docent: drie colleges en zeven online sessies van een uur. Zo blijft niemand wekenlang buiten beeld, ook niet in de zes weken tussen college 2 en college 3.
+Studenten hebben drie keer les. Tussen de colleges krijgen ze begeleiding op vaste momenten, zodat niemand wekenlang buiten beeld blijft, ook niet in de zes weken tussen college 2 en college 3.
 
-| Week | Datum | Onderwerp online sessie |
-| --- | --- | --- |
-| 3 | do 21 jan | Fouten per groep, uitlegbaarheid en generatieve AI; IEEE CertifAIEd |
-| 4 | do 28 jan | Van dilemma naar risico, met de risicoklassen van de AI-verordening |
-| 5 | di 2 feb | Vragenuur Assessment 1 |
-| 6 | do 11 feb | Van risico naar ontwerp, en de algemene feedback op Assessment 1; governance en leveranciers (AIGP) |
-| 7 | do 18 feb | Menselijke controle, met de toeslagenaffaire als casus |
-| 9 | do 4 mrt | Ethische signalen, de hertest en het beslismemo; de cyclus van ISO/IEC 42001 en het stopcriterium |
-| 10 | di 9 mrt | Vragenuur eindrapport en reflectie |
+| Moment | Wat studenten krijgen |
+| --- | --- |
+| Maandag 11 januari | Feedforward per groep op K1, schriftelijk |
+| Maandag 25 januari | Feedforward op het concept van K2 tot en met K4 |
+| Donderdag 18 februari | Schriftelijke feedback en cijfer op Assessment 1 |
+| Donderdag 25 februari | Feedback in college 3 en in de Design Review |
+| Dinsdag 9 maart | Peerfeedback op het concept eindrapport |
 
-Elke sessie bestaat uit 20 minuten uitleg, 25 minuten toepassing op het eigen rapport en 15 minuten vragen. Sessies worden opgenomen voor wie niet kan aansluiten. In week 3, 4, 6 en 9 gaan 5 van de 20 minuten uitleg over het kader van die week.
+**Kennischecks.** Aan het einde van blok 1, 2 en 3 een kennischeck van tien vragen met directe feedback, plus één standpunt over een stelling. Dit telt niet mee voor het cijfer, maar laat zien hoe elke student vordert. De standpunten gebruiken studenten in hun reflectie.
 
-**Debatlijn.** Het debat uit college 2 loopt door in elke online sessie. In de weekcheck schrijft elke student een standpunt van hoogstens 100 woorden over een stelling van die week. De sessie opent met twee studenten die de stelling verdedigen en aanvallen, elk twee minuten met bronnen, gevolgd door een peiling. Zo oefent iedereen elke week een onderbouwd oordeel. Het eigen oordeel telt mee in het dilemma-canvas (Assessment 1) en in de reflectie (Assessment 2).
+**Exit ticket.** Aan het eind van elk college drie korte vragen; ik gebruik de antwoorden voor de feedforward.
 
-**Weekcheck.** Elke woensdag vijf kennisvragen en een korte logboekregel over de eigen bijdrage aan het rapport. Dit telt niet mee voor het cijfer, maar laat zien hoe elke student vordert. In week 1, 3, 4, 6 en 8 gaat één van de vijf vragen over de kaderclip van die week.
+**Feedbackvorm.** Feedback op Assessment 1 en 2 heeft een vaste vorm: een kernboodschap, per criterium waarom en wat nodig is voor het volgende niveau, een redeneerketen-check, hoogstens vijf actiepunten en het cijfer onderaan. Groepen verwerken de actiepunten van Assessment 1 in de verwerkingslijst van het eindrapport.
 
-**Feedback.** Op maandag een kort bericht met de meest voorkomende fouten van vorige week. Op donderdag persoonlijke feedback aan twee groepen per week, op volgorde. In week 4, 7 en 9 geven groepen elkaar feedback met drie vaste vragen. Feedback op Assessment 1 en 2 heeft een vaste vorm: een kernboodschap, per criterium waarom en wat nodig is voor het volgende niveau, een redeneerketen-check, hoogstens vijf actiepunten en het cijfer onderaan; sterke groepen krijgen daarnaast een optionele expertblik. Groepen verwerken de actiepunten van Assessment 1 in de verwerkingslijst, bijlage E van het eindrapport: overgenomen, deels overgenomen of niet overgenomen.
+**Vroeg signaleren.** Wie een kennischeck of een groepsdeadline mist, krijgt een persoonlijk bericht.
 
-**Vroeg signaleren.** Wie twee weken geen weekcheck doet of een rapportstuk mist, krijgt een persoonlijk bericht.
-
-**Slagingskans.** Studenten krijgen in week 1 de rubric en een voorbeeldrapport. Het rapport groeit elke week, er is een conceptronde vóór Assessment 1, en vóór beide deadlines is er een vragenuur.
+**Slagingskans.** Studenten krijgen bij de start de rubric en een voorbeeldrapport. Het rapport groeit in twee stappen, en vóór beide assessments is er een conceptronde met feedback.
 
 # TOETSING EN RAPPORT
 
@@ -253,22 +225,22 @@ Het eindcijfer is 30% Assessment 1 plus 70% Assessment 2, met minimaal een 5,5. 
 
 Elke student is eigenaar van benoemde hoofdstukken. Peerbeoordeling van de inzet kan het groepscijfer per student verlagen bij aantoonbaar te weinig bijdrage.
 
-**Assessment 1: de diagnose.** Context en afbakening, stakeholders en datastromen, de nulmeting met bewijs, drie ethische dilemma's, de belangrijkste risico's, en een plan van aanpak voor de tweede helft. Het testverslag van practicum 4 hoort erbij als bijlage. Daarnaast werkt elke student één dilemma individueel uit in een canvas van 800 tot 1.000 woorden, met een eigen oordeel.
+**Assessment 1: de ethiekanalyse.** Toepassing en afbakening, stakeholders en impact, proces en data, de nulmeting met bewijs, de vijf belangrijkste risico's en een plan van aanpak voor de tweede helft (H1 tot en met H5). Het testverslag van practicum 4 mag als bijlage. Daarnaast werkt elke student één dilemma individueel uit in een canvas van 800 tot 1.000 woorden, met een eigen oordeel.
 
-**Assessment 2: het integrale advies.** Het herziene tussenrapport, de gewenste situatie, het ontwerp met maatregelen, menselijke controle en transparantie, het bewijs dat de maatregelen zijn ingebouwd en getest (de hertest van week 9, met week 4 en week 9 naast elkaar in een bijlage), het monitoringplan voor ethische signalen, en een beslismemo van één pagina in zeven vaste onderdelen, met als oordeel: verantwoord inzetbaar, inzetbaar onder voorwaarden, of nu niet. "Nu niet" is een volwaardig advies. Waar A-AI2 of A-DG iets al vastlegt, verwijst het rapport daarnaar in plaats van het te herhalen.
+**Assessment 2: het eindverslag.** Het tussenrapport, bijgewerkt na de feedback; per risico een eis, een maatregel met eigenaar en hoe wordt gecontroleerd dat die werkt; menselijke controle, bezwaar en governance; een monitoringplan met incidentroute en stopcriterium (H6 tot en met H8); en een beslismemo van één pagina in zeven vaste onderdelen, met als oordeel: verantwoord inzetbaar, inzetbaar onder voorwaarden, of nu niet. "Nu niet" is een volwaardig advies. Waar A-AI2 of A-DG iets al vastlegt, verwijst het rapport daarnaar in plaats van het te herhalen.
 
-**Individuele reflectie.** Welke dilemma's waren het lastigst, welke aanname bleek onjuist, welke feedback veranderde het oordeel, en wat was de eigen rol in het team? De student onderbouwt dit met het eigen logboek, de evidence cards en testverslagen, en de eigen standpunten uit de weekchecks: welk standpunt veranderde, en waardoor?
+**Individuele reflectie.** Welke dilemma's waren het lastigst, welke aanname bleek onjuist, welke feedback veranderde het oordeel, en wat was de eigen rol in het team? De student onderbouwt dit met de evidence cards, de standpunten uit de kennischecks en de ontvangen feedback.
 
-**Beoordelingscriteria.** Elk criterium kent vier niveaus: onvoldoende, voldoende, goed en excellent. De volledige rubric ontvangen studenten in week 1.
+**Beoordelingscriteria.** Elk criterium kent vier niveaus: onvoldoende, voldoende, goed en excellent. De volledige rubric ontvangen studenten bij de start. Een hertest van de maatregelen is niet verplicht, maar telt mee voor het niveau excellent.
 
 | Criterium | Competenties | A1 | A2 |
 | --- | --- | --- | --- |
 | Afbakening, context en stakeholders zijn helder en volledig | TC1 | ✓ | ✓ |
 | Conclusies rusten op bewijs; onzekerheden zijn benoemd | TC1, GC2 | ✓ | ✓ |
-| Dilemma's zijn gewogen met minimaal drie lenzen; het eigen oordeel is onderbouwd | TC1, GC2 | ✓ |  |
+| Het dilemma is gewogen met minimaal drie lenzen; het eigen oordeel is onderbouwd (individueel) | TC1, GC2 | ✓ |  |
 | Risico's zijn concreet geformuleerd en navolgbaar geprioriteerd | TC1 | ✓ | ✓ |
 | Advies en gewenste situatie zijn onderbouwd en proportioneel | TC2, GC1 | ✓ | ✓ |
-| Maatregelen zijn toetsbaar, hebben een eigenaar en zijn ingebouwd en getest | TC3, TC4, GC5 |  | ✓ |
+| Maatregelen zijn toetsbaar en hebben een eigenaar | TC3, TC4, GC5 |  | ✓ |
 | Ethische signalen worden gevolgd met indicatoren, drempels en acties, een incidentroute en een stopcriterium | TC5 |  | ✓ |
 | Het eindoordeel is helder, met voorwaarden en restrisico | TC2, GC4 |  | ✓ |
 | De reflectie toont zelfinzicht en eigen verantwoordelijkheid | GC3 |  | ✓ |
@@ -277,15 +249,14 @@ Op niveau goed en excellent van de criteria over risico's, maatregelen en monito
 
 # LEEROMGEVING
 
-De module draait op MyCampus, de leeromgeving van Janssen (maatwerk). De omgeving moet uiterlijk 14 december klaarstaan, wanneer de online voorbereiding opent.
+De module draait op MyCampus, de leeromgeving van Janssen (maatwerk). De omgeving moet uiterlijk 14 december klaarstaan, wanneer blok 0 opent.
 
-- **Naamgeving.** Materiaal volgt de conventie van MyCampus: "ICT A-ET <naam>". De dia's heten per week "College N", met N het weeknummer, ook in de weken met een online sessie. Het lesplan en de studiewijzer heten op MyCampus "ICT A-ET Lesplan" en "ICT A-ET Studiewijzer".
-- **Weekmodules.** Elke week een studentversie als pdf, met clips, opdrachten, bronnen en de sjablonen.
-- **Weekcheck.** De weekchecks, de beginquiz en de eindquiz voer ik handmatig in op MyCampus, omdat importeren niet kan.
+- **Naamgeving.** Materiaal volgt de conventie van MyCampus: "ICT A-ET <naam>". De dia's heten "ICT A-ET College 1", "College 2" en "College 3". De kennispakketten heten "ICT A-ET Blok 0 Voorbereiden" tot en met "ICT A-ET Blok 3 Verantwoorden".
+- **Kennispakketten.** Per blok een pdf met studietekst, clips, casussen, werkinstructies en sjablonen.
+- **Kennischecks.** De beginquiz en de drie kennischecks voer ik handmatig in op MyCampus, omdat importeren niet kan.
 - **Inleveren.** Per groep en individueel, steeds met een AI-verklaring, met feedback via de vaste feedbackvorm.
-- **Voortgang.** Een overzicht per student en groep, met een signaal na twee gemiste weken.
-- **Online sessies.** Met link, dia's en opnames.
-- **Toegankelijkheid.** Bruikbaar op mobiel en bij een trage verbinding. De geanimeerde clips (week 0 tot en met 3 en de kaderclips) hebben ondertitels; clips 11 tot en met 22 neem ik zelf op met dia's. Elke studentversie bevat de meeleestekst van de clips van die week.
+- **Voortgang.** Een overzicht per student en groep, met een signaal na een gemiste deadline.
+- **Toegankelijkheid.** Bruikbaar op mobiel en bij een trage verbinding. De geanimeerde clips hebben ondertitels, en elk kennispakket bevat de meeleestekst van de clips.
 - **Privacy.** Alleen noodzakelijke gegevens en een heldere privacyverklaring.
 
 # PUNTEN TER AFSTEMMING
@@ -293,34 +264,31 @@ De module draait op MyCampus, de leeromgeving van Janssen (maatwerk). De omgevin
 Op de volgende punten ontvang ik graag uw reactie. Een antwoord per nummer is voldoende.
 
 ### Opzet en planning
-1. Kunt u zich vinden in de opzet: drie fysieke colleges, zeven online sessies van een uur en een online voorbereiding in week 0?
-2. Mogen de zeven online sessies naast de 9 contacturen worden ingepland? Hoe worden ze vergoed, en via welk platform verlopen ze?
-3. Kan de online voorbereiding op 14 december openen? Zijn studenten dan al ingeschreven en bereikbaar?
-4. Is donderdag 25 februari 2027 een gewone lesdag?
+1. Kunt u zich vinden in de opzet: drie fysieke colleges volgens de vakbeschrijving, met daartussen vier zelfstudieblokken en vaste feedbackmomenten, zonder online lessen?
+2. Kan blok 0 op 14 december openen? Zijn studenten dan al ingeschreven en bereikbaar?
+3. Is donderdag 25 februari 2027 een gewone lesdag?
 
 ### Studenten
-5. Hoeveel studenten verwacht u, uit welke opleidingen, en studeren zij voltijd of naast hun werk?
-6. Gaat u akkoord dat groepen standaard hun eigen oplossing uit A-AI2 als casus nemen, met de partner uit A-AI2 als organisatie? De vakbeschrijving noemt in college 1 een "casusverdeling"; ik lees die als de keuze van de eigen casus.
-7. Beschikken alle studenten over een laptop met Windows of macOS?
+4. Hoeveel studenten verwacht u, uit welke opleidingen, en studeren zij voltijd of naast hun werk?
+5. Gaat u akkoord dat groepen standaard hun eigen oplossing uit A-AI2 als casus nemen, met de partner uit A-AI2 als organisatie?
+6. Beschikken alle studenten over een laptop met Windows of macOS?
 
 ### Toetsing
-8. Gaat u akkoord met de verdeling van 60% groepsdeel en 40% individueel deel per toets, en met de voorgestelde omvang?
-9. Is er een bestaande rubric, portfoliohandleiding of format waar ik op moet aansluiten?
-10. Wanneer en in welke vorm vinden de herkansingen plaats?
-11. Is een online verantwoordingsgesprek van 15 minuten per student in week 11 mogelijk, als aanvulling op de individuele beoordeling?
+7. Gaat u akkoord met de verdeling van 60% groepsdeel en 40% individueel deel per toets, en met de voorgestelde omvang?
+8. Is er een bestaande rubric of format waar ik op moet aansluiten?
+9. Wanneer en in welke vorm vinden de herkansingen plaats?
 
 ### Leeromgeving en externe deelnemers
-12. Bevestigt u dat A-ET op MyCampus wordt ingericht volgens de naamgeving 'ICT A-ET'?
-13. Kunt u zich vinden in 45 minuten gastcollege plus 25 minuten vragen tijdens college 2?
-14. Mag bij college 3 een externe deskundige aanschuiven als panellid, en is daar een vergoeding voor?
+10. Bevestigt u dat A-ET op MyCampus wordt ingericht volgens de naamgeving 'ICT A-ET'?
+11. Kunt u zich vinden in 45 minuten gastcollege plus 20 minuten vragen tijdens college 2?
+12. Mag bij college 3 een externe deskundige aanschuiven als panellid, en is daar een vergoeding voor?
 
 ### Aansluiting op de minor
-15. Kunt u de datum van de AI Solutions Day van A-AI2 bevestigen?
-16. In welke weken vallen de toetsen van A-AI2 en A-DG? De syllabus noemt voor A-DG week 1 en week 2; ik vermoed dat week 5 en week 10 bedoeld zijn.
-17. Mogen groepen op de AI Solutions Day van A-AI2 ook hun ethische maatregelen laten zien?
+13. Kunt u de datum van de AI Solutions Day van A-AI2 bevestigen?
+14. In welke weken vallen de toetsen van A-AI2 en A-DG? De syllabus noemt voor A-DG week 1 en week 2; ik vermoed dat week 5 en week 10 bedoeld zijn.
 
 ### Tot slot
-18. Mist u iets in dit plan, of ziet u iets liever anders?
+15. Mist u iets in dit plan, of ziet u iets liever anders?
 
 # BRONNEN
 

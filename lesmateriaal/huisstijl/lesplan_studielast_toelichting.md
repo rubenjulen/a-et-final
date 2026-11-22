@@ -1,3 +1,1 @@
-Alle activiteiten passen in de 84 SBU en de vijf categorieën van de vakbeschrijving. Een student besteedt 7 tot 9 uur per week.
-
-De online sessies staan hier onder huiswerk, omdat de vakbeschrijving daar het verwerken van gesprekken en feedback noemt. Als Janssen ze als extra contacturen ziet, verandert alleen de indeling, niet de totale studielast. De kaderclips A tot en met E (samen ongeveer 34 minuten: A 5, B 7, C 8, D 7 en E 7; clip 13 wordt daarvoor 3 minuten korter) vallen binnen de 10 SBU voor clips, weekcheck en kernbronnen.
+Alle activiteiten passen in de 84 SBU en de vijf categorieën van de vakbeschrijving. De verdeling volgt de vakbeschrijving: 9 SBU contact in drie colleges, de rest zelfstudie en groepswerk in vier blokken. De kaderclips A tot en met E (samen ongeveer 34 minuten) en de kennisclips vallen binnen de 10 SBU zelfstudie.
