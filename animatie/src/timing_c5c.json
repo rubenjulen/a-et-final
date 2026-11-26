@@ -1,0 +1,182 @@
+{
+ "cues": [
+  {
+   "key": "B0",
+   "text": "Drie soorten black box.",
+   "start": 0.8,
+   "dur": 1.646,
+   "audio": true
+  },
+  {
+   "key": "B1",
+   "text": "Een aanvrager bij Suribank krijgt een bericht: uw aanvraag is afgewezen. Waarom? Dat staat er niet.",
+   "start": 4.646,
+   "dur": 7.706,
+   "audio": true
+  },
+  {
+   "key": "B2",
+   "text": "Zo'n systeem heet een black box. Je ziet wat erin gaat en wat eruit komt, maar niet wat er binnenin gebeurt.",
+   "start": 12.852,
+   "dur": 6.766,
+   "audio": true
+  },
+  {
+   "key": "B3",
+   "text": "Het begrip komt uit de techniek. In 2015 maakte Frank Pasquale er een maatschappelijk thema van, met zijn boek The Black Box Society.",
+   "start": 20.118,
+   "dur": 9.796,
+   "audio": true
+  },
+  {
+   "key": "B4",
+   "text": "Maar een black box is niet altijd hetzelfde. De onderzoeker Jenna Burrell onderscheidde in 2016 drie soorten. Elke soort vraagt een ander antwoord.",
+   "start": 30.413,
+   "dur": 10.188,
+   "audio": true
+  },
+  {
+   "key": "S1a",
+   "text": "Soort één: bewust geheim. Het model kan wel worden uitgelegd, maar de eigenaar wil het niet laten zien. Het is een bedrijfsgeheim, of een staatsgeheim.",
+   "start": 41.501,
+   "dur": 9.639,
+   "audio": true
+  },
+  {
+   "key": "S1b",
+   "text": "Een voorbeeld is SyRI, een Nederlands systeem dat fraude met uitkeringen moest opsporen. Het risicomodel was geheim. In februari 2020 oordeelde de rechter dat de wet het recht op privéleven schond, mede omdat niemand kon controleren hoe het werkte.",
+   "start": 51.54,
+   "dur": 17.633,
+   "audio": true
+  },
+  {
+   "key": "S1c",
+   "text": "In de Verenigde Staten gebruikte een rechter in de zaak Loomis een geheime risicoscore bij het bepalen van de straf. De verdachte kon die score niet controleren.",
+   "start": 69.573,
+   "dur": 10.684,
+   "audio": true
+  },
+  {
+   "key": "S1d",
+   "text": "Het antwoord op deze soort: openheid, of een onafhankelijke audit. Iemand van buiten moet kunnen meekijken.",
+   "start": 80.657,
+   "dur": 7.314,
+   "audio": true
+  },
+  {
+   "key": "S2a",
+   "text": "Soort twee: te ingewikkeld voor wie het raakt. De uitleg bestaat wel, maar alleen in vaktaal.",
+   "start": 88.871,
+   "dur": 6.844,
+   "audio": true
+  },
+  {
+   "key": "S2b",
+   "text": "De aanvrager krijgt bijvoorbeeld: score 42, drempel 50, belangrijkste kenmerken district, looptijd en inkomen. Wat moet ze daarmee?",
+   "start": 96.116,
+   "dur": 10.762,
+   "audio": true
+  },
+  {
+   "key": "S2c",
+   "text": "Wie de uitleg niet begrijpt, kan ook geen bezwaar maken. Het antwoord: uitleg in gewone taal, en een loket waar je terecht kunt.",
+   "start": 107.278,
+   "dur": 9.404,
+   "audio": true
+  },
+  {
+   "key": "S2d",
+   "text": "Bijvoorbeeld: met een looptijd van vierentwintig in plaats van twaalf maanden was uw aanvraag goedgekeurd. Dat heet een contrafactische uitleg: wat had er anders moeten zijn?",
+   "start": 117.082,
+   "dur": 10.762,
+   "audio": true
+  },
+  {
+   "key": "S3a",
+   "text": "Soort drie: ook voor de makers onbekend. Het model is zo groot dat zelfs de experts niet precies weten waarom een uitkomst zo uitvalt.",
+   "start": 128.744,
+   "dur": 9.874,
+   "audio": true
+  },
+  {
+   "key": "S3b",
+   "text": "Een groot taalmodel bestaat uit miljarden getallen, de gewichten. Je kunt ze allemaal bekijken, maar ze vertellen niet wat ze betekenen. De code lezen helpt dus niet.",
+   "start": 139.019,
+   "dur": 10.841,
+   "audio": true
+  },
+  {
+   "key": "S3c",
+   "text": "Gebruiken jullie een taalmodel van een externe aanbieder? Dan heb je met soort één én soort drie te maken.",
+   "start": 150.26,
+   "dur": 6.531,
+   "audio": true
+  },
+  {
+   "key": "S3d",
+   "text": "Het antwoord: kies bij grote gevolgen een leesbaar model als dat even goed werkt, zoals Cynthia Rudin in 2019 bepleitte. Of zorg voor strenge menselijke controle.",
+   "start": 157.19,
+   "dur": 12.042,
+   "audio": true
+  },
+  {
+   "key": "Q1",
+   "text": "Tussenvraag. Een gemeente gebruikt een risicomodel, maar de leverancier weigert te laten zien hoe het werkt. Welke soort is dat? A, bewust geheim. B, te ingewikkeld. C, ook voor de makers onbekend.",
+   "start": 170.133,
+   "dur": 16.274,
+   "audio": true
+  },
+  {
+   "key": "Q1b",
+   "text": "Het antwoord is A, bewust geheim. Het antwoord daarop is openheid, of een audit door iemand van buiten.",
+   "start": 194.407,
+   "dur": 7.393,
+   "audio": true
+  },
+  {
+   "key": "W1",
+   "text": "Mag een black box dan nooit? Toch wel. Bij lage impact, als het systeem alleen adviseert en een mens echt beslist. Denk aan muziekaanbevelingen.",
+   "start": 202.7,
+   "dur": 10.266,
+   "audio": true
+  },
+  {
+   "key": "W2",
+   "text": "Niet als rechten of vrijheid op het spel staan, als er geen bezwaar mogelijk is, of als niemand echt ingrijpt. De vuistregel: hoe groter de impact op iemands leven, hoe zwaarder de eis aan uitleg.",
+   "start": 213.366,
+   "dur": 13.166,
+   "audio": true
+  },
+  {
+   "key": "Q2",
+   "text": "Tussenvraag. De aanvrager krijgt alleen: score 42, drempel 50. Welke soort black box is dat? A, bewust geheim. B, te ingewikkeld voor wie het raakt. C, ook voor de makers onbekend.",
+   "start": 227.431,
+   "dur": 16.039,
+   "audio": true
+  },
+  {
+   "key": "Q2b",
+   "text": "Het antwoord is B. De uitleg bestaat, maar niet in taal die de aanvrager begrijpt.",
+   "start": 251.471,
+   "dur": 5.956,
+   "audio": true
+  },
+  {
+   "key": "S9",
+   "text": "Samengevat. Bewust geheim vraagt om openheid of een audit. Te ingewikkeld vraagt om uitleg in gewone taal. Ook voor de makers onbekend vraagt om een leesbaar model, of strenge menselijke controle.",
+   "start": 258.327,
+   "dur": 14.524,
+   "audio": true
+  },
+  {
+   "key": "N1",
+   "text": "Nu jij. Welke soort black box zit er in jullie oplossing, en voor wie? Schrijf het op bij domein zes van de nulmeting: transparantie.",
+   "start": 273.751,
+   "dur": 9.561,
+   "audio": true
+  }
+ ],
+ "total": 284.61,
+ "audioDir": "aud_c5c",
+ "estimated": []
+}

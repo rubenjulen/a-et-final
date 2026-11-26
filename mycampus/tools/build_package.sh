@@ -51,6 +51,7 @@ cp "$PDF/A-ET_College3_dias.pdf" "$B2/$P College 3.pdf"
 cp "$OUT/week0/Kennisclip2_Waarom_maakt_AI_fouten_Matilda.mp4" "$B0/$P Kennisclip 2.mp4"
 cp "$OUT/week0/Kennisclip3_Fouten_tellen_Matilda.mp4"          "$B0/$P Kennisclip 3.mp4"
 cp "$OUT/blok1/Kennisclip5b_Vijf_ethische_kaders_Matilda.mp4"   "$B1/$P Kennisclip 5b.mp4"
+cp "$OUT/blok1/Kennisclip5c_Drie_soorten_black_box_Matilda.mp4"  "$B1/$P Kennisclip 5c.mp4"
 # Practica als zip; binnen de zip blijven de originele namen (notebooks lezen de csv's op naam)
 mkzip(){ (cd "$1" && rm -f "$2" && zip -qX "$2" *); }
 mkzip "$OUT/week0/practicum1"   "$B0/$P Practicum 1.zip"

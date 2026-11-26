@@ -44,7 +44,7 @@ Je bepaalt zelf je tempo, zolang je de deadlines haalt. Deze route werkt goed.
 
 **7 tot en met 14 januari: de colleges en K1.**
 
-1. Volg college 1. Lees in De kern de delen tot en met de vier lenzen. Bekijk clip 5, clip 5b en kaderclip A, en lees de kernbron van UNESCO.
+1. Volg college 1. Lees in De kern de delen tot en met de vier lenzen. Bekijk clip 5, 5b, 5c en kaderclip A, en lees de kernbron van UNESCO.
 2. Werk met je groep K1 en de teamafspraken uit. Spreek kort met jullie partner of A-AI2-coach. Lever in vóór zondag 10 januari.
 3. Lees maandag de feedforward en werk K1 bij. Bereid college 2 voor, vóór dinsdag 12 januari.
 4. Lees vóór college 2 de delen over bias, privacy, verantwoording en menselijke controle. Bekijk clip 6, 7 en 8, en lees de kernbron Gender Shades.
@@ -85,6 +85,7 @@ Dit is de studietekst van blok 1: de theorie voor de instrumenten, het rapport e
 | --- | --- | --- | --- |
 | Clip 5 | Wie beslist er eigenlijk? | 3 min | Van data tot gevolg |
 | Clip 5b | Vijf ethische kaders | 7 min | Vier ethische lenzen |
+| Clip 5c | Drie soorten black box | 5 min | Uitleg: de black box openen |
 | Kaderclip A | Het kaderlandschap | 5 min | Eén kader, vier lagen; vier lenzen |
 | Clip 6 | Waar komt bias vandaan? | 4 min | Bias |
 | Clip 7 | Privacy als ethische vraag | 4 min | Privacy |
@@ -1262,6 +1263,26 @@ Hier staat de gesproken tekst van de clips van blok 1, in de volgorde van De ker
 > **Tussenvraag 2.** Iemand zegt: hoeveel het ook oplevert, een aanvrager heeft altijd recht op uitleg. Welk kader is dat? A. Gevolgen. B. Plichten. C. Zorg.
 
 **Dia 10. Samengevat.** Samengevat. Gevolgen vraagt wat het oplevert. Plichten vraagt wat nooit mag. Rechtvaardigheid vraagt hoe de lasten verdeeld zijn. Deugd vraagt wat een goede professional doet. En zorg vraagt wie afhankelijk is. Nu jij. Kies één dilemma uit jullie eigen oplossing. Welk kader gebruik je als eerste, en welk kader spreekt het het meest tegen? Schrijf het op voor je dilemma-canvas.
+
+### Clip 5c. Drie soorten black box (5 minuten)
+
+**Dia 1. Afgewezen, maar waarom?** Een aanvrager bij Suribank krijgt een bericht: uw aanvraag is afgewezen. Waarom? Dat staat er niet. Zo'n systeem heet een black box. Je ziet wat erin gaat en wat eruit komt, maar niet wat er binnenin gebeurt.
+
+**Dia 2. Waar komt het begrip vandaan?** Het begrip komt uit de techniek. In 2015 maakte Frank Pasquale er een maatschappelijk thema van, met zijn boek The Black Box Society. Maar een black box is niet altijd hetzelfde. De onderzoeker Jenna Burrell onderscheidde in 2016 drie soorten. Elke soort vraagt een ander antwoord.
+
+**Dia 3. Soort 1: bewust geheim.** Soort één: bewust geheim. Het model kan wel worden uitgelegd, maar de eigenaar wil het niet laten zien. Het is een bedrijfsgeheim, of een staatsgeheim. Een voorbeeld is SyRI, een Nederlands systeem dat fraude met uitkeringen moest opsporen. Het risicomodel was geheim. In februari 2020 oordeelde de rechter dat de wet het recht op privéleven schond, mede omdat niemand kon controleren hoe het werkte. In de Verenigde Staten gebruikte een rechter in de zaak Loomis een geheime risicoscore bij het bepalen van de straf. De verdachte kon die score niet controleren. Het antwoord op deze soort: openheid, of een onafhankelijke audit. Iemand van buiten moet kunnen meekijken.
+
+**Dia 4. Soort 2: te ingewikkeld voor wie het raakt.** Soort twee: te ingewikkeld voor wie het raakt. De uitleg bestaat wel, maar alleen in vaktaal. De aanvrager krijgt bijvoorbeeld: score 42, drempel 50, belangrijkste kenmerken district, looptijd en inkomen. Wat moet ze daarmee? Wie de uitleg niet begrijpt, kan ook geen bezwaar maken. Het antwoord: uitleg in gewone taal, en een loket waar je terecht kunt. Bijvoorbeeld: met een looptijd van vierentwintig in plaats van twaalf maanden was uw aanvraag goedgekeurd. Dat heet een contrafactische uitleg: wat had er anders moeten zijn?
+
+**Dia 5. Soort 3: ook voor de makers onbekend.** Soort drie: ook voor de makers onbekend. Het model is zo groot dat zelfs de experts niet precies weten waarom een uitkomst zo uitvalt. Een groot taalmodel bestaat uit miljarden getallen, de gewichten. Je kunt ze allemaal bekijken, maar ze vertellen niet wat ze betekenen. De code lezen helpt dus niet. Gebruiken jullie een taalmodel van een externe aanbieder? Dan heb je met soort één én soort drie te maken. Het antwoord: kies bij grote gevolgen een leesbaar model als dat even goed werkt, zoals Cynthia Rudin in 2019 bepleitte. Of zorg voor strenge menselijke controle.
+
+> **Tussenvraag 1.** Een gemeente gebruikt een risicomodel, maar de leverancier weigert te laten zien hoe het werkt. Welke soort is dat? A. Bewust geheim. B. Te ingewikkeld. C. Ook voor de makers onbekend.
+
+**Dia 6. Mag een black box?** Mag een black box dan nooit? Toch wel. Bij lage impact, als het systeem alleen adviseert en een mens echt beslist. Denk aan muziekaanbevelingen. Niet als rechten of vrijheid op het spel staan, als er geen bezwaar mogelijk is, of als niemand echt ingrijpt. De vuistregel: hoe groter de impact op iemands leven, hoe zwaarder de eis aan uitleg.
+
+> **Tussenvraag 2.** De aanvrager krijgt alleen: score 42, drempel 50. Welke soort black box is dat? A. Bewust geheim. B. Te ingewikkeld voor wie het raakt. C. Ook voor de makers onbekend.
+
+**Dia 7. Samengevat.** Samengevat. Bewust geheim vraagt om openheid of een audit. Te ingewikkeld vraagt om uitleg in gewone taal. Ook voor de makers onbekend vraagt om een leesbaar model, of strenge menselijke controle. Nu jij. Welke soort black box zit er in jullie oplossing, en voor wie? Schrijf het op bij domein zes van de nulmeting: transparantie.
 
 ### Kaderclip A. Het kaderlandschap (5 minuten)
 
