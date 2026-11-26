@@ -6,7 +6,8 @@ Map in het pakket: `Blok2_Ontwerpen`.
 | --- | --- | --- |
 | ICT A-ET Blok 2 Ontwerpen.pdf (kennispakket 2) | Blok 2, bovenaan; online vanaf vrijdag 5 februari | Klaar |
 | ICT A-ET College 3.pdf (24 dia's, zonder docentdia) | Blok 2, na afloop van college 3 | Klaar; panel, tijd en lokaal vooraf invullen |
-| Kennisclip 15 tot en met 20, kaderclip D en E | Blok 2, kennisclips | Ontbreekt: nog op te nemen (opnamekits Blok 2); tot dan de meeleestekst in kennispakket 2 |
+| ICT A-ET Kaderclip D.mp4 (Governance over de levenscyclus, 6:19) en ICT A-ET Kaderclip E.mp4 (ISO/IEC 42001, 6:53) | Blok 2, kennisclips | Klaar |
+| Kennisclip 15 tot en met 20 | Blok 2, kennisclips | Ontbreekt: nog op te nemen (opnamekits Blok 2); tot dan de meeleestekst in kennispakket 2 |
 | ICT A-ET Sjabloon eindrapport.docx, Werkboek instrumenten.xlsx | Link naar Sjablonen (00_Algemeen) | Klaar |
 | Schriftelijke feedback en cijfer op Assessment 1 | MyCampus, donderdag 18 februari | Docent; feedbackformulieren in de docentmap |
 | ICT A-ET Kennischeck 2 (10 vragen en een standpunt) | Quiz in MyCampus, sluit woensdag 24 februari 23:59 | Aanmaken uit het invoerbestand of GIFT |

@@ -42,19 +42,19 @@ S=[
 "Een organisatie hoeft niet alles te doen. Ze kiest wat past bij haar risico's, en legt uit waarom.",
 "Daarom heeft K7 een kolom Kader. Daar kun je bijvoorbeeld naar een gebied uit Annex A verwijzen.",
 "Neem de orderagent van Frisco Installaties. Die gebruikt n8n en een taalmodel van een andere partij.",
-"De leverancierscheck uit week 6 hoort dan bij A.10, derde partijen."]),
+"De leverancierscheck uit H6 hoort dan bij A.10, derde partijen."]),
 ("E5","Terug naar het wiel. Drie groene vinkjes verschijnen: Design Review bij Check (label \"9.2 interne audit\"), beslismemo bij Act/Check (label \"9.3 managementreview\", met een kalenderblad \"volgende review\"), AI-beleidsregel bij Plan (label \"A.2\").",[
 "Het goede nieuws: jullie doen al veel van wat de norm vraagt.",
-"De Design Review in week 8 is een peer-audit, zoals de interne audit uit clausule 9.2.",
-"Ook de hertest in week 9 is check: dezelfde testset als in week 4, zodat je ziet wat de maatregelen echt veranderden.",
-"Het beslismemo in week 9 is een managementreview, clausule 9.3. Die kijkt terug en beslist vooruit.",
+"De Design Review in college 3 is een vorm van audit, zoals de interne audit uit clausule 9.2.",
+"Ook de hertest in blok 3 is check: dezelfde testset als bij practicum 4, zodat je ziet wat de maatregelen echt veranderden.",
+"Het beslismemo in blok 3 is een managementreview, clausule 9.3. Die kijkt terug en beslist vooruit.",
 "Daarom vraagt het memo ook om de datum van de volgende review.",
-"Elke maatregel in K7 heeft een eigenaar. En de AI-beleidsregel uit week 7 is een klein stukje AI-beleid, A.2."]),
+"Elke maatregel in K7 heeft een eigenaar. En de AI-beleidsregel uit H7 is een klein stukje AI-beleid, A.2."]),
 ("E6","Het lege vak Act vult zich. Links een kaart \"Incidentroute: wat, wie, aan wie, wanneer\"; rechts een grote schakelaar \"Stopcriterium\". Daarna het ClaimWacht-dashboard van Tamarinde: indicator 1 kleurt twee maanden rood, de schakelaar voor één regio springt om naar \"steekproefcontrole\", de Manager Declaraties zet een paraaf. Kalenderblad: \"volgende review maart 2028\".",[
 "Wat er nog bij moet, zit in clausule 10: afwijkingen en incidenten.",
 "Wat is een incident? Wie meldt het, aan wie, en binnen welke termijn?",
 "En wanneer gaat het systeem uit, en wie beslist dat?",
-"In week 9 worden dat twee vaste regels in K8: de incidentroute en het stopcriterium.",
+"In blok 3 worden dat twee vaste regels in K8: de incidentroute en het stopcriterium.",
 "Voor een voldoende op monitoring in het eindrapport zijn ze allebei verplicht.",
 "Bij de orderagent van Frisco kan een incident zijn: de agent bevestigt een order met een verkeerde prijs. Wie ziet dat, en wie hoort het?",
 "Kijk naar ClaimWacht van verzekeraar Tamarinde, uit het voorbeeldrapport.",
@@ -66,12 +66,12 @@ S=[
 ("EQ2b","Twee kaartjes: \"mag bijsturen of stoppen\" en \"vast ritme: jaarlijks, eerder na een incident\".",[
 "Kies iemand die het systeem mag bijsturen of stoppen, niet alleen iemand die het bouwde.",
 "En spreek een vast ritme af: bijvoorbeeld elk jaar, en eerder na een incident."]),
-("E7","\"Nu jij, met je groep\": een leeg PDCA-wiel en een stapel K7-kaartjes die de kijker zelf moet plaatsen. Onderin: \"donderdag minicollege · week 9 K8\".",[
+("E7","\"Nu jij, met je groep\": een leeg PDCA-wiel en een stapel K7-kaartjes die de kijker zelf moet plaatsen. Onderin: \"college 3, daarna K8 in blok 3\".",[
 "Nu jij, met je groep.",
 "Teken de cirkel van plan, do, check en act, en zet elke maatregel uit K7 op zijn plek.",
 "Waar de cirkel open blijft, zit jullie gat.",
 "Een gat is geen ramp. Een gat dat je niet ziet, wel.",
-"Dat werk je donderdag uit in het minicollege, en volgende week in K8."]),
+"Dat werk je uit in college 3, en daarna in K8."]),
 ]
 z=[];tot=0;rows=[]
 for k,beeld,zs in S:
@@ -83,7 +83,7 @@ for k,beeld,zs in S:
     rows.append((k,beeld," ".join(zs)))
 json.dump(z,open('zinnen.json','w'),ensure_ascii=False,indent=0)
 print('tekens',tot,'zinnen',len(z))
-md="## Kaderclip E · ISO/IEC 42001: van maatregel naar managementsysteem (7 minuten, week 8)\n\n"
+md="## Kaderclip E · ISO/IEC 42001: van maatregel naar managementsysteem (7 minuten, blok 2)\n\n"
 md+="**Doel.** De student kan het eigen ontwerp plaatsen in de verbetercyclus van ISO/IEC 42001 en ziet welke stappen nog ontbreken.\n\n"
 md+="| Sleutel | Beeld | Gesproken tekst |\n| --- | --- | --- |\n"
 for k,b,t in rows:

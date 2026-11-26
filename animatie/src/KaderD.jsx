@@ -4,7 +4,7 @@ import timing from './timing_kD.json';
 import {
   C, SERIF, SANS, FPS, clamp, makeF, useSpr, mix, Pop, Card, Banner, Heading,
   Quiz8, TitleScene, ClipShell, Person,
-} from './wk3kit';
+} from './wk3kit_j';
 
 const tm = makeF(timing);
 const { F } = tm;
@@ -34,14 +34,14 @@ const Title = () => {
   const pads = ['Eigenaar', 'Proces', 'Leverancier'];
   const target = Math.min(2, Math.floor(interpolate(frame, [F('D0a', 4.2), F('D0a', 8.2)], [0, 2.99], clamp)));
   return (
-    <TitleScene at={F('D0a', -0.3)} kicker={`KADERCLIP D · ${AMP} · WEEK 6`} title="Governance over de levenscyclus">
-      <div style={{ position: 'absolute', left: 140, top: 560, width: 900, fontFamily: SANS, fontSize: 38, color: '#C9D8D1' }}>leveranciers en AI-agents (AIGP)</div>
+    <TitleScene at={F('D0a', -0.3)} kicker={`KADERCLIP D · ${AMP} · BLOK 2`} title="Governance over de levenscyclus">
+      <div style={{ position: 'absolute', left: 140, top: 560, width: 900, fontFamily: SANS, fontSize: 38, color: '#C9D6E8' }}>leveranciers en AI-agents (AIGP)</div>
       <div style={{ position: 'absolute', left: 1180, top: 210, width: 600, height: 500 }}>
         <div style={{ position: 'absolute', left: 140 + (target - 1) * 180 * drop, top: 20 + drop * 250, width: 320, background: C.amber, color: C.dark, fontFamily: SANS, fontWeight: 700, fontSize: 28, padding: '18px 22px', borderRadius: 16, textAlign: 'center', opacity: on(frame, 'D0a', 2.5) ? 1 : 0, boxShadow: '0 16px 30px rgba(0,0,0,.25)' }}>Maatregel</div>
         {pads.map((p, i) => {
           const lit = drop > 0.95 && target === i;
           return (
-            <div key={p} style={{ position: 'absolute', left: i * 200, top: 380, width: 180, padding: '16px 0', textAlign: 'center', borderRadius: 14, fontFamily: SANS, fontWeight: 700, fontSize: 26, color: lit ? C.dark : '#C9D8D1', background: lit ? C.light : 'rgba(255,255,255,0.08)', border: '2px solid rgba(255,255,255,0.25)', opacity: on(frame, 'D0a', 1.0 + i * 0.4) ? 1 : 0 }}>{p}</div>
+            <div key={p} style={{ position: 'absolute', left: i * 200, top: 380, width: 180, padding: '16px 0', textAlign: 'center', borderRadius: 14, fontFamily: SANS, fontWeight: 700, fontSize: 26, color: lit ? C.dark : '#C9D6E8', background: lit ? C.light : 'rgba(255,255,255,0.08)', border: '2px solid rgba(255,255,255,0.25)', opacity: on(frame, 'D0a', 1.0 + i * 0.4) ? 1 : 0 }}>{p}</div>
           );
         })}
       </div>
@@ -183,7 +183,7 @@ const Agent = () => {
         })}
       </svg>
       <Pop at={F('D3a', 1.0)} style={{ left: cx - 190, top: cy - 90, width: 380 }}>
-        <div style={{ background: C.dark, color: C.light, borderRadius: 24, padding: '24px 28px', textAlign: 'center', boxShadow: '0 18px 40px rgba(18,49,42,.3)' }}>
+        <div style={{ background: C.dark, color: C.light, borderRadius: 24, padding: '24px 28px', textAlign: 'center', boxShadow: '0 18px 40px rgba(0,32,96,.3)' }}>
           <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 22, letterSpacing: 2, color: C.amber }}>FRISCO INSTALLATIES</div>
           <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 44 }}>Orderagent</div>
         </div>
@@ -213,7 +213,7 @@ const Agent = () => {
         </div>
       </Pop>
       <Pop at={F('D3e', 0.5)} style={{ left: 128, top: 815, width: 1664 }}>
-        <div style={{ background: '#FFF0C8', border: `2px solid ${C.amber}`, borderRadius: 16, padding: '12px 26px', fontFamily: SANS, fontWeight: 700, fontSize: 30, color: C.dark }}>
+        <div style={{ background: '#F7F0DD', border: `2px solid ${C.amber}`, borderRadius: 16, padding: '12px 26px', fontFamily: SANS, fontWeight: 700, fontSize: 30, color: C.dark }}>
           Teken het in K3: welke gegevens gaan erheen, en waar worden ze opgeslagen?
         </div>
       </Pop>
@@ -236,7 +236,7 @@ const Check = () => {
     <AbsoluteFill style={{ background: C.light }}>
       <Heading at={F('D4a', 0)} kicker="VOOR ELKE EXTERNE DIENST">De leverancierscheck</Heading>
       <Pop at={F('D4a', 1.2)} style={{ left: 128, top: 250, width: 1060 }}>
-        <div style={{ background: C.card, border: `2px solid ${C.line}`, borderRadius: 22, padding: '20px 30px', boxShadow: '0 14px 34px rgba(18,49,42,.10)' }}>
+        <div style={{ background: C.card, border: `2px solid ${C.line}`, borderRadius: 22, padding: '20px 30px', boxShadow: '0 14px 34px rgba(0,32,96,.10)' }}>
           <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 22, letterSpacing: 2, color: C.green, marginBottom: 6 }}>K7 · LEVERANCIERSCHECK · TAALMODEL-API</div>
           {QUESTIONS.map(([k, q], i) => {
             const s = interpolate(frame, [F(k, 0.1), F(k, 0.6)], [0, 1], clamp);
@@ -245,7 +245,7 @@ const Check = () => {
               <div key={k} style={{ display: 'flex', alignItems: 'center', gap: 22, padding: '14px 0', borderTop: i ? `2px solid ${C.line}` : 'none', opacity: s, transform: `translateX(${(1 - s) * 30}px)` }}>
                 <span style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 48, color: C.amber, width: 40 }}>{i + 1}</span>
                 <span style={{ flex: 1, fontFamily: SANS, fontSize: 31, color: C.ink, lineHeight: 1.25 }}>{q}</span>
-                <span style={{ width: 160, textAlign: 'center', fontFamily: SANS, fontWeight: 700, fontSize: 24, padding: '6px 0', borderRadius: 10, color: ans === 'onbekend' ? C.card : C.green, background: ans === 'onbekend' ? C.terra : ans ? '#E3F0E8' : 'transparent' }}>{ans}</span>
+                <span style={{ width: 160, textAlign: 'center', fontFamily: SANS, fontWeight: 700, fontSize: 24, padding: '6px 0', borderRadius: 10, color: ans === 'onbekend' ? C.card : C.green, background: ans === 'onbekend' ? C.terra : ans ? '#E2F1E8' : 'transparent' }}>{ans}</span>
               </div>
             );
           })}
@@ -285,7 +285,7 @@ const AgentLimits = () => {
         <>
           <Pop at={F('D5a', 1.5)} style={{ left: 128, top: 280, width: 560 }}>
             <Card><div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 24, color: C.mute }}>CHATBOT</div>
-              <div style={{ marginTop: 12, background: '#E6EEEA', borderRadius: '18px 18px 18px 6px', padding: '14px 20px', fontFamily: SANS, fontSize: 28 }}>De installatie kost ongeveer…</div></Card>
+              <div style={{ marginTop: 12, background: '#EAF0F8', borderRadius: '18px 18px 18px 6px', padding: '14px 20px', fontFamily: SANS, fontSize: 28 }}>De installatie kost ongeveer…</div></Card>
           </Pop>
           <Pop at={F('D5a', 3.2)} style={{ left: 760, top: 280, width: 1030 }}>
             <Card><div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 24, color: C.terra }}>AGENT</div>
@@ -325,7 +325,7 @@ const AgentLimits = () => {
             </Card>
           </Pop>
           <Pop at={F('D5f', 0.2)} style={{ left: 990, top: 490, width: 800 }}>
-            <div style={{ background: C.dark, borderRadius: 20, padding: '20px 26px', fontFamily: "'Courier New', monospace", fontSize: 25, color: '#C9D8D1' }}>
+            <div style={{ background: C.dark, borderRadius: 20, padding: '20px 26px', fontFamily: "'Courier New', monospace", fontSize: 25, color: '#C9D6E8' }}>
               <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 22, letterSpacing: 2, color: C.amber, marginBottom: 8 }}>LOGBOEK VAN DE AGENT</div>
               {logs.map((l, i) => <div key={l} style={{ opacity: on(frame, 'D5f', 0.8 + i * 0.9) ? 1 : 0, marginTop: 4 }}>{l}</div>)}
             </div>
@@ -372,7 +372,7 @@ const Kader = () => {
             return (
               <div key={m} style={{ display: 'grid', gridTemplateColumns: '1.25fr 1fr', padding: '18px 26px', borderTop: `2px solid ${C.line}`, fontFamily: SANS, fontSize: 28, color: C.ink, opacity: show ? 1 : 0.15 }}>
                 <span style={{ paddingRight: 24 }}>{m}</span>
-                <span style={{ opacity: kOn ? 1 : 0 }}><Chip bg="#E3F0E8" color={C.green} size={25}>{k}</Chip>
+                <span style={{ opacity: kOn ? 1 : 0 }}><Chip bg="#E2F1E8" color={C.green} size={25}>{k}</Chip>
                   {note && <div style={{ fontFamily: SANS, fontSize: 22, color: C.mute, marginTop: 8, opacity: on(frame, 'D6b', 7.0) ? 1 : 0 }}>{note}</div>}</span>
               </div>
             );
@@ -397,7 +397,7 @@ const Now = () => (
       </Pop>
     ))}
     <Pop at={F('D7e', 0.5)} style={{ left: 128, top: 760 }}>
-      <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 30, color: C.green }}>Online sessie week 6: welke stap mag jullie agent zelf zetten, zonder mens?</div>
+      <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 30, color: C.green }}>Bespreek met je groep: welke stap mag jullie agent zelf zetten, zonder mens?</div>
     </Pop>
   </AbsoluteFill>
 );

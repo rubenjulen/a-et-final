@@ -4,373 +4,326 @@
    "key": "C0",
    "text": "In deze clip kijken we naar een wet: de Europese AI-verordening.",
    "start": 0.8,
-   "dur": 4.13,
-   "audio": false
+   "dur": 4.519,
+   "audio": true
   },
   {
    "key": "C0b",
    "text": "Je risicoregister zegt wat er mis kan gaan. De AI-verordening zegt hoe zwaar de wet een AI-toepassing weegt.",
-   "start": 5.43,
-   "dur": 6.97,
-   "audio": false
+   "start": 5.819,
+   "dur": 7.628,
+   "audio": true
   },
   {
    "key": "C0c",
    "text": "Na deze clip kun je jullie eigen oplossing indelen in een risicoklasse, de rol van jullie partner benoemen, en uitleggen waarom die klasse geen eindoordeel is.",
-   "start": 12.9,
-   "dur": 10.26,
-   "audio": false
+   "start": 13.947,
+   "dur": 10.188,
+   "audio": true
   },
   {
    "key": "C1",
    "text": "Suriname valt niet onder deze wet. Waarom kijken we er dan toch naar?",
-   "start": 24.06,
-   "dur": 4.45,
-   "audio": false
+   "start": 25.035,
+   "dur": 4.362,
+   "audio": true
   },
   {
    "key": "C1b",
    "text": "Twee redenen. Heeft een organisatie Europese klanten of verwerkt ze Europese data, dan moet ze zich er wel aan houden.",
-   "start": 29.01,
-   "dur": 7.61,
-   "audio": false
+   "start": 29.897,
+   "dur": 7.967,
+   "audio": true
   },
   {
    "key": "C1c",
    "text": "En het is het bekendste voorbeeld van hoe een wetgever AI indeelt. Het helpt je om te zien hoe zwaar jullie eigen oplossing weegt.",
-   "start": 37.12,
-   "dur": 8.39,
-   "audio": false
+   "start": 38.364,
+   "dur": 7.706,
+   "audio": true
   },
   {
    "key": "C1d",
    "text": "De wet is sinds 2024 van kracht en gaat stap voor stap gelden. De verboden en de plicht tot AI-geletterdheid gelden al sinds februari 2025.",
-   "start": 46.01,
-   "dur": 8.97,
-   "audio": false
+   "start": 46.571,
+   "dur": 11.233,
+   "audio": true
   },
   {
    "key": "C2",
    "text": "De wet deelt AI in vier risicoklassen in.",
-   "start": 55.88,
-   "dur": 2.65,
-   "audio": false
+   "start": 58.703,
+   "dur": 2.926,
+   "audio": true
   },
   {
    "key": "C2b",
    "text": "Bovenaan staat onaanvaardbaar risico. Dat is verboden, in artikel 5. Denk aan een sociale score voor burgers, of AI die iemands kwetsbaarheid uitbuit.",
-   "start": 59.03,
-   "dur": 9.68,
-   "audio": false
+   "start": 62.129,
+   "dur": 11.154,
+   "audio": true
   },
   {
    "key": "C2c",
    "text": "Daaronder staat hoog risico. Dat mag, maar onder strenge eisen. Bijlage III noemt waar het om gaat: onder meer kredietwaardigheid, werving en selectie, onderwijs en publieke uitkeringen.",
-   "start": 69.21,
-   "dur": 12.0,
-   "audio": false
+   "start": 73.783,
+   "dur": 13.558,
+   "audio": true
   },
   {
    "key": "C2d",
    "text": "Dan beperkt risico. Daar geldt vooral een transparantieplicht, in artikel 50: mensen moeten weten dat ze met AI praten.",
-   "start": 81.71,
-   "dur": 7.68,
-   "audio": false
+   "start": 87.841,
+   "dur": 8.986,
+   "audio": true
   },
   {
    "key": "C2e",
    "text": "Onderaan staat minimaal risico, zoals een spamfilter. Daarvoor gelden geen extra eisen.",
-   "start": 89.89,
-   "dur": 5.61,
-   "audio": false
+   "start": 97.327,
+   "dur": 7.158,
+   "audio": true
   },
   {
    "key": "C2f",
    "text": "Hoe hoger in de piramide, hoe zwaarder de eisen. De vraag is dus steeds: waarvoor wordt het systeem gebruikt, en wat staat er voor mensen op het spel?",
-   "start": 96.0,
-   "dur": 9.68,
-   "audio": false
+   "start": 104.984,
+   "dur": 9.718,
+   "audio": true
   },
   {
    "key": "C3",
    "text": "Naast de klasse is je rol belangrijk. De wet kent twee hoofdrollen.",
-   "start": 106.58,
-   "dur": 4.32,
-   "audio": false
+   "start": 115.602,
+   "dur": 5.251,
+   "audio": true
   },
   {
    "key": "C3b",
    "text": "De aanbieder ontwikkelt een AI-systeem, of laat het ontwikkelen, en brengt het onder eigen naam op de markt of in gebruik.",
-   "start": 111.4,
-   "dur": 7.87,
-   "audio": false
+   "start": 121.353,
+   "dur": 7.471,
+   "audio": true
   },
   {
    "key": "C3c",
    "text": "De gebruiksverantwoordelijke zet het systeem onder eigen verantwoordelijkheid in, bijvoorbeeld in het eigen kantoor.",
-   "start": 119.77,
-   "dur": 7.48,
-   "audio": false
+   "start": 129.324,
+   "dur": 6.426,
+   "audio": true
   },
   {
    "key": "C3d",
    "text": "Een organisatie kan ook allebei zijn. Bij Suribank is de leverancier van het model de aanbieder, en de bank de gebruiksverantwoordelijke.",
-   "start": 127.75,
-   "dur": 8.84,
-   "audio": false
+   "start": 136.25,
+   "dur": 8.829,
+   "audio": true
   },
   {
    "key": "C3e",
    "text": "Waarom maakt die rol uit? Omdat de plichten verschillen. De aanbieder moet zorgen dat het systeem goed gebouwd en getest is. De gebruiksverantwoordelijke moet zorgen dat het in de praktijk goed gebruikt wordt.",
-   "start": 137.09,
-   "dur": 13.48,
-   "audio": false
+   "start": 145.579,
+   "dur": 13.087,
+   "audio": true
   },
   {
    "key": "CQ1",
    "text": "Vraag één. Een bank gebruikt een model dat beslist of iemand een persoonlijke lening krijgt. In welke risicoklasse valt dit model?",
-   "start": 151.47,
-   "dur": 8.39,
-   "audio": false
+   "start": 159.567,
+   "dur": 8.516,
+   "audio": true
   },
   {
    "key": "CQ1b",
    "text": "Het antwoord: hoog risico, bijlage III, punt 5b. De bank moet als gebruiksverantwoordelijke ook een FRIA doen.",
-   "start": 167.86,
-   "dur": 7.1,
-   "audio": false
+   "start": 176.082,
+   "dur": 8.281,
+   "audio": true
   },
   {
    "key": "C4",
    "text": "Kijk naar het kredietmodel van Suribank. Het beoordeelt de kredietwaardigheid van mensen zoals Shanti. Dat is hoog risico.",
-   "start": 175.86,
-   "dur": 7.87,
-   "audio": false
+   "start": 185.263,
+   "dur": 7.236,
+   "audio": true
   },
   {
    "key": "C4b",
    "text": "Dan gelden onder meer risicobeheer, in artikel 9, eisen aan de data, in artikel 10, en menselijk toezicht, in artikel 14.",
-   "start": 184.23,
-   "dur": 7.81,
-   "audio": false
+   "start": 192.999,
+   "dur": 9.404,
+   "audio": true
   },
   {
    "key": "C4c",
    "text": "En de bank moet een FRIA doen: een beoordeling van de gevolgen voor grondrechten, in artikel 27. Wie wordt geraakt, hoe ernstig, en wat doe je eraan?",
-   "start": 192.54,
-   "dur": 9.61,
-   "audio": false
+   "start": 202.903,
+   "dur": 10.684,
+   "audio": true
   },
   {
    "key": "C4d",
    "text": "Dat herken je. Het lijkt sterk op jullie AI-impactbeoordeling: de stakeholderkaart K2 plus de nulmeting.",
-   "start": 202.65,
-   "dur": 6.71,
-   "audio": false
+   "start": 214.087,
+   "dur": 8.438,
+   "audio": true
   },
   {
    "key": "C4e",
    "text": "Stel dat het model Shanti onterecht afwijst. Dan moet een mens kunnen ingrijpen, en moet de bank kunnen uitleggen waarom. Dat is precies wat jullie in K7 ontwerpen.",
-   "start": 209.86,
-   "dur": 10.58,
-   "audio": false
+   "start": 223.025,
+   "dur": 11.076,
+   "audio": true
   },
   {
    "key": "C5",
    "text": "Nu de orderagent van Frisco Installaties. Hij neemt bestellingen op voor technische installaties.",
-   "start": 221.34,
-   "dur": 6.26,
-   "audio": false
+   "start": 235.001,
+   "dur": 5.721,
+   "audio": true
   },
   {
    "key": "C5b",
    "text": "Zo'n agent staat niet in bijlage III. Meestal is dat beperkt risico.",
-   "start": 228.1,
-   "dur": 4.39,
-   "audio": false
+   "start": 241.222,
+   "dur": 5.146,
+   "audio": true
   },
   {
    "key": "C5c",
    "text": "Artikel 50 geldt wel: klanten moeten weten dat ze met AI praten. Daarom zegt de agent dat meteen in zijn eerste bericht. En vraagt een klant: praat ik met een mens? Dan zegt de agent eerlijk van niet, en biedt hij een medewerker aan.",
-   "start": 232.99,
-   "dur": 15.03,
-   "audio": false
+   "start": 246.868,
+   "dur": 16.118,
+   "audio": true
   },
   {
    "key": "C5d",
    "text": "Frisco laat de agent bouwen en zet hem onder eigen naam in. Dan is Frisco aanbieder en gebruiksverantwoordelijke tegelijk.",
-   "start": 248.52,
-   "dur": 7.87,
-   "audio": false
+   "start": 263.485,
+   "dur": 7.706,
+   "audio": true
   },
   {
    "key": "C5e",
    "text": "Let op: gaat de agent zelf beslissen over krediet, of over wie wel en niet geholpen wordt? Kijk dan opnieuw naar de klasse.",
-   "start": 256.89,
-   "dur": 7.94,
-   "audio": false
+   "start": 271.691,
+   "dur": 8.046,
+   "audio": true
   },
   {
    "key": "CQ2",
    "text": "Vraag twee. Een maatkledingzaak laat een orderchatbot bouwen en zet die onder eigen naam op haar website. Welke rol heeft de zaak, en welke plicht geldt in elk geval?",
-   "start": 265.73,
-   "dur": 10.71,
-   "audio": false
+   "start": 280.637,
+   "dur": 11.233,
+   "audio": true
   },
   {
    "key": "CQ2b",
    "text": "Het antwoord: de zaak is aanbieder én gebruiksverantwoordelijke. En in elk geval geldt de transparantieplicht van artikel 50: klanten moeten weten dat ze met AI praten.",
-   "start": 284.44,
-   "dur": 10.84,
-   "audio": false
+   "start": 299.87,
+   "dur": 12.278,
+   "audio": true
   },
   {
    "key": "C6",
-   "text": "Vier artikelen kom je nog tegen bij hoog risico, ook in de antwoordsleutel van week 6.",
-   "start": 296.18,
-   "dur": 5.55,
-   "audio": false
+   "text": "Vier artikelen kom je nog tegen bij hoog risico.",
+   "start": 313.047,
+   "dur": 2.586,
+   "audio": true
   },
   {
    "key": "C6b",
    "text": "Artikel 10 gaat over data en datagovernance. Dat werk doen jullie vooral bij A-DG.",
-   "start": 302.23,
-   "dur": 5.29,
-   "audio": false
+   "start": 316.133,
+   "dur": 6.348,
+   "audio": true
   },
   {
    "key": "C6c",
    "text": "Artikel 13 zegt dat de aanbieder duidelijke informatie meegeeft aan wie het systeem gebruikt: wat het kan, wat niet, en hoe je het controleert.",
-   "start": 308.02,
-   "dur": 9.23,
-   "audio": false
+   "start": 322.981,
+   "dur": 9.796,
+   "audio": true
   },
   {
    "key": "C6d",
    "text": "Artikel 26 noemt de plichten van de gebruiksverantwoordelijke, zoals het systeem gebruiken zoals bedoeld, en het in de gaten houden.",
-   "start": 317.75,
-   "dur": 8.52,
-   "audio": false
+   "start": 333.277,
+   "dur": 7.706,
+   "audio": true
   },
   {
    "key": "C6e",
    "text": "En artikel 86 geeft wie door zo'n besluit geraakt wordt, recht op uitleg.",
-   "start": 326.77,
-   "dur": 4.71,
-   "audio": false
+   "start": 341.483,
+   "dur": 5.146,
+   "audio": true
   },
   {
    "key": "C7",
    "text": "De klasse is niet het hele verhaal.",
-   "start": 332.38,
-   "dur": 2.26,
-   "audio": false
+   "start": 347.529,
+   "dur": 2.038,
+   "audio": true
   },
   {
    "key": "C7b",
    "text": "Artikel 4 vraagt AI-geletterdheid van iedereen die met het systeem werkt, in elke klasse.",
-   "start": 335.14,
-   "dur": 5.74,
-   "audio": false
+   "start": 350.067,
+   "dur": 6.113,
+   "audio": true
   },
   {
    "key": "C7c",
    "text": "Menselijk toezicht en transparantie komen terug in clip 18 en clip 20.",
-   "start": 341.38,
-   "dur": 4.52,
-   "audio": false
+   "start": 356.68,
+   "dur": 4.911,
+   "audio": true
   },
   {
    "key": "C7d",
    "text": "En onthoud: de klasse is een ondergrens. Wat de wet toestaat, is niet altijd verantwoord. En waar de wet zwijgt, zoals in Suriname, blijft de ethische vraag gewoon staan.",
-   "start": 346.4,
-   "dur": 10.97,
-   "audio": false
+   "start": 362.091,
+   "dur": 11.233,
+   "audio": true
   },
   {
    "key": "C7e",
    "text": "Een voorbeeld. De orderagent van Frisco is beperkt risico. Toch kan hij klanten met een andere naam, of klanten die liever een spraakbericht sturen, slechter helpen. De wet vraagt daar weinig. Jullie test in practicum 4 vraagt het wel.",
-   "start": 357.87,
-   "dur": 15.16,
-   "audio": false
+   "start": 373.823,
+   "dur": 16.274,
+   "audio": true
   },
   {
    "key": "C7f",
    "text": "Samengevat. Eén: de wet deelt AI in vier klassen in, van verboden tot minimaal risico. Twee: je rol, aanbieder of gebruiksverantwoordelijke, bepaalt je plichten. Drie: de klasse is een ondergrens, geen eindoordeel.",
-   "start": 373.93,
-   "dur": 13.81,
-   "audio": false
+   "start": 390.998,
+   "dur": 18.051,
+   "audio": true
   },
   {
    "key": "C8",
    "text": "Nu jij. Zet boven jullie risicoregister de regel: EU-risicoklasse en rol.",
-   "start": 388.64,
-   "dur": 4.71,
-   "audio": false
+   "start": 409.948,
+   "dur": 6.348,
+   "audio": true
   },
   {
    "key": "C8b",
    "text": "Schrijf op welke klasse, waarom, met het artikel of de bijlage, en welke rol jullie partner heeft.",
-   "start": 393.85,
-   "dur": 6.32,
-   "audio": false
+   "start": 416.796,
+   "dur": 6.269,
+   "audio": true
   },
   {
    "key": "C8c",
    "text": "Twijfel je? Schrijf dan op tussen welke klassen je twijfelt, en waarom. Ook dat is een goed antwoord.",
-   "start": 400.67,
-   "dur": 6.52,
-   "audio": false
+   "start": 423.565,
+   "dur": 6.531,
+   "audio": true
   }
  ],
- "total": 408.59,
+ "total": 431.5,
  "audioDir": "aud_kC",
- "estimated": [
-  "C0",
-  "C0b",
-  "C0c",
-  "C1",
-  "C1b",
-  "C1c",
-  "C1d",
-  "C2",
-  "C2b",
-  "C2c",
-  "C2d",
-  "C2e",
-  "C2f",
-  "C3",
-  "C3b",
-  "C3c",
-  "C3d",
-  "C3e",
-  "CQ1",
-  "CQ1b",
-  "C4",
-  "C4b",
-  "C4c",
-  "C4d",
-  "C4e",
-  "C5",
-  "C5b",
-  "C5c",
-  "C5d",
-  "C5e",
-  "CQ2",
-  "CQ2b",
-  "C6",
-  "C6b",
-  "C6c",
-  "C6d",
-  "C6e",
-  "C7",
-  "C7b",
-  "C7c",
-  "C7d",
-  "C7e",
-  "C7f",
-  "C8",
-  "C8b",
-  "C8c"
- ]
+ "estimated": []
 }

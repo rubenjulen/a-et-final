@@ -45,7 +45,7 @@ Z=[
 ("D7b","Eén: zet in K3 bij elke externe dienst wat erheen gaat en waar het staat.",0.5),
 ("D7c","Twee: vul in K7 voor elke dienst de leverancierscheck in.",0.5),
 ("D7d","Drie: geef elke maatregel in de kolom Kader een verwijzing.",0.5),
-("D7e","In de online sessie bespreken we welke stap jullie agent zelf mag zetten, zonder mens.",0.9),
+("D7e","Bespreek met je groep welke stap jullie agent zelf mag zetten, zonder mens.",0.9),
 ]
 json.dump([list(z) for z in Z],open('zinnen.json','w'),ensure_ascii=False,indent=0)
 n=sum(len(t) for _,t,_ in Z); print(len(Z),'zinnen',n,'tekens', round(n/760,1),'min spraak', 'pauzes', sum(p for *_,p in Z))

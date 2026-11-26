@@ -11,7 +11,8 @@ Map in het pakket: `Blok1_Analyseren`.
 | ICT A-ET Kennisclip 5.mp4 (2:34) en ICT A-ET Kaderclip A.mp4 (5:09) | Blok 1, kennisclips | Klaar |
 | ICT A-ET Kennisclip 6.mp4 (4:42, nu ook met bias bij gebruik en de feedbacklus), 7.mp4 (3:35) en 8.mp4 (2:43) | Blok 1, kennisclips | Klaar |
 | ICT A-ET Kennisclip 9.mp4 (3:02), 10.mp4 (3:02) en ICT A-ET Kaderclip B.mp4 (6:26) | Blok 1, kennisclips | Klaar |
-| Kennisclip 11 tot en met 14 en kaderclip C | Blok 1 | Ontbreekt: nog op te nemen (opnamekits Blok 1) |
+| ICT A-ET Kaderclip C.mp4 (De AI-verordening: risicoklasse en rol, 7:12) | Blok 1, kennisclips | Klaar |
+| Kennisclip 11 tot en met 14 | Blok 1 | Ontbreekt: nog op te nemen (opnamekits Blok 1) |
 | ICT A-ET Kennisclip 5b.mp4 (Vijf ethische kaders, 6:42, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5; meeleestekst staat in kennispakket 1 | Klaar |
 | ICT A-ET Kennisclip 5c.mp4 (Drie soorten black box, 4:45, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5b; meeleestekst staat in kennispakket 1 | Klaar |
 | ICT A-ET Practicum 2 en 3.zip (suribank_versie_A/B.csv, suribank_testset.csv, practicum2_3.ipynb) | Blok 1, bij practicum 2 en 3 (verdieping) | Klaar |

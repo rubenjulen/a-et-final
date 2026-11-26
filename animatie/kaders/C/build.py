@@ -33,7 +33,7 @@ S=[
 ("C5e",None,"Let op: gaat de agent zelf beslissen over krediet, of over wie wel en niet geholpen wordt? Kijk dan opnieuw naar de klasse.",0.9),
 ("CQ2","Vraag in beeld, daarna pauze 8 s met aftelbalk.","Vraag twee. Een maatkledingzaak laat een orderchatbot bouwen en zet die onder eigen naam op haar website. Welke rol heeft de zaak, en welke plicht geldt in elk geval?",8),
 ("CQ2b","Antwoord in beeld: twee kaartjes met een vinkje, en de AI-melding in de chat.","Het antwoord: de zaak is aanbieder én gebruiksverantwoordelijke. En in elk geval geldt de transparantieplicht van artikel 50: klanten moeten weten dat ze met AI praten.",0.9),
-("C6","Vier kaartjes met een artikelnummer schuiven in beeld: 10, 13, 26 en 86. Bij 10 een klein label \"A-DG\".","Vier artikelen kom je nog tegen bij hoog risico, ook in de antwoordsleutel van week 6.",0.5),
+("C6","Vier kaartjes met een artikelnummer schuiven in beeld: 10, 13, 26 en 86. Bij 10 een klein label \"A-DG\".","Vier artikelen kom je nog tegen bij hoog risico.",0.5),
 ("C6b",None,"Artikel 10 gaat over data en datagovernance. Dat werk doen jullie vooral bij A-DG.",0.5),
 ("C6c",None,"Artikel 13 zegt dat de aanbieder duidelijke informatie meegeeft aan wie het systeem gebruikt: wat het kan, wat niet, en hoe je het controleert.",0.5),
 ("C6d",None,"Artikel 26 noemt de plichten van de gebruiksverantwoordelijke, zoals het systeem gebruiken zoals bedoeld, en het in de gaten houden.",0.5),

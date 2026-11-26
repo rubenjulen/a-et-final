@@ -4,7 +4,7 @@ import timing from './timing_kE.json';
 import {
   C, SERIF, SANS, FPS, clamp, makeF, useSpr, mix, Pop, Card, Banner, Heading,
   Quiz8, TitleScene, ClipShell, Person,
-} from './wk3kit';
+} from './wk3kit_j';
 
 const tm = makeF(timing);
 const { F } = tm;
@@ -18,7 +18,7 @@ const Intro = () => {
   const frame = useCurrentFrame();
   const leave = interpolate(frame, [F('E0.3', 0.4), F('E0.3', 2.6)], [0, 1], clamp);
   return (
-    <TitleScene at={F('E0.1', 0)} kicker="KADERCLIP E · WEEK 8" title="Van maatregel naar managementsysteem">
+    <TitleScene at={F('E0.1', 0)} kicker="KADERCLIP E · AI &amp; ETHICS · BLOK 2" title="Van maatregel naar managementsysteem">
       <Pop at={F('E0.4', 0.6)} style={{ left: 140, top: 720 }}>
         <Chip bg={C.amber} fg={C.dark} size={34}>ISO/IEC 42001</Chip>
       </Pop>
@@ -50,7 +50,7 @@ const Norm = () => {
       <Heading at={F('E1.1', 0)} kicker="WAT IS HET?">Een norm voor het besturen van AI</Heading>
       {/* document */}
       <Pop at={F('E1.1', 0.6)} style={{ left: 128, top: 280 }}>
-        <div style={{ width: 340, height: 440, background: C.card, border: `3px solid ${C.dark}`, borderRadius: 14, padding: 30, boxShadow: '0 18px 40px rgba(18,49,42,.14)' }}>
+        <div style={{ width: 340, height: 440, background: C.card, border: `3px solid ${C.dark}`, borderRadius: 14, padding: 30, boxShadow: '0 18px 40px rgba(0,32,96,.14)' }}>
           <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 22, color: C.terra, letterSpacing: 2 }}>NORM · 2023</div>
           <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 48, color: C.dark, marginTop: 10 }}>ISO/IEC 42001</div>
           <div style={{ fontFamily: SANS, fontSize: 26, color: C.mute, marginTop: 8 }}>AI-managementsysteem</div>
@@ -198,7 +198,7 @@ const Cycle = () => {
         {Q.map(([t, col, k, items], i) => (
           <Pop key={t} at={F(k, 0.2)} style={{ position: 'relative', marginBottom: 20 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 22, background: C.card, border: `3px solid ${active === i ? col : C.line}`, borderRadius: 20, padding: '16px 24px' }}>
-              <div style={{ width: 150, fontFamily: SERIF, fontWeight: 700, fontSize: 40, color: col === C.amber ? '#A87A12' : col }}>{t}</div>
+              <div style={{ width: 150, fontFamily: SERIF, fontWeight: 700, fontSize: 40, color: col === C.amber ? '#A9852E' : col }}>{t}</div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
                 {items.map((it, j) => (
                   <Pop key={it} at={F(k, 1.0 + j * 0.6)} style={{ position: 'relative' }}>
@@ -234,7 +234,7 @@ const Annex = () => {
           const isA10 = c === 'A.10' && frame >= F('E4.6', 0);
           return (
             <Pop key={c} at={F('E4.1', 0.8 + i * 0.18)} style={{ position: 'relative', marginBottom: 8 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 18, background: isA10 ? C.dark : hl ? '#F4EAD3' : C.card, border: `2px solid ${hl ? C.amber : C.line}`, borderRadius: 14, padding: '6px 18px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 18, background: isA10 ? C.dark : hl ? '#F7F0DD' : C.card, border: `2px solid ${hl ? C.amber : C.line}`, borderRadius: 14, padding: '6px 18px' }}>
                 <div style={{ width: 30, height: 30, borderRadius: 8, border: `3px solid ${C.green}`, background: tick ? C.green : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', color: C.card, fontWeight: 700, fontSize: 24 }}>{tick ? '✓' : ''}</div>
                 <div style={{ width: 80, fontFamily: SANS, fontWeight: 700, fontSize: 26, color: isA10 ? C.amber : C.terra }}>{c}</div>
                 <div style={{ fontFamily: SANS, fontSize: 25, color: isA10 ? C.light : C.ink }}>{t}</div>
@@ -250,7 +250,7 @@ const Annex = () => {
       <Pop at={F('E4.4', 0.3)} style={{ left: 940, top: 380, width: 850 }}>
         <div style={{ background: C.card, border: `2px solid ${C.line}`, borderRadius: 16, overflow: 'hidden', fontFamily: SANS, fontSize: 24 }}>
           <div style={{ display: 'flex', background: C.sand, fontWeight: 700, color: C.dark }}>
-            {['K7 · maatregel', 'eigenaar', 'Kader'].map((h, i) => <div key={h} style={{ padding: '10px 16px', width: [420, 190, 240][i], background: i === 2 ? '#F4EAD3' : 'transparent' }}>{h}</div>)}
+            {['K7 · maatregel', 'eigenaar', 'Kader'].map((h, i) => <div key={h} style={{ padding: '10px 16px', width: [420, 190, 240][i], background: i === 2 ? '#F7F0DD' : 'transparent' }}>{h}</div>)}
           </div>
           <div style={{ display: 'flex', color: C.ink }}>
             {['Leverancierscheck taalmodel-API', 'IT-beheer', frame >= F('E4.6', 0.4) ? 'ISO/IEC 42001 A.10' : '…'].map((h, i) => <div key={i} style={{ padding: '12px 16px', width: [420, 190, 240][i], fontWeight: i === 2 ? 700 : 400, color: i === 2 ? C.green : C.ink }}>{h}</div>)}
@@ -275,18 +275,18 @@ const Annex = () => {
           </svg>
         </div>
       </Pop>
-      <Banner at={F('E4.6', 0.2)} top={790} size={38}>Leverancierscheck uit week 6 → <span style={{ color: C.amber }}>A.10, derde partijen</span></Banner>
+      <Banner at={F('E4.6', 0.2)} top={790} size={38}>Leverancierscheck uit H6 → <span style={{ color: C.amber }}>A.10, derde partijen</span></Banner>
     </AbsoluteFill>
   );
 };
 
 /* ---------- E5: what you already do ---------- */
 const DONE = [
-  ['E5.2', 'week 8', 'Design Review', 'peer-audit · 9.2', C.amber],
-  ['E5.3', 'week 4 → 9', 'hertest, zelfde testset', 'check', C.amber],
-  ['E5.4', 'week 9', 'beslismemo', 'managementreview · 9.3', C.terra],
+  ['E5.2', 'college 3', 'Design Review', 'audit · 9.2', C.amber],
+  ['E5.3', 'practicum 4 → hertest', 'zelfde testset', 'check', C.amber],
+  ['E5.4', 'blok 3', 'beslismemo', 'managementreview · 9.3', C.terra],
   ['E5.6', 'K7', 'eigenaar per maatregel', 'rollen · 5', C.dark],
-  ['E5.6', 'week 7', 'AI-beleidsregel', 'AI-beleid · A.2', C.dark],
+  ['E5.6', 'H7', 'AI-beleidsregel', 'AI-beleid · A.2', C.dark],
 ];
 const Already = () => {
   const frame = useCurrentFrame();
@@ -349,9 +349,9 @@ const Incident = () => {
       {/* Frisco wrong price */}
       <Pop at={F('E6.6', 0.3)} style={{ left: 940, top: 560, width: 850 }}>
         <div style={{ display: 'flex', gap: 20, alignItems: 'flex-start' }}>
-          <div style={{ width: 520, background: '#E6EEEA', borderRadius: '20px 20px 20px 6px', padding: '16px 22px', fontFamily: SANS, fontSize: 26, color: C.ink, lineHeight: 1.35 }}>
+          <div style={{ width: 520, background: '#EAF0F8', borderRadius: '20px 20px 20px 6px', padding: '16px 22px', fontFamily: SANS, fontSize: 26, color: C.ink, lineHeight: 1.35 }}>
             <div style={{ fontSize: 20, color: C.mute, fontWeight: 700 }}>Frisco orderagent</div>
-            Order #1042 bevestigd: koelinstallatie voor <span style={{ background: wrong ? '#F6D9D1' : 'transparent', color: wrong ? C.terra : C.ink, fontWeight: 700, padding: '0 6px', borderRadius: 6 }}>SRD 4.500</span>
+            Order #1042 bevestigd: koelinstallatie voor <span style={{ background: wrong ? '#F8E1DF' : 'transparent', color: wrong ? C.terra : C.ink, fontWeight: 700, padding: '0 6px', borderRadius: 6 }}>SRD 4.500</span>
           </div>
           {wrong && <Pop at={F('E6.6', 2.2)} style={{ position: 'relative' }}><div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 26, color: C.terra, lineHeight: 1.3 }}>verkeerde prijs:<br />wie ziet het,<br />wie hoort het?</div></Pop>}
         </div>
@@ -437,7 +437,7 @@ const Now = () => {
           {gap && <text x="230" y="244" textAnchor="middle" fontFamily={SANS} fontWeight="700" fontSize="30" fill={C.terra}>gat?</text>}
         </svg>
       </div>
-      {[['E7.2', 'Teken de cirkel en zet elke K7-maatregel op zijn plek'], ['E7.3', 'Waar de cirkel open blijft, zit jullie gat'], ['E7.5', 'Donderdag: minicollege · volgende week: K8']].map(([k, t], i) => (
+      {[['E7.2', 'Teken de cirkel en zet elke K7-maatregel op zijn plek'], ['E7.3', 'Waar de cirkel open blijft, zit jullie gat'], ['E7.5', 'College 3, daarna K8 in blok 3']].map(([k, t], i) => (
         <Pop key={k} at={F(k, 0.2)} style={{ left: 700, top: 270 + i * 150, width: 1090 }}>
           <Card style={{ display: 'flex', gap: 26, alignItems: 'center', padding: '22px 32px' }}>
             <span style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 56, color: C.green }}>{i + 1}</span>

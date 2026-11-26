@@ -83,11 +83,11 @@ Dit is de studietekst van blok 2: de theorie voor de instrumenten, het rapport e
 | Clip 15 (volgt) | De gewenste situatie bepalen | 7 min | De gewenste situatie en proportionaliteit |
 | Clip 16 (volgt) | Van risico naar toetsbare eis | 8 min | Van risico naar toetsbare eis |
 | Clip 17 (volgt) | Maatregelen ontwerpen, en wat overblijft | 8 min | Maatregelen en restrisico |
-| Kaderclip D (volgt) | Governance over de levenscyclus: leveranciers en AI-agents (AIGP) | 7 min | Governance, leveranciers en AI-agents |
+| Kaderclip D | Governance over de levenscyclus: leveranciers en AI-agents (AIGP) | 6 min | Governance, leveranciers en AI-agents |
 | Clip 18 (volgt) | Menselijke controle die werkt | 9 min | Menselijke controle die werkt |
 | Clip 19 (volgt) | Bezwaar en herstel | 7 min | Bezwaar en herstel |
 | Clip 20 (volgt) | Transparantie en rolverdeling | 8 min | Transparantie en rolverdeling |
-| Kaderclip E (volgt) | ISO/IEC 42001: van maatregel naar managementsysteem | 7 min | Van maatregel naar managementsysteem |
+| Kaderclip E | ISO/IEC 42001: van maatregel naar managementsysteem | 7 min | Van maatregel naar managementsysteem |
 
 ### Van analyse naar ontwerp
 
@@ -949,7 +949,7 @@ Hier staat de gesproken tekst van de clips van blok 2, in de volgorde van De ker
 
 "Twee tot drie maatregelen per risico, met eigenaar, verificatie en een afspraak met A-AI2, en een eerste inschatting van het restrisico."
 
-### Kaderclip D. Governance over de levenscyclus: leveranciers en AI-agents (AIGP) (7 minuten) (volgt)
+### Kaderclip D. Governance over de levenscyclus: leveranciers en AI-agents (AIGP) (6 minuten)
 
 "Jullie maatregelen moeten ergens landen: bij een eigenaar, in een proces, soms bij een leverancier. Governance is de vraag wie wat beslist en controleert, van ontwerp tot gebruik. Deze clip volgt de indeling van de AIGP-certificering van de IAPP."
 
@@ -1017,7 +1017,7 @@ Hier staat de gesproken tekst van de clips van blok 2, in de volgorde van De ker
 
 "Een transparantieverklaring van één A4, en een RACI met minstens acht activiteiten."
 
-### Kaderclip E. ISO/IEC 42001: van maatregel naar managementsysteem (7 minuten) (volgt)
+### Kaderclip E. ISO/IEC 42001: van maatregel naar managementsysteem (7 minuten)
 
 *Kijk vóór college 3. Met de twee vragen erbij ben je ongeveer een kwartier bezig.*
 

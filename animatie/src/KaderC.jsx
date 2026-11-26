@@ -4,8 +4,8 @@ import timing from './timing_kC.json';
 import {
   C, SERIF, SANS, FPS, clamp, makeF, useSpr, mix, Pop, Card, Banner, Heading,
   Quiz8, TitleScene, ClipShell, Shanti, Person,
-} from './wk3kit';
-import { Bubble, Phone } from './wk1_kit';
+} from './wk3kit_j';
+import { Bubble, Phone } from './wk3kit_j';
 
 const tm = makeF(timing);
 const { F, cue } = tm;
@@ -15,7 +15,7 @@ const on = (frame, k, p = 0) => frame >= Fr(k, p);
 
 const LAYERS = [
   { short: 'Onaanvaardbaar', name: 'Onaanvaardbaar risico', rule: 'Verboden · art. 5', ex: 'Sociale score voor burgers · kwetsbaarheid uitbuiten', col: C.terra, k: 'C2b' },
-  { short: 'Hoog risico', name: 'Hoog risico', rule: 'Strenge eisen · bijlage III', ex: 'Kredietwaardigheid · werving · onderwijs · uitkeringen', col: '#C9822B', k: 'C2c' },
+  { short: 'Hoog risico', name: 'Hoog risico', rule: 'Strenge eisen · bijlage III', ex: 'Kredietwaardigheid · werving · onderwijs · uitkeringen', col: '#A9852E', k: 'C2c' },
   { short: 'Beperkt risico', name: 'Beperkt risico', rule: 'Transparantieplicht · art. 50', ex: 'Chatbot · orderagent: "ik ben een AI"', col: C.amber, k: 'C2d' },
   { short: 'Minimaal risico', name: 'Minimaal risico', rule: 'Geen extra eisen', ex: 'Spamfilter · spellingscontrole', col: C.green, k: 'C2e' },
 ];
@@ -47,13 +47,13 @@ const Title = () => {
   const frame = useCurrentFrame();
   const s = useSpr(F('C0', 0.6));
   return (
-    <TitleScene at={F('C0', -0.3)} kicker="KADERCLIP C · AI &amp; ETHICS · WEEK 4" title="De AI-verordening: risicoklasse en rol">
+    <TitleScene at={F('C0', -0.3)} kicker="KADERCLIP C · AI &amp; ETHICS · BLOK 1" title="De AI-verordening: risicoklasse en rol">
       <div style={{ position: 'absolute', left: 1240, top: 170, width: 420, height: 480, opacity: s }}><Shanti frame={frame} /></div>
       <div style={{ position: 'absolute', left: 1180, top: 690, width: 540, opacity: s, transform: `translateY(${(1 - s) * 30}px)` }}>
         <div style={{ background: C.card, borderRadius: 18, padding: '16px 22px', fontFamily: SANS, fontSize: 24, color: C.ink, boxShadow: '0 14px 30px rgba(0,0,0,.25)' }}>
           <b>Suribank</b> · kredietaanvraag Shanti
         </div>
-        <div style={{ marginTop: 14, marginLeft: 60, background: '#E6EEEA', borderRadius: '20px 20px 20px 6px', padding: '14px 20px', fontFamily: SANS, fontSize: 24, color: C.ink, boxShadow: '0 14px 30px rgba(0,0,0,.25)' }}>
+        <div style={{ marginTop: 14, marginLeft: 60, background: '#EAF0F8', borderRadius: '20px 20px 20px 6px', padding: '14px 20px', fontFamily: SANS, fontSize: 24, color: C.ink, boxShadow: '0 14px 30px rgba(0,0,0,.25)' }}>
           <b>Frisco Installaties</b> · "Ik ben een AI-assistent."
         </div>
       </div>
@@ -102,7 +102,7 @@ const Why = () => {
       <Heading at={F('C1', 0)} kicker="WAAROM DEZE WET?">Geldt niet in Suriname. Toch kijken we ernaar.</Heading>
       {/* Suriname */}
       <Pop at={Fr('C1', 0.2)} style={{ left: 170, top: 300 }}>
-        <svg width="330" height="300"><path d="M60 40 L250 20 L300 120 L270 250 L120 280 L40 200 Z" fill="#CFC8BA" stroke="#B8B0A1" strokeWidth="4" />
+        <svg width="330" height="300"><path d="M60 40 L250 20 L300 120 L270 250 L120 280 L40 200 Z" fill="#C3CEDC" stroke="#A9B5C6" strokeWidth="4" />
           <text x="165" y="150" textAnchor="middle" fontFamily={SANS} fontWeight="700" fontSize="34" fill={C.mute}>Suriname</text>
           <text x="165" y="190" textAnchor="middle" fontFamily={SANS} fontSize="22" fill={C.mute}>wet geldt niet</text></svg>
       </Pop>
@@ -247,7 +247,7 @@ const Suribank = () => {
       <Stamp at={Fr('C4b', 0.55)} text="Data" sub="art. 10" x={1180} y={250} rot={4} />
       <Stamp at={Fr('C4b', 0.85)} text="Menselijk toezicht" sub="art. 14" x={1420} y={270} rot={-3} />
       <div style={{ position: 'absolute', left: 860, top: 440, width: 900, opacity: interpolate(frame, [F('C4c', 0), Fr('C4c', 0.2)], [0, 1], clamp) }}>
-        <div style={{ background: mix(morph, '#F4DED8', '#DCEBE2'), border: `4px solid ${mix(morph, C.terra, C.green)}`, borderRadius: 18, padding: '18px 26px' }}>
+        <div style={{ background: mix(morph, '#F8E1DF', '#DCE6F5'), border: `4px solid ${mix(morph, C.terra, C.green)}`, borderRadius: 18, padding: '18px 26px' }}>
           <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 32, color: C.ink }}>
             {morph < 0.5 ? 'FRIA · art. 27' : 'K2 + nulmeting = jullie AI-impactbeoordeling'}
           </div>
@@ -295,7 +295,7 @@ const Frisco = () => {
         <div style={{ alignSelf: 'center', fontFamily: SANS, fontSize: 26, color: C.mute }}>Frisco is allebei</div>
       </div>
       <Pop at={Fr('C5e', 0.2)} style={{ left: 720, top: 660, width: 1070 }}>
-        <div style={{ background: '#F4DED8', border: `3px solid ${C.terra}`, borderRadius: 16, padding: '16px 24px', fontFamily: SANS, fontSize: 27, color: C.ink, lineHeight: 1.3 }}>
+        <div style={{ background: '#F8E1DF', border: `3px solid ${C.terra}`, borderRadius: 16, padding: '16px 24px', fontFamily: SANS, fontSize: 27, color: C.ink, lineHeight: 1.3 }}>
           <b style={{ color: C.terra }}>Let op:</b> beslist de agent over krediet, of over wie wel en niet geholpen wordt? Deel dan opnieuw in.
         </div>
       </Pop>
@@ -312,7 +312,7 @@ const ARTS = [
 ];
 const Articles = () => (
   <AbsoluteFill style={{ background: C.light }}>
-    <Heading at={F('C6', 0)} kicker="BIJ HOOG RISICO · OOK IN DE ANTWOORDSLEUTEL VAN WEEK 6">Nog vier artikelen</Heading>
+    <Heading at={F('C6', 0)} kicker="BIJ HOOG RISICO">Nog vier artikelen</Heading>
     {ARTS.map(([n, t, k, tag], i) => (
       <Pop key={n} at={F(k, 0.1)} dy={0} style={{ left: 128 + i * 420, top: 300, width: 390 }}>
         <Card style={{ minHeight: 330, position: 'relative' }}>
@@ -365,7 +365,7 @@ const Floor = () => {
         <Pop at={Fr('C7e', 0.3)} style={{ left: 760, top: 400, width: 1030 }}>
           <div style={{ display: 'flex', gap: 20 }}>
             {['Klant met een andere naam', 'Klant die een spraakbericht stuurt'].map((t) => (
-              <div key={t} style={{ flex: 1, background: '#F4DED8', border: `3px solid ${C.terra}`, borderRadius: 16, padding: '16px 20px', fontFamily: SANS, fontSize: 27, color: C.ink }}>{t} <b style={{ color: C.terra }}>→ slechter geholpen?</b></div>
+              <div key={t} style={{ flex: 1, background: '#F8E1DF', border: `3px solid ${C.terra}`, borderRadius: 16, padding: '16px 20px', fontFamily: SANS, fontSize: 27, color: C.ink }}>{t} <b style={{ color: C.terra }}>→ slechter geholpen?</b></div>
             ))}
           </div>
         </Pop>
@@ -406,12 +406,12 @@ const Now = () => {
     <AbsoluteFill style={{ background: C.light }}>
       <Heading at={F('C8', 0)} kicker="NU JIJ · BOVEN JULLIE RISICOREGISTER (K6)">EU-risicoklasse en rol</Heading>
       <Pop at={Fr('C8', 0.3)} style={{ left: 128, top: 250, width: 1664 }}>
-        <div style={{ background: C.card, border: `2px solid ${C.line}`, borderRadius: 18, overflow: 'hidden', boxShadow: '0 14px 34px rgba(18,49,42,.10)' }}>
+        <div style={{ background: C.card, border: `2px solid ${C.line}`, borderRadius: 18, overflow: 'hidden', boxShadow: '0 14px 34px rgba(0,32,96,.10)' }}>
           <div style={{ background: C.dark, color: C.light, fontFamily: SANS, fontWeight: 700, fontSize: 26, padding: '14px 26px' }}>EU-risicoklasse en rol · voorbeeld Suribank</div>
           {vals.map(([l, v, k, p]) => (
             <div key={l} style={{ display: 'flex', borderTop: `2px solid ${C.line}` }}>
               <div style={{ width: 380, padding: '20px 26px', background: C.sand, fontFamily: SANS, fontWeight: 700, fontSize: 28, color: C.ink }}>{l}</div>
-              <div style={{ flex: 1, padding: '20px 26px', fontFamily: SANS, fontSize: 28, color: C.ink, background: '#FFF6DD' }}>{typed(frame, Fr(k, p), Fr(k, p + 0.3), v)}</div>
+              <div style={{ flex: 1, padding: '20px 26px', fontFamily: SANS, fontSize: 28, color: C.ink, background: '#F7F0DD' }}>{typed(frame, Fr(k, p), Fr(k, p + 0.3), v)}</div>
             </div>
           ))}
           <div style={{ display: 'flex', borderTop: `2px solid ${C.line}` }}>

@@ -96,7 +96,7 @@ Dit is de studietekst van blok 1: de theorie voor de instrumenten, het rapport e
 | Clip 11 (volgt) | Volwassenheid meten, van CMM tot de Janssen-scan | 9 min | Volwassenheid meten |
 | Clip 12 (volgt) | Van dilemma naar risico | 8 min | Gap, dilemma en risico |
 | Clip 13 (volgt) | Risico's scoren en escaleren | 4 min | K6 |
-| Kaderclip C (volgt) | De AI-verordening: risicoklasse en rol | 8 min | De AI-verordening |
+| Kaderclip C | De AI-verordening: risicoklasse en rol | 7 min | De AI-verordening |
 | Clip 14 (volgt) | Van diagnose naar plan van aanpak | 6 min | Voorlopig oordeel en plan |
 
 ### Waar hebben we het over, en waar komt het vandaan?
@@ -1472,7 +1472,7 @@ Een cijfer lijkt objectief. Maar één getal voor "hoe ethisch" verbergt welke w
 
 "De 5 belangrijkste risico's, inherent gescoord: zonder rekening te houden met maatregelen die er nog niet zijn. Restrisico komt in Assessment 2."
 
-### Kaderclip C. De AI-verordening: risicoklasse en rol (8 minuten) (volgt)
+### Kaderclip C. De AI-verordening: risicoklasse en rol (7 minuten)
 
 "Je risicoregister zegt wat er mis kan gaan. De AI-verordening van de EU zegt hoe zwaar de wet een AI-toepassing weegt. Suriname valt er niet onder. Maar wie Europese klanten of data heeft wel, en het is het bekendste voorbeeld van hoe een wetgever AI indeelt."
 
