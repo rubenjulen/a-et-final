@@ -73,7 +73,7 @@ Map in het pakket: `Blok0_Voorbereiden`.
 | Kennisclip 1. Van deel 1 naar AI & Ethics | Blok 0 | Ontbreekt: nog opnemen (opnamekit Blok 0, clip 1) |
 | ICT A-ET Kennisclip 2.mp4 | Blok 0 | Klaar |
 | ICT A-ET Kennisclip 3.mp4 | Blok 0 | Klaar |
-| Kennisclip 4. Wat is anders bij generatieve AI? | Blok 0 | Ontbreekt: nog in te spreken; tot dan de meeleestekst in de bijlage van kennispakket 0 |
+| ICT A-ET Kennisclip 4.mp4 (Wat is anders bij generatieve AI?, 2:49) | Blok 0 | Klaar |
 | ICT A-ET Practicum 1.zip (practicum1.ipynb, suribank_kredietaanvragen.csv) | Blok 0, bij practicum 1 | Klaar |
 | ICT A-ET Installatiehandleiding.pdf | Link vanuit blok 0 (staat in 00_Algemeen/Naslag) | Klaar |
 | ICT A-ET Casusdossier Suribank.pdf | Link vanuit blok 0 (staat in 00_Algemeen) | Klaar |
@@ -97,9 +97,9 @@ Map in het pakket: `Blok1_Analyseren`.
 | ICT A-ET College 1.pdf (51 dia's, zonder docentdia) | Blok 1, na afloop van college 1 | Klaar; placeholders (tijd, lokaal) vooraf invullen in het deck en de pdf opnieuw maken |
 | ICT A-ET College 2.pdf (27 dia's, zonder docentdia) | Blok 1, na afloop van college 2 | Klaar; gastspreker en aantallen vooraf invullen |
 | Aankondiging college 1 | Tekstblok of bericht; tekst in `lesmateriaal/ICT A-ET College 1 omschrijving.txt` | Klaar |
-| Kennisclip 5 en kaderclip A | Blok 1, kennisclips | Ontbreekt: gebouwd, stem nog in te spreken; tot dan de meeleestekst in kennispakket 1 |
-| Kennisclip 6, 7 en 8 | Blok 1 | Ontbreekt: idem |
-| Kennisclip 9, 10 en kaderclip B | Blok 1 | Ontbreekt: idem |
+| ICT A-ET Kennisclip 5.mp4 (2:34) en ICT A-ET Kaderclip A.mp4 (5:09) | Blok 1, kennisclips | Klaar |
+| ICT A-ET Kennisclip 6.mp4 (4:42, nu ook met bias bij gebruik en de feedbacklus), 7.mp4 (3:35) en 8.mp4 (2:43) | Blok 1, kennisclips | Klaar |
+| ICT A-ET Kennisclip 9.mp4 (3:02), 10.mp4 (3:02) en ICT A-ET Kaderclip B.mp4 (6:26) | Blok 1, kennisclips | Klaar |
 | Kennisclip 11 tot en met 14 en kaderclip C | Blok 1 | Ontbreekt: nog op te nemen (opnamekits Blok 1) |
 | ICT A-ET Kennisclip 5b.mp4 (Vijf ethische kaders, 6:42, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5; meeleestekst staat in kennispakket 1 | Klaar |
 | ICT A-ET Kennisclip 5c.mp4 (Drie soorten black box, 4:45, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5b; meeleestekst staat in kennispakket 1 | Klaar |
