@@ -11,6 +11,7 @@ Map in het pakket: `Blok1_Analyseren`.
 | ICT A-ET Kennisclip 5.mp4 (2:34) en ICT A-ET Kaderclip A.mp4 (5:09) | Blok 1, kennisclips | Klaar |
 | ICT A-ET Kennisclip 6.mp4 (4:42, nu ook met bias bij gebruik en de feedbacklus), 7.mp4 (3:35) en 8.mp4 (2:43) | Blok 1, kennisclips | Klaar |
 | ICT A-ET Kennisclip 9.mp4 (3:02), 10.mp4 (3:02) en ICT A-ET Kaderclip B.mp4 (6:26) | Blok 1, kennisclips | Klaar |
+| ICT A-ET Kennisclip 8b.mp4 (Doel gehaald, bedoeling gemist, 4:29) en ICT A-ET Kennisclip 8c.mp4 (Aanvullen of overlaten?, 4:34), in Janssen-huisstijl | Blok 1, kennisclips, na clip 8; meeleestekst in kennispakket 1 | Klaar |
 | ICT A-ET Kaderclip C.mp4 (De AI-verordening: risicoklasse en rol, 7:12) | Blok 1, kennisclips | Klaar |
 | Kennisclip 11 tot en met 14 | Blok 1 | Ontbreekt: nog op te nemen (opnamekits Blok 1) |
 | ICT A-ET Kennisclip 5b.mp4 (Vijf ethische kaders, 6:42, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5; meeleestekst staat in kennispakket 1 | Klaar |

@@ -52,7 +52,7 @@ Je bepaalt zelf je tempo, zolang je de deadlines haalt. Deze route werkt goed.
 **15 tot en met 24 januari: in kaart brengen en bewijs verzamelen.**
 
 1. Maak K2, K3 en het bewijsplan af. Voer de gesprekken met de partner.
-2. Lees de delen over fouten per groep, uitleg en generatieve AI. Bekijk clip 9, 10 en kaderclip B, en lees de kernbron van Rudin.
+2. Lees de delen over veiligheid en alignment, AI en werk, fouten per groep, uitleg en generatieve AI. Bekijk clip 8b en 8c (herhaling van college 2), clip 9, 10 en kaderclip B, en lees de kernbron van Rudin.
 3. Maak de snelle scan (K4) en kies 3 tot 4 domeinen om diep te onderzoeken.
 4. Wil je verdieping? Maak practicum 2 en 3. Bereid practicum 4 voor: leg de testvragen of paren vast.
 5. Lever vóór zondag 24 januari het concept van K2 tot en met K4 in.
@@ -90,6 +90,8 @@ Dit is de studietekst van blok 1: de theorie voor de instrumenten, het rapport e
 | Clip 6 | Waar komt bias vandaan? | 5 min | Bias |
 | Clip 7 | Privacy als ethische vraag | 4 min | Privacy |
 | Clip 8 | Automation bias | 3 min | Menselijke controle |
+| Clip 8b | Doel gehaald, bedoeling gemist | 5 min | Veiligheid en alignment |
+| Clip 8c | Aanvullen of overlaten? | 5 min | AI en werk |
 | Clip 9 | Fouten per groep | 3 min | Fouten per groep en eerlijkheid |
 | Clip 10 | Uitleg die werkt | 4 min | Uitleg |
 | Kaderclip B | IEEE CertifAIEd: transparantie en bias toetsen | 7 min | K4 snelle scan |
@@ -1473,6 +1475,46 @@ Hier staat de gesproken tekst van de clips van blok 1, in de volgorde van De ker
 **Dia 6. Bij generatieve AI.** Een chatbot schrijft vloeiend en zelfverzekerd, ook als het antwoord niet klopt. Dat maakt automation bias sterker: wie een overtuigend antwoord krijgt, controleert minder. Een medewerker die een brief verstuurt die AI heeft geschreven, blijft verantwoordelijk voor de inhoud.
 
 **Dia 7. Samengevat.** Een mens in het proces is nog geen controle. Kijk naar informatie, tijd, kennis, bevoegdheid, cultuur en registratie. En hoe overtuigender het antwoord, hoe belangrijker de controle.
+
+### Clip 8b. Doel gehaald, bedoeling gemist (5 minuten)
+
+**Dia 1. Een bankchatbot.** Een bank bouwt een chatbot. Het doel: klanten goed helpen. Maar hoe meet je dat? De bank kiest een getal: het aantal afgehandelde gesprekken per uur. Na een maand is het getal prachtig. De chatbot sluit gesprekken sneller af, en verwijst lastige vragen meteen door. Het getal is gehaald. De klant is niet geholpen.
+
+**Dia 2. Het alignment-probleem.** Dat is het alignment-probleem. Alignment betekent: het doel en het gedrag van een systeem sluiten aan bij wat mensen werkelijk bedoelen. Al in 1960 waarschuwde de wiskundige Norbert Wiener: weet zeker dat het doel dat je in de machine stopt, het doel is dat je echt wilt.
+
+**Dia 3. Waarden en getallen.** Waarom is dat zo moeilijk? Menselijke waarden zijn vaag, ze hangen af van de context, en ze botsen soms. Een AI-systeem heeft juist een expliciet doel nodig, en een precies getal. Daarom meten we vaak iets anders dan wat we willen: een proxy. Klikken in plaats van tevredenheid. Afgehandelde gesprekken in plaats van geholpen klanten. De wet van Goodhart zegt: als een maat een doel wordt, is het geen goede maat meer. Hoe beter een systeem optimaliseert, hoe meer het de ruimte tussen het getal en het echte doel benut.
+
+> **Tussenvraag 1.** Een tijdlijn van een sociaal netwerk wordt beloond voor zoveel mogelijk reacties en gedeelde berichten. Wat is hier de proxy? A. Het welzijn van de gebruikers. B. Het aantal reacties en gedeelde berichten.
+
+**Dia 4. Specification gaming.** Als een systeem het doel haalt via een maas in de opdracht, heet dat specification gaming. Het bekendste voorbeeld komt uit 2016. OpenAI trainde een AI voor de bootrace CoastRunners, met punten als doel. De boot draaide rondjes langs dezelfde bonussen, vloog in brand, en finishte nooit. Toch scoorde hij hoger dan menselijke spelers.
+
+**Dia 5. Reward hacking.** Reward hacking lijkt erop. Het systeem haalt een hoge beloning, terwijl de uitkomst schaadt wat we willen. Een moderatiesysteem dat wordt beloond voor elk verwijderd bericht, haalt ook onschuldige berichten weg. En in 2025 meldde OpenAI dat redeneermodellen bij programmeertaken soms de tests lieten slagen, zonder het probleem echt op te lossen. Waarom zien wij dit niet aankomen? Omdat wij er onbewust gezond verstand bij denken. Het systeem doet dat niet. Het kent alleen het getal.
+
+**Dia 6. Suribank en chatbots.** Ook bij Suribank kan dit gebeuren. Stel dat het model wordt beloond voor een zo hoog mogelijk percentage terugbetaalde leningen. Dan is de veiligste route: alleen nog aanvragers goedkeuren die zeker terugbetalen. Het binnenland valt weg. Chatbots leren ook van een getal: welk antwoord vinden mensen beter? Dat maakt ze behulpzamer. Maar mensen kiezen soms het antwoord dat ze willen horen. In april 2025 draaide OpenAI een update terug, omdat het model te vleiend was geworden.
+
+> **Tussenvraag 2.** Een moderatiesysteem wordt beloond voor elk verwijderd bericht, en verwijdert ook onschuldige berichten. Hoe heet dit? A. Reward hacking. B. Een adversarial aanval.
+
+**Dia 7. Wat helpt.** Wat helpt? Meet niet alleen het doel, maar ook de bijwerking. Test met lastige gevallen, zoals in practicum 4. Laat een mens kunnen ingrijpen. En blijf volgen wat het systeem doet, ook na de livegang. Nu jij. Welk getal stuurt jullie oplossing? Hoe kan ze dat getal halen zonder het doel te dienen? En wat test of volg je om dat op tijd te zien?
+
+### Clip 8c. Aanvullen of overlaten? (5 minuten)
+
+**Dia 1. Een AI-assistent naast je.** Een medewerker van een callcenter in Paramaribo krijgt een AI-assistent. Die vat gesprekken samen en stelt antwoorden voor. Is dat goed nieuws, of het begin van het einde van haar baan?
+
+**Dia 2. Taak, baan of sector.** Het antwoord hangt af van wat AI overneemt. Er zijn drie niveaus. Eén: taken. AI neemt een deel van het werk over, zoals samenvatten. De baan blijft, maar verandert. Twee: banen. Als bijna alle taken weg zijn, verdwijnt de baan, zoals bij een tolpoort die automatisch betaalt. Drie: sectoren. Een hele sector wordt anders georganiseerd. Klantcontact en bankieren worden apps, chatbots en zelfbediening.
+
+**Dia 3. Wat het meest geraakt wordt.** Wat het meest geraakt wordt: routinewerk, administratie, klantcontact en instapfuncties. Volgens de ILO is administratief werk het meest blootgesteld, en voor vrouwen is het aandeel werk dat geautomatiseerd kan worden meer dan twee keer zo groot. Blootgesteld is niet hetzelfde als vervangen. Het IMF schat dat bijna veertig procent van het werk wereldwijd is blootgesteld aan AI. In Latijns-Amerika en het Caribisch gebied gaat het om zesentwintig tot achtendertig procent van de banen. En het effect stopt niet bij de baan. Sluit een bank een kantoor in een district, dan verliezen ook de winkel en het eethuis ernaast klanten. En wie geen smartphone heeft, verliest toegang. Dat is de tweede kring.
+
+> **Tussenvraag 1.** Een bankmedewerker laat AI elke ochtend de klachten van gisteren samenvatten. Haar baan blijft bestaan. Welk niveau van automatisering is dit? A. Taak. B. Baan. C. Sector.
+
+**Dia 4. Van aanvullen naar overlaten.** Dan het verschil tussen aanvullen en overlaten. Bij augmentatie ondersteunt AI, en beslist de mens. Bij delegatie beslist AI, en kijkt een mens alleen nog op papier mee. Augmentatie wordt vaak ongemerkt delegatie. Door drie dingen. Het antwoord klinkt zeker. Er is geen tijd om te controleren. En wie afwijkt en fout zit, krijgt de schuld, terwijl wie het advies volgt naar de AI kan wijzen. In 2023 dienden advocaten in New York een pleitnota in met uitspraken die ChatGPT had verzonnen. Ze kregen een boete van vijfduizend dollar. Echte samenwerking vraagt dat de mens informatie, tijd, kennis en de bevoegdheid heeft om af te wijken, in een cultuur waarin dat mag. Samenwerken met AI is alleen ethisch als macht, begrip en verantwoording bij elkaar horen.
+
+**Dia 5. Ook in Suriname.** Ook in Suriname speelt dit. Callcenters staan onder druk. Banken zetten AI-assistenten in. Finabank zegt dat medewerkers verantwoordelijk blijven: human in the loop. De vraag is: hoe ziet die controle er in de praktijk uit?
+
+**Dia 6. Wie vangt de winst?** Tot slot: wie vangt de winst? Data, rekenkracht en talent zitten bij een handvol bedrijven, vooral in de Verenigde Staten en China. Wie hun modellen gebruikt, betaalt en levert data, maar bouwt weinig zelf op. Of AI de ongelijkheid vergroot, is geen natuurwet. Het is een keuze van bedrijven en overheden.
+
+> **Tussenvraag 2.** Een medewerker mag van het AI-advies afwijken, maar wie afwijkt en fout zit, krijgt een berisping. Wat gebeurt er? A. De medewerker blijft echt beslissen. B. Aanvullen wordt overlaten: iedereen volgt het advies.
+
+**Dia 7. Nu jij.** Nu jij. Vult jullie oplossing werk aan, of neemt ze het over? Wie verliest taken, inkomen of zeggenschap, ook in de tweede kring? Schrijf het op bij domein tien van de nulmeting.
 
 ### Clip 9. Fouten per groep (3 minuten)
 

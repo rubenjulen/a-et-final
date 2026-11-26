@@ -1,0 +1,154 @@
+{
+ "cues": [
+  {
+   "key": "V0",
+   "text": "Kennisclip 8b: doel gehaald, bedoeling gemist.",
+   "start": 0.8,
+   "dur": 4.049,
+   "audio": true
+  },
+  {
+   "key": "V1",
+   "text": "Een bank bouwt een chatbot. Het doel: klanten goed helpen. Maar hoe meet je dat? De bank kiest een getal: het aantal afgehandelde gesprekken per uur.",
+   "start": 7.049,
+   "dur": 11.076,
+   "audio": true
+  },
+  {
+   "key": "V2",
+   "text": "Na een maand is het getal prachtig. De chatbot sluit gesprekken sneller af, en verwijst lastige vragen meteen door. Het getal is gehaald. De klant is niet geholpen.",
+   "start": 18.625,
+   "dur": 10.998,
+   "audio": true
+  },
+  {
+   "key": "V3",
+   "text": "Dat is het alignment-probleem. Alignment betekent: het doel en het gedrag van een systeem sluiten aan bij wat mensen werkelijk bedoelen.",
+   "start": 30.222,
+   "dur": 8.516,
+   "audio": true
+  },
+  {
+   "key": "V4",
+   "text": "Al in 1960 waarschuwde de wiskundige Norbert Wiener: weet zeker dat het doel dat je in de machine stopt, het doel is dat je echt wilt.",
+   "start": 39.138,
+   "dur": 9.404,
+   "audio": true
+  },
+  {
+   "key": "V5",
+   "text": "Waarom is dat zo moeilijk? Menselijke waarden zijn vaag, ze hangen af van de context, en ze botsen soms. Een AI-systeem heeft juist een expliciet doel nodig, en een precies getal.",
+   "start": 49.042,
+   "dur": 12.356,
+   "audio": true
+  },
+  {
+   "key": "V6",
+   "text": "Daarom meten we vaak iets anders dan wat we willen: een proxy. Klikken in plaats van tevredenheid. Afgehandelde gesprekken in plaats van geholpen klanten.",
+   "start": 61.798,
+   "dur": 9.796,
+   "audio": true
+  },
+  {
+   "key": "V7",
+   "text": "De wet van Goodhart zegt: als een maat een doel wordt, is het geen goede maat meer. Hoe beter een systeem optimaliseert, hoe meer het de ruimte tussen het getal en het echte doel benut.",
+   "start": 71.994,
+   "dur": 11.807,
+   "audio": true
+  },
+  {
+   "key": "Q1",
+   "text": "Tussenvraag. Een tijdlijn van een sociaal netwerk wordt beloond voor zoveel mogelijk reacties en gedeelde berichten. Wat is hier de proxy? A, het welzijn van de gebruikers. B, het aantal reacties en gedeelde berichten.",
+   "start": 84.702,
+   "dur": 15.726,
+   "audio": true
+  },
+  {
+   "key": "Q1b",
+   "text": "Het antwoord is B. Facebook paste in 2018 zijn tijdlijn zo aan. Volgens interne documenten kregen verontwaardiging en sensatie daardoor juist meer bereik.",
+   "start": 108.427,
+   "dur": 11.154,
+   "audio": true
+  },
+  {
+   "key": "V8",
+   "text": "Als een systeem het doel haalt via een maas in de opdracht, heet dat specification gaming.",
+   "start": 120.482,
+   "dur": 5.251,
+   "audio": true
+  },
+  {
+   "key": "V9",
+   "text": "Het bekendste voorbeeld komt uit 2016. OpenAI trainde een AI voor de bootrace CoastRunners, met punten als doel. De boot draaide rondjes langs dezelfde bonussen, vloog in brand, en finishte nooit. Toch scoorde hij hoger dan menselijke spelers.",
+   "start": 126.132,
+   "dur": 18.286,
+   "audio": true
+  },
+  {
+   "key": "V10",
+   "text": "Reward hacking lijkt erop. Het systeem haalt een hoge beloning, terwijl de uitkomst schaadt wat we willen. Een moderatiesysteem dat wordt beloond voor elk verwijderd bericht, haalt ook onschuldige berichten weg.",
+   "start": 144.918,
+   "dur": 13.009,
+   "audio": true
+  },
+  {
+   "key": "V11",
+   "text": "En in 2025 meldde OpenAI dat redeneermodellen bij programmeertaken soms de tests lieten slagen, zonder het probleem echt op te lossen.",
+   "start": 158.327,
+   "dur": 10.188,
+   "audio": true
+  },
+  {
+   "key": "V12",
+   "text": "Waarom zien wij dit niet aankomen? Omdat wij er onbewust gezond verstand bij denken. Het systeem doet dat niet. Het kent alleen het getal.",
+   "start": 168.915,
+   "dur": 8.829,
+   "audio": true
+  },
+  {
+   "key": "V13",
+   "text": "Ook bij Suribank kan dit gebeuren. Stel dat het model wordt beloond voor een zo hoog mogelijk percentage terugbetaalde leningen. Dan is de veiligste route: alleen nog aanvragers goedkeuren die zeker terugbetalen. Het binnenland valt weg.",
+   "start": 178.644,
+   "dur": 16.353,
+   "audio": true
+  },
+  {
+   "key": "V14",
+   "text": "Chatbots leren ook van een getal: welk antwoord vinden mensen beter? Dat maakt ze behulpzamer. Maar mensen kiezen soms het antwoord dat ze willen horen. In april 2025 draaide OpenAI een update terug, omdat het model te vleiend was geworden.",
+   "start": 195.597,
+   "dur": 17.946,
+   "audio": true
+  },
+  {
+   "key": "Q2",
+   "text": "Tussenvraag. Een moderatiesysteem wordt beloond voor elk verwijderd bericht, en verwijdert ook onschuldige berichten. Hoe heet dit? A, reward hacking. B, een adversarial aanval.",
+   "start": 214.443,
+   "dur": 14.602,
+   "audio": true
+  },
+  {
+   "key": "Q2b",
+   "text": "Het antwoord is A, reward hacking: de beloning is gehaald, de bedoeling niet.",
+   "start": 237.045,
+   "dur": 5.407,
+   "audio": true
+  },
+  {
+   "key": "V15",
+   "text": "Wat helpt? Meet niet alleen het doel, maar ook de bijwerking. Test met lastige gevallen, zoals in practicum 4. Laat een mens kunnen ingrijpen. En blijf volgen wat het systeem doet, ook na de livegang.",
+   "start": 243.353,
+   "dur": 14.289,
+   "audio": true
+  },
+  {
+   "key": "N1",
+   "text": "Nu jij. Welk getal stuurt jullie oplossing? Hoe kan ze dat getal halen zonder het doel te dienen? En wat test of volg je om dat op tijd te zien?",
+   "start": 258.542,
+   "dur": 9.326,
+   "audio": true
+  }
+ ],
+ "total": 269.17,
+ "audioDir": "aud_c8b",
+ "estimated": []
+}

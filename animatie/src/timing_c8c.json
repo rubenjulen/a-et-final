@@ -1,0 +1,154 @@
+{
+ "cues": [
+  {
+   "key": "W0",
+   "text": "Kennisclip 8c: aanvullen of overlaten?",
+   "start": 0.8,
+   "dur": 3.866,
+   "audio": true
+  },
+  {
+   "key": "W1",
+   "text": "Een medewerker van een callcenter in Paramaribo krijgt een AI-assistent. Die vat gesprekken samen en stelt antwoorden voor. Is dat goed nieuws, of het begin van het einde van haar baan?",
+   "start": 6.866,
+   "dur": 12.669,
+   "audio": true
+  },
+  {
+   "key": "W2",
+   "text": "Het antwoord hangt af van wat AI overneemt. Er zijn drie niveaus.",
+   "start": 20.136,
+   "dur": 4.676,
+   "audio": true
+  },
+  {
+   "key": "W3",
+   "text": "Eén: taken. AI neemt een deel van het werk over, zoals samenvatten. De baan blijft, maar verandert.",
+   "start": 25.111,
+   "dur": 8.046,
+   "audio": true
+  },
+  {
+   "key": "W4",
+   "text": "Twee: banen. Als bijna alle taken weg zijn, verdwijnt de baan, zoals bij een tolpoort die automatisch betaalt.",
+   "start": 33.457,
+   "dur": 7.628,
+   "audio": true
+  },
+  {
+   "key": "W5",
+   "text": "Drie: sectoren. Een hele sector wordt anders georganiseerd. Klantcontact en bankieren worden apps, chatbots en zelfbediening.",
+   "start": 41.385,
+   "dur": 9.561,
+   "audio": true
+  },
+  {
+   "key": "W6",
+   "text": "Wat het meest geraakt wordt: routinewerk, administratie, klantcontact en instapfuncties. Volgens de ILO is administratief werk het meest blootgesteld, en voor vrouwen is het aandeel werk dat geautomatiseerd kan worden meer dan twee keer zo groot.",
+   "start": 51.546,
+   "dur": 16.771,
+   "audio": true
+  },
+  {
+   "key": "W7",
+   "text": "Blootgesteld is niet hetzelfde als vervangen. Het IMF schat dat bijna veertig procent van het werk wereldwijd is blootgesteld aan AI. In Latijns-Amerika en het Caribisch gebied gaat het om zesentwintig tot achtendertig procent van de banen.",
+   "start": 68.716,
+   "dur": 16.509,
+   "audio": true
+  },
+  {
+   "key": "W8",
+   "text": "En het effect stopt niet bij de baan. Sluit een bank een kantoor in een district, dan verliezen ook de winkel en het eethuis ernaast klanten. En wie geen smartphone heeft, verliest toegang. Dat is de tweede kring.",
+   "start": 85.726,
+   "dur": 13.087,
+   "audio": true
+  },
+  {
+   "key": "Q1",
+   "text": "Tussenvraag. Een bankmedewerker laat AI elke ochtend de klachten van gisteren samenvatten. Haar baan blijft bestaan. Welk niveau van automatisering is dit? A, taak. B, baan. C, sector.",
+   "start": 99.713,
+   "dur": 16.849,
+   "audio": true
+  },
+  {
+   "key": "Q1b",
+   "text": "Het antwoord is A: een taak. De baan blijft, de inhoud verandert.",
+   "start": 124.562,
+   "dur": 5.486,
+   "audio": true
+  },
+  {
+   "key": "W9",
+   "text": "Dan het verschil tussen aanvullen en overlaten. Bij augmentatie ondersteunt AI, en beslist de mens. Bij delegatie beslist AI, en kijkt een mens alleen nog op papier mee.",
+   "start": 130.948,
+   "dur": 11.389,
+   "audio": true
+  },
+  {
+   "key": "W10",
+   "text": "Augmentatie wordt vaak ongemerkt delegatie. Door drie dingen. Het antwoord klinkt zeker. Er is geen tijd om te controleren. En wie afwijkt en fout zit, krijgt de schuld, terwijl wie het advies volgt naar de AI kan wijzen.",
+   "start": 142.737,
+   "dur": 15.882,
+   "audio": true
+  },
+  {
+   "key": "W11",
+   "text": "In 2023 dienden advocaten in New York een pleitnota in met uitspraken die ChatGPT had verzonnen. Ze kregen een boete van vijfduizend dollar.",
+   "start": 159.02,
+   "dur": 10.998,
+   "audio": true
+  },
+  {
+   "key": "W12",
+   "text": "Echte samenwerking vraagt dat de mens informatie, tijd, kennis en de bevoegdheid heeft om af te wijken, in een cultuur waarin dat mag. Samenwerken met AI is alleen ethisch als macht, begrip en verantwoording bij elkaar horen.",
+   "start": 170.517,
+   "dur": 16.431,
+   "audio": true
+  },
+  {
+   "key": "W13",
+   "text": "Ook in Suriname speelt dit. Callcenters staan onder druk. Banken zetten AI-assistenten in. Finabank zegt dat medewerkers verantwoordelijk blijven: human in the loop. De vraag is: hoe ziet die controle er in de praktijk uit?",
+   "start": 187.848,
+   "dur": 16.118,
+   "audio": true
+  },
+  {
+   "key": "W14",
+   "text": "Tot slot: wie vangt de winst? Data, rekenkracht en talent zitten bij een handvol bedrijven, vooral in de Verenigde Staten en China. Wie hun modellen gebruikt, betaalt en levert data, maar bouwt weinig zelf op.",
+   "start": 204.866,
+   "dur": 15.151,
+   "audio": true
+  },
+  {
+   "key": "W15",
+   "text": "Of AI de ongelijkheid vergroot, is geen natuurwet. Het is een keuze van bedrijven en overheden.",
+   "start": 220.417,
+   "dur": 6.609,
+   "audio": true
+  },
+  {
+   "key": "Q2",
+   "text": "Tussenvraag. Een medewerker mag van het AI-advies afwijken, maar wie afwijkt en fout zit, krijgt een berisping. Wat gebeurt er? A, de medewerker blijft echt beslissen. B, aanvullen wordt overlaten: iedereen volgt het advies.",
+   "start": 227.926,
+   "dur": 17.554,
+   "audio": true
+  },
+  {
+   "key": "Q2b",
+   "text": "Het antwoord is B. Een schuldcultuur maakt van augmentatie ongemerkt delegatie.",
+   "start": 253.48,
+   "dur": 6.113,
+   "audio": true
+  },
+  {
+   "key": "N1",
+   "text": "Nu jij. Vult jullie oplossing werk aan, of neemt ze het over? Wie verliest taken, inkomen of zeggenschap, ook in de tweede kring? Schrijf het op bij domein tien van de nulmeting.",
+   "start": 260.493,
+   "dur": 12.278,
+   "audio": true
+  }
+ ],
+ "total": 274.07,
+ "audioDir": "aud_c8c",
+ "estimated": []
+}

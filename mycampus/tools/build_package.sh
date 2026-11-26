@@ -56,6 +56,8 @@ for f in Kennisclip5_Wie_beslist_er_eigenlijk:"Kennisclip 5" Kaderclip_A_Het_kad
          Kennisclip10_Uitleg_die_werkt:"Kennisclip 10" Kaderclip_B_IEEE_CertifAIEd:"Kaderclip B"; do
   cp "$OUT/blok1/${f%%:*}_Matilda.mp4" "$B1/$P ${f#*:}.mp4"; done
 cp "$OUT/blok1/Kaderclip_C_De_AI-verordening_Matilda.mp4" "$B1/$P Kaderclip C.mp4"
+cp "$OUT/blok1/Kennisclip8b_Doel_gehaald_bedoeling_gemist_Matilda.mp4" "$B1/$P Kennisclip 8b.mp4"
+cp "$OUT/blok1/Kennisclip8c_Aanvullen_of_overlaten_Matilda.mp4" "$B1/$P Kennisclip 8c.mp4"
 cp "$OUT/blok2/Kaderclip_D_Governance_levenscyclus_Matilda.mp4" "$B2/$P Kaderclip D.mp4"
 cp "$OUT/blok2/Kaderclip_E_ISO_42001_Matilda.mp4" "$B2/$P Kaderclip E.mp4"
 cp "$OUT/blok1/Kennisclip5b_Vijf_ethische_kaders_Matilda.mp4"   "$B1/$P Kennisclip 5b.mp4"

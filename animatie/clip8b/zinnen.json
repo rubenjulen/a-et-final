@@ -1,0 +1,107 @@
+[
+[
+"V0",
+"Kennisclip 8b: doel gehaald, bedoeling gemist.",
+2.2
+],
+[
+"V1",
+"Een bank bouwt een chatbot. Het doel: klanten goed helpen. Maar hoe meet je dat? De bank kiest een getal: het aantal afgehandelde gesprekken per uur.",
+0.5
+],
+[
+"V2",
+"Na een maand is het getal prachtig. De chatbot sluit gesprekken sneller af, en verwijst lastige vragen meteen door. Het getal is gehaald. De klant is niet geholpen.",
+0.6
+],
+[
+"V3",
+"Dat is het alignment-probleem. Alignment betekent: het doel en het gedrag van een systeem sluiten aan bij wat mensen werkelijk bedoelen.",
+0.4
+],
+[
+"V4",
+"Al in 1960 waarschuwde de wiskundige Norbert Wiener: weet zeker dat het doel dat je in de machine stopt, het doel is dat je echt wilt.",
+0.5
+],
+[
+"V5",
+"Waarom is dat zo moeilijk? Menselijke waarden zijn vaag, ze hangen af van de context, en ze botsen soms. Een AI-systeem heeft juist een expliciet doel nodig, en een precies getal.",
+0.4
+],
+[
+"V6",
+"Daarom meten we vaak iets anders dan wat we willen: een proxy. Klikken in plaats van tevredenheid. Afgehandelde gesprekken in plaats van geholpen klanten.",
+0.4
+],
+[
+"V7",
+"De wet van Goodhart zegt: als een maat een doel wordt, is het geen goede maat meer. Hoe beter een systeem optimaliseert, hoe meer het de ruimte tussen het getal en het echte doel benut.",
+0.9
+],
+[
+"Q1",
+"Tussenvraag. Een tijdlijn van een sociaal netwerk wordt beloond voor zoveel mogelijk reacties en gedeelde berichten. Wat is hier de proxy? A, het welzijn van de gebruikers. B, het aantal reacties en gedeelde berichten.",
+8
+],
+[
+"Q1b",
+"Het antwoord is B. Facebook paste in 2018 zijn tijdlijn zo aan. Volgens interne documenten kregen verontwaardiging en sensatie daardoor juist meer bereik.",
+0.9
+],
+[
+"V8",
+"Als een systeem het doel haalt via een maas in de opdracht, heet dat specification gaming.",
+0.4
+],
+[
+"V9",
+"Het bekendste voorbeeld komt uit 2016. OpenAI trainde een AI voor de bootrace CoastRunners, met punten als doel. De boot draaide rondjes langs dezelfde bonussen, vloog in brand, en finishte nooit. Toch scoorde hij hoger dan menselijke spelers.",
+0.5
+],
+[
+"V10",
+"Reward hacking lijkt erop. Het systeem haalt een hoge beloning, terwijl de uitkomst schaadt wat we willen. Een moderatiesysteem dat wordt beloond voor elk verwijderd bericht, haalt ook onschuldige berichten weg.",
+0.4
+],
+[
+"V11",
+"En in 2025 meldde OpenAI dat redeneermodellen bij programmeertaken soms de tests lieten slagen, zonder het probleem echt op te lossen.",
+0.4
+],
+[
+"V12",
+"Waarom zien wij dit niet aankomen? Omdat wij er onbewust gezond verstand bij denken. Het systeem doet dat niet. Het kent alleen het getal.",
+0.9
+],
+[
+"V13",
+"Ook bij Suribank kan dit gebeuren. Stel dat het model wordt beloond voor een zo hoog mogelijk percentage terugbetaalde leningen. Dan is de veiligste route: alleen nog aanvragers goedkeuren die zeker terugbetalen. Het binnenland valt weg.",
+0.6
+],
+[
+"V14",
+"Chatbots leren ook van een getal: welk antwoord vinden mensen beter? Dat maakt ze behulpzamer. Maar mensen kiezen soms het antwoord dat ze willen horen. In april 2025 draaide OpenAI een update terug, omdat het model te vleiend was geworden.",
+0.9
+],
+[
+"Q2",
+"Tussenvraag. Een moderatiesysteem wordt beloond voor elk verwijderd bericht, en verwijdert ook onschuldige berichten. Hoe heet dit? A, reward hacking. B, een adversarial aanval.",
+8
+],
+[
+"Q2b",
+"Het antwoord is A, reward hacking: de beloning is gehaald, de bedoeling niet.",
+0.9
+],
+[
+"V15",
+"Wat helpt? Meet niet alleen het doel, maar ook de bijwerking. Test met lastige gevallen, zoals in practicum 4. Laat een mens kunnen ingrijpen. En blijf volgen wat het systeem doet, ook na de livegang.",
+0.9
+],
+[
+"N1",
+"Nu jij. Welk getal stuurt jullie oplossing? Hoe kan ze dat getal halen zonder het doel te dienen? En wat test of volg je om dat op tijd te zien?",
+0.8
+]
+]
