@@ -133,12 +133,12 @@ Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Blok 0 f
 
 | Tijd | Onderdeel |
 | --- | --- |
-| 0:00 tot 0:20 | Rolwissel van bouwer naar beoordelaar; leerdoelen; dilemma Suribank: kiezen, met de buur, dan stemmen |
-| 0:20 tot 1:05 | Ethische kaders: werkt, mag, verantwoord; ethiek, recht en compliance; lessen uit eerdere technologie; casus Rotterdam; vijf theorieën met sterke en zwakke kant (gevolgen, plichten, rechtvaardigheid, deugd, zorg); Surinaamse casus Safe City door één lens per groepje |
-| 1:05 tot 1:15 | Pauze |
-| 1:15 tot 1:55 | Bias, eerlijkheid en discriminatie: bias op de keten (praatplaat), Suribank, Gender Shades en NIST, Robert Williams, Rite Aid; bias of discriminatie; perfecte eerlijkheid bestaat niet; bias beheersen |
-| 1:55 tot 2:20 | Black box en uitlegbaarheid: drie soorten ondoorzichtigheid (SyRI, COMPAS), transparantie, interpreteerbaar en uitlegbaar, wanneer een black box aanvaardbaar is (praatplaat, met BIBIS) |
-| 2:20 tot 2:50 | K1: uitgewerkt voorbeeld, niveaus, groepswerk in het werkboek en een canvasruil |
+| 0:00 tot 0:18 | Rolwissel van bouwer naar beoordelaar; leerdoelen; dilemma Suribank: kiezen, met de buur, dan stemmen |
+| 0:18 tot 1:09 | Ethische kaders: werkt, mag, verantwoord; ethiek, recht en compliance; lessen uit eerdere technologie; casus Rotterdam; vijf theorieën met sterke en zwakke kant (gevolgen, plichten, rechtvaardigheid, deugd, zorg); Surinaamse casus Safe City door één lens per groepje; twee stellingen uit de les |
+| 1:09 tot 1:19 | Pauze |
+| 1:19 tot 2:00 | Bias, eerlijkheid en discriminatie: bias op de keten (praatplaat), Suribank, Gender Shades en NIST, Robert Williams, Rite Aid; bias of discriminatie; perfecte eerlijkheid bestaat niet; bias beheersen; twee stellingen uit de les |
+| 2:00 tot 2:24 | Black box en uitlegbaarheid: drie soorten ondoorzichtigheid (SyRI, COMPAS), transparantie, interpreteerbaar en uitlegbaar, wanneer een black box aanvaardbaar is (praatplaat, met BIBIS); twee stellingen uit de les |
+| 2:24 tot 2:50 | K1: uitgewerkt voorbeeld, niveaus, groepswerk in het werkboek en een canvasruil |
 | 2:50 tot 3:00 | Blokken, toetsing en deadlines, exit ticket |
 
 ## College 2. Waar gaat het mis, en wie is verantwoordelijk? (14 januari)

@@ -1301,6 +1301,12 @@ Denk aan je eigen stakeholderkaart: wie hebben jullie gehoord, en wie niet?
 **Oefenen met de andere stellingen van blok 1.** Deze stellingen houden de lijn van het debat vast. Gebruik ze om je standpunt te scherpen, en in je canvas.
 
 - *"Een bank in Suriname mag het klantcontact volledig aan een AI-assistent overlaten, als klanten daardoor sneller geholpen worden."* (stelling 1 van het debat)
+- *"Een systeem dat de meeste mensen helpt, mag een kleine groep benadelen."* (college 1, gevolgenethiek)
+- *"Goede bedoelingen van de makers zijn geen vervanging voor regels en toezicht."* (college 1, deugdethiek)
+- *"Objectieve eerlijkheid bestaat niet: elke keuze bevoordeelt een groep."* (college 1)
+- *"Met genoeg diverse trainingsdata verdwijnt bias vanzelf."* (college 1)
+- *"Een systeem dat nauwkeurig is, maar zijn beslissingen niet kan uitleggen, is niet ethisch."* (college 1)
+- *"Transparantie is geen luxe, maar een morele eis."* (college 1)
 - *"Organisaties in Suriname moeten wachten met AI voor beslissingen over mensen totdat er een privacywet is."*
 - *"Een AI-systeem dat zijn doel haalt, is een goed systeem."*
 - *"Het grootste ethische risico van AI is geen opstand van machines, maar onze stille afhankelijkheid."* (college 2)

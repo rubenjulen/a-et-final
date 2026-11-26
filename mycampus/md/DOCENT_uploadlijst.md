@@ -94,7 +94,7 @@ Map in het pakket: `Blok1_Analyseren`.
 | Bestand of onderdeel | Waar op MyCampus | Status |
 | --- | --- | --- |
 | ICT A-ET Blok 1 Analyseren.pdf (kennispakket 1) | Blok 1, bovenaan; online vanaf vrijdag 8 januari | Klaar |
-| ICT A-ET College 1.pdf (51 dia's, zonder docentdia) | Blok 1, na afloop van college 1 | Klaar; placeholders (tijd, lokaal) vooraf invullen in het deck en de pdf opnieuw maken |
+| ICT A-ET College 1.pdf (54 dia's, zonder docentdia) | Blok 1, na afloop van college 1 | Klaar; placeholders (tijd, lokaal) vooraf invullen in het deck en de pdf opnieuw maken |
 | ICT A-ET College 2.pdf (43 dia's, zonder docentdia; met veiligheid en alignment, en AI en werk) | Blok 1, na afloop van college 2 | Klaar; gastspreker en aantallen vooraf invullen |
 | Aankondiging college 1 | Tekstblok of bericht; tekst in `lesmateriaal/ICT A-ET College 1 omschrijving.txt` | Klaar |
 | ICT A-ET Kennisclip 5.mp4 (2:34) en ICT A-ET Kaderclip A.mp4 (5:09) | Blok 1, kennisclips | Klaar |
