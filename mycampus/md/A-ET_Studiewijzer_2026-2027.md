@@ -182,17 +182,16 @@ De omvang is bewust begrensd: de nulmeting scoort alle 11 domeinen kort en werkt
 ### College 1 · Wat staat er op het spel? (donderdag 7 januari)
 
 - Je opent met een dilemma: een Surinaamse bank wil een kredietmodel dat sneller beslist, maar aanvragers uit het binnenland vaker afwijst. Je kiest eerst zelf, dan met je buur.
-- Je leert het verschil tussen werkt het, mag het en is het verantwoord, en tussen ethiek, recht en compliance. Je ziet wat eerdere technologieën ons leerden over verantwoordelijkheid achteraf.
-- Je bekijkt twee echte casussen: de e-visumchatbot van het ministerie van BIBIS en het fraudealgoritme van Rotterdam.
-- Je leert de vier ethische lenzen met hun theorie, en past ze in groepjes toe op het dilemma.
-- Je hoort over het kader in vier lagen, de Surinaamse context, de opbouw van de module en het rapport.
+- Ethische kaders: werkt het, mag het en is het verantwoord; ethiek, recht en compliance; wat eerdere technologieën ons leerden. Vijf theorieën met hun sterke en zwakke kant (gevolgen, plichten, rechtvaardigheid, deugd, zorg), toegepast in groepjes op de Surinaamse casus Safe City.
+- Bias, eerlijkheid en discriminatie: waar in de keten bias ontstaat, met Gender Shades, Robert Williams en Rite Aid, en waarom perfecte eerlijkheid niet bestaat.
+- Black box en uitlegbaarheid: drie soorten ondoorzichtigheid (met SyRI en COMPAS), transparantie, en wanneer een black box aanvaardbaar is, met onder meer de e-visumchatbot van BIBIS.
 - Met je groep baken je jullie eigen oplossing af in K1, met een kwaliteitscheck en een ruil met een andere groep.
 
 ### College 2 · Waar gaat het mis, en wie is verantwoordelijk? (donderdag 14 januari)
 
 - Terugblik: welke fout van een model is erger, en voor wie?
 - Een gastspreker vertelt over één echte casus. Daarna stel je de vragen die je groep heeft voorbereid.
-- Minicollege over bronnen van bias, waarom perfecte eerlijkheid niet bestaat, de black box en uitlegbaarheid, privacy en verantwoording, met de casus Gender Shades en een casus van een onterechte arrestatie door gezichtsherkenning.
+- Minicollege als verdieping op college 1: bias aantonen in je eigen oplossing, generatieve AI onderzoeken (met de Surinaamse deepfakes), privacy in Suriname, verantwoording en menselijke controle.
 - Debat in Lagerhuisvorm over twee stellingen; halverwege wissel je van kant.
 - Je vertaalt het naar jullie eigen casus: de eerste versie van K2 en K3, en een plan voor bewijs en gesprekken met de partner.
 

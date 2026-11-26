@@ -164,6 +164,18 @@ Om te wegen of iets verantwoord is, gebruik je vier lenzen, elk met een theorie 
 
 **Zorgethiek** hoort bij de vierde lens. Carol Gilligan (1982) en Joan Tronto (1993) vragen: wie is van het systeem afhankelijk, wie kan zich niet goed verweren, en wat vraagt goede zorg voor die mensen? Bij Suribank is dat de aanvrager uit het binnenland die geen uitleg krijgt en niemand kan bellen. De lenzen spreken elkaar soms tegen. Dat is geen fout: het laat zien waar de echte afweging zit.
 
+**Waarom kaders?** Ethiek is geen mening. Een kader geeft structuur, maakt je oordeel consistent, en laat je uitleggen waarom. Het laat ook zien waarom redelijke mensen het oneens zijn: ze wegen andere dingen zwaarder. Bij AI gaat het bijna altijd om een afweging: nauwkeurigheid of eerlijkheid, veiligheid of privacy, vernieuwing of terughoudendheid.
+
+**Vijf theorieën, sterk en zwak.** Deugd en zorg vallen samen onder de lens professionele integriteit.
+
+| Theorie | Sterk | Zwak | AI-voorbeeld |
+| --- | --- | --- | --- |
+| Utilitarisme (gevolgen) | Praktisch, meetbaar, past bij risicobeheer | Kleine groepen worden weggemiddeld; niet alles is meetbaar | Een AI herkent kanker in 80% van de gevallen goed: wie krijgt de 20% fouten? |
+| Deontologie (plichten) | Beschermt rechten en waardigheid; heldere grenzen | Regels kunnen botsen; star in grijze gevallen | Een verkoopchatbot die klanten manipuleert, is fout, hoe hoog de omzet ook is |
+| Rawls (rechtvaardigheid) | Kijkt naar de zwakste positie | Meerdere definities van eerlijk | Zou je het model accepteren als je niet weet in welke groep je zit? |
+| Deugdethiek (deugd) | Gaat over karakter, cultuur en praktische wijsheid | Vaag; wiens deugden? | Een ontwikkelaar meldt dat het model slechter werkt voor één groep |
+| Zorgethiek (zorg) | Maakt kwetsbare groepen zichtbaar; gevoelig voor context | Moeilijk op grote schaal; welke groep gaat voor? | De afgewezen aanvrager die niemand kan bellen |
+
 ### Bias: waar komt het vandaan?
 
 *Bias* is een systematische scheefheid: een fout die steeds dezelfde kant op valt, vaak voor dezelfde groep. Clip 6 bespreekt zes bronnen.
@@ -176,6 +188,8 @@ Om te wegen of iets verantwoord is, gebruik je vier lenzen, elk met een theorie 
 | Label | Het label zelf is scheef | Alleen wie een lening kreeg, heeft een uitkomst |
 | Aggregatie | Eén model werkt voor een kleine groep slecht | Het gemiddelde verbergt het verschil |
 | Gebruik | Een model wordt gebruikt waarvoor het niet gemaakt is | Een model uit de stad wordt in het binnenland ingezet |
+
+**Bias die ontstaat als het systeem draait.** Naast de zes bronnen uit clip 6 zijn er drie die je bij gebruik ziet. *Algoritmische bias*: het doel van het model bevoordeelt de grootste groep, omdat die het gemiddelde bepaalt. *Interactiebias*: gebruikers sturen het systeem bij met hun vragen en feedback, en fouten versterken zichzelf. *Bevestigingsbias*: het systeem bevestigt wat makers of gebruikers al dachten. Samen vormen ze een *feedbacklus*: als een fraudemodel vooral in één wijk laat controleren, vind je daar meer fraude, en leert het model dat die wijk riskanter is.
 
 **Bias of discriminatie?** Bias is een technisch begrip. *Discriminatie* is een juridisch en ethisch begrip: een ongerechtvaardigd onderscheid. De Grondwet van Suriname verbiedt in artikel 8 onderscheid op grond van onder meer geboorte, geslacht, ras, taal, godsdienst, afkomst, economische positie en sociale omstandigheden. De vraag is niet óf er onderscheid is, maar of het gerechtvaardigd en proportioneel is.
 
@@ -220,6 +234,14 @@ Een *black box* is een model waarvan je niet kunt zien waarom het iets zegt. *Tr
 | Contrafactisch | Wat er anders had moeten zijn: "Met een looptijd van 24 in plaats van 12 maanden was uw aanvraag goedgekeurd." |
 
 Goede uitleg past bij de doelgroep. De aanvrager wil weten wat hij kan doen, de medewerker of hij mag afwijken, de toezichthouder of het systeem eerlijk werkt. Uitleg is ook een voorwaarde voor menselijke controle en voor bezwaar.
+
+**Interpreteerbaar of uitlegbaar?** *Interpreteerbaar* gaat over de bouw van het model: is het zelf te volgen? *Uitlegbaar* gaat over communicatie: kun je een beslissing begrijpelijk maken? Een model kan nauwkeurig zijn en toch onverantwoord, als de mensen om wie het gaat de uitkomst niet kunnen begrijpen.
+
+**Drie soorten ondoorzichtigheid** (Burrell, 2016). (1) *Bewust geheim*: een bedrijf of overheid houdt het model geheim, zoals bij SyRI en COMPAS (zie Praktijkvoorbeelden). (2) *Te ingewikkeld voor wie het raakt*: de uitleg bestaat, maar alleen in vaktaal. (3) *Ook voor de makers onbekend*: het model is zo complex dat zelfs experts niet precies weten waarom een uitkomst zo uitvalt, zoals bij grote taalmodellen. Elke soort vraagt een ander antwoord: openheid of een onafhankelijke audit, uitleg in gewone taal, of een leesbaar model.
+
+**Waarom transparantie ertoe doet.** Om vier redenen: verantwoording (alleen wat je ziet, kun je controleren en herstellen), vertrouwen, eerlijkheid (verborgen logica kan verborgen bias bevatten) en toestemming (je kunt niet instemmen met wat je niet begrijpt). Transparant betekent niet de broncode delen, maar eerlijk zijn over doel, data, beslisregels in gewone taal en beperkingen.
+
+**Wanneer mag een black box?** Vaak wel bij lage impact, als het systeem alleen adviseert en een mens echt beslist, zoals bij muziekaanbevelingen. Niet als rechten of vrijheid op het spel staan, als er geen bezwaar mogelijk is, als de macht scheef verdeeld is, of als geen mens echt ingrijpt. De vuistregel: **hoe groter de impact op iemands leven, hoe zwaarder de eis aan uitleg.**
 
 ### Vier vragen bij generatieve AI
 
@@ -321,10 +343,9 @@ De colleges zijn de enige lesmomenten van dit blok. Elk college opent met een di
 Donderdag 7 januari, [tijd], lokaal [lokaal]. Drie uur. **Neem mee:** je laptop, de beschrijving van jullie eigen oplossing uit blok 0 en jullie ethische evaluatie uit A-AI1.
 
 - Je opent met een dilemma. Een Surinaamse bank wil een kredietmodel dat sneller beslist, maar aanvragers uit het binnenland vaker afwijst. Je kiest eerst zelf, dan met je buur.
-- Je leert het verschil tussen werkt, mag en verantwoord, en tussen recht, compliance en ethiek. Je ziet wat eerdere technologieën ons leerden.
-- Je bekijkt twee echte casussen: de e-visumchatbot van BIBIS en het fraudealgoritme van Rotterdam (zie Praktijkvoorbeelden).
-- Je leert de vier lenzen met hun theorie. Elk groepje krijgt een lenzenkaart en beoordeelt het Suribank-dilemma alleen door die lens, met de hulpvragen uit De kern. Daarna formuleer je één conclusie, met de theorie: *"Vanuit onze lens mag Suribank dit wel / niet / alleen onder deze voorwaarden, omdat …"*
-- Je hoort over het kader in vier lagen, de Surinaamse context en de opbouw van de module.
+- **Ethische kaders.** Je leert het verschil tussen werkt, mag en verantwoord, en tussen recht, compliance en ethiek, met de casus Rotterdam. Je leert vijf theorieën met hun sterke en zwakke kant: gevolgen, plichten, rechtvaardigheid, deugd en zorg. Elk groepje beoordeelt de Surinaamse casus Safe City door één lens: *"Vanuit onze lens mag de politie gezichtsherkenning wel / niet / alleen onder deze voorwaarden aanzetten, omdat …"*
+- **Bias, eerlijkheid en discriminatie.** Je ziet waar in de keten bias ontstaat, met Suribank, Gender Shades, Robert Williams en Rite Aid. Je leert waarom perfecte eerlijkheid niet bestaat, en wat je wel kunt doen.
+- **Black box en uitlegbaarheid.** Drie soorten ondoorzichtigheid (met SyRI en COMPAS), waarom transparantie ertoe doet, het verschil tussen interpreteerbaar en uitlegbaar, en wanneer een black box wel of niet aanvaardbaar is. De e-visumchatbot van BIBIS is een van de voorbeelden.
 - Met je groep baken je jullie eigen oplossing af in K1, met een kwaliteitscheck en een ruil met een andere groep.
 
 Je gaat naar huis met een eerste versie van K1. Vul het exit ticket in bij **ICT A-ET Exit ticket college 1**.
@@ -363,7 +384,7 @@ Donderdag 14 januari, [tijd], lokaal [lokaal]. Drie uur. **Neem mee:** je laptop
 
 - Terugblik: welke fout van een model is erger, en voor wie?
 - De gastspreker vertelt over één echte casus. Daarna stellen de groepen hun vragen. Maak aantekeningen bij zes vragen. Welk vraagstuk speelde? Welke risico's waren er? Wat ging mis, of had mis kunnen gaan? Wie was verantwoordelijk? Welke maatregelen volgden? Wat betekent dit voor onze casus?
-- Minicollege over bronnen van bias, waarom perfecte eerlijkheid niet bestaat, de black box en uitlegbaarheid, privacy en verantwoording. Met de casus Gender Shades en een casus van een onterechte arrestatie door gezichtsherkenning.
+- Minicollege, als verdieping op college 1: hoe toon je bias aan in je eigen oplossing (de vier stappen van practicum 4), wat onderzoek je bij generatieve AI (met de Surinaamse deepfakes), privacy in Suriname, en verantwoording en menselijke controle.
 - Debat in Lagerhuisvorm over twee stellingen: stelling 1 hierboven, en een stelling uit de inzendingen.
 - Je vertaalt het naar jullie eigen casus: de eerste rijen van K2 en K3 in het werkboek, en een plan voor bewijs en gesprekken met de partner.
 
@@ -456,6 +477,42 @@ De chatbot vertelde een klant dat hij achteraf korting kon krijgen op een vlucht
 Amsterdam wilde aanvragen voor bijstand laten beoordelen door een model, en probeerde dat bewust verantwoord te doen. De stad testte het model op vertekening, paste het aan en testte opnieuw. Ze vroeg externe deskundigen mee te kijken, legde het plan voor aan de Participatieraad, die bijstandsgerechtigden vertegenwoordigt, en gaf journalisten toegang om zelf te testen. In de proef bleek de vertekening niet weg, maar verschoven naar andere groepen. De Participatieraad was tegen, en de stad stopte de proef. Dit is een goed voorbeeld, juist omdat het mislukte: het volgt de cyclus meten, maatregel, opnieuw meten, en de stad durfde te stoppen. Een No Go is ook een uitkomst van ethisch werken. Bron: MIT Technology Review en Lighthouse Reports, ["Inside Amsterdam's high-stakes experiment to create fair welfare AI"](https://www.technologyreview.com/2025/06/11/1118233/amsterdam-fair-welfare-ai-discriminatory-algorithms-failure/) (juni 2025).
 
 **Zeven gewoonten van organisaties die het goed aanpakken.** (1) Vooraf vragen of AI echt nodig is, en wat de mensen om wie het gaat ervan vinden. (2) Gevoelige kenmerken én proxy's testen vóór de start. (3) De mensen om wie het gaat laten meepraten. (4) Medewerkers uitleg geven en echte ruimte om af te wijken. (5) Open zijn over het systeem en een bezwaarroute bieden. (6) Blijven meten en opnieuw testen na elke wijziging. (7) Durven stoppen als het niet goed genoeg is.
+
+### 11. Safe City: camera's in heel Suriname (2026)
+
+Met Safe City fase 3 hangen sinds begin 2026 camera's in Paramaribo en de districten. Beelden hielpen de politie bij het opsporen van straatrovers in het centrum. Volgens minister Monorath van Justitie en Politie kunnen de nieuwe camera's ook kentekens en gezichten herkennen; die mogelijkheden worden nog niet volledig gebruikt. Andere berichten noemen gezichtsherkenning nog een wens van de politie. Lees: [Suriname Herald, 27 februari 2026](https://www.srherald.com/suriname/2026/02/27/safe-city-3-landelijk-uitgerold-cameras-actief-in-districten/) en [Waterkant, 5 juli 2026](https://www.waterkant.net/suriname/2026/07/05/monorath-onze-safe-city-cameras-functioneren-wel/).
+
+*Leesvragen.* Wat zegt elk van de vijf kaders over het aanzetten van gezichtsherkenning? Wie draagt de lasten van foute treffers? Wat zou er geregeld moeten zijn, zonder privacywet?
+
+### 12. Robert Williams: gearresteerd na een foute match (Verenigde Staten, 2020 tot 2024)
+
+In januari 2020 arresteerde de politie van Detroit Robert Williams bij zijn huis, in het bijzijn van zijn vrouw en dochters. Gezichtsherkenning had hem ten onrechte gekoppeld aan beelden van een winkeldiefstal. In juni 2024 schikte de stad: 300.000 dollar, geen arrestaties meer alleen op basis van gezichtsherkenning, en een controle van eerdere zaken. Lees en kijk: [ACLU, met video waarin Williams zelf vertelt](https://www.aclu.org/news/privacy-technology/wrongfully-arrested-because-face-recognition-cant-tell-black-people-apart) en [Michigan Public, 28 juni 2024](https://www.michiganpublic.org/criminal-justice-legal-system/2024-06-28/it-didnt-make-sense-at-all-wrongful-facial-recognition-arrest-leads-to-landmark-settlement).
+
+*Leesvragen.* Welke bias uit de keten zie je terug? Waarom geloofden de agenten de computer? Wie is verantwoordelijk?
+
+### 13. Rite Aid: "winkeldief" volgens de camera (Verenigde Staten, 2023)
+
+De drogisterijketen Rite Aid gebruikte gezichtsherkenning om vermeende winkeldieven te herkennen. Medewerkers kregen vaak onterechte meldingen. Volgens de toezichthouder FTC gebeurde dat vaker in winkels in wijken met vooral zwarte en Aziatische bewoners. In december 2023 kreeg Rite Aid een verbod van vijf jaar. Lees: [TechCrunch, 20 december 2023](https://techcrunch.com/2023/12/20/rite-aid-facial-recognition/).
+
+*Leesvragen.* Welke plek in de keten ging mis: data, inzet of controle? Welke vragen van de FTC kun je ook in Suriname stellen?
+
+### 14. SyRI: een geheim risicomodel (Nederland, 2020)
+
+Met SyRI koppelde de Nederlandse overheid gegevens om fraude op te sporen. Het risicomodel en de indicatoren waren geheim. Op 5 februari 2020 oordeelde de rechtbank Den Haag dat de wet in strijd was met het recht op privéleven (artikel 8 EVRM): onvoldoende inzichtelijk en controleerbaar. Lees: [Rechtspraak.nl, 5 februari 2020](https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/2020/02/syri-wetgeving-in-strijd-met-het-europees-verdrag-voor-de-rechten-voor-de-mens).
+
+*Leesvragen.* Welke soort ondoorzichtigheid is dit? Waarom woog fraudebestrijding hier niet op tegen privacy?
+
+### 15. Loomis en COMPAS: een geheime score in de rechtszaal (Verenigde Staten, 2016)
+
+Een rechter in Wisconsin gebruikte de risicoscore COMPAS bij het bepalen van de straf van Eric Loomis. Het model was bedrijfsgeheim, dus Loomis kon het niet controleren. Het hooggerechtshof stond het gebruik toe, maar met waarschuwingen. Lees: [Harvard Law Review, 2017](https://harvardlawreview.org/2017/03/state-v-loomis/).
+
+*Leesvragen.* Mag een black box meewegen bij een straf? Wat zou jij als waarborg eisen?
+
+### 16. Deepfakes van Surinaamse politici (2025 en 2026)
+
+In maart 2025 ging een nepvideo rond van NDP-leiders in een felle woordenwisseling. In februari 2026 verschenen video's met het gezicht en een AI-stem van president Simons. Volgens het KPS is het maken en verspreiden ervan strafbaar. Lees: [Suriname Herald, 19 februari 2026](https://www.srherald.com/suriname/2026/02/19/kabinet-waarschuwt-voor-deepfakevideos-president-simons/).
+
+*Leesvragen.* Wie is verantwoordelijk: de maker, het platform of wie deelt? Hoe herken je een deepfake, en wat moet een organisatie doen die met AI-stemmen werkt?
 
 ## Instrumenten
 

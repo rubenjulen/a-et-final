@@ -2,7 +2,7 @@ ICT A-ET College 1 omschrijving (voor MyCampus)
 
 KORTE VERSIE
 
-In college 1 maak je een rolwissel: van bouwer naar beoordelaar. Aan de hand van een dilemma bij de fictieve Suribank en twee echte casussen ontdek je dat werkt, mag en verantwoord drie verschillende vragen zijn, en dat voldoen aan de regels nog niet hetzelfde is als verantwoord handelen. Je bekijkt een AI-beslissing door vier ethische lenzen. Je gaat naar huis met een bevestigde casus en de eerste versie van jullie K1-canvas.
+In college 1 maak je een rolwissel: van bouwer naar beoordelaar. Aan de hand van een dilemma bij de fictieve Suribank en echte casussen, zoals de Safe City-camera's in Suriname, leer je drie dingen: hoe je een AI-keuze weegt met ethische kaders, waar bias ontstaat en waarom perfecte eerlijkheid niet bestaat, en wanneer een AI-systeem moet kunnen uitleggen waarom het iets beslist. Je gaat naar huis met een bevestigde casus en de eerste versie van jullie K1-canvas.
 
 
 VOLLEDIGE VERSIE
@@ -11,21 +11,25 @@ ICT A-ET College 1 · Wat staat er op het spel?
 Donderdag 7 januari 2027 · [tijd] · lokaal [__] · 3 uur
 
 Waar gaat dit college over?
-In A-AI2 bouw je een AI-oplossing en is de vraag: werkt het? In A-ET beoordeel je diezelfde oplossing: voor wie gaat het mis, en is dat te verantwoorden? We beginnen met een dilemma bij Suribank, een fictieve bank die een model over leningen laat meebeslissen. Daarna bekijken we twee echte casussen: de e-visumchatbot van het ministerie van BIBIS (2025) en het fraudealgoritme van de gemeente Rotterdam. Je ontdekt dat een systeem kan werken en toegestaan kan zijn, en toch niet verantwoord. Je ziet ook waarom compliance alleen de ondergrens is, en wat we kunnen leren van eerdere technologieën zoals de auto, medicijnen en sociale media, waar de regels pas na de schade kwamen.
+In A-AI2 bouw je een AI-oplossing en is de vraag: werkt het? In A-ET beoordeel je diezelfde oplossing: voor wie gaat het mis, en is dat te verantwoorden? We beginnen met een dilemma bij Suribank, een fictieve bank die een model over leningen laat meebeslissen. Daarna werken we drie onderwerpen uit, met echte casussen uit Suriname en daarbuiten.
+- Ethische kaders: werkt het, mag het, is het verantwoord? Waarom compliance alleen de ondergrens is, en vijf theorieën met hun sterke en zwakke kant. In groepjes beoordeel je de Safe City-camera's: moet de politie gezichtsherkenning aanzetten?
+- Bias, eerlijkheid en discriminatie: waar in de keten ontstaat bias? Met Gender Shades, Robert Williams (onterecht gearresteerd na een foute gezichtsherkenning) en Rite Aid.
+- Black box en uitlegbaarheid: drie soorten ondoorzichtigheid, met SyRI en COMPAS, en wanneer een black box wel of niet aanvaardbaar is, met onder meer de e-visumchatbot van BIBIS.
 
 Aan het einde van dit college kun je:
 - werkt het, mag het en is het verantwoord uit elkaar houden, en recht, compliance en ethiek onderscheiden;
-- uitleggen waar in de keten van data tot gevolg mensen keuzes maken;
-- een dilemma door één ethische lens bekijken en de theorie erachter noemen;
+- een AI-keuze wegen met vijf ethische kaders, met hun sterke en zwakke kant;
+- aanwijzen waar in de keten bias ontstaat, en uitleggen waarom perfecte eerlijkheid niet bestaat;
+- beoordelen wanneer een black box aanvaardbaar is, en welke uitleg een getroffene verdient;
 - jullie eigen oplossing afbakenen in het K1-canvas.
 
 Hoe ziet het college eruit?
 1. Dilemma: mag Suribank dit? Je kiest eerst zelf, dan met je buur.
-2. Van data tot beslissing: waar zitten de keuzes van mensen?
-3. Werkt, mag, verantwoord: recht en compliance, lessen uit eerdere technologieën, en vier ethische lenzen, in groepjes.
-4. Kader en eindproduct: waarop word je beoordeeld?
-5. Jullie casus: het K1-canvas, met een kwaliteitscheck en een ruil met een andere groep.
-6. Afsluiting: hoe de module loopt (drie colleges, vier blokken), wat je doet tot college 2, plus het exit ticket.
+2. Ethische kaders: vijf theorieën, en Safe City door één lens, in groepjes.
+3. Bias, eerlijkheid en discriminatie.
+4. Black box en uitlegbaarheid.
+5. Jullie casus: het K1-canvas, met een ruil met een andere groep.
+6. Afsluiting: hoe de module loopt (drie colleges, vier blokken), hoe je wordt beoordeeld, wat je doet tot college 2, plus het exit ticket.
 
 Neem mee:
 - je laptop;

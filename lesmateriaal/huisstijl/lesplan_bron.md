@@ -133,13 +133,13 @@ Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Blok 0 f
 
 | Tijd | Onderdeel |
 | --- | --- |
-| 0:00 tot 0:25 | Rolwissel van bouwer naar beoordelaar; leerdoelen; dilemma Suribank: kiezen, met de buur, dan stemmen |
-| 0:25 tot 0:55 | Van data tot beslissing: de keten bij een voorspellend model en bij generatieve AI; echte casus BIBIS |
-| 0:55 tot 1:35 | Werkt, mag, verantwoord; ethiek, recht en compliance; lessen uit eerdere technologie; casus Rotterdam; de vier lenzen in groepjes |
-| 1:35 tot 1:45 | Pauze |
-| 1:45 tot 2:10 | Suriname, het kader in vier lagen, de opbouw van de module en het rapport, toetsing |
-| 2:10 tot 2:50 | K1: uitgewerkt voorbeeld, kwaliteitscheck, groepswerk in het werkboek en een canvasruil |
-| 2:50 tot 3:00 | Blokken en deadlines, exit ticket |
+| 0:00 tot 0:20 | Rolwissel van bouwer naar beoordelaar; leerdoelen; dilemma Suribank: kiezen, met de buur, dan stemmen |
+| 0:20 tot 1:05 | Ethische kaders: werkt, mag, verantwoord; ethiek, recht en compliance; lessen uit eerdere technologie; casus Rotterdam; vijf theorieën met sterke en zwakke kant (gevolgen, plichten, rechtvaardigheid, deugd, zorg); Surinaamse casus Safe City door één lens per groepje |
+| 1:05 tot 1:15 | Pauze |
+| 1:15 tot 1:55 | Bias, eerlijkheid en discriminatie: bias op de keten (praatplaat), Suribank, Gender Shades en NIST, Robert Williams, Rite Aid; bias of discriminatie; perfecte eerlijkheid bestaat niet; bias beheersen |
+| 1:55 tot 2:20 | Black box en uitlegbaarheid: drie soorten ondoorzichtigheid (SyRI, COMPAS), transparantie, interpreteerbaar en uitlegbaar, wanneer een black box aanvaardbaar is (praatplaat, met BIBIS) |
+| 2:20 tot 2:50 | K1: uitgewerkt voorbeeld, niveaus, groepswerk in het werkboek en een canvasruil |
+| 2:50 tot 3:00 | Blokken, toetsing en deadlines, exit ticket |
 
 ## College 2. Waar gaat het mis, en wie is verantwoordelijk? (14 januari)
 
@@ -149,13 +149,13 @@ Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Blok 0 f
 | 0:15 tot 1:00 | Gastspreker met één echte casus, met een aantekenkaart |
 | 1:00 tot 1:20 | Vraaggesprek met door de groepen voorbereide vragen |
 | 1:20 tot 1:30 | Pauze |
-| 1:30 tot 2:00 | Minicollege: bronnen van bias, waarom perfecte eerlijkheid niet bestaat, de black box en uitlegbaarheid, privacy en verantwoording; casussen Gender Shades en een onterechte arrestatie door gezichtsherkenning |
-| 2:00 tot 2:38 | Debat in Lagerhuisvorm over twee stellingen; halverwege wisselen studenten van kant |
+| 1:30 tot 2:10 | Minicollege als verdieping op college 1: bias aantonen in de eigen oplossing (vier stappen, practicum 4), generatieve AI onderzoeken met de Surinaamse deepfakes, privacy in Suriname, verantwoording en menselijke controle |
+| 2:10 tot 2:38 | Debat in Lagerhuisvorm over twee stellingen; halverwege wisselen studenten van kant |
 | 2:38 tot 3:00 | Eigen casus: eerste versie K2 en K3 in het werkboek, ruil met een andere groep, exit ticket |
 
 ## Blok 1, vervolg. Analyseren met bewijs (15 januari tot en met 4 februari)
 
-Groepen werken K2 tot en met K4, K6 en het plan van aanpak uit, voeren gesprekken met de partner en testen hun eigen oplossing (practicum 4, sterk aanbevolen). Kennispakket 1 bevat de theorie over fouten per groep, uitlegbaarheid en generatieve AI (kaderclip B: IEEE CertifAIEd) en over risicoklassen (kaderclip C), met casussen als de toeslagenaffaire, Rotterdam, Air Canada en de e-visumchatbot van BIBIS. Op 24 januari leveren groepen optioneel een concept in; op 25 januari volgt feedforward. Op 4 februari leveren ze Assessment 1 in; op 18 februari volgt schriftelijke feedback.
+Groepen werken K2 tot en met K4, K6 en het plan van aanpak uit, voeren gesprekken met de partner en testen hun eigen oplossing (practicum 4, sterk aanbevolen). Kennispakket 1 bevat de theorie over fouten per groep, uitlegbaarheid en generatieve AI (kaderclip B: IEEE CertifAIEd), het kader in vier lagen (kaderclip A) en risicoklassen (kaderclip C), met zestien praktijkvoorbeelden, waaronder Safe City, de deepfakes van Surinaamse politici, de toeslagenaffaire, SyRI en de e-visumchatbot van BIBIS. Op 24 januari leveren groepen optioneel een concept in; op 25 januari volgt feedforward. Op 4 februari leveren ze Assessment 1 in; op 18 februari volgt schriftelijke feedback.
 
 ## Blok 2. Ontwerpen (5 tot en met 25 februari)
 

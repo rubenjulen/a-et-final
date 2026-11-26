@@ -6,7 +6,10 @@ Hbo-studenten (HBO-ICT en HBO-Bedrijfskunde) die in een vorig vak zelf een AI-op
 
 DOEL VAN DE PRESENTATIE
 Laat de student een rolwissel maken: van bouwer ("werkt het?") naar beoordelaar ("voor wie gaat het mis, en is dat te verantwoorden?"). De student moet:
-1. kennis opdoen: werkt / mag / verantwoord, het verschil tussen recht, compliance en ethiek, lessen uit eerdere technologieën (auto, medicijnen, sociale media), de keten van data tot gevolg, vier ethische lenzen (met zorgethiek binnen professionele integriteit), één kader in vier lagen;
+1. kennis opdoen over drie onderwerpen, met diepgang:
+   - ethische kaders: werkt / mag / verantwoord; recht, compliance en ethiek; lessen uit eerdere technologieën; waarom kaders (structuur, consistentie, onderbouwing; drie afwegingen); vijf theorieën met kernvraag, sterk, zwak en een AI-voorbeeld: gevolgen (utilitarisme), plichten (Kant), rechtvaardigheid (Rawls), deugd (Aristoteles) en zorg (Gilligan, Tronto); deugd en zorg vormen samen de lens professionele integriteit;
+   - bias, eerlijkheid en discriminatie: zeven soorten bias op hun plek in de keten (data en representatie, historisch, meting en proxy, algoritmisch, inzet, interactie, bevestiging) met de feedbacklus; bias of discriminatie; waarom perfecte eerlijkheid niet bestaat; hoe je bias beheerst;
+   - black box en uitlegbaarheid: wat een black box is; drie soorten ondoorzichtigheid (Burrell, 2016); vier redenen voor transparantie; interpreteerbaar tegenover uitlegbaar; wanneer een black box wel of niet aanvaardbaar is;
 2. kritisch nadenken: kiezen, onderbouwen, het tegenargument serieus nemen;
 3. breder kijken dan eerder: ook naar betrokkenen die het systeem nooit zien, naar Suriname en de Caribische context, en naar wat er buiten de organisatie gebeurt (leveranciers, taalmodellen in het buitenland).
 Het leren van de student staat centraal. De docent is begeleider, niet de hoofdrolspeler.
@@ -16,20 +19,22 @@ WAT JE NIET MAG VERANDEREN
 - Alle feiten, cijfers, percentages, data, deadlines, namen van inleverpunten (ICT A-ET K1, ICT A-ET Voorbereiding college 2, ICT A-ET Exit ticket college 1), wegingen en bronnen.
 - Placeholders tussen vierkante haken, zoals [tijd], [__%] en [kanaal]: laat ze letterlijk staan.
 - Suribank, ClaimWacht en de oefendata zijn fictief. Zeg dat er zo bij als het in het origineel staat.
-- De twee echte casussen (de e-visumchatbot van BIBIS, 30 april 2025, en het fraudealgoritme van Rotterdam, Suspicion Machines, 2023) met hun bronnen en QR-codes.
+- De echte casussen met hun bronnen en QR-codes: Safe City in Suriname (Suriname Herald 27 februari 2026, Waterkant 5 juli 2026; "volgens de minister kunnen de camera's gezichten herkennen"), het fraudealgoritme van Rotterdam, Gender Shades (0,8% tegenover 34,7%) en NIST (2019, 189 algoritmen), Robert Williams (2020–2024), Rite Aid (FTC, december 2023), SyRI (rechtbank Den Haag, 5 februari 2020), Loomis en COMPAS (2016), en de e-visumchatbot van BIBIS (30 april 2025).
+- De drie praatplaten (vijf kaders rond één keuze; de keten van bias met de feedbacklus; het kwadrant "wanneer mag een black box?"): behoud hun opbouw en de plaats van de voorbeelden.
 - Verzin geen statistieken, citaten, namen, casussen of wetsartikelen. Voeg je praktische kennis toe, dan alleen algemeen erkende kennis, met de bron erbij (bijvoorbeeld UNESCO-aanbeveling 2021, OECD AI Principles, NIST AI RMF, ISO/IEC 42001, EU AI-verordening 2024/1689). Zet bij elke toevoeging klein "[aanvulling – controleren]".
 
 WAT JE MOET VERSTERKEN
 1. Wow-factor in de opening. Begin met een sterke hook: één beeld en één vraag die schuurt ("Een model beslist in één minuut over jouw lening. Wie is verantwoordelijk als het fout gaat?"). Daarna pas de rolwissel en de leerdoelen.
 2. Eén idee per kaart. Splits volle kaarten. Maak van opsommingen visuele vormen:
    - getallen als grote cijfers (49% tegenover 61%);
-   - ketens als stroomdiagram met pijlen (data → kenmerken → model → kans → drempel → beslissing → gevolg; vraag → instructies → taalmodel → antwoord → gebruik → gevolg);
-   - de vier lagen als gestapelde lagen;
+   - de vijf kaders als vijf kaarten met hetzelfde stramien (kernvraag, sterk, zwak, AI-voorbeeld), elk met een herkenbaar icoon;
+   - de drie soorten ondoorzichtigheid als drie steeds donkerder dozen;
    - recht, compliance en ethiek als drie lagen of drie cirkels, met "compliance is de ondergrens" als kernzin;
    - de lessen uit eerdere technologieën als tijdlijn met drie momenten (1965–1966, 1957–1962, 2004–2022): schade eerst, regels daarna;
    - de redeneerketen en de module als tijdlijn van vier blokken: blok 0 voorbereiden, blok 1 analyseren (A1 4 februari), blok 2 ontwerpen (college 3 met Design Review 25 februari), blok 3 verantwoorden (A2 11 maart);
-   - de drie niveaus (zwak / redelijk / professioneel) als oplopende trap.
-3. Spanning en reveal. Zet bij de stemming, de kansvraag, de compliance-vraag ("voldoet aan alle regels: is ze daarmee verantwoord bezig?") en Rotterdam eerst de vraag op een eigen kaart ("Kies eerst: ja, nee of onder voorwaarden?"). Het antwoord of de duiding volgt op de volgende kaart.
+   - de drie niveaus (zwak / redelijk / professioneel) als oplopende trap;
+   - maak van de drie praatplaten echte infographics die in één oogopslag context, doel en kennis geven.
+3. Spanning en reveal. Zet bij de stemming, de compliance-vraag ("voldoet aan alle regels: is ze daarmee verantwoord bezig?"), Rotterdam, Safe City, "welke eerlijkheid kies jij?" en "waar staat jullie oplossing op de black-box-plaat?" eerst de vraag op een eigen kaart ("Kies eerst: ja, nee of onder voorwaarden?"). Het antwoord of de duiding volgt op de volgende kaart.
 4. Kritisch denken op elke inhoudskaart. Geef elke inhoudskaart één van deze elementen, met een vast icoon:
    - "Kies eerst" (stemmen of keuze);
    - "Denk verder" (een tegenvraag of ander perspectief, bijvoorbeeld van de betrokkene);
@@ -44,6 +49,8 @@ WAT JE MOET VERSTERKEN
    - transparantieplicht bij chatbots;
    - compliance (aantonen dat je je aan wet, contracten en eigen beleid houdt) tegenover ethiek;
    - zorgethiek: wie is van het systeem afhankelijk en kan zich niet goed verweren?
+   - interpreteerbaar (hoe werkt het model?) tegenover uitlegbaar (waarom deze uitkomst?);
+   - feedbacklus: een systeem dat leert van zijn eigen uitkomsten.
 7. Studentgericht afsluiten. Laat de leerdoelen terugkomen als zelfcheck ("Kun je nu …?"). Toon de vier blokken met de drie colleges en de feedbackmomenten (11 januari, 25 januari, 18 februari) als één overzichtelijke kaart: er is geen wekelijks ritme en er zijn geen online sessies. Daarna het exit ticket met drie vragen plus een bonusvraag, en de kernboodschap groot in beeld: "Een systeem kan werken en toegestaan zijn, en toch niet verantwoord."
 
 VISUELE STIJL (huisstijl Janssen University)
@@ -68,7 +75,7 @@ SPREKERSNOTITIES
 Behoud en verrijk de sprekersnotities als regieaanwijzing: tijd en deel, "Zeg: …", "Vraag: …", "Verwacht: …", "Overgang: …". Zet antwoorden en docentinformatie alleen in de notities, nooit op de kaart.
 
 OUTPUT
-- 16:9, ongeveer 40–46 kaarten.
+- 16:9, ongeveer 48–56 kaarten.
 - De laatste kaarten: bronnen, en een docentkaart "Voorbereiding (niet tonen)".
 - Controleer aan het eind:
   - kloppen alle tijden, deadlines en namen nog met het origineel;

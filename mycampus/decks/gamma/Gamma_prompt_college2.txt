@@ -7,9 +7,8 @@ Hbo-studenten (HBO-ICT en HBO-Bedrijfskunde) die in A-AI2 een eigen AI-oplossing
 DOEL VAN DE PRESENTATIE
 De student maakt de volgende stap: van beoordelaar naar onderzoeker. "Een oordeel zonder bewijs telt niet." De student moet:
 1. kennis opdoen:
-   - de zes bronnen van bias en hoe je ze onderzoekt;
-   - waarom perfecte eerlijkheid niet bestaat (kalibratie, foutverdeling en uitkomst gaan niet samen als groepen verschillen);
-   - de black box openen: leesbaar model, uitleg achteraf en contrafactische uitleg, en welke uitleg een getroffene verdient;
+   - bias aantonen in de eigen oplossing in vier stappen (groepen kiezen, vaste testset, fouten per groep tellen, verschil wegen); college 1 behandelde al waar bias ontstaat, eerlijkheid en de black box: herhaal die theorie niet;
+   - vier vragen bij generatieve AI, met de Surinaamse deepfakes (maart 2025 en februari 2026);
    - het verschil tussen bias en discriminatie;
    - privacy als ethische vraag;
    - de keten van verantwoordelijkheid;
@@ -24,8 +23,8 @@ WAT JE NIET MAG VERANDEREN
 - Alle werkvormen met hun tijden en "KLAAR ="-criteria. Daaronder valt het Lagerhuisdebat met het verloop kiezen 1, openen 2, debatteren 5, wisselen 3, afsluiten 2 minuten, en de drie spelregels.
 - Alle feiten en cijfers:
   - practicum 1: 69,4% en 67,8%; 80/30 en 65/51;
-  - Gender Shades: 0,8% tegenover 34,7%;
-  - Robert Williams (Detroit): arrestatie januari 2020, schikking juni 2024 met 300.000 dollar en drie nieuwe regels; voeg geen details toe die niet op de dia of in de notities staan;
+  - deepfakes: nepvideo van NDP-leiders (maart 2025); video's met het gezicht en een AI-stem van president Simons (februari 2026); volgens het KPS strafbaar;
+  - privacy: geen meldplicht bij datalekken; veel overheidssystemen draaien op buitenlandse software (Dagblad Suriname, juli 2025);
   - Grondwet van Suriname artikel 8 lid 2 en artikel 17;
   - de ontwerpwet Bescherming Privacy en Persoonsgegevens "ligt bij De Nationale Assemblée": voeg geen jaartal toe.
 - Alle data en namen van inleverpunten: ICT A-ET Exit ticket college 2, ICT A-ET Concept K2-K4 (zondag 24 januari, 23:59, optioneel maar sterk aanbevolen; feedforward op maandag 25 januari). Er is geen wekelijks rapportstuk en er zijn geen online sessies.
@@ -39,14 +38,12 @@ WAT JE MOET VERSTERKEN
 2. Eén idee per kaart. Splits volle kaarten. Maak van opsommingen visuele vormen:
    - de twee soorten fouten als twee brillen naast elkaar;
    - de zes bronnen van bias als een rij iconen met per bron "vraag" en "bewijs";
+   - de vier stappen om bias aan te tonen als een praatplaat met pijlen;
+   - de vier vragen bij generatieve AI als vier kwadranten, met de deepfake-casus ernaast;
    - de keten van verantwoordelijkheid als pijlenketen (ontwikkelaar → leverancier → organisatie → management → medewerker);
    - de zes voorwaarden voor menselijke controle als een checklist of dashboard;
-   - Gender Shades als twee grote contrasterende getallen;
-   - de drie definities van eerlijkheid als drie weegschalen die niet tegelijk in balans kunnen;
-   - de drie routes van uitleg als drie lezers (aanvrager, medewerker, toezichthouder);
-   - de casus Robert Williams als tijdlijn 2020 → 2021 → 2024 met de drie nieuwe regels;
    - het debat als een zaal met twee kanten en een middenvak.
-3. Spanning en reveal. Zet bij "welke fout is erger?", "welke eerlijkheid kies jij bij Suribank?", de drie vragen bij Robert Williams, "is rekening houden met inkomen discriminatie?", de klantbrief in de gratis chatbot en "15 minuten per dossier" eerst de vraag op een eigen kaart ("Kies eerst"). De duiding volgt op de volgende kaart.
+3. Spanning en reveal. Zet bij "welke fout is erger?", "welke groepen kiezen jullie?", "welke van de vier vragen raakt de deepfake-casus?", de klantbrief in de gratis chatbot en "15 minuten per dossier" eerst de vraag op een eigen kaart ("Kies eerst"). De duiding volgt op de volgende kaart.
 4. Kritisch denken op elke inhoudskaart. Geef elke inhoudskaart één van deze elementen, met een vast icoon:
    - "Kies eerst";
    - "Denk verder" (bijvoorbeeld vanuit de aanvrager die wordt afgewezen, of vanuit de klant wiens brief in een chatbot belandt);
@@ -59,7 +56,7 @@ WAT JE MOET VERSTERKEN
    - "gerechtvaardigd en proportioneel";
    - waarom een mens in het proces nog geen controle is;
    - wat "verantwoording" (accountability) concreet betekent.
-7. Het gastcollege als leerkans. Maak de aantekenkaart een sterke, rustige kaart die tijdens het gastcollege kan blijven staan. Laat de vragen van de groepen en het reserveplan bij afzegging (Gender Shades als vervanging) herkenbaar.
+7. Het gastcollege als leerkans. Maak de aantekenkaart een sterke, rustige kaart die tijdens het gastcollege kan blijven staan. Laat de vragen van de groepen en het reserveplan bij afzegging (de TED-talk van Buolamwini of de ACLU-video van Robert Williams als vervanging) herkenbaar.
 8. Studentgericht afsluiten:
    - het uitgewerkte K2/K3-voorbeeld;
    - een stakeholderrij op drie niveaus (zwak, redelijk, professioneel) als oplopende trap;
