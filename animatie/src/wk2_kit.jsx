@@ -1,4 +1,4 @@
-/* Gedeelde bouwstenen voor kennisclips 6-8 (week 2). Kopie van de stijl van Clip3/Clip4,
+/* Gedeelde bouwstenen voor kennisclips 6-8 (blok 1). Kopie van de stijl van Clip3/Clip4,
    als factory zodat elke clip zijn eigen timing gebruikt. */
 import React, { useEffect, useState } from 'react';
 import {
@@ -196,7 +196,7 @@ export const makeKit = (timing) => {
     return (
       <AbsoluteFill style={{ background: C.dark }}>
         <div style={{ position: 'absolute', left: 128, top: 330, opacity: s, transform: `translateY(${(1 - s) * 30}px)` }}>
-          <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 28, letterSpacing: 3, color: C.amber }}>KENNISCLIP {n} · WEEK 2</div>
+          <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 28, letterSpacing: 3, color: C.amber }}>KENNISCLIP {n} · AI &amp; ETHICS · BLOK 1</div>
           <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 96, color: C.light, marginTop: 14, maxWidth: 1500, lineHeight: 1.05 }}>{title}</div>
           <div style={{ fontFamily: SANS, fontSize: 34, color: '#C9D6CF', marginTop: 22 }}>{sub}</div>
         </div>

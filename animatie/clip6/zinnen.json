@@ -21,7 +21,7 @@
 ],
 [
 "d1d",
-"We bekijken zes bronnen.",
+"We bekijken zes bronnen, en daarna drie die ontstaan als het systeem draait.",
 0.9
 ],
 [
@@ -110,6 +110,31 @@
 0.9
 ],
 [
+"d7c",
+"Als het systeem draait, komen er nog drie bij.",
+0.5
+],
+[
+"d7d",
+"Algoritmische bias: het doel van het model bevoordeelt de grootste groep, omdat die het gemiddelde bepaalt.",
+0.4
+],
+[
+"d7e",
+"Interactiebias: gebruikers sturen het systeem bij met hun vragen en feedback, en fouten versterken zichzelf.",
+0.4
+],
+[
+"d7f",
+"Bevestigingsbias: het systeem bevestigt wat de makers of gebruikers al dachten.",
+0.5
+],
+[
+"d7g",
+"Samen vormen ze een feedbacklus. Laat een fraudemodel vooral in één wijk controleren, dan vind je daar meer fraude, en leert het model dat die wijk riskanter is.",
+0.9
+],
+[
 "d8a",
 "Bias is een technisch begrip. Discriminatie is een juridisch en ethisch begrip: een ongerechtvaardigd onderscheid.",
 0.5
@@ -141,7 +166,7 @@
 ],
 [
 "d9a",
-"Samengevat. Zes bronnen: historisch, representatie, meting, label, aggregatie en gebruik.",
+"Samengevat. Zes bronnen: historisch, representatie, meting, label, aggregatie en gebruik. En als het systeem draait: algoritmische bias, interactiebias en bevestigingsbias.",
 0.5
 ],
 [

@@ -4,269 +4,235 @@
    "key": "A0",
    "text": "Kaderclip A: het kaderlandschap.",
    "start": 0.8,
-   "dur": 2.06,
-   "audio": false
+   "dur": 2.769,
+   "audio": true
   },
   {
    "key": "A1",
    "text": "Shanti vraagt een lening aan bij Suribank. Een model beslist mee of ze die krijgt.",
-   "start": 3.36,
-   "dur": 5.29,
-   "audio": false
+   "start": 4.069,
+   "dur": 5.251,
+   "audio": true
   },
   {
    "key": "A2",
    "text": "Hoe weet je of dat verantwoord is? Daar bestaan veel kaders en normen voor. Op het eerste gezicht is dat een flinke stapel.",
-   "start": 9.15,
-   "dur": 7.94,
-   "audio": false
+   "start": 9.82,
+   "dur": 8.124,
+   "audio": true
   },
   {
    "key": "A3",
    "text": "In deze clip zie je dat ze allemaal in één kader passen. Dat kader heeft vier lagen.",
-   "start": 17.59,
-   "dur": 5.42,
-   "audio": false
+   "start": 18.444,
+   "dur": 6.113,
+   "audio": true
   },
   {
    "key": "A4",
    "text": "De eerste laag is wat. Wat beoordeel je? Dat zijn de elf domeinen, zoals fairness, privacy en menselijke controle.",
-   "start": 23.91,
-   "dur": 7.35,
-   "audio": false
+   "start": 25.456,
+   "dur": 8.908,
+   "audio": true
   },
   {
    "key": "A5",
    "text": "De tweede laag is hoe. Hoe pak je het aan? Met het NIST AI Risk Management Framework: besturen, in kaart brengen, meten en beheersen.",
-   "start": 31.76,
-   "dur": 8.58,
-   "audio": false
+   "start": 34.864,
+   "dur": 11.154,
+   "audio": true
   },
   {
    "key": "A6",
    "text": "De derde laag is waarom. Waarom vind je iets goed of fout? Dat onderbouw je met de UNESCO-aanbeveling en de vier ethische lenzen.",
-   "start": 40.84,
-   "dur": 8.32,
-   "audio": false
+   "start": 46.518,
+   "dur": 9.091,
+   "audio": true
   },
   {
    "key": "A7",
    "text": "De vierde laag is waar. Welke regels gelden hier? Dat zijn de Surinaamse wet en het beleid, en buitenlandse regels als die nodig zijn.",
-   "start": 49.66,
-   "dur": 8.65,
-   "audio": false
+   "start": 56.109,
+   "dur": 9.326,
+   "audio": true
   },
   {
    "key": "A8",
    "text": "Wat, hoe, waarom en waar. Met die vier vragen kun je elke AI-toepassing doorlichten, ook die van jullie eigen groep.",
-   "start": 58.81,
-   "dur": 7.48,
-   "audio": false
+   "start": 65.935,
+   "dur": 8.202,
+   "audio": true
   },
   {
    "key": "A8b",
    "text": "Een voorbeeld bij Shanti. Wordt ze vaker afgewezen omdat ze in Nickerie woont? Dat is een vraag in de laag wat, bij het domein fairness.",
-   "start": 67.19,
-   "dur": 8.77,
-   "audio": false
+   "start": 75.037,
+   "dur": 9.796,
+   "audio": true
   },
   {
    "key": "A9",
    "text": "In de praktijk kom je meer kaders tegen. Het goede nieuws: ze passen allemaal in deze vier lagen.",
-   "start": 76.86,
-   "dur": 6.26,
-   "audio": false
+   "start": 85.733,
+   "dur": 6.426,
+   "audio": true
   },
   {
    "key": "A10",
-   "text": "IEEE CertifAIEd hoort bij wat. Het toetst vier dingen: transparantie, verantwoording, algoritmische bias en privacy. In week 3 gebruik je die vier als checklist bij de nulmeting.",
-   "start": 83.62,
-   "dur": 11.48,
-   "audio": false
+   "text": "IEEE CertifAIEd hoort bij wat. Het toetst vier dingen: transparantie, verantwoording, algoritmische bias en privacy. In blok 1 gebruik je die vier als checklist bij de nulmeting.",
+   "start": 92.659,
+   "dur": 14.289,
+   "audio": true
   },
   {
    "key": "A11",
    "text": "ISO/IEC 42001 en AIGP horen bij hoe. Ze laten zien hoe een organisatie AI bestuurt, van ontwikkeling tot gebruik.",
-   "start": 95.6,
-   "dur": 7.29,
-   "audio": false
+   "start": 107.448,
+   "dur": 12.199,
+   "audio": true
   },
   {
    "key": "A11b",
    "text": "Denk aan de orderagent van Frisco Installaties. Wie mag de agent aanpassen, en wie zet hem uit als het misgaat? Dat zijn vragen in de laag hoe.",
-   "start": 103.39,
-   "dur": 9.23,
-   "audio": false
+   "start": 120.147,
+   "dur": 9.796,
+   "audio": true
   },
   {
    "key": "A12",
    "text": "De Europese AI-verordening hoort bij waar. Die wet geldt niet in Suriname. Wij gebruiken haar als vergelijking: wat zou daar verplicht zijn?",
-   "start": 113.12,
-   "dur": 9.03,
-   "audio": false
+   "start": 130.443,
+   "dur": 9.326,
+   "audio": true
   },
   {
    "key": "A13",
    "text": "Heeft een organisatie Europese klanten of data, dan kan de verordening wel gelden.",
-   "start": 122.65,
-   "dur": 5.29,
-   "audio": false
+   "start": 140.269,
+   "dur": 4.911,
+   "audio": true
   },
   {
    "key": "A13b",
    "text": "Voor Suribank zou de verordening streng zijn. Een model dat de kredietwaardigheid van mensen beoordeelt, geldt daar als hoog risico.",
-   "start": 128.44,
-   "dur": 8.52,
-   "audio": false
+   "start": 145.68,
+   "dur": 7.889,
+   "audio": true
   },
   {
    "key": "A14",
-   "text": "Je leert ze kennen in week 3, 4, 6 en 8, telkens in een korte kaderclip. Je hoeft ze niet uit je hoofd te kennen.",
-   "start": 137.46,
-   "dur": 7.29,
-   "audio": false
+   "text": "Je leert ze kennen in blok 1 en blok 2, telkens in een korte kaderclip. Je hoeft ze niet uit je hoofd te kennen.",
+   "start": 154.069,
+   "dur": 7.811,
+   "audio": true
   },
   {
    "key": "AQ1",
    "text": "Tussenvraag. Een organisatie wil weten hoe ze AI stap voor stap bestuurt, van ontwikkeling tot gebruik. In welke laag zoek je? A, wat. B, hoe. C, waarom.",
-   "start": 145.65,
-   "dur": 9.87,
-   "audio": false
+   "start": 162.78,
+   "dur": 14.524,
+   "audio": true
   },
   {
    "key": "AQ1b",
    "text": "Het antwoord is B, hoe. Daar horen het NIST-kader, ISO/IEC 42001 en AIGP.",
-   "start": 163.52,
-   "dur": 4.71,
-   "audio": false
+   "start": 185.304,
+   "dur": 9.482,
+   "audio": true
   },
   {
    "key": "A15",
    "text": "Kijk nog even naar de laag waarom. De vier lenzen komen uit de ethiek, en elke lens heeft een naam.",
-   "start": 169.13,
-   "dur": 6.39,
-   "audio": false
+   "start": 195.686,
+   "dur": 6.922,
+   "audio": true
   },
   {
    "key": "A16",
    "text": "Gevolgen is utilitarisme. Je kijkt naar baten en schade, voor iedereen die geraakt wordt.",
-   "start": 176.02,
-   "dur": 5.74,
-   "audio": false
+   "start": 203.109,
+   "dur": 6.766,
+   "audio": true
   },
   {
    "key": "A17",
    "text": "Rechten en plichten is deontologie. Sommige grenzen gelden altijd, hoe nuttig iets ook is.",
-   "start": 182.26,
-   "dur": 5.81,
-   "audio": false
+   "start": 210.374,
+   "dur": 6.531,
+   "audio": true
   },
   {
    "key": "A18",
    "text": "Rechtvaardigheid is de rechtvaardigheidstheorie van Rawls. Zijn kansen en lasten eerlijk verdeeld, ook voor wie het zwakst staat?",
-   "start": 188.57,
-   "dur": 8.32,
-   "audio": false
+   "start": 217.405,
+   "dur": 8.359,
+   "audio": true
   },
   {
    "key": "A19",
    "text": "Professionele integriteit is deugdethiek, samen met beroepscodes. Wat doet een goede vakman in deze situatie?",
-   "start": 197.39,
-   "dur": 7.03,
-   "audio": false
+   "start": 226.264,
+   "dur": 7.706,
+   "audio": true
   },
   {
    "key": "A20",
    "text": "In het dilemma-canvas noem je straks de lens én de theorie. Zo laat je zien waar je oordeel op rust, en kan een ander je redenering volgen.",
-   "start": 204.92,
-   "dur": 8.97,
-   "audio": false
+   "start": 234.47,
+   "dur": 9.404,
+   "audio": true
   },
   {
    "key": "AQ2",
    "text": "Tussenvraag. Welke theorie hoort bij de lens rechten en plichten? A, utilitarisme. B, deontologie. C, deugdethiek.",
-   "start": 214.79,
-   "dur": 7.35,
-   "audio": false
+   "start": 244.774,
+   "dur": 10.841,
+   "audio": true
   },
   {
    "key": "AQ2b",
    "text": "Het antwoord is B, deontologie: grenzen die gelden, ongeacht het nut.",
-   "start": 230.14,
-   "dur": 4.45,
-   "audio": false
+   "start": 263.615,
+   "dur": 5.564,
+   "audio": true
   },
   {
    "key": "A21",
    "text": "Samengevat: één kader met vier lagen, en elk ander kader past erin.",
-   "start": 235.49,
-   "dur": 4.32,
-   "audio": false
+   "start": 270.079,
+   "dur": 5.486,
+   "audio": true
   },
   {
    "key": "A21b",
    "text": "Kom je een nieuwe norm tegen? Vraag dan: in welke laag hoort deze? Zo raak je het overzicht niet kwijt.",
-   "start": 240.31,
-   "dur": 6.65,
-   "audio": false
+   "start": 276.065,
+   "dur": 7.236,
+   "audio": true
   },
   {
    "key": "A22",
    "text": "Er zijn ook certificeringen, zoals CEET. Die toetsen of iemand het geheel beheerst. Voor ons zijn ze een kompas, geen examenstof.",
-   "start": 247.46,
-   "dur": 8.32,
-   "audio": false
+   "start": 283.801,
+   "dur": 10.188,
+   "audio": true
   },
   {
    "key": "A23",
-   "text": "In week 10 zie je welke certificeringen er zijn, als je na de minor verder wilt.",
-   "start": 256.28,
-   "dur": 5.16,
-   "audio": false
+   "text": "In kennispakket 3 zie je welke certificeringen er zijn, als je na de minor verder wilt.",
+   "start": 294.489,
+   "dur": 5.486,
+   "audio": true
   },
   {
    "key": "A24",
    "text": "Pak nu jullie eigen oplossing erbij. Bij welke laag liggen jullie grootste vragen? Schrijf er één op voor het college.",
-   "start": 262.34,
-   "dur": 7.61,
-   "audio": false
+   "start": 300.874,
+   "dur": 7.549,
+   "audio": true
   }
  ],
- "total": 270.95,
+ "total": 309.42,
  "audioDir": "aud_kA",
- "estimated": [
-  "A0",
-  "A1",
-  "A2",
-  "A3",
-  "A4",
-  "A5",
-  "A6",
-  "A7",
-  "A8",
-  "A8b",
-  "A9",
-  "A10",
-  "A11",
-  "A11b",
-  "A12",
-  "A13",
-  "A13b",
-  "A14",
-  "AQ1",
-  "AQ1b",
-  "A15",
-  "A16",
-  "A17",
-  "A18",
-  "A19",
-  "A20",
-  "AQ2",
-  "AQ2b",
-  "A21",
-  "A21b",
-  "A22",
-  "A23",
-  "A24"
- ]
+ "estimated": []
 }

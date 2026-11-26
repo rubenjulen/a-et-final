@@ -50,6 +50,11 @@ cp "$PDF/A-ET_College2_dias.pdf" "$B1/$P College 2.pdf"
 cp "$PDF/A-ET_College3_dias.pdf" "$B2/$P College 3.pdf"
 cp "$OUT/week0/Kennisclip2_Waarom_maakt_AI_fouten_Matilda.mp4" "$B0/$P Kennisclip 2.mp4"
 cp "$OUT/week0/Kennisclip3_Fouten_tellen_Matilda.mp4"          "$B0/$P Kennisclip 3.mp4"
+cp "$OUT/week0/Kennisclip4_Wat_is_anders_bij_generatieve_AI_Matilda.mp4" "$B0/$P Kennisclip 4.mp4"
+for f in Kennisclip5_Wie_beslist_er_eigenlijk:"Kennisclip 5" Kaderclip_A_Het_kaderlandschap:"Kaderclip A" Kennisclip6_Waar_komt_bias_vandaan:"Kennisclip 6" \
+         Kennisclip7_Privacy_als_ethische_vraag:"Kennisclip 7" Kennisclip8_Automation_bias:"Kennisclip 8" Kennisclip9_Fouten_per_groep:"Kennisclip 9" \
+         Kennisclip10_Uitleg_die_werkt:"Kennisclip 10" Kaderclip_B_IEEE_CertifAIEd:"Kaderclip B"; do
+  cp "$OUT/blok1/${f%%:*}_Matilda.mp4" "$B1/$P ${f#*:}.mp4"; done
 cp "$OUT/blok1/Kennisclip5b_Vijf_ethische_kaders_Matilda.mp4"   "$B1/$P Kennisclip 5b.mp4"
 cp "$OUT/blok1/Kennisclip5c_Drie_soorten_black_box_Matilda.mp4"  "$B1/$P Kennisclip 5c.mp4"
 # Practica als zip; binnen de zip blijven de originele namen (notebooks lezen de csv's op naam)

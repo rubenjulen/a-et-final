@@ -4,137 +4,123 @@
    "key": "i0",
    "text": "Kennisclip 4: wat is anders bij generatieve AI?",
    "start": 0.8,
-   "dur": 3.788,
+   "dur": 3.866,
    "audio": true
   },
   {
    "key": "i1",
    "text": "In clip 3 telde je de fouten van een kredietmodel. Zo'n model geeft een getal. Maar veel AI maakt tekst: een chatbot, een assistent, of een systeem dat een bestelling opneemt.",
-   "start": 5.188,
-   "dur": 12.121,
+   "start": 5.266,
+   "dur": 12.199,
    "audio": true
   },
   {
    "key": "c1",
    "text": "Shanti wil een koelinstallatie voor haar kraam. Ze bestelt die via de chatbot van een installatiebedrijf.",
-   "start": 18.109,
+   "start": 18.265,
    "dur": 5.956,
    "audio": true
   },
   {
    "key": "c2",
    "text": "De chatbot zet haar gesprek om in een bestelling. Handig. Maar er komen vier nieuwe vragen bij.",
-   "start": 24.564,
-   "dur": 6.348,
+   "start": 24.721,
+   "dur": 6.113,
    "audio": true
   },
   {
    "key": "v1",
    "text": "Vraag één: kan het overtuigend fout zijn? Een taalmodel weet niet wat waar is. Het klinkt alleen zo.",
-   "start": 31.812,
-   "dur": 6.45,
-   "audio": false
+   "start": 31.734,
+   "dur": 7.079,
+   "audio": true
   },
   {
    "key": "v1b",
    "text": "Shanti vraagt wanneer de installatie klaar is. De chatbot zegt: morgen, en gratis geplaatst. Maar dat heeft niemand afgesproken.",
-   "start": 38.762,
-   "dur": 8.26,
-   "audio": false
+   "start": 39.313,
+   "dur": 8.986,
+   "audio": true
   },
   {
    "key": "q1",
    "text": "Even een vraag. Wie is verantwoordelijk voor dat verkeerde antwoord: het taalmodel, of het bedrijf dat de chatbot inzet? Zet de video stil en kies.",
-   "start": 47.922,
-   "dur": 9.48,
-   "audio": false
+   "start": 49.199,
+   "dur": 9.874,
+   "audio": true
   },
   {
    "key": "a1",
    "text": "Het bedrijf. Een model kan geen verantwoordelijkheid dragen. Het bedrijf kiest het model, schrijft de instructies, en moet de fout herstellen.",
-   "start": 62.402,
-   "dur": 9.16,
-   "audio": false
+   "start": 64.073,
+   "dur": 9.796,
+   "audio": true
   },
   {
    "key": "v2",
    "text": "Vraag twee: waar gaan de gegevens heen? Wat Shanti typt, haar naam, adres en telefoonnummer, gaat vaak naar een dienst van een ander bedrijf, in het buitenland.",
-   "start": 72.462,
-   "dur": 10.32,
-   "audio": false
+   "start": 74.769,
+   "dur": 10.606,
+   "audio": true
   },
   {
    "key": "v2b",
    "text": "Bij maatkleding gaat het zelfs om lichaamsmaten. Worden die bewaard? Gebruikt om het model te verbeteren? Shanti weet het niet.",
-   "start": 83.282,
-   "dur": 8.19,
-   "audio": false
+   "start": 85.875,
+   "dur": 8.594,
+   "audio": true
   },
   {
    "key": "v3",
    "text": "Vraag drie: weet de gebruiker dat het AI is? Shanti dacht dat ze met een medewerker sprak.",
-   "start": 92.372,
-   "dur": 5.81,
-   "audio": false
+   "start": 95.369,
+   "dur": 6.609,
+   "audio": true
   },
   {
    "key": "v3b",
    "text": "Een goede chatbot zegt meteen dat het AI is, wat hij wel en niet kan, en hoe je een mens spreekt.",
-   "start": 98.682,
-   "dur": 6.26,
-   "audio": false
+   "start": 102.478,
+   "dur": 6.113,
+   "audio": true
   },
   {
    "key": "v4",
    "text": "Vraag vier: helpt het iedereen even goed? Shanti's buurvrouw typt niet graag. Ze stuurt een spraakbericht, in het Sranantongo. De assistent zet het om naar tekst, maar herkent de woorden niet. Ze krijgt: ik begrijp uw vraag niet.",
-   "start": 105.842,
-   "dur": 14.77,
-   "audio": false
+   "start": 109.491,
+   "dur": 16.274,
+   "audio": true
   },
   {
    "key": "v4b",
    "text": "Sranantongo wordt in Suriname veel gesproken, maar weinig geschreven. Neemt jullie oplossing spraakberichten aan? Test het dan zelf, in practicum 4.",
-   "start": 121.112,
-   "dur": 9.55,
-   "audio": false
+   "start": 126.265,
+   "dur": 10.266,
+   "audio": true
   },
   {
    "key": "z1",
    "text": "Samengevat. Vier vragen bij generatieve AI. Kan het overtuigend fout zijn? Waar gaan de gegevens heen? Weet de gebruiker dat het AI is? En helpt het iedereen even goed?",
-   "start": 131.562,
-   "dur": 10.84,
-   "audio": false
+   "start": 137.431,
+   "dur": 13.087,
+   "audio": true
   },
   {
    "key": "e1",
    "text": "Pak nu met je groep jullie eigen oplossing erbij. Welke van de vier vragen spelen bij jullie? Schrijf bij elke vraag één voorbeeld op.",
-   "start": 143.402,
-   "dur": 8.65,
-   "audio": false
+   "start": 151.519,
+   "dur": 8.281,
+   "audio": true
   },
   {
    "key": "e2",
-   "text": "Dat doe je in de opdracht: de eigen oplossing klaarzetten. In week 1 gaan we ermee verder. Tot dan!",
-   "start": 152.552,
-   "dur": 6.39,
-   "audio": false
+   "text": "Dat doe je in de opdracht: de eigen oplossing klaarzetten. In college 1 gaan we ermee verder. Tot dan!",
+   "start": 160.3,
+   "dur": 7.158,
+   "audio": true
   }
  ],
- "total": 160.94,
+ "total": 169.46,
  "audioDir": "aud_c4",
- "estimated": [
-  "v1",
-  "v1b",
-  "q1",
-  "a1",
-  "v2",
-  "v2b",
-  "v3",
-  "v3b",
-  "v4",
-  "v4b",
-  "z1",
-  "e1",
-  "e2"
- ]
+ "estimated": []
 }

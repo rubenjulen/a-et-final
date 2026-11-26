@@ -4,197 +4,172 @@
    "key": "p0",
    "text": "Kennisclip vijf: wie beslist er eigenlijk?",
    "start": 0.8,
-   "dur": 2.71,
-   "audio": false
+   "dur": 2.847,
+   "audio": true
   },
   {
    "key": "p1",
    "text": "Bij elke AI-oplossing kun je drie dingen onderscheiden: wat het systeem maakt, wat er daarna mee gebeurt, en wat mensen daarvan merken.",
-   "start": 4.11,
-   "dur": 8.71,
-   "audio": false
+   "start": 4.247,
+   "dur": 8.908,
+   "audio": true
   },
   {
    "key": "p1b",
    "text": "In het K1-canvas schrijf je die apart op.",
-   "start": 13.32,
-   "dur": 2.65,
-   "audio": false
+   "start": 13.655,
+   "dur": 2.691,
+   "audio": true
   },
   {
    "key": "p1c",
    "text": "Wie ze door elkaar haalt, ziet niet waar het mis kan gaan.",
-   "start": 16.37,
-   "dur": 3.74,
-   "audio": false
+   "start": 16.746,
+   "dur": 2.926,
+   "audio": true
   },
   {
    "key": "p2",
    "text": "Het model geeft een kans.",
-   "start": 21.01,
-   "dur": 1.61,
-   "audio": false
+   "start": 20.571,
+   "dur": 1.489,
+   "audio": true
   },
   {
    "key": "p2b",
    "text": "De organisatie kiest een drempel.",
-   "start": 23.02,
-   "dur": 2.13,
-   "audio": false
+   "start": 22.46,
+   "dur": 1.881,
+   "audio": true
   },
   {
    "key": "p2c",
    "text": "Soms volgt het advies automatisch, soms beslist een medewerker.",
-   "start": 25.55,
-   "dur": 4.06,
-   "audio": false
+   "start": 24.741,
+   "dur": 4.127,
+   "audio": true
   },
   {
    "key": "p2d",
    "text": "De beslissing is dus van de organisatie, ook als niemand er meer naar kijkt.",
-   "start": 30.11,
-   "dur": 4.9,
-   "audio": false
+   "start": 29.369,
+   "dur": 5.068,
+   "audio": true
   },
   {
    "key": "p3",
    "text": "Een chatbot maakt een antwoord.",
-   "start": 35.91,
-   "dur": 2.0,
-   "audio": false
+   "start": 35.336,
+   "dur": 2.194,
+   "audio": true
   },
   {
    "key": "p3b",
    "text": "Soms leest een medewerker mee, vaak niet.",
-   "start": 38.31,
-   "dur": 2.65,
-   "audio": false
+   "start": 37.931,
+   "dur": 2.691,
+   "audio": true
   },
   {
    "key": "p3c",
    "text": "De klant doet er iets mee: een formulier invullen, een betaling doen, een klacht laten vallen.",
-   "start": 41.36,
-   "dur": 6.06,
-   "audio": false
+   "start": 41.021,
+   "dur": 6.113,
+   "audio": true
   },
   {
    "key": "p3d",
    "text": "Daar valt de beslissing: bij de klant, op basis van wat de organisatie heeft laten zeggen.",
-   "start": 47.92,
-   "dur": 5.81,
-   "audio": false
+   "start": 47.634,
+   "dur": 5.486,
+   "audio": true
   },
   {
    "key": "q1",
    "text": "Tussenvraag één. Een medewerker laat een assistent een antwoord op een klachtbrief schrijven en stuurt dat ongewijzigd door. Wie heeft beslist wat de klant leest? A, de assistent. B, de medewerker en de organisatie.",
-   "start": 54.63,
-   "dur": 13.87,
-   "audio": false
+   "start": 54.02,
+   "dur": 15.569,
+   "audio": true
   },
   {
    "key": "a1",
    "text": "Het antwoord is B: de medewerker en de organisatie.",
-   "start": 76.5,
-   "dur": 3.29,
-   "audio": false
+   "start": 77.589,
+   "dur": 3.866,
+   "audio": true
   },
   {
    "key": "p4",
    "text": "Gebruikers werken met het systeem.",
-   "start": 80.69,
-   "dur": 2.19,
-   "audio": false
+   "start": 82.355,
+   "dur": 1.881,
+   "audio": true
   },
   {
    "key": "p4b",
    "text": "Betrokkenen merken de gevolgen, ook als ze het systeem nooit zien: een aanvrager, een klant over wie een samenvatting wordt gemaakt, een medewerker die een rooster krijgt.",
-   "start": 83.28,
-   "dur": 11.03,
-   "audio": false
+   "start": 84.636,
+   "dur": 10.841,
+   "audio": true
   },
   {
    "key": "p4c",
    "text": "Zet in K1 altijd beide groepen.",
-   "start": 94.81,
-   "dur": 2.0,
-   "audio": false
+   "start": 95.976,
+   "dur": 2.586,
+   "audio": true
   },
   {
    "key": "p5",
    "text": "Bij generatieve AI hoort bij de input ook: welke instructies en documenten het model meekrijgt, en of gegevens naar een externe dienst gaan.",
-   "start": 97.71,
-   "dur": 9.03,
-   "audio": false
+   "start": 99.462,
+   "dur": 9.091,
+   "audio": true
   },
   {
    "key": "p5b",
    "text": "Dat bepaalt later veel van je risico's.",
-   "start": 107.24,
-   "dur": 2.52,
-   "audio": false
+   "start": 109.053,
+   "dur": 2.429,
+   "audio": true
   },
   {
    "key": "q2",
    "text": "Tussenvraag twee. Welke informatie hoort in K1 bij een chatbot? A, alleen welke dienst wordt gebruikt. B, ook welke gegevens naar die dienst gaan, wie het antwoord ziet en wat er daarna mee gebeurt.",
-   "start": 110.66,
-   "dur": 12.77,
-   "audio": false
+   "start": 112.382,
+   "dur": 15.073,
+   "audio": true
   },
   {
    "key": "a2",
    "text": "Het antwoord is B.",
-   "start": 131.43,
-   "dur": 1.16,
-   "audio": false
+   "start": 135.455,
+   "dur": 1.802,
+   "audio": true
   },
   {
    "key": "p6",
    "text": "Uitkomst, beslissing, gevolg: schrijf ze apart op.",
-   "start": 133.49,
-   "dur": 3.23,
-   "audio": false
+   "start": 138.158,
+   "dur": 4.049,
+   "audio": true
   },
   {
    "key": "p6b",
    "text": "Noem gebruikers én betrokkenen.",
-   "start": 137.12,
-   "dur": 2.0,
-   "audio": false
+   "start": 142.607,
+   "dur": 2.847,
+   "audio": true
   },
   {
    "key": "p6c",
    "text": "En bij generatieve AI: wat gaat erin, waar gaat het heen, en wat doet iemand met het antwoord?",
-   "start": 139.52,
-   "dur": 6.06,
-   "audio": false
+   "start": 145.854,
+   "dur": 6.687,
+   "audio": true
   }
  ],
- "total": 147.08,
+ "total": 154.04,
  "audioDir": "aud_c5",
- "estimated": [
-  "p0",
-  "p1",
-  "p1b",
-  "p1c",
-  "p2",
-  "p2b",
-  "p2c",
-  "p2d",
-  "p3",
-  "p3b",
-  "p3c",
-  "p3d",
-  "q1",
-  "a1",
-  "p4",
-  "p4b",
-  "p4c",
-  "p5",
-  "p5b",
-  "q2",
-  "a2",
-  "p6",
-  "p6b",
-  "p6c"
- ]
+ "estimated": []
 }

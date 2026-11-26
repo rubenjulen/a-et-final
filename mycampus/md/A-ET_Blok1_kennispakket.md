@@ -87,7 +87,7 @@ Dit is de studietekst van blok 1: de theorie voor de instrumenten, het rapport e
 | Clip 5b | Vijf ethische kaders | 7 min | Vier ethische lenzen |
 | Clip 5c | Drie soorten black box | 5 min | Uitleg: de black box openen |
 | Kaderclip A | Het kaderlandschap | 5 min | Eén kader, vier lagen; vier lenzen |
-| Clip 6 | Waar komt bias vandaan? | 4 min | Bias |
+| Clip 6 | Waar komt bias vandaan? | 5 min | Bias |
 | Clip 7 | Privacy als ethische vraag | 4 min | Privacy |
 | Clip 8 | Automation bias | 3 min | Menselijke controle |
 | Clip 9 | Fouten per groep | 3 min | Fouten per groep en eerlijkheid |
@@ -204,7 +204,7 @@ Om te wegen of iets verantwoord is, gebruik je vier lenzen, elk met een theorie 
 | Aggregatie | Eén model werkt voor een kleine groep slecht | Het gemiddelde verbergt het verschil |
 | Gebruik | Een model wordt gebruikt waarvoor het niet gemaakt is | Een model uit de stad wordt in het binnenland ingezet |
 
-**Bias die ontstaat als het systeem draait.** Naast de zes bronnen uit clip 6 zijn er drie die je bij gebruik ziet. *Algoritmische bias*: het doel van het model bevoordeelt de grootste groep, omdat die het gemiddelde bepaalt. *Interactiebias*: gebruikers sturen het systeem bij met hun vragen en feedback, en fouten versterken zichzelf. *Bevestigingsbias*: het systeem bevestigt wat makers of gebruikers al dachten. Samen vormen ze een *feedbacklus*: als een fraudemodel vooral in één wijk laat controleren, vind je daar meer fraude, en leert het model dat die wijk riskanter is.
+**Bias die ontstaat als het systeem draait.** Naast de zes bronnen zijn er drie die je bij gebruik ziet (ook in clip 6). *Algoritmische bias*: het doel van het model bevoordeelt de grootste groep, omdat die het gemiddelde bepaalt. *Interactiebias*: gebruikers sturen het systeem bij met hun vragen en feedback, en fouten versterken zichzelf. *Bevestigingsbias*: het systeem bevestigt wat makers of gebruikers al dachten. Samen vormen ze een *feedbacklus*: als een fraudemodel vooral in één wijk laat controleren, vind je daar meer fraude, en leert het model dat die wijk riskanter is.
 
 **Bias of discriminatie?** Bias is een technisch begrip. *Discriminatie* is een juridisch en ethisch begrip: een ongerechtvaardigd onderscheid. De Grondwet van Suriname verbiedt in artikel 8 onderscheid op grond van onder meer geboorte, geslacht, ras, taal, godsdienst, afkomst, economische positie en sociale omstandigheden. De vraag is niet óf er onderscheid is, maar of het gerechtvaardigd en proportioneel is.
 
@@ -1304,9 +1304,9 @@ Hier staat de gesproken tekst van de clips van blok 1, in de volgorde van De ker
 
 **Dia 7. Nu jij.** Pak nu jullie eigen oplossing erbij. Bij welke laag liggen jullie grootste vragen? Schrijf er één op voor het college.
 
-### Clip 6. Waar komt bias vandaan? (4 minuten)
+### Clip 6. Waar komt bias vandaan? (5 minuten)
 
-**Dia 1. Wat is bias?** Bias is een systematische scheefheid: geen toevallige fout, maar een fout die steeds dezelfde kant op valt, vaak voor dezelfde groep. In AI ontstaat bias zelden doordat iemand het zo wil. Het sluipt erin via de data, het label, de keuzes van de bouwer of het gebruik. We bekijken zes bronnen.
+**Dia 1. Wat is bias?** Bias is een systematische scheefheid: geen toevallige fout, maar een fout die steeds dezelfde kant op valt, vaak voor dezelfde groep. In AI ontstaat bias zelden doordat iemand het zo wil. Het sluipt erin via de data, het label, de keuzes van de bouwer of het gebruik. We bekijken zes bronnen, en daarna drie die ontstaan als het systeem draait.
 
 **Dia 2. Historische bias.** De data weerspiegelt een verleden dat al ongelijk was. Als Suribank vroeger weinig leningen gaf aan mensen met informeel werk, leert een model dat die groep minder kredietwaardig is, ook als dat vooral een gevolg was van eerdere keuzes.
 
@@ -1322,11 +1322,13 @@ Hier staat de gesproken tekst van de clips van blok 1, in de volgorde van De ker
 
 **Dia 7. Gebruiksbias.** Een model wordt gebruikt voor een situatie waarvoor het niet gemaakt is, of anders dan bedoeld. Bijvoorbeeld een model dat in de stad is getraind en nu ook in het binnenland wordt ingezet.
 
-**Dia 8. Bias en discriminatie.** Bias is een technisch begrip. Discriminatie is een juridisch en ethisch begrip: een ongerechtvaardigd onderscheid. De Surinaamse Grondwet verbiedt in artikel 8 discriminatie op onder meer geboorte, geslacht, ras en godsdienst, maar ook op economische positie en sociale omstandigheden. Voor een kredietmodel is dat interessant: rekening houden met inkomen is nodig om te beoordelen of iemand kan terugbetalen. De vraag is dus niet of er onderscheid is, maar of het gerechtvaardigd en proportioneel is.
+**Dia 8. Als het systeem draait.** Als het systeem draait, komen er nog drie bij. Algoritmische bias: het doel van het model bevoordeelt de grootste groep, omdat die het gemiddelde bepaalt. Interactiebias: gebruikers sturen het systeem bij met hun vragen en feedback, en fouten versterken zichzelf. Bevestigingsbias: het systeem bevestigt wat de makers of gebruikers al dachten. Samen vormen ze een feedbacklus. Laat een fraudemodel vooral in één wijk controleren, dan vind je daar meer fraude, en leert het model dat die wijk riskanter is.
+
+**Dia 9. Bias en discriminatie.** Bias is een technisch begrip. Discriminatie is een juridisch en ethisch begrip: een ongerechtvaardigd onderscheid. De Surinaamse Grondwet verbiedt in artikel 8 discriminatie op onder meer geboorte, geslacht, ras en godsdienst, maar ook op economische positie en sociale omstandigheden. Voor een kredietmodel is dat interessant: rekening houden met inkomen is nodig om te beoordelen of iemand kan terugbetalen. De vraag is dus niet of er onderscheid is, maar of het gerechtvaardigd en proportioneel is.
 
 > **Tussenvraag 2.** Een kredietmodel houdt rekening met inkomen. Is dat discriminatie op grond van economische positie? A. Ja, altijd. B. Niet zonder meer: terugbetaalcapaciteit is een legitiem doel, maar het onderscheid moet proportioneel zijn en niet verder gaan dan nodig.
 
-**Dia 9. Samengevat.** Zes bronnen: historisch, representatie, meting, label, aggregatie en gebruik. Bias is technisch; of het discriminatie is, vraagt om een ethische en juridische afweging.
+**Dia 10. Samengevat.** Zes bronnen: historisch, representatie, meting, label, aggregatie en gebruik. En als het systeem draait: algoritmische bias, interactiebias en bevestigingsbias. Bias is technisch; of het discriminatie is, vraagt om een ethische en juridische afweging.
 
 ### Clip 7. Privacy als ethische vraag (4 minuten)
 

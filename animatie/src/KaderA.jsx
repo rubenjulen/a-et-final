@@ -25,7 +25,7 @@ const Intro = () => {
   const frame = useCurrentFrame();
   return (
     <AbsoluteFill style={{ background: `radial-gradient(1200px 800px at 75% 30%, #1B4A3E 0%, ${C.dark} 60%)` }}>
-      <div style={{ position: 'absolute', left: 140, top: 300, fontFamily: SANS, fontSize: 30, fontWeight: 700, letterSpacing: 3, color: C.amber, opacity: s }}>KADERCLIP A · AI &amp; ETHICS · WEEK 1</div>
+      <div style={{ position: 'absolute', left: 140, top: 300, fontFamily: SANS, fontSize: 30, fontWeight: 700, letterSpacing: 3, color: C.amber, opacity: s }}>KADERCLIP A · AI &amp; ETHICS · BLOK 1</div>
       <div style={{ position: 'absolute', left: 140, top: 360, width: 1100, fontFamily: SERIF, fontWeight: 700, fontSize: 124, lineHeight: 1.04, color: C.light, opacity: s, transform: `translateY(${(1 - s) * 50}px)` }}>Het kaderlandschap</div>
       {LAYERS.map((l, i) => {
         const a = spring({ frame: frame - F('A0', 0.4 + i * 0.25), fps: FPS, config: { damping: 16 } });
@@ -151,7 +151,7 @@ const Frameworks = () => {
     [<Badge key="eu" at={F('A12', 0.3)} col={LAYERS[3].col}>AI-verordening (EU)</Badge>,
       <span key="n" style={{ fontFamily: SANS, fontWeight: 700, fontSize: 22, color: C.terra, opacity: fade(frame, F('A12', 2.0), F('A12', 2.5)) }}>geldt niet in Suriname · vergelijking</span>],
   ];
-  const weeks = [['B', 'week 3', 'IEEE CertifAIEd'], ['C', 'week 4', 'AI-verordening'], ['D', 'week 6', 'AIGP'], ['E', 'week 8', 'ISO/IEC 42001']];
+  const weeks = [['B', 'blok 1', 'IEEE CertifAIEd'], ['C', 'blok 1', 'AI-verordening'], ['D', 'blok 2', 'AIGP'], ['E', 'blok 2', 'ISO/IEC 42001']];
   return (
     <AbsoluteFill style={{ background: C.light }}>
       <Title at={F('A9', -0.2)} top={70} size={52}>Elk kader past in een laag</Title>
@@ -262,7 +262,7 @@ const Summary = () => {
         <div style={{ fontFamily: SANS, fontSize: 32, color: C.ink, lineHeight: 1.35 }}><b>CEET</b> en andere certificeringen:<br />een kompas, geen examenstof</div>
       </div>
       <div style={{ position: 'absolute', left: 1080, top: 640, width: 720, opacity: w10, transform: `translateY(${(1 - w10) * 30}px)`, background: C.dark, color: C.light, borderRadius: 18, padding: '22px 28px', fontFamily: SANS, fontSize: 32 }}>
-        <b style={{ color: C.amber }}>Week 10</b> · verder na de minor
+        <b style={{ color: C.amber }}>Kennispakket 3</b> · verder na de minor
       </div>
     </AbsoluteFill>
   );

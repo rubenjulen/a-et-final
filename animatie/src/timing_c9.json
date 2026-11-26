@@ -4,253 +4,221 @@
    "key": "i0",
    "text": "Kennisclip 9: fouten per groep.",
    "start": 0.8,
-   "dur": 2.0,
-   "audio": false
+   "dur": 2.847,
+   "audio": true
   },
   {
    "key": "a1",
    "text": "Het Suribank-model heeft 69% goed.",
-   "start": 4.6,
-   "dur": 2.19,
-   "audio": false
+   "start": 5.447,
+   "dur": 3.082,
+   "audio": true
   },
   {
    "key": "a2",
    "text": "Dat zegt niets over de vraag of het voor iedereen even goed werkt.",
-   "start": 7.19,
-   "dur": 4.26,
-   "audio": false
+   "start": 8.93,
+   "dur": 3.553,
+   "audio": true
   },
   {
    "key": "a3",
    "text": "Bij Gender Shades was het gemiddelde ook prima, terwijl één groep tot 35% foute uitkomsten kreeg.",
-   "start": 11.85,
-   "dur": 6.26,
-   "audio": false
+   "start": 12.882,
+   "dur": 6.609,
+   "audio": true
   },
   {
    "key": "a4",
    "text": "Daarom meet je fouten per groep.",
-   "start": 18.51,
-   "dur": 2.06,
-   "audio": false
+   "start": 19.891,
+   "dur": 1.646,
+   "audio": true
   },
   {
    "key": "b1",
    "text": "Stel per groep drie vragen.",
-   "start": 21.47,
-   "dur": 1.74,
-   "audio": false
+   "start": 22.437,
+   "dur": 1.724,
+   "audio": true
   },
   {
    "key": "b2",
    "text": "Welk deel wordt goedgekeurd?",
-   "start": 23.61,
-   "dur": 1.81,
-   "audio": false
+   "start": 24.561,
+   "dur": 1.489,
+   "audio": true
   },
   {
    "key": "b3",
    "text": "Van de mensen die wél zouden terugbetalen: welk deel wordt onterecht afgewezen?",
-   "start": 25.82,
-   "dur": 5.1,
-   "audio": false
+   "start": 26.45,
+   "dur": 4.989,
+   "audio": true
   },
   {
    "key": "b4",
    "text": "En van de mensen die niet zouden terugbetalen: welk deel wordt onterecht goedgekeurd?",
-   "start": 31.32,
-   "dur": 5.48,
-   "audio": false
+   "start": 31.84,
+   "dur": 4.911,
+   "audio": true
   },
   {
    "key": "c1",
    "text": "In groep X worden 20 van de 100 goede betalers afgewezen: 20% onterecht afgewezen.",
-   "start": 37.7,
-   "dur": 5.29,
-   "audio": false
+   "start": 37.651,
+   "dur": 6.687,
+   "audio": true
   },
   {
    "key": "c2",
    "text": "In groep Y zijn dat er 40: 40%.",
-   "start": 43.39,
-   "dur": 2.0,
-   "audio": false
+   "start": 44.738,
+   "dur": 3.553,
+   "audio": true
   },
   {
    "key": "c3",
    "text": "Een goede betaler uit groep Y heeft dus twee keer zoveel kans om ten onrechte geen lening te krijgen.",
-   "start": 45.79,
-   "dur": 6.52,
-   "audio": false
+   "start": 48.691,
+   "dur": 6.113,
+   "audio": true
   },
   {
    "key": "c4",
    "text": "Het idee dat goede betalers in elke groep dezelfde kans moeten hebben, heet gelijke kansen.",
-   "start": 52.71,
-   "dur": 5.87,
-   "audio": false
+   "start": 55.203,
+   "dur": 5.564,
+   "audio": true
   },
   {
    "key": "q1",
    "text": "Tussenvraag 1. In het binnenland zijn er 50 goede betalers, van wie het model er 15 afwijst. Hoeveel procent is onterecht afgewezen? A: 15%. B: 30%. C: 50%.",
-   "start": 59.48,
-   "dur": 10.06,
-   "audio": false
+   "start": 61.667,
+   "dur": 17.789,
+   "audio": true
   },
   {
    "key": "q1b",
    "text": "Het antwoord is B. 15 van de 50 is 30%.",
-   "start": 77.54,
-   "dur": 2.52,
-   "audio": false
+   "start": 87.457,
+   "dur": 4.519,
+   "audio": true
   },
   {
    "key": "d1",
    "text": "Er zijn meerdere manieren om eerlijk te definiëren.",
-   "start": 80.96,
-   "dur": 3.29,
-   "audio": false
+   "start": 92.876,
+   "dur": 2.691,
+   "audio": true
   },
   {
    "key": "d2",
    "text": "Elke groep even vaak goedkeuren.",
-   "start": 84.65,
-   "dur": 2.06,
-   "audio": false
+   "start": 95.967,
+   "dur": 2.038,
+   "audio": true
   },
   {
    "key": "d3",
    "text": "Goede betalers in elke groep even weinig onterecht afwijzen.",
-   "start": 87.01,
-   "dur": 3.87,
-   "audio": false
+   "start": 98.304,
+   "dur": 3.709,
+   "audio": true
   },
   {
    "key": "d4",
    "text": "Of ervoor zorgen dat een goedkeuring in elke groep even betrouwbaar is.",
-   "start": 91.18,
-   "dur": 4.58,
-   "audio": false
+   "start": 102.313,
+   "dur": 4.519,
+   "audio": true
   },
   {
    "key": "d5",
    "text": "Als groepen verschillen in hoe vaak ze terugbetalen, kun je niet aan alle drie tegelijk voldoen.",
-   "start": 96.16,
-   "dur": 6.19,
-   "audio": false
+   "start": 107.233,
+   "dur": 5.146,
+   "audio": true
   },
   {
    "key": "d6",
    "text": "Je moet dus kiezen, en die keuze onderbouwen. Dat is een ethische keuze, geen technische.",
-   "start": 102.75,
-   "dur": 5.74,
-   "audio": false
+   "start": 112.779,
+   "dur": 5.721,
+   "audio": true
   },
   {
    "key": "e1",
    "text": "Stel dat in een groep minder dan de helft terugbetaalt.",
-   "start": 109.39,
-   "dur": 3.55,
-   "audio": false
+   "start": 119.4,
+   "dur": 2.769,
+   "audio": true
   },
   {
    "key": "e2",
    "text": "Een model dat iedereen in die groep afwijst, heeft dan voor die groep vaker gelijk.",
-   "start": 113.34,
-   "dur": 5.35,
-   "audio": false
+   "start": 122.569,
+   "dur": 4.598,
+   "audio": true
   },
   {
    "key": "e3",
    "text": "Maar alle goede betalers in die groep betalen de prijs.",
-   "start": 119.09,
-   "dur": 3.55,
-   "audio": false
+   "start": 127.566,
+   "dur": 2.926,
+   "audio": true
   },
   {
    "key": "e4",
    "text": "Een hogere nauwkeurigheid kan dus samengaan met meer onrecht. In practicum 2 zie je dat met eigen ogen.",
-   "start": 123.04,
-   "dur": 6.65,
-   "audio": false
+   "start": 130.892,
+   "dur": 6.844,
+   "audio": true
   },
   {
    "key": "q2",
    "text": "Tussenvraag 2. Een nieuw model is nauwkeuriger dan het oude. Is het daarmee ook eerlijker? A: ja. B: niet per se; kijk naar de fouten per groep.",
-   "start": 130.59,
-   "dur": 9.29,
-   "audio": false
+   "start": 138.636,
+   "dur": 12.434,
+   "audio": true
   },
   {
    "key": "q2b",
    "text": "Het antwoord is B: niet per se. Kijk altijd naar de fouten per groep.",
-   "start": 147.88,
-   "dur": 4.45,
-   "audio": false
+   "start": 159.07,
+   "dur": 5.329,
+   "audio": true
   },
   {
    "key": "z1",
    "text": "Samengevat.",
-   "start": 153.23,
-   "dur": 0.71,
-   "audio": false
+   "start": 165.299,
+   "dur": 1.411,
+   "audio": true
   },
   {
    "key": "z2",
    "text": "Meet per groep: goedgekeurd, onterecht afgewezen en onterecht goedgekeurd.",
-   "start": 154.24,
-   "dur": 4.77,
-   "audio": false
+   "start": 167.01,
+   "dur": 6.348,
+   "audio": true
   },
   {
    "key": "z3",
    "text": "Er bestaan meerdere definities van eerlijk, en je moet kiezen.",
-   "start": 159.41,
-   "dur": 4.0,
-   "audio": false
+   "start": 173.758,
+   "dur": 3.474,
+   "audio": true
   },
   {
    "key": "z4",
    "text": "Nauwkeuriger is niet hetzelfde als eerlijker.",
-   "start": 163.81,
-   "dur": 2.9,
-   "audio": false
+   "start": 177.632,
+   "dur": 2.586,
+   "audio": true
   }
  ],
- "total": 168.21,
+ "total": 181.72,
  "audioDir": "aud_c9",
- "estimated": [
-  "i0",
-  "a1",
-  "a2",
-  "a3",
-  "a4",
-  "b1",
-  "b2",
-  "b3",
-  "b4",
-  "c1",
-  "c2",
-  "c3",
-  "c4",
-  "q1",
-  "q1b",
-  "d1",
-  "d2",
-  "d3",
-  "d4",
-  "d5",
-  "d6",
-  "e1",
-  "e2",
-  "e3",
-  "e4",
-  "q2",
-  "q2b",
-  "z1",
-  "z2",
-  "z3",
-  "z4"
- ]
+ "estimated": []
 }

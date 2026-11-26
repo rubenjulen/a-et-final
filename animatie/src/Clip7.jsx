@@ -1,4 +1,4 @@
-/* Kennisclip 7 · Privacy als ethische vraag (week 2) */
+/* Kennisclip 7 · Privacy als ethische vraag (blok 1) */
 import React from 'react';
 import { AbsoluteFill, useCurrentFrame, interpolate, spring } from 'remotion';
 import timing from './timing_c7.json';

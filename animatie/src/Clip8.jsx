@@ -1,4 +1,4 @@
-/* Kennisclip 8 · Automation bias (week 2) */
+/* Kennisclip 8 · Automation bias (blok 1) */
 import React from 'react';
 import { AbsoluteFill, useCurrentFrame, interpolate, spring } from 'remotion';
 import timing from './timing_c8.json';

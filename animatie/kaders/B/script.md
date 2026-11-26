@@ -1,4 +1,4 @@
-## Kaderclip B · IEEE CertifAIEd: transparantie en bias toetsen (7 minuten, week 3)
+## Kaderclip B · IEEE CertifAIEd: transparantie en bias toetsen (7 minuten, blok 1)
 
 Doel: studenten leren hoe een echte beoordelaar transparantie en bias toetst, met drivers, inhibitors en bewijs per doel, en gebruiken dat als checklist bij domein 5 en 6 van de nulmeting.
 
@@ -17,6 +17,6 @@ Doel: studenten leren hoe een echte beoordelaar transparantie en bias toetst, me
 | BQ2b | Antwoord B licht groen op. | Het antwoord is B. Iets weglaten zonder uitleg en zonder meting is geen bewijs dat het model eerlijk is. |
 | B7 | Een tabel met de kolommen Doel, Bewijs en Score (1 tot 5). Scores vullen zich; een score zonder bewijs wordt rood doorgestreept. De tabel verandert in de snelle scan (K4), met domein 5 en 6 gemarkeerd. | Hoe komt een beoordelaar tot een oordeel? Per doel vraagt die bewijs: een document, een test of een gesprek. Daarna volgt een score van 1 tot 5. Een score zonder bewijs telt niet. Dat is dezelfde logica als jullie snelle scan en de nulmeting. Neem domein 6 bij Frisco. Je bewijs is de begroeting van de agent en je test uit practicum 4. Je geeft een score, met dat bewijs erbij. Houdt een bedrijfsgeheim de score laag? Noem die inhibitor dan als reden. Zo ziet de lezer waar de verbetering moet beginnen. Gebruik de drivers en inhibitors daarom als checklist bij domein 5 en domein 6. |
 | B8 | Samenvatting in drie kaarten: "Vier onderdelen: domein 2, 4, 5 en 6", "Wat helpt én wat tegenwerkt", "Elke score met bewijs". | Samengevat. CertifAIEd kijkt naar vier onderdelen, die passen bij domein 2, 4, 5 en 6. Kijk naar wat helpt, en naar wat tegenwerkt. En onderbouw elke score met bewijs, zoals een echte beoordelaar dat doet. |
-| B9 | "Nu jij, met je groep" met drie genummerde stappen. | Nu jij. Pak met je groep jullie snelle scan erbij. Welke inhibitor herken je bij jullie partner, of bij een leverancier? En wat betekent dat voor jullie score op domein 6? Neem je antwoord mee naar de online sessie. |
+| B9 | "Nu jij, met je groep" met drie genummerde stappen. | Nu jij. Pak met je groep jullie snelle scan erbij. Welke inhibitor herken je bij jullie partner, of bij een leverancier? En wat betekent dat voor jullie score op domein 6? Gebruik je antwoord in je nulmeting. |
 
-Gesproken tekst: 5067 tekens (budget 5.300). Tussenvragen: twee, letterlijk uit het week 3-document, met een pauze van 8 seconden.
+Gesproken tekst: 5060 tekens (budget 5.300). Tussenvragen: twee, letterlijk uit kennispakket 1, met een pauze van 8 seconden.

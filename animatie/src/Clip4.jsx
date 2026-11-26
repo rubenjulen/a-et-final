@@ -233,7 +233,7 @@ const Intro4 = () => {
   const a = useSpring(F('i1', 3.0)), b = useSpring(F('i1', 5.5));
   return (
     <AbsoluteFill style={{ background: `radial-gradient(1200px 800px at 75% 30%, #1B4A3E 0%, ${C.dark} 60%)` }}>
-      <div style={{ position: 'absolute', left: 140, top: 250, fontFamily: SANS, fontSize: 30, fontWeight: 700, letterSpacing: 3, color: C.amber, opacity: s }}>KENNISCLIP 4 · AI &amp; ETHICS · WEEK 0</div>
+      <div style={{ position: 'absolute', left: 140, top: 250, fontFamily: SANS, fontSize: 30, fontWeight: 700, letterSpacing: 3, color: C.amber, opacity: s }}>KENNISCLIP 4 · AI &amp; ETHICS · BLOK 0</div>
       <div style={{ position: 'absolute', left: 140, top: 310, width: 1000, fontFamily: SERIF, fontWeight: 700, fontSize: 116, lineHeight: 1.04, color: C.light, opacity: s, transform: `translateY(${(1 - s) * 50}px)` }}>Wat is anders bij generatieve AI?</div>
       <div style={{ position: 'absolute', left: 1240, top: 280, width: 520, opacity: a, transform: `translateY(${(1 - a) * 30}px)` }}>
         <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 24, color: '#C9D8D1', letterSpacing: 2 }}>VOORSPELLEND</div>
@@ -402,7 +402,7 @@ const Now4 = () => (
         </div>
       </Pop>
     ))}
-    <Pop at={F('e2', 0.3)} style={{ left: 128, top: 790 }}><div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 32, color: C.green }}>Opdracht in week 0: “De eigen oplossing klaarzetten” · verder in week 1</div></Pop>
+    <Pop at={F('e2', 0.3)} style={{ left: 128, top: 790 }}><div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 32, color: C.green }}>Opdracht in blok 0: “De eigen oplossing klaarzetten” · verder in college 1</div></Pop>
   </AbsoluteFill>
 );
 

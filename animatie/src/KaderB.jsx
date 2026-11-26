@@ -37,7 +37,7 @@ const Title = () => {
   const frame = useCurrentFrame();
   const rot = interpolate(frame, [0, F('B1a', 0)], [-40, 0], clamp);
   return (
-    <TitleScene at={F('B0a', -0.3)} kicker="KADERCLIP B · AI &amp; ETHICS · WEEK 3" title="IEEE CertifAIEd">
+    <TitleScene at={F('B0a', -0.3)} kicker="KADERCLIP B · AI &amp; ETHICS · BLOK 1" title="IEEE CertifAIEd">
       <div style={{ position: 'absolute', left: 140, top: 560, width: 900, fontFamily: SANS, fontSize: 38, color: '#C9D8D1' }}>transparantie en bias toetsen</div>
       <div style={{ position: 'absolute', left: 1280, top: 250 }}><Seal size={460} rot={rot} /></div>
     </TitleScene>
@@ -342,7 +342,7 @@ const Evidence = () => {
 const Now = () => (
   <AbsoluteFill style={{ background: C.light }}>
     <Heading at={F('B9a', 0)}>Nu jij, met je groep</Heading>
-    {[['B9a', 'Pak jullie snelle scan erbij'], ['B9b', 'Welke inhibitor herken je bij jullie partner of leverancier?'], ['B9c', 'Wat betekent dat voor jullie score op domein 6? Neem het mee naar de online sessie']].map(([k, t], i) => (
+    {[['B9a', 'Pak jullie snelle scan erbij'], ['B9b', 'Welke inhibitor herken je bij jullie partner of leverancier?'], ['B9c', 'Wat betekent dat voor jullie score op domein 6? Gebruik het in je nulmeting']].map(([k, t], i) => (
       <Pop key={k} at={F(k, 0.3)} style={{ left: 128, top: 250 + i * 170, width: 1664 }}>
         <Card style={{ display: 'flex', gap: 30, alignItems: 'center', padding: '24px 36px' }}>
           <span style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 64, color: C.green, width: 50 }}>{i + 1}</span>

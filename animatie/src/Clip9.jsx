@@ -14,7 +14,7 @@ const Intro = () => {
   const frame = useCurrentFrame();
   const r = interpolate(frame, [F('i0', 0.3), F('i0', 2.2)], [0, 69], clamp);
   return (
-    <TitleScene at={F('i0', -0.3)} kicker="KENNISCLIP 9 · AI &amp; ETHICS · WEEK 3" title="Fouten per groep">
+    <TitleScene at={F('i0', -0.3)} kicker="KENNISCLIP 9 · AI &amp; ETHICS · BLOK 1" title="Fouten per groep">
       <div style={{ position: 'absolute', left: 1260, top: 250 }}>
         <svg width="460" height="460"><circle cx="230" cy="230" r="180" fill="none" stroke="rgba(246,243,236,.15)" strokeWidth="40" />
           <circle cx="230" cy="230" r="180" fill="none" stroke={C.amber} strokeWidth="40" strokeDasharray={`${1131 * r / 100} 2000`} transform="rotate(-90 230 230)" />

@@ -39,7 +39,7 @@ const Intro5 = () => {
   const s = useSpring(F('p0', -0.4));
   return (
     <AbsoluteFill style={{ background: `radial-gradient(1200px 800px at 75% 30%, #1B4A3E 0%, ${C.dark} 60%)` }}>
-      <div style={{ position: 'absolute', left: 140, top: 300, fontFamily: SANS, fontSize: 30, fontWeight: 700, letterSpacing: 3, color: C.amber, opacity: s }}>KENNISCLIP 5 · AI &amp; ETHICS · WEEK 1</div>
+      <div style={{ position: 'absolute', left: 140, top: 300, fontFamily: SANS, fontSize: 30, fontWeight: 700, letterSpacing: 3, color: C.amber, opacity: s }}>KENNISCLIP 5 · AI &amp; ETHICS · BLOK 1</div>
       <div style={{ position: 'absolute', left: 140, top: 360, width: 1200, fontFamily: SERIF, fontWeight: 700, fontSize: 124, lineHeight: 1.04, color: C.light, opacity: s, transform: `translateY(${(1 - s) * 50}px)` }}>Wie beslist er eigenlijk?</div>
     </AbsoluteFill>
   );

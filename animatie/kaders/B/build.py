@@ -68,7 +68,7 @@ S=[
 ("B9","\"Nu jij, met je groep\" met drie genummerde stappen.",[
  ("Nu jij. Pak met je groep jullie snelle scan erbij.",0.5),
  ("Welke inhibitor herken je bij jullie partner, of bij een leverancier?",0.5),
- ("En wat betekent dat voor jullie score op domein 6? Neem je antwoord mee naar de online sessie.",0.9)]),
+ ("En wat betekent dat voor jullie score op domein 6? Gebruik je antwoord in je nulmeting.",0.9)]),
 ]
 z=[];rows=[];n=0
 for k,beeld,zs in S:
@@ -78,9 +78,9 @@ for k,beeld,zs in S:
         z.append([key,t,p]); txt.append(t); n+=len(t)
     rows.append((k,beeld," ".join(txt)))
 json.dump(z,open('zinnen.json','w'),ensure_ascii=False,indent=0)
-md="## Kaderclip B · IEEE CertifAIEd: transparantie en bias toetsen (7 minuten, week 3)\n\nDoel: studenten leren hoe een echte beoordelaar transparantie en bias toetst, met drivers, inhibitors en bewijs per doel, en gebruiken dat als checklist bij domein 5 en 6 van de nulmeting.\n\n| Sleutel | Beeld | Gesproken tekst |\n| --- | --- | --- |\n"
+md="## Kaderclip B · IEEE CertifAIEd: transparantie en bias toetsen (7 minuten, blok 1)\n\nDoel: studenten leren hoe een echte beoordelaar transparantie en bias toetst, met drivers, inhibitors en bewijs per doel, en gebruiken dat als checklist bij domein 5 en 6 van de nulmeting.\n\n| Sleutel | Beeld | Gesproken tekst |\n| --- | --- | --- |\n"
 for k,b,t in rows:
     md+=f"| {k} | {b.replace('|','/')} | {t.replace('|','/')} |\n"
-md+=f"\nGesproken tekst: {n} tekens (budget 5.300). Tussenvragen: twee, letterlijk uit het week 3-document, met een pauze van 8 seconden."
+md+=f"\nGesproken tekst: {n} tekens (budget 5.300). Tussenvragen: twee, letterlijk uit kennispakket 1, met een pauze van 8 seconden."
 open('script.md','w').write(md)
 print(n, len(z))

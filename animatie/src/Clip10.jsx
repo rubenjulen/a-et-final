@@ -13,7 +13,7 @@ const { F } = tm;
 const Intro = () => {
   const a = useSpr(F('i0', 0.8));
   return (
-    <TitleScene at={F('i0', -0.3)} kicker="KENNISCLIP 10 · AI &amp; ETHICS · WEEK 3" title="Uitleg die werkt">
+    <TitleScene at={F('i0', -0.3)} kicker="KENNISCLIP 10 · AI &amp; ETHICS · BLOK 1" title="Uitleg die werkt">
       <div style={{ position: 'absolute', left: 1220, top: 300, width: 560, opacity: a, transform: `translateY(${(1 - a) * 30}px)` }}>
         <div style={{ background: C.card, borderRadius: 22, padding: '26px 30px', fontFamily: SANS, fontSize: 30, color: C.ink, lineHeight: 1.35 }}>
           <div style={{ fontWeight: 700, color: C.terra, marginBottom: 8 }}>Suribank</div>

@@ -1,4 +1,4 @@
-/* Kennisclip 6 · Waar komt bias vandaan? (week 2) */
+/* Kennisclip 6 · Waar komt bias vandaan? (blok 1) */
 import React from 'react';
 import { AbsoluteFill, useCurrentFrame, interpolate, spring } from 'remotion';
 import timing from './timing_c6.json';
@@ -243,6 +243,41 @@ const Use = () => {
   );
 };
 
+
+/* D7b: bias die ontstaat als het systeem draait, met feedbacklus */
+const Running = () => {
+  const frame = useCurrentFrame();
+  const types = [['Algoritmische bias', 'Het doel bevoordeelt de grootste groep.', 'd7d'], ['Interactiebias', 'Gebruikers sturen bij; fouten versterken zichzelf.', 'd7e'], ['Bevestigingsbias', 'Het systeem bevestigt wat men al dacht.', 'd7f']];
+  const loop = ['Controle vooral in wijk A', 'Daar meer fraude gevonden', 'Model: wijk A is riskanter', 'Nog meer controle in wijk A'];
+  const lp = useSpring(F('d7g', 1.5));
+  const rot = interpolate(frame, [F('d7g', 1.5), F('d7g', 12)], [0, 360], clamp);
+  return (
+    <AbsoluteFill style={{ background: C.light }}>
+      <Title at={F('d7c', 0)} kicker="Als het systeem draait">Nog drie bronnen bij gebruik</Title>
+      {types.map(([t, s, k], i) => (
+        <Pop key={t} at={F(k, 0)} style={{ left: 128, top: 290 + i * 160, width: 780 }}>
+          <Card style={{ padding: '20px 30px', borderLeft: `10px solid ${C.terra}` }}>
+            <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 38, color: C.ink }}>{t}</div>
+            <div style={{ fontFamily: SANS, fontSize: 27, color: C.mute, marginTop: 4 }}>{s}</div>
+          </Card>
+        </Pop>
+      ))}
+      <div style={{ position: 'absolute', left: 1000, top: 250, width: 790, height: 560, opacity: lp }}>
+        <div style={{ position: 'absolute', left: 0, top: 0, fontFamily: SANS, fontWeight: 700, fontSize: 26, letterSpacing: 2, color: C.terra }}>FEEDBACKLUS</div>
+        <svg width="790" height="520" style={{ position: 'absolute', left: 0, top: 40 }}>
+          <circle cx="395" cy="260" r="170" fill="none" stroke={C.line} strokeWidth="10" />
+          <g transform={`rotate(${rot} 395 260)`}><circle cx="395" cy="90" r="16" fill={C.terra} /></g>
+        </svg>
+        {loop.map((t, i) => {
+          const pos = [[395, 50], [700, 300], [395, 550], [90, 300]][i];
+          const a = useSpring(F('d7g', 2 + i * 1.6));
+          return <div key={t} style={{ position: 'absolute', left: pos[0] - 150, top: pos[1] - 40, width: 300, opacity: a, transform: `scale(${0.85 + 0.15 * a})`, background: i === 2 ? C.dark : C.card, color: i === 2 ? C.amber : C.ink, border: `2px solid ${C.line}`, borderRadius: 16, padding: '12px 16px', fontFamily: SANS, fontWeight: 700, fontSize: 26, textAlign: 'center', boxShadow: '0 10px 24px rgba(18,49,42,.10)' }}>{t}</div>;
+        })}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 /* D8: Grondwet artikel 8 */
 const Law = () => {
   const frame = useCurrentFrame();
@@ -276,7 +311,7 @@ const Law = () => {
 
 export const Clip6 = () => {
   const scenes = [
-    ['t0', <TitleScene n={6} title="Waar komt bias vandaan?" sub="Zes bronnen van scheefheid, met Suribank als voorbeeld" />],
+    ['t0', <TitleScene n={6} title="Waar komt bias vandaan?" sub="Zes bronnen van scheefheid, en drie die ontstaan als het systeem draait" />],
     ['d1a', <Scale />],
     ['d2a', <History />],
     ['d3a', <Representation />],
@@ -285,9 +320,10 @@ export const Clip6 = () => {
     ['d5a', <Label />],
     ['d6a', <Aggregate />],
     ['d7a', <Use />],
+    ['d7c', <Running />],
     ['d8a', <Law />],
     ['q2', <QuizN n={2} q="q2" a="a2" question="Een kredietmodel houdt rekening met inkomen. Is dat discriminatie op grond van economische positie?" options={['A. Ja, altijd.', 'B. Niet zonder meer: terugbetaalcapaciteit is een legitiem doel, maar het onderscheid moet proportioneel zijn en niet verder gaan dan nodig.']} good={1} note={<>Onderscheid is niet altijd discriminatie: <span style={{ color: C.amber }}>gerechtvaardigd en proportioneel?</span></>} />],
-    ['d9a', <Summary k="d9a" title="Zes bronnen van bias" items={['Historisch', 'Representatie', 'Meting', 'Label', 'Aggregatie', 'Gebruik']} bannerKey="d9b" banner={<>Bias is technisch. Of het <span style={{ color: C.amber }}>discriminatie</span> is, vraagt om een ethische en juridische afweging.</>} />],
+    ['d9a', <Summary k="d9a" title="Zes bronnen, en drie bij gebruik" items={['Historisch', 'Representatie', 'Meting', 'Label', 'Aggregatie', 'Gebruik', 'Algoritmisch', 'Interactie', 'Bevestiging']} bannerKey="d9b" banner={<>Bias is technisch. Of het <span style={{ color: C.amber }}>discriminatie</span> is, vraagt om een ethische en juridische afweging.</>} />],
   ];
   return <Composition scenes={scenes} />;
 };
