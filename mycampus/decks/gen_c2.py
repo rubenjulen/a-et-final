@@ -41,7 +41,7 @@ D.frame('vandaag', K('Rolwissel') + H('Vandaag word je onderzoeker') +
     P('Vorige week bakende je af wat je onderzoekt. Vandaag leer je waar het misgaat en wie verantwoordelijk is, en hoe je dat aantoont. **Een oordeel zonder bewijs telt niet.**', 32) +
     f'<div style="display:flex;gap:10px">{reis}</div>' +
     UL(['Aan het einde van vandaag kun je bij een echte casus de bron van bias, het privacyrisico en de verantwoordelijke aanwijzen;',
-        'uitleggen waarom perfecte eerlijkheid niet bestaat, en welke uitleg een getroffene verdient;',
+        'bias in je eigen oplossing onderzoeken: welke groepen, welke test, welk bewijs;',
         'uitleggen waarom een mens in het proces nog geen controle is;',
         'een standpunt verdedigen én het tegenovergestelde.'], 29) +
     f'<div style="background:{ICE};border-left:8px solid {BLUE};border-radius:12px;padding:22px 32px">{P("**Eindresultaat vandaag:** per groep één bron van bias en één privacyrisico voor jullie oplossing, met de stakeholder die het raakt: de eerste rij van K2 en K3.", 29, NAVY)}</div>',
@@ -53,7 +53,7 @@ D.frame('route', K('Lesroute') + H('Zes delen, elk met een opbrengst') + D.table
      ['2 · Gastcollege', 'Wat gebeurt er in de praktijk?', 'De aantekenkaart', '0:15–1:00'],
      ['3 · Vraaggesprek', 'Wat willen jullie weten?', 'Antwoorden op jullie vragen', '1:00–1:20'],
      ['Pauze', '', '', '1:20–1:30'],
-     ['4 · Minicollege', 'Bias, eerlijkheid, uitleg, privacy en verantwoording', 'Vier onderzoeksvragen', '1:30–2:10'],
+     ['4 · Minicollege', 'Hoe onderzoek je bias, generatieve AI, privacy en verantwoording?', 'Vier onderzoeksvragen', '1:30–2:10'],
      ['5 · Debat', 'Waar sta jij?', 'Je standpunt, getoetst', '2:10–2:38'],
      ['6 · Jullie casus', 'Waar gaat het bij jullie mis?', 'Eerste rij K2 en K3, plan tot 24 januari', '2:38–3:00']], 27, ['24%', '40%', '22%', '14%']),
     '''[2 min · deel 1 · 0:03] Zeg: "Na het debat ga je met je groep aan de slag; alles van vandaag gebruik je in K2, K3 en K4." Overgang: "Eerst terug naar jullie eigen practicum."''', part=1)
@@ -82,7 +82,7 @@ D.frame('exit-tickets', K('Uit jullie exit tickets van college 1') + H('Wat jull
 D.frame('welkom', K('Gastcollege · 45 minuten', dark=True) +
     f'<div style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:28px"><h1 style="font-size:104px;font-weight:700;line-height:1.05;color:{ON_NAVY}">Welkom, [naam gastspreker]</h1>'
     f'{P("[functie] · [organisatie]", 44, GOLD, 700)}{P("[Eén zin over het onderwerp van het gastcollege]", 34, ON_NAVY_MUTED)}</div>',
-    '''[2 min · deel 2 · 0:15] Introduceer de gastspreker in twee minuten: wie, welke organisatie, waarom deze casus past bij bias, privacy of verantwoording. Het gastcollege duurt ongeveer 43 minuten; bewaak de tijd met een afgesproken teken. Laat daarna de aantekenkaart in beeld staan als de spreker geen eigen dia's heeft. Valt de gastspreker uit: gebruik de dia "gender-shades" en speel de hele TED-talk (ongeveer 9 minuten), met de aantekenkaart als kijkopdracht, en verleng het minicollege.''', dark=True, part=2)
+    '''[2 min · deel 2 · 0:15] Introduceer de gastspreker in twee minuten: wie, welke organisatie, waarom deze casus past bij bias, privacy of verantwoording. Het gastcollege duurt ongeveer 43 minuten; bewaak de tijd met een afgesproken teken. Laat daarna de aantekenkaart in beeld staan als de spreker geen eigen dia's heeft. Valt de gastspreker uit: speel de hele TED-talk van Joy Buolamwini (ongeveer 9 minuten, ook gebruikt in college 1) of de ACLU-video van Robert Williams, met de aantekenkaart als kijkopdracht, en verleng het minicollege.''', dark=True, part=2)
 
 D.frame('aantekenkaart', K('Aantekenkaart · individueel, tijdens het gastcollege') + H('Zes vragen bij het gastcollege') + G([
     C(None, f'<p style="font-size:28px;font-weight:700;color:{GOLD if i == 6 else BLUE_T}">{i}</p>{P(t, 32, ON_NAVY if i == 6 else NAVY, 700)}', dark=(i == 6))
@@ -102,7 +102,7 @@ D.frame('pauze', f'<div style="flex:1;display:flex;flex-direction:column;justify
     '''[10 min · pauze · 1:20] Vul de tijd in. Na de pauze het minicollege: hoe onderzoek je bias, privacy en verantwoording in je eigen casus?''', dark=True)
 
 # ============ Deel 4. Minicollege ============
-D.frame('bias-onderzoeken', K('Minicollege 1/4 · Bias en eerlijkheid') + H('Bias onderzoeken: welke vraag, welk bewijs?') + D.table(
+D.frame('bias-onderzoeken', K('Minicollege 1/4 · Bias onderzoeken') + H('Bias onderzoeken: welke vraag, welk bewijs?') + D.table(
     ['Bron', 'Vraag aan de organisatie', 'Bewijs dat je zoekt'],
     [['Historisch', 'Welke beslissingen uit het verleden zitten in de data?', 'Beschrijving van de trainingsdata en de periode'],
      ['Representatie', 'Welke groepen komen weinig voor?', 'Aantallen per groep in de data'],
@@ -110,69 +110,53 @@ D.frame('bias-onderzoeken', K('Minicollege 1/4 · Bias en eerlijkheid') + H('Bia
      ['Label', 'Waar komt het label vandaan, en wie ontbreekt?', 'Uitleg over hoe het label is bepaald'],
      ['Aggregatie', 'Wordt de prestatie per groep gemeten?', 'Testresultaten per groep'],
      ['Gebruik', 'Wordt het systeem gebruikt waarvoor het gemaakt is?', 'Werkinstructies en gesprekken met gebruikers']], 27, ['18%', '44%', '38%']),
-    '''[5 min · deel 4 · 1:30] Zeg: "Ik herhaal de zes bronnen uit clip 6 niet. Ik laat per bron zien welke vraag je stelt en welk bewijs je zoekt. Deze tabel gebruik je bij de nulmeting (K4)." Verbind steeds met een voorbeeld uit het gastcollege. Suribank: historisch, alleen goedgekeurde leningen in de trainingsdata; meting, ontbrekend inkomen vooral bij informeel werk. Vraag: "Welke bron speelde bij de gastspreker?" Overgang: "Is bias dan ook discriminatie?"''', part=4)
-
-D.frame('bias-discriminatie', H('Bias of discriminatie?') + R(
-    C('Bias', 'Een technisch begrip: een model wijkt systematisch af voor een groep.', accent=BLUE),
-    C('Discriminatie', 'Een juridisch en ethisch begrip: een ongerechtvaardigd onderscheid.', accent=RED)) +
-    f'<div style="background:{NAVY};border-radius:14px;padding:32px 44px;display:flex;flex-direction:column;gap:12px">{P("**Grondwet van Suriname, artikel 8 lid 2**", 26, GOLD)}'
-    f'{P("Verbiedt onderscheid op onder meer geboorte, geslacht, ras, taal, godsdienst en afkomst, maar ook op economische positie en sociale omstandigheden.", 30, ON_NAVY)}</div>' +
-    D.statement('De vraag is niet óf er onderscheid is, maar of het gerechtvaardigd en proportioneel is.', size=36),
-    '''[3 min · deel 4 · 1:35] Vraag eerst (kies eerst): "Is een kredietmodel dat rekening houdt met inkomen discriminerend? Ja of nee?" Verwacht: verdeeld. Zeg: "Niet zonder meer: terugbetaalcapaciteit is een legitiem doel, maar het onderscheid moet proportioneel zijn en niet verder gaan dan nodig. En district? Daar is de rechtvaardiging veel lastiger." Overgang: "Hoe zie je bias als het gemiddelde goed is?"''', part=4)
-
-D.frame('gender-shades', K('Echte casus · kernbron van blok 1') + H('Gender Shades: een goed gemiddelde verbergt grote verschillen') + R(
-    f'<div style="flex:1.6;display:flex;flex-direction:column;gap:20px">' +
-    R(C(None, f'<p style="font-size:96px;font-weight:700;line-height:1;color:{BLUE_T}">0,8%</p>{P("fout bij mannen met een lichte huidskleur", 28)}'),
-      C(None, f'<p style="font-size:96px;font-weight:700;line-height:1;color:{RED}">34,7%</p>{P("fout bij vrouwen met een donkere huidskleur", 28)}', accent=RED)) +
-    f'<div style="background:{ICE};border-radius:12px;padding:22px 30px;display:flex;flex-direction:column;gap:8px">{P("**Kijkvragen bij het fragment**", 28, NAVY)}' +
-    UL(['Welke van de zes bronnen van bias zie je?', 'Waarom zag niemand het in het gemiddelde?', 'Wie had per groep moeten meten?'], 27, ordered=True) + '</div></div>',
-    f'<div style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:center">{qr_svg(URL_TED, 280, label="QR-code naar de TED-talk van Joy Buolamwini")}'
-    f'{P("TED · Joy Buolamwini, How I’m fighting bias in algorithms", 24, MUTED)}{P("Buolamwini & Gebru (2018), PMLR 81", 24, MUTED)}</div>'),
-    '''[5 min · deel 4 · 1:38] Speel de eerste ongeveer 3 minuten van de TED-talk (het witte masker), of vertel het kort als er geen geluid is. Bron: TED, Joy Buolamwini, "How I'm fighting bias in algorithms" (TEDxBeaconStreet, ongeveer 9 minuten); Buolamwini & Gebru (2018), Gender Shades, PMLR 81, 77–91. Vraag de drie kijkvragen. Verwacht: representatiebias (lichte mannen veel vaker in de trainingsdata) en aggregatiebias (alleen het gemiddelde gemeten); de bouwer, maar ook de organisatie die het koopt en inzet. Zeg: "Daarom maak je in practicum 2 de verwarringsmatrix per groep." Reserve bij afzegging van de gastspreker: speel de hele talk met de aantekenkaart. Overgang: "Wat gebeurt er als zo'n systeem buiten het lab wordt gebruikt?"''', part=4)
+    '''[6 min · deel 4 · 1:30] Zeg: "In college 1 zag je waar in de keten bias ontstaat. Nu: hoe toon je het aan? Ik herhaal de bronnen uit clip 6 niet. Ik laat per bron zien welke vraag je stelt en welk bewijs je zoekt. Deze tabel gebruik je bij de nulmeting (K4)." Verbind steeds met een voorbeeld uit het gastcollege. Suribank: historisch, alleen goedgekeurde leningen in de trainingsdata; meting, ontbrekend inkomen vooral bij informeel werk. Vraag: "Welke bron speelde bij de gastspreker?" Overgang: "Hoe meet je dat in jullie eigen oplossing?"''', part=4)
 
 
-URL_WILLIAMS = 'https://www.aclu.org/cases/williams-v-city-of-detroit-face-recognition-false-arrest'
-D.frame('williams', K('Echte casus · Verenigde Staten, 2020–2024') + H('Robert Williams: gearresteerd na een foute match') + R(
-    f'<div style="flex:1.6;display:flex;flex-direction:column;gap:14px">' +
-    P('In januari 2020 arresteerde de politie van Detroit Robert Williams bij zijn huis, waar zijn vrouw en dochters bij waren. Gezichtsherkenning had hem ten onrechte gekoppeld aan beelden van een winkeldiefstal. In juni 2024 schikte de stad: 300.000 dollar en nieuwe regels.', 27) +
-    R(C(None, '**Nieuwe regel 1:** geen arrestatie alleen op basis van gezichtsherkenning.', size=24),
-      C(None, '**Nieuwe regel 2:** geen fotoconfrontatie op basis van een zoekopdracht in gezichtsherkenning.', size=24),
-      C(None, '**Nieuwe regel 3:** eerdere zaken met gezichtsherkenning worden nagelopen.', size=24), gap=16) +
-    f'<div style="background:{ICE};border-radius:12px;padding:16px 28px;display:flex;flex-direction:column;gap:4px">{P("**Kies eerst, per vraag**", 25, NAVY)}' +
-    UL(['Welke bron van bias uit Gender Shades zie je terug?', 'Welke van de zes voorwaarden voor menselijke controle ontbrak?', 'Wie is verantwoordelijk: leverancier, politie of agent?'], 24, ordered=True) + '</div></div>',
-    f'<div style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:center">{qr_svg(URL_WILLIAMS, 280, label="QR-code naar de zaakpagina Williams v. City of Detroit van de ACLU")}'
-    f'{P("ACLU · Williams v. City of Detroit", 24, MUTED)}{P("Michigan Public, 28 juni 2024", 24, MUTED)}</div>'),
-    '''[5 min · deel 4 · 1:43] Bronnen: ACLU, zaakpagina Williams v. City of Detroit, en het persbericht van de ACLU over de schikking; Michigan Public, 28 juni 2024, "Wrongful facial recognition arrest in Detroit leads to landmark settlement". Feiten: Williams werd in januari 2020 gearresteerd in Farmington Hills, in het bijzijn van zijn vrouw en jonge dochters; de ACLU van Michigan begon in april 2021 een rechtszaak; in juni 2024 volgde de schikking met 300.000 dollar en de drie regels op de dia. Volgens de ACLU waren alle drie de bekende mensen die in Detroit onterecht werden gearresteerd na een gezichtsherkenningsmatch zwart. Werkvorm: per vraag eerst vingers of kort met de buur, dan klassikaal. Verwacht: (1) representatiebias, zoals bij Gender Shades: gezichtsherkenning werkt slechter voor mensen met een donkere huidskleur; (2) informatie en cultuur: de match werd behandeld als bewijs, zonder ander onderzoek (automation bias); (3) de keten: leverancier, politiekorps dat het inzette zonder regels, en de agenten; de schikking legt de verantwoording bij de organisatie. Zeg: "Een match is een kans, geen bewijs. Precies zoals in college 1: een kans is geen beslissing." Overgang: "Kan een model dan eerlijk zijn voor iedereen?"''', part=4)
 
-D.frame('eerlijkheid', H('Perfecte eerlijkheid bestaat niet') + R(
-    C('Gelijke betekenis', 'Een score van 70% betekent voor elke groep hetzelfde: van wie 70% krijgt, betaalt ongeveer 70% terug.', label='Kalibratie'),
-    C('Gelijke fouten', 'Elke groep wordt even vaak onterecht afgewezen, en even vaak onterecht goedgekeurd.', label='Foutverdeling', accent=GOLD),
-    C('Gelijke uitkomst', 'Elke groep wordt even vaak goedgekeurd.', label='Uitkomst', accent=RED)) +
-    D.statement('Verschilt het terugbetaalcijfer tussen groepen, dan kan een model niet alle drie tegelijk halen. Je moet kiezen, en die keuze verantwoorden.', size=34) +
-    C(None, '**Kies eerst:** bij Suribank betaalt 49% uit het binnenland terug en 61% aan de kust. Welke eerlijkheid kies jij, en wie betaalt de prijs?', size=28, bg=ICE),
-    '''[4 min · deel 4 · 1:48] Zeg: "Er bestaan meerdere definities van eerlijk. Als groepen verschillen in hoe vaak de uitkomst voorkomt, kan geen model aan allemaal tegelijk voldoen, behalve een perfect model." Bron: Kleinberg, Mullainathan & Raghavan (2017), Inherent Trade-Offs in the Fair Determination of Risk Scores, ITCS (arXiv 1609.05807); Chouldechova (2017), Fair prediction with disparate impact, Big Data 5(2). Achtergrond: de discussie over COMPAS (ProPublica, 2016): de score was voor zwarte en witte verdachten even goed gekalibreerd, maar zwarte verdachten kregen vaker onterecht een hoge score. Beide kanten hadden gelijk, met een andere definitie. Check: vingers 1, 2 of 3. Verwacht: verdeeld; dat is het punt. Zeg: "Een keuze voor een definitie is een ethische keuze. In K4 domein 5 en in K6 schrijf je op welke jullie kiezen, en waarom." Overgang: "En als je wilt weten waaróm het model zo besliste?"''', part=4)
 
-D.frame('blackbox', K('Minicollege 2/4 · Black box en uitleg') + H('Een black box openen: welke uitleg, voor wie?') + R(
-    C('Een leesbaar model', 'Bij beslissingen met grote gevolgen liever een model dat je kunt lezen, zoals een beslisboom of scorekaart (Rudin, 2019).', label='Vooraf'),
-    C('Uitleg achteraf', 'Welke kenmerken wogen bij deze aanvraag het zwaarst? Let op: een benadering, geen kijkje in het model zelf.', label='Per beslissing', accent=GOLD),
-    C('Wat had anders moeten zijn?', '“Met een vast inkomen van SRD 2.000 meer was u goedgekeurd.” Bruikbaar voor de aanvrager (Wachter e.a., 2018).', label='Contrafactisch', accent=GREEN)) +
-    D.statement('De aanvrager, de medewerker en de toezichthouder hebben elk een andere uitleg nodig.', size=36) +
-    C(None, '**Bij een chatbot** kun je zelden zeggen waaróm hij iets antwoordde. Dan tellen bronvermelding, een AI-melding en overdracht aan een mens zwaarder.', size=27, bg=ICE),
-    '''[5 min · deel 4 · 1:53] Zeg: "Een black box is een model waarvan je de redenering niet kunt volgen. Je hebt drie routes." Rudin, C. (2019), Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead, Nature Machine Intelligence 1, 206–215 (doi 10.1038/s42256-019-0048-x): bij grote gevolgen een leesbaar model als het even goed presteert. Uitleg achteraf (zoals feature importance per beslissing) is een benadering die kan misleiden. Contrafactische uitleg: Wachter, Mittelstadt & Russell (2018), Counterfactual explanations without opening the black box, Harvard Journal of Law & Technology 31(2). Vraag: "Welke uitleg verdient een afgewezen aanvrager bij Suribank?" Verwacht: de contrafactische, in gewone taal, plus de weg naar een mens. Koppel aan practicum 3 (leesbaar model naast complex model) en aan Robert Williams: niemand kon uitleggen waarom het systeem hem koos. Overgang: "Uitleg gaat ook over gegevens: wat weet het systeem over je?"''', part=4)
+
+
+
+
+stapblok = lambda nr, t, s, col=BLUE: (f'<div style="flex:1;background:{CARD};border:1px solid {LINE};border-top:8px solid {col};border-radius:14px;padding:24px 24px;display:flex;flex-direction:column;gap:10px">'
+    f'<p style="font-size:44px;font-weight:700;line-height:1;color:{col}">{nr}</p><h3 style="font-size:32px;font-weight:700;color:{NAVY}">{e(t)}</h3>{P(s, 25)}</div>')
+pijl_r = f'<p style="font-size:44px;font-weight:700;color:{BLUE};align-self:center">→</p>'
+D.frame('per-groep', K('Praatplaat · bias meten') + H('Zo toon je bias aan in jullie eigen oplossing') +
+    f'<div style="display:flex;gap:12px;align-items:stretch">' + pijl_r.join([
+        stapblok(1, 'Kies de groepen', 'Uit K2: wie kan anders geraakt worden? Regio, taal, leeftijd, kanaal. Let op proxies.'),
+        stapblok(2, 'Maak een vaste testset', 'Voorspellend: paren die alleen in één kenmerk verschillen. Chatbot: dezelfde vraag in varianten: taal, spelfouten, naam.'),
+        stapblok(3, 'Tel fouten per groep', 'Niet alleen het gemiddelde: wie wordt onterecht afgewezen, wie krijgt een fout antwoord?'),
+        stapblok(4, 'Weeg het verschil', 'Welke eerlijkheid kies je (college 1)? Is het verschil aanvaardbaar, en voor wie niet?', GOLD)]) + '</div>' +
+    R(C(None, '**Kleine aantallen?** Zeg eerlijk wat je niet weet. Ook dat is een bevinding.', size=27),
+      C(None, '**Practicum 4 = deze vier stappen.** Het testverslag is het sterkste bewijs voor H4.', size=27, accent=GOLD)),
+    '''[6 min · deel 4 · 1:36] Zeg: "Een oordeel zonder bewijs telt niet. Dit is het stappenplan van practicum 4, en het bewijs onder domein 5 van de nulmeting." Loop de vier stappen langs met Suribank: (1) binnenland en kust, vast en informeel werk; (2) paren die alleen in district verschillen; (3) onterecht afgewezen per regio; (4) welke definitie van eerlijk kiest de bank? Bij een chatbot: dezelfde vraag in het Nederlands en het Engels, met en zonder spelfouten, met verschillende namen. Vraag: "Welke groepen kiezen jullie, en waarom?" Verwacht: groepen uit K2 met weinig macht en veel te verliezen. Overgang: "Bij generatieve AI komen er vragen bij."''', part=4)
+
+URL_DEEPFAKE = 'https://www.srherald.com/suriname/2026/02/19/kabinet-waarschuwt-voor-deepfakevideos-president-simons/'
+D.frame('genai-onderzoeken', K('Minicollege 2/4 · Generatieve AI') + H('Bij een chatbot: vier vragen') + R(
+    G([C('Kan het overtuigend fout zijn?', 'Een verzonnen regel, bedrag of bron die zeker klinkt.', size=25),
+       C('Waar gaan de gegevens heen?', 'Wat gebruikers typen, gaat naar een externe dienst.', size=25),
+       C('Weet de gebruiker dat het AI is?', 'Een duidelijke melding, en een weg naar een mens.', size=25),
+       C('Helpt het iedereen even goed?', 'Andere taal, andere naam, andere vraag: even goed antwoord?', size=25)], 2, 18),
+    f'<div style="flex:0 0 520px;background:{NAVY};border-radius:14px;padding:28px 30px;display:flex;flex-direction:column;gap:12px;align-items:center">'
+    f'<p style="font-size:24px;font-weight:700;color:{GOLD};text-transform:uppercase;letter-spacing:1px;align-self:flex-start">Surinaamse casus · deepfakes</p>'
+    f'{P("Maart 2025: een nepvideo van NDP-leiders. Februari 2026: video’s met het gezicht en een AI-stem van president Simons. Volgens de politie is maken en delen strafbaar.", 25, ON_NAVY)}'
+    f'{qr_svg(URL_DEEPFAKE, 190, label="QR-code naar het artikel van Suriname Herald over deepfakevideo’s")}{P("Suriname Herald, 19 februari 2026", 22, ON_NAVY_MUTED)}</div>', gap=24),
+    '''[8 min · deel 4 · 1:43] Zeg: "Generatieve AI maakt iets nieuws: tekst, beeld, stem. Daardoor komen er vier vragen bij, die je ook in de nulmeting en practicum 4 gebruikt." De vier vragen staan in kennispakket 1 (vier vragen bij generatieve AI), met de domeinen. Surinaamse casus: Suriname Herald, 26 maart 2025: een video van NDP-voorzitter Jennifer Simons en ondervoorzitter Ramon Abrahams in een felle woordenwisseling bleek nep; Suriname Herald en Waterkant, 19 februari 2026: het Kabinet van de President waarschuwde voor video's met een deepfake van president Simons en een AI-stem; het KPS en de CDS meldden dat maken en verspreiden strafbaar is (zie ook gov.sr: valselijk opmaken van video's van het staatshoofd strafbaar). Vraag: "Welke van de vier vragen raakt deze casus?" Verwacht: overtuigend fout (een echt lijkende nepvideo) en weten dat het AI is; en: wie is verantwoordelijk, de maker, het platform of wie deelt? Vraag daarna: "Welke van de vier test je bij jullie chatbot met een vaste testset?" Verwacht: overtuigend fout en helpt het iedereen even goed. Overgang: "Gegevens gaan bij generatieve AI vaak over de grens. Dan privacy."''', part=4)
 
 D.frame('privacy-onderzoeken', K('Minicollege 3/4 · Privacy') + H('De regels leer je in A-DG. Hier stel je drie vragen.') + R(
     C('Wat leidt het systeem af?', 'Draagkracht uit woonplaats, gezondheid uit aankopen. Niemand gaf het op, toch weegt het mee.', label='Vraag 1'),
     C('Waar gaan de gegevens heen?', 'Ook wat klanten en medewerkers in een chatbot typen. Naar wie, in welk land, en voor hoe lang?', label='Vraag 2', accent=GOLD),
     C('Kun je de klant recht aankijken?', 'Als de mensen om wie het gaat wisten wat er met hun gegevens gebeurt: zouden ze het goedvinden?', label='Vraag 3', accent=RED)) +
     P('**Kies eerst:** een medewerker plakt een klantbrief in een gratis chatbot om snel een antwoord te laten schrijven. Welke vraag gaat hier mis?', 30, NAVY),
-    '''[4 min · deel 4 · 1:58] Zeg: "A-DG behandelt de regels: persoonsgegevens, gevoelige gegevens, doelbinding en dataminimalisatie. Hier gaat het om de vraag erachter." Vraag 1 is inferentie: AI leidt af wat niemand opgaf, en een combinatie zonder naam kan toch naar een persoon wijzen. Vraag 2 is nieuw bij generatieve AI. Bij het voorbeeld: eerst vingers omhoog, 1, 2 of 3. Verwacht: vraag 2 gaat mis (de gegevens van de klant gaan zonder dat die het weet naar buiten), en daardoor ook vraag 3. Suribank bij vraag 1: district werkt als schatting van draagkracht. Overgang: "En welke regels gelden in Suriname?"''', part=4)
+    '''[5 min · deel 4 · 1:51] Zeg: "A-DG behandelt de regels: persoonsgegevens, gevoelige gegevens, doelbinding en dataminimalisatie. Hier gaat het om de vraag erachter." Vraag 1 is inferentie: AI leidt af wat niemand opgaf, en een combinatie zonder naam kan toch naar een persoon wijzen. Vraag 2 is nieuw bij generatieve AI. Bij het voorbeeld: eerst vingers omhoog, 1, 2 of 3. Verwacht: vraag 2 gaat mis (de gegevens van de klant gaan zonder dat die het weet naar buiten), en daardoor ook vraag 3. Suribank bij vraag 1: district werkt als schatting van draagkracht. Overgang: "En welke regels gelden in Suriname?"''', part=4)
 
 D.frame('privacy-suriname', H('Privacy in Suriname') + R(
     C('De Grondwet', 'Artikel 17 beschermt de persoonlijke levenssfeer.', accent=GREEN),
-    C('Nog geen privacywet', 'De ontwerpwet Bescherming Privacy en Persoonsgegevens ligt bij De Nationale Assemblée: onder meer een toezichthouder en regels voor doorgifte naar het buitenland.', accent=RED),
-    C('Over de grens', 'Draait de AI bij een buitenlandse leverancier, of gebruikt de chatbot een buitenlands taalmodel? Welke afspraken zijn er over beveiliging, bewaren en hergebruik?')) +
+    C('Nog geen privacywet', 'De ontwerpwet Bescherming Privacy en Persoonsgegevens ligt bij De Nationale Assemblée. Er is ook geen meldplicht bij datalekken.', accent=RED),
+    C('Over de grens', 'Veel overheidssystemen draaien op buitenlandse software. Gebruikt jullie oplossing een buitenlands taalmodel? Welke afspraken zijn er over beveiliging, bewaren en hergebruik?')) +
     f'<div style="background:{NAVY};border-radius:14px;padding:30px 44px">{P("Welke regels zou jullie organisatie nu al moeten volgen, ook zonder wet?", 36, ON_NAVY, 700)}</div>',
-    '''[2 min · deel 4 · 2:02] Zeg: "Wettelijk is niet hetzelfde als verantwoord. Waar de wet nog zwijgt, is veel toegestaan, maar de ethische vraag blijft." Controleer vlak voor het college of er nieuws is over de ontwerpwet (DNA). Dit is de opmaat voor stelling 1 van het debat; de stelling staat ook als oefenstelling in kennispakket 1. Overgang: "Als het misgaat: wie is dan verantwoordelijk?"''', part=4)
+    '''[4 min · deel 4 · 1:56] Zeg: "Wettelijk is niet hetzelfde als verantwoord. Waar de wet nog zwijgt, is veel toegestaan, maar de ethische vraag blijft." Bron voor meldplicht en buitenlandse software: Dagblad Suriname, 4 juli 2025, "Van uittreksel tot rijbewijs: hoe veilig zijn onze digitale gegevens" (Wetboek van Strafrecht art. 187b tegen hacken; geen meldplicht bij datalekken; e-Gov-systemen vaak afhankelijk van buitenlandse software). Controleer vlak voor het college of er nieuws is over de ontwerpwet (DNA). Dit is de opmaat voor stelling 1 van het debat; de stelling staat ook als oefenstelling in kennispakket 1. Overgang: "Als het misgaat: wie is dan verantwoordelijk?"''', part=4)
 
 schakel = lambda t: f'<div style="flex:1;background:{CARD};border:1px solid {LINE};border-radius:12px;padding:26px 14px;display:flex;align-items:center;justify-content:center"><h3 style="font-size:30px;font-weight:700;color:{NAVY};text-align:center">{e(t)}</h3></div>'
 pijl = f'<p style="font-size:36px;font-weight:700;color:{BLUE};align-self:center">→</p>'
@@ -180,14 +164,14 @@ D.frame('verantwoordelijk', K('Minicollege 4/4 · Verantwoording') + H('Het mode
     f'<div style="display:flex;gap:12px;align-items:stretch">{pijl.join(schakel(t) for t in ["Ontwikkelaar", "Leverancier, ook van het taalmodel", "Organisatie", "Management", "Medewerker"])}</div>' +
     f'<div style="background:{NAVY};border-radius:14px;padding:30px 44px">{P("Nooit alleen “het model” of “de programmeur”. **Verantwoording** betekent: je kunt aanwijzen wie waarvoor verantwoordelijk is, en aantonen hoe de risico’s worden beheerst.", 32, ON_NAVY)}</div>' +
     P('Bij een chatbot zit de leverancier van het taalmodel in de keten. Toch blijft de organisatie verantwoordelijk voor wat haar chatbot zegt.', 28),
-    '''[3 min · deel 4 · 2:04] Teken de keten op het bord. Vraag bij elke schakel: "Wat had deze partij kunnen doen?" Gebruik een voorbeeld uit het gastcollege, of Robert Williams: wie had daar de bevoegdheid om in te grijpen? Ook in kennispakket 1: de chatbot van Air Canada beloofde een klant een korting die niet bestond; de rechter oordeelde dat de organisatie verantwoordelijk is voor wat haar chatbot zegt (Moffatt v. Air Canada, 2024 BCCRT 149). Vraag: "Wie is bij jullie oplossing eindverantwoordelijk voor de antwoorden van het systeem?" (In blok 2 heet dat in de RACI-tabel de A.) Overgang: "En is een mens in het proces genoeg?"''', part=4)
+    '''[4 min · deel 4 · 2:00] Teken de keten op het bord. Vraag bij elke schakel: "Wat had deze partij kunnen doen?" Gebruik een voorbeeld uit het gastcollege, of Robert Williams: wie had daar de bevoegdheid om in te grijpen? Ook in kennispakket 1: de chatbot van Air Canada beloofde een klant een korting die niet bestond; de rechter oordeelde dat de organisatie verantwoordelijk is voor wat haar chatbot zegt (Moffatt v. Air Canada, 2024 BCCRT 149). Vraag: "Wie is bij jullie oplossing eindverantwoordelijk voor de antwoorden van het systeem?" (In blok 2 heet dat in de RACI-tabel de A.) Overgang: "En is een mens in het proces genoeg?"''', part=4)
 
 D.frame('menselijke-controle', H('Een mens in het proces is nog geen controle') + G([
     C(t, q, size=27) for t, q in [('Informatie', 'Zie je waarom het systeem dit adviseert?'), ('Tijd', 'Heb je genoeg tijd om echt te kijken?'),
                                    ('Kennis', 'Weet je wanneer het systeem niet te vertrouwen is?'), ('Bevoegdheid', 'Mag je afwijken van het advies?'),
                                    ('Cultuur', 'Is afwijken normaal, of word je erop afgerekend?'), ('Registratie', 'Worden afwijkingen bijgehouden?')]], 3, 20) +
     P('**Kies eerst:** 15 minuten per dossier, en afwijken alleen met schriftelijk akkoord. Hoe vaak wijkt iemand dan af?', 30, NAVY),
-    '''[3 min · deel 4 · 2:07] Zeg: "Automation bias: wie een mens in het proces zet, moet ook zorgen dat die mens echt kan ingrijpen." Vraag: "Welke van deze zes voorwaarden ontbraken in het verhaal van de gastspreker, en bij Robert Williams?" Leesopdracht: de toeslagenaffaire (Amnesty International, Xenophobic Machines, 25 oktober 2021) staat in kennispakket 1; daar ontbraken meerdere voorwaarden. Bij generatieve AI is het risico groter: een chatbot schrijft vloeiend en zelfverzekerd, ook als het antwoord fout is. Standaard: AI-verordening art. 14 lid 4 onder b noemt automation bias letterlijk. Overgang naar deel 5: "Nu jullie standpunt."''', part=4)
+    '''[6 min · deel 4 · 2:04] Zeg: "Automation bias: wie een mens in het proces zet, moet ook zorgen dat die mens echt kan ingrijpen." Vraag: "Welke van deze zes voorwaarden ontbraken in het verhaal van de gastspreker, en bij Robert Williams?" Leesopdracht: de toeslagenaffaire (Amnesty International, Xenophobic Machines, 25 oktober 2021) staat in kennispakket 1; daar ontbraken meerdere voorwaarden. Bij generatieve AI is het risico groter: een chatbot schrijft vloeiend en zelfverzekerd, ook als het antwoord fout is. Standaard: AI-verordening art. 14 lid 4 onder b noemt automation bias letterlijk. Overgang naar deel 5: "Nu jullie standpunt."''', part=4)
 
 # ============ Deel 5. Debat ============
 stap = lambda m, t, s, gold=False: (f'<div style="flex:1;border-top:6px solid {GOLD if gold else ON_NAVY_MUTED};padding:22px 0 0;display:flex;flex-direction:column;gap:8px">'
@@ -206,7 +190,7 @@ stelling = lambda sid, lab, t, notes: D.frame(sid, K(lab, dark=True) +
 stelling('stelling-1', 'Stelling 1', 'Organisaties in Suriname moeten wachten met AI voor beslissingen over mensen totdat er een privacywet is.',
     '''[13 min · deel 5 · 2:12] Vraag vooraf twee studenten met een verschillend standpunt om te openen (elk hooguit een minuut). Tel bij begin en eind. Verwacht vóór: zonder wet geen toezichthouder en geen bezwaarrecht, dus de burger staat zwak. Verwacht tegen: wachten kan jaren duren, de Grondwet (art. 17) beschermt de persoonlijke levenssfeer al, en een organisatie kan zelf strengere regels volgen. Vraag door met het verschil tussen wettelijk en verantwoord. Afsluiten: wie wisselde, en waardoor?''')
 stelling('stelling-2', 'Stelling 2 · ingezonden door groep [__]', 'Een AI-systeem dat gemiddeld beter presteert dan mensen mag worden ingezet, ook als het niet voor iedere groep even goed werkt.',
-    '''[13 min · deel 5 · 2:25] Vervang deze reservestelling door de beste stelling uit de inzendingen: één zin, echt betwistbaar, een botsing tussen twee waarden, twee bronnen. Laat de groep die hem instuurde openen met haar sterkste bron. Andere reservestellingen: "Als een bank geslacht en district uit het model haalt, kan het model niet meer discrimineren." · "Een klant die door een algoritme is afgewezen, heeft altijd recht op een herbeoordeling door een mens." · "Een chatbot van de overheid hoeft niet te melden dat hij AI is, zolang de antwoorden kloppen." · "Wie de data levert, is verantwoordelijk voor de bias in het model." Bij deze reservestelling: verbind met Gender Shades. Afsluiten: vraag welke lenzen gebruikt zijn en welke niet. Kondig aan: in kennischeck 1 (woensdag 3 februari) geef je opnieuw een standpunt, en je standpunten gebruik je later in je reflectie.''')
+    '''[13 min · deel 5 · 2:25] Vervang deze reservestelling door de beste stelling uit de inzendingen: één zin, echt betwistbaar, een botsing tussen twee waarden, twee bronnen. Laat de groep die hem instuurde openen met haar sterkste bron. Andere reservestellingen: "Als een bank geslacht en district uit het model haalt, kan het model niet meer discrimineren." · "Een klant die door een algoritme is afgewezen, heeft altijd recht op een herbeoordeling door een mens." · "Een chatbot van de overheid hoeft niet te melden dat hij AI is, zolang de antwoorden kloppen." · "Wie de data levert, is verantwoordelijk voor de bias in het model." Bij deze reservestelling: verbind met Gender Shades en Robert Williams uit college 1. Afsluiten: vraag welke lenzen gebruikt zijn en welke niet. Kondig aan: in kennischeck 1 (woensdag 3 februari) geef je opnieuw een standpunt, en je standpunten gebruik je later in je reflectie.''')
 
 # ============ Deel 6. Jullie casus ============
 D.frame('k2k3-voorbeeld', K('Zo werk je K2 en K3 uit') + H('Suribank: macht, kwetsbaarheid en de keten') + R(
@@ -261,16 +245,15 @@ D.frame('bronnen', H('Bronnen') + UL([
     'Verordening (EU) 2024/1689 (AI-verordening), art. 10, 14 lid 4 onder b, 27.',
     'NIST AI RMF 1.0 (2023), GOVERN 2.1, MAP 4.1; ISO/IEC 42001:2023, 6.1.4; ISO/IEC 42005:2025.',
     'Moffatt v. Air Canada, 2024 BCCRT 149 (kennispakket 1).',
-    'ACLU, Williams v. City of Detroit; Michigan Public (28 juni 2024), schikking over een onterechte arrestatie na gezichtsherkenning.',
-    'Kleinberg, Mullainathan & Raghavan (2017). Inherent Trade-Offs in the Fair Determination of Risk Scores. ITCS; Chouldechova (2017). Big Data 5(2).',
-    'Rudin (2019). Nature Machine Intelligence 1, 206–215; Wachter, Mittelstadt & Russell (2018). Harvard Journal of Law & Technology 31(2).',
+    'Suriname Herald (26 maart 2025 en 19 februari 2026), Waterkant (19 februari 2026): deepfakevideo’s.',
+    'Dagblad Suriname (4 juli 2025). Van uittreksel tot rijbewijs: hoe veilig zijn onze digitale gegevens.',
     'Mendelow, A. (1991). Stakeholder mapping (macht-belangschema), basis voor de 2x2 in K2.'], 21),
     '''[niet tonen tenzij gevraagd] Bronnen bij de dia's. Controleer de TED-link en het nieuws over de ontwerpwet vlak voor het college.''')
 
 D.frame('docent-voorbereiding', K('Docent · niet tonen') + H('Voorbereiding college 2') + G([
     UL(['Aantallen practicum 1 per model op “fout-erger”', 'Top 3 uit de exit tickets van college 1 op “exit-tickets”', 'Naam, functie, organisatie gastspreker (cover, welkom)',
         'Volgorde groepen en kern van hun vraag op “vragen”', 'Stelling 2 kiezen uit de inzendingen'], 26),
-    UL(['Twee studenten voor stelling 1 vooraf vragen', 'Stoelen in twee rijen met een middenvak; aantekenkaarten printen', 'TED-fragment testen (geluid); reserveplan bij afzegging',
+    UL(['Twee studenten voor stelling 1 vooraf vragen', 'Stoelen in twee rijen met een middenvak; aantekenkaarten printen', 'QR deepfake-artikel testen; reserve bij afzegging gastspreker: TED-talk Buolamwini of ACLU-video Williams',
         'Nieuws ontwerpwet privacy checken; tijd, lokaal, pauze invullen', 'Inleverpunten Exit ticket college 2 en Concept K2-K4 open; ACLU-link testen'], 26)], 2, 40),
     '''Deze dia staat achteraan en wordt niet getoond of gedeeld. Na het college: exit tickets lezen, debattellingen noteren. Concepten K2-K4 (zondag 24 januari) nakijken met de checklists en de kwaliteitslat; feedforward op maandag 25 januari.''')
 
@@ -280,7 +263,7 @@ if __name__ == '__main__':
         's1': {'description': 'Deel 1. Rolwissel, lesroute en terugblik: welke fout is erger?', 'start': 'cover'},
         's2': {'description': 'Deel 2. Gastcollege met aantekenkaart', 'start': 'welkom'},
         's3': {'description': 'Deel 3. Vraaggesprek en pauze', 'start': 'vragen'},
-        's4': {'description': 'Deel 4. Minicollege: bias en eerlijkheid, Robert Williams, black box en uitleg, privacy en verantwoording', 'start': 'bias-onderzoeken'},
+        's4': {'description': 'Deel 4. Minicollege: bias meten, generatieve AI en deepfakes, privacy, verantwoording en menselijke controle', 'start': 'bias-onderzoeken'},
         's5': {'description': 'Deel 5. Lagerhuisdebat over twee stellingen', 'start': 'debat-regels'},
         's6': {'description': 'Deel 6. Jullie casus: K2 en K3, ruil, plan tot 24 januari, exit ticket, bronnen', 'start': 'k2k3-voorbeeld'},
     }
