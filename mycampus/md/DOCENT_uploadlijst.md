@@ -102,7 +102,7 @@ Map in het pakket: `Blok1_Analyseren`.
 | Kennisclip 9, 10 en kaderclip B | Blok 1 | Ontbreekt: idem |
 | Kennisclip 11 tot en met 14 en kaderclip C | Blok 1 | Ontbreekt: nog op te nemen (opnamekits Blok 1) |
 | ICT A-ET Kennisclip 5b.mp4 (Vijf ethische kaders, 6:42, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5; meeleestekst staat in kennispakket 1 | Klaar |
-| Nieuwe video: drie soorten black box (ca. 5 min) | Blok 1 | Ontbreekt: nog te maken |
+| ICT A-ET Kennisclip 5c.mp4 (Drie soorten black box, 4:45, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5b; meeleestekst staat in kennispakket 1 | Klaar |
 | ICT A-ET Practicum 2 en 3.zip (suribank_versie_A/B.csv, suribank_testset.csv, practicum2_3.ipynb) | Blok 1, bij practicum 2 en 3 (verdieping) | Klaar |
 | ICT A-ET Practicum 4.zip (testlogboek, paren, Orange-workflow, notebook) | Blok 1, bij practicum 4; het testlogboek wordt in blok 3 gebruikt voor de hertest | Klaar |
 | ICT A-ET K1 Canvas.docx, K5 Dilemma Canvas.docx, Sjabloon tussenrapport.docx, Werkboek instrumenten.xlsx | Link naar Sjablonen (00_Algemeen) | Klaar |
