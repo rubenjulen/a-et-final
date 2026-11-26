@@ -100,7 +100,8 @@ Map in het pakket: `Blok1_Analyseren`.
 | ICT A-ET Kennisclip 5.mp4 (2:34) en ICT A-ET Kaderclip A.mp4 (5:09) | Blok 1, kennisclips | Klaar |
 | ICT A-ET Kennisclip 6.mp4 (4:42, nu ook met bias bij gebruik en de feedbacklus), 7.mp4 (3:35) en 8.mp4 (2:43) | Blok 1, kennisclips | Klaar |
 | ICT A-ET Kennisclip 9.mp4 (3:02), 10.mp4 (3:02) en ICT A-ET Kaderclip B.mp4 (6:26) | Blok 1, kennisclips | Klaar |
-| Kennisclip 11 tot en met 14 en kaderclip C | Blok 1 | Ontbreekt: nog op te nemen (opnamekits Blok 1) |
+| ICT A-ET Kaderclip C.mp4 (De AI-verordening: risicoklasse en rol, 7:12) | Blok 1, kennisclips | Klaar |
+| Kennisclip 11 tot en met 14 | Blok 1 | Ontbreekt: nog op te nemen (opnamekits Blok 1) |
 | ICT A-ET Kennisclip 5b.mp4 (Vijf ethische kaders, 6:42, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5; meeleestekst staat in kennispakket 1 | Klaar |
 | ICT A-ET Kennisclip 5c.mp4 (Drie soorten black box, 4:45, met ondertitels en twee tussenvragen) | Blok 1, kennisclips, direct na clip 5b; meeleestekst staat in kennispakket 1 | Klaar |
 | ICT A-ET Practicum 2 en 3.zip (suribank_versie_A/B.csv, suribank_testset.csv, practicum2_3.ipynb) | Blok 1, bij practicum 2 en 3 (verdieping) | Klaar |
@@ -128,7 +129,8 @@ Map in het pakket: `Blok2_Ontwerpen`.
 | --- | --- | --- |
 | ICT A-ET Blok 2 Ontwerpen.pdf (kennispakket 2) | Blok 2, bovenaan; online vanaf vrijdag 5 februari | Klaar |
 | ICT A-ET College 3.pdf (24 dia's, zonder docentdia) | Blok 2, na afloop van college 3 | Klaar; panel, tijd en lokaal vooraf invullen |
-| Kennisclip 15 tot en met 20, kaderclip D en E | Blok 2, kennisclips | Ontbreekt: nog op te nemen (opnamekits Blok 2); tot dan de meeleestekst in kennispakket 2 |
+| ICT A-ET Kaderclip D.mp4 (Governance over de levenscyclus, 6:19) en ICT A-ET Kaderclip E.mp4 (ISO/IEC 42001, 6:53) | Blok 2, kennisclips | Klaar |
+| Kennisclip 15 tot en met 20 | Blok 2, kennisclips | Ontbreekt: nog op te nemen (opnamekits Blok 2); tot dan de meeleestekst in kennispakket 2 |
 | ICT A-ET Sjabloon eindrapport.docx, Werkboek instrumenten.xlsx | Link naar Sjablonen (00_Algemeen) | Klaar |
 | Schriftelijke feedback en cijfer op Assessment 1 | MyCampus, donderdag 18 februari | Docent; feedbackformulieren in de docentmap |
 | ICT A-ET Kennischeck 2 (10 vragen en een standpunt) | Quiz in MyCampus, sluit woensdag 24 februari 23:59 | Aanmaken uit het invoerbestand of GIFT |
