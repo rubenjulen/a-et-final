@@ -6,7 +6,7 @@ Hbo-studenten (HBO-ICT en HBO-Bedrijfskunde) die in een vorig vak zelf een AI-op
 
 DOEL VAN DE PRESENTATIE
 Laat de student een rolwissel maken: van bouwer ("werkt het?") naar beoordelaar ("voor wie gaat het mis, en is dat te verantwoorden?"). De student moet:
-1. kennis opdoen over drie onderwerpen, met diepgang:
+1. kennis opdoen over drie onderwerpen, met diepgang. Elk onderwerp opent met een kennisdia: waar hebben we het over (definities) en waar komt het vandaan (herkomst). Behoud die dia's: de begrippen (AI-systeem volgens de OECD, algoritme en model, moraal, ethiek, AI-ethiek, verantwoorde AI), de tijdlijn "2.400 jaar ethiek, 75 jaar AI-ethiek", wat bias is (Friedman en Nissenbaum, 1996) en van black box naar uitlegbare AI (Pasquale 2015, DARPA 2017, AVG art. 22, AI-verordening art. 86):
    - ethische kaders: werkt / mag / verantwoord; recht, compliance en ethiek; lessen uit eerdere technologieën; waarom kaders (structuur, consistentie, onderbouwing; drie afwegingen); vijf theorieën met kernvraag, sterk, zwak en een AI-voorbeeld: gevolgen (utilitarisme), plichten (Kant), rechtvaardigheid (Rawls), deugd (Aristoteles) en zorg (Gilligan, Tronto); deugd en zorg vormen samen de lens professionele integriteit;
    - bias, eerlijkheid en discriminatie: zeven soorten bias op hun plek in de keten (data en representatie, historisch, meting en proxy, algoritmisch, inzet, interactie, bevestiging) met de feedbacklus; bias of discriminatie; waarom perfecte eerlijkheid niet bestaat; hoe je bias beheerst;
    - black box en uitlegbaarheid: wat een black box is; drie soorten ondoorzichtigheid (Burrell, 2016); vier redenen voor transparantie; interpreteerbaar tegenover uitlegbaar; wanneer een black box wel of niet aanvaardbaar is;
@@ -75,7 +75,7 @@ SPREKERSNOTITIES
 Behoud en verrijk de sprekersnotities als regieaanwijzing: tijd en deel, "Zeg: …", "Vraag: …", "Verwacht: …", "Overgang: …". Zet antwoorden en docentinformatie alleen in de notities, nooit op de kaart.
 
 OUTPUT
-- 16:9, ongeveer 48–56 kaarten.
+- 16:9, ongeveer 52–60 kaarten.
 - De laatste kaarten: bronnen, en een docentkaart "Voorbereiding (niet tonen)".
 - Controleer aan het eind:
   - kloppen alle tijden, deadlines en namen nog met het origineel;

@@ -97,6 +97,19 @@ Dit is de studietekst van blok 1: de theorie voor de instrumenten, het rapport e
 | Kaderclip C (volgt) | De AI-verordening: risicoklasse en rol | 8 min | De AI-verordening |
 | Clip 14 (volgt) | Van diagnose naar plan van aanpak | 6 min | Voorlopig oordeel en plan |
 
+### Waar hebben we het over, en waar komt het vandaan?
+
+| Begrip | Wat het is |
+| --- | --- |
+| AI-systeem | Een machinegebaseerd systeem dat uit zijn invoer afleidt hoe het uitvoer maakt: voorspellingen, inhoud, aanbevelingen of beslissingen (OECD, 2023; de AI-verordening gebruikt een vergelijkbare definitie) |
+| Algoritme en model | Een algoritme is een stappenplan. Een model is wat een algoritme uit data heeft geleerd, en daarna toepast |
+| Moraal | De opvattingen over goed en kwaad die mensen en groepen in de praktijk hebben |
+| Ethiek | Het systematisch nadenken over die opvattingen: wat is goed handelen, en waarom? |
+| AI-ethiek | Ethiek toegepast op het ontwerpen, inzetten en besturen van AI: wie wint, wie verliest, en wie beslist? |
+| Verantwoorde AI | AI die je kunt verantwoorden: met bewijs, met een eigenaar, en met oog voor wie geraakt wordt |
+
+**2.400 jaar ethiek, 75 jaar AI-ethiek.** De theorieën die je gebruikt zijn oud: Aristoteles (deugd, ca. 340 v.Chr.), Kant (plicht, 1785), Bentham (1789) en Mill (1863) (gevolgen), Rawls (rechtvaardigheid, 1971) en Gilligan (zorg, 1982). AI-ethiek is jong en begon als computerethiek. Norbert Wiener schreef in 1950 *The Human Use of Human Beings*. Joseph Weizenbaum, de maker van de chatbot ELIZA, waarschuwde in 1976 in *Computer Power and Human Reason* voor taken die je niet aan computers moet overlaten. Batya Friedman en Helen Nissenbaum beschreven in 1996 als eersten bias in computersystemen. Daarna volgden ProPublica over COMPAS (2016), de OECD-principes en de Europese richtlijnen voor betrouwbare AI (2019), de UNESCO-aanbeveling (2021), de AI-verordening en het AI-verdrag van de Raad van Europa (2024), en in Suriname de AI Readiness Assessment met UNESCO (2026). De vragen zijn oud; nieuw is dat systemen ze nu op grote schaal beantwoorden.
+
 ### Werkt het, mag het, is het verantwoord?
 
 *Werkt het?* is een technische vraag: is het model of de assistent goed genoeg? Die vraag staat centraal in A-AI2. *Mag het?* is een juridische vraag: welke regels gelden? In Suriname is het antwoord nu vaak kort. Er is geen AI-wet, en de privacywet ligt nog bij De Nationale Assemblée. *Is het verantwoord?* is de ethische vraag van A-ET: is het goed om het zó te doen, voor iedereen die erdoor geraakt wordt? Een systeem kan werken en toegestaan zijn, en toch niet verantwoord.
@@ -178,7 +191,7 @@ Om te wegen of iets verantwoord is, gebruik je vier lenzen, elk met een theorie 
 
 ### Bias: waar komt het vandaan?
 
-*Bias* is een systematische scheefheid: een fout die steeds dezelfde kant op valt, vaak voor dezelfde groep. Clip 6 bespreekt zes bronnen.
+*Bias* is een systematische scheefheid: een fout die steeds dezelfde kant op valt, vaak voor dezelfde groep. Clip 6 bespreekt zes bronnen. Het begrip komt uit de statistiek, waar het neutraal een systematische afwijking betekent. Friedman en Nissenbaum (1996) onderscheidden voor computersystemen drie soorten: *bestaande* bias uit de samenleving, *technische* bias uit het ontwerp, en *ontstaande* bias die pas bij gebruik verschijnt.
 
 | Bron | Wat het is | Voorbeeld bij Suribank |
 | --- | --- | --- |
@@ -223,7 +236,7 @@ Een model dat 69% goed voorspelt, kan voor de ene groep veel slechter werken dan
 
 ### Uitleg: de black box openen
 
-Een *black box* is een model waarvan je niet kunt zien waarom het iets zegt. *Transparantie* betekent dat mensen weten dat AI wordt gebruikt, en waarvoor. *Uitlegbaarheid* betekent dat je kunt uitleggen waarom een uitkomst eruit kwam. *Traceerbaarheid* betekent dat je achteraf kunt nagaan wat er gebeurde, met welke gegevens en welke versie.
+Een *black box* is een model waarvan je niet kunt zien waarom het iets zegt. Het begrip komt uit de techniek: een systeem dat je alleen kent aan invoer en uitvoer. Frank Pasquale maakte er in 2015 een maatschappelijk thema van met *The Black Box Society*, en sinds 2017 werkt onder meer het onderzoeksprogramma Explainable AI van DARPA aan uitlegbare AI. *Transparantie* betekent dat mensen weten dat AI wordt gebruikt, en waarvoor. *Uitlegbaarheid* betekent dat je kunt uitleggen waarom een uitkomst eruit kwam. *Traceerbaarheid* betekent dat je achteraf kunt nagaan wat er gebeurde, met welke gegevens en welke versie.
 
 | Soort uitleg | Wat het is |
 | --- | --- |
