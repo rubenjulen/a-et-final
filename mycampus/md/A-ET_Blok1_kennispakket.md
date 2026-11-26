@@ -44,7 +44,7 @@ Je bepaalt zelf je tempo, zolang je de deadlines haalt. Deze route werkt goed.
 
 **7 tot en met 14 januari: de colleges en K1.**
 
-1. Volg college 1. Lees in De kern de delen tot en met de vier lenzen. Bekijk clip 5 en kaderclip A, en lees de kernbron van UNESCO.
+1. Volg college 1. Lees in De kern de delen tot en met de vier lenzen. Bekijk clip 5, clip 5b en kaderclip A, en lees de kernbron van UNESCO.
 2. Werk met je groep K1 en de teamafspraken uit. Spreek kort met jullie partner of A-AI2-coach. Lever in vóór zondag 10 januari.
 3. Lees maandag de feedforward en werk K1 bij. Bereid college 2 voor, vóór dinsdag 12 januari.
 4. Lees vóór college 2 de delen over bias, privacy, verantwoording en menselijke controle. Bekijk clip 6, 7 en 8, en lees de kernbron Gender Shades.
@@ -84,6 +84,7 @@ Dit is de studietekst van blok 1: de theorie voor de instrumenten, het rapport e
 | Clip | Titel | Duur | Hoort bij |
 | --- | --- | --- | --- |
 | Clip 5 | Wie beslist er eigenlijk? | 3 min | Van data tot gevolg |
+| Clip 5b | Vijf ethische kaders | 7 min | Vier ethische lenzen |
 | Kaderclip A | Het kaderlandschap | 5 min | Eén kader, vier lagen; vier lenzen |
 | Clip 6 | Waar komt bias vandaan? | 4 min | Bias |
 | Clip 7 | Privacy als ethische vraag | 4 min | Privacy |
@@ -1235,6 +1236,32 @@ Hier staat de gesproken tekst van de clips van blok 1, in de volgorde van De ker
 > **Tussenvraag 2.** Welke informatie hoort in K1 bij een chatbot? A. Alleen welke dienst wordt gebruikt. B. Ook welke gegevens naar die dienst gaan, wie het antwoord ziet en wat er daarna mee gebeurt.
 
 **Dia 6. Samengevat.** Uitkomst, beslissing, gevolg: schrijf ze apart op. Noem gebruikers én betrokkenen. En bij generatieve AI: wat gaat erin, waar gaat het heen, en wat doet iemand met het antwoord?
+
+### Clip 5b. Vijf ethische kaders (7 minuten)
+
+**Dia 1. Safe City.** Stel: de camera's van Safe City in Paramaribo gaan ook gezichten herkennen. De politie vindt verdachten sneller. Maar iedereen die over straat loopt, wordt ook bekeken. Is dat goed of fout? Vraag het aan vijf mensen, en je krijgt vijf antwoorden. Dat komt niet doordat ze dom zijn. Ze wegen andere dingen zwaarder.
+
+**Dia 2. Wat een kader je geeft.** Een ethisch kader helpt je die afweging te maken. Het geeft structuur, je oordeelt consequent, en je kunt uitleggen waarom, ook aan wie het met je oneens is. Je ziet vijf kaders. Wat vraagt elk kader, waar komt het vandaan, en waar schiet het tekort?
+
+**Dia 3. Gevolgen (utilitarisme).** Het eerste kader gaat over gevolgen: wat levert het op, en voor wie? Dit heet utilitarisme. Het komt van de Engelse filosofen Jeremy Bentham, in 1789, en John Stuart Mill, in 1863. Kies wat de meeste baten en de minste schade oplevert, voor iedereen die geraakt wordt. Bij AI ken je dit al: een risicoregister met kans keer impact is een gevolgenberekening. Maar een systeem dat vijfennegentig procent van de mensen helpt en vijf procent benadeelt, scoort goed. Tenzij jij bij die vijf procent hoort. Dat is de zwakte: kleine groepen worden weggemiddeld. En niet alles is meetbaar, zoals angst. Bij Safe City vraagt dit kader: hoeveel minder straatroof, tegenover hoeveel foute treffers?
+
+**Dia 4. Plichten (deontologie).** Het tweede kader gaat over plichten: wat mag nooit, ook niet als het veel oplevert? Dit heet deontologie. Het komt van de Duitse filosoof Immanuel Kant, in 1785. Behandel een mens nooit alleen als middel, maar altijd ook als doel. Een verkoopchatbot die klanten manipuleert, levert omzet op. Vanuit plichten is dat fout, hoe hoog de winst ook is. Sterk: heldere grenzen die rechten beschermen. Zwak: regels kunnen botsen, zoals privacy en veiligheid. Bij Safe City: de Grondwet beschermt in artikel 17 de persoonlijke levenssfeer. Mag een camera die zomaar doorbreken?
+
+**Dia 5. Rechtvaardigheid (Rawls).** Het derde kader gaat over rechtvaardigheid: zijn de lasten eerlijk verdeeld? Het komt van de Amerikaanse filosoof John Rawls, in 1971. Kies de regels alsof je niet weet welke plek je zelf krijgt. Hij noemde dat de sluier van onwetendheid. Ongelijkheid mag volgens Rawls alleen als de zwakste er beter van wordt. Neem het kredietmodel van Suribank. Zou je het accepteren als je niet weet of je aan de kust woont of in het binnenland? Sterk: je ziet wie de lasten draagt. Zwak: er zijn meerdere definities van eerlijk, en die gaan niet allemaal tegelijk. Bij Safe City: in welke wijken hangen de camera's, en wie krijgt de foute treffers?
+
+> **Tussenvraag 1.** Een bankmedewerker zegt: het model helpt duizend klanten sneller, dus een paar foute afwijzingen nemen we voor lief. Welk kader is dat? A. Gevolgen. B. Plichten. C. Rechtvaardigheid.
+
+**Dia 6. Deugd (deugdethiek).** Het vierde kader kijkt naar de mensen die het systeem maken en gebruiken. Dit is deugdethiek. Het is het oudste kader, van de Griekse filosoof Aristoteles, rond 340 voor Christus. Hij vroeg: wat zou een goede vakman hier doen? Een ontwikkelaar ziet dat het model slechter werkt voor één groep, en meldt het. Ook al schuift de livegang dan op. Beroepscodes, zoals die van de ACM uit 2018, maken dat concreet. Zwak: zonder criteria blijft het vaag. Bij Safe City: wat doet een goede politieleiding hier?
+
+**Dia 7. Zorg (zorgethiek).** Het vijfde kader is zorgethiek. Wie is afhankelijk, en wie kan zich niet verweren? Het komt van Carol Gilligan, in 1982, en Nel Noddings, in 1984. Joan Tronto beschreef in 1993 vier stappen: zorg opmerken, verantwoordelijkheid nemen, zorg geven, en nagaan hoe die aankomt. Denk aan een aanvrager uit het binnenland die zonder uitleg wordt afgewezen, en niemand kan bellen. Sterk: kwetsbare mensen worden zichtbaar. Zwak: het is moeilijk op grote schaal. Bij Safe City: wie kan zich niet verweren als de camera zich vergist?
+
+**Dia 8. De kaders spreken elkaar tegen.** Naast elkaar spreken de kaders elkaar tegen. Gevolgen zegt misschien: ja, het levert veiligheid op. Plichten zegt: niet zonder een privacywet. Rechtvaardigheid zegt: alleen als de fouten eerlijk verdeeld zijn. Deugd en zorg vragen: wat doet dit met het vertrouwen in de politie? Dat is geen fout. Zo zie je waar de echte afweging zit. Gebruik de kaders samen, en zeg eerlijk wat je opgeeft.
+
+**Dia 9. Vijf kaders, vier lenzen.** In het dilemma-canvas worden het vier lenzen: deugd en zorg vallen samen onder professionele integriteit. Noem bij elke lens ook de theorie.
+
+> **Tussenvraag 2.** Iemand zegt: hoeveel het ook oplevert, een aanvrager heeft altijd recht op uitleg. Welk kader is dat? A. Gevolgen. B. Plichten. C. Zorg.
+
+**Dia 10. Samengevat.** Samengevat. Gevolgen vraagt wat het oplevert. Plichten vraagt wat nooit mag. Rechtvaardigheid vraagt hoe de lasten verdeeld zijn. Deugd vraagt wat een goede professional doet. En zorg vraagt wie afhankelijk is. Nu jij. Kies één dilemma uit jullie eigen oplossing. Welk kader gebruik je als eerste, en welk kader spreekt het het meest tegen? Schrijf het op voor je dilemma-canvas.
 
 ### Kaderclip A. Het kaderlandschap (5 minuten)
 

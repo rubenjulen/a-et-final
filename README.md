@@ -40,7 +40,7 @@ npx remotion render src/entry_wk1.jsx Clip5 out/Clip5.mp4 --concurrency=4
 ```
 
 Entries per week: `src/entry_wk1.jsx` (kaderclip A, clip 5), `src/entry_wk2.jsx` (clips 6–8), `src/entry_wk3.jsx` (clips 9, 10, kaderclip B); `src/index.jsx` bevat clips 2–4.
-Stand: clips 2 en 3 klaar; clip 4 en de animaties voor weken 1–3 wachten op stemtegoed; kaderclips C–E nog te bouwen; clips 11–22 neemt de docent zelf op met de opnamekits.
+Stand: clips 2, 3 en 5b klaar (5b in Janssen-huisstijl: `src/Clip5b.jsx`, `src/janssen_kit.jsx`, `src/entry_c5b.jsx`, script `clip5b/build.py`, timing `scripts_timing_c5b.py`); clip 4 en de animaties voor weken 1–3 wachten op stemtegoed; kaderclips C–E nog te bouwen; clips 11–22 neemt de docent zelf op met de opnamekits.
 
 ## Let op
 

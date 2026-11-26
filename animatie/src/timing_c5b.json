@@ -1,0 +1,301 @@
+{
+ "cues": [
+  {
+   "key": "E0",
+   "text": "Vijf ethische kaders.",
+   "start": 0.8,
+   "dur": 1.567,
+   "audio": true
+  },
+  {
+   "key": "E1",
+   "text": "Stel: de camera's van Safe City in Paramaribo gaan ook gezichten herkennen. De politie vindt verdachten sneller. Maar iedereen die over straat loopt, wordt ook bekeken.",
+   "start": 4.567,
+   "dur": 11.729,
+   "audio": true
+  },
+  {
+   "key": "E2",
+   "text": "Is dat goed of fout? Vraag het aan vijf mensen, en je krijgt vijf antwoorden. Dat komt niet doordat ze dom zijn. Ze wegen andere dingen zwaarder.",
+   "start": 16.796,
+   "dur": 9.718,
+   "audio": true
+  },
+  {
+   "key": "E3",
+   "text": "Een ethisch kader helpt je die afweging te maken. Het geeft structuur, je oordeelt consequent, en je kunt uitleggen waarom, ook aan wie het met je oneens is.",
+   "start": 27.114,
+   "dur": 10.266,
+   "audio": true
+  },
+  {
+   "key": "E4",
+   "text": "Je ziet vijf kaders. Wat vraagt elk kader, waar komt het vandaan, en waar schiet het tekort?",
+   "start": 37.88,
+   "dur": 7.079,
+   "audio": true
+  },
+  {
+   "key": "G1",
+   "text": "Het eerste kader gaat over gevolgen: wat levert het op, en voor wie? Dit heet utilitarisme.",
+   "start": 45.859,
+   "dur": 7.811,
+   "audio": true
+  },
+  {
+   "key": "G2",
+   "text": "Het komt van de Engelse filosofen Jeremy Bentham, in 1789, en John Stuart Mill, in 1863. Kies wat de meeste baten en de minste schade oplevert, voor iedereen die geraakt wordt.",
+   "start": 54.07,
+   "dur": 14.916,
+   "audio": true
+  },
+  {
+   "key": "G3",
+   "text": "Bij AI ken je dit al: een risicoregister met kans keer impact is een gevolgenberekening.",
+   "start": 69.386,
+   "dur": 7.079,
+   "audio": true
+  },
+  {
+   "key": "G4",
+   "text": "Maar een systeem dat vijfennegentig procent van de mensen helpt en vijf procent benadeelt, scoort goed. Tenzij jij bij die vijf procent hoort.",
+   "start": 76.865,
+   "dur": 8.516,
+   "audio": true
+  },
+  {
+   "key": "G5",
+   "text": "Dat is de zwakte: kleine groepen worden weggemiddeld. En niet alles is meetbaar, zoals angst.",
+   "start": 85.781,
+   "dur": 6.113,
+   "audio": true
+  },
+  {
+   "key": "G6",
+   "text": "Bij Safe City vraagt dit kader: hoeveel minder straatroof, tegenover hoeveel foute treffers?",
+   "start": 92.293,
+   "dur": 6.191,
+   "audio": true
+  },
+  {
+   "key": "P1",
+   "text": "Het tweede kader gaat over plichten: wat mag nooit, ook niet als het veel oplevert? Dit heet deontologie.",
+   "start": 99.384,
+   "dur": 8.516,
+   "audio": true
+  },
+  {
+   "key": "P2",
+   "text": "Het komt van de Duitse filosoof Immanuel Kant, in 1785. Behandel een mens nooit alleen als middel, maar altijd ook als doel.",
+   "start": 108.3,
+   "dur": 9.639,
+   "audio": true
+  },
+  {
+   "key": "P3",
+   "text": "Een verkoopchatbot die klanten manipuleert, levert omzet op. Vanuit plichten is dat fout, hoe hoog de winst ook is.",
+   "start": 118.34,
+   "dur": 7.628,
+   "audio": true
+  },
+  {
+   "key": "P4",
+   "text": "Sterk: heldere grenzen die rechten beschermen. Zwak: regels kunnen botsen, zoals privacy en veiligheid.",
+   "start": 126.367,
+   "dur": 8.046,
+   "audio": true
+  },
+  {
+   "key": "P5",
+   "text": "Bij Safe City: de Grondwet beschermt in artikel 17 de persoonlijke levenssfeer. Mag een camera die zomaar doorbreken?",
+   "start": 134.813,
+   "dur": 8.359,
+   "audio": true
+  },
+  {
+   "key": "R1",
+   "text": "Het derde kader gaat over rechtvaardigheid: zijn de lasten eerlijk verdeeld?",
+   "start": 144.072,
+   "dur": 5.329,
+   "audio": true
+  },
+  {
+   "key": "R2",
+   "text": "Het komt van de Amerikaanse filosoof John Rawls, in 1971. Kies de regels alsof je niet weet welke plek je zelf krijgt. Hij noemde dat de sluier van onwetendheid.",
+   "start": 149.801,
+   "dur": 13.009,
+   "audio": true
+  },
+  {
+   "key": "R3",
+   "text": "Ongelijkheid mag volgens Rawls alleen als de zwakste er beter van wordt.",
+   "start": 163.21,
+   "dur": 4.284,
+   "audio": true
+  },
+  {
+   "key": "R4",
+   "text": "Neem het kredietmodel van Suribank. Zou je het accepteren als je niet weet of je aan de kust woont of in het binnenland?",
+   "start": 167.894,
+   "dur": 6.531,
+   "audio": true
+  },
+  {
+   "key": "R5",
+   "text": "Sterk: je ziet wie de lasten draagt. Zwak: er zijn meerdere definities van eerlijk, en die gaan niet allemaal tegelijk.",
+   "start": 174.825,
+   "dur": 8.202,
+   "audio": true
+  },
+  {
+   "key": "R6",
+   "text": "Bij Safe City: in welke wijken hangen de camera's, en wie krijgt de foute treffers?",
+   "start": 183.427,
+   "dur": 6.609,
+   "audio": true
+  },
+  {
+   "key": "Q1",
+   "text": "Tussenvraag. Een bankmedewerker zegt: het model helpt duizend klanten sneller, dus een paar foute afwijzingen nemen we voor lief. Welk kader is dat? A, gevolgen. B, plichten. C, rechtvaardigheid.",
+   "start": 190.936,
+   "dur": 17.476,
+   "audio": true
+  },
+  {
+   "key": "Q1b",
+   "text": "Het antwoord is A, gevolgen. Rechtvaardigheid zou vragen: wie zijn die paar klanten, en waarom juist zij?",
+   "start": 216.412,
+   "dur": 7.889,
+   "audio": true
+  },
+  {
+   "key": "D1",
+   "text": "Het vierde kader kijkt naar de mensen die het systeem maken en gebruiken. Dit is deugdethiek.",
+   "start": 225.201,
+   "dur": 6.922,
+   "audio": true
+  },
+  {
+   "key": "D2",
+   "text": "Het is het oudste kader, van de Griekse filosoof Aristoteles, rond 340 voor Christus. Hij vroeg: wat zou een goede vakman hier doen?",
+   "start": 232.524,
+   "dur": 9.718,
+   "audio": true
+  },
+  {
+   "key": "D3",
+   "text": "Een ontwikkelaar ziet dat het model slechter werkt voor één groep, en meldt het. Ook al schuift de livegang dan op.",
+   "start": 242.641,
+   "dur": 7.236,
+   "audio": true
+  },
+  {
+   "key": "D4",
+   "text": "Beroepscodes, zoals die van de ACM uit 2018, maken dat concreet. Zwak: zonder criteria blijft het vaag.",
+   "start": 250.277,
+   "dur": 9.718,
+   "audio": true
+  },
+  {
+   "key": "D5",
+   "text": "Bij Safe City: wat doet een goede politieleiding hier?",
+   "start": 260.395,
+   "dur": 3.631,
+   "audio": true
+  },
+  {
+   "key": "Z1",
+   "text": "Het vijfde kader is zorgethiek. Wie is afhankelijk, en wie kan zich niet verweren?",
+   "start": 264.926,
+   "dur": 5.878,
+   "audio": true
+  },
+  {
+   "key": "Z2",
+   "text": "Het komt van Carol Gilligan, in 1982, en Nel Noddings, in 1984. Joan Tronto beschreef in 1993 vier stappen: zorg opmerken, verantwoordelijkheid nemen, zorg geven, en nagaan hoe die aankomt.",
+   "start": 271.203,
+   "dur": 17.398,
+   "audio": true
+  },
+  {
+   "key": "Z3",
+   "text": "Denk aan een aanvrager uit het binnenland die zonder uitleg wordt afgewezen, en niemand kan bellen.",
+   "start": 289.001,
+   "dur": 5.486,
+   "audio": true
+  },
+  {
+   "key": "Z4",
+   "text": "Sterk: kwetsbare mensen worden zichtbaar. Zwak: het is moeilijk op grote schaal.",
+   "start": 294.887,
+   "dur": 5.564,
+   "audio": true
+  },
+  {
+   "key": "Z5",
+   "text": "Bij Safe City: wie kan zich niet verweren als de camera zich vergist?",
+   "start": 300.851,
+   "dur": 4.284,
+   "audio": true
+  },
+  {
+   "key": "T1",
+   "text": "Naast elkaar spreken de kaders elkaar tegen. Gevolgen zegt misschien: ja, het levert veiligheid op. Plichten zegt: niet zonder een privacywet.",
+   "start": 306.035,
+   "dur": 10.188,
+   "audio": true
+  },
+  {
+   "key": "T2",
+   "text": "Rechtvaardigheid zegt: alleen als de fouten eerlijk verdeeld zijn. Deugd en zorg vragen: wat doet dit met het vertrouwen in de politie?",
+   "start": 316.622,
+   "dur": 8.908,
+   "audio": true
+  },
+  {
+   "key": "T3",
+   "text": "Dat is geen fout. Zo zie je waar de echte afweging zit. Gebruik de kaders samen, en zeg eerlijk wat je opgeeft.",
+   "start": 325.93,
+   "dur": 7.889,
+   "audio": true
+  },
+  {
+   "key": "K1",
+   "text": "In het dilemma-canvas worden het vier lenzen: deugd en zorg vallen samen onder professionele integriteit. Noem bij elke lens ook de theorie.",
+   "start": 334.719,
+   "dur": 9.326,
+   "audio": true
+  },
+  {
+   "key": "Q2",
+   "text": "Tussenvraag. Iemand zegt: hoeveel het ook oplevert, een aanvrager heeft altijd recht op uitleg. Welk kader is dat? A, gevolgen. B, plichten. C, zorg.",
+   "start": 344.945,
+   "dur": 14.681,
+   "audio": true
+  },
+  {
+   "key": "Q2b",
+   "text": "Het antwoord is B, plichten: een recht dat geldt, ongeacht het nut.",
+   "start": 367.626,
+   "dur": 5.721,
+   "audio": true
+  },
+  {
+   "key": "S1",
+   "text": "Samengevat. Gevolgen vraagt wat het oplevert. Plichten vraagt wat nooit mag. Rechtvaardigheid vraagt hoe de lasten verdeeld zijn. Deugd vraagt wat een goede professional doet. En zorg vraagt wie afhankelijk is.",
+   "start": 374.247,
+   "dur": 14.289,
+   "audio": true
+  },
+  {
+   "key": "N1",
+   "text": "Nu jij. Kies één dilemma uit jullie eigen oplossing. Welk kader gebruik je als eerste, en welk kader spreekt het het meest tegen? Schrijf het op voor je dilemma-canvas.",
+   "start": 389.436,
+   "dur": 11.807,
+   "audio": true
+  }
+ ],
+ "total": 402.54,
+ "audioDir": "aud_c5b",
+ "estimated": []
+}
