@@ -149,9 +149,9 @@ Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Blok 0 f
 | 0:15 tot 0:58 | Gastspreker met één echte casus, met een aantekenkaart |
 | 0:58 tot 1:10 | Vraaggesprek met door de groepen voorbereide vragen |
 | 1:10 tot 1:20 | Pauze |
-| 1:20 tot 1:53 | Minicollege veiligheid en alignment: begrippen en herkomst, misbruik, ongeluk en structuur (Surinaamse deepfakes), robuustheid, alignment en Goodhart (Facebook), specification gaming en reward hacking, de paperclipmaximalisator, RLHF (GPT-4o), wat helpt; werkblok: welk getal stuurt jullie oplossing? |
-| 1:53 tot 2:20 | Minicollege werk, autonomie en economie: begrippen en herkomst, taak, baan of sector, Surinaamse stemmen (callcenters, DSB, Finabank), de tweede kring, de cijfers (IMF, ILO, ILO en Wereldbank), augmentatie die delegatie wordt (Avianca, Horizon), menselijke controle, verantwoording, wie de winst vangt |
-| 2:20 tot 2:42 | Debat in Lagerhuisvorm over twee stellingen (stelling 1: een bank in Suriname en een AI-assistent); halverwege wisselen studenten van kant |
+| 1:20 tot 1:55 | Minicollege veiligheid en alignment: begrippen en herkomst, misbruik, ongeluk en structuur (Surinaamse deepfakes), robuustheid, alignment en Goodhart (Facebook), specification gaming en reward hacking, de paperclipmaximalisator, RLHF (GPT-4o), wat helpt, drie stellingen uit de les; werkblok: welk getal stuurt jullie oplossing? |
+| 1:55 tot 2:22 | Minicollege werk, autonomie en economie: begrippen en herkomst, taak, baan of sector, Surinaamse stemmen (callcenters, DSB, Finabank), de tweede kring, de cijfers (IMF, ILO, ILO en Wereldbank), augmentatie die delegatie wordt (Avianca, Horizon), menselijke controle, verantwoording, wie de winst vangt, twee stellingen en de slotvraag uit de les |
+| 2:22 tot 2:42 | Debat in Lagerhuisvorm over twee stellingen (stelling 1: een bank in Suriname en een AI-assistent); halverwege wisselen studenten van kant |
 | 2:42 tot 3:00 | Eigen casus: vijf onderzoeksvragen, eerste versie K2 en K3 in het werkboek, ruil met een andere groep, exit ticket |
 
 ## Blok 1, vervolg. Analyseren met bewijs (15 januari tot en met 4 februari)

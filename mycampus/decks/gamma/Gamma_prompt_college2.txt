@@ -23,8 +23,8 @@ De student maakt de volgende stap: van beoordelaar naar onderzoeker. "Een oordee
 Het leren van de student staat centraal. De gastspreker en de docent zijn bronnen, niet de hoofdrolspelers.
 
 WAT JE NIET MAG VERANDEREN
-- De zeven delen met hun tijden: terugblik 0:00–0:15, gastcollege 0:15–0:58, vraaggesprek 0:58–1:10, pauze 1:10–1:20, veiligheid en alignment 1:20–1:53, werk en economie 1:53–2:20, debat 2:20–2:42, eigen casus 2:42–3:00.
-- Alle werkvormen met hun tijden en "KLAAR ="-criteria. Daaronder valt het Lagerhuisdebat met het verloop kiezen 1, openen 2, debatteren 4, wisselen 2, afsluiten 1 minuut, en de drie spelregels.
+- De zeven delen met hun tijden: terugblik 0:00–0:15, gastcollege 0:15–0:58, vraaggesprek 0:58–1:10, pauze 1:10–1:20, veiligheid en alignment 1:20–1:55, werk en economie 1:55–2:22, debat 2:22–2:42, eigen casus 2:42–3:00.
+- Alle werkvormen met hun tijden en "KLAAR ="-criteria. Daaronder valt het Lagerhuisdebat met het verloop kiezen 1, openen 2, debatteren 3, wisselen 2, afsluiten 1 minuut, en de drie spelregels.
 - Alle feiten en cijfers:
   - practicum 1: 69,4% en 67,8%; 80/30 en 65/51;
   - deepfakes: nepvideo van NDP-leiders (maart 2025), aangifte van Ingrid Bouterse (april 2025), nep-geluidsfragment (mei 2025), video's met het gezicht en een AI-stem van president Simons (februari 2026); volgens het KPS strafbaar; Jamaica: nepvideo's die beleggers lokken;
@@ -37,7 +37,7 @@ WAT JE NIET MAG VERANDEREN
   - Suriname: Dagblad Suriname (24 juli 2025, 19 oktober 2026) over callcenters; DSB Buddy (jaarverslag 2025, online transacties van 9 naar ruim 17 miljoen); Finabank met Deloitte, "human in the loop" (Suriname Herald, 12 november 2026); toenmalig minister van Arbeid (januari 2025); president Simons (september en oktober 2026); UNESCO AI Readiness Assessment (start 27 augustus 2026);
   - privacy: geen meldplicht bij datalekken; de ontwerpwet Bescherming Privacy en Persoonsgegevens "ligt bij De Nationale Assemblée": voeg geen jaartal toe.
 - Alle data en namen van inleverpunten: ICT A-ET Exit ticket college 2, ICT A-ET Concept K2-K4 (zondag 24 januari, 23:59, optioneel maar sterk aanbevolen; feedforward op maandag 25 januari). Er is geen wekelijks rapportstuk en er zijn geen online sessies.
-- De twee stellingen letterlijk (stelling 1: "Een bank in Suriname mag het klantcontact volledig aan een AI-assistent overlaten, als klanten daardoor sneller geholpen worden."), de aantekenkaart met zes vragen, de vijf onderzoeksvragen, en de zes voorwaarden (informatie, tijd, kennis, bevoegdheid, cultuur, registratie).
+- De twee stellingen letterlijk (stelling 1: "Een bank in Suriname mag het klantcontact volledig aan een AI-assistent overlaten, als klanten daardoor sneller geholpen worden."), de aantekenkaart met zes vragen, de vijf onderzoeksvragen, de stellingen uit de les (drie bij veiligheid, twee bij werk, plus de slotvraag "wat voor samenleving bouwen we dan?"), en de zes voorwaarden (informatie, tijd, kennis, bevoegdheid, cultuur, registratie).
 - Placeholders tussen vierkante haken, zoals [naam gastspreker], [__], [risico 1], [Groep] en [tijd]: laat ze letterlijk staan.
 - Suribank is fictief. Laat de twee Suribank-afbeeldingen (de 2x2-kaart van macht en kwetsbaarheid en de procesplaat) en alle QR-codes staan (Suriname Herald deepfake, The Wall Street Journal, OpenAI CoastRunners en GPT-4o, IMF, ILO en Wereldbank, ABA Journal over Avianca, Suriname Herald over Finabank).
 - Verzin geen statistieken, citaten, namen, casussen, uitspraken van de gastspreker of wetsartikelen. Voeg je praktische kennis toe, dan alleen algemeen erkende kennis met de bron erbij (bijvoorbeeld NIST SP 1270, EU AI-verordening 2024/1689 art. 10, 14 en 27, UNESCO-aanbeveling 2021, ISO/IEC 42005). Zet bij elke toevoeging klein "[aanvulling – controleren]".

@@ -1301,6 +1301,12 @@ Denk aan je eigen stakeholderkaart: wie hebben jullie gehoord, en wie niet?
 - *"Een bank in Suriname mag het klantcontact volledig aan een AI-assistent overlaten, als klanten daardoor sneller geholpen worden."* (stelling 1 van het debat)
 - *"Organisaties in Suriname moeten wachten met AI voor beslissingen over mensen totdat er een privacywet is."*
 - *"Een AI-systeem dat zijn doel haalt, is een goed systeem."*
+- *"Het grootste ethische risico van AI is geen opstand van machines, maar onze stille afhankelijkheid."* (college 2)
+- *"Een AI-systeem dat niet kan zeggen dat het iets niet weet, hoort niet bij beslissingen over mensen."* (college 2)
+- *"Een chatbot moet de waarheid zeggen, ook als de gebruiker liever iets anders hoort."* (college 2)
+- *"Samenwerken met AI is alleen ethisch als macht, begrip en verantwoording bij elkaar horen."* (college 2)
+- *"Een bedrijf dat werk door AI laat doen, is ook verantwoordelijk voor de gevolgen voor de mensen en bedrijven eromheen."* (college 2)
+- De slotvraag van college 2: *als AI ongekende welvaart oplevert, maar die komt bij weinigen terecht, wat voor samenleving bouwen we dan?* Schrijf er 100 woorden over; je kunt het gebruiken in je reflectie bij Assessment 2.
 - *"Een organisatie mag een chatbot namens een medewerker laten antwoorden, zolang de klant geen verschil merkt."*
 - *"Een bank mag een model gebruiken dat nauwkeuriger is dan medewerkers, ook als het één groep vaker onterecht afwijst."*
 - *"Een organisatie mag een chatbot inzetten die soms een fout antwoord geeft, zolang ze dat vooraf meldt."* Gebruik de casus MyCity of Air Canada.
