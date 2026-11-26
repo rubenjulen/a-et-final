@@ -414,7 +414,7 @@ ws.conditional_formatting.add('D15', FormulaRule(formula=['C15<3'], font=Font(co
 # ---------------- Risk_Register ----------------
 ws = wb.create_sheet('Risk_Register')
 setup(ws, 'K6 AI Risk Register (blok 1, hoofdstuk 5; restrisico in blok 2, hoofdstuk 6)',
-      'Eerst bovenaan de regel EU-risicoklasse en rol. Daarna de risico\'s die jullie vinden, inherent gescoord; de 5 belangrijkste gaan het rapport in. Inherent betekent: de situatie zoals die nu is. Kans 1 tot 5 (zeldzaam, onwaarschijnlijk, mogelijk, waarschijnlijk, bijna zeker); impact 1 tot 5 (beperkt, matig, ernstig, zeer ernstig, kritiek) op vier dimensies. Het werkboek rekent de totale impact (de hoogste van de vier), de score, de band en de escalatie uit. De kolommen voor respons, restrisico en eigenaar vul je pas in week 6 in.', 29)
+      'Eerst bovenaan de regel EU-risicoklasse en rol. Daarna de risico\'s die jullie vinden, inherent gescoord; de 5 belangrijkste gaan het rapport in. Inherent betekent: de situatie zoals die nu is. Kans 1 tot 5 (zeldzaam, onwaarschijnlijk, mogelijk, waarschijnlijk, bijna zeker); impact 1 tot 5 (beperkt, matig, ernstig, zeer ernstig, kritiek) op vier dimensies. Het werkboek rekent de totale impact (de hoogste van de vier), de score, de band en de escalatie uit. De kolommen voor respons, restrisico en eigenaar vul je pas in blok 2 in.', 29)
 section(ws, 4, 'EU-risicoklasse en rol (AI-verordening, ter vergelijking: de verordening geldt niet in Suriname)', 8)
 for i, h in enumerate(['Veld', 'Wat je invult', 'Jullie antwoord', 'Voorbeeld Suribank', 'Voorbeeld orderagent'], 1):
     x = ws.cell(5, i, h); x.font = HFONT; x.fill = HF; x.border = B

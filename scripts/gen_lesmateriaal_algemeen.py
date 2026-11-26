@@ -103,72 +103,74 @@ def toestemming():
 
 
 # ---------------------------------------------------------------- peerfeedback
-WEEKS = [
-    ('Week 4', 'zo 31 jan → ma 1 feb', 'Concept K4 diep, K5, K6 en testverslag practicum 4',
-     ['Wat is het sterkste punt? Wijs één plek aan waar de redenering overtuigt, en zeg waarom.',
-      'Waar ontbreekt bewijs? Noem maximaal drie scores of beweringen zonder bron of met zwak bewijs.',
-      'Welke stap in de keten mist? Volg één dilemma: is er een risico dat eruit volgt, en hangt dat risico samen met een gap? Waar breekt de lijn?']),
-    ('Week 7', 'zo 21 feb → ma 22 feb', 'Concept K7 (deel 1 herzien en deel 2)',
-     ['Wat is het sterkste punt? Welk onderdeel van het ontwerp overtuigt, en waarom?',
-      'Waar ontbreekt bewijs? Welke maatregel heeft geen eigenaar, geen verificatie, of is niet uitvoerbaar?',
-      'Welke stap in de keten mist? Volg één risico van de top 5: is er een eis, een maatregel, een eigenaar in de RACI, en komt het terug in de menselijke controle of de transparantieverklaring?']),
-    ('Week 9', 'zo 7 mrt → ma 8 mrt', 'Concept eindrapport (hertest, K8, beslismemo)',
-     ['Wat is het sterkste punt? Welk deel van het advies overtuigt het meest?',
-      'Waar ontbreekt bewijs? Welke voorwaarde, indicator of restrisico hangt in de lucht?',
-      'Welke stap in de keten mist? Volg één risico van begin tot eind, tot en met het beslismemo. Waar breekt de lijn?']),
+# Eén ronde in blok 3: concept eindrapport (zo 7 maart) -> feedback terug (di 9 maart). Gelijk aan kennispakket 3.
+QUESTIONS = [
+    ('Wat is het sterkste punt?', 'Welk deel van het advies overtuigt het meest, en waarom?'),
+    ('Waar ontbreekt bewijs?', 'Welke voorwaarde, indicator of welk restrisico hangt in de lucht? Noem de vindplaats.'),
+    ('Welke stap in de keten mist?', 'Volg één risico: dilemma of gap, risico, eis, maatregel met eigenaar, test of hertest, indicator, restrisico, terug in het memo. Waar breekt de lijn?'),
 ]
-CHAIN = ['Bewijs', 'Gap', 'Dilemma', 'Risico', 'Eis', 'Maatregel met eigenaar', 'Monitoring', 'Oordeel']
+CHECKS = [
+    'Beslismemo: één pagina, oordeel in de eerste zin',
+    'Beslismemo: voorwaarden met eigenaar, datum en gevolg',
+    'Beslismemo: baten en restrisico benoemd, met wie het accepteert',
+    'Beslismemo: stopcriterium en datum van de volgende review',
+    'H6: per risico uit de top 5 een eis, maatregelen met eigenaar, en een restrisico',
+    'Bijlage F: bewijs dat minstens twee maatregelen zijn ingebouwd via A-AI2',
+    'Als er een hertest is: eerste test en hertest naast elkaar, met per maatregel de conclusie',
+    'H8: drie fasen, met eigenaar en middelen per maatregel',
+    'H8: vijf tot acht ethische signalen, met grens, actie en wie besluit',
+    'H8: minstens één vroeg signaal en één indicator die tot stilzetten kan leiden',
+    'H8: incidentroute en stopcriterium, concreet voor deze oplossing',
+    'Het oordeel in het memo volgt uit H6, H8 en het bewijs',
+    "Maximaal 12 pagina's, verwerkingslijst aanwezig (bijlage E)",
+]
 
 
 def peerfeedback():
-    doc = new_doc('ICT A-ET Peerfeedback · AI & Ethics (A-ET) · peercheck week 4, 7 en 9')
-    title(doc, 'Peerfeedback', 'AI & Ethics (A-ET) · peercheck in week 4, 7 en 9 · hoogstens één pagina terug')
+    doc = new_doc('ICT A-ET Peerfeedback · AI & Ethics (A-ET) · blok 3, concept eindrapport')
+    title(doc, 'Peerfeedback', 'AI & Ethics (A-ET) · blok 3 · concept eindrapport · terug vóór dinsdag 9 maart, 23:59')
 
     t = doc.add_table(rows=2, cols=4); borders(t); fixwidths(t, [3.6, 4.9, 3.6, 4.9])
     for r, ((a, av), (b, bv)) in enumerate([(('Feedback van groep', '[groep]'), ('Aan groep', '[groep]')),
-                                            (('Week', '☐ 4   ☐ 7   ☐ 9'), ('Datum', '[datum]'))]):
+                                            (('Concept ontvangen', '[datum]'), ('Teruggestuurd', '[datum]'))]):
         cs = t.rows[r].cells
         celltext(cs[0], a, 9, True, color=INK); shade(cs[0], SAND); celltext(cs[1], av, 9, hint=av.startswith('['))
         celltext(cs[2], b, 9, True, color=INK); shade(cs[2], SAND); celltext(cs[3], bv, 9, hint=bv.startswith('['))
 
     p = para(doc, '', 8.5, space_after=4); p.paragraph_format.space_before = Pt(6)
-    run(p, 'Zo geef je goede feedback: ', 8.5, True, color=INK)
-    run(p, 'wees specifiek en noem de vindplaats ("bij 7.2 staat score 3, maar de enige bron is een interview"); '
-           'schrijf over het werk, niet over de mensen; scheid wat je ziet van wat je vindt; kies wat het belangrijkst is.', 8.5)
+    run(p, 'Zo geef je bruikbare feedback: ', 8.5, True, color=INK)
+    run(p, 'wees concreet en noem de vindplaats ("indicator 3 in H8 heeft geen grens"); zeg wat je mist en doe een voorstel; '
+           'begin bij wat het zwaarst weegt (het oordeel en de keten gaan voor taal en vorm); je geeft geen cijfer. '
+           'Stuur het formulier via [kanaal] terug, met de docent in de cc.', 8.5)
 
-    p = para(doc, '', 8.5, space_after=2)
-    run(p, 'Per week extra: ', 8.5, True, color=INK)
-    run(p, 'vul ook de checklist van die week in (zie de weekmodule). Week 7: lees de transparantieverklaring als getroffene en '
-           'zeg in twee zinnen of je weet wat er gebeurt en wat je kunt doen. Week 9: lees eerst alleen het beslismemo en schrijf op '
-           'wat het oordeel is, wat er moet gebeuren, door wie en wanneer. De groep die feedback krijgt, schrijft in het logboek in '
-           'twee zinnen wat ze ermee deed.', 8.5)
-    h(doc, 'De drie vaste vragen')
-    qt = doc.add_table(rows=1, cols=3); borders(qt); fixwidths(qt, [1.6, 9.6, 5.8])
-    for i, x in enumerate(['Week', 'De vraag', 'Jullie antwoord']):
+    h(doc, 'Stap 1. Lees eerst alleen het beslismemo (5 minuten)')
+    para(doc, 'Ieder voor zich, zonder het rapport te lezen. Wat is het oordeel, wat moet er gebeuren, door wie, en wanneer? '
+              'Lezen jullie allemaal hetzelfde? Lukt het niet, dan is dat jullie eerste feedbackpunt.', 8.5, space_after=4)
+    box(doc, 'Het oordeel zoals wij het lazen, en wat er moet gebeuren, door wie en wanneer:', 1.4)
+
+    h(doc, 'Stap 2. De drie vragen')
+    qt = doc.add_table(rows=1, cols=2); borders(qt); fixwidths(qt, [6.0, 11.0])
+    for i, x in enumerate(['De vraag', 'Jullie antwoord']):
         celltext(qt.rows[0].cells[i], x, 9, True, color=INK); shade(qt.rows[0].cells[i], SAND)
     trPr = qt.rows[0]._tr.get_or_add_trPr(); th = OxmlElement('w:tblHeader'); th.set(qn('w:val'), 'true'); trPr.append(th)
-    for n in range(3):
+    for n, (q, uitleg) in enumerate(QUESTIONS, 1):
         row = qt.add_row().cells
-        celltext(row[0], f'Vraag {n + 1}', 9, True, color=INK); shade(row[0], LIGHT)
-        cell = row[1]; cell.text = ''
-        for i, (wk, _, _, qs) in enumerate(WEEKS):
-            p = cell.paragraphs[0] if i == 0 else cell.add_paragraph()
-            p.paragraph_format.space_after = Pt(1)
-            run(p, wk + ': ', 7.5, True, color=INK); run(p, qs[n], 7.5)
-        celltext(row[2], '', 9)
-        minheight(qt.rows[-1], 1.5)
+        cell = row[0]; cell.text = ''; p = cell.paragraphs[0]
+        run(p, f'{n}. {q} ', 8.5, True, color=INK); run(p, uitleg, 8)
+        shade(row[0], LIGHT); celltext(row[1], '', 9)
+        minheight(qt.rows[-1], 1.6)
 
-    h(doc, 'Redeneerketen-check')
-    para(doc, 'Kies één belangrijk risico van de andere groep en volg het door de acht schakels. Gekozen risico: ______________________', 9, space_after=4)
-    ct = doc.add_table(rows=1 + len(CHAIN), cols=3); borders(ct); fixwidths(ct, [4.4, 2.6, 10.0])
-    for i, x in enumerate(['Schakel', '✓ of breuk', 'Waar in het rapport, of wat ontbreekt']):
-        celltext(ct.rows[0].cells[i], x, 9, True, color=INK); shade(ct.rows[0].cells[i], SAND)
-    for r, s in enumerate(CHAIN, 1):
-        celltext(ct.rows[r].cells[0], s, 9, True, color=INK); shade(ct.rows[r].cells[0], LIGHT)
-        celltext(ct.rows[r].cells[1], '☐ ✓   ☐ breuk', 8.5); celltext(ct.rows[r].cells[2], '', 9)
+    h(doc, 'Stap 3. De checklist')
+    ck = doc.add_table(rows=1 + len(CHECKS), cols=2); borders(ck); fixwidths(ck, [13.0, 4.0])
+    for i, x in enumerate(['Controle', 'Ja / nee / deels']):
+        celltext(ck.rows[0].cells[i], x, 9, True, color=INK); shade(ck.rows[0].cells[i], SAND)
+    for r, c in enumerate(CHECKS, 1):
+        celltext(ck.rows[r].cells[0], c, 8.5); celltext(ck.rows[r].cells[1], '☐ ja  ☐ nee  ☐ deels', 8)
 
     h(doc, 'Het belangrijkste dat jullie moeten aanpassen')
     box(doc, 'Eén of twee zinnen: wat moet de andere groep als eerste verbeteren, en waarom?', 1.5)
+    para(doc, 'De groep die de feedback krijgt, zet elk punt in de verwerkingslijst (bijlage E), met als bron "Peergroep (9 maart)" en een besluit.',
+         8, italic=True, color=GREY, space_after=0)
 
     path = os.path.join(OUT, 'ICT A-ET Peerfeedback.docx')
     doc.save(path); return path

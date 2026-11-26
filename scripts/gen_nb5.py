@@ -1,5 +1,5 @@
 import json, shutil, os
-S='/tmp/claude-0/-home-user-menssana/175e1d50-6875-5f56-acf6-23260f0c6b9a/scratchpad/'
+S=''  # draaien vanuit een map met een link out -> lesmateriaal
 OUT=S+'out/week9/practicum5/'
 def build(cells_spec, path):
     cells=[]
@@ -55,7 +55,7 @@ cells = [
 ("markdown", """
 # Practicum 5 (optioneel): het model een jaar later
 
-AI & Ethics (A-ET), week 9. Dit notebook doet dezelfde stappen als de Orange-versie in de weekmodule. De tabellen en de vragen zijn hetzelfde.
+AI & Ethics (A-ET), blok 3. Dit notebook doet dezelfde stappen als de Orange-versie in kennispakket 3. De tabellen en de vragen zijn hetzelfde.
 
 **Ethische vraag:** wie merkt het als het model ongemerkt slechter wordt?
 
@@ -72,7 +72,7 @@ Zet deze drie bestanden in dezelfde map als dit notebook:
 
 | Bestand | Wat het is |
 | --- | --- |
-| `suribank_kredietaanvragen.csv` | De 1.200 aanvragen waarop het model is getraind (uit week 0) |
+| `suribank_kredietaanvragen.csv` | De 1.200 aanvragen waarop het model is getraind (uit practicum 1) |
 | `suribank_2025_controle.csv` | 1.000 andere aanvragen uit dezelfde periode als de trainingsdata; het model heeft ze nooit gezien |
 | `suribank_2027.csv` | 1.000 aanvragen uit de periode na de invoering |
 """),

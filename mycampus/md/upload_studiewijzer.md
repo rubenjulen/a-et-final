@@ -30,7 +30,7 @@ Practica staan als zip op MyCampus; binnen de zip houden de bestanden hun oorspr
 
 De bronbestanden in de scratchpad hebben nog hun werknaam; `mycampus/tools/build_package.sh` zet ze onder de MyCampus-naam in het pakket.
 
-**Niet uploaden (docentversie):** Lesplan_AI_en_Ethics_A-ET_2026-2027.docx/.pdf (bevat §12 vragen aan Janssen), Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx (beoordelaarstool), Kruistabel_certificeringen_A-ET.pdf, feedbackformulieren in out/feedback/, docent_weekcheck_wXX.md (bron voor de kennischecks).
+**Niet uploaden (docentversie):** Lesplan_AI_en_Ethics_A-ET_2026-2027.docx/.pdf (bevat §12 vragen aan Janssen), Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx (beoordelaarstool), Kruistabel_certificeringen_A-ET.pdf, feedbackformulieren in out/feedback/, de antwoorden en het invoerbestand van de beginquiz en kennischecks (docentmap).
 
 **Let op**
 
@@ -40,9 +40,9 @@ De bronbestanden in de scratchpad hebben nog hun werknaam; `mycampus/tools/build
 
 ## Opnamekits (docent, niet uploaden)
 
-In `99_Docent_niet_uploaden/Opnamekits/` staan de opnamekits als pdf met sprekersnotities na elke dia:
-Opnamekit_Week00_clip1.pdf, Opnamekit_Week04_clips_11-13.pdf, Opnamekit_Week05_clip_14.pdf, Opnamekit_Week06_clips_15-17.pdf, Opnamekit_Week07_clips_18-20.pdf, Opnamekit_Week09_clips_21-22.pdf.
-**Let op (herontwerp 22 november):** welke clips 11–22 nog worden opgenomen, wordt per kennispakket bepaald. Om op te nemen in PowerPoint: open het deck op claude.ai, exporteer via Share › Export naar pptx, en neem per clip op (Opnemen › Vanaf huidige dia; Exporteren › Video maken, 1080p). De mp4 komt daarna bij de week op MyCampus.
+In `99_Docent_niet_uploaden/Opnamekits/` staan de opnamekits als pdf met sprekersnotities na elke dia, per blok:
+Opnamekit Blok 0 clip 1, Opnamekit Blok 1 clips 11-13, Opnamekit Blok 1 clip 14, Opnamekit Blok 2 clips 15-17, Opnamekit Blok 2 clips 18-20, Opnamekit Blok 3 clips 21-22.
+**Let op:** de scripts in de opnamekits zijn gemaakt voor de oude weekindeling en noemen hier en daar nog een week of online sessie. Lees ze vóór het opnemen na en vervang die verwijzingen door het blok of college. Om op te nemen in PowerPoint: open het deck op claude.ai, exporteer via Share › Export naar pptx, en neem per clip op (Opnemen › Vanaf huidige dia; Exporteren › Video maken, 1080p). De mp4 komt daarna bij het blok op MyCampus.
 
 
 ## Naslag en hulpmiddelen (map 00_Algemeen/Naslag, onder Lesmateriaal)

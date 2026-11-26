@@ -5,7 +5,7 @@ def code(s): cells.append({"cell_type":"code","metadata":{},"execution_count":No
 md("""
 # Practicum 4: gepaarde test, grensgevallen en uitlegtest (Suribank)
 
-AI & Ethics (A-ET), week 4. Dit notebook doet hetzelfde als de Orange-workflow `practicum4_suribank.ows`.
+AI & Ethics (A-ET), practicum 4. Dit notebook doet hetzelfde als de Orange-workflow `practicum4_suribank.ows`.
 
 Je hebt drie bestanden nodig, in dezelfde map als dit notebook:
 - `suribank_versie_A.csv` (de leerdata uit practicum 2)
@@ -141,7 +141,7 @@ afgewezen[[ID] + kenmerken + ["kans"]]
 md("""
 ## Stap 5. Opslaan voor het testlogboek
 
-Dit schrijft `practicum4_uitkomst.csv` met per rij `aanvraag_id` en de kans op ja per model. Plak die kolommen in het tabblad **B_import** van het testlogboek. Bewaar het bestand: in week 9 doen jullie dezelfde test opnieuw.
+Dit schrijft `practicum4_uitkomst.csv` met per rij `aanvraag_id` en de kans op ja per model. Plak die kolommen in het tabblad **B_import** van het testlogboek. Bewaar het bestand: bij een hertest (optioneel) doen jullie dezelfde test opnieuw.
 """)
 code("""
 uitkomst[[ID] + list(modellen)].to_csv("practicum4_uitkomst.csv", index=False)

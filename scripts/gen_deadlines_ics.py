@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Maakt 'ICT A-ET Deadlines.ics': alle deadlines en contactmomenten van A-ET 2026-2027.
-Bron: de deadlinetabel in de studiewijzer en de planningstabellen in de studentversies (mycampus/md).
+Bron: de deadlinetabel in de studiewijzer en de deadlinetabellen in de kennispakketten (mycampus/md).
 Tijden in Surinaamse tijd (America/Paramaribo, UTC-3, geen zomertijd)."""
 import datetime as dt, os, hashlib
 

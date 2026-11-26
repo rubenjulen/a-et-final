@@ -47,7 +47,7 @@ p1 = [
 ("markdown", """
 # Practicum 1: opfrisser, een model trainen en de fouten lezen
 
-AI & Ethics (A-ET), week 0. Dit notebook doet dezelfde stappen als de Orange-versie in de weekmodule. De vragen en de evidence card zijn hetzelfde.
+AI & Ethics (A-ET), blok 0. Dit notebook doet dezelfde stappen als de Orange-versie in kennispakket 0. De vragen en de evidence card zijn hetzelfde.
 
 Je hebt `suribank_kredietaanvragen.csv` nodig, in dezelfde map als dit notebook.
 
@@ -113,7 +113,7 @@ t["kans op ja"] = kans_ja(lr, t, kenmerken).round(3)
 twijfel = t.iloc[(t["kans op ja"] - 0.5).abs().argsort()[:8]]
 twijfel[[ID, "regio", "dienstverband", "maandinkomen_srd", "gevraagd_bedrag_srd", "looptijd_maanden", "kans op ja", DOEL]]
 '''),
-("markdown", "## Extra bij vraag 6. District en regio weglaten\n\nWat gebeurt er als het model district en regio niet meer krijgt? Kijk naar de CA, en denk aan je antwoord op vraag 1. In practicum 2 (week 3) meet je de fouten per regio."),
+("markdown", "## Extra bij vraag 6. District en regio weglaten\n\nWat gebeurt er als het model district en regio niet meer krijgt? Kijk naar de CA, en denk aan je antwoord op vraag 1. In practicum 2 (blok 1) meet je de fouten per regio."),
 ("code", '''
 zonder = [k for k in kenmerken if k not in ("district", "regio")]
 lr2 = logistische_regressie(zonder, data).fit(leer[zonder], leer[DOEL])
@@ -133,7 +133,7 @@ pd.DataFrame(uitkomsten).groupby("model")["CA"].agg(["mean", "min", "max"]).roun
 ("markdown", """
 ## Stap 8. Opslaan en vragen
 
-Sla het notebook op. Beantwoord de zeven vragen uit de weekmodule en vul evidence card 1 in. Lever een schermafdruk van je notebook in.
+Sla het notebook op. Beantwoord de zeven vragen uit kennispakket 0 en vul evidence card 1 in. Lever een schermafdruk van je notebook in.
 
 1. Welk deel van de aanvragers betaalde terug aan de kust, en welk deel in het binnenland? Hoe verschilt het soort werk tussen de twee regio's?
 2. Welk deel van de testaanvragen voorspelt elk model goed (CA)? Hoeveel procentpunt zijn Tree en Logistic Regression beter dan Constant?
@@ -150,7 +150,7 @@ p23 = [
 ("markdown", """
 # Practicum 2 en 3: fouten per groep en uitlegbaarheid
 
-AI & Ethics (A-ET), week 3. Dit notebook doet dezelfde stappen als de Orange-versie in de weekmodule. Deel 1 is practicum 2 (het bias-experiment), deel 2 is practicum 3 (uitlegbaarheid).
+AI & Ethics (A-ET), blok 1. Dit notebook doet dezelfde stappen als de Orange-versie in kennispakket 1. Deel 1 is practicum 2 (het bias-experiment), deel 2 is practicum 3 (uitlegbaarheid).
 
 Je hebt drie bestanden nodig, in dezelfde map als dit notebook: `suribank_versie_A.csv`, `suribank_versie_B.csv` en `suribank_testset.csv`.
 

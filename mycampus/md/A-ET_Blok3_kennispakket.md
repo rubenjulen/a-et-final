@@ -602,7 +602,7 @@ In blok 3 zijn er twee practica. Beide zijn optioneel. Ze kosten elk ongeveer ee
 
 In practicum 4 testten jullie de oplossing. Sindsdien hebben jullie via A-AI2 maatregelen ingebouwd. In de hertest doen jullie precies dezelfde test opnieuw. Zo laten jullie zien of de maatregelen werken, en niet alleen dat ze er zijn.
 
-**Duur:** ongeveer een uur per student, in de groep. Klaar liefst vóór woensdag 3 maart, zodat de uitkomst nog mee kan in H6, H8 en het memo. **Waar:** in het testlogboek van practicum 4 (practicum4\_testlogboek.xlsx). Daar is al plek voor de hertest. In het testlogboek heten de twee momenten nog "week 4" (de eerste test) en "week 9" (de hertest); dat zijn alleen labels. Vul daarnaast het tabblad Hertest in het werkboek in.
+**Duur:** ongeveer een uur per student, in de groep. Klaar liefst vóór woensdag 3 maart, zodat de uitkomst nog mee kan in H6, H8 en het memo. **Waar:** in het testlogboek van practicum 4 (practicum4\_testlogboek.xlsx). Daar is al plek voor de hertest. In het testlogboek heten de twee momenten "test" en "hertest". Vul daarnaast het tabblad Hertest in het werkboek in.
 
 **Deden jullie practicum 4 niet?** Dan is er niets om mee te vergelijken. Een hertest kan dan niet. Laat in bijlage F zien wat jullie inbouwden, en leg in H8 vast hoe het effect wordt gemeten.
 

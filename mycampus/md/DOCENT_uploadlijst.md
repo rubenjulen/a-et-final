@@ -1,6 +1,6 @@
-Wat er per week op MyCampus komt, welke bestanden erbij horen en wat nog ontbreekt. Dit bestand is voor de docent.
+Wat er per blok op MyCampus komt, welke bestanden erbij horen en wat nog ontbreekt. Dit bestand is voor de docent.
 
-## Algemeen (buiten de weken)
+## Algemeen (buiten de blokken)
 ### Naamgeving op MyCampus
 
 Conventie uit de handleiding van Janssen: **Studierichting Vakcode Naam**, zonder versienummers of extra toevoegingen. Voor A-ET is het voorvoegsel **ICT A-ET**.
@@ -33,7 +33,7 @@ Practica staan als zip op MyCampus; binnen de zip houden de bestanden hun oorspr
 
 De bronbestanden in de scratchpad hebben nog hun werknaam; `mycampus/tools/build_package.sh` zet ze onder de MyCampus-naam in het pakket.
 
-**Niet uploaden (docentversie):** Lesplan_AI_en_Ethics_A-ET_2026-2027.docx/.pdf (bevat §12 vragen aan Janssen), Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx (beoordelaarstool), Kruistabel_certificeringen_A-ET.pdf, feedbackformulieren in out/feedback/, docent_weekcheck_wXX.md (bron voor de kennischecks).
+**Niet uploaden (docentversie):** Lesplan_AI_en_Ethics_A-ET_2026-2027.docx/.pdf (bevat §12 vragen aan Janssen), Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx (beoordelaarstool), Kruistabel_certificeringen_A-ET.pdf, feedbackformulieren in out/feedback/, de antwoorden en het invoerbestand van de beginquiz en kennischecks (docentmap).
 
 **Let op**
 
@@ -43,9 +43,9 @@ De bronbestanden in de scratchpad hebben nog hun werknaam; `mycampus/tools/build
 
 ### Opnamekits (docent, niet uploaden)
 
-In `99_Docent_niet_uploaden/Opnamekits/` staan de opnamekits als pdf met sprekersnotities na elke dia:
-Opnamekit_Week00_clip1.pdf, Opnamekit_Week04_clips_11-13.pdf, Opnamekit_Week05_clip_14.pdf, Opnamekit_Week06_clips_15-17.pdf, Opnamekit_Week07_clips_18-20.pdf, Opnamekit_Week09_clips_21-22.pdf.
-**Let op (herontwerp 22 november):** welke clips 11–22 nog worden opgenomen, wordt per kennispakket bepaald. Om op te nemen in PowerPoint: open het deck op claude.ai, exporteer via Share › Export naar pptx, en neem per clip op (Opnemen › Vanaf huidige dia; Exporteren › Video maken, 1080p). De mp4 komt daarna bij de week op MyCampus.
+In `99_Docent_niet_uploaden/Opnamekits/` staan de opnamekits als pdf met sprekersnotities na elke dia, per blok:
+Opnamekit Blok 0 clip 1, Opnamekit Blok 1 clips 11-13, Opnamekit Blok 1 clip 14, Opnamekit Blok 2 clips 15-17, Opnamekit Blok 2 clips 18-20, Opnamekit Blok 3 clips 21-22.
+**Let op:** de scripts in de opnamekits zijn gemaakt voor de oude weekindeling en noemen hier en daar nog een week of online sessie. Lees ze vóór het opnemen na en vervang die verwijzingen door het blok of college. Om op te nemen in PowerPoint: open het deck op claude.ai, exporteer via Share › Export naar pptx, en neem per clip op (Opnemen › Vanaf huidige dia; Exporteren › Video maken, 1080p). De mp4 komt daarna bij het blok op MyCampus.
 
 
 ### Naslag en hulpmiddelen (map 00_Algemeen/Naslag, onder Lesmateriaal)
@@ -62,329 +62,100 @@ Opnamekit_Week00_clip1.pdf, Opnamekit_Week04_clips_11-13.pdf, Opnamekit_Week05_c
 | ICT A-ET Voorbeeld feedback.pdf | Lesmateriaal, onder Toetsing | Vanaf de start |
 | ICT A-ET Deadlines.ics | Lesmateriaal, bovenaan | Vanaf de start; opnieuw uploaden als een datum verandert |
 
-## Week 0
+## Blok 0 · Voorbereiden (opent maandag 14 december; alles af vóór woensdag 6 januari 23:59)
 
-### Week 0 · Online opfrisser (opent maandag 14 december)
+Map in het pakket: `Blok0_Voorbereiden`.
 
-| Bestand | Bron | Waar op MyCampus | Status |
-| --- | --- | --- | --- |
-| ICT A-ET Week 0.pdf | scratchpad/mycampus/pdf/ | Weekmodule 0, bovenaan | Klaar |
-| Welkomstbericht en moduletekst | in de pdf (sectie Welkom en Deze week) | Tekstblok weekmodule 0; welkomstbericht ook per e-mail | Klaar |
-| Kennisclip 1. Van deel 1 naar AI & Ethics | door de docent zelf op te nemen | Weekmodule 0 | Ontbreekt: nog opnemen |
-| ICT A-ET Kennisclip 2.mp4 | scratchpad/out/week0/ | Weekmodule 0 | Klaar |
-| ICT A-ET Kennisclip 3.mp4 | scratchpad/out/week0/ | Weekmodule 0 | Klaar |
-| Kennisclip 4. Wat is anders bij generatieve AI? | Remotion, nog in te spreken | Weekmodule 0 | Ontbreekt: wacht op stemtegoed |
-| ICT A-ET Practicum 1.zip › practicum1.ipynb | scratchpad/out/week0/practicum1/ | Weekmodule 0, bij practicum 1 | Klaar |
-| ICT A-ET Practicum 1.zip › suribank_kredietaanvragen.csv | scratchpad/out/week0/practicum1/ | Weekmodule 0, bij practicum 1 | Klaar |
-| Intakeformulier (14 vragen) | vragen in de pdf | Formulier in MyCampus aanmaken | Handmatig invoeren |
-| Beginquiz (12 vragen) | vragen in de pdf; antwoorden in docent_weekcheck_w00.md | Quiz in MyCampus aanmaken (geen import) | Handmatig invoeren |
-| Inleverpunten: practicum 1 + evidence card 1 (individueel), beschrijving eigen oplossing (groep) | — | Inleverpunt in MyCampus, deadline woensdag 6 januari 23:59 | Aanmaken |
-| Link inloopmoment dinsdag 5 januari 19:00–20:00 | — | Weekmodule 0 | Aanmaken |
-
-Tussenvragen in clip 2 en 3 zijn al in de video's verwerkt (pauze met aftelbalk). Antwoorden op alle tussenvragen: docent_weekcheck_w00.md.
-
-## Week 1
-
-### Week 1 · Wat staat er op het spel? (college 1 donderdag 7 januari; module online vrijdag 8 januari)
-
-| Bestand | Bron | Waar op MyCampus | Status |
-| --- | --- | --- | --- |
-| ICT A-ET Week 1.pdf | scratchpad/mycampus/pdf/ | Weekmodule 1, bovenaan | Klaar |
-| Kennisclip 5. Wie beslist er eigenlijk? | animatie/ (gebouwd, stem nog in te spreken) | Weekmodule 1 | Ontbreekt: ElevenLabs-run; tot dan verwijst de studentversie naar de meeleestekst |
-| Kaderclip A. Het kaderlandschap | animatie/kaders/A (gebouwd, stem nog in te spreken) | Weekmodule 1 | Ontbreekt: ElevenLabs-run; meeleestekst in de studentversie is gelijk aan het script |
-| ICT A-ET K1 Canvas.docx | scratchpad/out/instrumenten/ | Weekmodule 1, bij K1 | Klaar |
-| ICT A-ET Werkboek instrumenten.xlsx | scratchpad/out/instrumenten/ | Algemeen (moduleniveau) of week 1; gebruikt t/m week 9 | Klaar |
-| ICT A-ET AI-verklaring.docx | scratchpad/out/instrumenten/ | Algemeen (bij elke inlevering) | Klaar |
-| ICT A-ET Voorbeeldrapport.pdf | scratchpad/out/ | Algemeen of week 1 (lesplan: studenten krijgen in week 1 het voorbeeldrapport) | Klaar |
-| ICT A-ET Beoordelingsrubric.pdf | scratchpad/mycampus/pdf/ (gemaakt door een andere fork) | Algemeen of week 1 (lesplan: studenten krijgen in week 1 de rubric) | Controleren of de pdf er is |
-| Kernbron UNESCO-aanbeveling (2021), hoofdstuk III | https://unesdoc.unesco.org/ark:/48223/pf0000381137 | Weekmodule 1 | Klaar (link staat in de studentversie) |
-| Weekcheck week 1 (5 vragen, logboekregel, standpunt) | vragen in de pdf; antwoorden in docent_weekcheck_w01.md | Quiz + open vraag in MyCampus | Handmatig invoeren |
-| Inleverpunten: **ICT A-ET K1** (groep, zondag 10 januari 23:59); **ICT A-ET Weekcheck 1** (individueel, zondag 10 januari 23:59; uitzondering, vanaf week 2 woensdag); **ICT A-ET Voorbereiding college 2** (groep, dinsdag 12 januari 23:59); **ICT A-ET Exit ticket college 1** (individueel, open tijdens het college) | — | Assignments in MyCampus | Aanmaken |
-| ICT A-ET College 1 | Slides-artefact (https://claude.ai/artifact/Cj8Y7ELraHmro3d9X9Ypgc), 36 dia's in Janssen-huisstijl; bron mycampus/decks/gen_c1.py | Na het college als pdf, zonder de dia's "docent-voorbereiding" | Export nog te maken |
-| Praktijkvoorbeelden BIBIS en Rotterdam | links in de studentversie | Weekmodule 1 | Klaar; links vlak voor 7 januari testen |
-
-
-### Dia's van het contactmoment
-
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 1.pdf | ICT A-ET College 1 (35 dia's, zonder docentvoorbereiding): na afloop delen bij week 1 | mycampus/pdf/ (gemaakt uit het dia-deck) |
-
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
-
-### Nog in te vullen door de docent (week 1)
-
-- Tijd en lokaal van college 1 (studentversie, deck: cover, .ics).
-- Achternaam op de cover van het deck.
-- Gastspreker 14 januari: naam, functie, organisatie, onderwerp en leestip (studentversie, sectie Voorbereiding college 2; deck "deze-week").
-- Kanaal en reactietermijn voor vragen (studentversie, sectie Vastgelopen?; deck "deze-week").
-- Op de dag zelf: beginquiz-percentages (dia "quiz"), pauzetijd, telling van de stemming.
-
-## Week 2
-
-### Week 2 · Data-ethiek, bias, privacy en verantwoording (module opent maandag 11 januari; college 2 donderdag 14 januari)
-
-| Bestand | Bron | Waar op MyCampus | Status |
-| --- | --- | --- | --- |
-| ICT A-ET Week 2.pdf | scratchpad/mycampus/pdf/ | Weekmodule 2, bovenaan | Klaar |
-| Kennisclip 6. Waar komt bias vandaan? | animatie/ (gebouwd, stem nog in te spreken) | Weekmodule 2 | Ontbreekt: ElevenLabs-run; tot dan meeleestekst |
-| Kennisclip 7. Privacy als ethische vraag | animatie/ (gebouwd; jaartal "sinds 2020" geschrapt, niet bevestigd) | Weekmodule 2 | Ontbreekt: ElevenLabs-run |
-| Kennisclip 8. Automation bias | animatie/ (gebouwd, stem nog in te spreken) | Weekmodule 2 | Ontbreekt: ElevenLabs-run |
-| ICT A-ET Werkboek instrumenten.xlsx (tabbladen K2_Stakeholders, K3_Proces_Data, Bewijsplan) | scratchpad/out/instrumenten/ | Verwijzing in weekmodule 2 | Klaar |
-| ICT A-ET Casusdossier Suribank.pdf (voor groepen die vastlopen) | 00_Algemeen | Algemeen | Klaar |
-| Kernbron Gender Shades (PMLR 81, TED-talk) + UNESCO III.2 | links staan in de studentversie | Weekmodule 2 | Klaar; links vlak voor 11 januari testen |
-| ICT A-ET Weekcheck 2 (5 vragen, logboekregel, standpunt) | vragen in de pdf; antwoorden in docent_weekcheck_w02.md | Quiz + open vraag in MyCampus, sluit woensdag 13 januari 23:59 | Handmatig invoeren |
-| Inleverpunten: **ICT A-ET Exit ticket college 2** (individueel, tijdens het college); **ICT A-ET Rapportstuk week 2** (groep, zondag 17 januari 23:59: één pdf met K2, K3, bewijsplan en AI-verklaring, plus het werkboek) | — | Assignments in MyCampus | Aanmaken |
-| ICT A-ET College 2 | Slides-artefact (https://claude.ai/artifact/WrRe73cGoTqCdhuhB25gNS), 27 dia's in Janssen-huisstijl; bron mycampus/decks/gen_c2.py | Na het college als pdf (zonder docentdia) | Pdf klaar, met placeholders |
-
-
-### Dia's van het contactmoment
-
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 2.pdf | ICT A-ET College 2 (26 dia's, zonder docentvoorbereiding): na afloop delen bij week 2 | mycampus/pdf/ (gemaakt uit het dia-deck) |
-
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
-
-### Nog in te vullen door de docent (week 2)
-
-- Gastspreker: naam, functie, organisatie, onderwerp, leestip (studentversie week 1 en 2; deck: cover, welkom).
-- Tijd en lokaal van college 2 (studentversie, deck: cover).
-- Kanaal en reactietermijn (studentversie, sectie Vastgelopen?).
-- Vooraf in het deck: aantallen practicum 1 (fout-erger), top 3 exit tickets college 1, volgorde van de groepen (vragen), stelling 2 uit de inzendingen.
-
-## Week 3
-
-### Week 3 (online sessie do 21 januari)
-
-| Bestand | Waar op MyCampus | Status |
+| Bestand of onderdeel | Waar op MyCampus | Status |
 | --- | --- | --- |
-| ICT A-ET Week 3.pdf | Weekmodule 3, bovenaan | Klaar |
-| ICT A-ET Practicum 2 en 3.zip › suribank_versie_A.csv | Weekmodule 3, practicum 2 en 3 | Klaar |
-| ICT A-ET Practicum 2 en 3.zip › suribank_versie_B.csv | Idem | Klaar |
-| ICT A-ET Practicum 2 en 3.zip › suribank_testset.csv | Idem | Klaar |
-| ICT A-ET Practicum 2 en 3.zip › practicum2_3.ipynb | Idem (Python-route) | Klaar |
-| ICT A-ET Werkboek instrumenten.xlsx | Al in week 1/2 geplaatst; tabblad K4_Scan | Klaar |
-| Video clip 9, clip 10, kaderclip B | Weekmodule 3, kennisclips | Ontbreekt: gebouwd in animatie/ (clip9, clip10, kaders/B), stem nog in te spreken; tot dan meeleestekst |
-| Link online sessie (aanvangstijd [tijd]) + opname | Weekmodule 3 | Docent |
-| ICT A-ET Weekcheck 3 (5 vragen, logboekregel, standpunt) | Toetsonderdeel MyCampus, met hand invoeren uit docent_weekcheck_w03.md | Docent |
-| Kernbron Rudin (2019) | Link staat in de studentversie (doi en arXiv) | Klaar |
-| ICT A-ET Evidence card.docx | Algemeen › Sjablonen (nieuw, ook voor practicum 4 en 5) | Klaar |
-| Inleverpunten: **ICT A-ET Evidence cards week 3** (individueel: één pdf met evidence card 2 en 3, zo 24 januari 23:59); **ICT A-ET Rapportstuk week 3** (groep: werkboek met K4_Scan + AI-verklaring, zo 24 januari 23:59); **ICT A-ET Exit ticket college 3** (individueel, tijdens de sessie) | Assignments in MyCampus | Aanmaken |
+| ICT A-ET Blok 0 Voorbereiden.pdf (kennispakket 0) | Blok 0, bovenaan | Klaar |
+| Welkomstbericht | In het kennispakket (sectie Welkom); als tekstblok bij blok 0 en per e-mail | Klaar |
+| Kennisclip 1. Van deel 1 naar AI & Ethics | Blok 0 | Ontbreekt: nog opnemen (opnamekit Blok 0, clip 1) |
+| ICT A-ET Kennisclip 2.mp4 | Blok 0 | Klaar |
+| ICT A-ET Kennisclip 3.mp4 | Blok 0 | Klaar |
+| Kennisclip 4. Wat is anders bij generatieve AI? | Blok 0 | Ontbreekt: nog in te spreken; tot dan de meeleestekst in de bijlage van kennispakket 0 |
+| ICT A-ET Practicum 1.zip (practicum1.ipynb, suribank_kredietaanvragen.csv) | Blok 0, bij practicum 1 | Klaar |
+| ICT A-ET Installatiehandleiding.pdf | Link vanuit blok 0 (staat in 00_Algemeen/Naslag) | Klaar |
+| ICT A-ET Casusdossier Suribank.pdf | Link vanuit blok 0 (staat in 00_Algemeen) | Klaar |
+| Intakeformulier | Formulier in MyCampus; de vragen staan in kennispakket 0 | Handmatig aanmaken |
+| ICT A-ET Beginquiz | Quiz in MyCampus; vragen en antwoorden in DOCENT_Kennischecks_antwoorden_A-ET.pdf en het invoerbestand | Aanmaken (invoer.xlsx of GIFT) |
+| Inleverpunten: **ICT A-ET Intake** (individueel), practicum 1 met evidence card 1 (individueel), beschrijving eigen oplossing (groep); deadline woensdag 6 januari 23:59 | Assignments in MyCampus | Aanmaken |
 
+Tussenvragen in clip 2 en 3 zitten al in de video's (pauze met aftelbalk).
 
-### Dia's van het contactmoment
+### Nog in te vullen door de docent (blok 0)
 
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 3.pdf | ICT A-ET College 3 (15 dia's, zonder docentdia): delen **na zondag 24 januari 23:59**, want de grafiek toont de uitkomst van practicum 2 | mycampus/pdf/ (gemaakt uit het dia-deck, gen_c3.py) |
+- [kanaal] en reactietermijn voor vragen (welkomstbericht, Hulp nodig?).
 
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
+## Blok 1 · Analyseren (7 januari tot en met 4 februari; college 1 op 7 januari, college 2 op 14 januari)
 
-## Week 4
+Map in het pakket: `Blok1_Analyseren`.
 
-### Week 4 (online sessie do 28 januari)
-
-| Bestand | Waar op MyCampus | Status |
+| Bestand of onderdeel | Waar op MyCampus | Status |
 | --- | --- | --- |
-| ICT A-ET Week 4.pdf | Weekmodule 4, bovenaan | Klaar |
-| ICT A-ET Practicum 4.zip › practicum4_testlogboek.xlsx | Weekmodule 4, practicum 4 | Klaar |
-| ICT A-ET Practicum 4.zip › practicum4_suribank.ows | Idem (Orange) | Klaar |
-| ICT A-ET Practicum 4.zip › practicum4_paren.ipynb | Idem (Python) | Klaar |
-| ICT A-ET Practicum 4.zip › suribank_paren.csv en suribank_testset.csv, suribank_versie_A.csv | Idem | Klaar |
-| ICT A-ET Werkboek instrumenten.xlsx | Tabbladen K4_Nulmeting, Dilemma_Log, Risk_Register | Klaar |
-| ICT A-ET K5 Dilemma Canvas.docx | Weekmodule 4, K5 (individueel) | Klaar |
-| Video clip 11, 12, 13, kaderclip C | Weekmodule 4, kennisclips | Ontbreekt: nog te produceren |
-| NOS-video toeslagenaffaire en casuslinks | Staan als links in de pdf | Klaar |
-| Peergroepindeling | Weekmodule 4 | Docent |
-| Weekcheck 4 | Toetsonderdeel, invoeren uit docent_weekcheck_w04.md | Docent |
-
-
-### Dia's van het contactmoment
-
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 4.pdf | ICT A-ET College 4 (12 dia's): na afloop delen bij week 4 | mycampus/pdf/ (gemaakt uit het dia-deck) |
-
-**Let op:** Pas na de sessie delen: dia 6 "De antwoorden" bevat de uitkomsten van de sorteeroefening.
+| ICT A-ET Blok 1 Analyseren.pdf (kennispakket 1) | Blok 1, bovenaan; online vanaf vrijdag 8 januari | Klaar |
+| ICT A-ET College 1.pdf (51 dia's, zonder docentdia) | Blok 1, na afloop van college 1 | Klaar; placeholders (tijd, lokaal) vooraf invullen in het deck en de pdf opnieuw maken |
+| ICT A-ET College 2.pdf (27 dia's, zonder docentdia) | Blok 1, na afloop van college 2 | Klaar; gastspreker en aantallen vooraf invullen |
+| Aankondiging college 1 | Tekstblok of bericht; tekst in `lesmateriaal/ICT A-ET College 1 omschrijving.txt` | Klaar |
+| Kennisclip 5 en kaderclip A | Blok 1, kennisclips | Ontbreekt: gebouwd, stem nog in te spreken; tot dan de meeleestekst in kennispakket 1 |
+| Kennisclip 6, 7 en 8 | Blok 1 | Ontbreekt: idem |
+| Kennisclip 9, 10 en kaderclip B | Blok 1 | Ontbreekt: idem |
+| Kennisclip 11 tot en met 14 en kaderclip C | Blok 1 | Ontbreekt: nog op te nemen (opnamekits Blok 1) |
+| Nieuwe video: vijf ethische kaders (ca. 6 min) en drie soorten black box (ca. 5 min) | Blok 1 | Ontbreekt: nog te maken (zie het overzicht van open punten) |
+| ICT A-ET Practicum 2 en 3.zip (suribank_versie_A/B.csv, suribank_testset.csv, practicum2_3.ipynb) | Blok 1, bij practicum 2 en 3 (verdieping) | Klaar |
+| ICT A-ET Practicum 4.zip (testlogboek, paren, Orange-workflow, notebook) | Blok 1, bij practicum 4; het testlogboek wordt in blok 3 gebruikt voor de hertest | Klaar |
+| ICT A-ET K1 Canvas.docx, K5 Dilemma Canvas.docx, Sjabloon tussenrapport.docx, Werkboek instrumenten.xlsx | Link naar Sjablonen (00_Algemeen) | Klaar |
+| ICT A-ET Toestemmingsformulier interview.docx | Link naar Naslag (00_Algemeen) | Klaar; [naam en e-mail docent] invullen |
+| Kernbronnen UNESCO (2021), Gender Shades (2018), Rudin (2019) | Links staan in kennispakket 1 | Klaar; links vlak voor 7 januari testen |
+| ICT A-ET Kennischeck 1 (10 vragen en een standpunt) | Quiz in MyCampus, sluit woensdag 3 februari 23:59 | Aanmaken uit het invoerbestand of GIFT |
+| Inleverpunten: **ICT A-ET Exit ticket college 1** en **college 2** (individueel, tijdens het college); **ICT A-ET K1** (groep, zo 10 januari 23:59); **ICT A-ET Voorbereiding college 2** (groep, di 12 januari 23:59); **ICT A-ET Concept K2-K4** (groep, zo 24 januari 23:59, optioneel); **ICT A-ET Assessment 1 groep**, **Assessment 1 individueel** en **Peerbeoordeling 1** (do 4 februari 23:59) | Assignments in MyCampus | Aanmaken |
 
 De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
 
-## Week 5
+### Nog in te vullen door de docent (blok 1)
 
-### Week 5 (Assessment 1; vragenuur di 2 februari, inleveren do 4 februari)
+- Tijd en lokaal van college 1 en 2 (kennispakket, decks, Deadlines.ics).
+- Gastspreker 14 januari: naam, functie, organisatie, onderwerp en leestip.
+- [kanaal] en reactietermijn.
+- Op de dag zelf: beginquiz-percentages en de telling van de stemming (college 1); aantallen practicum 1, top 3 exit tickets en volgorde van de groepen (college 2).
 
-| Bestand | Waar op MyCampus | Status |
+## Blok 2 · Ontwerpen (5 tot en met 25 februari; college 3 met de Design Review op 25 februari)
+
+Map in het pakket: `Blok2_Ontwerpen`.
+
+| Bestand of onderdeel | Waar op MyCampus | Status |
 | --- | --- | --- |
-| ICT A-ET Week 5.pdf | Weekmodule 5, bovenaan (bevat opdracht, rubrics, inlevercheck) | Klaar |
-| ICT A-ET Sjabloon tussenrapport.docx | Weekmodule 5, Assessment 1 | Klaar |
-| ICT A-ET K5 Dilemma Canvas.docx | Weekmodule 5, individueel deel | Klaar |
-| ICT A-ET AI-verklaring.docx | Weekmodule 5 | Klaar |
-| Inleverpunten: groepsrapport (pdf), individueel canvas (pdf), peerbeoordeling (formulier) | Weekmodule 5 | Docent: aanmaken in MyCampus |
-| ICT A-ET Peerbeoordeling.xlsx | Weekmodule 5 bij het inleverpunt peerbeoordeling (ook onder Sjablonen) | Klaar; tabblad Docent_samenvatting is voor de docent |
-| Video clip 14 | Weekmodule 5 | Ontbreekt: nog te produceren |
-| Weekcheck 5 (drie vragen) | Toetsonderdeel, invoeren uit docent_weekcheck_w05.md | Docent |
-| Feedbackformulieren A1 (docent) | Niet uploaden; scratchpad/out/feedback/ | Klaar |
+| ICT A-ET Blok 2 Ontwerpen.pdf (kennispakket 2) | Blok 2, bovenaan; online vanaf vrijdag 5 februari | Klaar |
+| ICT A-ET College 3.pdf (24 dia's, zonder docentdia) | Blok 2, na afloop van college 3 | Klaar; panel, tijd en lokaal vooraf invullen |
+| Kennisclip 15 tot en met 20, kaderclip D en E | Blok 2, kennisclips | Ontbreekt: nog op te nemen (opnamekits Blok 2); tot dan de meeleestekst in kennispakket 2 |
+| ICT A-ET Sjabloon eindrapport.docx, Werkboek instrumenten.xlsx | Link naar Sjablonen (00_Algemeen) | Klaar |
+| Schriftelijke feedback en cijfer op Assessment 1 | MyCampus, donderdag 18 februari | Docent; feedbackformulieren in de docentmap |
+| ICT A-ET Kennischeck 2 (10 vragen en een standpunt) | Quiz in MyCampus, sluit woensdag 24 februari 23:59 | Aanmaken uit het invoerbestand of GIFT |
+| Inleverpunten: **ICT A-ET Design Review** (groep, di 23 februari 23:59: concept maatregelen en maximaal 8 dia's); **ICT A-ET Exit ticket college 3** (individueel, tijdens het college) | Assignments in MyCampus | Aanmaken |
 
+### Nog in te vullen door de docent (blok 2)
 
-### Dia's van het contactmoment
+- Tijd en lokaal van college 3; [naam panel] en eventueel de externe deskundige.
+- Volgorde en tijdvakken van de groepen in de Design Review.
 
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 5.pdf | ICT A-ET College 5 (10 dia's): na afloop delen bij week 5 | mycampus/pdf/ (gemaakt uit het dia-deck) |
+## Blok 3 · Verantwoorden (26 februari tot en met 11 maart; geen colleges)
 
-**Let op:** Dia 5 heeft nog open plekken [Vraag 1-3]: vul de drie meest gestelde vragen in vóór de sessie.
+Map in het pakket: `Blok3_Verantwoorden`.
 
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
-
-## Week 6
-
-### Week 6: uploadlijst MyCampus
-
-| Bestand | Waar op MyCampus | Bron (scratchpad) |
+| Bestand of onderdeel | Waar op MyCampus | Status |
 | --- | --- | --- |
-| ICT A-ET Week 6.pdf | Weekmodule 6, bovenaan | mycampus/pdf/ |
-| ICT A-ET Werkboek instrumenten.xlsx (tabbladen K4_Nulmeting/Gewenste_situatie, Design_Requirements, Control_Catalog, Controls, Leverancierscheck, Risk_Register voor restrisico) | Link naar algemeen materiaal | out/instrumenten/ |
-| Video's clip 15, 16, 17 en kaderclip D | Weekmodule 6, kennisclips | nog te maken |
-| Inleverpunt rapportstuk K4 + K7 deel 1 (zo 14 feb, 23:59) | Weekmodule 6 | aanmaken in MyCampus |
-| Inschrijflijst feedbackgesprekken (open ma 8 feb) | Weekmodule 6 | aanmaken in MyCampus |
+| ICT A-ET Blok 3 Verantwoorden.pdf (kennispakket 3) | Blok 3, bovenaan; online vanaf vrijdag 26 februari | Klaar |
+| Kennisclip 21 en 22 | Blok 3, kennisclips | Ontbreekt: nog op te nemen (opnamekit Blok 3); tot dan de meeleestekst in kennispakket 3 |
+| ICT A-ET Practicum 5.zip (practicum5.ipynb en de csv's) | Blok 3, bij practicum 5 (optioneel) | Klaar |
+| Hertest (practicum 4b) | Gebruikt het testlogboek uit ICT A-ET Practicum 4.zip (blok 1); moment "hertest" | Klaar |
+| ICT A-ET Sjabloon eindrapport.docx, Sjabloon reflectie.docx, AI-verklaring.docx, Peerbeoordeling.xlsx | Link naar Sjablonen (00_Algemeen) | Klaar |
+| ICT A-ET Peerfeedback.docx | Link naar Naslag (00_Algemeen) | Klaar |
+| ICT A-ET Kennischeck 3 (10 vragen en een standpunt) en de module-evaluatie | Quiz in MyCampus en link naar de evaluatie, sluiten woensdag 10 maart 23:59 | Aanmaken; evaluatielink van Janssen |
+| Inleverpunten: **ICT A-ET Assessment 2 groep**, **Assessment 2 reflectie** en **Peerbeoordeling 2** (do 11 maart 23:59) | Assignments in MyCampus | Aanmaken |
 
-**Ontbreekt nog**
+Het concept eindrapport (zo 7 maart) en de peerfeedback (di 9 maart) gaan via [kanaal] tussen de groepen, met de docent in de cc; daarvoor is geen inleverpunt nodig.
 
-- Video's van clip 15, 16, 17 en kaderclip D (alleen draaiboek in het week 6-doc; script kaderclip D in "Scripts kaderclips A–E"). In de pdf staat "Video: [link volgt op MyCampus]".
-- Weekcheck 6 handmatig in MyCampus zetten: vragen in de pdf, antwoorden en feedback in docent_weekcheck_w06.md.
-- Link online sessie do 11 februari.
-- Feedforward-bericht van ma 8 februari staat in week 5 (docentmateriaal), niet in deze pdf.
+### Nog in te vullen door de docent (blok 3)
 
-
-### Dia's van het contactmoment
-
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 6.pdf | ICT A-ET College 6 (15 dia's): na afloop delen bij week 6 | mycampus/pdf/ (gemaakt uit het dia-deck) |
-
-**Let op:** Pas na de sessie delen: dia 8 werkt de maatregelen voor R-01 (Suribank) uit.
-
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
-
-## Week 7
-
-### Week 7: uploadlijst MyCampus
-
-| Bestand | Waar op MyCampus | Bron (scratchpad) |
-| --- | --- | --- |
-| ICT A-ET Week 7.pdf (met de casus toeslagenaffaire en de voorbereiding op college 3) | Weekmodule 7, bovenaan | mycampus/pdf/ |
-| ICT A-ET Werkboek instrumenten.xlsx (tabbladen Human_Oversight, Governance_RACI, Controls) | Link naar algemeen materiaal | out/instrumenten/ |
-| Video's clip 18, 19 en 20 | Weekmodule 7, kennisclips | nog te maken |
-| Inleverpunt peercheck: concept K7 naar peergroep (zo 21 feb, 23:59) en peerfeedback terug (ma 22 feb, 23:59) | Weekmodule 7 | aanmaken in MyCampus, peergroepen indelen |
-| Inleverpunt presentatie (pdf, max. 8 dia's) + concept K7 (di 23 feb, 23:59) | Weekmodule 7 of 8 | aanmaken in MyCampus |
-
-**Ontbreekt nog**
-
-- Video's van clip 18, 19 en 20 (alleen draaiboek in het week 7-doc).
-- Weekcheck 7 handmatig in MyCampus zetten: vragen in de pdf, antwoorden en feedback in docent_weekcheck_w07.md.
-- Link online sessie do 18 februari.
-- De links in de bronnenlijst van de casus nog controleren vóór publicatie (stond als docentnotitie in het weekdoc).
-- Transparantieverklaring: er is geen tabblad Transparency in het werkboek; de pdf zegt nu "één A4 voor de getroffenen" (eigen document). Eventueel een Word-sjabloon maken.
-
-
-### Dia's van het contactmoment
-
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 7.pdf | ICT A-ET College 7 (12 dia's): na afloop delen bij week 7 | mycampus/pdf/ (gemaakt uit het dia-deck) |
-
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
-
-## Week 8
-
-### Week 8: uploadlijst MyCampus
-
-| Bestand | Waar op MyCampus | Bron (scratchpad) |
-| --- | --- | --- |
-| ICT A-ET Week 8.pdf (Design Review, opdracht en rubric Assessment 2, reflectie) | Weekmodule 8, bovenaan | mycampus/pdf/ |
-| ICT A-ET Sjabloon eindrapport.docx | Weekmodule 8, Assessment 2 | out/instrumenten/ |
-| ICT A-ET Sjabloon reflectie.docx | Weekmodule 8, Assessment 2 | out/instrumenten/ |
-| ICT A-ET AI-verklaring.docx | Weekmodule 8, Assessment 2 | out/instrumenten/ |
-| ICT A-ET Werkboek instrumenten.xlsx (tabblad Verwerkingslijst) | Link naar algemeen materiaal | out/instrumenten/ |
-| Video kaderclip E | Weekmodule 8, kennisclip | nog te maken (script in "Scripts kaderclips A–E") |
-| ICT A-ET College 8 (na afloop) | Weekmodule 8 | Slides-deck college 3, export naar pdf |
-| Inleverpunt herzien K7 + verwerkingslijst (zo 28 feb, 23:59) | Weekmodule 8 | aanmaken in MyCampus |
-| Inleverpunten Assessment 2: eindrapport en reflectie (do 11 mrt, 23:59) | Weekmodule 8 of 10 | aanmaken in MyCampus |
-
-**Ontbreekt nog**
-
-- Video kaderclip E.
-- Weekcheck 8 handmatig in MyCampus zetten: vragen in de pdf, antwoorden en feedback in docent_weekcheck_w08.md.
-- Volgorde van presenteren (woensdag 24 feb) publiceren.
-- Het minicollege implementatie en monitoring (week 8, sectie 5) staat niet in de pdf: het is collegemateriaal; deel na afloop de dia's.
-
-
-### Dia's van het contactmoment
-
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 8.pdf | ICT A-ET College 8 (27 dia's): na afloop delen bij week 8 | mycampus/pdf/ (gemaakt uit het dia-deck) |
-
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
-
-## Week 9
-
-### Week 9: uploadlijst MyCampus
-
-| Bestand | Waar op MyCampus | Bron (scratchpad) |
-| --- | --- | --- |
-| ICT A-ET Week 9.pdf | Weekmodule 9, bovenaan | mycampus/pdf/ |
-| ICT A-ET Practicum 4.zip › practicum4_testlogboek.xlsx (dezelfde als week 4; groepen werken in hun eigen exemplaar verder) | Weekmodule 9, practicum 4b (alleen als herinnering/link naar week 4) | out/week4/practicum4/ |
-| ICT A-ET Practicum 5.zip › practicum5.ipynb (Python-route, zelfde stappen als Orange) | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
-| ICT A-ET Practicum 5.zip › suribank_2025_controle.csv | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
-| ICT A-ET Practicum 5.zip › suribank_2027.csv | Weekmodule 9, practicum 5 (optioneel) | out/week9/practicum5/ |
-| ICT A-ET Practicum 5.zip › suribank_kredietaanvragen.csv | Weekmodule 9, practicum 5 (optioneel; zelfde bestand als week 0) | out/week9/practicum5/ |
-| ICT A-ET Werkboek instrumenten.xlsx (tabbladen K8_Monitoring, Hertest) | Link naar algemeen materiaal | out/instrumenten/ |
-| ICT A-ET Sjabloon eindrapport.docx (beslismemo vooraan) | Link naar algemeen materiaal | out/instrumenten/ |
-
-**Ontbreekt nog**
-
-- Video's van clip 21 en clip 22 (alleen script in het week 9-doc). In de pdf staat "Video: [link volgt op MyCampus]".
-- Datum AI Solutions Day (staat als [datum] in de pdf).
-- Links naar de online sessie (do 4 maart) en de weekcheck in MyCampus (de weekcheck moet handmatig in MyCampus worden gezet; vragen in de pdf, antwoorden in docent_weekcheck_w09.md).
-- Verwachte uitkomsten van het notebook (docent): docent_practicum5.md.
-
-
-### Dia's van het contactmoment
-
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 9.pdf | ICT A-ET College 9 (12 dia's): na afloop delen bij week 9 | mycampus/pdf/ (gemaakt uit het dia-deck) |
-
-**Let op:** Pas na de sessie delen: dia 4-5 (raadsel en onthulling) verklappen de uitkomst van practicum 5.
-
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
-
-## Week 10
-
-### Week 10: uploadlijst MyCampus
-
-| Bestand | Waar op MyCampus | Bron (scratchpad) |
-| --- | --- | --- |
-| ICT A-ET Week 10.pdf | Weekmodule 10, bovenaan | mycampus/pdf/ |
-| ICT A-ET Sjabloon eindrapport.docx, ICT A-ET Sjabloon reflectie.docx, ICT A-ET AI-verklaring.docx | Link naar algemeen materiaal | out/instrumenten/ |
-| Inleverpunten: eindrapport (groep), reflectie (individueel), formulier peerbeoordeling | Weekmodule 10 | in MyCampus aanmaken |
-
-**Ontbreekt nog**
-
-- Link naar de anonieme module-evaluatie (vragen staan in het week 10-doc, sectie 8).
-- Formulier peerbeoordeling: zelfde bestand als bij A1, ICT A-ET Peerbeoordeling.xlsx (out/instrumenten/), kies bij Toets "Assessment 2 (week 10)". Klaar.
-- Link naar het online vragenuur (di 9 maart).
-- Bevestiging van de cijferdatum (26 maart) en de inzagetermijn door Janssen; in de pdf staan ze "onder voorbehoud".
-
-
-### Dia's van het contactmoment
-
-| Bestand | Waar op MyCampus | Bron |
-|---|---|---|
-| ICT A-ET College 10.pdf | ICT A-ET College 10 (10 dia's): na afloop delen bij week 10 | mycampus/pdf/ (gemaakt uit het dia-deck) |
-
-**Let op:** Dia 5 heeft nog open plekken [Vraag 1-3]: vul de drie meest gestelde vragen in vóór de sessie.
-
-De dia's zijn een pdf-weergave zonder sprekersnotities. Presenteren doe je vanuit het deck op claude.ai.
+- [kanaal], de koppeling van de peergroepen en de datum van de cijfers (uiterlijk 26 maart, als Janssen die bevestigt).
+- Herkansing: datum en vorm, zodra Janssen die vastlegt.

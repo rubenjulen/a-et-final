@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="Practicum 4 gepaarde test Suribank" description="A-ET week 4: gepaarde test, grensgevallen en uitlegtest.">
+<scheme version="2.0" title="Practicum 4 gepaarde test Suribank" description="A-ET practicum 4: gepaarde test, grensgevallen en uitlegtest.">
 	<nodes>
 		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="1 Leren: suribank_versie_A.csv" position="(60.0, 120.0)" />
 		<node id="1" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(260.0, 60.0)" />

@@ -1,4 +1,4 @@
-# Peerbeoordelingsformulier A-ET (bron: week 5, Hoofdstukeigenaarschap en peerbeoordeling; week 10 signalen; rubric Toelichting)
+# Peerbeoordelingsformulier A-ET (bron: kennispakket 1 en 3, Peercorrectie; rubric Toelichting)
 import sys
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
@@ -35,7 +35,7 @@ wb=Workbook()
 
 # ---------- Uitleg ----------
 ws=wb.active; ws.title='Uitleg'
-title(ws,'Peerbeoordeling A-ET','AI & Ethics (A-ET) 2026-2027 · bij Assessment 1 (week 5) en Assessment 2 (week 10)')
+title(ws,'Peerbeoordeling A-ET','AI & Ethics (A-ET) 2026-2027 · bij Assessment 1 (4 februari) en Assessment 2 (11 maart)')
 ws.column_dimensions['A'].width=26; ws.column_dimensions['B'].width=100
 rows=[
 ('Wanneer','Bij het inleveren van Assessment 1 (vóór donderdag 4 februari, 23:59) en van Assessment 2 (vóór donderdag 11 maart, 23:59). Bij Assessment 2 gaat het over de periode sinds Assessment 1.'),
@@ -43,7 +43,7 @@ rows=[
 ('Hoe','Ga naar het tabblad Invullen. Vul je naam, groep en de toets in. Geef per groepslid op vier vragen een score van 1 tot 4 en beantwoord de open vraag: Wat was de belangrijkste bijdrage van deze persoon? Die open vraag is verplicht, minimaal één zin. Lever het bestand in bij het inleverpunt peerbeoordeling op MyCampus.'),
 ('Vertrouwelijk','Alleen de docent ziet het formulier. Groepsgenoten zien je scores en antwoorden niet.'),
 ('Wat de docent ermee doet','De docent berekent per student het gemiddelde dat die van de anderen kreeg. Een signaal is: een gemiddelde onder de 2,0; of een gemiddelde dat 1,0 of meer onder het groepsgemiddelde ligt; of twee of meer groepsleden die in de open vraag aangeven dat iemand weinig of niets heeft bijgedragen.'),
-('Bij een signaal','1. Controleren: de docent bekijkt logboek, weekchecks, de versiegeschiedenis van het gedeelde document en het hoofdstuk van de student. 2. Gesprek: kort apart gesprek met de student; de student hoort wat er speelt en kan reageren. 3. Besluit: geen correctie, of een correctie op het groepscijfer van die student: 10%, 20% of 30% lager. Bij vrijwel geen bijdrage krijgt de student voor het groepsdeel een 1,0. De docent legt het besluit en de reden vast.'),
+('Bij een signaal','1. Controleren: de docent bekijkt evidence cards, exit tickets, de versiegeschiedenis van het gedeelde document en het hoofdstuk van de student. 2. Gesprek: kort apart gesprek met de student; de student hoort wat er speelt en kan reageren. 3. Besluit: geen correctie, of een correctie op het groepscijfer van die student: 10%, 20% of 30% lager. Bij vrijwel geen bijdrage krijgt de student voor het groepsdeel een 1,0. De docent legt het besluit en de reden vast.'),
 ('Nooit alleen het formulier','Een correctie gebeurt nooit alleen op basis van het formulier: er moet ook ander bewijs zijn. Andersom: een student die veel meer deed dan de rest krijgt geen hoger groepscijfer. Dat zie je terug in het individuele deel en in de reflectie van Assessment 2.'),
 ('Hoofdstukeigenaar','Elk hoofdstuk heeft één eigenaar, genoemd op het voorblad. Zonder hoofdstukeigenaren op het voorblad is een correctie op basis van de peerbeoordeling niet mogelijk zonder gesprek.'),
 ('Spanningen in de groep','Meld problemen vóór de deadline, niet erna. Een groep die vastloopt, kan bij de docent terecht voor een kort gesprek van 15 minuten.'),
@@ -69,7 +69,7 @@ info=[('Jouw naam',''),('Studentnummer',''),('Groep / casus',''),('Toets','')]
 for i,(a,b) in enumerate(info,4):
     ws.cell(i,1,a).font=Font(bold=True); c=ws.cell(i,2,b); c.fill=IF; c.border=B
     ws.merge_cells(start_row=i,start_column=2,end_row=i,end_column=4)
-dv(ws,['Assessment 1 (week 5)','Assessment 2 (week 10)'],'B7')
+dv(ws,['Assessment 1 (4 februari)','Assessment 2 (11 maart)'],'B7')
 cols=['Groepslid (naam)']+[f'{k+1}. {q}' for k,q in enumerate(Q)]+['Gemiddelde','Wat was de belangrijkste bijdrage van deze persoon? (verplicht, minimaal één zin)','Controle']
 HR=9; hdr(ws,HR,cols)
 widths=[22,15,15,15,15,11,60,30]
@@ -104,7 +104,7 @@ ws=wb.create_sheet('Docent_samenvatting')
 title(ws,'Peerbeoordeling: docentsamenvatting per groep','Alleen voor de docent. Neem per groep de formulieren over (één regel per beoordelaar en beoordeelde). Een correctie gebeurt nooit alleen op basis van het formulier.')
 for i,(a,b) in enumerate([('Groep / casus',''),('Toets',''),('Groepscijfer (vóór correctie)','')],4):
     ws.cell(i,1,a).font=Font(bold=True); c=ws.cell(i,2,b); c.fill=IF; c.border=B
-dv(ws,['Assessment 1 (week 5)','Assessment 2 (week 10)'],'B5')
+dv(ws,['Assessment 1 (4 februari)','Assessment 2 (11 maart)'],'B5')
 # Block 1: ingevoerde formulieren
 R1=8
 ws.cell(R1-1,1,'1. Ingevoerde formulieren (tot 5 groepsleden: 20 regels)').font=Font(bold=True,size=12,color=DARK)
@@ -123,7 +123,7 @@ first,last=R1+1,R1+N
 R2=last+3
 ws.cell(R2-1,1,'2. Per student: signaal, ander bewijs en besluit').font=Font(bold=True,size=12,color=DARK)
 cols2=['Student','Aantal formulieren','Ontvangen gemiddelde','Groepsgemiddelde','Verschil met groep','Meldingen weinig/niets','Signaal',
-       'Logboek en weekchecks','Versiegeschiedenis','Hoofdstuk (eigenaar)','Gesprek (datum)','Besluit','Reden (verplicht bij correctie)','Groepscijfer na correctie','Controle']
+       'Evidence cards en exit tickets','Versiegeschiedenis','Hoofdstuk (eigenaar)','Gesprek (datum)','Besluit','Reden (verplicht bij correctie)','Groepscijfer na correctie','Controle']
 hdr(ws,R2,cols2)
 for k in range(5):
     r=R2+1+k; A=f'$A${R2+1}:$A${R2+5}'
@@ -144,7 +144,7 @@ for k in range(5):
 dv(ws,['Geen correctie','10% lager','20% lager','30% lager','1,0 (vrijwel geen bijdrage)'],f'L{R2+1}:L{R2+5}')
 ws.conditional_formatting.add(f'G{R2+1}:G{R2+5}',FormulaRule(formula=[f'LEFT(G{R2+1},7)="SIGNAAL"'],fill=PatternFill('solid',fgColor='F3D9D2'),font=Font(bold=True,color=RED)))
 ws.conditional_formatting.add(f'O{R2+1}:O{R2+5}',FormulaRule(formula=[f'LEFT(O{R2+1},4)="Niet"'],font=Font(bold=True,color=RED)))
-ws.cell(R2+7,1,'Groepscijfer na correctie = groepscijfer × (1 − correctie), minimaal 1,0; bij vrijwel geen bijdrage 1,0. Signaalgrenzen en stappen: week 5 (Wanneer de docent ingrijpt) en week 10 (Signalen uit de peerbeoordeling).').font=Font(italic=True,color='44504B')
+ws.cell(R2+7,1,'Groepscijfer na correctie = groepscijfer × (1 − correctie), minimaal 1,0; bij vrijwel geen bijdrage 1,0. Signaalgrenzen en stappen: kennispakket 1 en 3 (Peercorrectie).').font=Font(italic=True,color='44504B')
 w2=[18,16,13,13,13,13,26,24,20,20,14,22,30,14,30]
 for i,w in enumerate(w2,1): ws.column_dimensions[L(i)].width=max(w,ws.column_dimensions[L(i)].width or 0)
 ws.column_dimensions['H'].width=40; ws.column_dimensions['I'].width=20

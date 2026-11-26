@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Bouwt het MyCampus-uploadpakket vanaf nul op met de naamgeving "$P <naam>" (voorvoegsel: variabele P hieronder).
-# Bronnen: scratchpad/out/ (sjablonen, practica, video's, docentbestanden) en mycampus/pdf/ (studentversies, dia's, docent-pdf's).
+# Bronnen: lesmateriaal/ (sjablonen, practica, video's, docentbestanden) en mycampus/pdf/ (kennispakketten, dia's, docent-pdf's).
+# Indeling: 00_Algemeen, Blok0_Voorbereiden t/m Blok3_Verantwoorden, 99_Docent_niet_uploaden.
 # Gebruik: tools/build_package.sh [doelmap]   (standaard: mycampus/upload, plus mycampus/A-ET_MyCampus_pakket.zip)
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")/.." && pwd)"          # mycampus/
@@ -10,10 +11,10 @@ U="${1:-$HERE/upload}"
 P="ICT A-ET"
 
 # 1. Docent-uploadlijst opnieuw samenstellen en renderen
-{ echo "Wat er per week op MyCampus komt, welke bestanden erbij horen en wat nog ontbreekt. Dit bestand is voor de docent."; echo
-  echo "## Algemeen (buiten de weken)"; sed -E 's/^# .*//; s/^## /### /' "$HERE/md/upload_studiewijzer.md"
-  for w in 00 01 02 03 04 05 06 07 08 09 10; do f="$HERE/md/upload_w$w.md"
-    [ -f "$f" ] && { echo; echo "## Week $((10#$w))"; echo; sed -E 's/^# .*//; s/^## /### /' "$f"; }
+{ echo "Wat er per blok op MyCampus komt, welke bestanden erbij horen en wat nog ontbreekt. Dit bestand is voor de docent."; echo
+  echo "## Algemeen (buiten de blokken)"; sed -E 's/^# .*//; s/^## /### /' "$HERE/md/upload_studiewijzer.md"
+  for b in 0 1 2 3; do f="$HERE/md/upload_blok$b.md"
+    [ -f "$f" ] && { echo; sed -E 's/^# .*//' "$f" | awk 'NR==1&&/^## /{print;next} {sub(/^## /,"### ")} 1'; }
   done; } > "$HERE/md/DOCENT_uploadlijst.md"
 (cd "$HERE/tools" && node render_docent.js ../md/DOCENT_uploadlijst.md ../pdf/DOCENT_Uploadlijst_MyCampus_A-ET.pdf "Uploadlijst" "Uploadlijst MyCampus" >/dev/null)
 
@@ -37,19 +38,24 @@ cp "$I/Evidence_card.docx"                           "$S/$P Evidence card.docx"
 cp "$I/AI-verklaring.docx"                           "$S/$P AI-verklaring.docx"
 cp "$I/Peerbeoordeling_A-ET.xlsx"                    "$S/$P Peerbeoordeling.xlsx"
 
-for w in 00 01 02 03 04 05 06 07 08 09 10; do
-  n=$((10#$w)); d="$U/Week$w"; mkdir -p "$d"
-  cp "$PDF/A-ET_Week${w}_studentversie.pdf" "$d/$P Week $n.pdf"
-  for s in "$PDF"/A-ET_Week${w}_*_dias.pdf; do [ -f "$s" ] && cp "$s" "$d/$P College $n.pdf"; done
-done
-cp "$OUT/week0/Kennisclip2_Waarom_maakt_AI_fouten_Matilda.mp4" "$U/Week00/$P Kennisclip 2.mp4"
-cp "$OUT/week0/Kennisclip3_Fouten_tellen_Matilda.mp4"          "$U/Week00/$P Kennisclip 3.mp4"
+# Per blok: kennispakket, collegedia's, video's en practica
+B0="$U/Blok0_Voorbereiden"; B1="$U/Blok1_Analyseren"; B2="$U/Blok2_Ontwerpen"; B3="$U/Blok3_Verantwoorden"
+mkdir -p "$B0" "$B1" "$B2" "$B3"
+cp "$PDF/A-ET_Blok0_kennispakket.pdf" "$B0/$P Blok 0 Voorbereiden.pdf"
+cp "$PDF/A-ET_Blok1_kennispakket.pdf" "$B1/$P Blok 1 Analyseren.pdf"
+cp "$PDF/A-ET_Blok2_kennispakket.pdf" "$B2/$P Blok 2 Ontwerpen.pdf"
+cp "$PDF/A-ET_Blok3_kennispakket.pdf" "$B3/$P Blok 3 Verantwoorden.pdf"
+cp "$PDF/A-ET_College1_dias.pdf" "$B1/$P College 1.pdf"
+cp "$PDF/A-ET_College2_dias.pdf" "$B1/$P College 2.pdf"
+cp "$PDF/A-ET_College3_dias.pdf" "$B2/$P College 3.pdf"
+cp "$OUT/week0/Kennisclip2_Waarom_maakt_AI_fouten_Matilda.mp4" "$B0/$P Kennisclip 2.mp4"
+cp "$OUT/week0/Kennisclip3_Fouten_tellen_Matilda.mp4"          "$B0/$P Kennisclip 3.mp4"
 # Practica als zip; binnen de zip blijven de originele namen (notebooks lezen de csv's op naam)
 mkzip(){ (cd "$1" && rm -f "$2" && zip -qX "$2" *); }
-mkzip "$OUT/week0/practicum1"   "$U/Week00/$P Practicum 1.zip"
-mkzip "$OUT/week3/practicum2_3" "$U/Week03/$P Practicum 2 en 3.zip"
-mkzip "$OUT/week4/practicum4"   "$U/Week04/$P Practicum 4.zip"
-mkzip "$OUT/week9/practicum5"   "$U/Week09/$P Practicum 5.zip"
+mkzip "$OUT/week0/practicum1"   "$B0/$P Practicum 1.zip"
+mkzip "$OUT/week3/practicum2_3" "$B1/$P Practicum 2 en 3.zip"
+mkzip "$OUT/week4/practicum4"   "$B1/$P Practicum 4.zip"
+mkzip "$OUT/week9/practicum5"   "$B3/$P Practicum 5.zip"
 
 # 3. Docentmap (interne namen, niet uploaden)
 D="$U/99_Docent_niet_uploaden"
@@ -60,7 +66,11 @@ cp "$PDF/DOCENT_Kennischecks_antwoorden_A-ET.pdf" "$PDF/DOCENT_Uploadlijst_MyCam
 cp "$HERE/../lesmateriaal/docent/ICT A-ET Kennischecks invoer.xlsx" "$HERE/../lesmateriaal/docent/ICT A-ET Kennischecks GIFT.txt" "$D/"
 cp "$OUT"/feedback/*.docx "$D/"
 cp "$OUT/Beoordelingsrubric_AI_en_Ethics_A-ET_2026-2027.xlsx" "$OUT/$P Lesplan.pdf" "$OUT/Kruistabel_certificeringen_A-ET.pdf" "$D/"
-cp "$PDF"/opnamekits/Opnamekit_*.pdf "$D/Opnamekits/"
+# Opnamekits onder de bloknaam (bronbestanden houden hun werknaam)
+for f in "$PDF"/opnamekits/Opnamekit_Week*.pdf; do b="$(basename "$f" .pdf)"; w="${b#Opnamekit_Week}"; w="${w%%_*}"; rest="${b#Opnamekit_Week??_}"
+  case "$w" in 00) bl=0;; 01|02|03|04|05) bl=1;; 06|07|08) bl=2;; *) bl=3;; esac
+  r="${rest//_/ }"; r="${r/clip1/clip 1}"; cp "$f" "$D/Opnamekits/$P Opnamekit Blok $bl $r.pdf"; done
+cp "$OUT/week10/Cijferbestand_A-ET_2026-2027.xlsx" "$D/$P Cijferbestand.xlsx"
 
 # 4. Zip
 if [ -z "${1:-}" ]; then

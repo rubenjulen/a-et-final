@@ -25,7 +25,7 @@ notes=[((20,640,420,120),"Stap 6 tot 8, grensgevallen: open 8 en klik op de kolo
 ((20,0,400,90),"Practicum 4, Suribank. Dubbelklik op elke File en kies het bestand dat in de naam staat. Laat Logistic Regression en Tree op de standaardinstellingen."),
 ((720,120,330,150),"Stap 4 en 5: in 4 zie je per paar (R001-orig, R001-wijz) het besluit en de kans op ja. Sla in 5 op als Excel en plak aanvraag_id en de twee kansen in het tabblad B_import van het testlogboek."),
 ((700,0,330,100),"Stap 9, uitlegtest: gebruik Nomogram en Tree Viewer, net als in practicum 3.")]
-out=["<?xml version='1.0' encoding='utf-8'?>",'<scheme version="2.0" title="Practicum 4 gepaarde test Suribank" description="A-ET week 4: gepaarde test, grensgevallen en uitlegtest.">','\t<nodes>']
+out=["<?xml version='1.0' encoding='utf-8'?>",'<scheme version="2.0" title="Practicum 4 gepaarde test Suribank" description="A-ET practicum 4: gepaarde test, grensgevallen en uitlegtest.">','\t<nodes>']
 for i,(k,t,x,y) in enumerate(nodes):
     out.append(f'\t\t<node id="{i}" name="{NAME[k]}" qualified_name="{Q[k]}" project_name="Orange3" version="" title={quoteattr(t)} position="({x}.0, {y}.0)" />')
 out.append('\t</nodes>'); out.append('\t<links>')

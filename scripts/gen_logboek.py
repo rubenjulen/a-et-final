@@ -4,7 +4,7 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 from openpyxl.formatting.rule import CellIsRule, FormulaRule
 from openpyxl.utils import get_column_letter as L
-DARK='12312A'; SAND='EDE7DA'; AMBER='E3A92B'; INPUT='FFF6DD'
+DARK='002060'; SAND='EAF0F8'; AMBER='3F82BA'; INPUT='FFF6DD'
 H=Font(bold=True,color='FFFFFF'); HF=PatternFill('solid',fgColor=DARK); IN=PatternFill('solid',fgColor=INPUT); SF=PatternFill('solid',fgColor=SAND)
 WR=Alignment(wrap_text=True,vertical='top'); thin=Side(style='thin',color='CCCCCC'); B=Border(top=thin,bottom=thin,left=thin,right=thin)
 wb=Workbook()
@@ -19,8 +19,8 @@ def dv(ws,opts,rng):
 ws=wb.active; ws.title='Start'
 ws.column_dimensions['A'].width=30; ws.column_dimensions['B'].width=70
 ws['A1']='Practicum 4: testlogboek'; ws['A1'].font=Font(bold=True,size=16,color=DARK)
-ws['A2']='AI & Ethics (A-ET), week 4, hertest in week 9. Gele cellen vul je zelf in.'
-rows=[('Groep',''),('Oplossing',''),('Partnerorganisatie',''),('Variant','A, B of A en B'),('Testomgeving','bijv. Copilot Studio, testpaneel van de agent'),('Versie week 4','bijv. publicatiedatum of versienummer'),('Datum test week 4',''),('Versie week 9 (hertest)',''),('Datum hertest week 9','')]
+ws['A2']='AI & Ethics (A-ET), practicum 4: de test, en optioneel later de hertest. Gele cellen vul je zelf in.'
+rows=[('Groep',''),('Oplossing',''),('Partnerorganisatie',''),('Variant','A, B of A en B'),('Testomgeving','bijv. Copilot Studio, testpaneel van de agent'),('Versie bij de test','bijv. publicatiedatum of versienummer'),('Datum test',''),('Versie bij de hertest (optioneel)',''),('Datum hertest','')]
 for i,(a,b) in enumerate(rows,4):
     ws.cell(i,1,a).font=Font(bold=True); c=ws.cell(i,2,b); c.fill=IN; c.border=B
 uitleg=['Zo werk je',
@@ -31,7 +31,7 @@ uitleg=['Zo werk je',
 '5. Variant B: draai de Orange-workflow of het notebook. Plak aanvraag_id en de twee kansen op ja in B_import. B_paren rekent de rest uit.',
 '6. Vul B_grens (10 grensgevallen) en B_uitleg (3 afgewezen aanvragers) in.',
 '7. Samenvatting telt alles op. Die cijfers gebruik je in het testverslag, in K4 en in K6.',
-'8. Week 9: dezelfde vragen of paren, nu met Moment = week 9 (A) of in de kolommen voor week 9 (B). Samenvatting zet week 4 en week 9 naast elkaar.',
+'8. Hertest (optioneel, na de maatregelen): dezelfde vragen of paren, nu met Moment = hertest (A) of in de kolommen voor de hertest (B). Samenvatting zet test en hertest naast elkaar.',
 '9. Neemt jullie oplossing spraakberichten aan, bijvoorbeeld via WhatsApp? Stel A01 en A07 dan ook als spraakbericht: één keer in het Nederlands en één keer in het Sranantongo, ingesproken door een groepslid dat het spreekt. Log ze als X-regels en vergelijk met A01.',
 'Spelregels: alleen in de testomgeving, alleen verzonnen personen, nooit echte klantgegevens. Ernstige vondst? Stop en meld het bij de docent van A-AI2 en A-ET.']
 for i,t in enumerate(uitleg,15):
@@ -88,7 +88,7 @@ ws=wb.create_sheet('A_log')
 header(ws,['ID','Blok','Moment','Ronde','Datum','Tester','Antwoord van de oplossing (plakken)','Score','Toelichting (één zin)','Nascoorder','Score nascoorder','Eens?'],[7,20,10,7,11,12,60,10,40,12,12,11])
 r=2
 ids=[f'A{i:02d}' for i in range(1,31)]
-for moment in ('week 4','week 9'):
+for moment in ('test','hertest'):
     for ronde in (1,2):
         for a in ids:
             ws.cell(r,1,a); ws.cell(r,2,f'=IFERROR(INDEX(A_testset!$B$2:$B$41,MATCH(A{r},A_testset!$A$2:$A$41,0)),"")')
@@ -98,7 +98,7 @@ for moment in ('week 4','week 9'):
             ws.cell(r,12,f'=IF(OR(H{r}="",K{r}=""),"",IF(H{r}=K{r},"ja","bespreken"))')
             r+=1
 last=r-1
-dv(ws,['goed','matig','fout'],f'H2:H{last+40}'); dv(ws,['goed','matig','fout'],f'K2:K{last+40}'); dv(ws,['week 4','week 9'],f'C2:C{last+40}')
+dv(ws,['goed','matig','fout'],f'H2:H{last+40}'); dv(ws,['goed','matig','fout'],f'K2:K{last+40}'); dv(ws,['test','hertest'],f'C2:C{last+40}')
 ws.conditional_formatting.add(f'H2:H{last}',CellIsRule(operator='equal',formula=['"fout"'],fill=PatternFill('solid',fgColor='F2D3CC')))
 ws.conditional_formatting.add(f'L2:L{last}',CellIsRule(operator='equal',formula=['"bespreken"'],fill=PatternFill('solid',fgColor='F2D3CC')))
 
@@ -117,14 +117,14 @@ for k in range(0,len(P),2):
     if kind=='regio': pairs.append((pid,kind,f"{o['district']} ({o['regio']})",f"{w['district']} ({w['regio']})"))
     else: pairs.append((pid,kind,o['geslacht'],w['geslacht']))
 ws=wb.create_sheet('B_import')
-header(ws,['aanvraag_id','Week 4: kans op ja, Logistic Regression','Week 4: kans op ja, Tree','','aanvraag_id (week 9)','Week 9: kans op ja, Logistic Regression','Week 9: kans op ja, Tree'],[14,22,22,4,16,22,22])
+header(ws,['aanvraag_id','Test: kans op ja, Logistic Regression','Test: kans op ja, Tree','','aanvraag_id (hertest)','Hertest: kans op ja, Logistic Regression','Hertest: kans op ja, Tree'],[14,22,22,4,16,22,22])
 for i in range(2,402):
     for j in (1,2,3,5,6,7): ws.cell(i,j).fill=IN
 ws.cell(403,1,'Plak hier vanaf rij 2 de kolommen uit Orange (Data Table na Predictions) of uit practicum4_uitkomst.csv. De volgorde van de rijen maakt niet uit. Gebruik je een eigen model met andere namen? Pas dan de kopjes aan, niet de kolommen.').font=Font(italic=True)
 
 ws=wb.create_sheet('B_paren')
 cols=['Paar','Kenmerk','Origineel','Gewijzigd']
-for wk in ('Wk4','Wk9'):
+for wk in ('Test','Hertest'):
     for m in ('LR','Tree'):
         cols+= [f'{wk} {m} kans orig',f'{wk} {m} kans wijz',f'{wk} {m} ander besluit',f'{wk} {m} verschil',f'{wk} {m} |verschil|']
 header(ws,cols,[7,10,22,22]+[11]*20)
@@ -161,12 +161,12 @@ ws=wb.create_sheet('Samenvatting')
 for c,w in zip('ABCDEFGHIJ',[24,10,10,10,11,4,10,10,10,11]): ws.column_dimensions[c].width=w
 ws['A1']='Samenvatting voor het testverslag'; ws['A1'].font=Font(bold=True,size=14,color=DARK)
 ws['A3']='Variant A: antwoorden per blok (beide rondes samen)'; ws['A3'].font=Font(bold=True)
-for j,t in enumerate(['Blok','Wk4 goed','Wk4 matig','Wk4 fout','Wk4 % goed','','Wk9 goed','Wk9 matig','Wk9 fout','Wk9 % goed'],1):
+for j,t in enumerate(['Blok','Test goed','Test matig','Test fout','Test % goed','','Hertest goed','Hertest matig','Hertest fout','Hertest % goed'],1):
     c=ws.cell(4,j,t); c.font=H; c.fill=HF
 blokken=['Gelijke behandeling','Overtuigend fout','AI-melding en uitleg','Mens spreken','Gegevens en misbruik']
 for i,bk in enumerate(blokken+['Totaal'],5):
     ws.cell(i,1,bk).font=Font(bold=(bk=='Totaal'))
-    for base,wk in ((2,'week 4'),(7,'week 9')):
+    for base,wk in ((2,'test'),(7,'hertest')):
         for k,sc in enumerate(['goed','matig','fout']):
             if bk=='Totaal': f=f'=SUM({L(base+k)}5:{L(base+k)}9)'
             else: f=f'=COUNTIFS(A_log!$B:$B,$A{i},A_log!$C:$C,"{wk}",A_log!$H:$H,"{sc}")'
@@ -175,7 +175,7 @@ for i,bk in enumerate(blokken+['Totaal'],5):
         c=ws.cell(i,base+3,f'=IF(SUM({a}{i}:{b}{i})=0,"",{a}{i}/SUM({a}{i}:{b}{i}))'); c.number_format='0%'
 ws['A12']='Nascoring: aantal antwoorden om te bespreken'; ws['B12']='=COUNTIF(A_log!L:L,"bespreken")'
 ws['A14']='Variant B: gepaarde test'; ws['A14'].font=Font(bold=True)
-for j,t in enumerate(['Model en kenmerk','Paren','Wk4 ander besluit','Wk4 gem. |verschil|','Wk4 gem. verschil','','Wk9 ander besluit','Wk9 gem. |verschil|','Wk9 gem. verschil'],1):
+for j,t in enumerate(['Model en kenmerk','Paren','Test ander besluit','Test gem. |verschil|','Test gem. verschil','','Hertest ander besluit','Hertest gem. |verschil|','Hertest gem. verschil'],1):
     c=ws.cell(15,j,t); c.font=H; c.fill=HF; c.alignment=Alignment(wrap_text=True)
 ws.row_dimensions[15].height=32
 i=16
