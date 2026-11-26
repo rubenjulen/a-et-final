@@ -661,7 +661,7 @@ setup(ws, 'Bijlage E: verwerkingslijst (blok 2 en 3)',
       'Alle feedbackpunten: de actiepunten uit de feedback op Assessment 1, het panel van de Design Review en de peergroep. Per punt een besluit, wat jullie veranderden of waarom niet, en waar het in het rapport staat. "Niet overgenomen" mag, als je uitlegt waarom. Bij Assessment 2 kijkt de docent eerst naar deze lijst.', 7)
 cols = ['Nr', 'Actiepunt-ID (bijv. A1-2)', 'Bron', 'Feedbackpunt', 'Besluit', 'Wat we veranderden, of waarom niet', 'Waar in het rapport']
 header(ws, 4, cols, [5, 14, 18, 40, 18, 48, 22])
-example(ws, 5, [1, '', 'Panel (Design Review)', 'Bezwaarroute alleen via de website', 'Overgenomen', 'Bezwaar kan nu ook aan de balie en telefonisch', 'Hoofdstuk 9, bezwaarroute'])
+example(ws, 5, [1, '', 'Panel (Design Review)', 'Bezwaarroute alleen via de website', 'Overgenomen', 'Bezwaar kan nu ook aan de balie en telefonisch', 'Hoofdstuk 7, bezwaarroute'])
 inputs(ws, 6, 25, 7)
 for i in range(25):
     ws.cell(6 + i, 1, i + 1)
