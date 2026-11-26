@@ -116,7 +116,7 @@ De module kent vier blokken die aansluiten op de toetsen: analyseren tot Assessm
 | --- | --- | --- | --- | --- |
 | 0 | 14 dec – 6 jan | Zelfstudie | Blok 0: van deel 1 naar ethiek | Beginquiz, practicum 1, beschrijving eigen oplossing |
 | 1 | do 7 jan | **College 1** | Blok 1: wat staat er op het spel? | K1 (zo 10 jan) |
-| 2 | do 14 jan | **College 2: gastspreker en debat** | Blok 1: data-ethiek, bias, uitlegbaarheid en verantwoording | Voorbereiding college 2 (di 12 jan) |
+| 2 | do 14 jan | **College 2: gastspreker en debat** | Blok 1: veiligheid en alignment, AI en werk, verantwoording | Voorbereiding college 2 (di 12 jan) |
 | 3–4 | 15 – 31 jan | Zelfstudie en groepswerk | Blok 1: analyseren met bewijs | Concept K2–K4 (zo 24 jan); practicum 4 |
 | 5 | do 4 feb | **Assessment 1** | Blok 1 afgerond | Tussenrapport en dilemma-canvas |
 | 6–7 | 5 – 24 feb | Zelfstudie en groepswerk | Blok 2: van risico naar ontwerp | Concept maatregelen en Design Review-dia's (di 23 feb) |
@@ -146,16 +146,17 @@ Studenten kennen de basis van AI en machine learning uit A-AI1 en A-DA. Blok 0 f
 | Tijd | Onderdeel |
 | --- | --- |
 | 0:00 tot 0:15 | Terugblik: welke fout van het model is erger, en voor wie? |
-| 0:15 tot 1:00 | Gastspreker met één echte casus, met een aantekenkaart |
-| 1:00 tot 1:20 | Vraaggesprek met door de groepen voorbereide vragen |
-| 1:20 tot 1:30 | Pauze |
-| 1:30 tot 2:10 | Minicollege als verdieping op college 1: bias aantonen in de eigen oplossing (vier stappen, practicum 4), generatieve AI onderzoeken met de Surinaamse deepfakes, privacy in Suriname, verantwoording en menselijke controle |
-| 2:10 tot 2:38 | Debat in Lagerhuisvorm over twee stellingen; halverwege wisselen studenten van kant |
-| 2:38 tot 3:00 | Eigen casus: eerste versie K2 en K3 in het werkboek, ruil met een andere groep, exit ticket |
+| 0:15 tot 0:58 | Gastspreker met één echte casus, met een aantekenkaart |
+| 0:58 tot 1:10 | Vraaggesprek met door de groepen voorbereide vragen |
+| 1:10 tot 1:20 | Pauze |
+| 1:20 tot 1:53 | Minicollege veiligheid en alignment: begrippen en herkomst, misbruik, ongeluk en structuur (Surinaamse deepfakes), robuustheid, alignment en Goodhart (Facebook), specification gaming en reward hacking, de paperclipmaximalisator, RLHF (GPT-4o), wat helpt; werkblok: welk getal stuurt jullie oplossing? |
+| 1:53 tot 2:20 | Minicollege werk, autonomie en economie: begrippen en herkomst, taak, baan of sector, Surinaamse stemmen (callcenters, DSB, Finabank), de tweede kring, de cijfers (IMF, ILO, ILO en Wereldbank), augmentatie die delegatie wordt (Avianca, Horizon), menselijke controle, verantwoording, wie de winst vangt |
+| 2:20 tot 2:42 | Debat in Lagerhuisvorm over twee stellingen (stelling 1: een bank in Suriname en een AI-assistent); halverwege wisselen studenten van kant |
+| 2:42 tot 3:00 | Eigen casus: vijf onderzoeksvragen, eerste versie K2 en K3 in het werkboek, ruil met een andere groep, exit ticket |
 
 ## Blok 1, vervolg. Analyseren met bewijs (15 januari tot en met 4 februari)
 
-Groepen werken K2 tot en met K4, K6 en het plan van aanpak uit, voeren gesprekken met de partner en testen hun eigen oplossing (practicum 4, sterk aanbevolen). Kennispakket 1 bevat de theorie over fouten per groep, uitlegbaarheid en generatieve AI (kaderclip B: IEEE CertifAIEd), het kader in vier lagen (kaderclip A) en risicoklassen (kaderclip C), met zestien praktijkvoorbeelden, waaronder Safe City, de deepfakes van Surinaamse politici, de toeslagenaffaire, SyRI en de e-visumchatbot van BIBIS. Op 24 januari leveren groepen optioneel een concept in; op 25 januari volgt feedforward. Op 4 februari leveren ze Assessment 1 in; op 18 februari volgt schriftelijke feedback.
+Groepen werken K2 tot en met K4, K6 en het plan van aanpak uit, voeren gesprekken met de partner en testen hun eigen oplossing (practicum 4, sterk aanbevolen). Kennispakket 1 bevat de theorie over fouten per groep, uitlegbaarheid en generatieve AI (kaderclip B: IEEE CertifAIEd), het kader in vier lagen (kaderclip A) en risicoklassen (kaderclip C), de kern over veiligheid en alignment en over AI en werk (college 2), met drieëntwintig praktijkvoorbeelden, waaronder Safe City, de deepfakes van Surinaamse politici, de toeslagenaffaire, SyRI, de e-visumchatbot van BIBIS, Facebook, CoastRunners, Mata v. Avianca en de Surinaamse callcenters. Op 24 januari leveren groepen optioneel een concept in; op 25 januari volgt feedforward. Op 4 februari leveren ze Assessment 1 in; op 18 februari volgt schriftelijke feedback.
 
 ## Blok 2. Ontwerpen (5 tot en met 25 februari)
 
@@ -166,7 +167,7 @@ Groepen vertalen hun top 5 risico's naar toetsbare eisen en maatregelen met een 
 | Tijd | Onderdeel |
 | --- | --- |
 | 0:00 tot 0:25 | Feedback op Assessment 1: wat goed ging, wat beter moet, en per groep de belangrijkste actiepunten |
-| 0:25 tot 0:55 | Minicollege: veiligheid en agents die doen wat je vraagt maar niet wat je bedoelt; macht en regelgeving; werk en ongelijkheid; professionele praktijk (beslissen, aankaarten, ethische cultuur) |
+| 0:25 tot 0:55 | Minicollege als verdieping op college 2: veiligheid in het ontwerp (het getal, de bijwerking, de stopknop) en agents; macht en regelgeving; werk in het ontwerp; professionele praktijk (beslissen, aankaarten, ethische cultuur) |
 | 0:55 tot 1:05 | Pauze |
 | 1:05 tot 2:20 | Design Review: elke groep presenteert de maatregelen in hoogstens 8 dia's, met vragen van panel en peers |
 | 2:20 tot 2:50 | Groepen verwerken de feedback en maken een plan naar Assessment 2; monitoring en stopcriterium met de cyclus van ISO/IEC 42001 (kaderclip E) |
@@ -280,7 +281,7 @@ Op de volgende punten ontvang ik graag uw reactie. Een antwoord per nummer is vo
 
 ### Leeromgeving en externe deelnemers
 10. Bevestigt u dat A-ET op MyCampus wordt ingericht volgens de naamgeving 'ICT A-ET'?
-11. Kunt u zich vinden in 45 minuten gastcollege plus 20 minuten vragen tijdens college 2?
+11. Kunt u zich vinden in ongeveer 43 minuten gastcollege plus 12 minuten vragen tijdens college 2?
 12. Mag bij college 3 een externe deskundige aanschuiven als panellid, en is daar een vergoeding voor?
 
 ### Aansluiting op de minor

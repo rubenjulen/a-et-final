@@ -39,6 +39,20 @@ Vanaf de tweede helft van blok 1 werk je vooral met de praktijkcasussen, het cas
 | Amsterdam, Slimme Check (2023 tot 2025) | MIT Technology Review en Lighthouse Reports (juni 2025), ["Inside Amsterdam's high-stakes experiment to create fair welfare AI"](https://www.technologyreview.com/2025/06/11/1118233/amsterdam-fair-welfare-ai-discriminatory-algorithms-failure/) |
 | Suriname, e-visum met AI-chatbot (2025) | Keynews, ["Suriname lanceert nieuwe e-visumapplicatie en AI-chatbot tijdens bewustwordingssessie"](https://keynews.sr/suriname-lanceert-nieuwe-e-visumapplicatie-en-ai-chatbot-tijdens-bewustwordingssessie) |
 
+## Veiligheid, alignment en werk (college 2)
+
+| Onderwerp | Bron |
+| --- | --- |
+| Drie soorten risico | Zwetsloot, R. & Dafoe, A. (2019). [Thinking About Risks From AI: Accidents, Misuse and Structure](https://www.lawfaremedia.org/article/thinking-about-risks-ai-accidents-misuse-and-structure). Lawfare. |
+| Internationaal overzicht | [International AI Safety Report](https://arxiv.org/abs/2501.17805) (januari 2025; tweede editie februari 2026), voorzitter Yoshua Bengio. |
+| Specification gaming | OpenAI (21 december 2016). [Faulty Reward Functions in the Wild](https://openai.com/index/faulty-reward-functions/). DeepMind (21 april 2020). [Specification gaming: the flip side of AI ingenuity](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/). |
+| Alignment in de praktijk | The Wall Street Journal (15 september 2021). [The Facebook Files](https://www.wsj.com/articles/facebook-algorithm-change-zuckerberg-11631654215). OpenAI (29 april 2025). [Sycophancy in GPT-4o](https://openai.com/index/sycophancy-in-gpt-4o/). |
+| Klassiekers | Wiener, N. (1960). Some Moral and Technical Consequences of Automation. *Science* 131. Bostrom, N. (2003). [Ethical Issues in Advanced Artificial Intelligence](https://nickbostrom.com/ethics/ai). Amodei, D. e.a. (2016). [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565). |
+| AI en werk | IMF (14 januari 2024). [AI Will Transform the Global Economy](https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity). ILO (2023). [Generative AI and Jobs](https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and). ILO en Wereldbank (2024). [Buffer or Bottleneck?](https://www.ilo.org/publications/buffer-or-bottleneck-employment-exposure-generative-ai-and-digital-divide) |
+| Augmentatie en delegatie | ABA Journal (juni 2023). [Mata v. Avianca](https://abajournal.com/web/article/lawyers-who-doubled-down-and-defended-chatgpts-fake-cases-must-pay-5k-judge-says). [Post Office Horizon IT Inquiry](https://www.postofficehorizoninquiry.org.uk/volume-1-post-office-horizon-it-inquirys-final-report), eindrapport deel 1 (juli 2025). |
+| Wie vangt de winst? | Acemoglu, D. & Johnson, S. (2023). *Power and Progress.* TIME (18 januari 2023). [OpenAI Used Kenyan Workers on Less Than $2 Per Hour](https://time.com/6247678/openai-chatgpt-kenya-workers/). |
+| Suriname | Dagblad Suriname (19 oktober 2026). [Callcenters onder druk](https://www.dbsuriname.com/2026/10/19/callcenters-onder-druk-kunstmatige-intelligentie-bedreigt-banen-in-suriname/). Suriname Herald (12 november 2026). [Finabank gaat kunstmatige intelligentie inzetten](https://www.srherald.com/suriname/2026/11/12/finabank-gaat-kunstmatige-intelligentie-inzetten-voor-snellere-dienstverlening-en-betere-besluitvorming/). Suriname Herald (19 februari 2026). [Kabinet waarschuwt voor deepfakevideo's](https://www.srherald.com/suriname/2026/02/19/kabinet-waarschuwt-voor-deepfakevideos-president-simons/). |
+
 ## Verdieping toeslagenaffaire (blok 2)
 
 - Parlementaire ondervragingscommissie Kinderopvangtoeslag (2020). *Ongekend onrecht.* Tweede Kamer, 17 december 2020.

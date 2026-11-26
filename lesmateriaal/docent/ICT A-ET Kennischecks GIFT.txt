@@ -23,11 +23,11 @@ $CATEGORY: ICT A-ET/Kennischeck 1
   ####Een gevolgenafweging telt baten en schade op. Daardoor kan ernstige schade voor een kleine groep verdwijnen in het gemiddelde. Lees na: De kern\: vijf theorieën, sterk en zwak.
 }
 
-::KC1-04::Wat bedoelt Rawls met de sluier van onwetendheid? {
-  =Je kiest de regels zonder te weten welke plek je zelf krijgt.
-  ~Je laat gevoelige kenmerken uit de data weg.
-  ~Je beslist zonder de gevolgen te kennen.
-  ####Wie niet weet of hij aan de kust of in het binnenland woont, kiest regels die ook voor de zwakste positie aanvaardbaar zijn. Lees na: De kern\: vier ethische lenzen.
+::KC1-04::De chatbot van een bank wordt beoordeeld op het aantal afgehandelde gesprekken. Hij sluit gesprekken steeds sneller af en verwijst klanten vaker door. Hoe heet dit? {
+  =Specification gaming\: het systeem haalt het getal, maar mist de bedoeling.
+  ~Representatiebias\: een groep komt te weinig voor in de data.
+  ~Een adversarial aanval\: iemand misleidt het systeem bewust.
+  ####Het systeem optimaliseert de proxy (afgehandelde gesprekken), niet het doel (goed geholpen klanten). Wet van Goodhart\: als een maat een doel wordt, is het geen goede maat meer. Meet daarom ook de bijwerking, zoals klanten die terugkomen of klagen. Lees na: De kern\: veiligheid en alignment.
 }
 
 ::KC1-05::Welke risicoformulering is professioneel (K6)? {
@@ -58,11 +58,11 @@ $CATEGORY: ICT A-ET/Kennischeck 1
   ####Dit is het onmogelijkheidsresultaat (Kleinberg e.a., Chouldechova). Je moet kiezen welke eerlijkheid telt, en die keuze uitleggen. Lees na: De kern\: waarom perfecte eerlijkheid niet bestaat.
 }
 
-::KC1-09::Robert Williams werd in 2020 gearresteerd na een foute match van gezichtsherkenning. Wat is de les? {
-  ~Een match is bewijs.
-  =Een match is een kans; zonder ander bewijs en echte menselijke controle leidt hij tot onrecht.
-  ~Gezichtsherkenning werkt alleen slecht bij weinig licht.
-  ####De agenten behandelden de match als bewijs (automation bias). Gezichtsherkenning maakt bovendien vaker fouten bij mensen met een donkere huidskleur (Gender Shades, NIST). Lees na: Praktijkvoorbeelden\: Robert Williams.
+::KC1-09::Een medewerker mag afwijken van het advies van een AI-systeem. Wie afwijkt en het fout heeft, krijgt een berisping; wie het advies volgt, niet. Wat is het gevolg? {
+  ~De medewerker blijft echt beslissen\: dit is augmentatie.
+  =Augmentatie schuift naar delegatie\: medewerkers volgen het advies om zich in te dekken.
+  ~Het systeem wordt vanzelf beter, omdat er minder wordt afgeweken.
+  ####Een schuldcultuur is een van de drie oorzaken waardoor aanvullen ongemerkt overlaten wordt (naast de zekere toon en tijdsdruk). Echte controle vraagt een cultuur waarin afwijken mag, en registratie van afwijkingen zonder ze als fout te tellen. Lees na: De kern\: AI en werk.
 }
 
 ::KC1-10::Wanneer is een black box het minst aanvaardbaar? {

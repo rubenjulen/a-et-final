@@ -26,11 +26,11 @@ Dit is de docentversie van de drie kennischecks, met de juiste antwoorden en de 
     - C. Zorgethiek: moeilijk op grote schaal.
     - *Juist: A.* Een gevolgenafweging telt baten en schade op. Daardoor kan ernstige schade voor een kleine groep verdwijnen in het gemiddelde. *Lees na:* De kern: vijf theorieën, sterk en zwak.
 
-4. **Wat bedoelt Rawls met de sluier van onwetendheid?**
-    - A. Je kiest de regels zonder te weten welke plek je zelf krijgt.
-    - B. Je laat gevoelige kenmerken uit de data weg.
-    - C. Je beslist zonder de gevolgen te kennen.
-    - *Juist: A.* Wie niet weet of hij aan de kust of in het binnenland woont, kiest regels die ook voor de zwakste positie aanvaardbaar zijn. *Lees na:* De kern: vier ethische lenzen.
+4. **De chatbot van een bank wordt beoordeeld op het aantal afgehandelde gesprekken. Hij sluit gesprekken steeds sneller af en verwijst klanten vaker door. Hoe heet dit?**
+    - A. Specification gaming: het systeem haalt het getal, maar mist de bedoeling.
+    - B. Representatiebias: een groep komt te weinig voor in de data.
+    - C. Een adversarial aanval: iemand misleidt het systeem bewust.
+    - *Juist: A.* Het systeem optimaliseert de proxy (afgehandelde gesprekken), niet het doel (goed geholpen klanten). Wet van Goodhart: als een maat een doel wordt, is het geen goede maat meer. Meet daarom ook de bijwerking, zoals klanten die terugkomen of klagen. *Lees na:* De kern: veiligheid en alignment.
 
 5. **Welke risicoformulering is professioneel (K6)?**
     - A. Het model kan bias hebben.
@@ -56,11 +56,11 @@ Dit is de docentversie van de drie kennischecks, met de juiste antwoorden en de 
     - C. Omdat de wet dat verbiedt.
     - *Juist: B.* Dit is het onmogelijkheidsresultaat (Kleinberg e.a., Chouldechova). Je moet kiezen welke eerlijkheid telt, en die keuze uitleggen. *Lees na:* De kern: waarom perfecte eerlijkheid niet bestaat.
 
-9. **Robert Williams werd in 2020 gearresteerd na een foute match van gezichtsherkenning. Wat is de les?**
-    - A. Een match is bewijs.
-    - B. Een match is een kans; zonder ander bewijs en echte menselijke controle leidt hij tot onrecht.
-    - C. Gezichtsherkenning werkt alleen slecht bij weinig licht.
-    - *Juist: B.* De agenten behandelden de match als bewijs (automation bias). Gezichtsherkenning maakt bovendien vaker fouten bij mensen met een donkere huidskleur (Gender Shades, NIST). *Lees na:* Praktijkvoorbeelden: Robert Williams.
+9. **Een medewerker mag afwijken van het advies van een AI-systeem. Wie afwijkt en het fout heeft, krijgt een berisping; wie het advies volgt, niet. Wat is het gevolg?**
+    - A. De medewerker blijft echt beslissen: dit is augmentatie.
+    - B. Augmentatie schuift naar delegatie: medewerkers volgen het advies om zich in te dekken.
+    - C. Het systeem wordt vanzelf beter, omdat er minder wordt afgeweken.
+    - *Juist: B.* Een schuldcultuur is een van de drie oorzaken waardoor aanvullen ongemerkt overlaten wordt (naast de zekere toon en tijdsdruk). Echte controle vraagt een cultuur waarin afwijken mag, en registratie van afwijkingen zonder ze als fout te tellen. *Lees na:* De kern: AI en werk.
 
 10. **Wanneer is een black box het minst aanvaardbaar?**
     - A. Bij muziekaanbevelingen.
@@ -70,7 +70,7 @@ Dit is de docentversie van de drie kennischecks, met de juiste antwoorden en de 
 
 **Standpunt.** *"Als de mensen om wie het gaat niet zijn gehoord, is een AI-oplossing niet verantwoord, hoe goed die ook werkt."* Eens of oneens? Hoogstens 100 woorden, met één argument met bron en één tegenargument dat je serieus neemt.
 
-**Oefenstellingen** (staan in het kennispakket, niet in de kennischeck): *"Organisaties in Suriname moeten wachten met AI voor beslissingen over mensen totdat er een privacywet is."* · *"Een organisatie mag een chatbot namens een medewerker laten antwoorden, zolang de klant geen verschil merkt."* · *"Een bank mag een model gebruiken dat nauwkeuriger is dan medewerkers, ook als het één groep vaker onterecht afwijst."*
+**Oefenstellingen** (staan in het kennispakket, niet in de kennischeck): *"Een bank in Suriname mag het klantcontact volledig aan een AI-assistent overlaten, als klanten daardoor sneller geholpen worden."* · *"Organisaties in Suriname moeten wachten met AI voor beslissingen over mensen totdat er een privacywet is."* · *"Een organisatie mag een chatbot namens een medewerker laten antwoorden, zolang de klant geen verschil merkt."* · *"Een bank mag een model gebruiken dat nauwkeuriger is dan medewerkers, ook als het één groep vaker onterecht afwijst."*
 
 ## Kennischeck 2 · Blok 2 Ontwerpen
 

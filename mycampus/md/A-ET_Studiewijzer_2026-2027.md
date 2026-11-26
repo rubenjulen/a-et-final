@@ -170,7 +170,7 @@ De omvang is bewust begrensd: de nulmeting scoort alle 11 domeinen kort en werkt
 | --- | --- | --- | --- | --- |
 | 0 | 14 dec – 6 jan | Zelfstudie | Blok 0: van deel 1 naar ethiek | Beginquiz, practicum 1, beschrijving eigen oplossing |
 | 1 | do 7 jan | **College 1** | Blok 1: wat staat er op het spel? | K1 (zo 10 jan) |
-| 2 | do 14 jan | **College 2** | Blok 1: data-ethiek, bias, uitlegbaarheid en verantwoording | Voorbereiding college 2 (di 12 jan) |
+| 2 | do 14 jan | **College 2** | Blok 1: veiligheid en alignment, AI en werk, verantwoording | Voorbereiding college 2 (di 12 jan) |
 | 3–4 | 15 – 31 jan | Zelfstudie en groepswerk | Blok 1: analyseren met bewijs | Concept K2–K4 (zo 24 jan, optioneel); practicum 4 |
 | 5 | do 4 feb | **Assessment 1** | Blok 1 afgerond | Tussenrapport en dilemma-canvas |
 | 6–7 | 5 – 24 feb | Zelfstudie en groepswerk | Blok 2: van risico naar ontwerp | Concept maatregelen en Design Review-dia's (di 23 feb) |
@@ -191,9 +191,10 @@ De omvang is bewust begrensd: de nulmeting scoort alle 11 domeinen kort en werkt
 
 - Terugblik: welke fout van een model is erger, en voor wie?
 - Een gastspreker vertelt over één echte casus. Daarna stel je de vragen die je groep heeft voorbereid.
-- Minicollege als verdieping op college 1: bias aantonen in je eigen oplossing, generatieve AI onderzoeken (met de Surinaamse deepfakes), privacy in Suriname, verantwoording en menselijke controle.
+- Minicollege veiligheid en alignment: misbruik, ongeluk en structuur (met de Surinaamse deepfakes), robuustheid, alignment en de wet van Goodhart, specification gaming en reward hacking, en hoe chatbots leren van menselijke voorkeuren.
+- Minicollege werk, autonomie en economie: taak, baan of sector, augmentatie die ongemerkt delegatie wordt, menselijke controle en verantwoording, en wie de winst van AI vangt, met Surinaamse voorbeelden (callcenters, banken).
 - Debat in Lagerhuisvorm over twee stellingen; halverwege wissel je van kant.
-- Je vertaalt het naar jullie eigen casus: de eerste versie van K2 en K3, en een plan voor bewijs en gesprekken met de partner.
+- Je vertaalt het naar jullie eigen casus met vijf onderzoeksvragen: de eerste versie van K2 en K3, en een plan voor bewijs en gesprekken met de partner.
 
 ### College 3 · Van analyse naar verantwoord ontwerp (donderdag 25 februari)
 

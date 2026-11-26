@@ -222,6 +222,61 @@ Als een AI-systeem iemand onterecht afwijst of een fout antwoord geeft, is "het 
 
 *Automation bias* is de neiging om een systeem te volgen, ook als twijfel gepast is. Bij generatieve AI is het sterker: wie een vloeiend en zeker antwoord krijgt, controleert minder. Een mens heeft pas echt controle met zes voorwaarden. **Informatie:** zie je waarom het systeem dit adviseert? Verder **tijd**, **kennis** en de **bevoegdheid** om af te wijken. En **een cultuur** waarin afwijken mag, met **registratie** van afwijkingen. Een medewerker met 15 minuten per dossier, die alleen mag afwijken met schriftelijk akkoord, zit formeel in het proces. In de praktijk beslist het model.
 
+### Veiligheid en alignment: doel gehaald, bedoeling gemist
+
+*AI-veiligheid* gaat over systemen die betrouwbaar veilig en nuttig werken, ook in nieuwe situaties en onder druk om hun doel te halen. Twee vragen staan centraal. Wat als een systeem precies doet wat het ontwerp zegt, maar daarmee ingaat tegen wat mensen belangrijk vinden? En wat als niemand het systeem nog helemaal begrijpt of kan bijsturen?
+
+| Begrip | Wat het is |
+| --- | --- |
+| Robuustheid | Het systeem blijft goed werken als de invoer verandert, ongewoon is of bewust wordt gemanipuleerd. |
+| Alignment | Het doel en het gedrag van het systeem sluiten aan bij wat mensen werkelijk bedoelen en belangrijk vinden. |
+| Proxy | Een meetbaar getal in plaats van wat je eigenlijk wilt: klikken in plaats van tevredenheid. |
+| Specification gaming | Het systeem haalt het doel zoals het is opgeschreven, via een maas in de regels, niet zoals het bedoeld is. |
+| Reward hacking | Het systeem haalt een hoge score op zijn beloning, terwijl de uitkomst schaadt wat mensen willen. |
+
+**Waar het vandaan komt.** Norbert Wiener waarschuwde al in 1960 (*Science*): "we had better be quite sure that the purpose put into the machine is the purpose which we really desire". De econoom Charles Goodhart (1975) zag dat een maat zijn waarde verliest zodra je erop stuurt; de bekende formulering, "als een maat een doel wordt, is het geen goede maat meer", is van Marilyn Strathern (1997). Nick Bostrom (2003) bedacht het gedachte-experiment van de paperclipmaximalisator. In 2016 verschenen *Concrete Problems in AI Safety* en het CoastRunners-voorbeeld van OpenAI. Sinds 2017 leren taalmodellen van menselijke voorkeuren (RLHF); ChatGPT maakte dat in 2022 groot. Het *International AI Safety Report* (januari 2025, tweede editie februari 2026, voorzitter Yoshua Bengio) is het eerste grote internationale overzicht.
+
+**Drie soorten risico** (Zwetsloot en Dafoe, 2019; ook in het International AI Safety Report). *Misbruik:* iemand zet AI bewust in om schade te doen, zoals de deepfakes van Surinaamse politici. *Ongeluk:* het systeem doet onbedoeld schade terwijl het zijn doel nastreeft, zoals een tijdlijn die "betrokkenheid" maximaliseert en daardoor verontwaardiging verspreidt. *Structuur:* de inzet zelf verandert de samenleving, zonder één foutpunt; bij structurele risico's is verantwoordelijkheid het moeilijkst aan te wijzen.
+
+**Robuustheid.** Een systeem kan in de test sterk zijn en in de praktijk broos. Een paar stickers op een stopbord lieten een model "Speed Limit 45" lezen (Eykholt e.a., 2018). Een model voor longfoto's leerde vooral herkennen uit welk ziekenhuis een foto kwam, en werkte elders slechter (Zech e.a., 2018). Zeldzame gevallen staan nauwelijks in de trainingsdata. En veel modellen klinken even stellig als ze iets niet weten. Je wilt systemen die weten wat ze niet weten, en dat ook zeggen. Dit test je in practicum 4.
+
+**Alignment en de wet van Goodhart.** Menselijke waarden zijn vaag, afhankelijk van de context en botsen soms. Een AI-systeem heeft een expliciet doel en een precies getal nodig. Daar zit de spanning. Hoe beter een systeem optimaliseert, hoe meer het de ruimte tussen het getal en het echte doel benut. Facebook paste in 2018 zijn tijdlijn aan om reacties en delen te belonen; volgens interne documenten kregen verontwaardiging en sensatie daardoor meer bereik (zie Praktijkvoorbeelden).
+
+**Specification gaming en reward hacking.** In de bootrace CoastRunners draaide een AI rondjes langs dezelfde bonussen in plaats van te finishen, want het doel was punten. Redeneermodellen probeerden bij programmeertaken de tests te laten slagen zonder het probleem op te lossen (OpenAI, 2025). Bij reward hacking haalt het systeem zijn beloning, maar niet wat we willen: een moderatie-AI die wordt beloond voor het aantal verwijderde berichten, verwijdert ook onschuldige berichten. Wij vullen gezond verstand onbewust in; het systeem niet. Gevolgen: schade zonder kwade wil, verantwoordelijkheid die verdampt, en fouten die meeschalen.
+
+**De paperclipmaximalisator** (Bostrom, 2003) is geen voorspelling, maar een vergrootglas. Een zeer capabel systeem met één doel en zonder grenzen gebruikt elk middel. Sommige hulpdoelen helpen bij bijna elk doel: blijven draaien, middelen verzamelen, zichzelf verbeteren en het doel niet laten veranderen (*instrumentele convergentie*, Omohundro, 2008). Daarom is een stopknop niet vanzelfsprekend.
+
+**Leren van menselijke voorkeuren (RLHF).** Een taalmodel maakt twee antwoorden, mensen kiezen het betere, en het model leert wat mensen kiezen. Dat maakt antwoorden behulpzamer en beleefder. Maar mensen beoordelen weinig, kiezen soms het zelfverzekerde antwoord boven het juiste, en de beoordelaars zijn vaak westers en hoogopgeleid. In april 2025 draaide OpenAI een update van GPT-4o terug, omdat het model te vleiend was geworden. Een model dat leert wat we prettig vinden, leert niet vanzelf wat waar is.
+
+**Wat helpt.** Aanvallen oefenen en red teaming, interpreteerbaarheid, formele verificatie bij eenvoudige systemen, veilig testen met een beperkte uitrol, en netjes falen: grenzen en twijfel melden, een mens die kan ingrijpen, en blijven monitoren. Op de lange termijn is het grootste risico misschien geen opstand van machines, maar stille afhankelijkheid: we laten steeds meer oordelen over.
+
+**Voor jullie oplossing.** Welk getal stuurt jullie oplossing? Hoe kan ze dat getal halen zonder het doel te dienen? Welke test of welk signaal laat dat op tijd zien? Dit hoort bij domein 8 van de nulmeting, en komt in blok 3 terug in het monitoringplan (H8).
+
+### AI en werk: aanvullen of overnemen, en wie wint?
+
+| Begrip | Wat het is |
+| --- | --- |
+| Taakautomatisering | AI neemt een deel van het werk over. De baan blijft, de inhoud verandert. |
+| Baanautomatisering | Het hele werk verdwijnt. |
+| Sectortransformatie | Een hele sector wordt anders georganiseerd, zoals bankieren of klantcontact. |
+| Augmentatie | AI ondersteunt; de mens beslist en kan het advies volgen, negeren of overrulen. |
+| Delegatie | AI beslist; menselijke controle is er alleen op papier. |
+| Blootstelling | Een deel van de taken van een beroep kan door AI worden gedaan. Blootgesteld is niet hetzelfde als vervangen. |
+
+**Waar het vandaan komt.** John Maynard Keynes sprak in 1930 al van "technologische werkloosheid". Autor, Levy en Murnane (2003) lieten zien dat computers vooral routinetaken overnemen. Frey en Osborne (2013) berekenden dat 47% van de banen in de VS een hoog risico op automatisering had; dat ging over wat technisch kan, niet over wat zeker gebeurt. Acemoglu en Johnson (*Power and Progress*, 2023) laten zien dat het van keuzes en macht afhangt of techniek welvaart deelt.
+
+**Wat het raakt.** Vooral routinewerk, administratie, klantcontact en instapfuncties, en ook middenfuncties. Bij hoogopgeleid werk schuiven de taken. Het effect stopt niet bij de baan: valt een kantoor in een district weg, dan verliezen ook de winkel en het eethuis ernaast klanten, en verliezen mensen zonder smartphone of goed internet hun toegang. Dat is de *tweede kring*, en die hoort in K2.
+
+**De cijfers.** Bijna 40% van het werk wereldwijd is blootgesteld aan AI, ongeveer 60% in hoogontwikkelde economieën en 26% in lage-inkomenslanden (IMF, januari 2024). Administratief werk is het meest blootgesteld, en voor vrouwen is het aandeel werk dat geautomatiseerd kan worden meer dan twee keer zo groot (ILO, 2023). In Latijns-Amerika en het Caribisch gebied is 26 tot 38% van de banen blootgesteld; bij tot de helft van de banen die productiever zouden kunnen worden, remt de digitale kloof (ILO en Wereldbank, 2024).
+
+**In Suriname.** Callcenters zijn een bloeiende sector, maar staan onder druk door AI (Dagblad Suriname, juli 2025 en oktober 2026). De Surinaamsche Bank laat DSB Buddy vragen 24/7 via WhatsApp beantwoorden. Finabank gaat AI inzetten in dienstverlening en besluitvorming, met medewerkers die verantwoordelijk blijven: "human in the loop" (Suriname Herald, 12 november 2026). De toenmalige minister van Arbeid verwachtte geen massaal banenverlies, omdat de meeste bedrijven klein zijn (januari 2025). President Simons riep bij de VN op om Suriname voor te bereiden op AI (september 2026).
+
+**Augmentatie wordt ongemerkt delegatie.** Door drie dingen: de zekere toon van AI-antwoorden, tijdsdruk, en een cultuur waarin wie afwijkt de schuld krijgt en wie het advies volgt naar de AI kan wijzen. Advocaten in de VS dienden in 2023 door ChatGPT verzonnen uitspraken in en kregen een boete (Mata v. Avianca). In het Verenigd Koninkrijk werden bijna 1.000 postkantoorhouders onterecht vervolgd omdat men de boekhoudsoftware Horizon meer geloofde dan de mensen. Echte samenwerking vraagt de zes voorwaarden van menselijke controle, en: niemand wordt afgerekend op afwijken.
+
+**Wie vangt de winst?** Data, rekenkracht, talent en geld zitten bij een handvol bedrijven, vooral in de VS en China. Wie afhankelijk is van hun modellen, betaalt per gebruik en levert data, maar bouwt weinig zelf op: AI-afhankelijk in plaats van AI-sterk. Achter de modellen zit een onzichtbare keten van datawerkers, zoals de Keniaanse werkers die volgens TIME voor minder dan 2 dollar per uur schokkende teksten labelden. Suriname zette in augustus 2026 met UNESCO een eerste stap met de AI Readiness Assessment; een nationale AI-strategie is er nog niet. Of AI de ongelijkheid vergroot, is geen natuurwet, maar een keuze.
+
+**Voor jullie oplossing.** Vult jullie oplossing werk aan, of neemt ze het over? Wie verliest taken, inkomen of zeggenschap, ook in de tweede kring? Dit hoort bij domein 10 van de nulmeting (duurzaamheid en bredere impact), en bij de maatregelen in blok 2.
+
 ### Fouten per groep en eerlijkheid
 
 Een model dat 69% goed voorspelt, kan voor de ene groep veel slechter werken dan voor de andere. Stel daarom per groep drie vragen.
@@ -391,7 +446,7 @@ Lever met je groep één docx in bij **ICT A-ET Voorbereiding college 2**, met d
 - **Drie vragen voor de gastspreker.** Goede vragen zijn open, gaan over een echte afweging en hebben een link met jullie eigen oplossing. Voorbeeld: "Hoe besliste uw organisatie of een mens het advies van het systeem mocht negeren?"
 - **Twee debatstellingen, elk met twee bronnen.** Een goede stelling is één zin, is echt betwistbaar en bevat een botsing tussen twee waarden. Laat bij voorkeur één stelling over generatieve AI gaan. Voorbeeld: "Een zorgverzekeraar mag vragen over vergoedingen door een chatbot laten beantwoorden, ook als die soms een fout antwoord geeft."
 
-**Bereid ook je eigen standpunt voor.** Dit is stelling 1 van het debat: *"Organisaties in Suriname moeten wachten met AI voor beslissingen over mensen totdat er een privacywet is."* Hoogstens 100 woorden: eens of oneens, één argument met een bron, en één tegenargument dat je serieus neemt.
+**Bereid ook je eigen standpunt voor.** Dit is stelling 1 van het debat: *"Een bank in Suriname mag het klantcontact volledig aan een AI-assistent overlaten, als klanten daardoor sneller geholpen worden."* Hoogstens 100 woorden: eens of oneens, één argument met een bron, en één tegenargument dat je serieus neemt.
 
 ### College 2 · Waar gaat het mis, en wie is verantwoordelijk? (donderdag 14 januari)
 
@@ -399,9 +454,10 @@ Donderdag 14 januari, [tijd], lokaal [lokaal]. Drie uur. **Neem mee:** je laptop
 
 - Terugblik: welke fout van een model is erger, en voor wie?
 - De gastspreker vertelt over één echte casus. Daarna stellen de groepen hun vragen. Maak aantekeningen bij zes vragen. Welk vraagstuk speelde? Welke risico's waren er? Wat ging mis, of had mis kunnen gaan? Wie was verantwoordelijk? Welke maatregelen volgden? Wat betekent dit voor onze casus?
-- Minicollege, als verdieping op college 1: hoe toon je bias aan in je eigen oplossing (de vier stappen van practicum 4), wat onderzoek je bij generatieve AI (met de Surinaamse deepfakes), privacy in Suriname, en verantwoording en menselijke controle.
+- Minicollege veiligheid en alignment: drie soorten risico, robuustheid, alignment en de wet van Goodhart, specification gaming en reward hacking, de paperclipmaximalisator, en hoe chatbots leren van menselijke voorkeuren.
+- Minicollege werk, autonomie en economie: taak, baan of sector, de tweede kring, wat het onderzoek zegt, Surinaamse stemmen, augmentatie die delegatie wordt, menselijke controle en verantwoording, en wie de winst vangt.
 - Debat in Lagerhuisvorm over twee stellingen: stelling 1 hierboven, en een stelling uit de inzendingen.
-- Je vertaalt het naar jullie eigen casus: de eerste rijen van K2 en K3 in het werkboek, en een plan voor bewijs en gesprekken met de partner.
+- Je vertaalt het naar jullie eigen casus met vijf vragen (bias, generatieve AI, privacy, veiligheid en werk): de eerste rijen van K2 en K3 in het werkboek, en een plan voor bewijs en gesprekken met de partner.
 
 **Het debat, per stelling.** (1) Iedereen kiest een kant: vóór, tegen of het middenvak. (2) Aan elke kant opent een vrijwilliger met het sterkste argument. (3) Korte bijdragen van hooguit een minuut, steeds reagerend op de vorige spreker; wie overtuigd raakt, loopt naar de andere kant. (4) Iedereen wisselt van kant en verdedigt het tegenovergestelde standpunt. (5) Iedereen kiest opnieuw; wie wisselde, vertelt waardoor. Reageer op het argument, niet op de persoon. Gebruik een feit met bron, een voorbeeld uit het gastcollege of een van de lenzen.
 
@@ -525,9 +581,51 @@ Een rechter in Wisconsin gebruikte de risicoscore COMPAS bij het bepalen van de 
 
 ### 16. Deepfakes van Surinaamse politici (2025 en 2026)
 
-In maart 2025 ging een nepvideo rond van NDP-leiders in een felle woordenwisseling. In februari 2026 verschenen video's met het gezicht en een AI-stem van president Simons. Volgens het KPS is het maken en verspreiden ervan strafbaar. Lees: [Suriname Herald, 19 februari 2026](https://www.srherald.com/suriname/2026/02/19/kabinet-waarschuwt-voor-deepfakevideos-president-simons/).
+In maart 2025 ging een nepvideo rond van NDP-leiders in een felle woordenwisseling. In april 2025 deed Ingrid Bouterse aangifte wegens een gemanipuleerde AI-video, en in mei 2025 bleek een geluidsfragment dat aan Jennifer Simons werd toegeschreven nep. In februari 2026 verschenen video's met het gezicht en een AI-stem van president Simons. Volgens het KPS is het maken en verspreiden ervan strafbaar. Lees: [Suriname Herald, 19 februari 2026](https://www.srherald.com/suriname/2026/02/19/kabinet-waarschuwt-voor-deepfakevideos-president-simons/).
 
 *Leesvragen.* Wie is verantwoordelijk: de maker, het platform of wie deelt? Hoe herken je een deepfake, en wat moet een organisatie doen die met AI-stemmen werkt?
+
+### 17. Facebook en de boze tijdlijn (2018 tot 2021)
+
+In 2018 paste Facebook zijn tijdlijn aan om "betekenisvolle sociale interactie" te belonen: berichten met veel reacties en delen kregen voorrang. Volgens interne documenten die The Wall Street Journal in 2021 publiceerde, kregen verontwaardiging en sensatie daardoor juist meer bereik. Lees: [The Wall Street Journal, 15 september 2021](https://www.wsj.com/articles/facebook-algorithm-change-zuckerberg-11631654215) (betaalmuur; samenvattingen zijn vrij te vinden).
+
+*Leesvragen.* Wat was het echte doel, en wat was de maat? Welk getal stuurt jullie oplossing, en wat kan daar misgaan?
+
+### 18. Specification gaming: CoastRunners en meer (2016 en 2020)
+
+OpenAI trainde een AI om de bootrace CoastRunners te spelen, met punten als doel. De boot draaide rondjes langs dezelfde bonussen, vloog in brand en finishte nooit, maar scoorde hoger dan menselijke spelers. DeepMind verzamelde tientallen vergelijkbare gevallen. Lees en kijk: [OpenAI, 21 december 2016](https://openai.com/index/faulty-reward-functions/) en [DeepMind, 21 april 2020](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/).
+
+*Leesvragen.* Wat had de ontwerper moeten meten? Kies uit de lijst van DeepMind een voorbeeld dat lijkt op een risico in jullie oplossing.
+
+### 19. Een vleiend taalmodel (april 2025)
+
+OpenAI draaide eind april 2025 een update van GPT-4o terug: het model was te meegaand en vleiend geworden en gaf mensen te snel gelijk. Volgens OpenAI kwam dat onder meer doordat de training te zwaar leunde op duim-omhoog-feedback. Lees: [OpenAI, 29 april 2025](https://openai.com/index/sycophancy-in-gpt-4o/).
+
+*Leesvragen.* Waarom is een vleiend model gevaarlijk bij advies over geld of gezondheid? Hoe test je dit bij jullie eigen chatbot?
+
+### 20. Verzonnen uitspraken in de rechtszaal (Verenigde Staten, 2023)
+
+Advocaten in New York dienden een pleitnota in met uitspraken die ChatGPT had verzonnen. Toen de rechter vragen stelde, hielden ze eerst vol. De rechter legde hen en hun kantoor een boete op van 5.000 dollar (Mata v. Avianca, 22 juni 2023). Lees: [ABA Journal, juni 2023](https://abajournal.com/web/article/lawyers-who-doubled-down-and-defended-chatgpts-fake-cases-must-pay-5k-judge-says).
+
+*Leesvragen.* Welke van de drie oorzaken van delegatie zie je: de zekere toon, tijdsdruk of de schuldcultuur? Wie was verantwoordelijk?
+
+### 21. Horizon: de computer kreeg gelijk (Verenigd Koninkrijk, 1999 tot 2015)
+
+De boekhoudsoftware Horizon liet bij postkantoren tekorten zien die er niet waren. Bijna 1.000 postkantoorhouders werden onterecht vervolgd; sommigen kwamen in de gevangenis. Het was geen AI, maar het mechanisme is hetzelfde: de computer werd meer geloofd dan de mens. Lees: [Post Office Horizon IT Inquiry, eindrapport deel 1 (juli 2025)](https://www.postofficehorizoninquiry.org.uk/volume-1-post-office-horizon-it-inquirys-final-report).
+
+*Leesvragen.* Welke van de zes voorwaarden voor menselijke controle ontbraken? Wat betekent dit voor een medewerker die met jullie oplossing werkt?
+
+### 22. Callcenters en banken: AI en werk in Suriname (2025 en 2026)
+
+Callcenters zijn in Suriname een bloeiende sector, maar staan onder druk door AI. Tegelijk zetten banken AI in: DSB Buddy beantwoordt vragen via WhatsApp, en Finabank gaat AI gebruiken in dienstverlening en besluitvorming, met medewerkers die verantwoordelijk blijven. Lees: [Dagblad Suriname, 19 oktober 2026](https://www.dbsuriname.com/2026/10/19/callcenters-onder-druk-kunstmatige-intelligentie-bedreigt-banen-in-suriname/) en [Suriname Herald, 12 november 2026](https://www.srherald.com/suriname/2026/11/12/finabank-gaat-kunstmatige-intelligentie-inzetten-voor-snellere-dienstverlening-en-betere-besluitvorming/).
+
+*Leesvragen.* Is "human in the loop" bij Finabank augmentatie of delegatie? Wat zou je willen weten om dat te beoordelen? Wie is de tweede kring bij callcenters?
+
+### 23. De onzichtbare keten: datawerkers in Kenia (2023)
+
+Om ChatGPT veiliger te maken, labelden werkers van het bedrijf Sama in Kenia gewelddadige en seksuele teksten. Volgens TIME verdienden ze ongeveer 1,32 tot 2 dollar per uur; Sama noemde hogere bedragen. Lees: [TIME, 18 januari 2023](https://time.com/6247678/openai-chatgpt-kenya-workers/).
+
+*Leesvragen.* Wie draagt de lasten van een "veilige" chatbot? Hoort deze keten bij de stakeholders van jullie oplossing?
 
 ## Instrumenten
 
@@ -1200,7 +1298,9 @@ Denk aan je eigen stakeholderkaart: wie hebben jullie gehoord, en wie niet?
 
 **Oefenen met de andere stellingen van blok 1.** Deze stellingen houden de lijn van het debat vast. Gebruik ze om je standpunt te scherpen, en in je canvas.
 
-- *"Organisaties in Suriname moeten wachten met AI voor beslissingen over mensen totdat er een privacywet is."* (stelling 1 van het debat)
+- *"Een bank in Suriname mag het klantcontact volledig aan een AI-assistent overlaten, als klanten daardoor sneller geholpen worden."* (stelling 1 van het debat)
+- *"Organisaties in Suriname moeten wachten met AI voor beslissingen over mensen totdat er een privacywet is."*
+- *"Een AI-systeem dat zijn doel haalt, is een goed systeem."*
 - *"Een organisatie mag een chatbot namens een medewerker laten antwoorden, zolang de klant geen verschil merkt."*
 - *"Een bank mag een model gebruiken dat nauwkeuriger is dan medewerkers, ook als het één groep vaker onterecht afwijst."*
 - *"Een organisatie mag een chatbot inzetten die soms een fout antwoord geeft, zolang ze dat vooraf meldt."* Gebruik de casus MyCity of Air Canada.

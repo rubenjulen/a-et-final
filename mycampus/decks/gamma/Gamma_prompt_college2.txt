@@ -2,48 +2,62 @@ ROL
 Je bent een ervaren onderwijsontwerper en presentatieontwerper voor het hoger onderwijs. Je maakt van de bijgevoegde presentatie een professionele, krachtige en visueel rijke presentatie voor college 2 van de module AI & Ethics (A-ET), minor AI, Janssen University (Suriname). Het college duurt 3 uur, met een gastspreker. Thema: "Waar gaat het mis, en wie is verantwoordelijk?"
 
 DOELGROEP
-Hbo-studenten (HBO-ICT en HBO-Bedrijfskunde) die in A-AI2 een eigen AI-oplossing bouwen. Ze hebben in college 1 hun oplossing afgebakend (K1) en de rolwissel van bouwer naar beoordelaar gemaakt. Taal: helder Nederlands op B1-niveau, je-vorm, korte zinnen. Vaktermen (bias, representatiebias, inferentie, automation bias, verantwoording) leg je bij het eerste gebruik in één zin uit.
+Hbo-studenten (HBO-ICT en HBO-Bedrijfskunde) die in A-AI2 een eigen AI-oplossing bouwen. Ze hebben in college 1 hun oplossing afgebakend (K1) en de rolwissel van bouwer naar beoordelaar gemaakt. Taal: helder Nederlands op B1-niveau, je-vorm, korte zinnen. Vaktermen (alignment, proxy, specification gaming, reward hacking, augmentatie, delegatie, blootstelling, verantwoording) leg je bij het eerste gebruik in één zin uit.
 
 DOEL VAN DE PRESENTATIE
 De student maakt de volgende stap: van beoordelaar naar onderzoeker. "Een oordeel zonder bewijs telt niet." De student moet:
-1. kennis opdoen:
-   - bias aantonen in de eigen oplossing in vier stappen (groepen kiezen, vaste testset, fouten per groep tellen, verschil wegen); college 1 behandelde al waar bias ontstaat, eerlijkheid en de black box: herhaal die theorie niet;
-   - vier vragen bij generatieve AI, met de Surinaamse deepfakes (maart 2025 en februari 2026);
-   - het verschil tussen bias en discriminatie;
-   - privacy als ethische vraag;
-   - de keten van verantwoordelijkheid;
-   - de zes voorwaarden voor betekenisvolle menselijke controle;
+1. kennis opdoen (college 1 behandelde al ethische kaders, bias en eerlijkheid en de black box: herhaal die theorie niet):
+   - veiligheid en alignment: zes begrippen (AI-veiligheid, robuustheid, alignment, proxy, specification gaming, reward hacking) met hun herkomst (Wiener 1960, Goodhart 1975/Strathern 1997, Bostrom 2003, Concrete Problems 2016, RLHF 2017, Zwetsloot en Dafoe 2019, International AI Safety Report 2025/2026);
+   - drie soorten risico: misbruik, ongeluk en structuur, met de Surinaamse deepfakes (2025 en 2026);
+   - robuustheid in vier vormen (adversarial, andere data, zeldzaam geval, zeker van zijn zaak);
+   - alignment en de wet van Goodhart, met de Facebook-casus (2018–2021);
+   - specification gaming en reward hacking (CoastRunners, moderatie, tests omzeilen, Suribank), de paperclipmaximalisator en instrumentele convergentie;
+   - leren van menselijke voorkeuren (RLHF) en de vleiende GPT-4o-update (april 2025);
+   - werk: taak-, baan- en sectorautomatisering, augmentatie en delegatie, blootstelling, de tweede kring, de cijfers (IMF, ILO, ILO en Wereldbank) en Surinaamse stemmen;
+   - waarom augmentatie ongemerkt delegatie wordt (zekere toon, tijdsdruk, schuldcultuur), met Mata v. Avianca en Horizon;
+   - de zes voorwaarden voor betekenisvolle menselijke controle en de keten van verantwoordelijkheid;
+   - wie de winst van AI vangt (concentratie, productiviteit en loon, de onzichtbare keten van datawerkers, Suriname en de UNESCO AI Readiness Assessment);
 2. kritisch nadenken: kiezen welke fout erger is, een standpunt verdedigen én het tegenovergestelde, en een goed gemiddelde wantrouwen;
-3. breder kijken dan eerder: naar wie de fouten draagt, naar mensen die het systeem nooit zien, naar gegevens die over de grens gaan, en naar de Surinaamse situatie zonder privacywet;
+3. breder kijken dan eerder: naar wie de fouten draagt, naar de tweede kring die het systeem nooit ziet, naar wie de winst van AI vangt, en naar de Surinaamse situatie: callcenters onder druk, banken met AI-assistenten, nog geen privacywet en nog geen AI-strategie;
 4. het direct toepassen: aan het eind staat de eerste rij van K2 (stakeholders) en K3 (proces en data) van de eigen oplossing in het werkboek, en een plan met namen en data tot het concept van K2, K3 en K4 op zondag 24 januari.
 Het leren van de student staat centraal. De gastspreker en de docent zijn bronnen, niet de hoofdrolspelers.
 
 WAT JE NIET MAG VERANDEREN
-- De zes delen met hun tijden: terugblik 0:00–0:15, gastcollege 0:15–1:00, vraaggesprek 1:00–1:20, pauze 1:20–1:30, minicollege 1:30–2:10, debat 2:10–2:38, eigen casus 2:38–3:00.
-- Alle werkvormen met hun tijden en "KLAAR ="-criteria. Daaronder valt het Lagerhuisdebat met het verloop kiezen 1, openen 2, debatteren 5, wisselen 3, afsluiten 2 minuten, en de drie spelregels.
+- De zeven delen met hun tijden: terugblik 0:00–0:15, gastcollege 0:15–0:58, vraaggesprek 0:58–1:10, pauze 1:10–1:20, veiligheid en alignment 1:20–1:53, werk en economie 1:53–2:20, debat 2:20–2:42, eigen casus 2:42–3:00.
+- Alle werkvormen met hun tijden en "KLAAR ="-criteria. Daaronder valt het Lagerhuisdebat met het verloop kiezen 1, openen 2, debatteren 4, wisselen 2, afsluiten 1 minuut, en de drie spelregels.
 - Alle feiten en cijfers:
   - practicum 1: 69,4% en 67,8%; 80/30 en 65/51;
-  - deepfakes: nepvideo van NDP-leiders (maart 2025); video's met het gezicht en een AI-stem van president Simons (februari 2026); volgens het KPS strafbaar;
-  - privacy: geen meldplicht bij datalekken; veel overheidssystemen draaien op buitenlandse software (Dagblad Suriname, juli 2025);
-  - Grondwet van Suriname artikel 8 lid 2 en artikel 17;
-  - de ontwerpwet Bescherming Privacy en Persoonsgegevens "ligt bij De Nationale Assemblée": voeg geen jaartal toe.
+  - deepfakes: nepvideo van NDP-leiders (maart 2025), aangifte van Ingrid Bouterse (april 2025), nep-geluidsfragment (mei 2025), video's met het gezicht en een AI-stem van president Simons (februari 2026); volgens het KPS strafbaar; Jamaica: nepvideo's die beleggers lokken;
+  - Eykholt e.a. 2018 (stickers, "Speed Limit 45"); Zech e.a. 2018 (longfoto's, ander ziekenhuis);
+  - CoastRunners (OpenAI, 21 december 2016); DeepMind (21 april 2020); OpenAI over tests omzeilen (10 maart 2025); GPT-4o-update teruggedraaid (29 april 2025);
+  - The Wall Street Journal, Facebook Files (15 september 2021);
+  - IMF (januari 2024): bijna 40% blootgesteld, ongeveer 60% in hoogontwikkelde economieën, 26% in lage-inkomenslanden; ILO (2023): administratief werk het meest, voor vrouwen meer dan twee keer zo groot; ILO en Wereldbank (2024): 26–38% in Latijns-Amerika en het Caribisch gebied;
+  - Mata v. Avianca: boete 5.000 dollar (22 juni 2023); Horizon: bijna 1.000 onterecht vervolgde postkantoorhouders;
+  - TIME (18 januari 2023): Keniaanse datawerkers, minder dan 2 dollar per uur;
+  - Suriname: Dagblad Suriname (24 juli 2025, 19 oktober 2026) over callcenters; DSB Buddy (jaarverslag 2025, online transacties van 9 naar ruim 17 miljoen); Finabank met Deloitte, "human in the loop" (Suriname Herald, 12 november 2026); toenmalig minister van Arbeid (januari 2025); president Simons (september en oktober 2026); UNESCO AI Readiness Assessment (start 27 augustus 2026);
+  - privacy: geen meldplicht bij datalekken; de ontwerpwet Bescherming Privacy en Persoonsgegevens "ligt bij De Nationale Assemblée": voeg geen jaartal toe.
 - Alle data en namen van inleverpunten: ICT A-ET Exit ticket college 2, ICT A-ET Concept K2-K4 (zondag 24 januari, 23:59, optioneel maar sterk aanbevolen; feedforward op maandag 25 januari). Er is geen wekelijks rapportstuk en er zijn geen online sessies.
-- De twee stellingen letterlijk, de aantekenkaart met zes vragen, en de zes voorwaarden (informatie, tijd, kennis, bevoegdheid, cultuur, registratie).
+- De twee stellingen letterlijk (stelling 1: "Een bank in Suriname mag het klantcontact volledig aan een AI-assistent overlaten, als klanten daardoor sneller geholpen worden."), de aantekenkaart met zes vragen, de vijf onderzoeksvragen, en de zes voorwaarden (informatie, tijd, kennis, bevoegdheid, cultuur, registratie).
 - Placeholders tussen vierkante haken, zoals [naam gastspreker], [__], [risico 1], [Groep] en [tijd]: laat ze letterlijk staan.
-- Suribank is fictief. Laat de twee Suribank-afbeeldingen (de 2x2-kaart van macht en kwetsbaarheid en de procesplaat) staan, met de QR-code naar de TED-talk van Joy Buolamwini.
+- Suribank is fictief. Laat de twee Suribank-afbeeldingen (de 2x2-kaart van macht en kwetsbaarheid en de procesplaat) en alle QR-codes staan (Suriname Herald deepfake, The Wall Street Journal, OpenAI CoastRunners en GPT-4o, IMF, ILO en Wereldbank, ABA Journal over Avianca, Suriname Herald over Finabank).
 - Verzin geen statistieken, citaten, namen, casussen, uitspraken van de gastspreker of wetsartikelen. Voeg je praktische kennis toe, dan alleen algemeen erkende kennis met de bron erbij (bijvoorbeeld NIST SP 1270, EU AI-verordening 2024/1689 art. 10, 14 en 27, UNESCO-aanbeveling 2021, ISO/IEC 42005). Zet bij elke toevoeging klein "[aanvulling – controleren]".
 
 WAT JE MOET VERSTERKEN
 1. Wow-factor in de opening. Begin met een hook die schuurt, bijvoorbeeld twee getallen naast elkaar: "Dit model heeft vaker gelijk. Dit model wijst 21 mensen méér onterecht af." Laat dan de vraag staan: "Welk model kies jij?" Pas daarna de rolwissel naar onderzoeker en de leerdoelen.
 2. Eén idee per kaart. Splits volle kaarten. Maak van opsommingen visuele vormen:
    - de twee soorten fouten als twee brillen naast elkaar;
-   - de zes bronnen van bias als een rij iconen met per bron "vraag" en "bewijs";
-   - de vier stappen om bias aan te tonen als een praatplaat met pijlen;
-   - de vier vragen bij generatieve AI als vier kwadranten, met de deepfake-casus ernaast;
+   - de twee tijdlijnen (veiligheid en werk) als praatplaat met twee sporen: internationaal en dichtbij;
+   - misbruik, ongeluk en structuur als drie kolommen met een Surinaams of herkenbaar voorbeeld;
+   - de vier vormen van broosheid als vier kwadranten;
+   - "doel gehaald, bedoeling gemist" als tabel met drie kolommen (wat we wilden, wat we maten, wat het systeem deed);
+   - de paperclipmaximalisator als drie fasen met de vier hulpdoelen;
+   - taak, baan en sector als drie lagen; de tweede kring als pijlenketen;
+   - augmentatie en delegatie als schuifbalk met drie oorzaken;
+   - "wie vangt de winst?" als drie kolommen (macht, loon, Suriname);
    - de keten van verantwoordelijkheid als pijlenketen (ontwikkelaar → leverancier → organisatie → management → medewerker);
    - de zes voorwaarden voor menselijke controle als een checklist of dashboard;
    - het debat als een zaal met twee kanten en een middenvak.
-3. Spanning en reveal. Zet bij "welke fout is erger?", "welke groepen kiezen jullie?", "welke van de vier vragen raakt de deepfake-casus?", de klantbrief in de gratis chatbot en "15 minuten per dossier" eerst de vraag op een eigen kaart ("Kies eerst"). De duiding volgt op de volgende kaart.
+3. Spanning en reveal. Zet bij "welke fout is erger?", "bij welk risico is verantwoordelijkheid het moeilijkst aan te wijzen?", "wat was het echte doel en wat de maat?" (Facebook), "is human in the loop bij Finabank augmentatie of delegatie?" en "15 minuten per dossier" eerst de vraag op een eigen kaart ("Kies eerst"). De duiding volgt op de volgende kaart.
 4. Kritisch denken op elke inhoudskaart. Geef elke inhoudskaart één van deze elementen, met een vast icoon:
    - "Kies eerst";
    - "Denk verder" (bijvoorbeeld vanuit de aanvrager die wordt afgewezen, of vanuit de klant wiens brief in een chatbot belandt);
@@ -51,19 +65,19 @@ WAT JE MOET VERSTERKEN
    - "Nu jij" (toepassen op de eigen AI-oplossing).
 5. Breder bekeken. Voeg per deel hoogstens één kaart "Breder bekeken" toe die de stof verbindt met Suriname of het Caribisch gebied, of met een algemeen bekend internationaal voorbeeld. Denk aan de toeslagenaffaire in Nederland (Amnesty International, Xenophobic Machines, 2021) bij menselijke controle, of Moffatt v. Air Canada (2024) bij verantwoording. Altijd met bron en "[aanvulling – controleren]".
 6. Praktische kennis waar het onduidelijk is. Voeg een korte uitleg met een concreet voorbeeld toe waar een begrip te abstract blijft:
-   - representatiebias tegenover aggregatiebias;
-   - inferentie (afleiden wat niemand opgaf);
-   - "gerechtvaardigd en proportioneel";
+   - specification gaming tegenover reward hacking;
+   - proxy en de wet van Goodhart;
+   - blootstelling tegenover vervanging;
    - waarom een mens in het proces nog geen controle is;
    - wat "verantwoording" (accountability) concreet betekent.
 7. Het gastcollege als leerkans. Maak de aantekenkaart een sterke, rustige kaart die tijdens het gastcollege kan blijven staan. Laat de vragen van de groepen en het reserveplan bij afzegging (de TED-talk van Buolamwini of de ACLU-video van Robert Williams als vervanging) herkenbaar.
 8. Studentgericht afsluiten:
    - het uitgewerkte K2/K3-voorbeeld;
-   - een stakeholderrij op drie niveaus (zwak, redelijk, professioneel) als oplopende trap;
+   - de vijf onderzoeksvragen als praatplaat (bias, generatieve AI, privacy, veiligheid, werk) met de domeinen van de nulmeting;
    - het werkblok in het werkboek en de ruil met de buurgroep;
    - het plan tot zondag 24 januari als tabel met wat, waarvoor en wie en wanneer;
    - het exit ticket met drie vragen en een bonusvraag;
-   - de kernboodschap groot in beeld: "Een mens in het proces is nog geen controle, en een goed gemiddelde is nog geen eerlijk systeem."
+   - de kernboodschap groot in beeld: "Een systeem haalt wat je meet, niet wat je bedoelt. En wie de winst krijgt, is een keuze."
 
 VISUELE STIJL (huisstijl Janssen University)
 - Kleuren:
@@ -87,7 +101,7 @@ SPREKERSNOTITIES
 Behoud en verrijk de sprekersnotities als regieaanwijzing: tijd en deel, "Zeg: …", "Vraag: …", "Verwacht: …", "Overgang: …". Zet antwoorden, verwachte argumenten bij de stellingen, reservestellingen en docentinformatie alleen in de notities, nooit op de kaart.
 
 OUTPUT
-- 16:9, ongeveer 32–38 kaarten.
+- 16:9, ongeveer 42–48 kaarten.
 - De laatste kaarten: bronnen, en een docentkaart "Voorbereiding (niet tonen)".
 - Controleer aan het eind:
   - kloppen alle tijden, deadlines, cijfers en namen van inleverpunten nog met het origineel;

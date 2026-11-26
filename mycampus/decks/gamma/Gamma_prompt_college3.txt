@@ -8,9 +8,9 @@ DOEL VAN DE PRESENTATIE
 De student maakt de laatste rolwissel: van onderzoeker naar ontwerper. De student moet:
 1. feedback vertalen naar besluiten: elk actiepunt in de verwerkingslijst, met een besluit en een eigenaar;
 2. kennis opdoen over wat er bij inzet op het spel staat:
-   - veiligheid: AI doet wat je vraagt, niet wat je bedoelt (CoastRunners) en agents die zelf handelen;
+   - veiligheid als verdieping op college 2: het getal, de bijwerking en de stopknop in het eigen ontwerp, en agents die zelf handelen;
    - macht en regelgeving: wie de regels bepaalt (internationaal, EU, Suriname, de bedrijven achter de modellen);
-   - werk en ongelijkheid: wie wint en wie betaalt;
+   - werk als verdieping op college 2: aanvullen in plaats van overlaten, de tweede kring, en wie deelt in de winst;
    - professionele praktijk: een ethisch besluit in zes stappen, aankaarten als ladder, een ethische cultuur;
 3. het eigen ontwerp verdedigen voor een panel, en feedback geven op andere ontwerpen;
 4. naar huis gaan met een plan met namen en data tot Assessment 2 (donderdag 11 maart).
@@ -20,8 +20,6 @@ WAT JE NIET MAG VERANDEREN
 - De vijf delen met hun tijden: feedback op A1 0:00–0:25, minicollege 0:25–1:10, pauze 1:10–1:20, Design Review 1:20–2:35 (8 minuten presenteren en 3 minuten vragen per groep), op weg naar A2 2:35–2:55, exit ticket 2:55–3:00.
 - Alle werkvormen met hun tijden en "KLAAR ="-criteria, en de vier reviewvragen van de Design Review met de score 0 tot 3.
 - Alle feiten, cijfers en data:
-  - CoastRunners: OpenAI, Faulty Reward Functions in the Wild, 21 december 2016;
-  - IMF (januari 2024): bijna 40% van het werk wereldwijd blootgesteld, ongeveer 60% in rijke landen;
   - ILO (2023): het aandeel van het werk van vrouwen dat geautomatiseerd kan worden, is meer dan twee keer zo groot;
   - TIME (januari 2023): Keniaanse datawerkers verdienden minder dan 2 dollar per uur;
   - Raad van Europa, AI-verdrag ter ondertekening sinds 5 september 2024;
@@ -36,10 +34,10 @@ WAT JE MOET VERSTERKEN
 1. Wow-factor in de opening. Begin met de stemming van college 1 opnieuw: "Mag Suribank dit doen? En nu?" met de telling van toen naast de telling van nu. Pas daarna de rolwissel en het eindresultaat van vandaag.
 2. Eén idee per kaart. Splits volle kaarten. Maak van opsommingen visuele vormen:
    - de redeneerketen als acht schakels (bewijs, gap, risico, eis, maatregel, eigenaar, monitoring, oordeel) met de breuk gemarkeerd;
-   - CoastRunners als een boot die rondjes draait in plaats van de finish te halen;
+   - het getal, de bijwerking en de grens als drie stappen naar monitoring en een stopcriterium;
    - agents als drie kolommen: wat een agent doet, wat er mis kan gaan, wat je ontwerpt;
    - wie de regels bepaalt als vier kwadranten (bedrijven, internationaal, EU, Suriname);
-   - werk en ongelijkheid als drie grote getallen (40%, 2×, minder dan 2 dollar);
+   - werk in het ontwerp als drie kaarten (augmentatie inbouwen, de tweede kring, wie deelt in de winst);
    - het ethisch besluit als zes stappen op een lijn, en aankaarten als een ladder met vier treden;
    - de Design Review als een klok: 8 minuten presenteren, 3 minuten vragen.
 3. Spanning en reveal. Zet bij de stemming, "welk doel kan jullie oplossing op een verkeerde manier halen?", "wie verliest werk of zeggenschap?" en "op welke trede begin je?" eerst de vraag op een eigen kaart ("Kies eerst"). De duiding volgt op de volgende kaart.

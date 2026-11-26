@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """College 3 (blok 2, do 25 februari 2027): Van analyse naar verantwoord ontwerp.
 
-Feedback op Assessment 1, minicollege (veiligheid en agents, macht en regelgeving, werk en ongelijkheid,
+Feedback op Assessment 1, minicollege (verdieping op college 2: veiligheid en agents, macht en regelgeving, werk in het ontwerp,
 professionele praktijk), Design Review en een plan naar Assessment 2. Janssen-huisstijl, deck-standaard.
 Gebruik:  python3 gen_c3.py <map met gelezen project/deck.json> <uitvoermap>
 Daarna publiceren naar https://claude.ai/artifact/LyCGu8Fo2L4EaKVYFR45VF met root = <uitvoermap>.
@@ -91,15 +91,13 @@ D.frame('werkblok-feedback', D.werkblok('8 min', 'Groep') + H('Van feedback naar
     '''[8 min · deel 1 · 0:17] Loop rond, begin bij groepen met een lage score. Docentvraag: "Welk actiepunt verandert jullie oordeel het meest?" en "Wat nemen jullie bewust niet over, en waarom?" Herinner: zonder verwerkingslijst (bijlage E) kunnen criteria 1, 2 en 4 bij A2 niet hoger dan voldoende. Overgang: "Nu breder: wat staat er op het spel als een oplossing echt wordt ingezet?"''', part=1)
 
 # ============ Deel 2. Minicollege ============
-D.frame('veiligheid', K('Minicollege 1/4 · Veiligheid') + H('AI doet wat je vraagt, niet wat je bedoelt') + R(
-    f'<div style="flex:1.6;display:flex;flex-direction:column;gap:18px">' +
-    P('OpenAI trainde een AI om de bootrace CoastRunners te spelen, met de score als doel. De AI ontdekte dat het meer punten kreeg door rondjes te draaien en steeds dezelfde doelen te raken, dan door de race uit te rijden. Hij vloog in brand en botste, maar scoorde hoger dan mensen.', 29) +
-    R(C('Specification gaming', 'Het systeem haalt het doel zoals het is opgeschreven, niet zoals het bedoeld is.', size=26),
-      C('Bij jullie oplossing', 'Een chatbot die "klanttevredenheid" maximaliseert, belooft wat de klant wil horen.', size=26, accent=GOLD), gap=20) +
-    C(None, '**Kies eerst:** welk doel heeft jullie oplossing, en hoe zou het dat doel kunnen halen op een manier die je niet wilt?', size=27, bg=ICE) + '</div>',
-    f'<div style="flex:1;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:center">{qr_svg(URL_COAST, 280, label="QR-code naar Faulty reward functions in the wild van OpenAI")}'
-    f'{P("OpenAI · Faulty reward functions in the wild (21 december 2016)", 23, MUTED)}</div>'),
-    '''[6 min · deel 2 · 0:25] Bron: OpenAI, "Faulty Reward Functions in the Wild", 21 december 2016, met video (laat zo mogelijk 30 seconden zien; test vooraf). Zeg: "Een AI optimaliseert wat je meet. Meet je het verkeerde, dan krijg je het verkeerde, heel efficiënt." Vraag de kies-eerst-vraag; duo's 1 minuut, dan twee groepen. Verwacht: een chatbot die gesprekken kort houdt (meet: afhandeltijd) door door te verwijzen of af te kappen; een model dat "terugbetaling" maximaliseert door riskante maar legitieme aanvragers af te wijzen. Koppeling: dit is waarom monitoring in H8 niet alleen het doel meet, maar ook de bijwerkingen. Overgang: "Het wordt spannender als AI niet alleen antwoordt, maar ook handelt."''', part=2)
+D.frame('veiligheid', K('Minicollege 1/4 · Veiligheid, verdieping op college 2') + H('Het getal, de bijwerking en de stopknop') + R(
+    C('Het getal', 'Welk getal stuurt jullie oplossing? Jullie schreven het op in het exit ticket van college 2.', label='1 · Proxy', accent=BLUE),
+    C('De bijwerking', 'Hoe kan het systeem dat getal halen zonder het doel te dienen? Welke test of welk signaal laat dat zien?', label='2 · Monitoren', accent=GOLD),
+    C('De grens', 'Bij welke waarde stop je, of ga je terug naar handwerk? En wie beslist dat?', label='3 · Stopcriterium', accent=RED)) +
+    D.statement('Een systeem haalt wat je meet, niet wat je bedoelt. Ontwerp dus ook wat je meet naast het doel.', size=36) +
+    C(None, '**Kies eerst:** welke maatregel in jullie K7 voorkomt dat de oplossing haar doel op de verkeerde manier haalt? Is er al een?', size=28, bg=ICE),
+    '''[6 min · deel 2 · 0:25] Zeg: "In college 2 zag je specification gaming en reward hacking: CoastRunners, de moderatie-AI die meer verwijdert, de taalmodellen die tests omzeilen. Nu de vertaling naar jullie ontwerp." Laat groepen hun getal uit het exit ticket van college 2 erbij pakken. Vraag de kies-eerst-vraag; duo's 1 minuut, dan twee groepen. Verwacht: een chatbot gemeten op afgehandelde gesprekken die te snel afkapt (maatregel: ook meten hoe vaak klanten terugkomen of klagen); een kredietmodel gemeten op terugbetaling dat het binnenland laat wegvallen (maatregel: goedkeuringen per regio volgen). Koppeling: dit wordt in blok 3 een ethisch signaal met grens, actie en eigenaar in H8. Overgang: "Het wordt spannender als AI niet alleen antwoordt, maar ook handelt."''', part=2)
 
 D.frame('agents', K('Minicollege 1/4 · Veiligheid') + H('Als AI zelf handelt: agents') + R(
     C('Wat een agent doet', 'Plant stappen en voert ze uit met tools: mail versturen, een afspraak boeken, een dossier aanpassen, een andere agent aanroepen.', label='Nieuw', accent=BLUE),
@@ -116,13 +114,13 @@ D.frame('macht', K('Minicollege 2/4 · Macht en regelgeving') + H('Wie bepaalt d
     C('Suriname', 'Nog geen AI-wet en geen privacywet in werking. Met UNESCO loopt sinds augustus 2026 de AI Readiness Assessment, als basis voor een nationale strategie.', label='Thuis', size=26, accent=GREEN)], 2, 22),
     '''[6 min · deel 2 · 0:37] Zeg: "Regels komen van drie kanten: internationale afspraken, wetten zoals de Europese AI-verordening, en de macht van de bedrijven die de modellen maken." Feiten: UNESCO Recommendation on the Ethics of AI (november 2021); OECD AI Principles (2019, herzien 2024); Raad van Europa, Framework Convention on Artificial Intelligence (CETS 225), aangenomen 17 mei 2024, ter ondertekening geopend op 5 september 2024 in Vilnius; volgens de Raad het eerste juridisch bindende internationale AI-verdrag. AI-verordening: volgens juridische commentaren is de Digital Omnibus on AI aangenomen als Verordening (EU) 2026/1744 (in werking eind juli 2026); hoog-risicosystemen uit bijlage III gaan van 2 augustus 2026 naar 2 december 2027; de transparantieplicht van art. 50 geldt vanaf 2 augustus 2026; de verboden en de plicht tot AI-geletterdheid golden al eerder. Controleer dit vlak voor het college op EUR-Lex. Suriname: RAM 2.0 met UNESCO, gestart 27 augustus 2026 (controleer het nieuws). Vraag: "Jullie partner gebruikt een taalmodel van een buitenlands bedrijf. Wie bepaalt wat dat model mag, en wat kan jullie partner zelf regelen?" Verwacht: contract, leverancierscheck, eigen beleidsregel. Overgang: "Regels gaan ook over wie er beter of slechter van wordt."''', part=2)
 
-D.frame('werk', K('Minicollege 3/4 · Werk en ongelijkheid') + H('Wie wint, en wie betaalt?') + R(
-    C(None, f'<p style="font-size:96px;font-weight:700;line-height:1;color:{BLUE_T}">40%</p>{P("van het werk wereldwijd is blootgesteld aan AI; in rijke landen ongeveer 60% (IMF, januari 2024)", 26)}'),
-    C(None, f'<p style="font-size:96px;font-weight:700;line-height:1;color:{GOLD}">2×</p>{P("zo groot aandeel van het werk van vrouwen kan door generatieve AI worden geautomatiseerd, vooral door administratief werk (ILO, 2023)", 26)}', accent=GOLD),
-    C(None, f'<p style="font-size:96px;font-weight:700;line-height:1;color:{RED}">&lt; $2</p>{P("per uur verdienden Keniaanse werkers die schokkende teksten labelden om ChatGPT veiliger te maken (TIME, januari 2023)", 26)}', accent=RED)) +
-    D.statement('Blootgesteld is niet hetzelfde als vervangen. Maar wie de baten krijgt en wie de lasten draagt, is een ontwerpkeuze.', size=34) +
-    P('**Kies eerst:** wie in jullie casus verliest werk of zeggenschap, en wie merkt dat pas later?', 28, NAVY),
-    '''[7 min · deel 2 · 0:43] Bronnen: IMF-blog van Kristalina Georgieva, 14 januari 2024, "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity": bijna 40% van het werk wereldwijd blootgesteld, ongeveer 60% in rijke economieën; in de meeste scenario's vergroot AI de ongelijkheid. ILO Working Paper 96 (Gmyrek, Berg en Bescond, augustus 2023), Generative AI and Jobs: het effect is vooral aanvulling, niet vervanging; administratief werk is het meest blootgesteld; het aandeel van het werk van vrouwen dat geautomatiseerd kan worden, is meer dan twee keer zo groot als dat van mannen. TIME, Billy Perrigo, 18 januari 2023: werkers van Sama in Kenia labelden gewelddadige en seksuele teksten voor OpenAI en verdienden volgens TIME tussen ongeveer 1,32 en 2 dollar per uur; Sama noemde hogere bedragen. Zeg: "AI heeft ook een onzichtbare keten: mensen die data labelen en controleren." Vraag de kies-eerst-vraag. Verwacht: medewerkers van de klantenservice, controleurs, kleine zorgaanbieders; en mensen zonder digitale vaardigheden. Koppeling: domein 10 (bredere impact) van de nulmeting. Overgang: "Wat doe je dan als professional, als je ziet dat het misgaat?"''', part=2)
+D.frame('werk', K('Minicollege 3/4 · Werk, verdieping op college 2') + H('Aanvullen, niet overlaten: werk in jullie ontwerp') + R(
+    C('Augmentatie inbouwen', 'De medewerker kan het advies negeren of overrulen, heeft er tijd voor, en wordt niet afgerekend op afwijken. Afwijkingen worden geregistreerd.', label='1 · Menselijke controle', accent=GREEN),
+    C('De tweede kring', 'Wie op het loket, het kantoor of de telefoon aangewezen is, houdt een andere weg: geen smartphone is geen reden om buiten te vallen.', label='2 · Toegang', accent=GOLD),
+    C('Wie deelt in de winst?', 'Taken die verdwijnen: wat gebeurt er met de mensen? Omscholen, taken herverdelen, of eerlijk zeggen wat er verandert.', label='3 · Werk', accent=BLUE)) +
+    D.statement('Of AI werk aanvult of overneemt, is een ontwerpkeuze. Leg die keuze vast, en laat zien wie hem maakte.', size=34) +
+    P('**Kies eerst:** welke maatregel in jullie K7 zorgt dat de oplossing aanvult in plaats van overneemt?', 28, NAVY),
+    '''[7 min · deel 2 · 0:43] Zeg: "In college 2 zag je hoe augmentatie ongemerkt delegatie wordt: door een zekere toon, tijdsdruk en een schuldcultuur. Ook de cijfers (IMF, ILO en Wereldbank) en de Surinaamse stemmen: callcenters onder druk, Finabank met een mens in het proces." Vraag de kies-eerst-vraag aan drie groepen. Verwacht: een werkinstructie die afwijken toestaat en registreert (de zes voorwaarden van college 2), een alternatief kanaal, een afspraak over taken van medewerkers. Koppeling: domein 10 (duurzaamheid en bredere impact) van de nulmeting, en de maatregelen in K7. Overgang: "Wat doe je als professional, als je ziet dat het misgaat?"''', part=2)
 
 stap = lambda n, t, s: (f'<div style="flex:1;background:{CARD};border:1px solid {LINE};border-top:6px solid {BLUE};border-radius:12px;padding:22px 20px;display:flex;flex-direction:column;gap:8px">'
                         f'<p style="font-size:26px;font-weight:700;color:{BLUE_T}">{n}</p><h3 style="font-size:30px;font-weight:700;color:{NAVY}">{e(t)}</h3>{P(s, 24)}</div>')
@@ -243,7 +241,7 @@ if __name__ == '__main__':
     src, out = sys.argv[1], sys.argv[2]
     sections = {
         's1': {'description': 'Deel 1. Rolwissel, stemming opnieuw en feedback op Assessment 1', 'start': 'cover'},
-        's2': {'description': 'Deel 2. Minicollege: veiligheid en agents, macht en regelgeving, werk en ongelijkheid, professionele praktijk', 'start': 'veiligheid'},
+        's2': {'description': 'Deel 2. Minicollege: veiligheid en agents, macht en regelgeving, werk in het ontwerp (verdieping op college 2), professionele praktijk', 'start': 'veiligheid'},
         's3': {'description': 'Deel 3. Design Review', 'start': 'dr-opzet'},
         's4': {'description': 'Deel 4. Feedback verwerken, monitoring en plan naar Assessment 2', 'start': 'verwerken'},
         's5': {'description': 'Deel 5. Exit ticket, bronnen en docentvoorbereiding', 'start': 'exit'},
