@@ -1,5 +1,18 @@
 ICT A-ET College 1 omschrijving (voor MyCampus)
 
+AANKONDIGING (kort, voor het leerplatform)
+
+College 1 staat klaar
+Op donderdag 7 januari zien we elkaar voor het eerste college: Wat staat er op het spel? In drie uur maak je de stap van bouwer naar beoordelaar.
+
+* Ethische kaders: hoe weeg je een AI-keuze? Vijf theorieën, met de Safe City-camera's als Surinaamse casus.
+* Bias en eerlijkheid: waar ontstaat bias, en waarom bestaat perfecte eerlijkheid niet? Met Robert Williams en Rite Aid.
+* Black box: wanneer moet een AI-systeem kunnen uitleggen waarom het iets beslist?
+* Jullie casus: je start met het K1-canvas van jullie eigen oplossing.
+
+Neem je laptop mee, de beschrijving van jullie oplossing uit blok 0 en jullie ethische evaluatie uit A-AI1. Lever K1 in vóór zondag 10 januari, 23:59, bij ICT A-ET K1. Alles wat je nodig hebt, staat in ICT A-ET Blok 1 Analyseren; de dia's vind je na het college onder Slides.
+
+
 KORTE VERSIE
 
 In college 1 maak je een rolwissel: van bouwer naar beoordelaar. Aan de hand van een dilemma bij de fictieve Suribank en echte casussen, zoals de Safe City-camera's in Suriname, leer je drie dingen: hoe je een AI-keuze weegt met ethische kaders, waar bias ontstaat en waarom perfecte eerlijkheid niet bestaat, en wanneer een AI-systeem moet kunnen uitleggen waarom het iets beslist. Je gaat naar huis met een bevestigde casus en de eerste versie van jullie K1-canvas.

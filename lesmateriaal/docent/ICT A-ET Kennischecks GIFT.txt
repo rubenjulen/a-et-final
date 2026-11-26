@@ -1,0 +1,303 @@
+// ICT A-ET Kennischecks 1 tot en met 3 (GIFT-formaat). Importeer per categorie.
+
+$CATEGORY: ICT A-ET/Kennischeck 1
+
+::KC1-01::Het fraudemodel van Rotterdam werkte matig, was jarenlang toegestaan, en jonge moeders en mensen die slecht Nederlands spreken scoorden vaker hoog. Welke vraag ging hier vooral mis? {
+  ~Werkt het?
+  ~Mag het?
+  =Is het verantwoord?
+  ####Het systeem mocht en werkte min of meer, maar legde de lasten bij groepen die zich slecht kunnen verweren. Een systeem kan werken en toegestaan zijn, en toch niet verantwoord. Lees na: De kern\: werkt het, mag het, is het verantwoord?.
+}
+
+::KC1-02::Een organisatie voldoet aan alle wetten en aan haar eigen beleid. Wat volgt daaruit? {
+  ~Ze handelt verantwoord.
+  =Ze haalt de ondergrens; of het verantwoord is, vraagt een eigen ethische afweging.
+  ~Er spelen geen ethische vragen meer.
+  ####Compliance is de ondergrens, niet het doel. Regels lopen vaak achter, en in Suriname is er voor AI weinig om compliant mee te zijn. Lees na: De kern\: recht, compliance en ethiek.
+}
+
+::KC1-03::Een systeem helpt 95% van de gebruikers en benadeelt 5% ernstig. Welk kader rekent dit het snelst goed, en wat is daarvan de zwakte? {
+  =Utilitarisme (gevolgen)\: kleine groepen worden weggemiddeld.
+  ~Deontologie (plichten)\: regels kunnen botsen.
+  ~Zorgethiek\: moeilijk op grote schaal.
+  ####Een gevolgenafweging telt baten en schade op. Daardoor kan ernstige schade voor een kleine groep verdwijnen in het gemiddelde. Lees na: De kern\: vijf theorieën, sterk en zwak.
+}
+
+::KC1-04::Wat bedoelt Rawls met de sluier van onwetendheid? {
+  =Je kiest de regels zonder te weten welke plek je zelf krijgt.
+  ~Je laat gevoelige kenmerken uit de data weg.
+  ~Je beslist zonder de gevolgen te kennen.
+  ####Wie niet weet of hij aan de kust of in het binnenland woont, kiest regels die ook voor de zwakste positie aanvaardbaar zijn. Lees na: De kern\: vier ethische lenzen.
+}
+
+::KC1-05::Welke risicoformulering is professioneel (K6)? {
+  ~Het model kan bias hebben.
+  =Aanvragers uit het binnenland lopen meer kans op een onterechte afwijzing, omdat informeel inkomen vaker ontbreekt; onder SRD 50.000 kijkt geen mens mee.
+  ~Er is geen bezwaarroute.
+  ####Een risico noemt oorzaak, gebeurtenis, schade en voor wie. "Er is geen bezwaarroute" is een gap uit de nulmeting, nog geen risico. Lees na: Instrumenten\: K6 risicoregister.
+}
+
+::KC1-06::Bij Suribank ontbreken afgewezen aanvragers in de trainingsdata\: je weet niet of zij hadden terugbetaald. Welke bias is dit? {
+  =Labelbias
+  ~Interactiebias
+  ~Inzetbias
+  ####Het label (terugbetaald of niet) bestaat alleen voor wie een lening kreeg. Het model leert dus van een voorselectie. Lees na: De kern\: bias, waar komt het vandaan?.
+}
+
+::KC1-07::De bank haalt district uit het model. Is het verschil tussen binnenland en kust dan weg? {
+  ~Ja, het model ziet het district niet meer.
+  =Nee, inkomen en soort werk hangen samen met district en werken als proxy.
+  ~Ja, als je ook de naam weglaat.
+  ####Een gevoelig kenmerk weglaten haalt het patroon niet weg. Je moet de uitkomsten per groep blijven meten. Lees na: De kern\: fouten per groep en eerlijkheid (proxy).
+}
+
+::KC1-08::Waarom kan een model niet tegelijk gelijke kalibratie, gelijke fouten en gelijke uitkomst halen? {
+  ~Omdat modellen altijd bevooroordeeld zijn.
+  =Als het terugbetaalcijfer tussen groepen verschilt, sluiten die definities elkaar uit, behalve bij een perfect model.
+  ~Omdat de wet dat verbiedt.
+  ####Dit is het onmogelijkheidsresultaat (Kleinberg e.a., Chouldechova). Je moet kiezen welke eerlijkheid telt, en die keuze uitleggen. Lees na: De kern\: waarom perfecte eerlijkheid niet bestaat.
+}
+
+::KC1-09::Robert Williams werd in 2020 gearresteerd na een foute match van gezichtsherkenning. Wat is de les? {
+  ~Een match is bewijs.
+  =Een match is een kans; zonder ander bewijs en echte menselijke controle leidt hij tot onrecht.
+  ~Gezichtsherkenning werkt alleen slecht bij weinig licht.
+  ####De agenten behandelden de match als bewijs (automation bias). Gezichtsherkenning maakt bovendien vaker fouten bij mensen met een donkere huidskleur (Gender Shades, NIST). Lees na: Praktijkvoorbeelden\: Robert Williams.
+}
+
+::KC1-10::Wanneer is een black box het minst aanvaardbaar? {
+  ~Bij muziekaanbevelingen.
+  =Bij een eindbeslissing over krediet, zonder mens en zonder bezwaarmogelijkheid.
+  ~Bij een spamfilter waartegen je bezwaar kunt maken.
+  ####Hoe groter de impact op iemands leven, hoe zwaarder de eis aan uitleg. Een eindbeslissing zonder mens en zonder bezwaar hoort niet in een black box. Lees na: De kern\: uitleg, de black box openen.
+}
+
+::KC1-standpunt::Als de mensen om wie het gaat niet zijn gehoord, is een AI-oplossing niet verantwoord, hoe goed die ook werkt. Eens of oneens? Hoogstens 100 woorden: één argument met bron, één tegenargument. {}
+
+$CATEGORY: ICT A-ET/Kennischeck 2
+
+::KC2-01::Welke eis is toetsbaar? {
+  ~Het model moet eerlijk zijn.
+  =Het verschil in onterecht afwijzen tussen binnenland en kust is kleiner dan 5 procentpunt, gemeten per kwartaal.
+  ~We letten goed op bias.
+  ####Een toetsbare eis noemt wat je meet, de grens en wanneer je meet. Dan kun je later zeggen of de maatregel werkt. Lees na: Instrumenten\: K7 deel 1, van risico naar eis.
+}
+
+::KC2-02::Een maandelijkse meting van fouten per regio is vooral een maatregel die … {
+  ~voorkomt
+  =opspoort
+  ~herstelt
+  ####Meten voorkomt de fout niet en herstelt hem niet, maar laat hem zien. Een goed ontwerp combineert voorkomen, opsporen en herstellen. Lees na: De kern\: maatregelen ontwerpen.
+}
+
+::KC2-03::Wat is restrisico? {
+  ~Het risico vóór de maatregelen.
+  =Wat na de maatregelen overblijft, met wie dat accepteert.
+  ~Een risico dat je bewust weglaat.
+  ####Restrisico verdwijnt niet door het niet te noemen. Iemand met bevoegdheid moet het bewust accepteren, en dat staat in het rapport. Lees na: De kern\: maatregelen ontwerpen, en wat overblijft.
+}
+
+::KC2-04::Medewerkers krijgen 15 minuten per dossier en mogen alleen met schriftelijk akkoord afwijken. Welke voorwaarden voor menselijke controle ontbreken vooral? {
+  ~Informatie en kennis
+  =Tijd, bevoegdheid en cultuur
+  ~Alleen registratie
+  ####Als afwijken veel kost en meegaan niets, wordt de mens een stempel. Dan is er een mens in het proces, maar geen controle. Lees na: De kern\: menselijke controle die werkt.
+}
+
+::KC2-05::Wat is automation bias? {
+  =De neiging om het advies van een systeem te volgen, ook als het fout is.
+  ~Bias in de data van geautomatiseerde systemen.
+  ~Wantrouwen tegenover elke vorm van automatisering.
+  ####Automation bias geeft fouten door weglaten (je ziet de fout niet) en door doen (je volgt een fout advies). Het staat letterlijk in de AI-verordening, art. 14. Lees na: De kern\: menselijke controle die werkt.
+}
+
+::KC2-06::Welke bezwaarroute is het sterkst? {
+  ~Alleen een online formulier.
+  =Bekend, laagdrempelig (ook aan de balie of telefonisch), beoordeeld door iemand die niet zelf besliste, en met herstel.
+  ~Bezwaar maken bij de leverancier van het model.
+  ####Een bezwaarroute werkt alleen als de getroffene hem kent, kan gebruiken, en als een fout ook echt wordt hersteld. Lees na: De kern\: bezwaar en herstel.
+}
+
+::KC2-07::Wat betekent "precies één A per activiteit" in een RACI? {
+  =Eén persoon is eindverantwoordelijk en aanspreekbaar.
+  ~Eén persoon voert het werk uit.
+  ~Iedereen wordt geïnformeerd.
+  ####De A (accountable) beslist en legt verantwoording af. Twee A's betekent in de praktijk\: niemand. Lees na: Instrumenten\: K7 deel 2c, RACI.
+}
+
+::KC2-08::Jullie chatbot gebruikt een taalmodel van een buitenlandse aanbieder. Welke vraag hoort in de leverancierscheck? {
+  =Traint de aanbieder met onze gegevens, en waar worden ze bewaard?
+  ~Hoeveel parameters heeft het model?
+  ~Welke kleur heeft de chatknop?
+  ####De organisatie blijft verantwoordelijk voor wat de chatbot doet, ook als het model van een ander is. De leverancierscheck legt vast wat je wel en niet in de hand hebt. Lees na: Instrumenten\: leverancierscheck.
+}
+
+::KC2-09::Wat leert de toeslagenaffaire over de schade van AI? {
+  ~Het lag alleen aan het model.
+  =De schade ontstond door een samenspel van model, beleid, menselijke controle die niet werkte en geen bezwaar.
+  ~Het lag alleen aan de medewerkers.
+  ####Wie alleen naar het model kijkt, mist de oorzaak. Daarom ontwerp je in H6 en H7 ook controle, bezwaar en governance. Lees na: Kerncasus\: de toeslagenaffaire.
+}
+
+::KC2-10::Wat voegt ISO/IEC 42001 toe aan losse maatregelen? {
+  =Een managementsysteem\: plannen, doen, controleren en verbeteren, met rollen en een vast moment om terug te kijken.
+  ~Een lijst met verboden AI-toepassingen.
+  ~Een technisch testprotocol voor modellen.
+  ####Losse maatregelen verwateren. Een managementsysteem zorgt dat iemand ze bijhoudt, meet en bijstuurt. Lees na: De kern\: van maatregel naar managementsysteem.
+}
+
+::KC2-standpunt::Een maatregel die groepen gelijker behandelt maar de nauwkeurigheid verlaagt, is altijd de betere keuze. Eens of oneens? Hoogstens 100 woorden: één argument met bron, één tegenargument. {}
+
+$CATEGORY: ICT A-ET/Kennischeck 3
+
+::KC3-01::Wat hoort bij een goede indicator in het monitoringplan (H8)? {
+  =Een grens, een actie en een eigenaar.
+  ~Alleen een grafiek in het maandrapport.
+  ~Een jaarlijkse evaluatie.
+  ####Een indicator zonder grens zegt niet wanneer je moet handelen; zonder eigenaar doet niemand het. Lees na: De kern\: monitoren met grenzen en acties.
+}
+
+::KC3-02::Welke indicator hoort in H8, als ethisch signaal? {
+  ~Het processorgebruik van de server.
+  =Het verschil in onterecht afwijzen tussen groepen, en het aantal bezwaren.
+  ~De responstijd van de chatbot.
+  ####Techniek en data monitoren jullie in A-AI2 en A-DG; verwijs daarnaar. In H8 gaat het om signalen over mensen. Lees na: De kern\: wie monitort wat.
+}
+
+::KC3-03::Wat is een stopcriterium? {
+  =Een vooraf vastgelegde grens waarbij het systeem uit gaat of terug naar handwerk, met wie dat beslist.
+  ~Het moment waarop het project af is.
+  ~De datum waarop het contract met de leverancier stopt.
+  ####Wie vooraf vastlegt wanneer het systeem stopt, hoeft dat niet te bedenken als het al misgaat. Lees na: De kern\: incidentroute en stopcriterium.
+}
+
+::KC3-04::Een model werkt een jaar na livegang slechter voor één groep, terwijl niemand iets aan het model veranderde. Hoe heet dit? {
+  =Drift\: de wereld en de data veranderden.
+  ~Overfitting
+  ~Labelbias
+  ####Een model leert van het verleden. Verandert de werkelijkheid, dan veroudert het model. Daarom blijf je per groep meten (practicum 5). Lees na: De kern\: drift.
+}
+
+::KC3-05::Welk oordeel is géén van de drie oordelen in het beslismemo? {
+  ~Verantwoord inzetbaar
+  ~Inzetbaar onder voorwaarden
+  ~Nu niet
+  =Inzetbaar zodra de leverancier akkoord is
+  ####Het beslismemo kent drie oordelen. Het akkoord van een leverancier is hooguit een voorwaarde. Lees na: Instrumenten\: het beslismemo.
+}
+
+::KC3-06::Wanneer is "nu niet" een goed advies? {
+  ~Nooit\: het betekent dat het project mislukt is.
+  =Als het uit de analyse volgt, en het memo zegt wat er nodig is om het oordeel te veranderen.
+  ~Als de groep geen tijd meer had.
+  ####"Nu niet" is een volwaardig advies en telt even zwaar als de andere twee, als het onderbouwd is. Lees na: De kern\: het beslismemo en de drie oordelen.
+}
+
+::KC3-07::Wat maakt een voorwaarde in het beslismemo toetsbaar? {
+  =Wat er moet gebeuren, wie eigenaar is, wanneer, en wat er gebeurt als het niet lukt.
+  ~Een belofte dat het later beter wordt.
+  ~Een verwijzing naar de wet.
+  ####Een voorwaarde zonder gevolg is een wens. Een belofte zonder eigenaar en datum is geen voorwaarde. Lees na: Instrumenten\: het beslismemo.
+}
+
+::KC3-08::Een AI leerde de bootrace CoastRunners spelen en draaide rondjes voor punten in plaats van de race uit te rijden. Wat is de les? {
+  =AI doet wat je meet, niet wat je bedoelt; meet daarom ook de bijwerkingen.
+  ~Games zijn niet geschikt om AI te testen.
+  ~Het model was te klein.
+  ####Dit heet specification gaming. Bij een chatbot die op afhandeltijd wordt gemeten, kan hetzelfde gebeuren. Lees na: College 3\: veiligheid en agents.
+}
+
+::KC3-09::Welke maatregel past het best bij een agent die zelf mails naar klanten stuurt? {
+  =Een mens keurt handelingen goed die niet terug te draaien zijn, met logging en een stopknop.
+  ~Een groter taalmodel.
+  ~De agent meer rechten geven, zodat hij minder vastloopt.
+  ####Hoe meer een systeem zelf doet, hoe belangrijker het is wie het kan stoppen. Geef zo weinig rechten als nodig. Lees na: College 3\: veiligheid en agents.
+}
+
+::KC3-10::Je ontdekt na livegang dat jullie chatbot klanten verkeerd informeert. Waar begin je meestal? {
+  ~Meteen bij de pers.
+  =Bij het team en de eigenaar, met bewijs; hoger als het niet wordt opgepakt of de schade groot is.
+  ~Je doet niets, want het is niet jouw systeem.
+  ####Aankaarten is een ladder\: team, eigenaar, compliance of vertrouwenspersoon, en pas daarna buiten de organisatie. De incidentroute in H8 legt die ladder vooraf vast. Lees na: College 3\: professionele praktijk.
+}
+
+::KC3-11::Een kredietmodel wijst iemand af die de lening wel had terugbetaald. Welke fout is dat? {
+  ~Onterecht goedgekeurd.
+  =Onterecht afgewezen.
+  ####Die persoon mist een kans; de bank merkt de fout vaak niet eens. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-12::Een model voorspelt 69% goed op data waarin 59% van de mensen terugbetaalt. Wat is de beste conclusie? {
+  ~Het model is goed.
+  =Het model voegt iets toe, maar veel minder dan 69% doet vermoeden.
+  ####Een model dat altijd ja zegt, haalt al 59%. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-13::Een klant chat met de digitale assistent van een bank. Wat hoort de klant in elk geval te weten? {
+  ~Niets, zolang de antwoorden kloppen.
+  =Dat de klant met een AI-systeem praat.
+  ~Welk taalmodel er wordt gebruikt.
+  ####In de Europese Unie is dat een plicht uit de AI-verordening; daarbuiten is het een goede maatstaf. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-14::Een medewerker plakt een klantdossier in een gratis online chatbot om een samenvatting te maken. Wat is het grootste probleem? {
+  ~De samenvatting kan te lang worden.
+  =Persoonsgegevens gaan naar een externe dienst, zonder dat de klant dat weet.
+  ~Het kost te veel tijd.
+  ####Wat er bij die dienst met de gegevens gebeurt, heeft de organisatie niet meer in de hand. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-15::Waarom test je een model op data die het nog niet kende? {
+  ~Dat gaat sneller.
+  =Om te zien of het model echt patronen leerde en niet alleen voorbeelden onthield.
+  ~Dat is wettelijk verplicht.
+  ####Een model dat voorbeelden onthoudt, heet overfit. Op nieuwe gevallen presteert het dan slecht. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-16::Een model geeft "kans op terugbetaling\: 72%". Wat betekent dat? {
+  ~De aanvrager betaalt zeker terug.
+  =Het is een inschatting op basis van patronen, en die kan fout zijn.
+  ~De aanvrager betaalt 72% van het bedrag terug.
+  ####AI-uitkomsten zijn voorspellingen met onzekerheid, geen feiten. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-17::Een fraudemodel heeft in 95% van de gevallen gelijk. Is het daarmee een goed model? {
+  ~Ja, 95% is heel hoog.
+  =Niet per se\: de fouten kunnen ernstig zijn of steeds bij dezelfde groep terechtkomen.
+  ####Je moet ook kijken welke fouten het model maakt, en bij wie. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-18::Kan een model ongelijkheid uit het verleden overnemen? {
+  =Ja, als die ongelijkheid in de trainingsdata zit.
+  ~Nee, een computer is objectief.
+  ####Een model leert wat in de data zit, ook eerdere scheve keuzes. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-19::Wat is een proxy? {
+  =Een kenmerk dat via een omweg iets anders meet, zoals woonplaats als aanwijzing voor inkomen of afkomst.
+  ~Een reservekopie van de data.
+  ~Een ontbrekende waarde.
+  ####Een gevoelig kenmerk weglaten helpt niet als een proxy in de data blijft. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-20::Wie is verantwoordelijk als een bank een lening weigert op advies van een AI-model? {
+  ~Het model.
+  =De bank en de mensen die het model gebruiken.
+  ~Alleen de leverancier van het model.
+  ####Een model kan geen verantwoordelijkheid dragen. De organisatie die het inzet wel. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-21::Een chatbot met generatieve AI geeft een overtuigend antwoord. Wat geldt? {
+  ~Het antwoord klopt, want het klinkt deskundig.
+  =Het antwoord kan onjuist zijn, dus controleren blijft nodig.
+  ####Generatieve AI voorspelt waarschijnlijke tekst en weet niet of iets waar is. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-22::Welke stelling over privacy klopt? {
+  ~Gegevens zonder naam mag je altijd gebruiken.
+  =Ook gegevens zonder naam kunnen naar een persoon te herleiden zijn.
+  ~Privacy speelt alleen bij medische gegevens.
+  ####Een combinatie van leeftijd, woonplaats en beroep kan al genoeg zijn om iemand te herkennen. Lees na: Blok 0\: beginquiz.
+}
+
+::KC3-standpunt::Een AI-oplossing die nu niet verantwoord is, mag toch live als de organisatie belooft het binnen een jaar te verbeteren. Eens of oneens? Hoogstens 100 woorden: één argument met bron, één tegenargument. {}
